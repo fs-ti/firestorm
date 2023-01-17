@@ -1,0 +1,42 @@
+{
+   "sun_moon_trackball": {
+      "@name": "virtualtrackball",
+      "sun_moon_trackball.border": null,
+      "sun_moon_trackball.labelN:labelN": {
+         "@name": "labelN",
+         "@label": {
+            "string": "N"
+         }
+      },
+      "sun_moon_trackball.labelS:labelS": {
+         "@name": "labelS",
+         "@label": {
+            "string": "S"
+         }
+      },
+      "sun_moon_trackball.labelW:labelW": {
+         "@name": "labelW",
+         "@label": {
+            "string": "W"
+         }
+      },
+      "sun_moon_trackball.labelE:labelE": {
+         "@name": "labelE",
+         "@label": {
+            "string": "E"
+         }
+      },
+      "sun_moon_trackball.button_rotate_top:btn_rotate_top": {
+         "@name": "btn_rotate_top"
+      },
+      "sun_moon_trackball.button_rotate_bottom:btn_rotate_bottom": {
+         "@name": "btn_rotate_bottom"
+      },
+      "sun_moon_trackball.button_rotate_left:btn_rotate_left": {
+         "@name": "btn_rotate_left"
+      },
+      "sun_moon_trackball.button_rotate_right:btn_rotate_right": {
+         "@name": "btn_rotate_right"
+      }
+   }
+}

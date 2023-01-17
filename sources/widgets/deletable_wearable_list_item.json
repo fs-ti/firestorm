@@ -1,0 +1,20 @@
+{
+   "deletable_wearable_list_item": {
+      "@name": "deletable_wearable_item",
+      "delete_btn:btn_delete": {
+         "@name": "btn_delete",
+         "@tool_tip": {
+            "string": "Remove from outfit"
+         }
+      },
+      "item_icon:item_icon": {
+         "@name": "item_icon"
+      },
+      "item_name:item_name": {
+         "@name": "item_name",
+         "@value": {
+            "string": "..."
+         }
+      }
+   }
+}

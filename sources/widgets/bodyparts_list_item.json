@@ -1,0 +1,32 @@
+{
+   "bodyparts_list_item": {
+      "@name": "wearable_item",
+      "item_icon:item_icon": {
+         "@name": "item_icon"
+      },
+      "item_name:item_name": {
+         "@name": "item_name",
+         "@value": {
+            "string": "..."
+         }
+      },
+      "lock_panel:btn_lock": {
+         "@name": "btn_lock",
+         "@tool_tip": {
+            "string": "You don't have permission to edit"
+         }
+      },
+      "lock_icon:btn_lock1": {
+         "@name": "btn_lock1"
+      },
+      "edit_panel:btn_edit_panel": {
+         "@name": "btn_edit_panel"
+      },
+      "edit_btn:btn_edit": {
+         "@name": "btn_edit",
+         "@tool_tip": {
+            "string": "Edit this shape"
+         }
+      }
+   }
+}

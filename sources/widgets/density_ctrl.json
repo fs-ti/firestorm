@@ -1,0 +1,65 @@
+{
+   "densityctrl": {
+      "@label": {
+         "string": "Density"
+      },
+      "@name": "density_ctrl",
+      "text:exponential_term_label": {
+         "@name": "exponential_term_label",
+         "#text": {
+            "string": "\nExponential Term\n    "
+         }
+      },
+      "slider:level_exponential": {
+         "@name": "level_exponential"
+      },
+      "view:preview_image": {
+         "@name": "preview_image"
+      },
+      "text:exponential_scale_factor_label": {
+         "@name": "exponential_scale_factor_label",
+         "#text": {
+            "string": "\nExponential Scale Factor\n    "
+         }
+      },
+      "slider:exponential_scale": {
+         "@name": "exponential_scale"
+      },
+      "text:linear_term_label": {
+         "@name": "linear_term_label",
+         "#text": {
+            "string": "\nLinear Term\n    "
+         }
+      },
+      "slider:level_linear": {
+         "@name": "level_linear"
+      },
+      "text:constant_term_label": {
+         "@name": "constant_term_label",
+         "#text": {
+            "string": "\nConstant Term\n    "
+         }
+      },
+      "slider:level_constant": {
+         "@name": "level_constant"
+      },
+      "text:max_altitude_label": {
+         "@name": "max_altitude_label",
+         "#text": {
+            "string": "\nMax Altitude\n    "
+         }
+      },
+      "slider:max_altitude": {
+         "@name": "max_altitude"
+      },
+      "text:aniso_factor_label": {
+         "@name": "aniso_factor_label",
+         "#text": {
+            "string": "\nAnisotropy Factor\n    "
+         }
+      },
+      "slider:aniso_factor": {
+         "@name": "aniso_factor"
+      }
+   }
+}

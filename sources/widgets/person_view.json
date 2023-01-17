@@ -1,0 +1,50 @@
+{
+   "person_view": {
+      "avatar_icon": null,
+      "last_interaction_time_textbox:last_interaction_time_textbox": {
+         "@name": "last_interaction_time_textbox",
+         "@value": {
+            "string": "0s"
+         }
+      },
+      "permission_edit_theirs_icon:permission_edit_theirs_icon": {
+         "@name": "permission_edit_theirs_icon",
+         "@tool_tip": {
+            "string": "You can edit this friend's objects"
+         }
+      },
+      "permission_edit_mine_icon:permission_edit_mine_icon": {
+         "@name": "permission_edit_mine_icon",
+         "@tool_tip": {
+            "string": "This friend can edit, delete or take your objects"
+         }
+      },
+      "permission_map_icon:permission_map_icon": {
+         "@tool_tip": {
+            "string": "This friend can locate you on the map"
+         },
+         "@name": "permission_map_icon"
+      },
+      "permission_online_icon:permission_online_icon": {
+         "@name": "permission_online_icon",
+         "@tool_tip": {
+            "string": "This friend can see when you're online"
+         }
+      },
+      "info_btn:info_btn": {
+         "@name": "info_btn",
+         "@tool_tip": {
+            "string": "More info"
+         }
+      },
+      "profile_btn:profile_btn": {
+         "@name": "profile_btn",
+         "@tool_tip": {
+            "string": "View profile"
+         }
+      },
+      "output_monitor:speaking_indicator": {
+         "@name": "speaking_indicator"
+      }
+   }
+}

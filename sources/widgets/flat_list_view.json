@@ -1,0 +1,10 @@
+{
+   "flat_list_view": {
+      "flat_list_view.no_items_text:no_items_msg": {
+         "@name": "no_items_msg",
+         "@value": {
+            "string": "No matches found"
+         }
+      }
+   }
+}
