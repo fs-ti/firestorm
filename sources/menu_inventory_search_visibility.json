@@ -1,0 +1,30 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_search_visibility",
+      "menu_item_check:search_trash": {
+         "@label": {
+            "string": "Search Trash"
+         },
+         "@name": "search_trash",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:search_library": {
+         "@label": {
+            "string": "Search Library"
+         },
+         "@name": "search_library",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:include_links": {
+         "@label": {
+            "string": "Include links"
+         },
+         "@name": "include_links",
+         "on_click": null,
+         "on_check": null
+      }
+   }
+}

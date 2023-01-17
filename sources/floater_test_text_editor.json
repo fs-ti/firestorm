@@ -1,0 +1,22 @@
+{
+   "floater": {
+      "text_editor:test_text_editor": {
+         "@name": "test_text_editor",
+         "@tool_tip": {
+            "string": "text editor"
+         },
+         "#text": {
+            "string": "\n    This contains long text and should scroll horizontally to the right\n  "
+         }
+      },
+      "text_editor:numeric_text_editor": {
+         "@name": "numeric_text_editor",
+         "@tool_tip": {
+            "string": "text editor for numeric text entry only"
+         },
+         "#text": {
+            "string": "\n    This is text that is NOT a number, so shouldn't appear\n  "
+         }
+      }
+   }
+}

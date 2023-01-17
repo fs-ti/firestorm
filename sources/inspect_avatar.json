@@ -1,0 +1,87 @@
+{
+   "floater": {
+      "@name": "inspect_avatar",
+      "#comment": " Allowed fields include:\n  [BORN_ON] (\"12/3/2008\")\n  [SL_PROFILE] (Second Life profile),\n    [RW_PROFILE] (real world profile),\n  [ACCTTYPE] (\"Resident\"),\n  [PAYMENTINFO] (\"Payment Info on File\"),\n  [AGE] (\"1 year 2 months\")\n   ",
+      "string:Subtitle": {
+         "@name": "Subtitle",
+         "#text": {
+            "string": "\n[AGE]\n  "
+         }
+      },
+      "string:Details": {
+         "@name": "Details",
+         "#text": {
+            "string": "\n[SL_PROFILE]\n    "
+         }
+      },
+      "text": null,
+      "text:user_subtitle": {
+         "@name": "user_subtitle",
+         "@value": {
+            "string": "11 Months, 3 days old"
+         }
+      },
+      "text:user_details": {
+         "@name": "user_details",
+         "#text": {
+            "string": "This is my second life description and I really think it is great. But for some reason my description is super extra long because I like to talk a whole lot\n    "
+         }
+      },
+      "slider:volume_slider": {
+         "@name": "volume_slider",
+         "@tool_tip": {
+            "string": "Voice volume"
+         },
+         "@value": {
+            "string": "0.5"
+         }
+      },
+      "button:mute_btn": {
+         "@name": "mute_btn"
+      },
+      "avatar_icon:avatar_icon": {
+         "@name": "avatar_icon"
+      },
+      "#comment$10": " Overlapping buttons for default actions\n    llinspectavatar.cpp makes visible the most likely default action \n",
+      "button:add_friend_btn": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "add_friend_btn"
+      },
+      "button:im_btn": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "im_btn"
+      },
+      "button:view_profile_btn": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "view_profile_btn"
+      },
+      "#comment$14": "  gear buttons here ",
+      "menu_button:gear_btn": {
+         "@name": "gear_btn"
+      },
+      "menu_button:gear_self_btn": {
+         "@name": "gear_self_btn"
+      },
+      "panel:moderator_panel": {
+         "@name": "moderator_panel",
+         "button:disable_voice": {
+            "@name": "disable_voice",
+            "@label": {
+               "string": "Disable Voice"
+            }
+         },
+         "button:enable_voice": {
+            "@name": "enable_voice",
+            "@label": {
+               "string": "Enable Voice"
+            }
+         }
+      }
+   }
+}

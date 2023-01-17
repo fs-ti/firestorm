@@ -1,0 +1,33 @@
+{
+   "context_menu": {
+      "@name": "COF Clothing",
+      "menu_item_call:take_off": {
+         "@label": {
+            "string": "Take Off"
+         },
+         "@name": "take_off",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:edit": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:replace": {
+         "@label": {
+            "string": "Replace"
+         },
+         "@name": "replace",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call": {
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

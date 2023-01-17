@@ -1,0 +1,34 @@
+{
+   "menu": {
+      "@name": "IMChiclet Group Menu",
+      "menu_item_call:Show Profile": {
+         "@label": {
+            "string": "Group Info"
+         },
+         "@name": "Show Profile",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Chat": {
+         "@label": {
+            "string": "Show Session"
+         },
+         "@name": "Chat",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Snooze Session": {
+         "@label": {
+            "string": "Snooze Session"
+         },
+         "@name": "Snooze Session",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:End Session": {
+         "@label": {
+            "string": "End Session"
+         },
+         "@name": "End Session",
+         "menu_item_call.on_click": null
+      }
+   }
+}

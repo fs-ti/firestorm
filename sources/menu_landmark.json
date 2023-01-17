@@ -1,0 +1,34 @@
+{
+   "toggleable_menu": {
+      "@name": "landmark_overflow_menu",
+      "menu_item_call:copy": {
+         "@label": {
+            "string": "Copy SLurl"
+         },
+         "@name": "copy",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "delete",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:pick": {
+         "@label": {
+            "string": "Create Pick"
+         },
+         "@name": "pick",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:add_to_favbar": {
+         "@label": {
+            "string": "Add to Favorites Bar"
+         },
+         "@name": "add_to_favbar",
+         "menu_item_call.on_click": null
+      }
+   }
+}

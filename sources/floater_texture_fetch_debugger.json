@@ -1,0 +1,228 @@
+{
+   "floater": {
+      "@name": "TexFetchDebugger",
+      "@title": {
+         "string": "Texture Fetching Debugger"
+      },
+      "text:total_num_fetched_label": {
+         "@name": "total_num_fetched_label",
+         "#text": {
+            "string": "\n    1, Total number of fetched textures: [NUM]\n  "
+         }
+      },
+      "text:total_num_fetching_requests_label": {
+         "@name": "total_num_fetching_requests_label",
+         "#text": {
+            "string": "\n    2, Total number of fetching requests: [NUM]\n  "
+         }
+      },
+      "text:total_num_cache_hits_label": {
+         "@name": "total_num_cache_hits_label",
+         "#text": {
+            "string": "\n    3, Total number of cache hits: [NUM]\n  "
+         }
+      },
+      "text:total_num_visible_tex_label": {
+         "@name": "total_num_visible_tex_label",
+         "#text": {
+            "string": "\n    4, Total number of visible textures: [NUM]\n  "
+         }
+      },
+      "text:total_num_visible_tex_fetch_req_label": {
+         "@name": "total_num_visible_tex_fetch_req_label",
+         "#text": {
+            "string": "\n    5, Total number of visible texture fetching requests: [NUM]\n  "
+         }
+      },
+      "text:total_fetched_data_label": {
+         "@name": "total_fetched_data_label",
+         "#text": {
+            "string": "\n    6, Total number of fetched data: [SIZE1]KB, Decoded Data: [SIZE2]KB, [PIXEL]MPixels\n  "
+         }
+      },
+      "text:total_fetched_vis_data_label": {
+         "@name": "total_fetched_vis_data_label",
+         "#text": {
+            "string": "\n    7, Total number of visible data: [SIZE1]KB, Decoded Data: [SIZE2]KB\n  "
+         }
+      },
+      "text:total_fetched_rendered_data_label": {
+         "@name": "total_fetched_rendered_data_label",
+         "#text": {
+            "string": "\n    8, Total number of rendered data: [SIZE1]KB, Decoded Data: [SIZE2]KB, [PIXEL]MPixels\n  "
+         }
+      },
+      "text:total_time_cache_read_label": {
+         "@name": "total_time_cache_read_label",
+         "#text": {
+            "string": "\n    9, Total time on cache readings: [TIME] seconds\n  "
+         }
+      },
+      "text:total_time_cache_write_label": {
+         "@name": "total_time_cache_write_label",
+         "#text": {
+            "string": "\n    10, Total time on cache writings: [TIME] seconds\n  "
+         }
+      },
+      "text:total_time_decode_label": {
+         "@name": "total_time_decode_label",
+         "#text": {
+            "string": "\n    11, Total time on decodings: [TIME] seconds\n  "
+         }
+      },
+      "text:total_time_gl_label": {
+         "@name": "total_time_gl_label",
+         "#text": {
+            "string": "\n    12, Total time on gl texture creation: [TIME] seconds\n  "
+         }
+      },
+      "text:total_time_http_label": {
+         "@name": "total_time_http_label",
+         "#text": {
+            "string": "\n    13, Total time on HTTP fetching: [TIME] seconds\n  "
+         }
+      },
+      "text:total_time_fetch_label": {
+         "@name": "total_time_fetch_label",
+         "#text": {
+            "string": "\n    14, Total time on entire fetching: [TIME] seconds\n  "
+         }
+      },
+      "text:total_time_refetch_vis_cache_label": {
+         "@name": "total_time_refetch_vis_cache_label",
+         "#text": {
+            "string": "\n    15, Refetching visibles from cache, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels\n  "
+         }
+      },
+      "text:total_time_refetch_all_cache_label": {
+         "@name": "total_time_refetch_all_cache_label",
+         "#text": {
+            "string": "\n    16, Refetching all textures from cache, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels\n  "
+         }
+      },
+      "text:total_time_refetch_vis_http_label": {
+         "@name": "total_time_refetch_vis_http_label",
+         "#text": {
+            "string": "\n    17, Refetching visibles from HTTP, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels\n  "
+         }
+      },
+      "text:total_time_refetch_all_http_label": {
+         "@name": "total_time_refetch_all_http_label",
+         "#text": {
+            "string": "\n    18, Refetching all textures from HTTP, Time: [TIME] seconds, Fetched: [SIZE]KB, [PIXEL]MPixels\n  "
+         }
+      },
+      "spinner:texel_pixel_ratio": {
+         "@label": {
+            "string": "19, Ratio of Texel/Pixel:"
+         },
+         "@name": "texel_pixel_ratio",
+         "spinner.commit_callback": null
+      },
+      "text:texture_source_label": {
+         "@name": "texture_source_label",
+         "#text": {
+            "string": "\n    20, Texture Source:\n  "
+         }
+      },
+      "radio_group:texture_source": {
+         "@name": "texture_source",
+         "radio_item:0": {
+            "@label": {
+               "string": "Cache + HTTP"
+            },
+            "@name": "0"
+         },
+         "radio_item:1": {
+            "@label": {
+               "string": "HTTP Only"
+            },
+            "@name": "1"
+         }
+      },
+      "button:start_btn": {
+         "@label": {
+            "string": "Start"
+         },
+         "@name": "start_btn",
+         "button.commit_callback": null
+      },
+      "button:clear_btn": {
+         "@label": {
+            "string": "Reset"
+         },
+         "@name": "clear_btn",
+         "button.commit_callback": null
+      },
+      "button:close_btn": {
+         "@label": {
+            "string": "Close"
+         },
+         "@name": "close_btn",
+         "button.commit_callback": null
+      },
+      "button:cacheread_btn": {
+         "@label": {
+            "string": "Cache Read"
+         },
+         "@name": "cacheread_btn",
+         "button.commit_callback": null
+      },
+      "button:cachewrite_btn": {
+         "@label": {
+            "string": "Cache Write"
+         },
+         "@name": "cachewrite_btn",
+         "button.commit_callback": null
+      },
+      "button:http_btn": {
+         "@label": {
+            "string": "HTTP"
+         },
+         "@name": "http_btn",
+         "button.commit_callback": null
+      },
+      "button:decode_btn": {
+         "@label": {
+            "string": "Decode"
+         },
+         "@name": "decode_btn",
+         "button.commit_callback": null
+      },
+      "button:gl_btn": {
+         "@label": {
+            "string": "GL Texture"
+         },
+         "@name": "gl_btn",
+         "button.commit_callback": null
+      },
+      "button:refetchviscache_btn": {
+         "@label": {
+            "string": "Refetch Vis Cache"
+         },
+         "@name": "refetchviscache_btn",
+         "button.commit_callback": null
+      },
+      "button:refetchallcache_btn": {
+         "@label": {
+            "string": "Refetch All Cache"
+         },
+         "@name": "refetchallcache_btn",
+         "button.commit_callback": null
+      },
+      "button:refetchvishttp_btn": {
+         "@label": {
+            "string": "Refetch Vis HTTP"
+         },
+         "@name": "refetchvishttp_btn",
+         "button.commit_callback": null
+      },
+      "button:refetchallhttp_btn": {
+         "@label": {
+            "string": "Refetch All HTTP"
+         },
+         "@name": "refetchallhttp_btn",
+         "button.commit_callback": null
+      }
+   }
+}

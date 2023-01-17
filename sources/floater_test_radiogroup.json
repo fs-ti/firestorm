@@ -1,0 +1,55 @@
+{
+   "floater": {
+      "radio_group:parcel_voice_channel": {
+         "@name": "parcel_voice_channel",
+         "radio_item:Estate": {
+            "@label": {
+               "string": "Use the Estate spatial channel"
+            },
+            "@name": "Estate"
+         },
+         "radio_item:Private": {
+            "@label": {
+               "string": "Use a private spatial channel"
+            },
+            "@name": "Private"
+         },
+         "radio_item:Disabled": {
+            "@label": {
+               "string": "Disable spatial audio on this parcel"
+            },
+            "@name": "Disabled"
+         }
+      },
+      "radio_group:simple_radio_group": {
+         "@name": "simple_radio_group",
+         "radio_item:label_radio_item": {
+            "@label": {
+               "string": "Label in label attribute"
+            },
+            "@name": "label_radio_item"
+         },
+         "radio_item:contents_radio_item": {
+            "@label": {
+               "string": "Label in text contents"
+            },
+            "@name": "contents_radio_item"
+         }
+      },
+      "radio_group:no_border_radio_group": {
+         "@name": "no_border_radio_group",
+         "radio_item:foo_radio_item": {
+            "@label": {
+               "string": "No Border Foo"
+            },
+            "@name": "foo_radio_item"
+         },
+         "radio_item:bar_item": {
+            "@label": {
+               "string": "No Border Bar"
+            },
+            "@name": "bar_item"
+         }
+      }
+   }
+}

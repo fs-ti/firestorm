@@ -1,0 +1,78 @@
+{
+   "menu": {
+      "@name": "Popup",
+      "menu_item_call:Teleport To Landmark": {
+         "@label": {
+            "string": "Teleport"
+         },
+         "@name": "Teleport To Landmark",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Show On Map": {
+         "@label": {
+            "string": "Show on Map"
+         },
+         "@name": "Show On Map",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Landmark Open": {
+         "@label": {
+            "string": "View/Edit Landmark"
+         },
+         "@name": "Landmark Open",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Move to Landmarks": {
+         "@label": {
+            "string": "Move to Landmarks"
+         },
+         "@name": "Move to Landmarks",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Copy slurl": {
+         "@label": {
+            "string": "Copy SLurl"
+         },
+         "@name": "Copy slurl",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:create_pick": {
+         "@label": {
+            "string": "Create Pick"
+         },
+         "@name": "create_pick",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Landmark Copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "Landmark Copy",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Landmark Paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "Landmark Paste",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:rename": {
+         "@label": {
+            "string": "Rename"
+         },
+         "@name": "rename",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "Delete",
+         "menu_item_call.on_click": null
+      }
+   }
+}

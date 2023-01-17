@@ -1,0 +1,225 @@
+{
+   "floater": {
+      "@name": "floater_translation_settings",
+      "@title": {
+         "string": "Chat Translation Settings"
+      },
+      "string:bing_api_key_not_verified": {
+         "@name": "bing_api_key_not_verified",
+         "#text": {
+            "string": "Bing appID not verified. Please try again."
+         }
+      },
+      "string:google_api_key_not_verified": {
+         "@name": "google_api_key_not_verified",
+         "#text": {
+            "string": "Google API key not verified. Please try again."
+         }
+      },
+      "string:bing_api_key_verified": {
+         "@name": "bing_api_key_verified",
+         "#text": {
+            "string": "Bing appID verified."
+         }
+      },
+      "string:google_api_key_verified": {
+         "@name": "google_api_key_verified",
+         "#text": {
+            "string": "Google API key verified."
+         }
+      },
+      "check_box:translate_chat_checkbox": {
+         "@label": {
+            "string": "Enable machine translation while chatting"
+         },
+         "@name": "translate_chat_checkbox"
+      },
+      "text:translate_language_label": {
+         "@name": "translate_language_label",
+         "#text": {
+            "string": "\n  Translate chat into: \n "
+         }
+      },
+      "combo_box:translate_language_combo": {
+         "@name": "translate_language_combo",
+         "combo_box.item:System Default Language": {
+            "@label": {
+               "string": "System Default"
+            },
+            "@name": "System Default Language"
+         },
+         "combo_box.item:English": {
+            "@label": {
+               "string": "English"
+            },
+            "@name": "English"
+         },
+         "#comment": " After \"System Default\" and \"English\", please keep the rest of these combo_box.items in alphabetical order by the first character in the string. ",
+         "combo_box.item:Danish": {
+            "@label": {
+               "string": "Dansk (Danish)"
+            },
+            "@name": "Danish"
+         },
+         "combo_box.item:German": {
+            "@label": {
+               "string": "Deutsch (German)"
+            },
+            "@name": "German"
+         },
+         "combo_box.item:Spanish": {
+            "@label": {
+               "string": "Español (Spanish)"
+            },
+            "@name": "Spanish"
+         },
+         "combo_box.item:French": {
+            "@label": {
+               "string": "Français (French)"
+            },
+            "@name": "French"
+         },
+         "combo_box.item:Italian": {
+            "@label": {
+               "string": "Italiano (Italian)"
+            },
+            "@name": "Italian"
+         },
+         "combo_box.item:Hungarian": {
+            "@label": {
+               "string": "Magyar (Hungarian)"
+            },
+            "@name": "Hungarian"
+         },
+         "combo_box.item:Dutch": {
+            "@label": {
+               "string": "Nederlands (Dutch)"
+            },
+            "@name": "Dutch"
+         },
+         "combo_box.item:Polish": {
+            "@label": {
+               "string": "Polski (Polish)"
+            },
+            "@name": "Polish"
+         },
+         "combo_box.item:Portugese": {
+            "@label": {
+               "string": "Português (Portuguese)"
+            },
+            "@name": "Portugese"
+         },
+         "combo_box.item:Russian": {
+            "@label": {
+               "string": "Русский (Russian)"
+            },
+            "@name": "Russian"
+         },
+         "combo_box.item:Turkish": {
+            "@label": {
+               "string": "Türkçe (Turkish)"
+            },
+            "@name": "Turkish"
+         },
+         "combo_box.item:Ukrainian": {
+            "@label": {
+               "string": "Українська (Ukrainian)"
+            },
+            "@name": "Ukrainian"
+         },
+         "combo_box.item:Chinese": {
+            "@label": {
+               "string": "中文 (正體) (Chinese)"
+            },
+            "@name": "Chinese"
+         },
+         "combo_box.item:Japanese": {
+            "@label": {
+               "string": "日本語 (Japanese)"
+            },
+            "@name": "Japanese"
+         },
+         "combo_box.item:Korean": {
+            "@label": {
+               "string": "한국어 (Korean)"
+            },
+            "@name": "Korean"
+         }
+      },
+      "text:tip": {
+         "@name": "tip",
+         "#text": {
+            "string": "\n  Choose translation service:\n "
+         }
+      },
+      "radio_group:translation_service_rg": {
+         "@name": "translation_service_rg",
+         "radio_item:bing": {
+            "@label": {
+               "string": "Bing Translator"
+            },
+            "@name": "bing"
+         },
+         "radio_item:google": {
+            "@label": {
+               "string": "Google Translate"
+            },
+            "@name": "google"
+         }
+      },
+      "text:bing_api_key_label": {
+         "@name": "bing_api_key_label",
+         "#text": {
+            "string": "\n  Bing [http://www.bing.com/developers/createapp.aspx AppID]:\n  "
+         }
+      },
+      "line_editor:bing_api_key": {
+         "@default_text": {
+            "string": "Enter Bing AppID and click \"Verify\""
+         },
+         "@name": "bing_api_key"
+      },
+      "button:verify_bing_api_key_btn": {
+         "@label": {
+            "string": "Verify"
+         },
+         "@name": "verify_bing_api_key_btn"
+      },
+      "text:google_api_key_label": {
+         "@name": "google_api_key_label",
+         "#text": {
+            "string": "\n  Google [http://code.google.com/apis/language/translate/v2/getting_started.html#auth API key]:\n "
+         }
+      },
+      "line_editor:google_api_key": {
+         "@default_text": {
+            "string": "Enter Google API key and click \"Verify\""
+         },
+         "@name": "google_api_key"
+      },
+      "button:verify_google_api_key_btn": {
+         "@label": {
+            "string": "Verify"
+         },
+         "@name": "verify_google_api_key_btn"
+      },
+      "text:google_links_text": {
+         "@name": "google_links_text",
+         "#text": {
+            "string": "\n  [http://code.google.com/apis/language/translate/v2/pricing.html Pricing] | [https://code.google.com/apis/console Stats] \n "
+         }
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

@@ -1,0 +1,258 @@
+{
+   "context_menu": {
+      "@name": "Avatar Pie",
+      "menu_item_call:Profile...": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "Profile...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Add Friend": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "Add Friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Add to Set": {
+         "@label": {
+            "string": "Add to Set"
+         },
+         "@name": "Add to Set",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Send IM...": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "Send IM...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Give Calling Card": {
+         "@label": {
+            "string": "Give Calling Card"
+         },
+         "@name": "Give Calling Card",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Call": {
+         "@label": {
+            "string": "Call"
+         },
+         "@name": "Call",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Invite...": {
+         "@label": {
+            "string": "Invite to Group"
+         },
+         "@name": "Invite...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Reset Skeleton": {
+         "@label": {
+            "string": "Reset Skeleton"
+         },
+         "@name": "Reset Skeleton",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Reset Skeleton And Animations": {
+         "@label": {
+            "string": "Reset Skeleton And Animations"
+         },
+         "@name": "Reset Skeleton And Animations",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Reset Mesh LOD": {
+         "@label": {
+            "string": "Reset Mesh LOD"
+         },
+         "@name": "Reset Mesh LOD",
+         "menu_item_call.on_click": null
+      },
+      "context_menu:Annoyance": {
+         "@label": {
+            "string": "Annoyance"
+         },
+         "@name": "Annoyance",
+         "menu_item_call:Avatar Mute": {
+            "@label": {
+               "string": "Block"
+            },
+            "@name": "Avatar Mute",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "#comment": " <FS:Zi> Add unblock menu entry since renaming the context menu item doesn't seem to work ",
+         "menu_item_call:Avatar Unmute": {
+            "@label": {
+               "string": "Unblock"
+            },
+            "@name": "Avatar Unmute",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "#comment$5": " </FS:Zi> ",
+         "menu_item_call:abuse": {
+            "@label": {
+               "string": "Report"
+            },
+            "@name": "abuse",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Freeze...": {
+            "@label": {
+               "string": "Freeze"
+            },
+            "@name": "Freeze...",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:Eject...": {
+            "@label": {
+               "string": "Eject"
+            },
+            "@name": "Eject...",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         }
+      },
+      "menu_item_call:Dump XML": {
+         "@label": {
+            "string": "Dump XML"
+         },
+         "@name": "Dump XML",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Zoom In": {
+         "@label": {
+            "string": "Zoom In"
+         },
+         "@name": "Zoom In",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Pay...": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "Pay...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Object Inspect": {
+         "@label": {
+            "string": "Object Profile"
+         },
+         "@name": "Object Inspect",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_check:AlwaysRenderFully": {
+         "@name": "AlwaysRenderFully",
+         "@label": {
+            "string": "Always Display Full Detail"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:DoNotRender": {
+         "@name": "DoNotRender",
+         "@label": {
+            "string": "Never Display Full Detail"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RenderNormally": {
+         "@name": "RenderNormally",
+         "@label": {
+            "string": "Remove From Display Exceptions"
+         },
+         "menu_item_check.on_visible": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_call:Mute Particle": {
+         "@label": {
+            "string": "Block Particle Owner"
+         },
+         "@name": "Mute Particle",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Object_Inspect_Floater": {
+         "@label": {
+            "string": "Inspect"
+         },
+         "@name": "Object_Inspect_Floater",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:ScriptInfo": {
+         "@label": {
+            "string": "Script Info"
+         },
+         "@name": "ScriptInfo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Derender": {
+         "@label": {
+            "string": "Derender"
+         },
+         "@name": "Derender",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:DerenderPermanent": {
+         "@label": {
+            "string": "Derender + Blacklist"
+         },
+         "@name": "DerenderPermanent",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Debug...": {
+         "@label": {
+            "string": "Show Textures"
+         },
+         "@name": "Debug...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Texture Refresh": {
+         "@label": {
+            "string": "Texture Refresh"
+         },
+         "@name": "Texture Refresh",
+         "menu_item_call.on_click": null
+      },
+      "context_menu:Export Menu": {
+         "@label": {
+            "string": "Save as"
+         },
+         "@name": "Export Menu",
+         "menu_item_call:Backup": {
+            "@label": {
+               "string": "Backup"
+            },
+            "@name": "Backup",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Collada": {
+            "@label": {
+               "string": "Collada"
+            },
+            "@name": "Collada",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      }
+   }
+}

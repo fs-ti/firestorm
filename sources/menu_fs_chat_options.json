@@ -1,0 +1,141 @@
+{
+   "toggleable_menu": {
+      "@name": "Chat Options Menu",
+      "menu_item_check:nearby_people": {
+         "@label": {
+            "string": "Show Radar..."
+         },
+         "@name": "nearby_people",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:nearby_voice": {
+         "@label": {
+            "string": "Show Nearby Voice..."
+         },
+         "@name": "nearby_voice",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:block_list": {
+         "@label": {
+            "string": "Show Block List..."
+         },
+         "@name": "block_list",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:plain_text_chat_history": {
+         "@label": {
+            "string": "Use V1 style chat headers"
+         },
+         "@name": "plain_text_chat_history",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:chat_header_icons": {
+         "@label": {
+            "string": "Show profile icons in chat headers"
+         },
+         "@name": "chat_header_icons",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_visible": null
+      },
+      "context_menu:font_size": {
+         "@label": {
+            "string": "Font size..."
+         },
+         "@name": "font_size",
+         "menu_item_check:font_size_small": {
+            "@label": {
+               "string": "Small"
+            },
+            "@name": "font_size_small",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:font_size_medium": {
+            "@label": {
+               "string": "Medium"
+            },
+            "@name": "font_size_medium",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:font_size_large": {
+            "@label": {
+               "string": "Large"
+            },
+            "@name": "font_size_large",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:font_size_huge": {
+            "@label": {
+               "string": "Huge"
+            },
+            "@name": "font_size_huge",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         }
+      },
+      "menu_item_check:typing_chevron": {
+         "@label": {
+            "string": "Additional chevron (>) as typing indicator"
+         },
+         "@name": "typing_chevron",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_visible": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:new_message_notification": {
+         "@label": {
+            "string": "Show new message notification"
+         },
+         "@name": "new_message_notification",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:show_chat_bar": {
+         "@label": {
+            "string": "Show chat bar"
+         },
+         "@name": "show_chat_bar",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_visible": null
+      },
+      "menu_item_check:show_channel_selection": {
+         "@label": {
+            "string": "Show channel selection"
+         },
+         "@name": "show_channel_selection",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_visible": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:show_send_button": {
+         "@label": {
+            "string": "Show chat type / send button"
+         },
+         "@name": "show_send_button",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_visible": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:show_im_send_button": {
+         "@label": {
+            "string": "Show send button in IM sessions"
+         },
+         "@name": "show_im_send_button",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_visible": null
+      }
+   }
+}

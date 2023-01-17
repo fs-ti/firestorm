@@ -1,0 +1,30 @@
+{
+   "toggleable_menu": {
+      "@name": "Add Wearable Gear Menu",
+      "menu_item_check:sort_by_most_recent": {
+         "@label": {
+            "string": "Sort by Most Recent"
+         },
+         "@name": "sort_by_most_recent",
+         "on_check": null,
+         "on_click": null
+      },
+      "menu_item_check:sort_by_name": {
+         "@label": {
+            "string": "Sort by Name"
+         },
+         "@name": "sort_by_name",
+         "on_check": null,
+         "on_click": null
+      },
+      "menu_item_check:sort_by_type": {
+         "@label": {
+            "string": "Sort by Type"
+         },
+         "@name": "sort_by_type",
+         "on_check": null,
+         "on_click": null,
+         "on_visible": null
+      }
+   }
+}

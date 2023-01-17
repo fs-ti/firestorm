@@ -1,0 +1,258 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_check:ShowRadarMinimap": {
+         "@label": {
+            "string": "Show Minimap above Radar"
+         },
+         "@name": "ShowRadarMinimap",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:LimitRadarByRange": {
+         "@label": {
+            "string": "Limit Results to specific Radius"
+         },
+         "@name": "LimitRadarByRange",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:FSRadarShowMutedAndDerendered": {
+         "@label": {
+            "string": "Show muted and blacklisted Avatars"
+         },
+         "@name": "FSRadarShowMutedAndDerendered",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "context_menu:radarNameFormat": {
+         "@label": {
+            "string": "Radar Name Format"
+         },
+         "@name": "radarNameFormat",
+         "menu_item_check:radarFmtDN": {
+            "@label": {
+               "string": "Display Name"
+            },
+            "@name": "radarFmtDN",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:radarFmtUN": {
+            "@label": {
+               "string": "Username"
+            },
+            "@name": "radarFmtUN",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:radarFmtDNUN": {
+            "@label": {
+               "string": "Display Name (Username)"
+            },
+            "@name": "radarFmtDNUN",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:radarFmtUNDN": {
+            "@label": {
+               "string": "Username (Display Name)"
+            },
+            "@name": "radarFmtUNDN",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         }
+      },
+      "context_menu:visible_columns": {
+         "@label": {
+            "string": "Displayed Columns"
+         },
+         "@name": "visible_columns",
+         "menu_item_check:voice_level": {
+            "@label": {
+               "string": "Voice"
+            },
+            "@name": "voice_level",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:in_region": {
+            "@label": {
+               "string": "Same Region"
+            },
+            "@name": "in_region",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:typing_status": {
+            "@label": {
+               "string": "Typing Status"
+            },
+            "@name": "typing_status",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:sitting_status": {
+            "@label": {
+               "string": "Sitting Status"
+            },
+            "@name": "sitting_status",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:flags": {
+            "@label": {
+               "string": "Flags"
+            },
+            "@name": "flags",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:has_notes": {
+            "@label": {
+               "string": "Notes"
+            },
+            "@name": "has_notes",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:age": {
+            "@label": {
+               "string": "Age"
+            },
+            "@name": "age",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:seen": {
+            "@label": {
+               "string": "Seen"
+            },
+            "@name": "seen",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         }
+      },
+      "menu_item_check:radarColorNamesBasedOnDistance": {
+         "@label": {
+            "string": "Color names based on distance"
+         },
+         "@name": "radarColorNamesBasedOnDistance",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_separator": null,
+      "context_menu:report_to_menu": {
+         "@label": {
+            "string": "Report To"
+         },
+         "@name": "report_to_menu",
+         "menu_item_check:radar_nearby_chat": {
+            "@label": {
+               "string": "Notification Toasts"
+            },
+            "@name": "radar_nearby_chat",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         }
+      },
+      "menu_item_check:MiniMapChatRing": {
+         "@label": {
+            "string": "Nearby chat distance ring in Minimap"
+         },
+         "@name": "MiniMapChatRing",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_visible": null
+      },
+      "menu_item_check:RadarReportDrawRangeEnter": {
+         "@label": {
+            "string": "Report Entering Draw Range"
+         },
+         "@name": "RadarReportDrawRangeEnter",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarReportDrawRangeLeave": {
+         "@label": {
+            "string": "Report Leaving Draw Range"
+         },
+         "@name": "RadarReportDrawRangeLeave",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarReportChatRangeEnter": {
+         "@label": {
+            "string": "Report Entering Chat Range"
+         },
+         "@name": "RadarReportChatRangeEnter",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarReportChatRangeLeave": {
+         "@label": {
+            "string": "Report Leaving Chat Range"
+         },
+         "@name": "RadarReportChatRangeLeave",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarReportSimRangeEnter": {
+         "@label": {
+            "string": "Report Entering your Region"
+         },
+         "@name": "RadarReportSimRangeEnter",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarReportSimRangeLeave": {
+         "@label": {
+            "string": "Report Leaving your Region"
+         },
+         "@name": "RadarReportSimRangeLeave",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarReportAgeAlert": {
+         "@label": {
+            "string": "Report Avatar Age Alert"
+         },
+         "@name": "RadarReportAgeAlert",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarEnterChannelAlert": {
+         "@label": {
+            "string": "Report Enter Alerts to Scripts"
+         },
+         "@name": "RadarEnterChannelAlert",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:RadarLeaveChannelAlert": {
+         "@label": {
+            "string": "Report Exit Alerts to Scripts"
+         },
+         "@name": "RadarLeaveChannelAlert",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:FSRadarEnhanceByBridge": {
+         "@label": {
+            "string": "Enhance Radar with LSL-Client Bridge"
+         },
+         "@name": "FSRadarEnhanceByBridge",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_call:show_blocked_list": {
+         "@name": "show_blocked_list",
+         "@label": {
+            "string": "Open Blocked Residents & Objects"
+         },
+         "menu_item_call.on_click": null
+      }
+   }
+}

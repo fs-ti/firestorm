@@ -1,0 +1,107 @@
+{
+   "toggleable_menu": {
+      "@name": "Conversation Gear Menu",
+      "menu_item_call:View Profile": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "View Profile",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Add Friend": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "Add Friend",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:remove_friend": {
+         "@label": {
+            "string": "Remove friend"
+         },
+         "@name": "remove_friend",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:offer_teleport": {
+         "@label": {
+            "string": "Offer teleport"
+         },
+         "@name": "offer_teleport",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:invite_to_group": {
+         "@label": {
+            "string": "Invite to group..."
+         },
+         "@name": "invite_to_group",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator:View Icons Separator": {
+         "@name": "View Icons Separator"
+      },
+      "menu_item_call:chat_history": {
+         "@label": {
+            "string": "Chat transcript..."
+         },
+         "@name": "chat_history",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:zoom_in": {
+         "@label": {
+            "string": "Zoom In"
+         },
+         "@name": "zoom_in",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:map": {
+         "@label": {
+            "string": "Map"
+         },
+         "@name": "map",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "Share",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "Pay",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_check:Block/Unblock": {
+         "@label": {
+            "string": "Block Voice"
+         },
+         "@name": "Block/Unblock",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_check:MuteText": {
+         "@label": {
+            "string": "Block Text"
+         },
+         "@name": "MuteText",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

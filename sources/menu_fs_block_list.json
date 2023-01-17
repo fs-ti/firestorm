@@ -1,0 +1,62 @@
+{
+   "context_menu": {
+      "@name": "menu_blocked_gear",
+      "menu_item_call:unblock": {
+         "@label": {
+            "string": "Unblock"
+         },
+         "@name": "unblock",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_check:BlockVoice": {
+         "@label": {
+            "string": "Block Voice"
+         },
+         "@name": "BlockVoice",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_check:MuteText": {
+         "@label": {
+            "string": "Block Text"
+         },
+         "@name": "MuteText",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_check:BlockObjectParticles": {
+         "@label": {
+            "string": "Block Particles"
+         },
+         "@name": "BlockObjectParticles",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_check:BlockObjectSounds": {
+         "@label": {
+            "string": "Block Object Sounds"
+         },
+         "@name": "BlockObjectSounds",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:profile": {
+         "@label": {
+            "string": "Profile..."
+         },
+         "@name": "profile",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

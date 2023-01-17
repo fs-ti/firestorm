@@ -1,0 +1,247 @@
+{
+   "menu": {
+      "@name": "menu_inventory_add",
+      "menu:upload": {
+         "@label": {
+            "string": "Upload"
+         },
+         "@name": "upload",
+         "menu_item_call:Upload Image": {
+            "@label": {
+               "string": "Image (L$[COST])..."
+            },
+            "@name": "Upload Image",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Upload Sound": {
+            "@label": {
+               "string": "Sound (L$[COST])..."
+            },
+            "@name": "Upload Sound",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Upload Animation": {
+            "@label": {
+               "string": "Animation (L$[COST])..."
+            },
+            "@name": "Upload Animation",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Upload Model": {
+            "@label": {
+               "string": "Model..."
+            },
+            "@name": "Upload Model",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:Bulk Upload": {
+            "@label": {
+               "string": "Bulk..."
+            },
+            "@name": "Bulk Upload",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:import linkset": {
+            "@label": {
+               "string": "Import Linkset..."
+            },
+            "@name": "import linkset",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu_item_call:New Folder": {
+         "@label": {
+            "string": "New Folder"
+         },
+         "@name": "New Folder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Script": {
+         "@label": {
+            "string": "New Script"
+         },
+         "@name": "New Script",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Note": {
+         "@label": {
+            "string": "New Notecard"
+         },
+         "@name": "New Note",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Gesture": {
+         "@label": {
+            "string": "New Gesture"
+         },
+         "@name": "New Gesture",
+         "menu_item_call.on_click": null
+      },
+      "menu:New Clothes": {
+         "@label": {
+            "string": "New Clothes"
+         },
+         "@name": "New Clothes",
+         "menu_item_call:New Shirt": {
+            "@label": {
+               "string": "New Shirt"
+            },
+            "@name": "New Shirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Pants": {
+            "@label": {
+               "string": "New Pants"
+            },
+            "@name": "New Pants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Shoes": {
+            "@label": {
+               "string": "New Shoes"
+            },
+            "@name": "New Shoes",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Socks": {
+            "@label": {
+               "string": "New Socks"
+            },
+            "@name": "New Socks",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Jacket": {
+            "@label": {
+               "string": "New Jacket"
+            },
+            "@name": "New Jacket",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Skirt": {
+            "@label": {
+               "string": "New Skirt"
+            },
+            "@name": "New Skirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Gloves": {
+            "@label": {
+               "string": "New Gloves"
+            },
+            "@name": "New Gloves",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Undershirt": {
+            "@label": {
+               "string": "New Undershirt"
+            },
+            "@name": "New Undershirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Underpants": {
+            "@label": {
+               "string": "New Underpants"
+            },
+            "@name": "New Underpants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Alpha": {
+            "@label": {
+               "string": "New Alpha"
+            },
+            "@name": "New Alpha",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Tattoo": {
+            "@label": {
+               "string": "New Tattoo"
+            },
+            "@name": "New Tattoo",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Universal": {
+            "@label": {
+               "string": "New Universal"
+            },
+            "@name": "New Universal",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Physics": {
+            "@label": {
+               "string": "New Physics"
+            },
+            "@name": "New Physics",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:New Body Parts": {
+         "@label": {
+            "string": "New Body Parts"
+         },
+         "@name": "New Body Parts",
+         "menu_item_call:New Shape": {
+            "@label": {
+               "string": "New Shape"
+            },
+            "@name": "New Shape",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Skin": {
+            "@label": {
+               "string": "New Skin"
+            },
+            "@name": "New Skin",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Hair": {
+            "@label": {
+               "string": "New Hair"
+            },
+            "@name": "New Hair",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Eyes": {
+            "@label": {
+               "string": "New Eyes"
+            },
+            "@name": "New Eyes",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:New Settings": {
+         "@label": {
+            "string": "New Settings"
+         },
+         "@name": "New Settings",
+         "menu_item_call:New Sky": {
+            "@label": {
+               "string": "New Sky"
+            },
+            "@name": "New Sky",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:New Water": {
+            "@label": {
+               "string": "New Water"
+            },
+            "@name": "New Water",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:New Day Cycle": {
+            "@label": {
+               "string": "New Day Cycle"
+            },
+            "@name": "New Day Cycle",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      }
+   }
+}

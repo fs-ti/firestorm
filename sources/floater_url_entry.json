@@ -1,0 +1,38 @@
+{
+   "floater": {
+      "@name": "url_entry",
+      "text:media_label": {
+         "@name": "media_label",
+         "#text": {
+            "string": "\n        Media URL:\n    "
+         }
+      },
+      "combo_box:media_entry": {
+         "@name": "media_entry"
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      },
+      "button:clear_btn": {
+         "@label": {
+            "string": "Clear"
+         },
+         "@name": "clear_btn"
+      },
+      "text:loading_label": {
+         "@name": "loading_label",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      }
+   }
+}

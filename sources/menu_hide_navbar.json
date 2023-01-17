@@ -1,0 +1,105 @@
+{
+   "menu": {
+      "@name": "hide_navbar_menu",
+      "menu_item_check:ShowNavbarNavigationPanel": {
+         "@label": {
+            "string": "Show Navigation and Search Bar"
+         },
+         "@name": "ShowNavbarNavigationPanel",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:ShowSearchTopBar": {
+         "@label": {
+            "string": "Show Search Bar"
+         },
+         "@name": "ShowSearchTopBar",
+         "on_click": null,
+         "on_check": null,
+         "on_enable": null
+      },
+      "menu_item_check:ShowNavbarFavoritesPanel": {
+         "@label": {
+            "string": "Show Favorites Bar"
+         },
+         "@name": "ShowNavbarFavoritesPanel",
+         "on_click": null,
+         "on_check": null
+      },
+      "#comment": " AO - remove this option, problematic\n    <menu_item_check\n         label=\"Show Mini-Location Bar\"\n         layout=\"topleft\"\n         name=\"ShowMiniLocationPanel\">\n           <on_click\n             function=\"ToggleControl\"\n             parameter=\"ShowMiniLocationPanel\" />\n             <on_check\n             function=\"CheckControl\"\n             parameter=\"ShowMiniLocationPanel\" />\n    </menu_item_check>\n    ",
+      "menu_item_separator": null,
+      "menu_item_check:ShowMenuBarLocation": {
+         "@label": {
+            "string": "Show Location"
+         },
+         "@name": "ShowMenuBarLocation",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:FSStatusbarShowSimulatorVersion": {
+         "@label": {
+            "string": "Show Simulator Version"
+         },
+         "@name": "FSStatusbarShowSimulatorVersion",
+         "on_click": null,
+         "on_check": null,
+         "on_enable": null
+      },
+      "menu_item_check:FSMenuSearch": {
+         "@label": {
+            "string": "Show Menu Search"
+         },
+         "@name": "FSMenuSearch",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:FSShowCurrencyBalanceInStatusbar": {
+         "@label": {
+            "string": "Show Currency Balance"
+         },
+         "@name": "FSShowCurrencyBalanceInStatusbar",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:FSEnableVolumeControls": {
+         "@label": {
+            "string": "Show Media Controls"
+         },
+         "@name": "FSEnableVolumeControls",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:FSStatusBarShowFPS": {
+         "@label": {
+            "string": "Show Frames per Second"
+         },
+         "@name": "FSStatusBarShowFPS",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:ShowNetStats": {
+         "@label": {
+            "string": "Show Traffic Indicator"
+         },
+         "@name": "ShowNetStats",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:Coordinates": {
+         "@label": {
+            "string": "Show Coordinates"
+         },
+         "@name": "Coordinates",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:Parcel Properties": {
+         "@label": {
+            "string": "Show Parcel Permissions"
+         },
+         "@name": "Parcel Properties",
+         "on_click": null,
+         "on_check": null
+      }
+   }
+}

@@ -1,0 +1,235 @@
+{
+   "menu_bar": {
+      "@name": "Login Menu",
+      "menu:File": {
+         "@label": {
+            "string": "Viewer"
+         },
+         "@name": "File",
+         "menu_item_call:Preferences...": {
+            "@label": {
+               "string": "Preferences..."
+            },
+            "@name": "Preferences...",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Close Window": {
+            "@label": {
+               "string": "Close Window"
+            },
+            "@name": "Close Window",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_check:Show Grid Picker": {
+            "@label": {
+               "string": "Show Grid Picker"
+            },
+            "@name": "Show Grid Picker",
+            "on_check": null,
+            "on_click": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Quit": {
+            "@label": {
+               "string": "Exit [APP_NAME]"
+            },
+            "@name": "Quit",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:Help": {
+         "@label": {
+            "string": "Help"
+         },
+         "@name": "Help",
+         "menu_item_call:Firestorm Wiki": {
+            "@label": {
+               "string": "Firestorm Wiki"
+            },
+            "@name": "Firestorm Wiki",
+            "menu_item_call.on_click:script_library_url": {
+               "@name": "script_library_url"
+            }
+         },
+         "menu_item_call:Troubleshooting": {
+            "@label": {
+               "string": "Troubleshooting"
+            },
+            "@name": "Troubleshooting",
+            "menu_item_call.on_click:wiki_troubleshooting_url": {
+               "@name": "wiki_troubleshooting_url"
+            }
+         },
+         "menu_item_call:How To": {
+            "@label": {
+               "string": "Guidebook"
+            },
+            "@name": "How To",
+            "menu_item_call.on_click": null
+         },
+         "#comment": "\n    <menu_item_separator/>\n        <menu_item_call\n             label=\"Knowledge Base\"\n             name=\"Knowledge Base\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n            parameter=\"http://community.secondlife.com/t5/English-Knowledge-Base/Second-Life-User-s-Guide/ta-p/1244857\"/>\n        </menu_item_call>\n        <menu_item_call\n             label=\"Wiki\"\n             name=\"Wiki\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://wiki.secondlife.com\"/>\n        </menu_item_call>\n        <menu_item_call\n             label=\"Community Forums\"\n             name=\"Community Forums\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Forums/ct-p/Forums\"/>\n        </menu_item_call>         \n        <menu_item_call\n             label=\"Support portal\"\n             name=\"Support portal\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"https://support.secondlife.com/\"/>         \n        </menu_item_call>\n        <menu_item_separator/>\n        <menu_item_call\n             label=\"[SECOND_LIFE] News\"\n             name=\"Second Life News\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Featured-News/bg-p/blog_feature_news\"/>  \n        </menu_item_call>\n        <menu_item_call\n             label=\"[SECOND_LIFE] Blogs\"\n             name=\"Second Life Blogs\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Blogs/ct-p/Blogs\"/>\n        </menu_item_call>\n        <menu_item_separator/>       \n",
+         "menu_item_call:Report Bug": {
+            "@label": {
+               "string": "Report Bug"
+            },
+            "@name": "Report Bug",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:About Second Life": {
+            "@label": {
+               "string": "About [APP_NAME]"
+            },
+            "@name": "About Second Life",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_separator:grid_help_seperator_login": {
+            "@name": "grid_help_seperator_login"
+         },
+         "menu_item_call:current_grid_help_login": {
+            "@label": {
+               "string": "[CURRENT_GRID] Help"
+            },
+            "@name": "current_grid_help_login",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:current_grid_about_login": {
+            "@label": {
+               "string": "About [CURRENT_GRID]"
+            },
+            "@name": "current_grid_about_login",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu_item_check:Show Debug Menu": {
+         "@label": {
+            "string": "Show Debug Menu"
+         },
+         "@name": "Show Debug Menu",
+         "on_check": null,
+         "on_click": null
+      },
+      "menu:Debug": {
+         "@label": {
+            "string": "Debug"
+         },
+         "@name": "Debug",
+         "menu_item_call:Debug Settings": {
+            "@label": {
+               "string": "Show Debug Settings"
+            },
+            "@name": "Debug Settings",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:UI Preview Tool": {
+            "@label": {
+               "string": "XUI Preview Tool"
+            },
+            "@name": "UI Preview Tool",
+            "menu_item_call.on_click": null
+         },
+         "menu:UI Tests": {
+            "@label": {
+               "string": "UI Tests"
+            },
+            "@name": "UI Tests",
+            "menu_item_call": {
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call$3": {
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call$4": {
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call$5": {
+               "menu_item_call.on_click": null
+            }
+         },
+         "#comment": "\n      <menu_item_check\n         label=\"Reg In Client Test (restart)\"\n         name=\"Reg In Client Test (restart)\">\n            <menu_item_check.on_check\n               control=\"RegInClient\" />\n            <menu_item_check.on_click\n               function=\"ToggleControl\"\n               parameter=\"RegInClient\" />\n      </menu_item_check>\n",
+         "menu_item_call:Set Window Size...": {
+            "@label": {
+               "string": "Set Window Size..."
+            },
+            "@name": "Set Window Size...",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:TOS": {
+            "@label": {
+               "string": "Show TOS"
+            },
+            "@name": "TOS",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Critical": {
+            "@label": {
+               "string": "Show Critical Message"
+            },
+            "@name": "Critical",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Media Browser": {
+            "@label": {
+               "string": "Media Browser"
+            },
+            "@name": "Media Browser",
+            "menu_item_call.on_click": null
+         },
+         "menu:Set Logging Level": {
+            "@label": {
+               "string": "Set Logging Level"
+            },
+            "@name": "Set Logging Level",
+            "menu_item_check:Debug": {
+               "@name": "Debug",
+               "@label": {
+                  "string": "Debug"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Info": {
+               "@name": "Info",
+               "@label": {
+                  "string": "Info"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Warning": {
+               "@name": "Warning",
+               "@label": {
+                  "string": "Warning"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Error": {
+               "@name": "Error",
+               "@label": {
+                  "string": "Error"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:None": {
+               "@name": "None",
+               "@label": {
+                  "string": "None"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu_item_call:Show Notifications Console": {
+            "@label": {
+               "string": "Show Notifications Console"
+            },
+            "@name": "Show Notifications Console",
+            "on_click": null
+         }
+      }
+   }
+}

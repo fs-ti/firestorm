@@ -1,0 +1,63 @@
+{
+   "context_menu": {
+      "@name": "Bump List Context Menu",
+      "menu_item_call:show_agent": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "show_agent",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:send_im": {
+         "@label": {
+            "string": "Send IM..."
+         },
+         "@name": "send_im",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:zoom_agent": {
+         "@label": {
+            "string": "Zoom at Resident"
+         },
+         "@name": "zoom_agent",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:teleportto_agent": {
+         "@label": {
+            "string": "Teleport to Resident"
+         },
+         "@name": "teleportto_agent",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_check:Block": {
+         "@label": {
+            "string": "Block"
+         },
+         "@name": "Block",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_call:report": {
+         "@label": {
+            "string": "Report"
+         },
+         "@name": "report",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "Copy",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

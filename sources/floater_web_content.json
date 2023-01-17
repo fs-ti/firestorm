@@ -1,0 +1,94 @@
+{
+   "floater": {
+      "@name": "floater_web_content",
+      "@title": {
+         "string": ""
+      },
+      "#comment": "Size in this section needs to stay for How To floater to work correctly",
+      "layout_stack:stack1": {
+         "@name": "stack1",
+         "layout_panel:nav_controls": {
+            "@name": "nav_controls",
+            "button:back": {
+               "@tool_tip": {
+                  "string": "Navigate back"
+               },
+               "@name": "back",
+               "button.commit_callback": null
+            },
+            "button:forward": {
+               "@tool_tip": {
+                  "string": "Navigate forward"
+               },
+               "@name": "forward",
+               "button.commit_callback": null
+            },
+            "button:stop": {
+               "@tool_tip": {
+                  "string": "Stop navigation"
+               },
+               "@name": "stop",
+               "button.commit_callback": null
+            },
+            "button:reload": {
+               "@tool_tip": {
+                  "string": "Reload page"
+               },
+               "@name": "reload",
+               "button.commit_callback": null
+            },
+            "combo_box:address": {
+               "@name": "address",
+               "@tool_tip": {
+                  "string": "Enter URL here"
+               },
+               "combo_box.commit_callback": null
+            },
+            "icon:media_secure_lock_flag": {
+               "@name": "media_secure_lock_flag",
+               "@tool_tip": {
+                  "string": "Secured Browsing"
+               }
+            },
+            "button:popexternal": {
+               "@tool_tip": {
+                  "string": "Open current URL in your desktop browser"
+               },
+               "@name": "popexternal",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:debug_controls": {
+            "@name": "debug_controls",
+            "button:web_test_home_page": {
+               "@tool_tip": {
+                  "string": "Web tests home page"
+               },
+               "@name": "web_test_home_page",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:external_controls": {
+            "@name": "external_controls",
+            "text:plugin_fail_text": {
+               "@name": "plugin_fail_text",
+               "#text": {
+                  "string": "\nThe web browser plugin seems to be taking a while to open.\nIf the plugin never loads, please visit:\n\nhttps://wiki.firestormviewer.org/fs_search_issues\n\nand\n\nhttps://wiki.firestormviewer.org/fs_media\n\nfor possible steps to resolve this issue.\n      "
+               }
+            },
+            "web_browser:webbrowser": {
+               "@name": "webbrowser"
+            }
+         },
+         "layout_panel:status_bar": {
+            "@name": "status_bar",
+            "text:statusbartext": {
+               "@name": "statusbartext"
+            },
+            "progress_bar:statusbarprogress": {
+               "@name": "statusbarprogress"
+            }
+         }
+      }
+   }
+}

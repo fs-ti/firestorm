@@ -1,0 +1,56 @@
+{
+   "floater": {
+      "@name": "modal container",
+      "floater.string:real_url": {
+         "@name": "real_url",
+         "#text": {
+            "string": "\n        http://secondlife.com/app/tos/\n    "
+         }
+      },
+      "floater.string:loading_url": {
+         "@name": "loading_url",
+         "#text": {
+            "string": "\n      data:text/html;charset=utf-8;base64,PGh0bWw+DQo8aGVhZD4NCjxzdHlsZT4NCmJvZHkgew0KICBmb250LWZhbWlseTogIkRlamEgVnUgU2FucyIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWY7DQogIGNvbG9yOiAjZmZmOw0KICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMzEsIDMxLCAzMSk7DQp9DQphIHsNCiAgICBjb2xvcjogcmdiKDkyLCAxNzcsIDE0Nik7DQogICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOw0KfQ0KI2NlbnRlcmVkIHsNCiAgcG9zaXRpb246IHJlbGF0aXZlOw0KICBmbG9hdDogbGVmdDsNCiAgdG9wOiA1MCU7DQogIGxlZnQ6IDUwJTsNCiAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7DQp9DQo8L3N0eWxlPg0KPC9oZWFkPg0KPGJvZHk+DQo8ZGl2IGlkPSJjZW50ZXJlZCI+TG9hZGluZyA8YSB0YXJnZXQ9Il9leHRlcm5hbCIgaHJlZj0iaHR0cDovL3NlY29uZGxpZmUuY29tL2FwcC90b3MvIj5UZXJtcyBvZiBTZXJ2aWNlPC9hPi4uLjwvZGl2Pg0KPC9ib2R5Pg0KPC9odG1sPg==\n    "
+         }
+      },
+      "text:tos_heading": {
+         "@name": "tos_heading",
+         "#text": {
+            "string": "\n        Please read the following Terms and Conditions, Privacy Policy, and Terms of Service, including the requirements for the use of arbitration and the waiver of any class or group claim to resolve disputes. To continue logging in, you must accept these agreements.\n    "
+         }
+      },
+      "text:external_tos_required": {
+         "@name": "external_tos_required",
+         "#text": {
+            "string": "\n       You will need to go to https://my.secondlife.com and log in to accept the Terms of Service before you can proceed. Thank you!\n     "
+         }
+      },
+      "web_browser:tos_html": {
+         "@name": "tos_html"
+      },
+      "check_box:agree_chk": {
+         "@label": {
+            "string": "I have read and agree to"
+         },
+         "@name": "agree_chk"
+      },
+      "text:agree_list": {
+         "@name": "agree_list",
+         "#text": {
+            "string": "the Terms and Conditions, Privacy Policy, and Terms of Service, including the dispute resolution requirements. \n    "
+         }
+      },
+      "button:Continue": {
+         "@label": {
+            "string": "Continue"
+         },
+         "@name": "Continue"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

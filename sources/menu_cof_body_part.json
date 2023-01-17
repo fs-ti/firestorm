@@ -1,0 +1,24 @@
+{
+   "context_menu": {
+      "@name": "COF Body",
+      "menu_item_call:replace": {
+         "@label": {
+            "string": "Replace"
+         },
+         "@name": "replace",
+         "on_click": null
+      },
+      "menu_item_call:edit": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call": {
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

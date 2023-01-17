@@ -1,0 +1,12 @@
+{
+   "menu": {
+      "@name": "InvOfferChiclet Menu",
+      "menu_item_call:Close": {
+         "@label": {
+            "string": "Close"
+         },
+         "@name": "Close",
+         "menu_item_call.on_click": null
+      }
+   }
+}

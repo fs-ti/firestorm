@@ -1,0 +1,204 @@
+{
+   "context_menu": {
+      "@name": "Multi-Selected People Context Menu",
+      "menu_item_call:Add Friends": {
+         "@label": {
+            "string": "Add Friends"
+         },
+         "@name": "Add Friends",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Add to Set": {
+         "@label": {
+            "string": "Add to Set"
+         },
+         "@name": "Add to Set",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Remove Friend": {
+         "@label": {
+            "string": "Remove Friends"
+         },
+         "@name": "Remove Friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:IM": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "IM",
+         "on_click": null
+      },
+      "menu_item_call:Call": {
+         "@label": {
+            "string": "Call"
+         },
+         "@name": "Call",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu:MarkAvatar": {
+         "@name": "MarkAvatar",
+         "@label": {
+            "string": "Mark..."
+         },
+         "menu_item_call:MarkRed": {
+            "@label": {
+               "string": "Red"
+            },
+            "@name": "MarkRed",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:MarkGreen": {
+            "@label": {
+               "string": "Green"
+            },
+            "@name": "MarkGreen",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:MarkBlue": {
+            "@label": {
+               "string": "Blue"
+            },
+            "@name": "MarkBlue",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:MarkPurple": {
+            "@label": {
+               "string": "Purple"
+            },
+            "@name": "MarkPurple",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:MarkYellow": {
+            "@label": {
+               "string": "Yellow"
+            },
+            "@name": "MarkYellow",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Clear Mark": {
+            "@label": {
+               "string": "Clear Mark(s)"
+            },
+            "@name": "Clear Mark",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Clear Marks": {
+            "@label": {
+               "string": "Clear all Marks"
+            },
+            "@name": "Clear Marks",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu_item_call:Share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "Share",
+         "on_click": null
+      },
+      "menu_item_call:Pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "Pay",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:teleport": {
+         "@label": {
+            "string": "Offer Teleport"
+         },
+         "@name": "teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:freeze": {
+         "@label": {
+            "string": "Freeze"
+         },
+         "@name": "freeze",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:eject": {
+         "@label": {
+            "string": "Parcel Eject"
+         },
+         "@name": "eject",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:kick": {
+         "@label": {
+            "string": "Estate Kick"
+         },
+         "@name": "kick",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:teleport_home": {
+         "@label": {
+            "string": "Estate Teleport Home"
+         },
+         "@name": "teleport_home",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:estate_ban": {
+         "@label": {
+            "string": "Estate Ban"
+         },
+         "@name": "estate_ban",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:derender": {
+         "@label": {
+            "string": "Derender"
+         },
+         "@name": "derender",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:derender_permanent": {
+         "@label": {
+            "string": "Derender & Blacklist"
+         },
+         "@name": "derender_permanent",
+         "menu_item_call.on_click": null
+      },
+      "menu:render_settings": {
+         "@label": {
+            "string": "Render Settings"
+         },
+         "@name": "render_settings",
+         "menu_item_call:av_render_normal": {
+            "@label": {
+               "string": "Render Normally"
+            },
+            "@name": "av_render_normal",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:av_render_never": {
+            "@label": {
+               "string": "Do Not Render"
+            },
+            "@name": "av_render_never",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:av_render_always": {
+            "@label": {
+               "string": "Render Fully"
+            },
+            "@name": "av_render_always",
+            "menu_item_call.on_click": null
+         }
+      }
+   }
+}

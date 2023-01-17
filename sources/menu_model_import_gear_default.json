@@ -1,0 +1,50 @@
+{
+   "toggleable_menu": {
+      "@name": "model_menu_gear_default",
+      "menu_item_check:show_edges": {
+         "@label": {
+            "string": "Show edges"
+         },
+         "@name": "show_edges",
+         "on_click": null,
+         "on_check": null,
+         "on_enable": null
+      },
+      "menu_item_check:show_physics": {
+         "@label": {
+            "string": "Show physics"
+         },
+         "@name": "show_physics",
+         "on_click": null,
+         "on_check": null,
+         "on_enable": null
+      },
+      "menu_item_check:show_textures": {
+         "@label": {
+            "string": "Show textures"
+         },
+         "@name": "show_textures",
+         "on_click": null,
+         "on_check": null,
+         "on_enable": null
+      },
+      "menu_item_check:show_skin_weight": {
+         "@label": {
+            "string": "Show skin weight"
+         },
+         "@name": "show_skin_weight",
+         "on_click": null,
+         "on_check": null,
+         "on_enable": null
+      },
+      "menu_item_check:show_joint_positions": {
+         "@label": {
+            "string": "Show joint positions"
+         },
+         "@name": "show_joint_positions",
+         "on_click": null,
+         "on_check": null,
+         "on_enable": null
+      }
+   }
+}

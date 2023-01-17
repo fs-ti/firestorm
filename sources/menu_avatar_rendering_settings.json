@@ -1,0 +1,30 @@
+{
+   "context_menu": {
+      "@name": "Settings",
+      "menu_item_check:always_render": {
+         "@label": {
+            "string": "Always full detail"
+         },
+         "@name": "always_render",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:never_render": {
+         "@label": {
+            "string": "Never full detail"
+         },
+         "@name": "never_render",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:default": {
+         "@label": {
+            "string": "Remove from exceptions"
+         },
+         "@name": "default",
+         "on_click": null,
+         "on_check": null,
+         "on_visible": null
+      }
+   }
+}

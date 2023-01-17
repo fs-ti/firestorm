@@ -1,0 +1,73 @@
+{
+   "menu": {
+      "@label": {
+         "string": "Edit"
+      },
+      "@name": "Edit",
+      "menu_item_call:Undo": {
+         "@label": {
+            "string": "Undo"
+         },
+         "@name": "Undo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Redo": {
+         "@label": {
+            "string": "Redo"
+         },
+         "@name": "Redo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Cut": {
+         "@label": {
+            "string": "Cut"
+         },
+         "@name": "Cut",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "Copy",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "Paste",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "Delete",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Select All": {
+         "@label": {
+            "string": "Select All"
+         },
+         "@name": "Select All",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Deselect": {
+         "@label": {
+            "string": "Deselect"
+         },
+         "@name": "Deselect",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

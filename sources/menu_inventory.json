@@ -1,0 +1,887 @@
+{
+   "menu": {
+      "@name": "Popup",
+      "menu_item_call:Marketplace Create Listing": {
+         "@label": {
+            "string": "Create listing"
+         },
+         "@name": "Marketplace Create Listing",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Associate Listing": {
+         "@label": {
+            "string": "Associate listing"
+         },
+         "@name": "Marketplace Associate Listing",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Get Listing": {
+         "@label": {
+            "string": "Get (Refresh) listing"
+         },
+         "@name": "Marketplace Get Listing",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Check Listing": {
+         "@label": {
+            "string": "Check for errors"
+         },
+         "@name": "Marketplace Check Listing",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Edit Listing": {
+         "@label": {
+            "string": "Edit listing"
+         },
+         "@name": "Marketplace Edit Listing",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace List": {
+         "@label": {
+            "string": "List"
+         },
+         "@name": "Marketplace List",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Unlist": {
+         "@label": {
+            "string": "Unlist"
+         },
+         "@name": "Marketplace Unlist",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Activate": {
+         "@label": {
+            "string": "Activate"
+         },
+         "@name": "Marketplace Activate",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Deactivate": {
+         "@label": {
+            "string": "Deactivate"
+         },
+         "@name": "Marketplace Deactivate",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Marketplace Listings Separator": {
+         "@name": "Marketplace Listings Separator"
+      },
+      "menu_item_call:Share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "Share",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Task Open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "Task Open",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Task Play": {
+         "@label": {
+            "string": "Play"
+         },
+         "@name": "Task Play",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Task Properties": {
+         "@label": {
+            "string": "Properties"
+         },
+         "@name": "Task Properties",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Task Rename": {
+         "@label": {
+            "string": "Rename"
+         },
+         "@name": "Task Rename",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Task Remove": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "Task Remove",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Empty Trash": {
+         "@label": {
+            "string": "Empty Trash"
+         },
+         "@name": "Empty Trash",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Empty Lost And Found": {
+         "@label": {
+            "string": "Empty Lost And Found"
+         },
+         "@name": "Empty Lost And Found",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Folder": {
+         "@label": {
+            "string": "New Folder"
+         },
+         "@name": "New Folder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Outfit": {
+         "@label": {
+            "string": "New Outfit"
+         },
+         "@name": "New Outfit",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Script": {
+         "@label": {
+            "string": "New Script"
+         },
+         "@name": "New Script",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Note": {
+         "@label": {
+            "string": "New Notecard"
+         },
+         "@name": "New Note",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:New Gesture": {
+         "@label": {
+            "string": "New Gesture"
+         },
+         "@name": "New Gesture",
+         "menu_item_call.on_click": null
+      },
+      "menu:New Clothes": {
+         "@label": {
+            "string": "New Clothes"
+         },
+         "@name": "New Clothes",
+         "menu_item_call:New Shirt": {
+            "@label": {
+               "string": "New Shirt"
+            },
+            "@name": "New Shirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Pants": {
+            "@label": {
+               "string": "New Pants"
+            },
+            "@name": "New Pants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Shoes": {
+            "@label": {
+               "string": "New Shoes"
+            },
+            "@name": "New Shoes",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Socks": {
+            "@label": {
+               "string": "New Socks"
+            },
+            "@name": "New Socks",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Jacket": {
+            "@label": {
+               "string": "New Jacket"
+            },
+            "@name": "New Jacket",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Skirt": {
+            "@label": {
+               "string": "New Skirt"
+            },
+            "@name": "New Skirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Gloves": {
+            "@label": {
+               "string": "New Gloves"
+            },
+            "@name": "New Gloves",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Undershirt": {
+            "@label": {
+               "string": "New Undershirt"
+            },
+            "@name": "New Undershirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Underpants": {
+            "@label": {
+               "string": "New Underpants"
+            },
+            "@name": "New Underpants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Alpha Mask": {
+            "@label": {
+               "string": "New Alpha Mask"
+            },
+            "@name": "New Alpha Mask",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Tattoo": {
+            "@label": {
+               "string": "New Tattoo"
+            },
+            "@name": "New Tattoo",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Universal": {
+            "@label": {
+               "string": "New Universal"
+            },
+            "@name": "New Universal",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Physics": {
+            "@label": {
+               "string": "New Physics"
+            },
+            "@name": "New Physics",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:New Body Parts": {
+         "@label": {
+            "string": "New Body Parts"
+         },
+         "@name": "New Body Parts",
+         "menu_item_call:New Shape": {
+            "@label": {
+               "string": "New Shape"
+            },
+            "@name": "New Shape",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Skin": {
+            "@label": {
+               "string": "New Skin"
+            },
+            "@name": "New Skin",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Hair": {
+            "@label": {
+               "string": "New Hair"
+            },
+            "@name": "New Hair",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Eyes": {
+            "@label": {
+               "string": "New Eyes"
+            },
+            "@name": "New Eyes",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:New Settings": {
+         "@label": {
+            "string": "New Settings"
+         },
+         "@name": "New Settings",
+         "menu_item_call:New Sky": {
+            "@label": {
+               "string": "New Sky"
+            },
+            "@name": "New Sky",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:New Water": {
+            "@label": {
+               "string": "New Water"
+            },
+            "@name": "New Water",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:New Day Cycle": {
+            "@label": {
+               "string": "New Day Cycle"
+            },
+            "@name": "New Day Cycle",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      },
+      "menu:upload_def": {
+         "@label": {
+            "string": "Use as default for"
+         },
+         "@name": "upload_def",
+         "menu_item_call:Image uploads": {
+            "@label": {
+               "string": "Image uploads"
+            },
+            "@name": "Image uploads",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Sound uploads": {
+            "@label": {
+               "string": "Sound uploads"
+            },
+            "@name": "Sound uploads",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Animation uploads": {
+            "@label": {
+               "string": "Animation uploads"
+            },
+            "@name": "Animation uploads",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Model uploads": {
+            "@label": {
+               "string": "Model uploads"
+            },
+            "@name": "Model uploads",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:Change Type": {
+         "@label": {
+            "string": "Change Type"
+         },
+         "@name": "Change Type",
+         "menu_item_call:Default": {
+            "@label": {
+               "string": "Default"
+            },
+            "@name": "Default",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Gloves": {
+            "@label": {
+               "string": "Gloves"
+            },
+            "@name": "Gloves",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Jacket": {
+            "@label": {
+               "string": "Jacket"
+            },
+            "@name": "Jacket",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Pants": {
+            "@label": {
+               "string": "Pants"
+            },
+            "@name": "Pants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Shape": {
+            "@label": {
+               "string": "Shape"
+            },
+            "@name": "Shape",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Shoes": {
+            "@label": {
+               "string": "Shoes"
+            },
+            "@name": "Shoes",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Shirt": {
+            "@label": {
+               "string": "Shirt"
+            },
+            "@name": "Shirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Skirt": {
+            "@label": {
+               "string": "Skirt"
+            },
+            "@name": "Skirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Underpants": {
+            "@label": {
+               "string": "Underpants"
+            },
+            "@name": "Underpants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Undershirt": {
+            "@label": {
+               "string": "Undershirt"
+            },
+            "@name": "Undershirt",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu_item_call:Landmark Open": {
+         "@label": {
+            "string": "Teleport"
+         },
+         "@name": "Landmark Open",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Animation Open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "Animation Open",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Sound Open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "Sound Open",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Folder Wearables Separator": {
+         "@name": "Folder Wearables Separator"
+      },
+      "menu_item_call:Replace Outfit": {
+         "@label": {
+            "string": "Replace Current Outfit"
+         },
+         "@name": "Replace Outfit",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Add To Outfit": {
+         "@label": {
+            "string": "Add To Current Outfit"
+         },
+         "@name": "Add To Outfit",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Wear Items": {
+         "@label": {
+            "string": "Wear Items"
+         },
+         "@name": "Wear Items",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Remove From Outfit": {
+         "@label": {
+            "string": "Remove From Current Outfit"
+         },
+         "@name": "Remove From Outfit",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Copy outfit list to clipboard": {
+         "@label": {
+            "string": "Copy outfit list to clipboard"
+         },
+         "@name": "Copy outfit list to clipboard",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Outfit Separator": {
+         "@name": "Outfit Separator"
+      },
+      "menu_item_call:Find Original": {
+         "@label": {
+            "string": "Find Original"
+         },
+         "@name": "Find Original",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Purge Item": {
+         "@label": {
+            "string": "Purge Item"
+         },
+         "@name": "Purge Item",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Restore Item": {
+         "@label": {
+            "string": "Restore Item"
+         },
+         "@name": "Restore Item",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "Open",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Open Original": {
+         "@label": {
+            "string": "Open Original"
+         },
+         "@name": "Open Original",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Properties": {
+         "@label": {
+            "string": "Properties"
+         },
+         "@name": "Properties",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Rename": {
+         "@label": {
+            "string": "Rename"
+         },
+         "@name": "Rename",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:ProtectFolder": {
+         "@label": {
+            "string": "Protect"
+         },
+         "@name": "ProtectFolder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:UnprotectFolder": {
+         "@label": {
+            "string": "Unprotect"
+         },
+         "@name": "UnprotectFolder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Copy Asset UUID": {
+         "@label": {
+            "string": "Copy Asset UUID"
+         },
+         "@name": "Copy Asset UUID",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Show in Main Panel": {
+         "@label": {
+            "string": "Show in Main View"
+         },
+         "@name": "Show in Main Panel",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Restore to Last Position": {
+         "@label": {
+            "string": "Restore to Last Position"
+         },
+         "@name": "Restore to Last Position",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Copy Separator": {
+         "@name": "Copy Separator"
+      },
+      "menu_item_call:Copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "Copy",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Cut": {
+         "@label": {
+            "string": "Cut"
+         },
+         "@name": "Cut",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "Paste",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Paste As Link": {
+         "@label": {
+            "string": "Paste As Link"
+         },
+         "@name": "Paste As Link",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Find Links": {
+         "@label": {
+            "string": "Find All Links"
+         },
+         "@name": "Find Links",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Replace Links": {
+         "@label": {
+            "string": "Replace Links"
+         },
+         "@name": "Replace Links",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Paste Separator": {
+         "@name": "Paste Separator"
+      },
+      "menu_item_call:Delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "Delete",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Cleanup broken Links": {
+         "@label": {
+            "string": "Cleanup broken Links"
+         },
+         "@name": "Cleanup broken Links",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Move to Default Folder": {
+         "@label": {
+            "string": "Move to Default Folder"
+         },
+         "@name": "Move to Default Folder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Move to Lost And Found": {
+         "@label": {
+            "string": "Move to Lost And Found"
+         },
+         "@name": "Move to Lost And Found",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Delete System Folder": {
+         "@label": {
+            "string": "Delete System Folder"
+         },
+         "@name": "Delete System Folder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Conference Chat Folder": {
+         "@label": {
+            "string": "Start Conference Chat"
+         },
+         "@name": "Conference Chat Folder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Sound Play": {
+         "@label": {
+            "string": "Play"
+         },
+         "@name": "Sound Play",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Landmark Separator": {
+         "@name": "Landmark Separator"
+      },
+      "menu_item_call:url_copy": {
+         "@label": {
+            "string": "Copy SLurl"
+         },
+         "@name": "url_copy",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:About Landmark": {
+         "@label": {
+            "string": "About Landmark"
+         },
+         "@name": "About Landmark",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:show_on_map": {
+         "@label": {
+            "string": "Show on Map"
+         },
+         "@name": "show_on_map",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Animation Separator": {
+         "@name": "Animation Separator"
+      },
+      "menu_item_call:Animation Play": {
+         "@label": {
+            "string": "Play Inworld"
+         },
+         "@name": "Animation Play",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Animation Audition": {
+         "@label": {
+            "string": "Play Locally"
+         },
+         "@name": "Animation Audition",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Send Instant Message Separator": {
+         "@name": "Send Instant Message Separator"
+      },
+      "menu_item_call:Send Instant Message": {
+         "@label": {
+            "string": "Send Instant Message"
+         },
+         "@name": "Send Instant Message",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Offer Teleport...": {
+         "@label": {
+            "string": "Offer Teleport..."
+         },
+         "@name": "Offer Teleport...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Request Teleport...": {
+         "@label": {
+            "string": "Request Teleport..."
+         },
+         "@name": "Request Teleport...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Conference Chat": {
+         "@label": {
+            "string": "Start Conference Chat"
+         },
+         "@name": "Conference Chat",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Gesture Separator": {
+         "@name": "Gesture Separator"
+      },
+      "menu_item_call:Activate": {
+         "@label": {
+            "string": "Activate"
+         },
+         "@name": "Activate",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Deactivate": {
+         "@label": {
+            "string": "Deactivate"
+         },
+         "@name": "Deactivate",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Texture Separator": {
+         "@name": "Texture Separator"
+      },
+      "menu_item_call:Save As": {
+         "@label": {
+            "string": "Save As"
+         },
+         "@name": "Save As",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Save Selected As": {
+         "@label": {
+            "string": "Save to"
+         },
+         "@name": "Save Selected As",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Wearable And Object Separator": {
+         "@name": "Wearable And Object Separator"
+      },
+      "menu_item_call:Wearable And Object Wear": {
+         "@label": {
+            "string": "Wear"
+         },
+         "@name": "Wearable And Object Wear",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Wearable Add": {
+         "@label": {
+            "string": "Add"
+         },
+         "@name": "Wearable Add",
+         "menu_item_call.on_click": null
+      },
+      "menu:Attach To": {
+         "@label": {
+            "string": "Attach To"
+         },
+         "@name": "Attach To"
+      },
+      "menu:Attach To HUD": {
+         "@label": {
+            "string": "Attach To HUD"
+         },
+         "@name": "Attach To HUD"
+      },
+      "menu_item_call:Attachment Touch": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "Attachment Touch",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Wearable Edit": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "Wearable Edit",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Texture Refresh Attachment": {
+         "@label": {
+            "string": "Texture Refresh"
+         },
+         "@name": "Texture Refresh Attachment",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Detach From Yourself": {
+         "@label": {
+            "string": "Detach From Yourself"
+         },
+         "@name": "Detach From Yourself",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Take Off": {
+         "@label": {
+            "string": "Take Off"
+         },
+         "@name": "Take Off",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Settings Separator": {
+         "@name": "Settings Separator"
+      },
+      "menu_item_call:Settings Apply Local": {
+         "@name": "Settings Apply Local",
+         "@label": {
+            "string": "Apply Only To Myself"
+         },
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Settings Apply Parcel": {
+         "@name": "Settings Apply Parcel",
+         "@label": {
+            "string": "Apply To Parcel"
+         },
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Marketplace Separator": {
+         "@name": "Marketplace Separator"
+      },
+      "menu_item_call:Marketplace Copy": {
+         "@label": {
+            "string": "Copy to Marketplace Listings"
+         },
+         "@name": "Marketplace Copy",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Marketplace Move": {
+         "@label": {
+            "string": "Move to Marketplace Listings"
+         },
+         "@name": "Marketplace Move",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:--no options--": {
+         "@label": {
+            "string": "--no options--"
+         },
+         "@name": "--no options--"
+      }
+   }
+}

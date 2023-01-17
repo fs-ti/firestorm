@@ -1,0 +1,29 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_wearable_favorites",
+      "menu_item_check:sort_by_name": {
+         "@label": {
+            "string": "Sort by name..."
+         },
+         "@name": "sort_by_name",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_by_most_recent": {
+         "@label": {
+            "string": "Sort by most recent..."
+         },
+         "@name": "sort_by_most_recent",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_by_type_name": {
+         "@label": {
+            "string": "Sort by type name..."
+         },
+         "@name": "sort_by_type_name",
+         "on_click": null,
+         "on_check": null
+      }
+   }
+}

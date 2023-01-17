@@ -1,0 +1,49 @@
+{
+   "floater": {
+      "@name": "Toybox",
+      "@title": {
+         "string": "Toolbar Buttons"
+      },
+      "text:toybox label 1": {
+         "@name": "toybox label 1",
+         "#text": {
+            "string": "\n      Add or remove buttons by dragging them to or from the toolbars.\n  "
+         }
+      },
+      "text:toybox label 2": {
+         "@name": "toybox label 2",
+         "#text": {
+            "string": "\n      Buttons will appear as shown or as icon-only depending on each toolbar's settings.\n  "
+         }
+      },
+      "toolbar:toybox_toolbar": {
+         "@name": "toybox_toolbar",
+         "button_panel": null,
+         "button_icon_and_text": null
+      },
+      "panel": null,
+      "button:btn_clear_all": {
+         "@label": {
+            "string": "Clear all toolbars"
+         },
+         "@name": "btn_clear_all",
+         "button.commit_callback": null
+      },
+      "button:btn_restore_defaults": {
+         "@label": {
+            "string": "Restore defaults"
+         },
+         "@name": "btn_restore_defaults",
+         "button.commit_callback": null
+      },
+      "check_box:check_toolbars_locked": {
+         "@label": {
+            "string": "Locked"
+         },
+         "@name": "check_toolbars_locked",
+         "@tool_tip": {
+            "string": "Check this box to lock the toolbars, so the buttons can't be dragged or removed by accident."
+         }
+      }
+   }
+}

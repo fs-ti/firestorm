@@ -1,0 +1,215 @@
+{
+   "context_menu": {
+      "@name": "Outfit",
+      "menu_item_call:wear_replace": {
+         "@label": {
+            "string": "Wear - Replace Current Outfit"
+         },
+         "@name": "wear_replace",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:wear_add": {
+         "@label": {
+            "string": "Wear - Add to Current Outfit"
+         },
+         "@name": "wear_add",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:take_off": {
+         "@label": {
+            "string": "Take Off - Remove from Current Outfit"
+         },
+         "@name": "take_off",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:upload_photo": {
+         "@label": {
+            "string": "Upload Photo (L$[UPLOAD_COST])"
+         },
+         "@name": "upload_photo",
+         "on_click": null
+      },
+      "menu_item_call:select_photo": {
+         "@label": {
+            "string": "Select Photo"
+         },
+         "@name": "select_photo",
+         "on_click": null
+      },
+      "menu_item_call:take_snapshot": {
+         "@label": {
+            "string": "Take a Snapshot"
+         },
+         "@name": "take_snapshot",
+         "on_click": null
+      },
+      "menu_item_call:remove_photo": {
+         "@label": {
+            "string": "Remove Photo"
+         },
+         "@name": "remove_photo",
+         "on_click": null,
+         "on_visible": null
+      },
+      "menu_item_separator:sepatator1": {
+         "@name": "sepatator1"
+      },
+      "menu:New Clothes": {
+         "@label": {
+            "string": "New Clothes"
+         },
+         "@name": "New Clothes",
+         "menu_item_call:New Shirt": {
+            "@label": {
+               "string": "New Shirt"
+            },
+            "@name": "New Shirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Pants": {
+            "@label": {
+               "string": "New Pants"
+            },
+            "@name": "New Pants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Shoes": {
+            "@label": {
+               "string": "New Shoes"
+            },
+            "@name": "New Shoes",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Socks": {
+            "@label": {
+               "string": "New Socks"
+            },
+            "@name": "New Socks",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Jacket": {
+            "@label": {
+               "string": "New Jacket"
+            },
+            "@name": "New Jacket",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Skirt": {
+            "@label": {
+               "string": "New Skirt"
+            },
+            "@name": "New Skirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Gloves": {
+            "@label": {
+               "string": "New Gloves"
+            },
+            "@name": "New Gloves",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Undershirt": {
+            "@label": {
+               "string": "New Undershirt"
+            },
+            "@name": "New Undershirt",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Underpants": {
+            "@label": {
+               "string": "New Underpants"
+            },
+            "@name": "New Underpants",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Alpha": {
+            "@label": {
+               "string": "New Alpha"
+            },
+            "@name": "New Alpha",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Physics": {
+            "@label": {
+               "string": "New Physics"
+            },
+            "@name": "New Physics",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Tattoo": {
+            "@label": {
+               "string": "New Tattoo"
+            },
+            "@name": "New Tattoo",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:New Body Parts": {
+         "@label": {
+            "string": "New Body Parts"
+         },
+         "@name": "New Body Parts",
+         "menu_item_call:New Shape": {
+            "@label": {
+               "string": "New Shape"
+            },
+            "@name": "New Shape",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Skin": {
+            "@label": {
+               "string": "New Skin"
+            },
+            "@name": "New Skin",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Hair": {
+            "@label": {
+               "string": "New Hair"
+            },
+            "@name": "New Hair",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:New Eyes": {
+            "@label": {
+               "string": "New Eyes"
+            },
+            "@name": "New Eyes",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu_item_separator:sepatator2": {
+         "@name": "sepatator2"
+      },
+      "menu_item_call:edit": {
+         "@label": {
+            "string": "Edit Outfit"
+         },
+         "@name": "edit",
+         "on_click": null,
+         "on_visible": null
+      },
+      "menu_item_call:rename": {
+         "@label": {
+            "string": "Rename Outfit"
+         },
+         "@name": "rename",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:delete": {
+         "@label": {
+            "string": "Delete Outfit"
+         },
+         "@name": "delete",
+         "on_click": null,
+         "on_visible": null
+      }
+   }
+}

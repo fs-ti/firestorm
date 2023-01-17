@@ -1,0 +1,12 @@
+{
+   "menu": {
+      "@name": "IMChiclet AdHoc Menu",
+      "menu_item_call:End Session": {
+         "@label": {
+            "string": "End Session"
+         },
+         "@name": "End Session",
+         "menu_item_call.on_click": null
+      }
+   }
+}

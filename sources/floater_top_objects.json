@@ -1,0 +1,233 @@
+{
+   "floater": {
+      "@name": "top_objects",
+      "@title": {
+         "string": "Top Objects"
+      },
+      "floater.string:top_scripts_title": {
+         "@name": "top_scripts_title",
+         "#text": {
+            "string": "\n        Top Scripts\n    "
+         }
+      },
+      "floater.string:top_scripts_text": {
+         "@name": "top_scripts_text",
+         "#text": {
+            "string": "\n        [COUNT] scripts taking a total of [TIME] ms and using [MEMORY] KB\n    "
+         }
+      },
+      "floater.string:scripts_score_label": {
+         "@name": "scripts_score_label",
+         "#text": {
+            "string": "\n        Time\n    "
+         }
+      },
+      "floater.string:top_colliders_title": {
+         "@name": "top_colliders_title",
+         "#text": {
+            "string": "\n        Top Colliders\n    "
+         }
+      },
+      "floater.string:top_colliders_text": {
+         "@name": "top_colliders_text",
+         "#text": {
+            "string": "\n        Top [COUNT] objects experiencing many potential collisions\n    "
+         }
+      },
+      "floater.string:colliders_score_label": {
+         "@name": "colliders_score_label",
+         "#text": {
+            "string": "\n        Score\n    "
+         }
+      },
+      "floater.string:none_descriptor": {
+         "@name": "none_descriptor",
+         "#text": {
+            "string": "\n        None found.\n    "
+         }
+      },
+      "floater.string:URLs": {
+         "@name": "URLs",
+         "#text": {
+            "string": "\n        URLs\n    "
+         }
+      },
+      "floater.string:memory": {
+         "@name": "memory",
+         "#text": {
+            "string": "\n        Memory (KB)\n    "
+         }
+      },
+      "text:title_text": {
+         "@name": "title_text",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "scroll_list:objects_list": {
+         "@name": "objects_list",
+         "scroll_list.columns:score": {
+            "@label": {
+               "string": "Score"
+            },
+            "@name": "score"
+         },
+         "scroll_list.columns:name": {
+            "@label": {
+               "string": "Name"
+            },
+            "@name": "name"
+         },
+         "scroll_list.columns:owner": {
+            "@label": {
+               "string": "Owner"
+            },
+            "@name": "owner"
+         },
+         "scroll_list.columns:location": {
+            "@label": {
+               "string": "Location"
+            },
+            "@name": "location"
+         },
+         "scroll_list.columns:parcel": {
+            "@label": {
+               "string": "Parcel"
+            },
+            "@name": "parcel"
+         },
+         "scroll_list.columns:time": {
+            "@label": {
+               "string": "Date"
+            },
+            "@name": "time"
+         },
+         "scroll_list.columns:URLs": {
+            "@label": {
+               "string": "URLs"
+            },
+            "@name": "URLs"
+         },
+         "scroll_list.columns:memory": {
+            "@label": {
+               "string": "Memory (KB)"
+            },
+            "@name": "memory"
+         },
+         "scroll_list.commit_callback": null
+      },
+      "text:id_text": {
+         "@name": "id_text",
+         "#text": {
+            "string": "\n        Object ID:\n    "
+         }
+      },
+      "line_editor:id_editor": {
+         "@name": "id_editor"
+      },
+      "button:show_beacon_btn": {
+         "@label": {
+            "string": "Show Beacon"
+         },
+         "@name": "show_beacon_btn",
+         "button.commit_callback": null
+      },
+      "text:obj_name_text": {
+         "@name": "obj_name_text",
+         "#text": {
+            "string": "\n        Object name:\n    "
+         }
+      },
+      "line_editor:object_name_editor": {
+         "@name": "object_name_editor"
+      },
+      "button:filter_object_btn": {
+         "@label": {
+            "string": "Filter"
+         },
+         "@name": "filter_object_btn",
+         "button.commit_callback": null
+      },
+      "text:owner_name_text": {
+         "@name": "owner_name_text",
+         "#text": {
+            "string": "\n        Owner:\n    "
+         }
+      },
+      "line_editor:owner_name_editor": {
+         "@name": "owner_name_editor"
+      },
+      "button:filter_owner_btn": {
+         "@label": {
+            "string": "Filter"
+         },
+         "@name": "filter_owner_btn",
+         "button.commit_callback": null
+      },
+      "text:parcel_name_text": {
+         "@name": "parcel_name_text",
+         "#text": {
+            "string": "\n        Parcel:\n    "
+         }
+      },
+      "line_editor:parcel_name_editor": {
+         "@name": "parcel_name_editor"
+      },
+      "button:filter_parcel_btn": {
+         "@label": {
+            "string": "Filter"
+         },
+         "@name": "filter_parcel_btn",
+         "button.commit_callback": null
+      },
+      "button:refresh_btn": {
+         "@label": {
+            "string": "Refresh"
+         },
+         "@name": "refresh_btn",
+         "button.commit_callback": null
+      },
+      "button:return_selected_btn": {
+         "@label": {
+            "string": "Return Selected"
+         },
+         "@name": "return_selected_btn",
+         "button.commit_callback": null
+      },
+      "button:return_all_btn": {
+         "@label": {
+            "string": "Return All"
+         },
+         "@name": "return_all_btn",
+         "button.commit_callback": null
+      },
+      "button:teleport_to_btn": {
+         "@label": {
+            "string": "Teleport to"
+         },
+         "@name": "teleport_to_btn",
+         "button.commit_callback": null
+      },
+      "button:profile_btn": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "profile_btn",
+         "button.commit_callback": null
+      },
+      "button:script_info_btn": {
+         "@label": {
+            "string": "Script Info"
+         },
+         "@name": "script_info_btn",
+         "button.commit_callback": null
+      },
+      "button:estate_kick_btn": {
+         "@label": {
+            "string": "Estate Kick"
+         },
+         "@name": "estate_kick_btn",
+         "button.commit_callback": null
+      }
+   }
+}

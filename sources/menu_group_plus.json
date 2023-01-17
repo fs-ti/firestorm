@@ -1,0 +1,19 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_call:item_join": {
+         "@name": "item_join",
+         "@label": {
+            "string": "Join Group..."
+         },
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:item_new": {
+         "@name": "item_new",
+         "@label": {
+            "string": "New Group..."
+         },
+         "menu_item_call.on_click": null
+      }
+   }
+}

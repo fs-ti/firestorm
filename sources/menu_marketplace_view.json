@@ -1,0 +1,38 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_marketplace_sort",
+      "menu_item_check:sort_by_name": {
+         "@label": {
+            "string": "Sort by name"
+         },
+         "@name": "sort_by_name",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_by_recent": {
+         "@label": {
+            "string": "Sort by most recent"
+         },
+         "@name": "sort_by_recent",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_by_stock_amount": {
+         "@label": {
+            "string": "Sort by stock amount (low to high)"
+         },
+         "@name": "sort_by_stock_amount",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:show_only_listing_folders": {
+         "@label": {
+            "string": "Show only listing folders"
+         },
+         "@name": "show_only_listing_folders",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      }
+   }
+}

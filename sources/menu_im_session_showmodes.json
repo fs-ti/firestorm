@@ -1,0 +1,40 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_modes",
+      "menu_item_check:compact_view": {
+         "@label": {
+            "string": "Compact view"
+         },
+         "@name": "compact_view",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:expanded_view": {
+         "@label": {
+            "string": "Expanded view"
+         },
+         "@name": "expanded_view",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:IMShowTime": {
+         "@name": "IMShowTime",
+         "@label": {
+            "string": "Show time"
+         },
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:IMShowNamesForP2PConv": {
+         "@name": "IMShowNamesForP2PConv",
+         "@label": {
+            "string": "Show names in one-to-one conversations"
+         },
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      }
+   }
+}

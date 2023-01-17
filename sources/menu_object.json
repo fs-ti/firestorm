@@ -1,0 +1,365 @@
+{
+   "context_menu": {
+      "@name": "Object Pie",
+      "menu_item_call:Object Touch": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "Object Touch",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable:EnableTouch": {
+            "@name": "EnableTouch"
+         }
+      },
+      "menu_item_call:Edit...": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "Edit...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Build": {
+         "@label": {
+            "string": "Build"
+         },
+         "@name": "Build",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "Open",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Object Sit": {
+         "@label": {
+            "string": "Sit Here"
+         },
+         "@name": "Object Sit",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Object Stand Up": {
+         "@label": {
+            "string": "Stand Up"
+         },
+         "@name": "Object Stand Up",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "context_menu:Object Features": {
+         "@label": {
+            "string": "Object"
+         },
+         "@name": "Object Features",
+         "menu_item_call:Object Inspect": {
+            "@label": {
+               "string": "Profile"
+            },
+            "@name": "Object Inspect",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Object_Inspect_Floater": {
+            "@label": {
+               "string": "Inspect"
+            },
+            "@name": "Object_Inspect_Floater",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:ScriptInfo": {
+            "@label": {
+               "string": "Script Info"
+            },
+            "@name": "ScriptInfo",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Object Link": {
+            "@label": {
+               "string": "Link"
+            },
+            "@name": "Object Link",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Object Unlink": {
+            "@label": {
+               "string": "Unlink"
+            },
+            "@name": "Object Unlink",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_check:Object Edit Linked Parts": {
+            "@label": {
+               "string": "Edit Linked Parts"
+            },
+            "@name": "Object Edit Linked Parts",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu_item_call:Mono": {
+            "@label": {
+               "string": "Compile (Mono)"
+            },
+            "@name": "Mono",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:LSL": {
+            "@label": {
+               "string": "Compile (LSL)"
+            },
+            "@name": "LSL",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Object Reset Scripts": {
+            "@label": {
+               "string": "Reset Scripts"
+            },
+            "@name": "Object Reset Scripts",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Object Set Scripts to Running": {
+            "@label": {
+               "string": "Run Scripts"
+            },
+            "@name": "Object Set Scripts to Running",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Object Set Scripts to Not Running": {
+            "@label": {
+               "string": "Stop Scripts"
+            },
+            "@name": "Object Set Scripts to Not Running",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Remove Scripts From Selection": {
+            "@label": {
+               "string": "Remove Scripts"
+            },
+            "@name": "Remove Scripts From Selection",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      },
+      "menu_item_call:Zoom In": {
+         "@label": {
+            "string": "Zoom In"
+         },
+         "@name": "Zoom In",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:show_in_linksets": {
+         "@label": {
+            "string": "Show in linksets"
+         },
+         "@name": "show_in_linksets",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:show_in_characters": {
+         "@label": {
+            "string": "Show in characters"
+         },
+         "@name": "show_in_characters",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null,
+         "menu_item_call.on_visible": null
+      },
+      "context_menu:Put On": {
+         "@label": {
+            "string": "Put On"
+         },
+         "@name": "Put On",
+         "menu_item_call:Wear": {
+            "@label": {
+               "string": "Wear"
+            },
+            "@name": "Wear",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Add": {
+            "@label": {
+               "string": "Add"
+            },
+            "@name": "Add",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "context_menu:Object Attach": {
+            "@label": {
+               "string": "Attach"
+            },
+            "@name": "Object Attach"
+         },
+         "context_menu:Object Attach HUD": {
+            "@label": {
+               "string": "Attach HUD"
+            },
+            "@name": "Object Attach HUD"
+         }
+      },
+      "context_menu:Remove": {
+         "@label": {
+            "string": "Annoyance"
+         },
+         "@name": "Remove",
+         "menu_item_call:Report Abuse...": {
+            "@label": {
+               "string": "Report Abuse"
+            },
+            "@name": "Report Abuse...",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Object Mute": {
+            "@label": {
+               "string": "Block"
+            },
+            "@name": "Object Mute",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:Object Unmute": {
+            "@label": {
+               "string": "Unblock"
+            },
+            "@name": "Object Unmute",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         }
+      },
+      "menu_item_call:Texture Refresh": {
+         "@label": {
+            "string": "Texture Refresh"
+         },
+         "@name": "Texture Refresh",
+         "menu_item_call.on_click": null
+      },
+      "#comment": " Derender ",
+      "menu_item_call:Derender": {
+         "@label": {
+            "string": "Derender"
+         },
+         "@name": "Derender",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:DerenderPermanent": {
+         "@label": {
+            "string": "Derender + Blacklist"
+         },
+         "@name": "DerenderPermanent",
+         "menu_item_call.on_click": null
+      },
+      "#comment$18": " /Derender ",
+      "menu_item_call:Return...": {
+         "@label": {
+            "string": "Return"
+         },
+         "@name": "Return...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Pie Object Take": {
+         "@label": {
+            "string": "Take"
+         },
+         "@name": "Pie Object Take",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Take Copy": {
+         "@label": {
+            "string": "Take Copy"
+         },
+         "@name": "Take Copy",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Pay...": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "Pay...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Buy...": {
+         "@label": {
+            "string": "Buy"
+         },
+         "@name": "Buy...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "context_menu:Export Menu": {
+         "@label": {
+            "string": "Save as"
+         },
+         "@name": "Export Menu",
+         "menu_item_call:Backup": {
+            "@label": {
+               "string": "Backup"
+            },
+            "@name": "Backup",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Collada": {
+            "@label": {
+               "string": "Collada"
+            },
+            "@name": "Collada",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      },
+      "menu_item_call:Delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "Delete",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Mute Particle": {
+         "@label": {
+            "string": "Block Particle Owner"
+         },
+         "@name": "Mute Particle",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Dump XML": {
+         "@label": {
+            "string": "Dump XML"
+         },
+         "@name": "Dump XML",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Reset Skeleton": {
+         "@label": {
+            "string": "Reset Skeleton"
+         },
+         "@name": "Reset Skeleton",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      }
+   }
+}

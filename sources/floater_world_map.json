@@ -1,0 +1,334 @@
+{
+   "floater": {
+      "@name": "worldmap",
+      "@title": {
+         "string": "World Map"
+      },
+      "floater.string:UnnamedParcel": {
+         "@name": "UnnamedParcel",
+         "#text": {
+            "string": "(Unnamed Parcel)"
+         }
+      },
+      "layout_stack:resizing_stack": {
+         "@name": "resizing_stack",
+         "layout_panel:map_panel": {
+            "@name": "map_panel",
+            "panel:objects_mapview": {
+               "@name": "objects_mapview"
+            },
+            "panel:layout_panel_6": {
+               "@name": "layout_panel_6",
+               "icon:zoom_icon": {
+                  "@name": "zoom_icon"
+               },
+               "slider:zoom slider": {
+                  "@name": "zoom slider"
+               }
+            }
+         },
+         "#comment": " <FS:Zi> FIRE-31376: Splitter panel to show/hide map details ",
+         "layout_panel:map_details_splitter": {
+            "@name": "map_details_splitter",
+            "panel": {
+               "panel": null,
+               "button:Show Map details": {
+                  "@name": "Show Map details"
+               }
+            }
+         },
+         "#comment$4": " </FS:Zi> ",
+         "layout_panel:map_details_panel": {
+            "@name": "map_details_panel",
+            "panel:layout_panel_1": {
+               "@name": "layout_panel_1",
+               "text:events_label": {
+                  "@name": "events_label",
+                  "#text": {
+                     "string": "\n        Legend\n    "
+                  }
+               }
+            },
+            "panel:layout_panel_2": {
+               "@name": "layout_panel_2",
+               "button:Show My Location": {
+                  "@name": "Show My Location",
+                  "@tool_tip": {
+                     "string": "Center map on my avatar's location"
+                  },
+                  "button.commit_callback": null
+               },
+               "text:me_label": {
+                  "@name": "me_label",
+                  "#text": {
+                     "string": "\n        Me\n    "
+                  }
+               },
+               "check_box:people_chk": {
+                  "@name": "people_chk"
+               },
+               "icon:person": {
+                  "@name": "person"
+               },
+               "text:person_label": {
+                  "@name": "person_label",
+                  "#text": {
+                     "string": "\n        Person\n    "
+                  }
+               },
+               "check_box:infohub_chk": {
+                  "@name": "infohub_chk"
+               },
+               "icon:infohub": {
+                  "@name": "infohub"
+               },
+               "text:infohub_label": {
+                  "@name": "infohub_label",
+                  "#text": {
+                     "string": "\n        Infohub\n    "
+                  }
+               },
+               "check_box:land_for_sale_chk": {
+                  "@name": "land_for_sale_chk"
+               },
+               "icon:landforsale": {
+                  "@name": "landforsale"
+               },
+               "text:land_sale_label": {
+                  "@name": "land_sale_label",
+                  "#text": {
+                     "string": "\n        Land Sale\n    "
+                  }
+               },
+               "icon:square2": {
+                  "@name": "square2"
+               },
+               "text:auction_label": {
+                  "@name": "auction_label",
+                  "#text": {
+                     "string": "\n        land auction\n    "
+                  }
+               },
+               "text:by_owner_label": {
+                  "@name": "by_owner_label",
+                  "#text": {
+                     "string": "\n       by owner\n    "
+                  }
+               },
+               "button:Go Home": {
+                  "@name": "Go Home",
+                  "@tool_tip": {
+                     "string": "Teleport to my home location"
+                  },
+                  "button.commit_callback": null
+               },
+               "text:Home_label": {
+                  "@name": "Home_label",
+                  "#text": {
+                     "string": "\n        Go Home\n    "
+                  }
+               },
+               "text:events_label": {
+                  "@name": "events_label",
+                  "#text": {
+                     "string": "\n        Events:\n    "
+                  }
+               },
+               "check_box:event_chk": {
+                  "@name": "event_chk"
+               },
+               "icon:event": {
+                  "@name": "event"
+               },
+               "text:pg_label": {
+                  "@name": "pg_label",
+                  "#text": {
+                     "string": "\n        General\n    "
+                  }
+               },
+               "check_box:events_mature_chk": {
+                  "@name": "events_mature_chk"
+               },
+               "icon:events_mature_icon": {
+                  "@name": "events_mature_icon"
+               },
+               "text:events_mature_label": {
+                  "@name": "events_mature_label",
+                  "#text": {
+                     "string": "\n        Moderate\n    "
+                  }
+               },
+               "check_box:events_adult_chk": {
+                  "@name": "events_adult_chk"
+               },
+               "icon:events_adult_icon": {
+                  "@name": "events_adult_icon"
+               },
+               "text:events_adult_label": {
+                  "@name": "events_adult_label",
+                  "#text": {
+                     "string": "\n        Adult\n    "
+                  }
+               }
+            },
+            "panel:layout_panel_3": {
+               "@name": "layout_panel_3",
+               "text:find_on_map_label": {
+                  "@name": "find_on_map_label",
+                  "#text": {
+                     "string": "\n        Find on Map\n    "
+                  }
+               }
+            },
+            "panel:layout_panel_4": {
+               "@name": "layout_panel_4",
+               "icon:friends_icon": {
+                  "@name": "friends_icon"
+               },
+               "combo_box:friend combo": {
+                  "@label": {
+                     "string": "Online Friends"
+                  },
+                  "@name": "friend combo",
+                  "@tool_tip": {
+                     "string": "Show friends on map"
+                  },
+                  "combo_box.item:item1": {
+                     "@label": {
+                        "string": "My Friends Online"
+                     },
+                     "@name": "item1"
+                  },
+                  "combo_box.commit_callback": null
+               },
+               "icon:landmark_icon": {
+                  "@name": "landmark_icon"
+               },
+               "combo_box:landmark combo": {
+                  "@label": {
+                     "string": "My Landmarks"
+                  },
+                  "@name": "landmark combo",
+                  "@tool_tip": {
+                     "string": "Landmark to show on map"
+                  },
+                  "combo_box.item:item1": {
+                     "@label": {
+                        "string": "My Landmarks"
+                     },
+                     "@name": "item1"
+                  },
+                  "combo_box.commit_callback": null
+               },
+               "icon:location_icon": {
+                  "@name": "location_icon"
+               },
+               "search_editor:location": {
+                  "@label": {
+                     "string": "Regions by Name"
+                  },
+                  "@name": "location",
+                  "@tool_tip": {
+                     "string": "Type the name of a region"
+                  },
+                  "search_editor.commit_callback": null
+               },
+               "button:DoSearch": {
+                  "@label": {
+                     "string": "Find"
+                  },
+                  "@name": "DoSearch",
+                  "@tool_tip": {
+                     "string": "Search for region"
+                  },
+                  "button.commit_callback": null
+               },
+               "scroll_list:search_results": {
+                  "@name": "search_results",
+                  "scroll_list.columns:scroll_list_icon": {
+                     "@label": {
+                        "string": ""
+                     },
+                     "@name": "scroll_list_icon"
+                  },
+                  "scroll_list.columns:sim_name": {
+                     "@label": {
+                        "string": ""
+                     },
+                     "@name": "sim_name"
+                  },
+                  "scroll_list.commit_callback": null
+               },
+               "text:events_label": {
+                  "@name": "events_label",
+                  "#text": {
+                     "string": "\n      Location:\n      "
+                  }
+               },
+               "spinner:teleport_coordinate_x": {
+                  "@name": "teleport_coordinate_x",
+                  "spinner.commit_callback": null
+               },
+               "spinner:teleport_coordinate_y": {
+                  "@name": "teleport_coordinate_y",
+                  "spinner.commit_callback": null
+               },
+               "spinner:teleport_coordinate_z": {
+                  "@name": "teleport_coordinate_z",
+                  "spinner.commit_callback": null
+               },
+               "button:Teleport": {
+                  "@label": {
+                     "string": "Teleport"
+                  },
+                  "@name": "Teleport",
+                  "@tool_tip": {
+                     "string": "Teleport to selected location"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:copy_slurl": {
+                  "@label": {
+                     "string": "Copy SLurl"
+                  },
+                  "@name": "copy_slurl",
+                  "@tool_tip": {
+                     "string": "Copies current location as SLurl to be used on the web."
+                  },
+                  "button.commit_callback": null
+               },
+               "button:Clear": {
+                  "@label": {
+                     "string": "Clear"
+                  },
+                  "@name": "Clear",
+                  "@tool_tip": {
+                     "string": "Clear tracking lines and reset map"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:Show Destination": {
+                  "@label": {
+                     "string": "Show Selection"
+                  },
+                  "@name": "Show Destination",
+                  "@tool_tip": {
+                     "string": "Center map on selected location"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:track_region": {
+                  "@label": {
+                     "string": "Track Region"
+                  },
+                  "@name": "track_region",
+                  "@tool_tip": {
+                     "string": "Add the region to the region tracker"
+                  },
+                  "button.commit_callback": null
+               }
+            }
+         }
+      }
+   }
+}

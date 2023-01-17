@@ -1,0 +1,21 @@
+{
+   "context_menu": {
+      "@name": "Embedded item context menu",
+      "menu_item_call:Open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "Open",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Copy to Inventory": {
+         "@label": {
+            "string": "Copy to Inventory"
+         },
+         "@name": "Copy to Inventory",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

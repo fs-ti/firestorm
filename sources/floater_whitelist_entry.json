@@ -1,0 +1,32 @@
+{
+   "floater": {
+      "@name": "whitelist_entry",
+      "@title": {
+         "string": "Whitelist Entry"
+      },
+      "text:media_label": {
+         "@name": "media_label",
+         "#text": {
+            "string": "\n        Enter a URL or URL pattern to add to the list of allowed domains\n    "
+         }
+      },
+      "line_editor:whitelist_entry": {
+         "@name": "whitelist_entry",
+         "@tool_tip": {
+            "string": "Enter a URL or URL pattern to White List"
+         }
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

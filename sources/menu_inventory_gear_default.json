@@ -1,0 +1,246 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_gear_default",
+      "menu_item_call:new_window": {
+         "@label": {
+            "string": "New Inventory Window"
+         },
+         "@name": "new_window",
+         "on_click": null
+      },
+      "menu_item_check:Protected Folders": {
+         "@label": {
+            "string": "Protected Folders"
+         },
+         "@name": "Protected Folders",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:sort_by_name": {
+         "@label": {
+            "string": "Sort by Name"
+         },
+         "@name": "sort_by_name",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_by_recent": {
+         "@label": {
+            "string": "Sort by Most Recent"
+         },
+         "@name": "sort_by_recent",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_folders_by_name": {
+         "@label": {
+            "string": "Sort Folders Always by Name"
+         },
+         "@name": "sort_folders_by_name",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_system_folders_to_top": {
+         "@label": {
+            "string": "Sort System Folders to Top"
+         },
+         "@name": "sort_system_folders_to_top",
+         "on_click": null,
+         "on_check": null
+      },
+      "#comment": " <FS:Zi> Extended Inventory Search ",
+      "context_menu:inventory_search_menu": {
+         "@label": {
+            "string": "Search By..."
+         },
+         "@name": "inventory_search_menu",
+         "menu_item_check:inventory_search_by_name": {
+            "@name": "inventory_search_by_name",
+            "@label": {
+               "string": "Name"
+            },
+            "on_click": null,
+            "on_check": null
+         },
+         "menu_item_check:inventory_search_by_creator": {
+            "@name": "inventory_search_by_creator",
+            "@label": {
+               "string": "Creator"
+            },
+            "on_click": null,
+            "on_check": null
+         },
+         "menu_item_check:inventory_search_by_description": {
+            "@name": "inventory_search_by_description",
+            "@label": {
+               "string": "Description"
+            },
+            "on_click": null,
+            "on_check": null
+         },
+         "menu_item_check:inventory_search_by_uuid": {
+            "@name": "inventory_search_by_uuid",
+            "@label": {
+               "string": "UUID"
+            },
+            "on_click": null,
+            "on_check": null
+         },
+         "menu_item_separator": null,
+         "menu_item_check:inventory_search_by_all": {
+            "@name": "inventory_search_by_all",
+            "@label": {
+               "string": "All"
+            },
+            "on_click": null,
+            "on_check": null
+         }
+      },
+      "#comment$10": " </FS:Zi> Extended Inventory Search ",
+      "menu_item_check:add_inv_toggle": {
+         "@label": {
+            "string": "Add objects on double click"
+         },
+         "@name": "add_inv_toggle",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:add_invclothing_toggle": {
+         "@label": {
+            "string": "Add clothes on double click"
+         },
+         "@name": "add_invclothing_toggle",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_call:show_filters": {
+         "@label": {
+            "string": "Show Filters..."
+         },
+         "@name": "show_filters",
+         "on_click": null
+      },
+      "menu_item_call:reset_filters": {
+         "@label": {
+            "string": "Reset Filters"
+         },
+         "@name": "reset_filters",
+         "on_click": null
+      },
+      "menu_item_call:close_folders": {
+         "@label": {
+            "string": "Close All Folders"
+         },
+         "@name": "close_folders",
+         "on_click": null
+      },
+      "menu_item_call:empty_lostnfound": {
+         "@label": {
+            "string": "Empty Lost and Found"
+         },
+         "@name": "empty_lostnfound",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Save Texture As": {
+         "@label": {
+            "string": "Save Texture As"
+         },
+         "@name": "Save Texture As",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "Share",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Find Original": {
+         "@label": {
+            "string": "Find Original"
+         },
+         "@name": "Find Original",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Find All Links": {
+         "@label": {
+            "string": "Find All Links"
+         },
+         "@name": "Find All Links",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Replace Links": {
+         "@label": {
+            "string": "Replace Links"
+         },
+         "@name": "Replace Links",
+         "on_click": null
+      },
+      "#comment$22": " ## Zi: Filter Links Menu ",
+      "menu_item_check:inventory_filter_show_links": {
+         "@name": "inventory_filter_show_links",
+         "@label": {
+            "string": "Show Links"
+         },
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:inventory_filter_only_links": {
+         "@name": "inventory_filter_only_links",
+         "@label": {
+            "string": "Show Only Links"
+         },
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:inventory_filter_hide_links": {
+         "@name": "inventory_filter_hide_links",
+         "@label": {
+            "string": "Hide Links"
+         },
+         "on_click": null,
+         "on_check": null
+      },
+      "#comment$26": " ## Zi: Filter Links Menu ",
+      "#comment$27": " <FS:Zi> FIRE-1175 - Filter Permissions Menu ",
+      "menu_item_check:inventory_filter_only_modify": {
+         "@name": "inventory_filter_only_modify",
+         "@label": {
+            "string": "Only Modifiable"
+         },
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:inventory_filter_only_copy": {
+         "@name": "inventory_filter_only_copy",
+         "@label": {
+            "string": "Only Copyable"
+         },
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:inventory_filter_only_transfer": {
+         "@name": "inventory_filter_only_transfer",
+         "@label": {
+            "string": "Show Transferable"
+         },
+         "on_click": null,
+         "on_check": null
+      },
+      "#comment$31": " </FS:Zi> ",
+      "menu_item_call:empty_trash": {
+         "@label": {
+            "string": "Empty Trash"
+         },
+         "@name": "empty_trash",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

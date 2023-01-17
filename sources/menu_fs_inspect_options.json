@@ -1,0 +1,77 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_check:description": {
+         "@label": {
+            "string": "Description"
+         },
+         "@name": "description",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:owner_name": {
+         "@label": {
+            "string": "Owner Name"
+         },
+         "@name": "owner_name",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:creator_name": {
+         "@label": {
+            "string": "Creator Name"
+         },
+         "@name": "creator_name",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:facecount": {
+         "@label": {
+            "string": "Faces"
+         },
+         "@name": "facecount",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:vertexcount": {
+         "@label": {
+            "string": "Vertices"
+         },
+         "@name": "vertexcount",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:trianglecount": {
+         "@label": {
+            "string": "Triangles"
+         },
+         "@name": "trianglecount",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:tramcount": {
+         "@label": {
+            "string": "TMem"
+         },
+         "@name": "tramcount",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:vramcount": {
+         "@label": {
+            "string": "VRAM"
+         },
+         "@name": "vramcount",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:creation_date": {
+         "@label": {
+            "string": "Creation Date"
+         },
+         "@name": "creation_date",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      }
+   }
+}

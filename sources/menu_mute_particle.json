@@ -1,0 +1,13 @@
+{
+   "context_menu": {
+      "@name": "Mute Particle Pie",
+      "menu_item_call:Mute Particle": {
+         "@label": {
+            "string": "Block Particle Owner"
+         },
+         "@name": "Mute Particle",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

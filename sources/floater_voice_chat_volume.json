@@ -1,0 +1,17 @@
+{
+   "floater": {
+      "@name": "floater_voice_volume",
+      "@title": {
+         "string": "Voice Chat Volume"
+      },
+      "slider:chat_voice_volume": {
+         "@label": {
+            "string": "Voice Chat"
+         },
+         "@name": "chat_voice_volume"
+      },
+      "button:mute_audio": {
+         "@name": "mute_audio"
+      }
+   }
+}

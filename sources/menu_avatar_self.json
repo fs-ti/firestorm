@@ -1,0 +1,278 @@
+{
+   "context_menu": {
+      "@name": "Self Pie",
+      "menu_item_call:Sit Down Here": {
+         "@label": {
+            "string": "Sit Down"
+         },
+         "@name": "Sit Down Here",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Stand Up": {
+         "@label": {
+            "string": "Stand Up"
+         },
+         "@name": "Stand Up",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "context_menu:Take Off >": {
+         "@label": {
+            "string": "Take Off"
+         },
+         "@name": "Take Off >",
+         "context_menu:Clothes >": {
+            "@label": {
+               "string": "Clothes"
+            },
+            "@name": "Clothes >",
+            "menu_item_call:Shirt": {
+               "@label": {
+                  "string": "Shirt"
+               },
+               "@name": "Shirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Pants": {
+               "@label": {
+                  "string": "Pants"
+               },
+               "@name": "Pants",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Skirt": {
+               "@label": {
+                  "string": "Skirt"
+               },
+               "@name": "Skirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Shoes": {
+               "@label": {
+                  "string": "Shoes"
+               },
+               "@name": "Shoes",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Socks": {
+               "@label": {
+                  "string": "Socks"
+               },
+               "@name": "Socks",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Jacket": {
+               "@label": {
+                  "string": "Jacket"
+               },
+               "@name": "Jacket",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Gloves": {
+               "@label": {
+                  "string": "Gloves"
+               },
+               "@name": "Gloves",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Undershirt": {
+               "@label": {
+                  "string": "Undershirt"
+               },
+               "@name": "Self Undershirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Underpants": {
+               "@label": {
+                  "string": "Underpants"
+               },
+               "@name": "Self Underpants",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Tattoo": {
+               "@label": {
+                  "string": "Tattoo"
+               },
+               "@name": "Self Tattoo",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Physics": {
+               "@label": {
+                  "string": "Physics"
+               },
+               "@name": "Self Physics",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Alpha": {
+               "@label": {
+                  "string": "Alpha"
+               },
+               "@name": "Self Alpha",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_separator": null,
+            "menu_item_call:All Clothes": {
+               "@label": {
+                  "string": "All Clothes"
+               },
+               "@name": "All Clothes",
+               "menu_item_call.on_click": null
+            }
+         },
+         "context_menu:Object Detach HUD": {
+            "@label": {
+               "string": "HUD"
+            },
+            "@name": "Object Detach HUD"
+         },
+         "context_menu:Object Detach": {
+            "@label": {
+               "string": "Detach"
+            },
+            "@name": "Object Detach"
+         },
+         "menu_item_call:Detach All": {
+            "@label": {
+               "string": "Detach All"
+            },
+            "@name": "Detach All",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      },
+      "menu_item_call:NowWearing": {
+         "@label": {
+            "string": "Now wearing..."
+         },
+         "@name": "NowWearing",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Chenge Outfit": {
+         "@label": {
+            "string": "Outfits"
+         },
+         "@name": "Chenge Outfit",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Edit My Shape": {
+         "@label": {
+            "string": "Edit Shape"
+         },
+         "@name": "Edit My Shape",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Edit Outfit Parts": {
+         "@label": {
+            "string": "Edit Outfit"
+         },
+         "@name": "Edit Outfit Parts",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Hover Height": {
+         "@label": {
+            "string": "Hover Height"
+         },
+         "@name": "Hover Height",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Reset Skeleton": {
+         "@label": {
+            "string": "Reset Skeleton"
+         },
+         "@name": "Reset Skeleton",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Reset Skeleton And Animations": {
+         "@label": {
+            "string": "Reset Skeleton And Animations"
+         },
+         "@name": "Reset Skeleton And Animations",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Reset Mesh LOD": {
+         "@label": {
+            "string": "Reset Mesh LOD"
+         },
+         "@name": "Reset Mesh LOD",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Friends...": {
+         "@label": {
+            "string": "Friends"
+         },
+         "@name": "Friends...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Groups...": {
+         "@label": {
+            "string": "Groups"
+         },
+         "@name": "Groups...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Profile...": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "Profile...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:ScriptInfo": {
+         "@label": {
+            "string": "Script Info"
+         },
+         "@name": "ScriptInfo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Debug...": {
+         "@label": {
+            "string": "Show Textures"
+         },
+         "@name": "Debug...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Texture Refresh": {
+         "@label": {
+            "string": "Texture Refresh"
+         },
+         "@name": "Texture Refresh",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Dump XML": {
+         "@label": {
+            "string": "Dump XML"
+         },
+         "@name": "Dump XML",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Mute Particle": {
+         "@label": {
+            "string": "Block Particle Owner"
+         },
+         "@name": "Mute Particle",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

@@ -1,0 +1,267 @@
+{
+   "floater": {
+      "@name": "texture picker",
+      "@title": {
+         "string": "Pick: Texture"
+      },
+      "#comment": "  top static ",
+      "floater.string:choose_picture": {
+         "@name": "choose_picture",
+         "#text": {
+            "string": "\n        Click to choose a picture\n    "
+         }
+      },
+      "floater.string:pick title": {
+         "@name": "pick title",
+         "#text": {
+            "string": "\n        Pick:\n    "
+         }
+      },
+      "view:preview_widget": {
+         "@name": "preview_widget"
+      },
+      "text:Multiple": {
+         "@name": "Multiple",
+         "#text": {
+            "string": "\n        Multiple textures\n    "
+         }
+      },
+      "#comment$7": " mode selector ",
+      "radio_group:mode_selection": {
+         "@name": "mode_selection",
+         "radio_item:inventory": {
+            "@label": {
+               "string": "Inventory"
+            },
+            "@name": "inventory"
+         },
+         "radio_item:local": {
+            "@label": {
+               "string": "Local"
+            },
+            "@name": "local"
+         },
+         "radio_item:bake": {
+            "@label": {
+               "string": "Bake"
+            },
+            "@name": "bake"
+         }
+      },
+      "#comment$9": " ",
+      "text:size_lbl": {
+         "@name": "size_lbl",
+         "#text": {
+            "string": "\n        Size:\n[DIMENSIONS]\n    "
+         }
+      },
+      "#comment$11": "  middle: inventory mode ",
+      "button:Default": {
+         "@label": {
+            "string": "Default"
+         },
+         "@name": "Default"
+      },
+      "button:Blank": {
+         "@label": {
+            "string": "Blank"
+         },
+         "@name": "Blank"
+      },
+      "button:Transparent": {
+         "@label": {
+            "string": "Transparent"
+         },
+         "@name": "Transparent",
+         "@tool_tip": {
+            "string": "Note: If transparent texture is selected, or another texture with partial transperancy, light will not project."
+         }
+      },
+      "button:None": {
+         "@label": {
+            "string": "None"
+         },
+         "@name": "None"
+      },
+      "button:Pipette": {
+         "@name": "Pipette"
+      },
+      "text:preview_disabled": {
+         "@name": "preview_disabled",
+         "@value": {
+            "string": "Preview Disabled"
+         }
+      },
+      "filter_editor:inventory search editor": {
+         "@label": {
+            "string": "Filter Textures"
+         },
+         "@name": "inventory search editor"
+      },
+      "asset_filtered_inv_panel:inventory panel": {
+         "@name": "inventory panel"
+      },
+      "check_box:show_folders_check": {
+         "@label": {
+            "string": "Show folders"
+         },
+         "@name": "show_folders_check"
+      },
+      "#comment$21": "  middle: local mode ",
+      "button:l_add_btn": {
+         "@label": {
+            "string": "Add"
+         },
+         "@name": "l_add_btn"
+      },
+      "button:l_rem_btn": {
+         "@label": {
+            "string": "Remove"
+         },
+         "@name": "l_rem_btn"
+      },
+      "button:l_upl_btn": {
+         "@label": {
+            "string": "Upload"
+         },
+         "@name": "l_upl_btn"
+      },
+      "scroll_list:l_name_list": {
+         "@name": "l_name_list",
+         "column:unit_name": {
+            "@name": "unit_name",
+            "@label": {
+               "string": "Name"
+            }
+         },
+         "column:unit_id_HIDDEN": {
+            "@name": "unit_id_HIDDEN",
+            "@label": {
+               "string": "ID"
+            }
+         }
+      },
+      "#comment$26": " middle: bake mode ",
+      "combo_box:l_bake_use_texture_combo_box": {
+         "@name": "l_bake_use_texture_combo_box",
+         "@tool_tip": {
+            "string": "Choose the bake texture"
+         },
+         "combo_box.item:None": {
+            "@label": {
+               "string": "None"
+            },
+            "@name": "None"
+         },
+         "combo_box.item:BAKED_HEAD": {
+            "@label": {
+               "string": "BAKED_HEAD"
+            },
+            "@name": "BAKED_HEAD"
+         },
+         "combo_box.item:BAKED_UPPER": {
+            "@label": {
+               "string": "BAKED_UPPER"
+            },
+            "@name": "BAKED_UPPER"
+         },
+         "combo_box.item:BAKED_LOWER": {
+            "@label": {
+               "string": "BAKED_LOWER"
+            },
+            "@name": "BAKED_LOWER"
+         },
+         "combo_box.item:BAKED_EYES": {
+            "@label": {
+               "string": "BAKED_EYES"
+            },
+            "@name": "BAKED_EYES"
+         },
+         "combo_box.item:BAKED_SKIRT": {
+            "@label": {
+               "string": "BAKED_SKIRT"
+            },
+            "@name": "BAKED_SKIRT"
+         },
+         "combo_box.item:BAKED_HAIR": {
+            "@label": {
+               "string": "BAKED_HAIR"
+            },
+            "@name": "BAKED_HAIR"
+         },
+         "combo_box.item:BAKED_LEFTARM": {
+            "@label": {
+               "string": "BAKED_LEFTARM"
+            },
+            "@name": "BAKED_LEFTARM"
+         },
+         "combo_box.item:BAKED_LEFTLEG": {
+            "@label": {
+               "string": "BAKED_LEFTLEG"
+            },
+            "@name": "BAKED_LEFTLEG"
+         },
+         "combo_box.item:BAKED_AUX1": {
+            "@label": {
+               "string": "BAKED_AUX1"
+            },
+            "@name": "BAKED_AUX1"
+         },
+         "combo_box.item:BAKED_AUX2": {
+            "@label": {
+               "string": "BAKED_AUX2"
+            },
+            "@name": "BAKED_AUX2"
+         },
+         "combo_box.item:BAKED_AUX3": {
+            "@label": {
+               "string": "BAKED_AUX3"
+            },
+            "@name": "BAKED_AUX3"
+         }
+      },
+      "check_box:hide_base_mesh_region": {
+         "@label": {
+            "string": "Hide Base Mesh Region"
+         },
+         "@name": "hide_base_mesh_region"
+      },
+      "#comment$29": " bottom static ",
+      "line_editor:TextureKey": {
+         "@name": "TextureKey",
+         "@label": {
+            "string": "00000000-0000-0000-0000-000000000000"
+         },
+         "@tool_tip": {
+            "string": "Texture Key"
+         }
+      },
+      "button:TextureKeyApply": {
+         "@name": "TextureKeyApply",
+         "@label": {
+            "string": "Apply UUID"
+         },
+         "@tool_tip": {
+            "string": "Apply this UUID"
+         }
+      },
+      "button:Select": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "Select"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      },
+      "check_box:apply_immediate_check": {
+         "@label": {
+            "string": "Apply now"
+         },
+         "@name": "apply_immediate_check"
+      }
+   }
+}

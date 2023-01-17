@@ -1,0 +1,361 @@
+{
+   "floater": {
+      "#comment": " Strings are used by C++ code for localization.  They are not visible\n       unless the C++ code uses them to fill in another widget. ",
+      "floater.string:sample_string": {
+         "@name": "sample_string",
+         "@value": {
+            "string": "Sample String"
+         }
+      },
+      "floater.string:other_string": {
+         "@name": "other_string",
+         "@value": {
+            "string": "Other String"
+         }
+      },
+      "#comment$3": " Floaters can contain drop-down menus.\n       The menu_bar widget contains the inividual menus.\n       The width is automatically computed to fit the labels. ",
+      "menu_bar:test_menu_bar": {
+         "@tool_tip": {
+            "string": "menu"
+         },
+         "@name": "test_menu_bar",
+         "menu:Menu": {
+            "@label": {
+               "string": "Menu"
+            },
+            "@name": "Menu",
+            "#comment": " menu_item_call will trigger a function call in the C++ code ",
+            "menu_item_call:test_menu_item_1": {
+               "@label": {
+                  "string": "Menu Item 1"
+               },
+               "@name": "test_menu_item_1"
+            },
+            "#comment$4": " menu_item_separator is a horizontal line used to separate sections\n           of a menu.  In general, menus should be divided into chunks of\n           no more than 7 items separated by menu_item_separators. ",
+            "menu_item_separator": null,
+            "menu_item_call:test_menu_item_2": {
+               "@label": {
+                  "string": "Menu Item 2"
+               },
+               "@name": "test_menu_item_2"
+            }
+         }
+      },
+      "#comment$5": " \"text\" is one or more read-only lines of text.\n       It can be made clickable but this requires C++ code\n       support.  URLs are not automatically underlined. ",
+      "text": "\n    For widget list see http://wiki.secondlife.com/wiki/XUI_Reference\n  ",
+      "#comment$7": " First column ",
+      "button:test_button": {
+         "@label": {
+            "string": "Button"
+         },
+         "@name": "test_button",
+         "@tool_tip": {
+            "string": "button"
+         }
+      },
+      "#comment$9": " \"flyout_button\" is a button that can spawn a menu ",
+      "flyout_button:fly_btn": {
+         "@label": {
+            "string": "Flyout"
+         },
+         "@name": "fly_btn",
+         "@tool_tip": {
+            "string": "flyout button"
+         },
+         "flyout_button.item": {
+            "@label": {
+               "string": "Item 1"
+            },
+            "@value": {
+               "string": "shout"
+            }
+         },
+         "flyout_button.item$4": {
+            "@label": {
+               "string": "Item 2"
+            },
+            "@value": {
+               "string": "say"
+            }
+         },
+         "flyout_button.item$5": {
+            "@label": {
+               "string": "Item 3"
+            },
+            "@value": {
+               "string": "whisper"
+            }
+         }
+      },
+      "check_box:test_checkbox": {
+         "@label": {
+            "string": "Checkbox"
+         },
+         "@tool_tip": {
+            "string": "checkbox"
+         },
+         "@name": "test_checkbox"
+      },
+      "check_box:test_checkbox_disabled": {
+         "@label": {
+            "string": "Checkbox Disabled"
+         },
+         "@tool_tip": {
+            "string": "checkbox disabled"
+         },
+         "@name": "test_checkbox_disabled"
+      },
+      "#comment$13": " \"combo_box\" is a pop-menu of items.  Optionally the box itself can\n       contain a general purpose line input editor, allowing the user to\n       provide input that is not a list item. ",
+      "combo_box:test_combo_box": {
+         "@label": {
+            "string": "Combobox"
+         },
+         "@tool_tip": {
+            "string": "combo box"
+         },
+         "@name": "test_combo_box",
+         "combo_box.item:item1": {
+            "@name": "item1",
+            "@label": {
+               "string": "Combobox Item 1"
+            }
+         },
+         "combo_box.item:item2": {
+            "@name": "item2",
+            "@label": {
+               "string": "Combobox Item 2"
+            }
+         }
+      },
+      "#comment$15": " \"icon\" is a read-only image.  The image_name must match an entry\n        in textures.xml.  We support TGA and PNG for UI images. ",
+      "icon:test_icon": {
+         "@tool_tip": {
+            "string": "icon"
+         },
+         "@name": "test_icon"
+      },
+      "#comment$17": " \"line_editor\" allows a single line of editable text input.\n        The contents of this XML node are used as the initial value for\n        the text. ",
+      "line_editor:test_line_editor": {
+         "@name": "test_line_editor",
+         "@tool_tip": {
+            "string": "line editor"
+         },
+         "#text": {
+            "string": "\n    Line Editor Sample Text\n  "
+         }
+      },
+      "#comment$19": " \"filter_editor\" is a specialized line_editor that shows read-only\n       help text until the user clicks in the widget. ",
+      "filter_editor:search editor": {
+         "@label": {
+            "string": "Type here to search"
+         },
+         "@name": "search editor",
+         "@tool_tip": {
+            "string": "search editor"
+         }
+      },
+      "#comment$21": " \"progress_bar\" percent completed gets set in C++ code ",
+      "progress_bar:test_progress_bar": {
+         "@name": "test_progress_bar",
+         "@tool_tip": {
+            "string": "progress bar"
+         }
+      },
+      "#comment$23": " \"stat_view\" is a container for statistics graphs.  It is only used\n       for debugging/diagnostic displays. ",
+      "stat_view:axis_view": {
+         "@label": {
+            "string": "Statistics View"
+         },
+         "@name": "axis_view",
+         "@tool_tip": {
+            "string": "stat view"
+         },
+         "stat_bar:test_stat_bar": {
+            "@label": {
+               "string": "Test Stat"
+            },
+            "@name": "test_stat_bar"
+         }
+      },
+      "#comment$25": " New column ",
+      "#comment$26": " \"radio_group\" is a set of mutually exclusive choices, like the buttons\n       on a car radio that allow a single radio station to be chosen. ",
+      "radio_group:size_radio_group": {
+         "@name": "size_radio_group",
+         "@tool_tip": {
+            "string": "radio group"
+         },
+         "radio_item:small_radio_item": {
+            "@label": {
+               "string": "Radio 1"
+            },
+            "@name": "small_radio_item"
+         },
+         "radio_item:large_radio_item": {
+            "@label": {
+               "string": "Radio 2"
+            },
+            "@name": "large_radio_item"
+         }
+      },
+      "#comment$28": " \"scroll_list\" is a scrolling list of columnar data. ",
+      "scroll_list": {
+         "@tool_tip": {
+            "string": "scroll list"
+         },
+         "scroll_list.columns:first_column": {
+            "@name": "first_column",
+            "@label": {
+               "string": "Column A"
+            }
+         },
+         "scroll_list.columns:second_column": {
+            "@name": "second_column",
+            "@label": {
+               "string": "Column B"
+            }
+         },
+         "row": {
+            "column": "short text",
+            "column$1": "more short text"
+         },
+         "row$4": {
+            "column": "this is some longer text",
+            "column$1": "and here is some more long text"
+         }
+      },
+      "#comment$30": " \"slider\" is a horizontal input widget for numerical data. ",
+      "slider:test_slider": {
+         "@label": {
+            "string": "Slider"
+         },
+         "@name": "test_slider",
+         "@tool_tip": {
+            "string": "slider"
+         }
+      },
+      "#comment$32": " \"spinner\" is a numerical input widget with an up and down arrow to\n       change the value. ",
+      "spinner:test_spinner": {
+         "@label": {
+            "string": "Spinner"
+         },
+         "@name": "test_spinner",
+         "@tool_tip": {
+            "string": "spinner"
+         }
+      },
+      "text$34": {
+         "@name": "test_text",
+         "@tool_tip": {
+            "string": "text"
+         },
+         "#text": {
+            "string": "\n    Text (underlined)\n  "
+         }
+      },
+      "text$35": {
+         "@name": "test_text",
+         "@tool_tip": {
+            "string": "text"
+         },
+         "#text": {
+            "string": "\n    Truncated text here\n  "
+         }
+      },
+      "#comment$36": " \"text_editor\" is a multi-line text input widget, similar to\n       textarea in HTML. ",
+      "text_editor:test_text_editor": {
+         "@name": "test_text_editor",
+         "@tool_tip": {
+            "string": "text editor"
+         },
+         "#text": {
+            "string": "\n    Text Editor\n  "
+         }
+      },
+      "text$38": {
+         "@name": "test_text_box",
+         "@tool_tip": {
+            "string": "text box"
+         },
+         "#text": {
+            "string": "\n      Text box\nwith\nmultiple lines\nand too\nmany\nline to actually fit\n  "
+         }
+      },
+      "#comment$39": " And a third column ",
+      "#comment$40": " \"tab_container\" is a holder for multiple panels of UI widgets.\n       Tabs can appear at the top, bottom, or left of the container. ",
+      "tab_container:group_tab_container": {
+         "@name": "group_tab_container",
+         "@tool_tip": {
+            "string": "tab container"
+         },
+         "#comment": " \"panel\" is a container for widgets.  It is automatically resized to\n         fit the parent tab_container. ",
+         "panel:panel2": {
+            "@label": {
+               "string": "Tab 1 - Color"
+            },
+            "@name": "panel2",
+            "#comment": " \"color_swatch\" displays a color and spawns a color picker when\n           clicked. ",
+            "color_swatch:swatch1": {
+               "@label": {
+                  "string": "Color Swatch 1"
+               },
+               "@name": "swatch1",
+               "@tool_tip": {
+                  "string": "Color Swatch: Click to open Color Picker"
+               }
+            },
+            "color_swatch:swatch2": {
+               "@label": {
+                  "string": "Color Swatch 2"
+               },
+               "@name": "swatch2",
+               "@tool_tip": {
+                  "string": "Color Swatch: Click to open Color Picker"
+               }
+            },
+            "text:test_text10": {
+               "@name": "test_text10",
+               "@tool_tip": {
+                  "string": "text"
+               },
+               "#text": {
+                  "string": "\n        SansSerifSmall.  Русский 中文 (简体)\n      "
+               }
+            },
+            "text:test_text11": {
+               "@name": "test_text11",
+               "@tool_tip": {
+                  "string": "text"
+               },
+               "#text": {
+                  "string": "\n        SansSerif.  Русский 中文 (简体)\n      "
+               }
+            },
+            "text:test_text12": {
+               "@name": "test_text12",
+               "@tool_tip": {
+                  "string": "text"
+               },
+               "#text": {
+                  "string": "\n        SansSerifLarge.  Русский 中文 (简体)\n      "
+               }
+            },
+            "text:test_text13": {
+               "@name": "test_text13",
+               "@tool_tip": {
+                  "string": "text"
+               },
+               "#text": {
+                  "string": "\n        SansSerifHuge.  Русский 中文 (简体)\n      "
+               }
+            }
+         },
+         "#comment$4": " panels can also refer to other floaters or panels ",
+         "panel:tab2": {
+            "@label": {
+               "string": "Tab 2 - Checkbox"
+            },
+            "@name": "tab2"
+         }
+      }
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "context_menu": {
+      "@name": "Classifieds",
+      "menu_item_call:classified_info": {
+         "@label": {
+            "string": "Info"
+         },
+         "@name": "classified_info",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:classified_edit": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "classified_edit",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:classified_teleport": {
+         "@label": {
+            "string": "Teleport"
+         },
+         "@name": "classified_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:classified_map": {
+         "@label": {
+            "string": "Map"
+         },
+         "@name": "classified_map",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:classified_separator": {
+         "@name": "classified_separator"
+      },
+      "menu_item_call:classified_delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "classified_delete",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

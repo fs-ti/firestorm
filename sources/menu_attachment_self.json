@@ -1,0 +1,389 @@
+{
+   "context_menu": {
+      "@name": "Attachment Pie",
+      "menu_item_call:Attachment Object Touch": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "Attachment Object Touch",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable:EnableTouch": {
+            "@name": "EnableTouch"
+         }
+      },
+      "#comment": "menu_item_call\n     label=\"Stand Up\"\n     layout=\"topleft\"\n     name=\"Stand Up\">\n        <menu_item_call.on_click\n         function=\"Self.StandUp\"\n         parameter=\"\" />\n        <menu_item_call.on_enable\n         function=\"Self.EnableStandUp\" />\n    </menu_item_call",
+      "menu_item_call:Edit...": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "Edit...",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Detach": {
+         "@label": {
+            "string": "Detach"
+         },
+         "@name": "Detach",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "context_menu:Export Menu": {
+         "@label": {
+            "string": "Save as"
+         },
+         "@name": "Export Menu",
+         "menu_item_call:Backup": {
+            "@label": {
+               "string": "Backup"
+            },
+            "@name": "Backup",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Collada": {
+            "@label": {
+               "string": "Collada"
+            },
+            "@name": "Collada",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Sit Down Here": {
+         "@label": {
+            "string": "Sit Down"
+         },
+         "@name": "Sit Down Here",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Stand Up": {
+         "@label": {
+            "string": "Stand Up"
+         },
+         "@name": "Stand Up",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:NowWearing": {
+         "@label": {
+            "string": "Now wearing..."
+         },
+         "@name": "NowWearing",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Change Outfit": {
+         "@label": {
+            "string": "Change Outfit"
+         },
+         "@name": "Change Outfit",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Edit Shape": {
+         "@label": {
+            "string": "Edit Shape"
+         },
+         "@name": "Edit Shape",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Edit Outfit Parts": {
+         "@label": {
+            "string": "Edit Outfit"
+         },
+         "@name": "Edit Outfit Parts",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Hover Height": {
+         "@label": {
+            "string": "Hover Height"
+         },
+         "@name": "Hover Height",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "context_menu:Take Off >": {
+         "@label": {
+            "string": "Take off"
+         },
+         "@name": "Take Off >",
+         "context_menu:Clothes >": {
+            "@label": {
+               "string": "Clothes"
+            },
+            "@name": "Clothes >",
+            "menu_item_call:Shirt": {
+               "@label": {
+                  "string": "Shirt"
+               },
+               "@name": "Shirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Pants": {
+               "@label": {
+                  "string": "Pants"
+               },
+               "@name": "Pants",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Skirt": {
+               "@label": {
+                  "string": "Skirt"
+               },
+               "@name": "Skirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Shoes": {
+               "@label": {
+                  "string": "Shoes"
+               },
+               "@name": "Shoes",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Socks": {
+               "@label": {
+                  "string": "Socks"
+               },
+               "@name": "Socks",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Jacket": {
+               "@label": {
+                  "string": "Jacket"
+               },
+               "@name": "Jacket",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Gloves": {
+               "@label": {
+                  "string": "Gloves"
+               },
+               "@name": "Gloves",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Undershirt": {
+               "@label": {
+                  "string": "Undershirt"
+               },
+               "@name": "Self Undershirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Underpants": {
+               "@label": {
+                  "string": "Underpants"
+               },
+               "@name": "Self Underpants",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Tattoo": {
+               "@label": {
+                  "string": "Tattoo"
+               },
+               "@name": "Self Tattoo",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Physics": {
+               "@label": {
+                  "string": "Physics"
+               },
+               "@name": "Self Physics",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Self Alpha": {
+               "@label": {
+                  "string": "Alpha"
+               },
+               "@name": "Self Alpha",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_separator": null,
+            "menu_item_call:All Clothes": {
+               "@label": {
+                  "string": "All Clothes"
+               },
+               "@name": "All Clothes",
+               "menu_item_call.on_click": null
+            }
+         },
+         "context_menu:Detach Self HUD": {
+            "@label": {
+               "string": "HUD"
+            },
+            "@name": "Detach Self HUD"
+         },
+         "context_menu:Detach Self": {
+            "@label": {
+               "string": "Detach"
+            },
+            "@name": "Detach Self"
+         },
+         "menu_item_call:Detach All": {
+            "@label": {
+               "string": "Detach All"
+            },
+            "@name": "Detach All",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      },
+      "menu_item_call:Sit stand": {
+         "@label": {
+            "string": "Sit / stand"
+         },
+         "@name": "Sit stand",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Fly land": {
+         "@label": {
+            "string": "Fly / land"
+         },
+         "@name": "Fly land",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Stop Animating My Avatar": {
+         "@label": {
+            "string": "Stop animations"
+         },
+         "@name": "Stop Animating My Avatar",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Reset Skeleton": {
+         "@label": {
+            "string": "Reset Skeleton"
+         },
+         "@name": "Reset Skeleton",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Reset Skeleton And Animations": {
+         "@label": {
+            "string": "Reset Skeleton And Animations"
+         },
+         "@name": "Reset Skeleton And Animations",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Reset Mesh LOD": {
+         "@label": {
+            "string": "Reset Mesh LOD"
+         },
+         "@name": "Reset Mesh LOD",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Friends...": {
+         "@label": {
+            "string": "Friends"
+         },
+         "@name": "Friends...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Groups...": {
+         "@label": {
+            "string": "Groups"
+         },
+         "@name": "Groups...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Profile...": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "Profile...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Dump XML": {
+         "@label": {
+            "string": "Dump XML"
+         },
+         "@name": "Dump XML",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Object Inspect": {
+         "@label": {
+            "string": "Object Profile"
+         },
+         "@name": "Object Inspect",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Object_Inspect_Floater": {
+         "@label": {
+            "string": "Inspect"
+         },
+         "@name": "Object_Inspect_Floater",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:ScriptInfo": {
+         "@label": {
+            "string": "Script Info"
+         },
+         "@name": "ScriptInfo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Derender": {
+         "@label": {
+            "string": "Derender"
+         },
+         "@name": "Derender",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:DerenderPermanent": {
+         "@label": {
+            "string": "Derender + Blacklist"
+         },
+         "@name": "DerenderPermanent",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Debug...": {
+         "@label": {
+            "string": "Show Textures"
+         },
+         "@name": "Debug...",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Texture Refresh": {
+         "@label": {
+            "string": "Texture Refresh"
+         },
+         "@name": "Texture Refresh",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Drop": {
+         "@label": {
+            "string": "Drop"
+         },
+         "@name": "Drop",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Mute Particle": {
+         "@label": {
+            "string": "Block Particle Owner"
+         },
+         "@name": "Mute Particle",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

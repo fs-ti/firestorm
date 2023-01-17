@@ -1,0 +1,17 @@
+{
+   "toggleable_menu": {
+      "@name": "Gear COF",
+      "menu:COF.Gear.New_Clothes": {
+         "@label": {
+            "string": "New Clothes"
+         },
+         "@name": "COF.Gear.New_Clothes"
+      },
+      "menu:COF.Gear.New_Body_Parts": {
+         "@label": {
+            "string": "New Body Parts"
+         },
+         "@name": "COF.Gear.New_Body_Parts"
+      }
+   }
+}

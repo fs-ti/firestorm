@@ -1,0 +1,247 @@
+{
+   "floater": {
+      "string:ExternalEditorNotSet": {
+         "@name": "ExternalEditorNotSet",
+         "#text": {
+            "string": "\nSelect an editor by setting the environment variable LL_XUI_EDITOR\nor the ExternalEditor setting\nor specifying its path in the \"Editor Path\" field."
+         }
+      },
+      "panel:main_panel": {
+         "@name": "main_panel",
+         "text:select_language_label": {
+            "@name": "select_language_label",
+            "#text": {
+               "string": "\n            Primary Language:\n        "
+            }
+         },
+         "combo_box:language_select_combo": {
+            "@name": "language_select_combo",
+            "combo_box.item:item1": {
+               "@label": {
+                  "string": "en"
+               },
+               "@name": "item1"
+            }
+         },
+         "button:display_floater": {
+            "@label": {
+               "string": "Show"
+            },
+            "@name": "display_floater",
+            "@tool_tip": {
+               "string": "Display the XUI floater defined by the selected XML file"
+            }
+         },
+         "button:close_displayed_floater": {
+            "@label": {
+               "string": "Hide"
+            },
+            "@name": "close_displayed_floater",
+            "@tool_tip": {
+               "string": "Closes the currently-displayed floater, if one exists"
+            }
+         },
+         "button:edit_floater": {
+            "@label": {
+               "string": "Edit..."
+            },
+            "@name": "edit_floater",
+            "@tool_tip": {
+               "string": "Edit the XUI floater defined by the selected XML file (opens external editor).  Opens en version if no localized version exists."
+            }
+         },
+         "button:save_floater": {
+            "@label": {
+               "string": "Save"
+            },
+            "@name": "save_floater",
+            "@tool_tip": {
+               "string": "Save the XUI floater defined by the selected XML file"
+            }
+         },
+         "button:save_all_floaters": {
+            "@label": {
+               "string": "Save All"
+            },
+            "@name": "save_all_floaters",
+            "@tool_tip": {
+               "string": "Save all XUI floaters defined by the selected language"
+            }
+         },
+         "button:toggle_overlap_panel": {
+            "@label": {
+               "string": "> >"
+            },
+            "@name": "toggle_overlap_panel",
+            "@tool_tip": {
+               "string": "Toggle highlighting and display panel for overlapping elements; right-click an element to select it for this feature.  The selected element is marked by a red rectangle."
+            }
+         },
+         "text:select_language_label_2": {
+            "@name": "select_language_label_2",
+            "#text": {
+               "string": "\n            Secondary Language:\n        "
+            }
+         },
+         "combo_box:language_select_combo_2": {
+            "@name": "language_select_combo_2",
+            "combo_box.item:item1": {
+               "@label": {
+                  "string": "en"
+               },
+               "@name": "item1"
+            }
+         },
+         "button:display_floater_2": {
+            "@label": {
+               "string": "Show"
+            },
+            "@name": "display_floater_2",
+            "@tool_tip": {
+               "string": "Display the XUI floater defined by the selected XML file"
+            }
+         },
+         "button:close_displayed_floater_2": {
+            "@label": {
+               "string": "Hide"
+            },
+            "@name": "close_displayed_floater_2",
+            "@tool_tip": {
+               "string": "Closes the currently-displayed floater, if one exists"
+            }
+         },
+         "button:export_schema": {
+            "@label": {
+               "string": "Export Schema"
+            },
+            "@name": "export_schema"
+         },
+         "button:refresh_btn": {
+            "@label": {
+               "string": "Refresh"
+            },
+            "@name": "refresh_btn"
+         },
+         "check_box:show_rectangles": {
+            "@label": {
+               "string": "Show Rectangles"
+            },
+            "@name": "show_rectangles"
+         },
+         "scroll_list:name_list": {
+            "@label": {
+               "string": "Name"
+            },
+            "@name": "name_list",
+            "scroll_list.columns:title_column": {
+               "@label": {
+                  "string": "Title"
+               },
+               "@name": "title_column"
+            },
+            "scroll_list.columns:file_column": {
+               "@label": {
+                  "string": "File"
+               },
+               "@name": "file_column"
+            },
+            "scroll_list.columns:top_level_node_column": {
+               "@label": {
+                  "string": "Top-Level Node"
+               },
+               "@name": "top_level_node_column"
+            }
+         },
+         "panel:editor_panel": {
+            "@name": "editor_panel",
+            "text:editor_path_label": {
+               "@name": "editor_path_label",
+               "#text": {
+                  "string": "\n                Editor Path:\n            "
+               }
+            },
+            "line_editor:executable_path_field": {
+               "@name": "executable_path_field",
+               "@tool_tip": {
+                  "string": "The full path to an editor (executable) to edit floater XML files (quotes not necessary)"
+               }
+            },
+            "button:browse_for_executable": {
+               "@label": {
+                  "string": "Browse..."
+               },
+               "@name": "browse_for_executable",
+               "@tool_tip": {
+                  "string": "Browse for an editor (executable) to edit floater XML files"
+               }
+            },
+            "text:executable_args_label": {
+               "@name": "executable_args_label",
+               "#text": {
+                  "string": "\n                Editor Arguments:\n            "
+               }
+            },
+            "line_editor:executable_args_field": {
+               "@name": "executable_args_field",
+               "@tool_tip": {
+                  "string": "Command-line arguments to the editor; use '%FILE%' to refer to the target file; 'YourProgram.exe FileName.xml' will be run if this field is empty"
+               }
+            }
+         },
+         "panel:vlt_panel": {
+            "@name": "vlt_panel",
+            "text:diff_file_label": {
+               "@name": "diff_file_label",
+               "#text": {
+                  "string": "\n                Delta File:\n            "
+               }
+            },
+            "line_editor:vlt_diff_path_field": {
+               "@name": "vlt_diff_path_field",
+               "@tool_tip": {
+                  "string": "The full path to an XML D0 or D1 localization difference file generated by the Viewer Localization Toolkit"
+               }
+            },
+            "button:browse_for_vlt_diffs": {
+               "@label": {
+                  "string": "Browse..."
+               },
+               "@name": "browse_for_vlt_diffs",
+               "@tool_tip": {
+                  "string": "Browse for a VLT-generated D0 or D1 difference file to highlight changed files and elements"
+               }
+            },
+            "button:toggle_vlt_diff_highlight": {
+               "@label": {
+                  "string": "Highlight Diffs"
+               },
+               "@name": "toggle_vlt_diff_highlight",
+               "@tool_tip": {
+                  "string": "Toggle highlighting of files and elements containing changed localization data"
+               }
+            }
+         }
+      },
+      "scroll_container:overlap_scroll": {
+         "@name": "overlap_scroll",
+         "panel:overlap_dummy_panel": {
+            "@name": "overlap_dummy_panel",
+            "overlap_panel:overlap_panel": {
+               "@label": {
+                  "string": "Overlap Panel"
+               },
+               "@name": "overlap_panel",
+               "@tool_tip": {
+                  "string": "This panel displays the currently-selected element and all of the elements that overlap it, separated by horizontal lines"
+               }
+            },
+            "text:overlap_panel_label": {
+               "@name": "overlap_panel_label",
+               "#text": {
+                  "string": "\n            Overlapping Elements:\n        "
+               }
+            }
+         }
+      }
+   }
+}

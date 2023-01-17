@@ -1,0 +1,19 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_settings_add.xml",
+      "menu_item_call:add_avatar_always_render": {
+         "@label": {
+            "string": "Always full detail..."
+         },
+         "@name": "add_avatar_always_render",
+         "on_click": null
+      },
+      "menu_item_call:add_avatar_never_render": {
+         "@label": {
+            "string": "Never full detail..."
+         },
+         "@name": "add_avatar_never_render",
+         "on_click": null
+      }
+   }
+}

@@ -1,0 +1,119 @@
+{
+   "toggleable_menu": {
+      "@name": "Conversation Context Menu",
+      "menu_item_call:IM": {
+         "@label": {
+            "string": "IM..."
+         },
+         "@name": "IM",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Call": {
+         "@label": {
+            "string": "Voice call..."
+         },
+         "@name": "Call",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Chat history": {
+         "@label": {
+            "string": "Open chat transcript..."
+         },
+         "@name": "Chat history",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Chat history External": {
+         "@label": {
+            "string": "Open chat transcript externally..."
+         },
+         "@name": "Chat history External",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:View Profile": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "View Profile",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:teleport": {
+         "@label": {
+            "string": "Offer Teleport"
+         },
+         "@name": "teleport",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:request_teleport": {
+         "@label": {
+            "string": "Request Teleport"
+         },
+         "@name": "request_teleport",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:add_friend": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "add_friend",
+         "on_click": null,
+         "on_visible": null
+      },
+      "menu_item_call:remove_friend": {
+         "@label": {
+            "string": "Remove Friend"
+         },
+         "@name": "remove_friend",
+         "on_click": null,
+         "on_visible": null
+      },
+      "menu_item_call:Invite": {
+         "@label": {
+            "string": "Invite to group..."
+         },
+         "@name": "Invite",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Map": {
+         "@label": {
+            "string": "Map"
+         },
+         "@name": "Map",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "Share",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "Pay",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_check:Block/Unblock": {
+         "@label": {
+            "string": "Block/Unblock"
+         },
+         "@name": "Block/Unblock",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      }
+   }
+}

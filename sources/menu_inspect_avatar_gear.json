@@ -1,0 +1,161 @@
+{
+   "toggleable_menu": {
+      "@name": "Gear Menu",
+      "menu_item_call:view_profile": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "view_profile",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:add_friend": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "add_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:im": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "im",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:call": {
+         "@label": {
+            "string": "Call"
+         },
+         "@name": "call",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:teleport": {
+         "@label": {
+            "string": "Offer Teleport"
+         },
+         "@name": "teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:request_teleport": {
+         "@label": {
+            "string": "Request Teleport"
+         },
+         "@name": "request_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:invite_to_group": {
+         "@label": {
+            "string": "Invite to Group"
+         },
+         "@name": "invite_to_group",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:block": {
+         "@label": {
+            "string": "Block"
+         },
+         "@name": "block",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:unblock": {
+         "@label": {
+            "string": "Unblock"
+         },
+         "@name": "unblock",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:report": {
+         "@label": {
+            "string": "Report"
+         },
+         "@name": "report",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:freeze": {
+         "@label": {
+            "string": "Freeze"
+         },
+         "@name": "freeze",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:eject": {
+         "@label": {
+            "string": "Eject"
+         },
+         "@name": "eject",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:kick": {
+         "@label": {
+            "string": "Kick"
+         },
+         "@name": "kick",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:csr": {
+         "@label": {
+            "string": "CSR"
+         },
+         "@name": "csr",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:debug": {
+         "@label": {
+            "string": "Debug Textures"
+         },
+         "@name": "debug",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Dump XML": {
+         "@label": {
+            "string": "Dump XML"
+         },
+         "@name": "Dump XML",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:find_on_map": {
+         "@label": {
+            "string": "Find On Map"
+         },
+         "@name": "find_on_map",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:zoom_in": {
+         "@label": {
+            "string": "Zoom In"
+         },
+         "@name": "zoom_in",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "pay",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "share",
+         "menu_item_call.on_click": null
+      }
+   }
+}

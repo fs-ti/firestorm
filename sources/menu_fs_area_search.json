@@ -1,0 +1,109 @@
+{
+   "context_menu": {
+      "@name": "Object List popup",
+      "menu_item_call:script_info": {
+         "@label": {
+            "string": "Script Info"
+         },
+         "@name": "script_info",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:touch_object": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "touch_object",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:sit_on_object": {
+         "@label": {
+            "string": "Sit"
+         },
+         "@name": "sit_on_object",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:teleport_to_object": {
+         "@label": {
+            "string": "Teleport to"
+         },
+         "@name": "teleport_to_object",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:look_at_object": {
+         "@label": {
+            "string": "Zoom"
+         },
+         "@name": "look_at_object",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:inspect_object": {
+         "@label": {
+            "string": "Inspect"
+         },
+         "@name": "inspect_object",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:edit_object": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit_object",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:return_object": {
+         "@label": {
+            "string": "Return"
+         },
+         "@name": "return_object",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:delete_object": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "delete_object",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:blacklist_object": {
+         "@label": {
+            "string": "Blacklist"
+         },
+         "@name": "blacklist_object",
+         "menu_item_call.on_click": null
+      },
+      "#comment": " <menu_item_separator\n   layout=\"topleft\"/>  ",
+      "menu_item_call:object_buy": {
+         "@label": {
+            "string": "Buy object"
+         },
+         "@name": "object_buy",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:filter_my_objects": {
+         "@label": {
+            "string": "Filter My Objects"
+         },
+         "@name": "filter_my_objects",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:select_all": {
+         "@label": {
+            "string": "Select All"
+         },
+         "@name": "select_all",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:clear_selection": {
+         "@label": {
+            "string": "Clear Selection"
+         },
+         "@name": "clear_selection",
+         "menu_item_call.on_click": null
+      }
+   }
+}

@@ -1,0 +1,2221 @@
+{
+   "floater": {
+      "@name": "toolbox floater",
+      "floater.string:grid_screen_text": {
+         "@name": "grid_screen_text",
+         "#text": {
+            "string": "\n    Screen\n  "
+         }
+      },
+      "floater.string:grid_local_text": {
+         "@name": "grid_local_text",
+         "#text": {
+            "string": "\n    Local\n  "
+         }
+      },
+      "floater.string:grid_world_text": {
+         "@name": "grid_world_text",
+         "#text": {
+            "string": "\n    World\n  "
+         }
+      },
+      "floater.string:grid_reference_text": {
+         "@name": "grid_reference_text",
+         "#text": {
+            "string": "\n    Reference\n  "
+         }
+      },
+      "floater.string:grid_attachment_text": {
+         "@name": "grid_attachment_text",
+         "#text": {
+            "string": "\n    Attachment\n  "
+         }
+      },
+      "floater.string:status_rotate": {
+         "@name": "status_rotate",
+         "#text": {
+            "string": "\n        Drag colored bands to rotate object\n    "
+         }
+      },
+      "floater.string:status_scale": {
+         "@name": "status_scale",
+         "#text": {
+            "string": "\n        Click and drag to stretch selected side\n    "
+         }
+      },
+      "floater.string:status_move": {
+         "@name": "status_move",
+         "#text": {
+            "string": "\n        Drag to move, shift-drag to copy\n    "
+         }
+      },
+      "floater.string:status_modifyland": {
+         "@name": "status_modifyland",
+         "#text": {
+            "string": "\n        Click and hold to modify land\n    "
+         }
+      },
+      "floater.string:status_camera": {
+         "@name": "status_camera",
+         "#text": {
+            "string": "\n        Click and drag to move camera\n    "
+         }
+      },
+      "floater.string:status_grab": {
+         "@name": "status_grab",
+         "#text": {
+            "string": "\n        Drag to move, Ctrl to lift, Ctrl+Shift to rotate\n    "
+         }
+      },
+      "floater.string:status_place": {
+         "@name": "status_place",
+         "#text": {
+            "string": "\n        Click inworld to build\n    "
+         }
+      },
+      "floater.string:status_selectland": {
+         "@name": "status_selectland",
+         "#text": {
+            "string": "\n        Click and drag to select land\n    "
+         }
+      },
+      "floater.string:status_selectcount": {
+         "@name": "status_selectcount",
+         "#text": {
+            "string": "\n        [OBJ_COUNT] objects selected, land impact [LAND_IMPACT]\n    "
+         }
+      },
+      "floater.string:status_remaining_capacity": {
+         "@name": "status_remaining_capacity",
+         "#text": {
+            "string": "\n        Remaining capacity [LAND_CAPACITY].\n    "
+         }
+      },
+      "floater.string:link_number": {
+         "@name": "link_number",
+         "#text": {
+            "string": "\n    Link number:\n  "
+         }
+      },
+      "floater.string:selected_faces": {
+         "@name": "selected_faces",
+         "#text": {
+            "string": "\n    Faces:\n  "
+         }
+      },
+      "button:button focus": {
+         "@name": "button focus",
+         "@tool_tip": {
+            "string": "Focus"
+         },
+         "button.commit_callback": null
+      },
+      "button:button move": {
+         "@name": "button move",
+         "@tool_tip": {
+            "string": "Move"
+         },
+         "button.commit_callback": null
+      },
+      "button:button edit": {
+         "@name": "button edit",
+         "@tool_tip": {
+            "string": "Edit"
+         },
+         "button.commit_callback": null
+      },
+      "button:button create": {
+         "@name": "button create",
+         "@tool_tip": {
+            "string": "Create"
+         },
+         "button.commit_callback": null
+      },
+      "button:button land": {
+         "@name": "button land",
+         "@tool_tip": {
+            "string": "Land"
+         },
+         "button.commit_callback": null
+      },
+      "text:text status": {
+         "@name": "text status",
+         "#text": {
+            "string": "\n        Drag to move, shift-drag to copy\n    "
+         }
+      },
+      "radio_group:focus_radio_group": {
+         "@name": "focus_radio_group",
+         "radio_item:radio zoom": {
+            "@label": {
+               "string": "Zoom"
+            },
+            "@name": "radio zoom"
+         },
+         "radio_item:radio orbit": {
+            "@label": {
+               "string": "Orbit (Ctrl)"
+            },
+            "@name": "radio orbit"
+         },
+         "radio_item:radio pan": {
+            "@label": {
+               "string": "Pan (Ctrl+Shift)"
+            },
+            "@name": "radio pan"
+         },
+         "radio_group.commit_callback": null
+      },
+      "slider_bar:slider zoom": {
+         "@name": "slider zoom",
+         "slider_bar.commit_callback": null
+      },
+      "radio_group:move_radio_group": {
+         "@name": "move_radio_group",
+         "radio_item:radio move": {
+            "@label": {
+               "string": "Move"
+            },
+            "@name": "radio move"
+         },
+         "radio_item:radio lift": {
+            "@label": {
+               "string": "Lift (Ctrl)"
+            },
+            "@name": "radio lift"
+         },
+         "radio_item:radio spin": {
+            "@label": {
+               "string": "Spin (Ctrl+Shift)"
+            },
+            "@name": "radio spin"
+         },
+         "radio_group.commit_callback": null
+      },
+      "radio_group:edit_radio_group": {
+         "@name": "edit_radio_group",
+         "radio_item:radio position": {
+            "@label": {
+               "string": "Move"
+            },
+            "@name": "radio position"
+         },
+         "radio_item:radio rotate": {
+            "@label": {
+               "string": "Rotate (Ctrl)"
+            },
+            "@name": "radio rotate"
+         },
+         "radio_item:radio stretch": {
+            "@label": {
+               "string": "Stretch (Ctrl+Shift)"
+            },
+            "@name": "radio stretch"
+         },
+         "radio_item:radio select face": {
+            "@label": {
+               "string": "Select Face"
+            },
+            "@name": "radio select face"
+         },
+         "radio_item:radio align": {
+            "@label": {
+               "string": "Align"
+            },
+            "@name": "radio align"
+         },
+         "radio_group.commit_callback": null
+      },
+      "check_box:checkbox edit linked parts": {
+         "@label": {
+            "string": "Edit linked"
+         },
+         "@name": "checkbox edit linked parts",
+         "check_box.commit_callback": null
+      },
+      "button:prev_part_btn": {
+         "@name": "prev_part_btn",
+         "@tool_tip": {
+            "string": "Select previous linked part or face"
+         },
+         "button.commit_callback": null
+      },
+      "button:next_part_btn": {
+         "@name": "next_part_btn",
+         "@tool_tip": {
+            "string": "Select next linked part or face"
+         },
+         "button.commit_callback": null
+      },
+      "button:link_btn": {
+         "@label": {
+            "string": "Link"
+         },
+         "@name": "link_btn",
+         "button.commit_callback": null
+      },
+      "button:unlink_btn": {
+         "@label": {
+            "string": "Unlink"
+         },
+         "@name": "unlink_btn",
+         "button.commit_callback": null
+      },
+      "combo_box:combobox grid mode": {
+         "@name": "combobox grid mode",
+         "@tool_tip": {
+            "string": "Choose the type of grid ruler for positioning the object"
+         },
+         "combo_box.item:World": {
+            "@label": {
+               "string": "World grid"
+            },
+            "@name": "World"
+         },
+         "combo_box.item:Local": {
+            "@label": {
+               "string": "Local grid"
+            },
+            "@name": "Local"
+         },
+         "combo_box.item:Reference": {
+            "@label": {
+               "string": "Reference grid"
+            },
+            "@name": "Reference"
+         },
+         "combo_box.commit_callback": null
+      },
+      "check_box:checkbox uniform": {
+         "@label": {
+            "string": "Stretch Both Sides"
+         },
+         "@name": "checkbox uniform"
+      },
+      "check_box:checkbox stretch textures": {
+         "@label": {
+            "string": "Stretch Textures"
+         },
+         "@name": "checkbox stretch textures"
+      },
+      "check_box:checkbox snap to grid": {
+         "@label": {
+            "string": "Snap"
+         },
+         "@name": "checkbox snap to grid"
+      },
+      "check_box:checkbox actual root": {
+         "@label": {
+            "string": "Edit axis at root"
+         },
+         "@name": "checkbox actual root"
+      },
+      "check_box:checkbox show highlight": {
+         "@label": {
+            "string": "Show Highlight"
+         },
+         "@name": "checkbox show highlight",
+         "check_box.commit_callback": null
+      },
+      "button:Options...": {
+         "@name": "Options...",
+         "@tool_tip": {
+            "string": "See more grid options"
+         },
+         "button.commit_callback": null
+      },
+      "button:ToolCube": {
+         "@name": "ToolCube",
+         "@tool_tip": {
+            "string": "Cube"
+         }
+      },
+      "button:ToolPrism": {
+         "@name": "ToolPrism",
+         "@tool_tip": {
+            "string": "Prism"
+         }
+      },
+      "button:ToolPyramid": {
+         "@name": "ToolPyramid",
+         "@tool_tip": {
+            "string": "Pyramid"
+         }
+      },
+      "button:ToolTetrahedron": {
+         "@name": "ToolTetrahedron",
+         "@tool_tip": {
+            "string": "Tetrahedron"
+         }
+      },
+      "button:ToolCylinder": {
+         "@name": "ToolCylinder",
+         "@tool_tip": {
+            "string": "Cylinder"
+         }
+      },
+      "button:ToolHemiCylinder": {
+         "@name": "ToolHemiCylinder",
+         "@tool_tip": {
+            "string": "Hemicylinder"
+         }
+      },
+      "button:ToolCone": {
+         "@name": "ToolCone",
+         "@tool_tip": {
+            "string": "Cone"
+         }
+      },
+      "button:ToolHemiCone": {
+         "@name": "ToolHemiCone",
+         "@tool_tip": {
+            "string": "Hemicone"
+         }
+      },
+      "button:ToolSphere": {
+         "@name": "ToolSphere",
+         "@tool_tip": {
+            "string": "Sphere"
+         }
+      },
+      "button:ToolHemiSphere": {
+         "@name": "ToolHemiSphere",
+         "@tool_tip": {
+            "string": "Hemisphere"
+         }
+      },
+      "button:ToolTorus": {
+         "@name": "ToolTorus",
+         "@tool_tip": {
+            "string": "Torus"
+         }
+      },
+      "button:ToolTube": {
+         "@name": "ToolTube",
+         "@tool_tip": {
+            "string": "Tube"
+         }
+      },
+      "button:ToolRing": {
+         "@name": "ToolRing",
+         "@tool_tip": {
+            "string": "Ring"
+         }
+      },
+      "button:ToolTree": {
+         "@name": "ToolTree",
+         "@tool_tip": {
+            "string": "Tree"
+         }
+      },
+      "button:ToolGrass": {
+         "@name": "ToolGrass",
+         "@tool_tip": {
+            "string": "Grass"
+         }
+      },
+      "check_box:checkbox sticky": {
+         "@label": {
+            "string": "Keep Tool selected"
+         },
+         "@name": "checkbox sticky"
+      },
+      "check_box:checkbox copy selection": {
+         "@label": {
+            "string": "Copy selection"
+         },
+         "@name": "checkbox copy selection"
+      },
+      "check_box:checkbox copy centers": {
+         "@label": {
+            "string": "Center Copy"
+         },
+         "@name": "checkbox copy centers"
+      },
+      "check_box:checkbox copy rotates": {
+         "@label": {
+            "string": "Rotate Copy"
+         },
+         "@name": "checkbox copy rotates"
+      },
+      "combo_box:tree_grass_combo": {
+         "@name": "tree_grass_combo",
+         "combo_box.commit_callback": null
+      },
+      "radio_group:land_radio_group": {
+         "@name": "land_radio_group",
+         "radio_item:radio select land": {
+            "@label": {
+               "string": "Select Land"
+            },
+            "@name": "radio select land"
+         },
+         "radio_item:radio flatten": {
+            "@label": {
+               "string": "Flatten"
+            },
+            "@name": "radio flatten"
+         },
+         "radio_item:radio raise": {
+            "@label": {
+               "string": "Raise"
+            },
+            "@name": "radio raise"
+         },
+         "radio_item:radio lower": {
+            "@label": {
+               "string": "Lower"
+            },
+            "@name": "radio lower"
+         },
+         "radio_item:radio smooth": {
+            "@label": {
+               "string": "Smooth"
+            },
+            "@name": "radio smooth"
+         },
+         "radio_item:radio noise": {
+            "@label": {
+               "string": "Roughen"
+            },
+            "@name": "radio noise"
+         },
+         "radio_item:radio revert": {
+            "@label": {
+               "string": "Revert"
+            },
+            "@name": "radio revert"
+         },
+         "radio_group.commit_callback": null
+      },
+      "text:Bulldozer:": {
+         "@name": "Bulldozer:",
+         "#text": {
+            "string": "\n        Bulldozer:\n    "
+         }
+      },
+      "text:Dozer Size:": {
+         "@name": "Dozer Size:",
+         "#text": {
+            "string": "\n        Size\n    "
+         }
+      },
+      "slider_bar:slider brush size": {
+         "@name": "slider brush size"
+      },
+      "text:Strength:": {
+         "@name": "Strength:",
+         "#text": {
+            "string": "\n        Strength\n    "
+         }
+      },
+      "slider_bar:slider force": {
+         "@name": "slider force",
+         "slider_bar.commit_callback": null
+      },
+      "button:button apply to selection": {
+         "@label": {
+            "string": "Apply"
+         },
+         "@name": "button apply to selection",
+         "@tool_tip": {
+            "string": "Modify selected land"
+         },
+         "button.commit_callback": null
+      },
+      "text:link_num_obj_count": {
+         "@name": "link_num_obj_count",
+         "@tool_tip": {
+            "string": "Link number may not be accurate."
+         },
+         "#text": {
+            "string": "\n        [DESC] [NUM]\n    "
+         }
+      },
+      "text:selection_empty": {
+         "@name": "selection_empty",
+         "#text": {
+            "string": "\n    Nothing selected.\n  "
+         }
+      },
+      "text:selection_count": {
+         "@name": "selection_count"
+      },
+      "text:remaining_capacity": {
+         "@name": "remaining_capacity",
+         "#text": {
+            "string": "\n    [CAPACITY_STRING] [secondlife:///app/openfloater/object_weights More info]\n  "
+         }
+      },
+      "view_border:cost_text_border": {
+         "@name": "cost_text_border"
+      },
+      "tab_container:Object Info Tabs": {
+         "@name": "Object Info Tabs",
+         "panel:General": {
+            "@label": {
+               "string": "General"
+            },
+            "@name": "General",
+            "panel.string:text deed continued": {
+               "@name": "text deed continued",
+               "#text": {
+                  "string": "\n    Deed\n   "
+               }
+            },
+            "panel.string:text deed": {
+               "@name": "text deed",
+               "#text": {
+                  "string": "\n    Deed\n  "
+               }
+            },
+            "panel.string:text modify info 1": {
+               "@name": "text modify info 1",
+               "#text": {
+                  "string": "\n                You can modify this object\n            "
+               }
+            },
+            "panel.string:text modify info 2": {
+               "@name": "text modify info 2",
+               "#text": {
+                  "string": "\n                You can modify these objects\n            "
+               }
+            },
+            "panel.string:text modify info 3": {
+               "@name": "text modify info 3",
+               "#text": {
+                  "string": "\n                You can't modify this object\n            "
+               }
+            },
+            "panel.string:text modify info 4": {
+               "@name": "text modify info 4",
+               "#text": {
+                  "string": "\n                You can't modify these objects\n            "
+               }
+            },
+            "panel.string:text modify info 5": {
+               "@name": "text modify info 5",
+               "#text": {
+                  "string": "\n                You can't modify this object across a region boundary\n            "
+               }
+            },
+            "panel.string:text modify info 6": {
+               "@name": "text modify info 6",
+               "#text": {
+                  "string": "\n                You can't modify these objects across a region boundary\n            "
+               }
+            },
+            "panel.string:text modify warning": {
+               "@name": "text modify warning",
+               "#text": {
+                  "string": "\n                You must select entire object to set permissions\n            "
+               }
+            },
+            "panel.string:Cost Default": {
+               "@name": "Cost Default",
+               "#text": {
+                  "string": "\n                Price: L$\n            "
+               }
+            },
+            "panel.string:Cost Total": {
+               "@name": "Cost Total",
+               "#text": {
+                  "string": "\n                Total Price: L$\n            "
+               }
+            },
+            "panel.string:Cost Per Unit": {
+               "@name": "Cost Per Unit",
+               "#text": {
+                  "string": "\n                Price Per: L$\n            "
+               }
+            },
+            "panel.string:Cost Mixed": {
+               "@name": "Cost Mixed",
+               "#text": {
+                  "string": "\n                Mixed Price\n            "
+               }
+            },
+            "panel.string:Sale Mixed": {
+               "@name": "Sale Mixed",
+               "#text": {
+                  "string": "\n                Mixed Sale\n            "
+               }
+            },
+            "panel.string:multiple selection": {
+               "@name": "multiple selection",
+               "#text": {
+                  "string": "\n                Multiple selection\n            "
+               }
+            },
+            "text:Name:": {
+               "@name": "Name:",
+               "#text": {
+                  "string": "\n                Name:\n            "
+               }
+            },
+            "line_editor:Object Name": {
+               "@name": "Object Name",
+               "@tool_tip": {
+                  "string": "The name is limited to 63 characters. Longer prim names are cut short. Names can only consist of printable characters found in the ASCII-7 (non-extended) character set, with the exception of the vertical bar/pipe '|'."
+               }
+            },
+            "text:Description:": {
+               "@name": "Description:",
+               "#text": {
+                  "string": "\n                Description:\n            "
+               }
+            },
+            "line_editor:Object Description": {
+               "@name": "Object Description",
+               "@tool_tip": {
+                  "string": "When people have 'Hover Tips on All Objects' selected in the viewer's settings, they'll see the object description pop-up for any object under their mouse pointer. The prim description is limited to 127 bytes any string longer then that will be truncated."
+               }
+            },
+            "text:Creator:": {
+               "@name": "Creator:",
+               "#text": {
+                  "string": "\n                Creator:\n            "
+               }
+            },
+            "#comment": " *NOTE: Intentionally wide for long names ",
+            "text": null,
+            "text:Owner:": {
+               "@name": "Owner:",
+               "#text": {
+                  "string": "\n                Owner:\n            "
+               }
+            },
+            "#comment$25": " *NOTE: Intentionally wide for long names ",
+            "text:Last Owner:": {
+               "@name": "Last Owner:",
+               "#text": {
+                  "string": "\n                Last Owner:\n            "
+               }
+            },
+            "#comment$27": " *NOTE: Intentionally wide for long names ",
+            "text:Group:": {
+               "@name": "Group:",
+               "#text": {
+                  "string": "\n                Group:\n            "
+               }
+            },
+            "#comment$29": "<name_box\n             follows=\"left|top\"\n             height=\"18\"\n             initial_value=\"Loading...\"\n             layout=\"topleft\"\n             left_pad=\"23\"\n             name=\"Group Name Proxy\"\n             width=\"142\" />",
+            "button:button set group": {
+               "@name": "button set group",
+               "@tool_tip": {
+                  "string": "Choose a group to share this object's permissions"
+               }
+            },
+            "check_box:checkbox share with group": {
+               "@label": {
+                  "string": "Share"
+               },
+               "@name": "checkbox share with group",
+               "@tool_tip": {
+                  "string": "Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
+               }
+            },
+            "button:button deed": {
+               "@label": {
+                  "string": "Deed"
+               },
+               "@name": "button deed",
+               "@tool_tip": {
+                  "string": "Deeding gives this item away with next owner permissions. Group shared objects can be deeded by a group officer."
+               }
+            },
+            "text:label click action": {
+               "@name": "label click action",
+               "#text": {
+                  "string": "\n                Click to:\n            "
+               }
+            },
+            "combo_box:clickaction": {
+               "@name": "clickaction",
+               "@tool_tip": {
+                  "string": "A click action enables you to interact with an object with a single left click. Each click action has a special cursor indicating what it does. Some click actions have requirements to function. For example Touch and Pay require scripts"
+               },
+               "combo_box.item:Touch/grab(default)": {
+                  "@label": {
+                     "string": "Touch  (default)"
+                  },
+                  "@name": "Touch/grab(default)"
+               },
+               "combo_box.item:Sitonobject": {
+                  "@label": {
+                     "string": "Sit on object"
+                  },
+                  "@name": "Sitonobject"
+               },
+               "combo_box.item:Buyobject": {
+                  "@label": {
+                     "string": "Buy object"
+                  },
+                  "@name": "Buyobject"
+               },
+               "combo_box.item:Payobject": {
+                  "@label": {
+                     "string": "Pay object"
+                  },
+                  "@name": "Payobject"
+               },
+               "combo_box.item:Open": {
+                  "@label": {
+                     "string": "Open"
+                  },
+                  "@name": "Open"
+               },
+               "combo_box.item:Zoom": {
+                  "@label": {
+                     "string": "Zoom"
+                  },
+                  "@name": "Zoom"
+               },
+               "combo_box.item:None": {
+                  "@label": {
+                     "string": "None"
+                  },
+                  "@name": "None"
+               }
+            },
+            "view_border:SaleBorder": {
+               "@name": "SaleBorder"
+            },
+            "check_box:checkbox for sale": {
+               "@label": {
+                  "string": "For Sale:"
+               },
+               "@name": "checkbox for sale",
+               "@tool_tip": {
+                  "string": "Lets people buy this object, its content or it copy inworld for specified price."
+               }
+            },
+            "#comment$37": " NEW SALE TYPE COMBO BOX ",
+            "combo_box:sale type": {
+               "@name": "sale type",
+               "@tool_tip": {
+                  "string": "Select whether purchaser will receive a copy, copy of the content or item itself."
+               },
+               "combo_box.item:Copy": {
+                  "@name": "Copy",
+                  "@label": {
+                     "string": "Copy"
+                  }
+               },
+               "combo_box.item:Contents": {
+                  "@name": "Contents",
+                  "@label": {
+                     "string": "Contents"
+                  }
+               },
+               "combo_box.item:Original": {
+                  "@name": "Original",
+                  "@label": {
+                     "string": "Original"
+                  }
+               }
+            },
+            "#comment$39": " NEW PRICE SPINNER\nObjects are allowed to be for sale for L$0 to invoke buy UI behavior\neven though the user gets a free copy.\n",
+            "spinner:Edit Cost": {
+               "@name": "Edit Cost",
+               "@label": {
+                  "string": "Price: L$"
+               },
+               "@tool_tip": {
+                  "string": "Object cost."
+               }
+            },
+            "button:button mark for sale": {
+               "@label": {
+                  "string": "Apply"
+               },
+               "@name": "button mark for sale",
+               "@tool_tip": {
+                  "string": "Mark/Update object(s) for sale."
+               }
+            },
+            "button:btnCopyKeys": {
+               "@label": {
+                  "string": "Copy Keys"
+               },
+               "@name": "btnCopyKeys",
+               "@tool_tip": {
+                  "string": "Copies the selected object's root key to the clipboard. Shift-click copies all of the selected objects' keys"
+               },
+               "button.commit_callback": null
+            },
+            "check_box:search_check": {
+               "@label": {
+                  "string": "Show in search"
+               },
+               "@name": "search_check",
+               "@tool_tip": {
+                  "string": "Let people see this object in search results"
+               }
+            },
+            "panel:perms_build": {
+               "@name": "perms_build",
+               "text:perm_modify": {
+                  "@name": "perm_modify",
+                  "#text": {
+                     "string": "\n                You can modify this object\n            "
+                  }
+               },
+               "text:Anyone can:": {
+                  "@name": "Anyone can:",
+                  "#text": {
+                     "string": "\n                 Anyone:\n            "
+                  }
+               },
+               "check_box:checkbox allow everyone move": {
+                  "@label": {
+                     "string": "Move"
+                  },
+                  "@name": "checkbox allow everyone move",
+                  "@tool_tip": {
+                     "string": "Anyone can move the object."
+                  }
+               },
+               "check_box:checkbox allow everyone copy": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "checkbox allow everyone copy",
+                  "@tool_tip": {
+                     "string": "Anyone can take a copy of the object. Object and all of its contents must be copy and transfer permissive."
+                  }
+               },
+               "check_box:checkbox allow export": {
+                  "@label": {
+                     "string": "Export"
+                  },
+                  "@name": "checkbox allow export",
+                  "@tool_tip": {
+                     "string": "Anyone can export this Object."
+                  }
+               },
+               "text:Next owner can:": {
+                  "@name": "Next owner can:",
+                  "#text": {
+                     "string": "\n                  Next owner:\n            "
+                  }
+               },
+               "check_box:checkbox next owner can modify": {
+                  "@label": {
+                     "string": "Modify"
+                  },
+                  "@name": "checkbox next owner can modify",
+                  "@tool_tip": {
+                     "string": "Next owner can edit properties like item name or scale of this object."
+                  }
+               },
+               "check_box:checkbox next owner can copy": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "checkbox next owner can copy",
+                  "@tool_tip": {
+                     "string": "Next owner can make unlimited copies of this object. Copies maintain creator information, and can never be more permissive than the item being copied."
+                  }
+               },
+               "check_box:checkbox next owner can transfer": {
+                  "@label": {
+                     "string": "Transfer"
+                  },
+                  "@name": "checkbox next owner can transfer",
+                  "@tool_tip": {
+                     "string": "Next owner can give away or resell this object."
+                  }
+               },
+               "#comment": " *NOTE: These \"B/O/G/E/N/F fields may overlap \"perm_modify\" above, \n     but that's OK, this is used only for debugging. ",
+               "text:B:": {
+                  "@name": "B:",
+                  "#text": {
+                     "string": "\n                B:\n            "
+                  }
+               },
+               "text:O:": {
+                  "@name": "O:",
+                  "#text": {
+                     "string": "\n                O:\n            "
+                  }
+               },
+               "text:G:": {
+                  "@name": "G:",
+                  "#text": {
+                     "string": "\n                G:\n            "
+                  }
+               },
+               "text:E:": {
+                  "@name": "E:",
+                  "#text": {
+                     "string": "\n                E:\n            "
+                  }
+               },
+               "text:N:": {
+                  "@name": "N:",
+                  "#text": {
+                     "string": "\n                N:\n            "
+                  }
+               },
+               "text:F:": {
+                  "@name": "F:",
+                  "#text": {
+                     "string": "\n                F:\n            "
+                  }
+               }
+            },
+            "panel:pathfinding_attrs_panel": {
+               "@name": "pathfinding_attrs_panel",
+               "text:pathfinding_attributes_label": {
+                  "@name": "pathfinding_attributes_label",
+                  "#text": {
+                     "string": "\n        Pathfinding attributes:\n      "
+                  }
+               },
+               "text:pathfinding_attributes_value": {
+                  "@name": "pathfinding_attributes_value"
+               }
+            }
+         },
+         "#comment": " Object tab ",
+         "panel:Object": {
+            "@label": {
+               "string": "Object"
+            },
+            "@name": "Object",
+            "panel.string:Paste Position": {
+               "@name": "Paste Position",
+               "#text": {
+                  "string": "\n                Paste Position\n[VALUE]\n            "
+               }
+            },
+            "panel.string:Paste Size": {
+               "@name": "Paste Size",
+               "#text": {
+                  "string": "\n                Paste Size\n[VALUE]\n            "
+               }
+            },
+            "panel.string:Paste Rotation": {
+               "@name": "Paste Rotation",
+               "#text": {
+                  "string": "\n                Paste Rotation\n[VALUE]\n            "
+               }
+            },
+            "check_box:checkbox locked": {
+               "@label": {
+                  "string": "Locked"
+               },
+               "@name": "checkbox locked",
+               "@tool_tip": {
+                  "string": "Prevents object from being moved or deleted. Frequently useful during building to avoid unintended edits."
+               }
+            },
+            "check_box:Physical Checkbox Ctrl": {
+               "@label": {
+                  "string": "Physical"
+               },
+               "@name": "Physical Checkbox Ctrl",
+               "@tool_tip": {
+                  "string": "Allows object to be pushed and affected by gravity"
+               }
+            },
+            "check_box:Temporary Checkbox Ctrl": {
+               "@label": {
+                  "string": "Temporary"
+               },
+               "@name": "Temporary Checkbox Ctrl",
+               "@tool_tip": {
+                  "string": "Causes object to be deleted 1 minute after creation"
+               }
+            },
+            "check_box:Phantom Checkbox Ctrl": {
+               "@label": {
+                  "string": "Phantom"
+               },
+               "@name": "Phantom Checkbox Ctrl",
+               "@tool_tip": {
+                  "string": "Causes object to not collide with other objects or avatars"
+               }
+            },
+            "text:label position": {
+               "@name": "label position",
+               "#text": {
+                  "string": "\n                Position (meters)\n            "
+               }
+            },
+            "spinner:Pos X": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "Pos X"
+            },
+            "spinner:Pos Y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "Pos Y"
+            },
+            "spinner:Pos Z": {
+               "@label": {
+                  "string": "Z"
+               },
+               "@name": "Pos Z"
+            },
+            "button:copypos": {
+               "@label": {
+                  "string": "C"
+               },
+               "@name": "copypos",
+               "@tool_tip": {
+                  "string": "Copy Position"
+               }
+            },
+            "button:pastepos": {
+               "@label": {
+                  "string": "P"
+               },
+               "@name": "pastepos",
+               "@tool_tip": {
+                  "string": "Paste Position"
+               }
+            },
+            "button:pasteposclip": {
+               "@label": {
+                  "string": "p"
+               },
+               "@name": "pasteposclip",
+               "@tool_tip": {
+                  "string": "Paste Position from Clipboard"
+               }
+            },
+            "text:label size": {
+               "@name": "label size",
+               "#text": {
+                  "string": "\n                Size (meters)\n            "
+               }
+            },
+            "spinner:Scale X": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "Scale X"
+            },
+            "spinner:Scale Y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "Scale Y"
+            },
+            "spinner:Scale Z": {
+               "@label": {
+                  "string": "Z"
+               },
+               "@name": "Scale Z"
+            },
+            "button:copysize": {
+               "@label": {
+                  "string": "C"
+               },
+               "@name": "copysize",
+               "@tool_tip": {
+                  "string": "Copy Size"
+               }
+            },
+            "button:pastesize": {
+               "@label": {
+                  "string": "P"
+               },
+               "@name": "pastesize",
+               "@tool_tip": {
+                  "string": "Paste Size"
+               }
+            },
+            "button:pastesizeclip": {
+               "@label": {
+                  "string": "p"
+               },
+               "@name": "pastesizeclip",
+               "@tool_tip": {
+                  "string": "Paste Size from Clipboard"
+               }
+            },
+            "text:label rotation": {
+               "@name": "label rotation",
+               "#text": {
+                  "string": "\n                Rotation (degrees)\n            "
+               }
+            },
+            "spinner:Rot X": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "Rot X"
+            },
+            "spinner:Rot Y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "Rot Y"
+            },
+            "spinner:Rot Z": {
+               "@label": {
+                  "string": "Z"
+               },
+               "@name": "Rot Z"
+            },
+            "button:copyrot": {
+               "@label": {
+                  "string": "C"
+               },
+               "@name": "copyrot",
+               "@tool_tip": {
+                  "string": "Copy Rotation"
+               }
+            },
+            "button:pasterot": {
+               "@label": {
+                  "string": "P"
+               },
+               "@name": "pasterot",
+               "@tool_tip": {
+                  "string": "Paste Rotation"
+               }
+            },
+            "button:pasterotclip": {
+               "@label": {
+                  "string": "p"
+               },
+               "@name": "pasterotclip",
+               "@tool_tip": {
+                  "string": "Paste Rotation from Clipboard"
+               }
+            },
+            "#comment": "           <text\n             type=\"string\"\n             length=\"1\"\n             follows=\"left|top\"\n             height=\"10\"\n             layout=\"topleft\"\n             left=\"125\"\n             name=\"label basetype\"\n             top=\"5\"\n             width=\"150\">\n                Prim Type\n            </text>",
+            "text:edit_object": {
+               "@name": "edit_object",
+               "#text": {
+                  "string": "\n        Object Parameters:\n      "
+               }
+            },
+            "button:copyparams": {
+               "@label": {
+                  "string": "Copy"
+               },
+               "@name": "copyparams",
+               "@tool_tip": {
+                  "string": "Copy Parameters to Clipboard"
+               }
+            },
+            "button:pasteparams": {
+               "@label": {
+                  "string": "Paste"
+               },
+               "@name": "pasteparams",
+               "@tool_tip": {
+                  "string": "Paste Parameters from Clipboard"
+               }
+            },
+            "combo_box:comboBaseType": {
+               "@name": "comboBaseType",
+               "combo_box.item:Box": {
+                  "@label": {
+                     "string": "Box"
+                  },
+                  "@name": "Box"
+               },
+               "combo_box.item:Cylinder": {
+                  "@label": {
+                     "string": "Cylinder"
+                  },
+                  "@name": "Cylinder"
+               },
+               "combo_box.item:Prism": {
+                  "@label": {
+                     "string": "Prism"
+                  },
+                  "@name": "Prism"
+               },
+               "combo_box.item:Sphere": {
+                  "@label": {
+                     "string": "Sphere"
+                  },
+                  "@name": "Sphere"
+               },
+               "combo_box.item:Torus": {
+                  "@label": {
+                     "string": "Torus"
+                  },
+                  "@name": "Torus"
+               },
+               "combo_box.item:Tube": {
+                  "@label": {
+                     "string": "Tube"
+                  },
+                  "@name": "Tube"
+               },
+               "combo_box.item:Ring": {
+                  "@label": {
+                     "string": "Ring"
+                  },
+                  "@name": "Ring"
+               },
+               "combo_box.item:Sculpted": {
+                  "@label": {
+                     "string": "Sculpted"
+                  },
+                  "@name": "Sculpted"
+               },
+               "combo_item:PathLineProfileHalfCircle": {
+                  "@name": "PathLineProfileHalfCircle",
+                  "@value": {
+                     "string": "PathLineProfileHalfCircle"
+                  },
+                  "@label": {
+                     "string": "Line->Half-Circle"
+                  }
+               },
+               "combo_item:PathCircleProfileHalfCircle": {
+                  "@name": "PathCircleProfileHalfCircle",
+                  "@value": {
+                     "string": "PathCircleProfileHalfCircle"
+                  },
+                  "@label": {
+                     "string": "Circle->Half-Circle"
+                  }
+               },
+               "combo_item:PathCircle2ProfileSquare": {
+                  "@name": "PathCircle2ProfileSquare",
+                  "@value": {
+                     "string": "PathCircle2ProfileSquare"
+                  },
+                  "@label": {
+                     "string": "Circle2->Square"
+                  }
+               },
+               "combo_item:PathCircle2ProfileTriangle": {
+                  "@name": "PathCircle2ProfileTriangle",
+                  "@value": {
+                     "string": "PathCircle2ProfileTriangle"
+                  },
+                  "@label": {
+                     "string": "Circle2->Triangle"
+                  }
+               },
+               "combo_item:PathCircle2ProfileCircle": {
+                  "@name": "PathCircle2ProfileCircle",
+                  "@value": {
+                     "string": "PathCircle2ProfileCircle"
+                  },
+                  "@label": {
+                     "string": "Circle2->Circle"
+                  }
+               },
+               "combo_item:PathCircle2ProfileHalfCircle": {
+                  "@name": "PathCircle2ProfileHalfCircle",
+                  "@value": {
+                     "string": "PathCircle2ProfileHalfCircle"
+                  },
+                  "@label": {
+                     "string": "Circle2->Half-Circle"
+                  }
+               },
+               "combo_item:PathTestProfileSquare": {
+                  "@name": "PathTestProfileSquare",
+                  "@value": {
+                     "string": "PathTestProfileSquare"
+                  },
+                  "@label": {
+                     "string": "Test->Square"
+                  }
+               },
+               "combo_item:PathTestProfileTriangle": {
+                  "@name": "PathTestProfileTriangle",
+                  "@value": {
+                     "string": "PathTestProfileTriangle"
+                  },
+                  "@label": {
+                     "string": "Test->Triangle"
+                  }
+               },
+               "combo_item:PathTestProfileCircle": {
+                  "@name": "PathTestProfileCircle",
+                  "@value": {
+                     "string": "PathTestProfileCircle"
+                  },
+                  "@label": {
+                     "string": "Test->Circle"
+                  }
+               },
+               "combo_item:PathTestProfileHalfCircle": {
+                  "@name": "PathTestProfileHalfCircle",
+                  "@value": {
+                     "string": "PathTestProfileHalfCircle"
+                  },
+                  "@label": {
+                     "string": "Test->Half-Circle"
+                  }
+               },
+               "#comment": " Working33 by Gregory Maurer ",
+               "combo_item:Path33Profile0": {
+                  "@name": "Path33Profile0",
+                  "@value": {
+                     "string": "Path33Profile0"
+                  },
+                  "@label": {
+                     "string": "33->Circle"
+                  }
+               },
+               "combo_item:Path33Profile1": {
+                  "@name": "Path33Profile1",
+                  "@value": {
+                     "string": "Path33Profile1"
+                  },
+                  "@label": {
+                     "string": "33->Square"
+                  }
+               },
+               "combo_item:Path33Profile2": {
+                  "@name": "Path33Profile2",
+                  "@value": {
+                     "string": "Path33Profile2"
+                  },
+                  "@label": {
+                     "string": "33->Triangle"
+                  }
+               },
+               "combo_item:Path33Profile5": {
+                  "@name": "Path33Profile5",
+                  "@value": {
+                     "string": "Path33Profile5"
+                  },
+                  "@label": {
+                     "string": "33->HalfCircle"
+                  }
+               },
+               "#comment$24": " End Working33 by Gregory Maurer "
+            },
+            "text:text cut": {
+               "@name": "text cut",
+               "#text": {
+                  "string": "\n                Path Cut (begin/end)\n            "
+               }
+            },
+            "spinner:cut begin": {
+               "@label": {
+                  "string": "B"
+               },
+               "@name": "cut begin"
+            },
+            "spinner:cut end": {
+               "@label": {
+                  "string": "E"
+               },
+               "@name": "cut end"
+            },
+            "text:text hollow": {
+               "@name": "text hollow",
+               "#text": {
+                  "string": "\n                Hollow\n            "
+               }
+            },
+            "text:text skew": {
+               "@name": "text skew",
+               "#text": {
+                  "string": "\n                Skew\n            "
+               }
+            },
+            "spinner:Scale 1": {
+               "@name": "Scale 1"
+            },
+            "spinner:Skew": {
+               "@name": "Skew"
+            },
+            "text:Hollow Shape": {
+               "@name": "Hollow Shape",
+               "#text": {
+                  "string": "\n                Hollow Shape\n            "
+               }
+            },
+            "combo_box:hole": {
+               "@name": "hole",
+               "combo_box.item:Default": {
+                  "@label": {
+                     "string": "Default"
+                  },
+                  "@name": "Default"
+               },
+               "combo_box.item:Circle": {
+                  "@label": {
+                     "string": "Circle"
+                  },
+                  "@name": "Circle"
+               },
+               "combo_box.item:Square": {
+                  "@label": {
+                     "string": "Square"
+                  },
+                  "@name": "Square"
+               },
+               "combo_box.item:Triangle": {
+                  "@label": {
+                     "string": "Triangle"
+                  },
+                  "@name": "Triangle"
+               }
+            },
+            "text:text twist": {
+               "@name": "text twist",
+               "#text": {
+                  "string": "\n                Twist (begin/end)\n            "
+               }
+            },
+            "spinner:Twist Begin": {
+               "@label": {
+                  "string": "B"
+               },
+               "@name": "Twist Begin"
+            },
+            "spinner:Twist End": {
+               "@label": {
+                  "string": "E"
+               },
+               "@name": "Twist End"
+            },
+            "text:scale_taper": {
+               "@name": "scale_taper",
+               "#text": {
+                  "string": "\n                Taper\n            "
+               }
+            },
+            "text:scale_hole": {
+               "@name": "scale_hole",
+               "#text": {
+                  "string": "\n                Hole Size\n            "
+               }
+            },
+            "spinner:Taper Scale X": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "Taper Scale X"
+            },
+            "spinner:Taper Scale Y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "Taper Scale Y"
+            },
+            "text:text topshear": {
+               "@name": "text topshear",
+               "#text": {
+                  "string": "\n                Top Shear\n            "
+               }
+            },
+            "spinner:Shear X": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "Shear X"
+            },
+            "spinner:Shear Y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "Shear Y"
+            },
+            "text:advanced_cut": {
+               "@name": "advanced_cut",
+               "#text": {
+                  "string": "\n                Profile Cut (begin/end)\n            "
+               }
+            },
+            "text:advanced_dimple": {
+               "@name": "advanced_dimple",
+               "#text": {
+                  "string": "\n                Dimple (begin/end)\n            "
+               }
+            },
+            "text:advanced_slice": {
+               "@name": "advanced_slice",
+               "#text": {
+                  "string": "\n                Slice (begin/end)\n            "
+               }
+            },
+            "spinner:Path Limit Begin": {
+               "@label": {
+                  "string": "B"
+               },
+               "@name": "Path Limit Begin"
+            },
+            "spinner:Path Limit End": {
+               "@label": {
+                  "string": "E"
+               },
+               "@name": "Path Limit End"
+            },
+            "text:text taper2": {
+               "@name": "text taper2",
+               "@tool_tip": {
+                  "string": "Does not work on all prim types."
+               },
+               "#text": {
+                  "string": "\n                Taper Profile\n            "
+               }
+            },
+            "spinner:Taper X": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "Taper X"
+            },
+            "spinner:Taper Y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "Taper Y"
+            },
+            "text:text radius delta": {
+               "@name": "text radius delta",
+               "#text": {
+                  "string": "\n                Radius\n            "
+               }
+            },
+            "text:text revolutions": {
+               "@name": "text revolutions",
+               "#text": {
+                  "string": "\n                Revolutions\n            "
+               }
+            },
+            "spinner:Radius Offset": {
+               "@name": "Radius Offset"
+            },
+            "spinner:Revolutions": {
+               "@name": "Revolutions"
+            },
+            "texture_picker:sculpt texture control": {
+               "@label": {
+                  "string": "Sculpt Texture"
+               },
+               "@name": "sculpt texture control",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               }
+            },
+            "check_box:sculpt mirror control": {
+               "@label": {
+                  "string": "Mirror"
+               },
+               "@name": "sculpt mirror control",
+               "@tool_tip": {
+                  "string": "Flips sculpted prim along the X axis"
+               }
+            },
+            "check_box:sculpt invert control": {
+               "@label": {
+                  "string": "Inside-out"
+               },
+               "@name": "sculpt invert control",
+               "@tool_tip": {
+                  "string": "Inverts the sculpted prims normals, making it appear inside-out"
+               }
+            },
+            "text:label sculpt type": {
+               "@name": "label sculpt type",
+               "#text": {
+                  "string": "\n                Stitching type\n            "
+               }
+            },
+            "combo_box:sculpt type control": {
+               "@name": "sculpt type control",
+               "@tool_tip": {
+                  "string": "The \"none\" option has been removed because it is identical with \"Plane\"."
+               },
+               "combo_box.item:Sphere": {
+                  "@label": {
+                     "string": "Sphere"
+                  },
+                  "@name": "Sphere"
+               },
+               "combo_box.item:Torus": {
+                  "@label": {
+                     "string": "Torus"
+                  },
+                  "@name": "Torus"
+               },
+               "combo_box.item:Plane": {
+                  "@label": {
+                     "string": "Plane / None"
+                  },
+                  "@name": "Plane"
+               },
+               "combo_box.item:Cylinder": {
+                  "@label": {
+                     "string": "Cylinder"
+                  },
+                  "@name": "Cylinder"
+               }
+            },
+            "#comment$71": " FS:Beq adding Mesh Info support to Object panel",
+            "text:mesh_info_label": {
+               "@name": "mesh_info_label",
+               "#text": {
+                  "string": "\n                   Mesh Information:\n        "
+               }
+            },
+            "text:lod_label": {
+               "@name": "lod_label",
+               "@value": {
+                  "string": "LOD:"
+               }
+            },
+            "text:lod_num_tris": {
+               "@name": "lod_num_tris",
+               "@value": {
+                  "string": "Num Triangles"
+               }
+            },
+            "text:mesh_lod_label": {
+               "@name": "mesh_lod_label",
+               "#text": {
+                  "string": "\nHigh:\nMedium:\nLow:\nLowest:\n        "
+               }
+            },
+            "string:mesh_lod_num_tris_values": {
+               "@name": "mesh_lod_num_tris_values",
+               "#text": {
+                  "string": "\n[HIGHTRIS]\n[MIDTRIS]\n[LOWTRIS]\n[LOWESTTRIS]\n        "
+               }
+            },
+            "text:mesh_lod_num_tris": {
+               "@name": "mesh_lod_num_tris",
+               "@value": {
+                  "string": "--"
+               }
+            },
+            "combo_box:LOD_show_combo": {
+               "@name": "LOD_show_combo",
+               "combo_box.item:Default": {
+                  "@label": {
+                     "string": "Default"
+                  },
+                  "@name": "Default"
+               },
+               "combo_box.item:High": {
+                  "@label": {
+                     "string": "High"
+                  },
+                  "@name": "High"
+               },
+               "combo_box.item:Medium": {
+                  "@label": {
+                     "string": "Medium"
+                  },
+                  "@name": "Medium"
+               },
+               "combo_box.item:Low": {
+                  "@label": {
+                     "string": "Low"
+                  },
+                  "@name": "Low"
+               },
+               "combo_box.item:Lowest/Imposter": {
+                  "@label": {
+                     "string": "Lowest"
+                  },
+                  "@name": "Lowest/Imposter"
+               }
+            },
+            "text:ObjectLODbehaviourLabel": {
+               "@name": "ObjectLODbehaviourLabel",
+               "@value": {
+                  "string": "Object LOD behaviour:"
+               }
+            },
+            "text:object_radius": {
+               "@name": "object_radius",
+               "@value": {
+                  "string": "Object radius:"
+               }
+            },
+            "text:object_radius_value": {
+               "@name": "object_radius_value",
+               "@value": {
+                  "string": "--"
+               }
+            },
+            "text:LOD_swap_factors_label": {
+               "@name": "LOD_swap_factors_label",
+               "@value": {
+                  "string": "LOD Factors"
+               }
+            },
+            "text:LOD_swap_defaults_label": {
+               "@name": "LOD_swap_defaults_label",
+               "@value": {
+                  "string": "Default"
+               },
+               "@tool_tip": {
+                  "string": "The default LOD factor setting that will be applied by most viewers."
+               }
+            },
+            "text:LOD_swap_usr_label": {
+               "@name": "LOD_swap_usr_label",
+               "@tool_tip": {
+                  "string": "Your current setting, taken from RenderVolumeLODFactor"
+               },
+               "@value": {
+                  "string": "Yours"
+               }
+            },
+            "text:LOD_swap_label": {
+               "@name": "LOD_swap_label",
+               "@value": {
+                  "string": "LOD Swap"
+               }
+            },
+            "string:ll_lod_tooltip_msg": {
+               "@name": "ll_lod_tooltip_msg",
+               "#text": {
+                  "string": "Linden Lab Second Life Viewer default ([FACTOR])"
+               }
+            },
+            "text:LOD_swap_ll_default": {
+               "@name": "LOD_swap_ll_default",
+               "@value": {
+                  "string": "LL"
+               }
+            },
+            "string:fs_lod_tooltip_msg": {
+               "@name": "fs_lod_tooltip_msg",
+               "#text": {
+                  "string": "[APPNAME] Viewer default ([FACTOR])"
+               }
+            },
+            "text:LOD_swap_fs_default": {
+               "@name": "LOD_swap_fs_default",
+               "#text": {
+                  "string": "\n            [APP_NAME_ABBR]\n        "
+               }
+            },
+            "string:user_lod_label_string": {
+               "@name": "user_lod_label_string",
+               "#text": {
+                  "string": "[FACTOR]"
+               }
+            },
+            "text:LOD_swap_usr_current": {
+               "@name": "LOD_swap_usr_current",
+               "@tool_tip": {
+                  "string": "Your current LOD Factor"
+               },
+               "@value": {
+                  "string": "[FACTOR]"
+               }
+            },
+            "text:LOD_swap_LOD_Change_label": {
+               "@name": "LOD_swap_LOD_Change_label",
+               "#text": {
+                  "string": "\nHigh ↔ Med\nMed ↔ Low\nLow ↔ Lwst         \n        "
+               }
+            },
+            "string:LODSwapFormatString": {
+               "@name": "LODSwapFormatString",
+               "#text": {
+                  "string": "\n[HIGH2MED]\n[MED2LOW]\n[LOW2LOWEST]\n        "
+               }
+            },
+            "text:LOD_swap_ll_values": {
+               "@name": "LOD_swap_ll_values"
+            },
+            "text:LOD_swap_fs_values": {
+               "@name": "LOD_swap_fs_values",
+               "@value": {
+                  "string": "--"
+               }
+            },
+            "text:LOD_swap_usr_values": {
+               "@name": "LOD_swap_usr_values",
+               "@value": {
+                  "string": "--"
+               }
+            },
+            "text:LODSwapTableDscriptionsText": {
+               "@name": "LODSwapTableDscriptionsText",
+               "@tool_tip": {
+                  "string": "Best practice: Creators should ensure good LOD behaviour for Default settings across all viewers."
+               },
+               "#text": {
+                  "string": "\n          This table shows the LOD change boundaries in metres from the camera.\n        "
+               }
+            },
+            "#comment$98": " /FS:Beq end of Mesh info section"
+         },
+         "panel:Features": {
+            "@label": {
+               "string": "Features"
+            },
+            "@name": "Features",
+            "panel.string:None": {
+               "@name": "None",
+               "#text": {
+                  "string": "None"
+               }
+            },
+            "panel.string:Prim": {
+               "@name": "Prim",
+               "#text": {
+                  "string": "Prim"
+               }
+            },
+            "panel.string:Convex Hull": {
+               "@name": "Convex Hull",
+               "#text": {
+                  "string": "Convex Hull"
+               }
+            },
+            "text:select_single": {
+               "@name": "select_single",
+               "#text": {
+                  "string": "\n                Select only one primitive to edit features.\n            "
+               }
+            },
+            "text:edit_object": {
+               "@name": "edit_object",
+               "#text": {
+                  "string": "\n                Edit object features:\n            "
+               }
+            },
+            "check_box:Animated Mesh Checkbox Ctrl": {
+               "@label": {
+                  "string": "Animated Mesh"
+               },
+               "@name": "Animated Mesh Checkbox Ctrl",
+               "@tool_tip": {
+                  "string": "Allows rigged mesh objects to be animated independently"
+               }
+            },
+            "check_box:Flexible1D Checkbox Ctrl": {
+               "@label": {
+                  "string": "Flexible Path"
+               },
+               "@name": "Flexible1D Checkbox Ctrl",
+               "@tool_tip": {
+                  "string": "Allows object to flex about the Z axis (Client-side only)"
+               }
+            },
+            "spinner:FlexNumSections": {
+               "@label": {
+                  "string": "Softness"
+               },
+               "@name": "FlexNumSections"
+            },
+            "spinner:FlexGravity": {
+               "@label": {
+                  "string": "Gravity"
+               },
+               "@name": "FlexGravity"
+            },
+            "spinner:FlexFriction": {
+               "@label": {
+                  "string": "Drag"
+               },
+               "@name": "FlexFriction"
+            },
+            "spinner:FlexWind": {
+               "@label": {
+                  "string": "Wind"
+               },
+               "@name": "FlexWind"
+            },
+            "spinner:FlexTension": {
+               "@label": {
+                  "string": "Tension"
+               },
+               "@name": "FlexTension"
+            },
+            "spinner:FlexForceX": {
+               "@label": {
+                  "string": "Force X"
+               },
+               "@name": "FlexForceX"
+            },
+            "spinner:FlexForceY": {
+               "@label": {
+                  "string": "Force Y"
+               },
+               "@name": "FlexForceY"
+            },
+            "spinner:FlexForceZ": {
+               "@label": {
+                  "string": "Force Z"
+               },
+               "@name": "FlexForceZ"
+            },
+            "check_box:Light Checkbox Ctrl": {
+               "@label": {
+                  "string": "Light"
+               },
+               "@name": "Light Checkbox Ctrl",
+               "@tool_tip": {
+                  "string": "Causes object to emit light"
+               }
+            },
+            "color_swatch:colorswatch": {
+               "@name": "colorswatch",
+               "@tool_tip": {
+                  "string": "Click to open color picker"
+               }
+            },
+            "texture_picker:light texture control": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "light texture control",
+               "@tool_tip": {
+                  "string": "Click to choose a projection image (only has effect with deferred rendering enabled)"
+               }
+            },
+            "spinner:Light Intensity": {
+               "@label": {
+                  "string": "Intensity"
+               },
+               "@name": "Light Intensity"
+            },
+            "spinner:Light FOV": {
+               "@label": {
+                  "string": "FOV"
+               },
+               "@name": "Light FOV"
+            },
+            "spinner:Light Radius": {
+               "@label": {
+                  "string": "Radius"
+               },
+               "@name": "Light Radius"
+            },
+            "spinner:Light Focus": {
+               "@label": {
+                  "string": "Focus"
+               },
+               "@name": "Light Focus"
+            },
+            "spinner:Light Falloff": {
+               "@label": {
+                  "string": "Falloff"
+               },
+               "@name": "Light Falloff"
+            },
+            "spinner:Light Ambiance": {
+               "@label": {
+                  "string": "Ambiance"
+               },
+               "@name": "Light Ambiance"
+            },
+            "text:label physicsshapetype": {
+               "@name": "label physicsshapetype",
+               "#text": {
+                  "string": "\n                Physics Shape Type:\n          "
+               }
+            },
+            "combo_box:Physics Shape Type Combo Ctrl": {
+               "@name": "Physics Shape Type Combo Ctrl",
+               "@tool_tip": {
+                  "string": "Choose the physics shape type"
+               }
+            },
+            "button:PhysicsViewToggle": {
+               "@name": "PhysicsViewToggle",
+               "@tool_tip": {
+                  "string": "Toggle the physics view on in edit mode"
+               }
+            },
+            "combo_box:material": {
+               "@name": "material",
+               "combo_box.item:Stone": {
+                  "@label": {
+                     "string": "Stone"
+                  },
+                  "@name": "Stone"
+               },
+               "combo_box.item:Metal": {
+                  "@label": {
+                     "string": "Metal"
+                  },
+                  "@name": "Metal"
+               },
+               "combo_box.item:Glass": {
+                  "@label": {
+                     "string": "Glass"
+                  },
+                  "@name": "Glass"
+               },
+               "combo_box.item:Wood": {
+                  "@label": {
+                     "string": "Wood"
+                  },
+                  "@name": "Wood"
+               },
+               "combo_box.item:Flesh": {
+                  "@label": {
+                     "string": "Flesh"
+                  },
+                  "@name": "Flesh"
+               },
+               "combo_box.item:Plastic": {
+                  "@label": {
+                     "string": "Plastic"
+                  },
+                  "@name": "Plastic"
+               },
+               "combo_box.item:Rubber": {
+                  "@label": {
+                     "string": "Rubber"
+                  },
+                  "@name": "Rubber"
+               }
+            },
+            "spinner:Physics Gravity": {
+               "@label": {
+                  "string": "Gravity"
+               },
+               "@name": "Physics Gravity"
+            },
+            "spinner:Physics Friction": {
+               "@label": {
+                  "string": "Friction"
+               },
+               "@name": "Physics Friction"
+            },
+            "spinner:Physics Density": {
+               "@label": {
+                  "string": "Density in 100 kg/m^3"
+               },
+               "@name": "Physics Density"
+            },
+            "spinner:Physics Restitution": {
+               "@label": {
+                  "string": "Bounciness"
+               },
+               "@name": "Physics Restitution"
+            }
+         },
+         "panel:Texture": {
+            "@label": {
+               "string": "Texture"
+            },
+            "@name": "Texture"
+         },
+         "panel:Contents": {
+            "@label": {
+               "string": "Content"
+            },
+            "@name": "Contents",
+            "button:button new script": {
+               "@label": {
+                  "string": "New Script"
+               },
+               "@name": "button new script"
+            },
+            "button:button permissions": {
+               "@label": {
+                  "string": "Permissions"
+               },
+               "@name": "button permissions"
+            },
+            "button:button refresh": {
+               "@label": {
+                  "string": "Refresh"
+               },
+               "@name": "button refresh"
+            },
+            "button:btn_reset_scripts": {
+               "@label": {
+                  "string": "Reset Scripts"
+               },
+               "@name": "btn_reset_scripts"
+            },
+            "panel_inventory_object:contents_inventory": {
+               "@name": "contents_inventory"
+            }
+         }
+      },
+      "panel:land info panel": {
+         "@name": "land info panel",
+         "text:label_parcel_info": {
+            "@name": "label_parcel_info",
+            "#text": {
+               "string": "\n            Parcel Information\n        "
+            }
+         },
+         "text:label_area_price": {
+            "@name": "label_area_price",
+            "#text": {
+               "string": "\n            Price: L$[PRICE] for [AREA] m²\n        "
+            }
+         },
+         "text:label_area": {
+            "@name": "label_area",
+            "#text": {
+               "string": "\n            Area: [AREA] m²\n        "
+            }
+         },
+         "button:button about land": {
+            "@label": {
+               "string": "About Land"
+            },
+            "@name": "button about land"
+         },
+         "check_box:checkbox show owners": {
+            "@label": {
+               "string": "Show owners"
+            },
+            "@name": "checkbox show owners",
+            "@tool_tip": {
+               "string": "Colorize the parcels according to the type of owner: \n\nGreen = Your land \nAqua = Your group's land \nRed = Owned by others \nYellow = For sale \nPurple = For auction \nGrey = Public"
+            }
+         },
+         "text:label_parcel_modify": {
+            "@name": "label_parcel_modify",
+            "#text": {
+               "string": "\n            Modify Parcel\n        "
+            }
+         },
+         "button:button subdivide land": {
+            "@label": {
+               "string": "Subdivide"
+            },
+            "@name": "button subdivide land"
+         },
+         "button:button join land": {
+            "@label": {
+               "string": "Join"
+            },
+            "@name": "button join land"
+         },
+         "text:label_parcel_trans": {
+            "@name": "label_parcel_trans",
+            "#text": {
+               "string": "\n            Land Transactions\n        "
+            }
+         },
+         "button:button buy land": {
+            "@label": {
+               "string": "Buy Land"
+            },
+            "@name": "button buy land"
+         },
+         "button:button abandon land": {
+            "@label": {
+               "string": "Abandon Land"
+            },
+            "@name": "button abandon land"
+         }
+      },
+      "#comment": " end of tabs ",
+      "button:btnExpand": {
+         "@name": "btnExpand",
+         "button.commit_callback": null
+      }
+   }
+}

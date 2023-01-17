@@ -1,0 +1,59 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_gesture_gear",
+      "menu_item_call:activate": {
+         "@label": {
+            "string": "Activate/Deactivate selected gesture"
+         },
+         "@name": "activate",
+         "on_click": null
+      },
+      "menu_item_call:rename": {
+         "@label": {
+            "string": "Rename"
+         },
+         "@name": "rename",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:copy_gesture": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "copy_gesture",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "paste",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:copy_uuid": {
+         "@label": {
+            "string": "Copy UUID"
+         },
+         "@name": "copy_uuid",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:save_to_outfit": {
+         "@label": {
+            "string": "Save to current outfit"
+         },
+         "@name": "save_to_outfit",
+         "on_click": null
+      },
+      "menu_item_call:edit_gesture": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit_gesture",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

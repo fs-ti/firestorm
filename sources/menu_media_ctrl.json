@@ -1,0 +1,39 @@
+{
+   "context_menu": {
+      "@name": "media ctrl context menu",
+      "menu_item_call:Cut": {
+         "@label": {
+            "string": "Cut"
+         },
+         "@name": "Cut",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "Copy",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "Paste",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:debug_separator": {
+         "@name": "debug_separator"
+      },
+      "menu_item_call:open_webinspector": {
+         "@label": {
+            "string": "Open Web Inspector"
+         },
+         "@name": "open_webinspector",
+         "menu_item_call.on_click": null
+      }
+   }
+}

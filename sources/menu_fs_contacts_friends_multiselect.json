@@ -1,0 +1,128 @@
+{
+   "context_menu": {
+      "@name": "Friends Popup",
+      "menu_item_call:send_im": {
+         "@label": {
+            "string": "Send IM..."
+         },
+         "@name": "send_im",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Add to Set": {
+         "@label": {
+            "string": "Add to Set..."
+         },
+         "@name": "Add to Set",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:offer_teleport": {
+         "@label": {
+            "string": "Offer Teleport"
+         },
+         "@name": "offer_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:remove_friend": {
+         "@label": {
+            "string": "Remove Friends..."
+         },
+         "@name": "remove_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu:options": {
+         "@name": "options",
+         "@label": {
+            "string": "Options..."
+         },
+         "menu_item_check:show_username": {
+            "@label": {
+               "string": "Show username column"
+            },
+            "@name": "show_username",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu_item_check:show_displayname": {
+            "@label": {
+               "string": "Show display name column"
+            },
+            "@name": "show_displayname",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu_item_check:show_fullname": {
+            "@label": {
+               "string": "Show full name column"
+            },
+            "@name": "show_fullname",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu_item_check:show_permissions": {
+            "@label": {
+               "string": "Show permission columns"
+            },
+            "@name": "show_permissions",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         },
+         "menu_item_separator": null,
+         "menu_item_check:sort_by_username": {
+            "@label": {
+               "string": "Sort by username"
+            },
+            "@name": "sort_by_username",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         },
+         "menu_item_check:sort_by_displayname": {
+            "@label": {
+               "string": "Sort by display name"
+            },
+            "@name": "sort_by_displayname",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         },
+         "menu_item_check:format_username_displayname": {
+            "@label": {
+               "string": "Full name format Username (Display name)"
+            },
+            "@name": "format_username_displayname",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu_item_check:format_displayname_username": {
+            "@label": {
+               "string": "Full name format Display name (Username)"
+            },
+            "@name": "format_displayname_username",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu_item_check:friend_filter": {
+            "@label": {
+               "string": "Show search filter"
+            },
+            "@name": "friend_filter",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         }
+      },
+      "menu_item_check:GlobalOnlineStatusToggle": {
+         "@label": {
+            "string": "Online status for friends visible"
+         },
+         "@name": "GlobalOnlineStatusToggle",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      }
+   }
+}

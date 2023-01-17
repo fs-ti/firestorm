@@ -1,0 +1,118 @@
+{
+   "floater": {
+      "@name": "inspect_object",
+      "string:Creator": {
+         "@name": "Creator",
+         "#text": {
+            "string": "By [CREATOR]"
+         }
+      },
+      "string:CreatorAndOwner": {
+         "@name": "CreatorAndOwner",
+         "#text": {
+            "string": "\nBy [CREATOR]\nOwner [OWNER]\n  "
+         }
+      },
+      "string:Price": {
+         "@name": "Price",
+         "#text": {
+            "string": "L$[AMOUNT]"
+         }
+      },
+      "string:PriceFree": {
+         "@name": "PriceFree",
+         "#text": {
+            "string": "Free!"
+         }
+      },
+      "string:Touch": {
+         "@name": "Touch",
+         "#text": {
+            "string": "Touch"
+         }
+      },
+      "string:Sit": {
+         "@name": "Sit",
+         "#text": {
+            "string": "Sit"
+         }
+      },
+      "text:object_name": {
+         "@name": "object_name"
+      },
+      "text:object_creator": {
+         "@name": "object_creator",
+         "#text": {
+            "string": "\n    by secondlife:///app/agent/0e346d8b-4433-4d66-a6b0-fd37083abc4c/about\nowner secondlife:///app/agent/0e346d8b-4433-4d66-a6b0-fd37083abc4c/about\n  "
+         }
+      },
+      "text:price_text": {
+         "@name": "price_text",
+         "#text": {
+            "string": "\nL$30,000\n  "
+         }
+      },
+      "text:object_description": {
+         "@name": "object_description"
+      },
+      "#comment": " Overlapping buttons for all default actions.  Show \"Buy\" if\n  for sale, \"Sit\" if can sit, etc. ",
+      "icon:secure_browsing": {
+         "@name": "secure_browsing",
+         "@tool_tip": {
+            "string": "Secure Browsing"
+         }
+      },
+      "text:object_media_url": {
+         "@name": "object_media_url",
+         "#text": {
+            "string": "\n   http://www.superdupertest.com\n"
+         }
+      },
+      "button:buy_btn": {
+         "@label": {
+            "string": "Buy"
+         },
+         "@name": "buy_btn"
+      },
+      "button:pay_btn": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "pay_btn"
+      },
+      "button:take_free_copy_btn": {
+         "@label": {
+            "string": "Take Copy"
+         },
+         "@name": "take_free_copy_btn"
+      },
+      "button:touch_btn": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "touch_btn"
+      },
+      "button:sit_btn": {
+         "@label": {
+            "string": "Sit"
+         },
+         "@name": "sit_btn"
+      },
+      "button:open_btn": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "open_btn"
+      },
+      "#comment$20": "  non-overlapping buttons here ",
+      "button:more_info_btn": {
+         "@label": {
+            "string": "More"
+         },
+         "@name": "more_info_btn"
+      },
+      "menu_button:gear_btn": {
+         "@name": "gear_btn"
+      }
+   }
+}

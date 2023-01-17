@@ -1,0 +1,116 @@
+{
+   "floater": {
+      "@name": "window_size",
+      "@title": {
+         "string": "Window Size"
+      },
+      "string:resolution_format": {
+         "@name": "resolution_format",
+         "#text": {
+            "string": "[RES_X] x [RES_Y]"
+         }
+      },
+      "text:windowsize_text": {
+         "@name": "windowsize_text",
+         "#text": {
+            "string": "\n     Set window size:\n    "
+         }
+      },
+      "combo_box:window_size_combo": {
+         "@name": "window_size_combo",
+         "@tool_tip": {
+            "string": "width x height"
+         },
+         "combo_box.item:item1": {
+            "@label": {
+               "string": "1000 x 700 (default)"
+            },
+            "@name": "item1"
+         },
+         "combo_box.item:item2": {
+            "@label": {
+               "string": "1024 x 768 (4:3 XGA)"
+            },
+            "@name": "item2"
+         },
+         "combo_box.item:item3": {
+            "@label": {
+               "string": "1280 x 720 (16:9 HD)"
+            },
+            "@name": "item3"
+         },
+         "combo_box.item:item4": {
+            "@label": {
+               "string": "1280 x 800 (16:10 WXGA)"
+            },
+            "@name": "item4"
+         },
+         "combo_box.item:item5": {
+            "@label": {
+               "string": "1360 x 768 (16:9 WXGA)"
+            },
+            "@name": "item5"
+         },
+         "combo_box.item:item7": {
+            "@label": {
+               "string": "1366 x 768 (16:9 WXGA)"
+            },
+            "@name": "item7"
+         },
+         "combo_box.item:item8": {
+            "@label": {
+               "string": "1440 x 900 (16:10 WXGA+)"
+            },
+            "@name": "item8"
+         },
+         "combo_box.item:item9": {
+            "@label": {
+               "string": "1536 x 864 (16:9)"
+            },
+            "@name": "item9"
+         },
+         "combo_box.item:item10": {
+            "@label": {
+               "string": "1600 x 900 (16:9 HD+)"
+            },
+            "@name": "item10"
+         },
+         "combo_box.item:item11": {
+            "@label": {
+               "string": "1680 x 1050 (16:10 WSXGA+)"
+            },
+            "@name": "item11"
+         },
+         "combo_box.item:item12": {
+            "@label": {
+               "string": "1920 x 1080 (16:9 FHD)"
+            },
+            "@name": "item12"
+         },
+         "combo_box.item:item13": {
+            "@label": {
+               "string": "1920 x 1200 (16:10 WUXGA)"
+            },
+            "@name": "item13"
+         },
+         "combo_box.item:item14": {
+            "@label": {
+               "string": "2560 x 1440 (16:9 QHD)"
+            },
+            "@name": "item14"
+         }
+      },
+      "button:set_btn": {
+         "@label": {
+            "string": "Set"
+         },
+         "@name": "set_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

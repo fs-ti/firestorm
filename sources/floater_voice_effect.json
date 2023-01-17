@@ -1,0 +1,348 @@
+{
+   "floater": {
+      "@name": "voice_effects",
+      "@title": {
+         "string": "Voice Morphing Preview"
+      },
+      "@label": {
+         "string": "Places"
+      },
+      "string:no_voice_effect": {
+         "@name": "no_voice_effect",
+         "#text": {
+            "string": "\n    (No Voice Morph)\n  "
+         }
+      },
+      "string:active_voice_effect": {
+         "@name": "active_voice_effect",
+         "#text": {
+            "string": "\n    (Active)\n  "
+         }
+      },
+      "string:unsubscribed_voice_effect": {
+         "@name": "unsubscribed_voice_effect",
+         "#text": {
+            "string": "\n    (Unsubscribed)\n  "
+         }
+      },
+      "string:new_voice_effect": {
+         "@name": "new_voice_effect",
+         "#text": {
+            "string": "\n    (New!)\n  "
+         }
+      },
+      "#comment": "  effect names begin ",
+      "string:effect_Arena": {
+         "@name": "effect_Arena",
+         "#text": {
+            "string": "Arena"
+         }
+      },
+      "string:effect_Beast": {
+         "@name": "effect_Beast",
+         "#text": {
+            "string": "Beast"
+         }
+      },
+      "string:effect_Buff": {
+         "@name": "effect_Buff",
+         "#text": {
+            "string": "Buff"
+         }
+      },
+      "string:effect_Buzz": {
+         "@name": "effect_Buzz",
+         "#text": {
+            "string": "Buzz"
+         }
+      },
+      "string:effect_Camille": {
+         "@name": "effect_Camille",
+         "#text": {
+            "string": "Camille"
+         }
+      },
+      "string:effect_Creepy": {
+         "@name": "effect_Creepy",
+         "#text": {
+            "string": "Creepy"
+         }
+      },
+      "string:effect_CreepyBot": {
+         "@name": "effect_CreepyBot",
+         "#text": {
+            "string": "CreepyBot"
+         }
+      },
+      "string:effect_Cyber": {
+         "@name": "effect_Cyber",
+         "#text": {
+            "string": "Cyber"
+         }
+      },
+      "string:effect_DeepBot": {
+         "@name": "effect_DeepBot",
+         "#text": {
+            "string": "DeepBot"
+         }
+      },
+      "string:effect_Demon": {
+         "@name": "effect_Demon",
+         "#text": {
+            "string": "Demon"
+         }
+      },
+      "string:effect_Female Elf": {
+         "@name": "effect_Female Elf",
+         "#text": {
+            "string": "Female Elf"
+         }
+      },
+      "string:effect_Flirty": {
+         "@name": "effect_Flirty",
+         "#text": {
+            "string": "Flirty"
+         }
+      },
+      "string:effect_Foxy": {
+         "@name": "effect_Foxy",
+         "#text": {
+            "string": "Foxy"
+         }
+      },
+      "string:effect_Halloween 2010 Bonus": {
+         "@name": "effect_Halloween 2010 Bonus",
+         "#text": {
+            "string": "Halloween_2010_Bonus"
+         }
+      },
+      "string:effect_Helium": {
+         "@name": "effect_Helium",
+         "#text": {
+            "string": "Helium"
+         }
+      },
+      "string:effect_Husky": {
+         "@name": "effect_Husky",
+         "#text": {
+            "string": "Husky"
+         }
+      },
+      "string:effect_Husky Whisper": {
+         "@name": "effect_Husky Whisper",
+         "#text": {
+            "string": "Husky Whisper"
+         }
+      },
+      "string:effect_Intercom": {
+         "@name": "effect_Intercom",
+         "#text": {
+            "string": "Intercom"
+         }
+      },
+      "string:effect_Julia": {
+         "@name": "effect_Julia",
+         "#text": {
+            "string": "Julia"
+         }
+      },
+      "string:effect_Lo Lilt": {
+         "@name": "effect_Lo Lilt",
+         "#text": {
+            "string": "Lo Lilt"
+         }
+      },
+      "string:effect_Macho": {
+         "@name": "effect_Macho",
+         "#text": {
+            "string": "Macho"
+         }
+      },
+      "string:effect_Micro": {
+         "@name": "effect_Micro",
+         "#text": {
+            "string": "Micro"
+         }
+      },
+      "string:effect_Mini": {
+         "@name": "effect_Mini",
+         "#text": {
+            "string": "Mini"
+         }
+      },
+      "string:effect_Model": {
+         "@name": "effect_Model",
+         "#text": {
+            "string": "Model"
+         }
+      },
+      "string:effect_Nano": {
+         "@name": "effect_Nano",
+         "#text": {
+            "string": "Nano"
+         }
+      },
+      "string:effect_Nightmare": {
+         "@name": "effect_Nightmare",
+         "#text": {
+            "string": "Nightmare"
+         }
+      },
+      "string:effect_PopBot": {
+         "@name": "effect_PopBot",
+         "#text": {
+            "string": "PopBot"
+         }
+      },
+      "string:effect_Rachel": {
+         "@name": "effect_Rachel",
+         "#text": {
+            "string": "Rachel"
+         }
+      },
+      "string:effect_Radio": {
+         "@name": "effect_Radio",
+         "#text": {
+            "string": "Radio"
+         }
+      },
+      "string:effect_Robot": {
+         "@name": "effect_Robot",
+         "#text": {
+            "string": "Robot"
+         }
+      },
+      "string:effect_Roxanne": {
+         "@name": "effect_Roxanne",
+         "#text": {
+            "string": "Roxanne"
+         }
+      },
+      "string:effect_Rumble": {
+         "@name": "effect_Rumble",
+         "#text": {
+            "string": "Rumble"
+         }
+      },
+      "string:effect_Sabrina": {
+         "@name": "effect_Sabrina",
+         "#text": {
+            "string": "Sabrina"
+         }
+      },
+      "string:effect_Samantha": {
+         "@name": "effect_Samantha",
+         "#text": {
+            "string": "Samantha"
+         }
+      },
+      "string:effect_Sexy": {
+         "@name": "effect_Sexy",
+         "#text": {
+            "string": "Sexy"
+         }
+      },
+      "string:effect_Shorty": {
+         "@name": "effect_Shorty",
+         "#text": {
+            "string": "Shorty"
+         }
+      },
+      "string:effect_Smaller": {
+         "@name": "effect_Smaller",
+         "#text": {
+            "string": "Smaller"
+         }
+      },
+      "string:effect_Sneaky": {
+         "@name": "effect_Sneaky",
+         "#text": {
+            "string": "Sneaky"
+         }
+      },
+      "string:effect_Stallion": {
+         "@name": "effect_Stallion",
+         "#text": {
+            "string": "Stallion"
+         }
+      },
+      "string:effect_Sultry": {
+         "@name": "effect_Sultry",
+         "#text": {
+            "string": "Sultry"
+         }
+      },
+      "string:effect_Thunder": {
+         "@name": "effect_Thunder",
+         "#text": {
+            "string": "Thunder"
+         }
+      },
+      "string:effect_Vixen": {
+         "@name": "effect_Vixen",
+         "#text": {
+            "string": "Vixen"
+         }
+      },
+      "string:effect_WhinyBot": {
+         "@name": "effect_WhinyBot",
+         "#text": {
+            "string": "WhinyBot"
+         }
+      },
+      "#comment$51": "  effect names end ",
+      "text:preview_text": {
+         "@name": "preview_text",
+         "#text": {
+            "string": "To Preview\n   "
+         }
+      },
+      "text:status_text": {
+         "@name": "status_text",
+         "#text": {
+            "string": "\nRecord a sample, then click on a voice to hear how it will sound.\n  "
+         }
+      },
+      "button:record_btn": {
+         "@label": {
+            "string": "Record"
+         },
+         "@name": "record_btn",
+         "@tool_tip": {
+            "string": "Record a sample of your voice."
+         },
+         "button.commit_callback": null
+      },
+      "button:record_stop_btn": {
+         "@label": {
+            "string": "Stop"
+         },
+         "@name": "record_stop_btn",
+         "button.commit_callback": null
+      },
+      "text:voice_morphing_link": {
+         "@name": "voice_morphing_link",
+         "#text": {
+            "string": "\n    [[URL] Subscribe Now]\n  "
+         }
+      },
+      "scroll_list:voice_effect_list": {
+         "@name": "voice_effect_list",
+         "@tool_tip": {
+            "string": "Record a sample of your voice, then click an effect to preview."
+         },
+         "scroll_list.columns:name": {
+            "@label": {
+               "string": "Voice Name"
+            },
+            "@name": "name"
+         },
+         "scroll_list.columns:expires": {
+            "@label": {
+               "string": "Expires"
+            },
+            "@name": "expires"
+         }
+      }
+   }
+}

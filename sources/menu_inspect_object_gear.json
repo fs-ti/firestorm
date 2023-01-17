@@ -1,0 +1,130 @@
+{
+   "toggleable_menu": {
+      "@name": "Gear Menu",
+      "menu_item_call:touch": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "touch",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:sit": {
+         "@label": {
+            "string": "Sit"
+         },
+         "@name": "sit",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "pay",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:buy": {
+         "@label": {
+            "string": "Buy"
+         },
+         "@name": "buy",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:take": {
+         "@label": {
+            "string": "Take"
+         },
+         "@name": "take",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:take_copy": {
+         "@label": {
+            "string": "Take Copy"
+         },
+         "@name": "take_copy",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "open",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:edit": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:wear": {
+         "@label": {
+            "string": "Wear"
+         },
+         "@name": "wear",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:add": {
+         "@label": {
+            "string": "Add"
+         },
+         "@name": "add",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:report": {
+         "@label": {
+            "string": "Report"
+         },
+         "@name": "report",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:block": {
+         "@label": {
+            "string": "Block"
+         },
+         "@name": "block",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:unblock": {
+         "@label": {
+            "string": "Unblock"
+         },
+         "@name": "unblock",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:zoom_in": {
+         "@label": {
+            "string": "Zoom In"
+         },
+         "@name": "zoom_in",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:remove": {
+         "@label": {
+            "string": "Remove"
+         },
+         "@name": "remove",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:more_info": {
+         "@label": {
+            "string": "More Info"
+         },
+         "@name": "more_info",
+         "menu_item_call.on_click": null
+      }
+   }
+}
