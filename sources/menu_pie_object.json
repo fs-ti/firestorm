@@ -1,0 +1,473 @@
+{
+   "pie_menu": {
+      "@name": "Object Pie",
+      "pie_slice:Open": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "Open",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Build": {
+         "@label": {
+            "string": "Create"
+         },
+         "@name": "Build",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Pie Object Touch": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "Pie Object Touch",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable:EnableTouch": {
+            "@name": "EnableTouch"
+         }
+      },
+      "pie_slice:Pie Object Sit": {
+         "@label": {
+            "string": "Sit Here"
+         },
+         "@name": "Pie Object Sit",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Object Stand Up": {
+         "@label": {
+            "string": "Stand Up"
+         },
+         "@name": "Object Stand Up",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Buy...": {
+         "@label": {
+            "string": "Buy"
+         },
+         "@name": "Buy...",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Pie Object Take": {
+         "@label": {
+            "string": "Take"
+         },
+         "@name": "Pie Object Take",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Pay...": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "Pay...",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_menu:Object Pie More 1": {
+         "@label": {
+            "string": "More >"
+         },
+         "@name": "Object Pie More 1",
+         "pie_slice:Delete": {
+            "@label": {
+               "string": "Delete"
+            },
+            "@name": "Delete",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Wear": {
+            "@label": {
+               "string": "Wear"
+            },
+            "@name": "Wear",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Take Copy": {
+            "@label": {
+               "string": "Take Copy"
+            },
+            "@name": "Take Copy",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_menu:Pie Object Attach HUD": {
+            "@label": {
+               "string": "Attach HUD >"
+            },
+            "@name": "Pie Object Attach HUD"
+         },
+         "pie_menu:Pie Object Attach": {
+            "@label": {
+               "string": "Attach >"
+            },
+            "@name": "Pie Object Attach",
+            "pie_menu:Enhanced Skeleton": {
+               "@label": {
+                  "string": "Ext. Skeleton >"
+               },
+               "@name": "Enhanced Skeleton",
+               "pie_slice:Right Wing": {
+                  "@label": {
+                     "string": "Right Wing"
+                  },
+                  "@name": "Right Wing",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Groin": {
+                  "@label": {
+                     "string": "Groin"
+                  },
+                  "@name": "Groin",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Tail Base": {
+                  "@label": {
+                     "string": "Tail Base"
+                  },
+                  "@name": "Tail Base",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Tail Tip": {
+                  "@label": {
+                     "string": "Tail Tip"
+                  },
+                  "@name": "Tail Tip",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Left Wing": {
+                  "@label": {
+                     "string": "Left Wing"
+                  },
+                  "@name": "Left Wing",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Left Hind Foot": {
+                  "@label": {
+                     "string": "L Hind Foot"
+                  },
+                  "@name": "Left Hind Foot",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_menu:Enhanced Skeleton More": {
+                  "@label": {
+                     "string": "More >"
+                  },
+                  "@name": "Enhanced Skeleton More",
+                  "pie_slice:Alt Right Ear": {
+                     "@label": {
+                        "string": "Alt R Ear"
+                     },
+                     "@name": "Alt Right Ear",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Alt Right Eye": {
+                     "@label": {
+                        "string": "Alt R Eye"
+                     },
+                     "@name": "Alt Right Eye",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Tongue": {
+                     "@label": {
+                        "string": "Tongue"
+                     },
+                     "@name": "Tongue",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Alt Left Eye": {
+                     "@label": {
+                        "string": "Alt L Eye"
+                     },
+                     "@name": "Alt Left Eye",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Alt Left Ear": {
+                     "@label": {
+                        "string": "Alt L Ear"
+                     },
+                     "@name": "Alt Left Ear",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Left Ring Finger": {
+                     "@label": {
+                        "string": "L Ring Finger"
+                     },
+                     "@name": "Left Ring Finger",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Jaw": {
+                     "@label": {
+                        "string": "Jaw"
+                     },
+                     "@name": "Jaw",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Right Ring Finger": {
+                     "@label": {
+                        "string": "R Ring Finger"
+                     },
+                     "@name": "Right Ring Finger",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  }
+               },
+               "pie_slice:Right Hind Foot": {
+                  "@label": {
+                     "string": "R Hind Foot"
+                  },
+                  "@name": "Right Hind Foot",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               }
+            }
+         },
+         "pie_slice:Return...": {
+            "@label": {
+               "string": "Return"
+            },
+            "@name": "Return...",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_menu:Object Pie More 2": {
+            "@label": {
+               "string": "More >"
+            },
+            "@name": "Object Pie More 2",
+            "pie_menu:ResetMenu": {
+               "@name": "ResetMenu",
+               "@label": {
+                  "string": "Reset >"
+               },
+               "pie_slice:Texture Refresh": {
+                  "@label": {
+                     "string": "Tex Refresh"
+                  },
+                  "@name": "Texture Refresh",
+                  "pie_slice.on_click": null
+               },
+               "pie_slice:Reset Skeleton": {
+                  "@label": {
+                     "string": "Skeleton"
+                  },
+                  "@name": "Reset Skeleton",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_visible": null
+               }
+            },
+            "pie_menu:DerenderMenu": {
+               "@name": "DerenderMenu",
+               "@label": {
+                  "string": "Derender >"
+               },
+               "pie_slice:DerenderPermanent": {
+                  "@label": {
+                     "string": "Blacklist"
+                  },
+                  "@name": "DerenderPermanent",
+                  "pie_slice.on_click": null
+               },
+               "pie_slice:Derender": {
+                  "@label": {
+                     "string": "Temporary"
+                  },
+                  "@name": "Derender",
+                  "pie_slice.on_click": null
+               }
+            },
+            "pie_slice:Report Abuse...": {
+               "@label": {
+                  "string": "Report..."
+               },
+               "@name": "Report Abuse...",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_menu:ExportMenu": {
+               "@name": "ExportMenu",
+               "@label": {
+                  "string": "Save as >"
+               },
+               "pie_slice:Backup": {
+                  "@label": {
+                     "string": "Backup"
+                  },
+                  "@name": "Backup",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Collada": {
+                  "@label": {
+                     "string": "Collada"
+                  },
+                  "@name": "Collada",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Dump XML": {
+                  "@label": {
+                     "string": "Dump XML"
+                  },
+                  "@name": "Dump XML",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_visible": null
+               }
+            },
+            "#comment": " Phoenix has \"Disable\" here, which we haven't implemented yet.\n     Might get interesting when we finally do ... ",
+            "#comment$7": " <pie_separator name=\"disable_placeholder\" /> ",
+            "pie_menu:Pathfinding": {
+               "@label": {
+                  "string": "Pathfinding >"
+               },
+               "@name": "Pathfinding",
+               "pie_slice:show_in_linksets": {
+                  "@label": {
+                     "string": "Show in linksets"
+                  },
+                  "@name": "show_in_linksets",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:show_in_characters": {
+                  "@label": {
+                     "string": "Show in characters"
+                  },
+                  "@name": "show_in_characters",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "#comment": " FIXME: pie menu crashes if the last item in a pie_menu is an autohide item -Zi ",
+               "pie_separator:autohide_end_crash_protection": {
+                  "@name": "autohide_end_crash_protection"
+               }
+            },
+            "pie_menu:mute_menu": {
+               "@name": "mute_menu",
+               "@label": {
+                  "string": "Mute >"
+               },
+               "pie_slice:Object Mute": {
+                  "@label": {
+                     "string": "Mute"
+                  },
+                  "@name": "Object Mute",
+                  "pie_slice.on_click": null,
+                  "#comment": "            <pie_slice.on_enable\n                    function=\"Object.EnableMute\" /> "
+               },
+               "pie_slice:Mute Particle": {
+                  "@label": {
+                     "string": "Part. Owner"
+                  },
+                  "@name": "Mute Particle",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               }
+            },
+            "pie_menu:ScriptsMenu": {
+               "@label": {
+                  "string": "Scripts >"
+               },
+               "@name": "ScriptsMenu",
+               "pie_slice:CompileMono": {
+                  "@label": {
+                     "string": "Compile (Mono)"
+                  },
+                  "@name": "CompileMono",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:CompileLSL": {
+                  "@label": {
+                     "string": "Compile (LSL)"
+                  },
+                  "@name": "CompileLSL",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Object Reset Scripts": {
+                  "@label": {
+                     "string": "Reset Scripts"
+                  },
+                  "@name": "Object Reset Scripts",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Object Set Scripts to Running": {
+                  "@label": {
+                     "string": "Run Scripts"
+                  },
+                  "@name": "Object Set Scripts to Running",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Object Set Scripts to Not Running": {
+                  "@label": {
+                     "string": "Stop Scripts"
+                  },
+                  "@name": "Object Set Scripts to Not Running",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Remove Scripts From Selection": {
+                  "@label": {
+                     "string": "Remove Scripts"
+                  },
+                  "@name": "Remove Scripts From Selection",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:ScriptInfo": {
+                  "@label": {
+                     "string": "Script Info"
+                  },
+                  "@name": "ScriptInfo",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               }
+            },
+            "pie_slice:Object Inspect": {
+               "@label": {
+                  "string": "Inspect"
+               },
+               "@name": "Object Inspect",
+               "pie_slice.on_click": null
+            }
+         },
+         "pie_slice:Buy...": {
+            "@label": {
+               "string": "Buy"
+            },
+            "@name": "Buy...",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         }
+      },
+      "pie_slice:Edit...": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "Edit...",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      }
+   }
+}

@@ -1,0 +1,29 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_settings_add",
+      "menu_item_call:New Sky": {
+         "@label": {
+            "string": "New Sky"
+         },
+         "@name": "New Sky",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:New Water": {
+         "@label": {
+            "string": "New Water"
+         },
+         "@name": "New Water",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:New Day Cycle": {
+         "@label": {
+            "string": "New Day Cycle"
+         },
+         "@name": "New Day Cycle",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

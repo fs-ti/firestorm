@@ -1,0 +1,64 @@
+{
+   "context_menu": {
+      "@name": "Url Popup",
+      "menu_item_call:show_group": {
+         "@label": {
+            "string": "Show Group Information"
+         },
+         "@name": "show_group",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "#comment": " <FS:Zi> FIRE-30725 - Add more group functions to group URL context menu ",
+      "#comment$4": " menu entry to call internal request for group data - this will make sure the\n         rest of the functions can actually do something once the data is loaded ",
+      "menu_item_call:waiting_for_group_data": {
+         "@label": {
+            "string": "Fetching Group Data, please try again!"
+         },
+         "@name": "waiting_for_group_data",
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:activate_group": {
+         "@label": {
+            "string": "Activate Group"
+         },
+         "@name": "activate_group",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:join_group": {
+         "@label": {
+            "string": "Join Group"
+         },
+         "@name": "join_group",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:leave_group": {
+         "@label": {
+            "string": "Leave Group"
+         },
+         "@name": "leave_group",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null,
+         "menu_item_call.on_enable": null
+      },
+      "#comment$9": " </FS:Zi> ",
+      "menu_item_call:url_copy_label": {
+         "@label": {
+            "string": "Copy Group to clipboard"
+         },
+         "@name": "url_copy_label",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:url_copy": {
+         "@label": {
+            "string": "Copy SLurl to clipboard"
+         },
+         "@name": "url_copy",
+         "menu_item_call.on_click": null
+      }
+   }
+}

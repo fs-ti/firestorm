@@ -1,0 +1,86 @@
+{
+   "toggleable_menu": {
+      "@name": "participant_manu_view",
+      "menu_item_check:sort_sessions_by_type": {
+         "@label": {
+            "string": "Sort conversations by type"
+         },
+         "@name": "sort_sessions_by_type",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_sessions_by_name": {
+         "@label": {
+            "string": "Sort conversations by name"
+         },
+         "@name": "sort_sessions_by_name",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_sessions_by_recent": {
+         "@label": {
+            "string": "Sort conversations by recent activity"
+         },
+         "@name": "sort_sessions_by_recent",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:sort_participants_by_name": {
+         "@label": {
+            "string": "Sort participants by name"
+         },
+         "@name": "sort_participants_by_name",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_participants_by_recent": {
+         "@label": {
+            "string": "Sort participants by recent activity"
+         },
+         "@name": "sort_participants_by_recent",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_call:chat_preferences": {
+         "@label": {
+            "string": "Chat preferences..."
+         },
+         "@name": "chat_preferences",
+         "on_click": null
+      },
+      "menu_item_call:privacy_preferences": {
+         "@label": {
+            "string": "Privacy preferences..."
+         },
+         "@name": "privacy_preferences",
+         "on_click": null
+      },
+      "menu_item_check:Conversation": {
+         "@label": {
+            "string": "Conversation log..."
+         },
+         "@name": "Conversation",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:Translate_chat": {
+         "@name": "Translate_chat",
+         "@label": {
+            "string": "Translate Nearby chat"
+         },
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_check:Translation_settings": {
+         "@name": "Translation_settings",
+         "@label": {
+            "string": "Translation settings..."
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      }
+   }
+}

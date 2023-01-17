@@ -1,0 +1,14 @@
+{
+   "panel": {
+      "@name": "clothing_list_button_bar_panel",
+      "button:add_btn": {
+         "@label": {
+            "string": "Add +"
+         },
+         "@name": "add_btn"
+      },
+      "button:clothing_shop_btn": {
+         "@name": "clothing_shop_btn"
+      }
+   }
+}

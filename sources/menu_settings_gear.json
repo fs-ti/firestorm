@@ -1,0 +1,63 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_settings_gear",
+      "menu_item_call:edit_settings": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit_settings",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator:Separator": {
+         "@name": "Separator"
+      },
+      "menu_item_call:Settings Apply Local": {
+         "@name": "Settings Apply Local",
+         "@label": {
+            "string": "Apply Only To Myself"
+         },
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Settings Apply Parcel": {
+         "@name": "Settings Apply Parcel",
+         "@label": {
+            "string": "Apply To Parcel"
+         },
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Settings Apply Region": {
+         "@name": "Settings Apply Region",
+         "@label": {
+            "string": "Apply To Region"
+         },
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:copy_settings": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "copy_settings",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:paste_settings": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "paste_settings",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:copy_uuid": {
+         "@label": {
+            "string": "Copy UUID"
+         },
+         "@name": "copy_uuid",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

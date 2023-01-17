@@ -1,0 +1,537 @@
+{
+   "mimetypes": {
+      "@name": "default",
+      "defaultlabel": "\n    (Unknown)\n  ",
+      "defaultwidget": "\n    none\n  ",
+      "defaultimpl": "\n    media_plugin_cef\n  ",
+      "widgetset:web": {
+         "@name": "web",
+         "label:web_label": {
+            "@name": "web_label",
+            "#text": {
+               "string": "\n      Web Content\n    "
+            }
+         },
+         "icon": "\n      icn_media_web.tga\n    ",
+         "default_type": "\n      text/html\n    ",
+         "tooltip:web_tooltip": {
+            "@name": "web_tooltip",
+            "#text": {
+               "string": "\n      This location has Web content\n    "
+            }
+         },
+         "playtip:web_playtip": {
+            "@name": "web_playtip",
+            "#text": {
+               "string": "\n      Show Web content\n    "
+            }
+         },
+         "allow_resize": "\n      true\n    ",
+         "allow_looping": "\n      false\n    "
+      },
+      "widgetset:movie": {
+         "@name": "movie",
+         "label:movie_label": {
+            "@name": "movie_label",
+            "#text": {
+               "string": "\n      Movie\n    "
+            }
+         },
+         "default_type": "\n      video/*\n    ",
+         "icon": "\n      icn_media_movie.tga\n    ",
+         "tooltip:movie_tooltip": {
+            "@name": "movie_tooltip",
+            "#text": {
+               "string": "\n      There is a movie to play here\n    "
+            }
+         },
+         "playtip:movie_playtip": {
+            "@name": "movie_playtip",
+            "#text": {
+               "string": "\n      Play movie\n    "
+            }
+         },
+         "allow_resize": "\n      false\n    ",
+         "allow_looping": "\n      true\n    "
+      },
+      "widgetset:image": {
+         "@name": "image",
+         "label:image_label": {
+            "@name": "image_label",
+            "#text": {
+               "string": "\n      Image\n    "
+            }
+         },
+         "icon": "\n      icn_media_web.tga\n    ",
+         "default_type": "\n      image/*\n    ",
+         "tooltip:image_tooltip": {
+            "@name": "image_tooltip",
+            "#text": {
+               "string": "\n      There is an image at this location\n    "
+            }
+         },
+         "playtip:image_playtip": {
+            "@name": "image_playtip",
+            "#text": {
+               "string": "\n      View this location's image\n    "
+            }
+         },
+         "allow_resize": "\n      false\n    ",
+         "allow_looping": "\n      false\n    "
+      },
+      "widgetset:audio": {
+         "@name": "audio",
+         "label:audio_label": {
+            "@name": "audio_label",
+            "#text": {
+               "string": "\n      Audio\n    "
+            }
+         },
+         "icon": "\n      icn_media_web.tga\n    ",
+         "default_type": "\n      audio/*\n    ",
+         "tooltip:audio_tooltip": {
+            "@name": "audio_tooltip",
+            "#text": {
+               "string": "\n      There is audio at this location\n    "
+            }
+         },
+         "playtip:audio_playtip": {
+            "@name": "audio_playtip",
+            "#text": {
+               "string": "\n      Play this location's audio\n    "
+            }
+         },
+         "allow_resize": "\n      false\n    ",
+         "allow_looping": "\n      true\n    "
+      },
+      "widgetset:none": {
+         "@name": "none",
+         "label:none_label": {
+            "@name": "none_label",
+            "#text": {
+               "string": "\n      No Content\n    "
+            }
+         },
+         "default_type": "\n      none/none\n    ",
+         "icon": "\n      icn_media_web.tga\n    ",
+         "tooltip:none_tooltip": {
+            "@name": "none_tooltip",
+            "#text": {
+               "string": "\n      No media here\n    "
+            }
+         },
+         "playtip:none_playtip": {
+            "@name": "none_playtip"
+         },
+         "allow_resize": "\n      false\n    ",
+         "allow_looping": "\n      false\n    "
+      },
+      "scheme:rtsp": {
+         "@name": "rtsp",
+         "label:rtsp_label": {
+            "@name": "rtsp_label",
+            "#text": {
+               "string": "\n      Real Time Streaming\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "scheme:example": {
+         "@name": "example",
+         "label:example_label": {
+            "@name": "example_label",
+            "#text": {
+               "string": "\n      Example Plugin scheme trigger\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_example\n    "
+      },
+      "scheme:libvlc": {
+         "@name": "libvlc",
+         "label:libvlc_label": {
+            "@name": "libvlc_label",
+            "#text": {
+               "string": "\n      LibVLC supported media\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:blank": {
+         "@name": "blank",
+         "label:blank_label": {
+            "@name": "blank_label",
+            "#text": {
+               "string": "\n      - None -\n    "
+            }
+         },
+         "widgettype": "\n      none\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:none/none": {
+         "@name": "none/none",
+         "label:none/none_label": {
+            "@name": "none/none_label",
+            "#text": {
+               "string": "\n      - None -\n    "
+            }
+         },
+         "widgettype": "\n      none\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:audio/*": {
+         "@name": "audio/*",
+         "label:audio2_label": {
+            "@name": "audio2_label",
+            "#text": {
+               "string": "\n      Audio\n    "
+            }
+         },
+         "widgettype": "\n      audio\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:video/*": {
+         "@name": "video/*",
+         "label:video2_label": {
+            "@name": "video2_label",
+            "#text": {
+               "string": "\n      Video\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:image/*": {
+         "@name": "image/*",
+         "label:image2_label": {
+            "@name": "image2_label",
+            "#text": {
+               "string": "\n      Image\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:video/vnd.secondlife.qt.legacy": {
+         "@name": "video/vnd.secondlife.qt.legacy",
+         "label:vnd.secondlife.qt.legacy_label": {
+            "@name": "vnd.secondlife.qt.legacy_label",
+            "#text": {
+               "string": "\n      Movie (QuickTime)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:application/javascript": {
+         "@name": "application/javascript",
+         "label:application/javascript_label": {
+            "@name": "application/javascript_label",
+            "#text": {
+               "string": "\n      Javascript\n    "
+            }
+         },
+         "widgettype": "\n      web\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:application/ogg": {
+         "@name": "application/ogg",
+         "label:application/ogg_label": {
+            "@name": "application/ogg_label",
+            "#text": {
+               "string": "\n      Ogg Audio/Video\n    "
+            }
+         },
+         "widgettype": "\n      audio\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:application/pdf": {
+         "@name": "application/pdf",
+         "label:application/pdf_label": {
+            "@name": "application/pdf_label",
+            "#text": {
+               "string": "\n      PDF Document\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:application/postscript": {
+         "@name": "application/postscript",
+         "label:application/postscript_label": {
+            "@name": "application/postscript_label",
+            "#text": {
+               "string": "\n      Postscript Document\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:application/rtf": {
+         "@name": "application/rtf",
+         "label:application/rtf_label": {
+            "@name": "application/rtf_label",
+            "#text": {
+               "string": "\n      Rich Text (RTF)\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:application/smil": {
+         "@name": "application/smil",
+         "label:application/smil_label": {
+            "@name": "application/smil_label",
+            "#text": {
+               "string": "\n      Synchronized Multimedia Integration Language (SMIL)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:application/xhtml+xml": {
+         "@name": "application/xhtml+xml",
+         "label:application/xhtml+xml_label": {
+            "@name": "application/xhtml+xml_label",
+            "#text": {
+               "string": "\n      Web Page (XHTML)\n    "
+            }
+         },
+         "widgettype": "\n      web\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:application/x-director": {
+         "@name": "application/x-director",
+         "label:application/x-director_label": {
+            "@name": "application/x-director_label",
+            "#text": {
+               "string": "\n      Macromedia Director\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:audio/mid": {
+         "@name": "audio/mid",
+         "label:audio/mid_label": {
+            "@name": "audio/mid_label",
+            "#text": {
+               "string": "\n      Audio (MIDI)\n    "
+            }
+         },
+         "widgettype": "\n      audio\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:audio/mpeg": {
+         "@name": "audio/mpeg",
+         "label:audio/mpeg_label": {
+            "@name": "audio/mpeg_label",
+            "#text": {
+               "string": "\n      Audio (MP3)\n    "
+            }
+         },
+         "widgettype": "\n      audio\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:audio/x-aiff": {
+         "@name": "audio/x-aiff",
+         "label:audio/x-aiff_label": {
+            "@name": "audio/x-aiff_label",
+            "#text": {
+               "string": "\n      Audio (AIFF)\n    "
+            }
+         },
+         "widgettype": "\n      audio\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:audio/x-wav": {
+         "@name": "audio/x-wav",
+         "label:audio/x-wav_label": {
+            "@name": "audio/x-wav_label",
+            "#text": {
+               "string": "\n      Audio (WAV)\n    "
+            }
+         },
+         "widgettype": "\n      audio\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:image/bmp": {
+         "@name": "image/bmp",
+         "label:image/bmp_label": {
+            "@name": "image/bmp_label",
+            "#text": {
+               "string": "\n      Image (BMP)\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:image/gif": {
+         "@name": "image/gif",
+         "label:image/gif_label": {
+            "@name": "image/gif_label",
+            "#text": {
+               "string": "\n      Image (GIF)\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:image/jpeg": {
+         "@name": "image/jpeg",
+         "label:image/jpeg_label": {
+            "@name": "image/jpeg_label",
+            "#text": {
+               "string": "\n      Image (JPEG)\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:image/png": {
+         "@name": "image/png",
+         "label:image/png_label": {
+            "@name": "image/png_label",
+            "#text": {
+               "string": "\n      Image (PNG)\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:image/svg+xml": {
+         "@name": "image/svg+xml",
+         "label:image/svg+xml_label": {
+            "@name": "image/svg+xml_label",
+            "#text": {
+               "string": "\n      Image (SVG)\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:image/tiff": {
+         "@name": "image/tiff",
+         "label:image/tiff_label": {
+            "@name": "image/tiff_label",
+            "#text": {
+               "string": "\n      Image (TIFF)\n    "
+            }
+         },
+         "widgettype": "\n      image\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:text/html": {
+         "@name": "text/html",
+         "label:text/html_label": {
+            "@name": "text/html_label",
+            "#text": {
+               "string": "\n      Web Page\n    "
+            }
+         },
+         "widgettype": "\n      web\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:text/plain": {
+         "@name": "text/plain",
+         "label:text/plain_label": {
+            "@name": "text/plain_label",
+            "#text": {
+               "string": "\n      Text\n    "
+            }
+         },
+         "widgettype": "\n      text\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:text/xml": {
+         "@name": "text/xml",
+         "label:text/xml_label": {
+            "@name": "text/xml_label",
+            "#text": {
+               "string": "\n      XML\n    "
+            }
+         },
+         "widgettype": "\n      text\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:video/mpeg": {
+         "@name": "video/mpeg",
+         "label:video/mpeg_label": {
+            "@name": "video/mpeg_label",
+            "#text": {
+               "string": "\n      Movie (MPEG)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:video/mp4": {
+         "@name": "video/mp4",
+         "label:video/mp4_label": {
+            "@name": "video/mp4_label",
+            "#text": {
+               "string": "\n      Movie (MP4)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:application/octet-stream": {
+         "@name": "application/octet-stream",
+         "label:video/octet-stream": {
+            "@name": "video/octet-stream",
+            "#text": {
+               "string": "\n      Movie\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:video/quicktime": {
+         "@name": "video/quicktime",
+         "label:video/quicktime_label": {
+            "@name": "video/quicktime_label",
+            "#text": {
+               "string": "\n      Movie (QuickTime)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:video/x-ms-asf": {
+         "@name": "video/x-ms-asf",
+         "label:video/x-ms-asf_label": {
+            "@name": "video/x-ms-asf_label",
+            "#text": {
+               "string": "\n      Movie (Windows Media ASF)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
+      "mimetype:video/x-ms-wmv": {
+         "@name": "video/x-ms-wmv",
+         "label:video/x-ms-wmv_label": {
+            "@name": "video/x-ms-wmv_label",
+            "#text": {
+               "string": "\n      Movie (Windows Media WMV)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_cef\n    "
+      },
+      "mimetype:video/x-msvideo": {
+         "@name": "video/x-msvideo",
+         "label:video/x-msvideo_label": {
+            "@name": "video/x-msvideo_label",
+            "#text": {
+               "string": "\n      Movie (AVI)\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      }
+   }
+}

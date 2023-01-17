@@ -1,0 +1,23 @@
+{
+   "panel": {
+      "@name": "panel_activeim_row",
+      "chiclet_script:object_chiclet": {
+         "@name": "object_chiclet"
+      },
+      "chiclet_offer:inv_offer_chiclet": {
+         "@name": "inv_offer_chiclet"
+      },
+      "text:object_name": {
+         "@name": "object_name",
+         "#text": {
+            "string": "\n    Unnamed Object\n  "
+         }
+      },
+      "button:hide_btn": {
+         "@name": "hide_btn",
+         "@label": {
+            "string": ""
+         }
+      }
+   }
+}

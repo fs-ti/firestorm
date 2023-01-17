@@ -1,0 +1,27 @@
+{
+   "toggleable_menu": {
+      "@name": "place_overflow_menu",
+      "menu_item_call:copy": {
+         "@label": {
+            "string": "Copy SLurl"
+         },
+         "@name": "copy",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:landmark": {
+         "@label": {
+            "string": "Make a Landmark"
+         },
+         "@name": "landmark",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:pick": {
+         "@label": {
+            "string": "Create Pick"
+         },
+         "@name": "pick",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

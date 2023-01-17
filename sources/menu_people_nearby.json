@@ -1,0 +1,147 @@
+{
+   "context_menu": {
+      "@name": "Nearby People Context Menu",
+      "menu_item_call:view_profile": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "view_profile",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:im": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "im",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:offer_teleport": {
+         "@label": {
+            "string": "Offer Teleport"
+         },
+         "@name": "offer_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:request_teleport": {
+         "@label": {
+            "string": "Request Teleport"
+         },
+         "@name": "request_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:voice_call": {
+         "@label": {
+            "string": "Voice call"
+         },
+         "@name": "voice_call",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:chat_history": {
+         "@label": {
+            "string": "View chat transcripts..."
+         },
+         "@name": "chat_history",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:separator_chat_history": {
+         "@name": "separator_chat_history"
+      },
+      "menu_item_call:add_friend": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "add_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Add to Set": {
+         "@label": {
+            "string": "Add to Set..."
+         },
+         "@name": "Add to Set",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:remove_friend": {
+         "@label": {
+            "string": "Remove Friend"
+         },
+         "@name": "remove_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:invite_to_group": {
+         "@label": {
+            "string": "Invite to group..."
+         },
+         "@name": "invite_to_group",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:separator_invite_to_group": {
+         "@name": "separator_invite_to_group"
+      },
+      "menu_item_call:zoom_in": {
+         "@label": {
+            "string": "Zoom In"
+         },
+         "@name": "zoom_in",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:map": {
+         "@label": {
+            "string": "Map"
+         },
+         "@name": "map",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "share",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "pay",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_check:block_unblock": {
+         "@label": {
+            "string": "Block/Unblock"
+         },
+         "@name": "block_unblock",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_call:freeze": {
+         "@label": {
+            "string": "Freeze"
+         },
+         "@name": "freeze",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:eject": {
+         "@label": {
+            "string": "Eject"
+         },
+         "@name": "eject",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      }
+   }
+}

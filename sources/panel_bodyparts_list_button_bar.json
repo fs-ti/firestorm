@@ -1,0 +1,14 @@
+{
+   "panel": {
+      "@name": "clothing_list_button_bar_panel",
+      "button:switch_btn": {
+         "@label": {
+            "string": "Switch"
+         },
+         "@name": "switch_btn"
+      },
+      "button:bodyparts_shop_btn": {
+         "@name": "bodyparts_shop_btn"
+      }
+   }
+}

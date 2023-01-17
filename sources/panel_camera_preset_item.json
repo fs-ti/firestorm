@@ -1,0 +1,31 @@
+{
+   "panel": {
+      "@name": "camera_preset_item",
+      "icon:hovered_icon": {
+         "@name": "hovered_icon"
+      },
+      "icon:selected_icon": {
+         "@name": "selected_icon"
+      },
+      "text:preset_name": {
+         "@name": "preset_name",
+         "@value": {
+            "string": "Default"
+         }
+      },
+      "button:delete_btn": {
+         "@name": "delete_btn",
+         "@tool_tip": {
+            "string": "Delete preset"
+         },
+         "button.commit_callback": null
+      },
+      "button:reset_btn": {
+         "@name": "reset_btn",
+         "@tool_tip": {
+            "string": "Reset preset to default"
+         },
+         "button.commit_callback": null
+      }
+   }
+}

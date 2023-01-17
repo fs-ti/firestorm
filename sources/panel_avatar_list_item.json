@@ -1,0 +1,119 @@
+{
+   "panel": {
+      "@name": "avatar_list_item",
+      "#comment": " \n    Strings used to localize last interaction time.\n    See last_interaction textbox below.\n    ",
+      "string:FormatSeconds": {
+         "@name": "FormatSeconds",
+         "#text": {
+            "string": "[COUNT]s"
+         }
+      },
+      "string:FormatMinutes": {
+         "@name": "FormatMinutes",
+         "#text": {
+            "string": "[COUNT]m"
+         }
+      },
+      "string:FormatHours": {
+         "@name": "FormatHours",
+         "#text": {
+            "string": "[COUNT]h"
+         }
+      },
+      "string:FormatDays": {
+         "@name": "FormatDays",
+         "#text": {
+            "string": "[COUNT]d"
+         }
+      },
+      "string:FormatWeeks": {
+         "@name": "FormatWeeks",
+         "#text": {
+            "string": "[COUNT]w"
+         }
+      },
+      "string:FormatMonths": {
+         "@name": "FormatMonths",
+         "#text": {
+            "string": "[COUNT]mon"
+         }
+      },
+      "string:FormatYears": {
+         "@name": "FormatYears",
+         "#text": {
+            "string": "[COUNT]y"
+         }
+      },
+      "#comment$9": "\n    *NOTE: llavatarlistitem.cpp lays these controls out depending on which\n           ones are visible. Trying to change their order here will break it\n           ... which kinda sucks.\n    ",
+      "icon:hovered_icon": {
+         "@name": "hovered_icon"
+      },
+      "icon:selected_icon": {
+         "@name": "selected_icon"
+      },
+      "avatar_icon": null,
+      "text:avatar_name": {
+         "@name": "avatar_name",
+         "@value": {
+            "string": "(loading)"
+         }
+      },
+      "text:last_interaction": {
+         "@name": "last_interaction",
+         "@value": {
+            "string": "0s"
+         }
+      },
+      "icon:permission_edit_theirs_icon": {
+         "@name": "permission_edit_theirs_icon",
+         "@tool_tip": {
+            "string": "You can edit this friend's objects"
+         }
+      },
+      "button:permission_edit_mine_btn": {
+         "@name": "permission_edit_mine_btn",
+         "@tool_tip": {
+            "string": "This friend can edit, delete or take your objects"
+         }
+      },
+      "button:permission_map_btn": {
+         "@tool_tip": {
+            "string": "This friend can locate you on the map"
+         },
+         "@name": "permission_map_btn"
+      },
+      "button:permission_online_btn": {
+         "@name": "permission_online_btn",
+         "@tool_tip": {
+            "string": "This friend can see when you're online"
+         }
+      },
+      "slider:volume_slider": {
+         "@name": "volume_slider",
+         "@tool_tip": {
+            "string": "Voice volume"
+         },
+         "@value": {
+            "string": "0.5"
+         }
+      },
+      "button:info_btn": {
+         "@name": "info_btn",
+         "@tool_tip": {
+            "string": "More info"
+         }
+      },
+      "button:profile_btn": {
+         "@name": "profile_btn",
+         "@tool_tip": {
+            "string": "View profile"
+         }
+      },
+      "output_monitor:speaking_indicator": {
+         "@name": "speaking_indicator",
+         "@tool_tip": {
+            "string": "Displays that the avatar is in voice chat range and the power level if speaking"
+         }
+      }
+   }
+}

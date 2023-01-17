@@ -1,0 +1,196 @@
+{
+   "context_menu": {
+      "@name": "Participant List Context Menu",
+      "menu_item_call:View Profile": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "View Profile",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Add Friend": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "Add Friend",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Add to Set": {
+         "@label": {
+            "string": "Add to Set"
+         },
+         "@name": "Add to Set",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:IM": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "IM",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Call": {
+         "@label": {
+            "string": "Call"
+         },
+         "@name": "Call",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "Share",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "Pay",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:zoom_in": {
+         "@label": {
+            "string": "Zoom In"
+         },
+         "@name": "zoom_in",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:Sort Separator": {
+         "@name": "Sort Separator"
+      },
+      "menu_item_check:SortByName": {
+         "@label": {
+            "string": "Sort by Name"
+         },
+         "@name": "SortByName",
+         "on_check": null,
+         "on_click": null
+      },
+      "menu_item_check:SortByRecentSpeakers": {
+         "@label": {
+            "string": "Sort by Recent Speakers"
+         },
+         "@name": "SortByRecentSpeakers",
+         "on_check": null,
+         "on_click": null
+      },
+      "menu_item_separator:View Icons Separator": {
+         "@name": "View Icons Separator"
+      },
+      "menu_item_check:View Icons": {
+         "@label": {
+            "string": "View People Icons"
+         },
+         "@name": "View Icons",
+         "on_check": null,
+         "on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:Block/Unblock": {
+         "@label": {
+            "string": "Block Voice"
+         },
+         "@name": "Block/Unblock",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_check:MuteText": {
+         "@label": {
+            "string": "Block Text"
+         },
+         "@name": "MuteText",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator:Moderator Options Separator": {
+         "@name": "Moderator Options Separator"
+      },
+      "context_menu:Moderator Options": {
+         "@label": {
+            "string": "Moderator Options"
+         },
+         "@name": "Moderator Options",
+         "menu_item_call:EjectSelected": {
+            "@label": {
+               "string": "Eject from Group"
+            },
+            "@name": "EjectSelected",
+            "on_click": null,
+            "on_enable": null
+         },
+         "menu_item_separator:moderate_voice_separator": {
+            "@name": "moderate_voice_separator"
+         },
+         "menu_item_call:AllowTextChat": {
+            "@label": {
+               "string": "Allow text chat"
+            },
+            "@name": "AllowTextChat",
+            "on_click": null,
+            "on_enable": null
+         },
+         "menu_item_call:ForbidTextChat": {
+            "@label": {
+               "string": "Forbid text chat"
+            },
+            "@name": "ForbidTextChat",
+            "on_click": null,
+            "on_enable": null
+         },
+         "menu_item_call:ModerateVoiceMuteSelected": {
+            "@label": {
+               "string": "Mute this participant"
+            },
+            "@name": "ModerateVoiceMuteSelected",
+            "on_click": null,
+            "on_enable": null
+         },
+         "menu_item_call:ModerateVoiceUnMuteSelected": {
+            "@label": {
+               "string": "Unmute this participant"
+            },
+            "@name": "ModerateVoiceUnMuteSelected",
+            "on_click": null,
+            "on_enable": null
+         },
+         "menu_item_call:ModerateVoiceMute": {
+            "@label": {
+               "string": "Mute everyone"
+            },
+            "@name": "ModerateVoiceMute",
+            "on_click": null,
+            "on_enable": null
+         },
+         "menu_item_call:ModerateVoiceUnmute": {
+            "@label": {
+               "string": "Unmute everyone"
+            },
+            "@name": "ModerateVoiceUnmute",
+            "on_click": null,
+            "on_enable": null
+         }
+      },
+      "menu_item_separator:Group Ban Separator": {
+         "@name": "Group Ban Separator"
+      },
+      "menu_item_call:BanMember": {
+         "@label": {
+            "string": "Ban member"
+         },
+         "@name": "BanMember",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

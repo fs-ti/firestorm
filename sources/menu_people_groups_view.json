@@ -1,0 +1,13 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_check:Display Group Icons": {
+         "@label": {
+            "string": "Display Group Icons"
+         },
+         "@name": "Display Group Icons",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      }
+   }
+}

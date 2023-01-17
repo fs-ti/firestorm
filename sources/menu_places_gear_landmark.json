@@ -1,0 +1,116 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_ladmark_gear",
+      "menu_item_call:teleport": {
+         "@label": {
+            "string": "Teleport"
+         },
+         "@name": "teleport",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:show_on_map": {
+         "@label": {
+            "string": "Show on Map"
+         },
+         "@name": "show_on_map",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "share",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:more_info": {
+         "@label": {
+            "string": "View/Edit Landmark"
+         },
+         "@name": "more_info",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Move to Landmarks": {
+         "@label": {
+            "string": "Move to Landmarks"
+         },
+         "@name": "Move to Landmarks",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Move to Favorites": {
+         "@label": {
+            "string": "Move to Favorites"
+         },
+         "@name": "Move to Favorites",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:copy_slurl": {
+         "@label": {
+            "string": "Copy SLurl"
+         },
+         "@name": "copy_slurl",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:create_pick": {
+         "@label": {
+            "string": "Create Pick"
+         },
+         "@name": "create_pick",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:restore_item": {
+         "@label": {
+            "string": "Restore Item"
+         },
+         "@name": "restore_item",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:cut": {
+         "@label": {
+            "string": "Cut"
+         },
+         "@name": "cut",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:copy_landmark": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "copy_landmark",
+         "on_click": null
+      },
+      "menu_item_call:paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "paste",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:rename": {
+         "@label": {
+            "string": "Rename"
+         },
+         "@name": "rename",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "delete",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

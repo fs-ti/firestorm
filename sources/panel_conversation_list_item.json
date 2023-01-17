@@ -1,0 +1,31 @@
+{
+   "panel": {
+      "@name": "conversation_list_item",
+      "avatar_icon": null,
+      "group_icon": null,
+      "icon:nearby_chat_icon": {
+         "@name": "nearby_chat_icon"
+      },
+      "layout_stack:conversation_item_stack": {
+         "@name": "conversation_item_stack",
+         "layout_panel:call_icon_panel": {
+            "@name": "call_icon_panel",
+            "icon:selected_icon": {
+               "@name": "selected_icon"
+            }
+         },
+         "layout_panel:conversation_title_panel": {
+            "@name": "conversation_title_panel",
+            "text:conversation_title": {
+               "@name": "conversation_title",
+               "@value": {
+                  "string": "(loading)"
+               }
+            },
+            "output_monitor:speaking_indicator": {
+               "@name": "speaking_indicator"
+            }
+         }
+      }
+   }
+}

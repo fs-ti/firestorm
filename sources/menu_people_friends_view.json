@@ -1,0 +1,55 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_check:sort_name": {
+         "@label": {
+            "string": "Sort by Name"
+         },
+         "@name": "sort_name",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_username": {
+         "@label": {
+            "string": "Sort by Username"
+         },
+         "@name": "sort_username",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_status": {
+         "@label": {
+            "string": "Sort by Status"
+         },
+         "@name": "sort_status",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:view_icons": {
+         "@name": "view_icons",
+         "@label": {
+            "string": "View People Icons"
+         },
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:view_permissions": {
+         "@name": "view_permissions",
+         "@label": {
+            "string": "View Permissions Granted"
+         },
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:view_conversation": {
+         "@name": "view_conversation",
+         "@label": {
+            "string": "View Conversation Log..."
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null,
+         "menu_item_check.on_click": null
+      }
+   }
+}

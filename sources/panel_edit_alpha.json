@@ -1,0 +1,76 @@
+{
+   "panel": {
+      "@name": "edit_alpha_panel",
+      "scroll_container:avatar_alpha_color_panel_scroll": {
+         "@name": "avatar_alpha_color_panel_scroll",
+         "panel:avatar_alpha_color_panel": {
+            "@name": "avatar_alpha_color_panel",
+            "check_box:lower alpha texture invisible": {
+               "@name": "lower alpha texture invisible"
+            },
+            "texture_picker:Lower Alpha": {
+               "@label": {
+                  "string": "Lower Alpha"
+               },
+               "@name": "Lower Alpha",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "check_box:upper alpha texture invisible": {
+               "@name": "upper alpha texture invisible"
+            },
+            "texture_picker:Upper Alpha": {
+               "@label": {
+                  "string": "Upper Alpha"
+               },
+               "@name": "Upper Alpha",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "check_box:head alpha texture invisible": {
+               "@name": "head alpha texture invisible"
+            },
+            "texture_picker:Head Alpha": {
+               "@label": {
+                  "string": "Head Alpha"
+               },
+               "@name": "Head Alpha",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "check_box:eye alpha texture invisible": {
+               "@name": "eye alpha texture invisible"
+            },
+            "texture_picker:Eye Alpha": {
+               "@label": {
+                  "string": "Eye Alpha"
+               },
+               "@name": "Eye Alpha",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "check_box:hair alpha texture invisible": {
+               "@name": "hair alpha texture invisible"
+            },
+            "texture_picker:Hair Alpha": {
+               "@label": {
+                  "string": "Hair Alpha"
+               },
+               "@name": "Hair Alpha",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            }
+         }
+      }
+   }
+}

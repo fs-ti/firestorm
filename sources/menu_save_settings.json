@@ -1,0 +1,53 @@
+{
+   "toggleable_menu": {
+      "@name": "save_settings_menu",
+      "menu_item_check:save_settings": {
+         "@name": "save_settings",
+         "@label": {
+            "string": "Save"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:save_as_new_settings": {
+         "@name": "save_as_new_settings",
+         "@label": {
+            "string": "Save As"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:commit_changes": {
+         "@name": "commit_changes",
+         "@label": {
+            "string": "Commit"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:apply_local": {
+         "@name": "apply_local",
+         "@label": {
+            "string": "Apply Only To Myself"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:apply_parcel": {
+         "@name": "apply_parcel",
+         "@label": {
+            "string": "Apply To Parcel"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_check:apply_region": {
+         "@name": "apply_region",
+         "@label": {
+            "string": "Apply To Region"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      }
+   }
+}

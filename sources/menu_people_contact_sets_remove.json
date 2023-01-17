@@ -1,0 +1,37 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_people_contact_sets_remove",
+      "menu_item_call:remove_set": {
+         "@label": {
+            "string": "Remove Set..."
+         },
+         "@name": "remove_set",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:remove_contact": {
+         "@label": {
+            "string": "Remove Contact..."
+         },
+         "@name": "remove_contact",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:remove_alias": {
+         "@label": {
+            "string": "Remove Alias..."
+         },
+         "@name": "remove_alias",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:remove_display_name": {
+         "@label": {
+            "string": "Remove Display Name..."
+         },
+         "@name": "remove_display_name",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      }
+   }
+}

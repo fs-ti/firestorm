@@ -1,0 +1,405 @@
+{
+   "pie_menu": {
+      "@name": "Self Pie",
+      "pie_slice:Profile...": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "Profile...",
+         "pie_slice.on_click": null
+      },
+      "pie_slice:Groups...": {
+         "@label": {
+            "string": "Groups"
+         },
+         "@name": "Groups...",
+         "pie_slice.on_click": null
+      },
+      "pie_menu:Take Off >": {
+         "@label": {
+            "string": "Take Off >"
+         },
+         "@name": "Take Off >",
+         "pie_menu:Clothes >": {
+            "@label": {
+               "string": "Clothes >"
+            },
+            "@name": "Clothes >",
+            "pie_slice:Shirt": {
+               "@label": {
+                  "string": "Shirt"
+               },
+               "@name": "Shirt",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Pants": {
+               "@label": {
+                  "string": "Pants"
+               },
+               "@name": "Pants",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Shoes": {
+               "@label": {
+                  "string": "Shoes"
+               },
+               "@name": "Shoes",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Socks": {
+               "@label": {
+                  "string": "Socks"
+               },
+               "@name": "Socks",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Jacket": {
+               "@label": {
+                  "string": "Jacket"
+               },
+               "@name": "Jacket",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Gloves": {
+               "@label": {
+                  "string": "Gloves"
+               },
+               "@name": "Gloves",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_menu:Clothes More": {
+               "@label": {
+                  "string": "More >"
+               },
+               "@name": "Clothes More",
+               "pie_slice:Self Undershirt": {
+                  "@label": {
+                     "string": "Undershirt"
+                  },
+                  "@name": "Self Undershirt",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_separator": null,
+               "pie_slice:All Clothes": {
+                  "@label": {
+                     "string": "All Clothes"
+                  },
+                  "@name": "All Clothes",
+                  "pie_slice.on_click": null
+               },
+               "pie_slice:Self Underpants": {
+                  "@label": {
+                     "string": "Underpants"
+                  },
+                  "@name": "Self Underpants",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Self Tattoo": {
+                  "@label": {
+                     "string": "Tattoo"
+                  },
+                  "@name": "Self Tattoo",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Self Physics": {
+                  "@label": {
+                     "string": "Physics"
+                  },
+                  "@name": "Self Physics",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Self Alpha": {
+                  "@label": {
+                     "string": "Alpha"
+                  },
+                  "@name": "Self Alpha",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               }
+            },
+            "pie_slice:Skirt": {
+               "@label": {
+                  "string": "Skirt"
+               },
+               "@name": "Skirt",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            }
+         },
+         "pie_menu:Pie Object Detach HUD": {
+            "@label": {
+               "string": "HUD >"
+            },
+            "@name": "Pie Object Detach HUD"
+         },
+         "pie_separator": null,
+         "pie_menu:Pie Object Detach": {
+            "@label": {
+               "string": "Detach >"
+            },
+            "@name": "Pie Object Detach",
+            "pie_menu:Enhanced Skeleton": {
+               "@label": {
+                  "string": "Ext. Skeleton >"
+               },
+               "@name": "Enhanced Skeleton",
+               "pie_slice:Right Wing": {
+                  "@label": {
+                     "string": "Right Wing"
+                  },
+                  "@name": "Right Wing",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Groin": {
+                  "@label": {
+                     "string": "Groin"
+                  },
+                  "@name": "Groin",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Tail Base": {
+                  "@label": {
+                     "string": "Tail Base"
+                  },
+                  "@name": "Tail Base",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Tail Tip": {
+                  "@label": {
+                     "string": "Tail Tip"
+                  },
+                  "@name": "Tail Tip",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Left Wing": {
+                  "@label": {
+                     "string": "Left Wing"
+                  },
+                  "@name": "Left Wing",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_slice:Left Hind Foot": {
+                  "@label": {
+                     "string": "L Hind Foot"
+                  },
+                  "@name": "Left Hind Foot",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               },
+               "pie_menu:Enhanced Skeleton More": {
+                  "@label": {
+                     "string": "More >"
+                  },
+                  "@name": "Enhanced Skeleton More",
+                  "pie_slice:Alt Right Ear": {
+                     "@label": {
+                        "string": "Alt R Ear"
+                     },
+                     "@name": "Alt Right Ear",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Alt Right Eye": {
+                     "@label": {
+                        "string": "Alt R Eye"
+                     },
+                     "@name": "Alt Right Eye",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Tongue": {
+                     "@label": {
+                        "string": "Tongue"
+                     },
+                     "@name": "Tongue",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Alt Left Eye": {
+                     "@label": {
+                        "string": "Alt L Eye"
+                     },
+                     "@name": "Alt Left Eye",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Alt Left Ear": {
+                     "@label": {
+                        "string": "Alt L Ear"
+                     },
+                     "@name": "Alt Left Ear",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Left Ring Finger": {
+                     "@label": {
+                        "string": "L Ring Finger"
+                     },
+                     "@name": "Left Ring Finger",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Jaw": {
+                     "@label": {
+                        "string": "Jaw"
+                     },
+                     "@name": "Jaw",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  },
+                  "pie_slice:Right Ring Finger": {
+                     "@label": {
+                        "string": "R Ring Finger"
+                     },
+                     "@name": "Right Ring Finger",
+                     "pie_slice.on_click": null,
+                     "pie_slice.on_enable": null
+                  }
+               },
+               "pie_slice:Right Hind Foot": {
+                  "@label": {
+                     "string": "R Hind Foot"
+                  },
+                  "@name": "Right Hind Foot",
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_enable": null
+               }
+            }
+         },
+         "pie_slice:Detach All": {
+            "@label": {
+               "string": "Detach All"
+            },
+            "@name": "Detach All",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         }
+      },
+      "pie_slice:Sit Down Here": {
+         "@label": {
+            "string": "Sit Down"
+         },
+         "@name": "Sit Down Here",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Stand Up": {
+         "@label": {
+            "string": "Stand Up"
+         },
+         "@name": "Stand Up",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:ScriptInfo": {
+         "@label": {
+            "string": "Script Info"
+         },
+         "@name": "ScriptInfo",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Gestures": {
+         "@label": {
+            "string": "Gestures..."
+         },
+         "@name": "Gestures",
+         "pie_slice.on_click": null
+      },
+      "pie_menu:Appearance >": {
+         "@label": {
+            "string": "Appearance >"
+         },
+         "@name": "Appearance >",
+         "pie_slice:Edit My Shape": {
+            "@label": {
+               "string": "Edit Shape"
+            },
+            "@name": "Edit My Shape",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_menu:ResetMenu": {
+            "@name": "ResetMenu",
+            "@label": {
+               "string": "Reset >"
+            },
+            "pie_slice:Reset Skeleton And Animations": {
+               "@label": {
+                  "string": "Skel. & Anim."
+               },
+               "@name": "Reset Skeleton And Animations",
+               "pie_slice.on_click": null
+            },
+            "pie_slice:Reset Skeleton": {
+               "@label": {
+                  "string": "Skeleton"
+               },
+               "@name": "Reset Skeleton",
+               "pie_slice.on_click": null
+            },
+            "pie_slice:Reset Mesh LOD": {
+               "@label": {
+                  "string": "Mesh LOD"
+               },
+               "@name": "Reset Mesh LOD",
+               "pie_slice.on_click": null
+            }
+         },
+         "pie_slice:Texture Refresh": {
+            "@label": {
+               "string": "Tex Refresh"
+            },
+            "@name": "Texture Refresh",
+            "pie_slice.on_click": null
+         },
+         "pie_separator": null,
+         "pie_slice:Edit My Outfit": {
+            "@label": {
+               "string": "Edit Outfit"
+            },
+            "@name": "Edit My Outfit",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Dump XML": {
+            "@label": {
+               "string": "Dump XML"
+            },
+            "@name": "Dump XML",
+            "pie_slice.on_click": null,
+            "pie_slice.on_visible": null
+         },
+         "pie_slice:Hover Height": {
+            "@label": {
+               "string": "Hover Height"
+            },
+            "@name": "Hover Height",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         }
+      },
+      "pie_slice:Debug...": {
+         "@label": {
+            "string": "Textures"
+         },
+         "@name": "Debug...",
+         "pie_slice.on_click": null
+      }
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "panel": {
+      "@name": "cof_wearables",
+      "tab_container:wearable_accordion": {
+         "@name": "wearable_accordion",
+         "panel:tab_clothing": {
+            "@name": "tab_clothing",
+            "@title": {
+               "string": "Clothing"
+            },
+            "flat_list_view:list_clothing": {
+               "@name": "list_clothing"
+            }
+         },
+         "#comment": " The Attachments title is overwritten by the definition of \"Attachments remain\" in strings.xml ",
+         "panel:tab_attachments": {
+            "@name": "tab_attachments",
+            "@title": {
+               "string": "Attachments"
+            },
+            "flat_list_view:list_attachments": {
+               "@name": "list_attachments"
+            }
+         },
+         "panel:tab_body_parts": {
+            "@name": "tab_body_parts",
+            "@title": {
+               "string": "Body Parts"
+            },
+            "flat_list_view:list_body_parts": {
+               "@name": "list_body_parts"
+            }
+         }
+      }
+   }
+}

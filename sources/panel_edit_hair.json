@@ -1,0 +1,60 @@
+{
+   "panel": {
+      "@name": "edit_hair_panel",
+      "panel:avatar_hair_color_panel": {
+         "@name": "avatar_hair_color_panel",
+         "texture_picker:Texture": {
+            "@label": {
+               "string": "Texture"
+            },
+            "@name": "Texture",
+            "@tool_tip": {
+               "string": "Click to choose a picture"
+            },
+            "texture_picker.commit_callback": null
+         }
+      },
+      "panel:accordion_panel": {
+         "@name": "accordion_panel",
+         "accordion:wearable_accordion": {
+            "@name": "wearable_accordion",
+            "accordion_tab:hair_color_tab": {
+               "@name": "hair_color_tab",
+               "@title": {
+                  "string": "Color"
+               },
+               "scrolling_panel_list:hair_color_param_list": {
+                  "@name": "hair_color_param_list"
+               }
+            },
+            "accordion_tab:hair_style_tab": {
+               "@name": "hair_style_tab",
+               "@title": {
+                  "string": "Style"
+               },
+               "scrolling_panel_list:hair_style_param_list": {
+                  "@name": "hair_style_param_list"
+               }
+            },
+            "accordion_tab:hair_eyebrows_tab": {
+               "@name": "hair_eyebrows_tab",
+               "@title": {
+                  "string": "Eyebrows"
+               },
+               "scrolling_panel_list:hair_eyebrows_param_list": {
+                  "@name": "hair_eyebrows_param_list"
+               }
+            },
+            "accordion_tab:hair_facial_tab": {
+               "@name": "hair_facial_tab",
+               "@title": {
+                  "string": "Facial"
+               },
+               "scrolling_panel_list:hair_facial_param_list": {
+                  "@name": "hair_facial_param_list"
+               }
+            }
+         }
+      }
+   }
+}

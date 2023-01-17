@@ -1,0 +1,37 @@
+{
+   "panel": {
+      "@name": "conversation_log_list_item",
+      "icon:selected_icon": {
+         "@name": "selected_icon"
+      },
+      "icon:hovered_icon": {
+         "@name": "hovered_icon"
+      },
+      "icon:voice_session_icon": {
+         "@name": "voice_session_icon",
+         "@tool_tip": {
+            "string": "Included a voice conversation"
+         }
+      },
+      "icon:unread_ims_icon": {
+         "@name": "unread_ims_icon",
+         "@tool_tip": {
+            "string": "Messages arrived while you were logged out"
+         }
+      },
+      "avatar_icon": null,
+      "group_icon": null,
+      "text:conversation_name": {
+         "@name": "conversation_name"
+      },
+      "text:date_time": {
+         "@name": "date_time"
+      },
+      "button:delete_btn": {
+         "@name": "delete_btn",
+         "@tool_tip": {
+            "string": "Remove this entry"
+         }
+      }
+   }
+}

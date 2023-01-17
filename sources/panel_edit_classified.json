@@ -1,0 +1,196 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Edit Classified"
+      },
+      "@name": "panel_edit_classified",
+      "panel.string:location_notice": {
+         "@name": "location_notice",
+         "#text": {
+            "string": "\n    (will update after save)\n "
+         }
+      },
+      "string:publish_label": {
+         "@name": "publish_label",
+         "#text": {
+            "string": "\n  Publish\n "
+         }
+      },
+      "string:save_label": {
+         "@name": "save_label",
+         "#text": {
+            "string": "\n  Save\n "
+         }
+      },
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n        Edit Classified\n    "
+         }
+      },
+      "scroll_container:profile_scroll": {
+         "@name": "profile_scroll",
+         "panel:scroll_content_panel": {
+            "@name": "scroll_content_panel",
+            "panel:snapshot_panel": {
+               "@name": "snapshot_panel",
+               "texture_picker:classified_snapshot": {
+                  "@name": "classified_snapshot"
+               },
+               "icon:edit_icon": {
+                  "@name": "edit_icon",
+                  "@label": {
+                     "string": ""
+                  },
+                  "@tool_tip": {
+                     "string": "Click to select an image"
+                  }
+               }
+            },
+            "text:Name:": {
+               "@name": "Name:",
+               "#text": {
+                  "string": "\n            Title:\n        "
+               }
+            },
+            "line_editor:classified_name": {
+               "@name": "classified_name"
+            },
+            "text:description_label": {
+               "@name": "description_label",
+               "#text": {
+                  "string": "\n            Description:\n        "
+               }
+            },
+            "text_editor:classified_desc": {
+               "@name": "classified_desc"
+            },
+            "text:location_label": {
+               "@name": "location_label",
+               "#text": {
+                  "string": "\n            Location:\n        "
+               }
+            },
+            "text:classified_location": {
+               "@name": "classified_location",
+               "#text": {
+                  "string": "\n            loading...\n        "
+               }
+            },
+            "button:set_to_curr_location_btn": {
+               "@label": {
+                  "string": "Set to Current Location"
+               },
+               "@name": "set_to_curr_location_btn"
+            },
+            "text:category_label": {
+               "@name": "category_label",
+               "@value": {
+                  "string": "Category:"
+               }
+            },
+            "combo_box:category": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "category"
+            },
+            "text:content_type_label": {
+               "@name": "content_type_label",
+               "@value": {
+                  "string": "Content type:"
+               }
+            },
+            "icons_combo_box:content_type": {
+               "@label": {
+                  "string": "General Content"
+               },
+               "@name": "content_type",
+               "icons_combo_box.drop_down_button": null,
+               "icons_combo_box.item:mature_ci": {
+                  "@label": {
+                     "string": "Moderate Content"
+                  },
+                  "@name": "mature_ci",
+                  "@value": {
+                     "string": "Mature"
+                  },
+                  "item.columns": {
+                     "@value": {
+                        "string": "Parcel_M_Light"
+                     }
+                  }
+               },
+               "icons_combo_box.item:pg_ci": {
+                  "@label": {
+                     "string": "General Content"
+                  },
+                  "@name": "pg_ci",
+                  "@value": {
+                     "string": "PG"
+                  },
+                  "item.columns": {
+                     "@value": {
+                        "string": "Parcel_PG_Light"
+                     }
+                  }
+               }
+            },
+            "check_box:auto_renew": {
+               "@label": {
+                  "string": "Auto renew each week"
+               },
+               "@name": "auto_renew"
+            },
+            "text:price_for_listing_label": {
+               "@name": "price_for_listing_label",
+               "@value": {
+                  "string": "Price for listing:"
+               }
+            },
+            "spinner:price_for_listing": {
+               "@label": {
+                  "string": "L$"
+               },
+               "@value": {
+                  "string": "50"
+               },
+               "@name": "price_for_listing",
+               "@tool_tip": {
+                  "string": "Price for listing."
+               }
+            }
+         }
+      },
+      "panel:bottom_panel": {
+         "@label": {
+            "string": "bottom_panel"
+         },
+         "@name": "bottom_panel",
+         "layout_stack:bottom_panel_ls": {
+            "@name": "bottom_panel_ls",
+            "layout_panel:save_changes_btn_lp": {
+               "@name": "save_changes_btn_lp",
+               "button:save_changes_btn": {
+                  "@label": {
+                     "string": "[LABEL]"
+                  },
+                  "@name": "save_changes_btn"
+               }
+            },
+            "layout_panel:show_on_map_btn_lp": {
+               "@name": "show_on_map_btn_lp",
+               "button:cancel_btn": {
+                  "@label": {
+                     "string": "Cancel"
+                  },
+                  "@name": "cancel_btn"
+               }
+            }
+         }
+      }
+   }
+}

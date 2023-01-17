@@ -1,0 +1,77 @@
+{
+   "panel": {
+      "@name": "edit_physics_panel",
+      "panel:accordion_panel": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "accordion_panel",
+         "accordion:physics_accordion": {
+            "@name": "physics_accordion",
+            "accordion_tab:physics_breasts_updown_tab": {
+               "@name": "physics_breasts_updown_tab",
+               "@title": {
+                  "string": "Breasts Bounce"
+               },
+               "scrolling_panel_list:physics_breasts_updown_param_list": {
+                  "@name": "physics_breasts_updown_param_list"
+               }
+            },
+            "accordion_tab:physics_breasts_inout_tab": {
+               "@name": "physics_breasts_inout_tab",
+               "@title": {
+                  "string": "Breasts Cleavage"
+               },
+               "scrolling_panel_list:physics_breasts_inout_param_list": {
+                  "@name": "physics_breasts_inout_param_list"
+               }
+            },
+            "accordion_tab:physics_breasts_leftright_tab": {
+               "@name": "physics_breasts_leftright_tab",
+               "@title": {
+                  "string": "Breasts Sway"
+               },
+               "scrolling_panel_list:physics_breasts_leftright_param_list": {
+                  "@name": "physics_breasts_leftright_param_list"
+               }
+            },
+            "accordion_tab:physics_belly_tab": {
+               "@name": "physics_belly_tab",
+               "@title": {
+                  "string": "Belly Bounce"
+               },
+               "scrolling_panel_list:physics_belly_updown_param_list": {
+                  "@name": "physics_belly_updown_param_list"
+               }
+            },
+            "accordion_tab:physics_butt_tab": {
+               "@name": "physics_butt_tab",
+               "@title": {
+                  "string": "Butt Bounce"
+               },
+               "scrolling_panel_list:physics_butt_updown_param_list": {
+                  "@name": "physics_butt_updown_param_list"
+               }
+            },
+            "accordion_tab:physics_butt_leftright_tab": {
+               "@name": "physics_butt_leftright_tab",
+               "@title": {
+                  "string": "Butt Sway"
+               },
+               "scrolling_panel_list:physics_butt_leftright_param_list": {
+                  "@name": "physics_butt_leftright_param_list"
+               }
+            },
+            "accordion_tab:physics_advanced_tab": {
+               "@name": "physics_advanced_tab",
+               "@title": {
+                  "string": "Advanced Parameters"
+               },
+               "scrolling_panel_list:physics_advanced_param_list": {
+                  "@name": "physics_advanced_param_list"
+               }
+            }
+         }
+      }
+   }
+}

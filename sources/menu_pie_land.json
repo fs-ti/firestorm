@@ -1,0 +1,66 @@
+{
+   "pie_menu": {
+      "@name": "Land Pie",
+      "pie_slice:Place Information...": {
+         "@label": {
+            "string": "About Land..."
+         },
+         "@name": "Place Information...",
+         "pie_slice.on_click": null
+      },
+      "pie_slice:Create": {
+         "@label": {
+            "string": "Create"
+         },
+         "@name": "Create",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Go Here": {
+         "@label": {
+            "string": "Go Here"
+         },
+         "@name": "Go Here",
+         "pie_slice.on_click": null
+      },
+      "pie_slice:Sit Here": {
+         "@label": {
+            "string": "Sit Here"
+         },
+         "@name": "Sit Here",
+         "pie_slice.on_click": null
+      },
+      "pie_slice:Mute Particle": {
+         "@label": {
+            "string": "Mute Part. Own."
+         },
+         "@name": "Mute Particle",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Land Buy Pass Pie": {
+         "@label": {
+            "string": "Buy Pass"
+         },
+         "@name": "Land Buy Pass Pie",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Edit Terrain": {
+         "@label": {
+            "string": "Edit Terrain"
+         },
+         "@name": "Edit Terrain",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Land Buy Pie": {
+         "@label": {
+            "string": "Buy This Land"
+         },
+         "@name": "Land Buy Pie",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      }
+   }
+}

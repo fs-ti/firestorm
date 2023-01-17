@@ -1,0 +1,20 @@
+{
+   "toggleable_menu": {
+      "@name": "picks_plus_menu",
+      "menu_item_call:create_pick": {
+         "@name": "create_pick",
+         "@label": {
+            "string": "New Pick"
+         },
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:create_classified": {
+         "@name": "create_classified",
+         "@label": {
+            "string": "New Classified"
+         },
+         "menu_item_call.on_click": null
+      }
+   }
+}

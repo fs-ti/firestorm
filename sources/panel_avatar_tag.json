@@ -1,0 +1,29 @@
+{
+   "panel": {
+      "@name": "avatar_tag_notification",
+      "panel:msg_caption": {
+         "@name": "msg_caption",
+         "avatar_icon:avatar_tag_icon": {
+            "@name": "avatar_tag_icon"
+         },
+         "text:sender_tag_name": {
+            "@name": "sender_tag_name",
+            "#text": {
+               "string": "\n        Angela Tester\n      "
+            }
+         },
+         "text:tag_time": {
+            "@name": "tag_time",
+            "@value": {
+               "string": "23:30"
+            }
+         }
+      },
+      "text_editor:msg_text": {
+         "@name": "msg_text",
+         "#text": {
+            "string": "\n     The quick brown fox jumps over the lazy dog.\n    "
+         }
+      }
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "context_menu": {
+      "@name": "Settings",
+      "menu_item_check:always_render": {
+         "@label": {
+            "string": "Always full detail"
+         },
+         "@name": "always_render",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:never_render": {
+         "@label": {
+            "string": "Never full detail"
+         },
+         "@name": "never_render",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:default": {
+         "@label": {
+            "string": "Remove from exceptions"
+         },
+         "@name": "default",
+         "on_click": null,
+         "on_check": null,
+         "on_visible": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:inspect": {
+         "@label": {
+            "string": "Inspect Avatar"
+         },
+         "@name": "inspect",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:zoom": {
+         "@label": {
+            "string": "Zoom to Avatar"
+         },
+         "@tool_tip": {
+            "string": "Move camera to view this avatar."
+         },
+         "@name": "zoom",
+         "menu_item_call.on_click": null
+      }
+   }
+}

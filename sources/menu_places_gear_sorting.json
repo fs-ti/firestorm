@@ -1,0 +1,31 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_sorter_gear",
+      "menu_item_call:expand_all": {
+         "@label": {
+            "string": "Expand all folders"
+         },
+         "@name": "expand_all",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:collapse_all": {
+         "@label": {
+            "string": "Collapse all folders"
+         },
+         "@name": "collapse_all",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:sort_by_date": {
+         "@label": {
+            "string": "Sort by Date"
+         },
+         "@name": "sort_by_date",
+         "on_check": null,
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

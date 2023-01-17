@@ -1,0 +1,217 @@
+{
+   "pie_menu": {
+      "@name": "Attachment Pie",
+      "pie_slice:Profile...": {
+         "@label": {
+            "string": "Profile..."
+         },
+         "@name": "Profile...",
+         "pie_slice.on_click": null
+      },
+      "pie_slice:Drop": {
+         "@label": {
+            "string": "Drop"
+         },
+         "@name": "Drop",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_menu:Attachment Pie More": {
+         "@name": "Attachment Pie More",
+         "@label": {
+            "string": "More >"
+         },
+         "pie_slice:Texture Refresh": {
+            "@label": {
+               "string": "Tex Refresh"
+            },
+            "@name": "Texture Refresh",
+            "pie_slice.on_click": null
+         },
+         "pie_slice:ScriptInfo": {
+            "@label": {
+               "string": "Script Info"
+            },
+            "@name": "ScriptInfo",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Attachment Object Touch": {
+            "@label": {
+               "string": "Touch"
+            },
+            "@name": "Attachment Object Touch",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable:EnableTouch": {
+               "@name": "EnableTouch"
+            }
+         },
+         "pie_menu:DerenderMenu": {
+            "@name": "DerenderMenu",
+            "@label": {
+               "string": "Derender >"
+            },
+            "pie_separator": null,
+            "pie_slice:Derender": {
+               "@label": {
+                  "string": "Temporary"
+               },
+               "@name": "Derender",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:DerenderPermanent": {
+               "@label": {
+                  "string": "Blacklist"
+               },
+               "@name": "DerenderPermanent",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            }
+         },
+         "pie_menu:ExportMenu": {
+            "@name": "ExportMenu",
+            "@label": {
+               "string": "Save as >"
+            },
+            "pie_slice:Backup": {
+               "@label": {
+                  "string": "Backup"
+               },
+               "@name": "Backup",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Collada": {
+               "@label": {
+                  "string": "Collada"
+               },
+               "@name": "Collada",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            }
+         },
+         "pie_separator": null,
+         "pie_slice:Avatar Inspect": {
+            "@label": {
+               "string": "Inspect"
+            },
+            "@name": "Avatar Inspect",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Debug...": {
+            "@label": {
+               "string": "Textures"
+            },
+            "@name": "Debug...",
+            "pie_slice.on_click": null
+         }
+      },
+      "pie_slice:Sit Down Here": {
+         "@label": {
+            "string": "Sit Here"
+         },
+         "@name": "Sit Down Here",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Stand Up": {
+         "@label": {
+            "string": "Stand Up"
+         },
+         "@name": "Stand Up",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Detach": {
+         "@label": {
+            "string": "Detach"
+         },
+         "@name": "Detach",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_slice:Gestures": {
+         "@label": {
+            "string": "Gestures..."
+         },
+         "@name": "Gestures",
+         "pie_slice.on_click": null
+      },
+      "pie_menu:Appearance >": {
+         "@label": {
+            "string": "Appearance >"
+         },
+         "@name": "Appearance >",
+         "pie_slice:Edit My Shape": {
+            "@label": {
+               "string": "Edit Shape"
+            },
+            "@name": "Edit My Shape",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_menu:ResetMenu": {
+            "@name": "ResetMenu",
+            "@label": {
+               "string": "Reset >"
+            },
+            "pie_slice:Reset Skeleton And Animations": {
+               "@label": {
+                  "string": "Skel. & Anim."
+               },
+               "@name": "Reset Skeleton And Animations",
+               "pie_slice.on_click": null
+            },
+            "pie_slice:Reset Skeleton": {
+               "@label": {
+                  "string": "Skeleton"
+               },
+               "@name": "Reset Skeleton",
+               "pie_slice.on_click": null
+            },
+            "pie_slice:Reset Mesh LOD": {
+               "@label": {
+                  "string": "Mesh LOD"
+               },
+               "@name": "Reset Mesh LOD",
+               "pie_slice.on_click": null
+            }
+         },
+         "pie_separator": null,
+         "pie_slice:Edit My Outfit": {
+            "@label": {
+               "string": "Edit Outfit"
+            },
+            "@name": "Edit My Outfit",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Dump XML": {
+            "@label": {
+               "string": "Dump XML"
+            },
+            "@name": "Dump XML",
+            "pie_slice.on_click": null,
+            "pie_slice.on_visible": null
+         },
+         "pie_slice:Hover Height": {
+            "@label": {
+               "string": "Hover Height"
+            },
+            "@name": "Hover Height",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         }
+      },
+      "pie_slice:Edit...": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "Edit...",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      }
+   }
+}

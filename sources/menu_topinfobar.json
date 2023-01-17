@@ -1,0 +1,39 @@
+{
+   "menu": {
+      "@name": "menu_topinfobar",
+      "menu_item_check:Show Coordinates": {
+         "@label": {
+            "string": "Show Coordinates"
+         },
+         "@name": "Show Coordinates",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:Show Parcel Properties": {
+         "@label": {
+            "string": "Show Parcel Properties"
+         },
+         "@name": "Show Parcel Properties",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_separator:Separator": {
+         "@name": "Separator"
+      },
+      "#comment": " Label of 'Landmark' item is changing in runtime, \n    see  AddLandmarkNavBarMenu/EditLandmarkNavBarMenu in strings.xml ",
+      "menu_item_call:Landmark": {
+         "@label": {
+            "string": "Landmark"
+         },
+         "@name": "Landmark",
+         "on_click": null
+      },
+      "menu_item_call:Copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "Copy",
+         "on_click": null
+      }
+   }
+}

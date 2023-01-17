@@ -1,0 +1,50 @@
+{
+   "panel": {
+      "@name": "chiclet_bar",
+      "layout_stack:toolbar_stack": {
+         "@name": "toolbar_stack",
+         "layout_panel:chiclet_list_panel": {
+            "@name": "chiclet_list_panel",
+            "chiclet_panel:chiclet_list": {
+               "@name": "chiclet_list",
+               "button:chicklet_left_scroll_button": {
+                  "@name": "chicklet_left_scroll_button"
+               },
+               "button:chicklet_right_scroll_button": {
+                  "@name": "chicklet_right_scroll_button"
+               }
+            }
+         },
+         "layout_panel": null,
+         "#comment": " FS:Ansariel [FS communication UI] ",
+         "layout_panel:im_well_panel": {
+            "@name": "im_well_panel",
+            "fs_chiclet_im_well:im_well": {
+               "@name": "im_well",
+               "#comment": "\nEmulate 4 states of button by background images, see details in EXT-3147. The same should be for notification_well button\nxml attribute           Description\nimage_unselected        \"Unlit\" - there are no new messages\nimage_selected          \"Unlit\" + \"Selected\" - there are no new messages and the Well is open\nimage_pressed           \"Lit\" - there are new messages\nimage_pressed_selected  \"Lit\" + \"Selected\" - there are new messages and the Well is open\n             ",
+               "button:Unread IM messages": {
+                  "@name": "Unread IM messages",
+                  "@tool_tip": {
+                     "string": "Conversations"
+                  },
+                  "init_callback": null
+               }
+            }
+         },
+         "#comment$5": " END FS:Ansariel [FS communication UI] ",
+         "layout_panel:notification_well_panel": {
+            "@name": "notification_well_panel",
+            "chiclet_notification:notification_well": {
+               "@name": "notification_well",
+               "button:Unread": {
+                  "@name": "Unread",
+                  "@tool_tip": {
+                     "string": "Notifications"
+                  },
+                  "init_callback": null
+               }
+            }
+         }
+      }
+   }
+}

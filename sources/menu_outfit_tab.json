@@ -1,0 +1,57 @@
+{
+   "context_menu": {
+      "@name": "Outfit",
+      "menu_item_call:wear_replace": {
+         "@label": {
+            "string": "Wear - Replace Current Outfit"
+         },
+         "@name": "wear_replace",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:wear_add": {
+         "@label": {
+            "string": "Wear - Add to Current Outfit"
+         },
+         "@name": "wear_add",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:take_off": {
+         "@label": {
+            "string": "Take Off - Remove from Current Outfit"
+         },
+         "@name": "take_off",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:edit": {
+         "@label": {
+            "string": "Edit Outfit"
+         },
+         "@name": "edit",
+         "on_click": null,
+         "on_visible": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:rename": {
+         "@label": {
+            "string": "Rename Outfit"
+         },
+         "@name": "rename",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:delete": {
+         "@label": {
+            "string": "Delete Outfit"
+         },
+         "@name": "delete",
+         "on_click": null,
+         "on_visible": null
+      }
+   }
+}

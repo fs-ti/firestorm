@@ -1,0 +1,53 @@
+{
+   "panel": {
+      "@name": "wearable_item",
+      "icon:hovered_icon": {
+         "@name": "hovered_icon"
+      },
+      "icon:selected_icon": {
+         "@name": "selected_icon"
+      },
+      "button:btn_delete": {
+         "@name": "btn_delete",
+         "@tool_tip": {
+            "string": "Remove from outfit"
+         }
+      },
+      "icon:item_icon": {
+         "@name": "item_icon"
+      },
+      "text:item_name": {
+         "@name": "item_name",
+         "@value": {
+            "string": "..."
+         }
+      },
+      "button:btn_move_up": {
+         "@name": "btn_move_up"
+      },
+      "button:btn_move_down": {
+         "@name": "btn_move_down"
+      },
+      "panel:btn_lock": {
+         "@name": "btn_lock",
+         "@tool_tip": {
+            "string": "You don't have permission to edit"
+         },
+         "icon:btn_lock1": {
+            "@name": "btn_lock1"
+         }
+      },
+      "panel:btn_edit_panel": {
+         "@name": "btn_edit_panel",
+         "button:btn_edit": {
+            "@name": "btn_edit",
+            "@tool_tip": {
+               "string": "Edit this wearable"
+            }
+         }
+      },
+      "icon:wearable_type_separator_icon": {
+         "@name": "wearable_type_separator_icon"
+      }
+   }
+}

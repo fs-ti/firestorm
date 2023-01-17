@@ -1,0 +1,246 @@
+{
+   "panel": {
+      "@name": "animation_overrider_outer_panel",
+      "#comment": " Main Panel ",
+      "panel:animation_overrider_panel": {
+         "@name": "animation_overrider_panel",
+         "combo_box:ao_set_selection_combo": {
+            "@name": "ao_set_selection_combo",
+            "@tool_tip": {
+               "string": "Select animation set to edit."
+            }
+         },
+         "button:ao_activate": {
+            "@name": "ao_activate",
+            "@tool_tip": {
+               "string": "Activate this animation set now."
+            }
+         },
+         "icon": null,
+         "check_box:ao_default": {
+            "@name": "ao_default",
+            "@label": {
+               "string": "Default"
+            },
+            "@tool_tip": {
+               "string": "Make this animation set the default set that plays when you log in."
+            }
+         },
+         "button:ao_add": {
+            "@name": "ao_add",
+            "@tool_tip": {
+               "string": "Create a new animation set."
+            }
+         },
+         "button:ao_remove": {
+            "@name": "ao_remove",
+            "@tool_tip": {
+               "string": "Remove this animation set."
+            }
+         },
+         "check_box:ao_sit_override": {
+            "@name": "ao_sit_override",
+            "@label": {
+               "string": "Override Sits"
+            },
+            "@tool_tip": {
+               "string": "Check this if you want sit animation overrides."
+            }
+         },
+         "check_box:ao_smart": {
+            "@name": "ao_smart",
+            "@label": {
+               "string": "Be smart"
+            },
+            "@tool_tip": {
+               "string": "Smart mode tries to determine if the sit override would clash with the object's own animation and disables the overrider temporarily."
+            }
+         },
+         "check_box:ao_disable_stands_in_mouselook": {
+            "@name": "ao_disable_stands_in_mouselook",
+            "@label": {
+               "string": "Disable Stands in Mouselook"
+            },
+            "@tool_tip": {
+               "string": "If you need to preserve your custom stand animation in mouselook, check this box."
+            }
+         },
+         "combo_box:ao_state_selection_combo": {
+            "@name": "ao_state_selection_combo",
+            "@tool_tip": {
+               "string": "Select animation state to edit."
+            }
+         },
+         "scroll_list:ao_state_animation_list": {
+            "@name": "ao_state_animation_list",
+            "scroll_list.columns:icon": {
+               "@name": "icon"
+            },
+            "scroll_list.columns:animation_name": {
+               "@name": "animation_name"
+            }
+         },
+         "panel:ao_animation_move_trash_panel": {
+            "@name": "ao_animation_move_trash_panel",
+            "button:ao_move_up": {
+               "@name": "ao_move_up",
+               "@tool_tip": {
+                  "string": "Move the selected animation up in the list."
+               }
+            },
+            "button:ao_move_down": {
+               "@name": "ao_move_down",
+               "@tool_tip": {
+                  "string": "Move the selected animation down in the list."
+               }
+            },
+            "button:ao_trash": {
+               "@name": "ao_trash",
+               "@tool_tip": {
+                  "string": "Remove the selected animation from the list."
+               }
+            }
+         },
+         "check_box:ao_cycle": {
+            "@name": "ao_cycle",
+            "@label": {
+               "string": "Cycle"
+            },
+            "@tool_tip": {
+               "string": "Play a different animation from the list every time the animation state is called."
+            }
+         },
+         "check_box:ao_randomize": {
+            "@name": "ao_randomize",
+            "@label": {
+               "string": "Randomize order"
+            },
+            "@tool_tip": {
+               "string": "Randomize order of animations in cycle mode."
+            }
+         },
+         "text:ao_cycle_time_seconds_label": {
+            "@name": "ao_cycle_time_seconds_label",
+            "@value": {
+               "string": "Cycle time (seconds):"
+            }
+         },
+         "spinner:ao_cycle_time": {
+            "@name": "ao_cycle_time",
+            "@tool_tip": {
+               "string": "Time before switching to the next animation in the list. Set this to 0 to disable automatic animation cycling."
+            }
+         },
+         "button:ao_reload": {
+            "@name": "ao_reload",
+            "@label": {
+               "string": "Reload"
+            },
+            "@tool_tip": {
+               "string": "Reload animation overrider configuration."
+            }
+         },
+         "layout_stack:next_previous_buttons_stack": {
+            "@name": "next_previous_buttons_stack",
+            "layout_panel:next_previous_buttons_stack_left": {
+               "@name": "next_previous_buttons_stack_left",
+               "button:ao_previous": {
+                  "@name": "ao_previous",
+                  "@tool_tip": {
+                     "string": "Switch to previous animation of the current state."
+                  }
+               }
+            },
+            "layout_panel:next_previous_buttons_stack_right": {
+               "@name": "next_previous_buttons_stack_right",
+               "button:ao_next": {
+                  "@name": "ao_next",
+                  "@tool_tip": {
+                     "string": "Switch to next animation of the current state."
+                  }
+               }
+            }
+         },
+         "button:ao_less": {
+            "@name": "ao_less",
+            "@tool_tip": {
+               "string": "Show small Animation Overrider interface."
+            }
+         }
+      },
+      "#comment$3": " Reload Cover Panel ",
+      "panel:ao_reload_cover": {
+         "@name": "ao_reload_cover",
+         "panel:ao_reload_text_panel": {
+            "@name": "ao_reload_text_panel",
+            "view_border:ao_reload_view_border": {
+               "@name": "ao_reload_view_border"
+            },
+            "text:reload_label": {
+               "@name": "reload_label",
+               "#text": {
+                  "string": "\n        Reloading Config\n      "
+               }
+            },
+            "text:wait_label": {
+               "@name": "wait_label",
+               "#text": {
+                  "string": "\n        Please Wait\n      "
+               }
+            },
+            "layout_stack:ao_reload_indicator_layout_stack": {
+               "@name": "ao_reload_indicator_layout_stack",
+               "layout_panel:ao_reload_indicator_left_layout_panel": {
+                  "@name": "ao_reload_indicator_left_layout_panel"
+               },
+               "layout_panel:ao_reload_indicator_layout_panel": {
+                  "@name": "ao_reload_indicator_layout_panel",
+                  "loading_indicator:ao_reload_indicator": {
+                     "@name": "ao_reload_indicator"
+                  }
+               },
+               "layout_panel:ao_reload_indicator_right_layout_panel": {
+                  "@name": "ao_reload_indicator_right_layout_panel"
+               }
+            }
+         }
+      },
+      "#comment$5": " Small Panel ",
+      "panel:animation_overrider_panel_small": {
+         "@name": "animation_overrider_panel_small",
+         "combo_box:ao_set_selection_combo_small": {
+            "@name": "ao_set_selection_combo_small",
+            "@tool_tip": {
+               "string": "Select animation set to edit."
+            }
+         },
+         "button:ao_more": {
+            "@name": "ao_more",
+            "@tool_tip": {
+               "string": "Show full interface for configuration."
+            }
+         },
+         "button:ao_previous_small": {
+            "@name": "ao_previous_small",
+            "@tool_tip": {
+               "string": "Switch to previous animation of the current state."
+            }
+         },
+         "button:ao_next_small": {
+            "@name": "ao_next_small",
+            "@tool_tip": {
+               "string": "Switch to next animation of the current state."
+            }
+         },
+         "check_box:ao_sit_override_small": {
+            "@name": "ao_sit_override_small",
+            "@label": {
+               "string": "Sits"
+            },
+            "@tool_tip": {
+               "string": "Check this if you want sit animation overrides."
+            }
+         }
+      }
+   }
+}

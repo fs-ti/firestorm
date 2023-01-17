@@ -1,0 +1,37 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_blocked_view",
+      "menu_item_check:sort_by_name": {
+         "@label": {
+            "string": "Sort by name"
+         },
+         "@name": "sort_by_name",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_by_name_desc": {
+         "@label": {
+            "string": "Sort by name (descending)"
+         },
+         "@name": "sort_by_name_desc",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_by_type": {
+         "@label": {
+            "string": "Sort by type"
+         },
+         "@name": "sort_by_type",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:sort_by_type_desc": {
+         "@label": {
+            "string": "Sort by type (descending)"
+         },
+         "@name": "sort_by_type_desc",
+         "on_click": null,
+         "on_check": null
+      }
+   }
+}

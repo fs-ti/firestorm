@@ -1,0 +1,54 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_call:Activate": {
+         "@label": {
+            "string": "Activate"
+         },
+         "@name": "Activate",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:View Info": {
+         "@label": {
+            "string": "View Info"
+         },
+         "@name": "View Info",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Copy SLurl to clipboard": {
+         "@label": {
+            "string": "Copy SLurl to clipboard"
+         },
+         "@name": "Copy SLurl to clipboard",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Chat": {
+         "@label": {
+            "string": "Chat"
+         },
+         "@name": "Chat",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Call": {
+         "@label": {
+            "string": "Voice call"
+         },
+         "@name": "Call",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Leave": {
+         "@label": {
+            "string": "Leave"
+         },
+         "@name": "Leave",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

@@ -1,0 +1,43 @@
+{
+   "menu": {
+      "@name": "Object Icon Menu",
+      "menu_item_call:Object Profile": {
+         "@label": {
+            "string": "Object Profile..."
+         },
+         "@name": "Object Profile",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Block": {
+         "@label": {
+            "string": "Block..."
+         },
+         "@name": "Block",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:Unblock": {
+         "@label": {
+            "string": "Unblock"
+         },
+         "@name": "Unblock",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:show_on_map": {
+         "@label": {
+            "string": "Show on Map"
+         },
+         "@name": "show_on_map",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:teleport_to_object": {
+         "@label": {
+            "string": "Teleport to Object Location"
+         },
+         "@name": "teleport_to_object",
+         "menu_item_call.on_click": null
+      }
+   }
+}

@@ -1,0 +1,103 @@
+{
+   "context_menu": {
+      "@label": {
+         "string": "Toolbar"
+      },
+      "@name": "Toolbars Popup",
+      "menu_item_call:Remove button": {
+         "@label": {
+            "string": "Remove this button"
+         },
+         "@name": "Remove button",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Choose Buttons": {
+         "@label": {
+            "string": "Toolbar buttons..."
+         },
+         "@name": "Choose Buttons",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_check:left_aligned": {
+         "@label": {
+            "string": "Left Aligned"
+         },
+         "@name": "left_aligned",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:center_aligned": {
+         "@label": {
+            "string": "Center Aligned"
+         },
+         "@name": "center_aligned",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:right_aligned": {
+         "@label": {
+            "string": "Right Aligned"
+         },
+         "@name": "right_aligned",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:icons_with_text": {
+         "@label": {
+            "string": "Icons and labels"
+         },
+         "@name": "icons_with_text",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:icons_only": {
+         "@label": {
+            "string": "Icons only"
+         },
+         "@name": "icons_only",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:text_only": {
+         "@label": {
+            "string": "Labels only"
+         },
+         "@name": "text_only",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:layout_style_none": {
+         "@label": {
+            "string": "Autosize Buttons"
+         },
+         "@name": "layout_style_none",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:layout_style_equalize": {
+         "@label": {
+            "string": "Fixed Size Buttons"
+         },
+         "@name": "layout_style_equalize",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:layout_style_fill": {
+         "@label": {
+            "string": "Buttons Fill Bar"
+         },
+         "@name": "layout_style_fill",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:toolbars_locked": {
+         "@label": {
+            "string": "Locked"
+         },
+         "@name": "toolbars_locked",
+         "on_check": null,
+         "on_click": null
+      }
+   }
+}

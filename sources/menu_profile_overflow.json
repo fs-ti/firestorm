@@ -1,0 +1,92 @@
+{
+   "toggleable_menu": {
+      "@name": "profile_overflow_menu",
+      "#comment": "<menu_item_call\n     label=\"Map\"\n     layout=\"topleft\"\n     name=\"show_on_map\">\n        <menu_item_call.on_click\n         function=\"Profile.ShowOnMap\" />\n        <menu_item_call.on_enable\n         function=\"Profile.EnableShowOnMap\" />\n    </menu_item_call>\n    <menu_item_call\n     label=\"Pay\"\n     layout=\"topleft\"\n     name=\"pay\">\n        <menu_item_call.on_click\n         function=\"Profile.Pay\" />\n    </menu_item_call>",
+      "menu_item_call:share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "share",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:call": {
+         "@label": {
+            "string": "Call"
+         },
+         "@name": "call",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "#comment$4": "<menu_item_call\n   label=\"Block\"\n   name=\"block\">\n    <menu_item_call.on_click\n     function=\"Profile.BlockUnblock\"/>\n    <menu_item_call.on_visible\n     function=\"Profile.EnableBlock\" />\n  </menu_item_call>\n  <menu_item_call\n   label=\"Unblock\"\n   name=\"unblock\">\n    <menu_item_call.on_click\n     function=\"Profile.BlockUnblock\"/>\n    <menu_item_call.on_visible\n     function=\"Profile.EnableUnblock\" />\n  </menu_item_call>",
+      "menu_item_call:add_to_contact_set": {
+         "@label": {
+            "string": "Add to Contact Set"
+         },
+         "@name": "add_to_contact_set",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:copy_name_to_clipboard": {
+         "@label": {
+            "string": "Copy Name"
+         },
+         "@name": "copy_name_to_clipboard",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:copy_uri_to_clipboard": {
+         "@label": {
+            "string": "Copy URI"
+         },
+         "@name": "copy_uri_to_clipboard",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:copy_key_to_clipboard": {
+         "@label": {
+            "string": "Copy UUID"
+         },
+         "@name": "copy_key_to_clipboard",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:kick": {
+         "@label": {
+            "string": "Kick"
+         },
+         "@name": "kick",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:freeze": {
+         "@label": {
+            "string": "Freeze"
+         },
+         "@name": "freeze",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:unfreeze": {
+         "@label": {
+            "string": "Unfreeze"
+         },
+         "@name": "unfreeze",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:csr": {
+         "@label": {
+            "string": "CSR"
+         },
+         "@name": "csr",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "#text": {
+         "string": "\n-->\n  "
+      },
+      "menu_item_call:report": {
+         "@label": {
+            "string": "Report"
+         },
+         "@name": "report",
+         "menu_item_call.on_click": null
+      }
+   }
+}

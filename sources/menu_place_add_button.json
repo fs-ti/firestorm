@@ -1,0 +1,21 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_create",
+      "menu_item_call:add_landmark": {
+         "@label": {
+            "string": "Landmark current location"
+         },
+         "@name": "add_landmark",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:add_folder": {
+         "@label": {
+            "string": "Create folder"
+         },
+         "@name": "add_folder",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

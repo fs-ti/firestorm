@@ -1,0 +1,30 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_check:sort_most": {
+         "@label": {
+            "string": "Sort by Most Recent"
+         },
+         "@name": "sort_most",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_name": {
+         "@label": {
+            "string": "Sort by Name"
+         },
+         "@name": "sort_name",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:view_icons": {
+         "@name": "view_icons",
+         "@label": {
+            "string": "View People Icons"
+         },
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      }
+   }
+}

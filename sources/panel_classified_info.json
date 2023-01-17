@@ -1,0 +1,230 @@
+{
+   "panel": {
+      "@name": "panel_classified_info",
+      "panel.string:type_mature": {
+         "@name": "type_mature",
+         "#text": {
+            "string": "\n    Moderate\n "
+         }
+      },
+      "panel.string:type_pg": {
+         "@name": "type_pg",
+         "#text": {
+            "string": "\n    General Content\n "
+         }
+      },
+      "panel.string:l$_price": {
+         "@name": "l$_price",
+         "#text": {
+            "string": "\n    L$[PRICE]\n "
+         }
+      },
+      "panel.string:click_through_text_fmt": {
+         "@name": "click_through_text_fmt",
+         "#text": {
+            "string": "\n    [TELEPORT] teleport, [MAP] map, [PROFILE] profile\n "
+         }
+      },
+      "panel.string:date_fmt": {
+         "@name": "date_fmt",
+         "#text": {
+            "string": "\n    [mthnum,datetime,slt]/[day,datetime,slt]/[year,datetime,slt]\n "
+         }
+      },
+      "panel.string:auto_renew_on": {
+         "@name": "auto_renew_on",
+         "#text": {
+            "string": "\n    Enabled\n "
+         }
+      },
+      "panel.string:auto_renew_off": {
+         "@name": "auto_renew_off",
+         "#text": {
+            "string": "\n    Disabled\n "
+         }
+      },
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:title": {
+         "@name": "title",
+         "@value": {
+            "string": "Classified Info"
+         }
+      },
+      "scroll_container:profile_scroll": {
+         "@name": "profile_scroll",
+         "panel:scroll_content_panel": {
+            "@name": "scroll_content_panel",
+            "panel:snapshot_panel": {
+               "@name": "snapshot_panel",
+               "texture_picker:classified_snapshot": {
+                  "@name": "classified_snapshot"
+               }
+            },
+            "text_editor:classified_name": {
+               "@name": "classified_name",
+               "@value": {
+                  "string": "[name]"
+               }
+            },
+            "text:classified_location_label": {
+               "@name": "classified_location_label",
+               "@value": {
+                  "string": "Location:"
+               }
+            },
+            "text_editor:classified_location": {
+               "@name": "classified_location",
+               "@value": {
+                  "string": "[loading...]"
+               }
+            },
+            "text:content_type_label": {
+               "@name": "content_type_label",
+               "@value": {
+                  "string": "Content Type:"
+               }
+            },
+            "icon:content_type_moderate": {
+               "@name": "content_type_moderate"
+            },
+            "icon:content_type_general": {
+               "@name": "content_type_general"
+            },
+            "text_editor:content_type": {
+               "@name": "content_type",
+               "@value": {
+                  "string": "[content type]"
+               }
+            },
+            "text:category_label": {
+               "@name": "category_label",
+               "@value": {
+                  "string": "Category:"
+               }
+            },
+            "text_editor:category": {
+               "@name": "category",
+               "@value": {
+                  "string": "[category]"
+               }
+            },
+            "text:creation_date_label": {
+               "@name": "creation_date_label",
+               "@value": {
+                  "string": "Creation date:"
+               }
+            },
+            "text_editor:creation_date": {
+               "@name": "creation_date",
+               "@tool_tip": {
+                  "string": "Creation date"
+               },
+               "@value": {
+                  "string": "[date]"
+               }
+            },
+            "text:price_for_listing_label": {
+               "@name": "price_for_listing_label",
+               "@value": {
+                  "string": "Price for listing:"
+               }
+            },
+            "text_editor:price_for_listing": {
+               "@name": "price_for_listing",
+               "@tool_tip": {
+                  "string": "Price for listing."
+               },
+               "@value": {
+                  "string": "[price]"
+               }
+            },
+            "layout_stack:descr_stack": {
+               "@name": "descr_stack",
+               "layout_panel:clickthrough_layout_panel": {
+                  "@name": "clickthrough_layout_panel",
+                  "text:click_through_label": {
+                     "@name": "click_through_label",
+                     "@value": {
+                        "string": "Clicks:"
+                     }
+                  },
+                  "text_editor:click_through_text": {
+                     "@name": "click_through_text",
+                     "@tool_tip": {
+                        "string": "Click through data"
+                     },
+                     "@value": {
+                        "string": "[clicks]"
+                     }
+                  }
+               },
+               "layout_panel:price_layout_panel": {
+                  "@name": "price_layout_panel",
+                  "text:auto_renew_label": {
+                     "@name": "auto_renew_label",
+                     "@value": {
+                        "string": "Auto renew:"
+                     }
+                  },
+                  "text:auto_renew": {
+                     "@name": "auto_renew",
+                     "@value": {
+                        "string": "Enabled"
+                     }
+                  }
+               },
+               "layout_panel:descr_layout_panel": {
+                  "@name": "descr_layout_panel",
+                  "text:classified_desc_label": {
+                     "@name": "classified_desc_label",
+                     "@value": {
+                        "string": "Description:"
+                     }
+                  },
+                  "text_editor:classified_desc": {
+                     "@name": "classified_desc",
+                     "@value": {
+                        "string": "[description]"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "panel:buttons": {
+         "@name": "buttons",
+         "layout_stack:layout_stack1": {
+            "@name": "layout_stack1",
+            "layout_panel:layout_panel1": {
+               "@name": "layout_panel1",
+               "button:teleport_btn": {
+                  "@label": {
+                     "string": "Teleport"
+                  },
+                  "@name": "teleport_btn"
+               }
+            },
+            "layout_panel:show_on_map_btn_lp": {
+               "@name": "show_on_map_btn_lp",
+               "button:show_on_map_btn": {
+                  "@label": {
+                     "string": "Map"
+                  },
+                  "@name": "show_on_map_btn"
+               }
+            },
+            "layout_panel:edit_btn_lp": {
+               "@name": "edit_btn_lp",
+               "button:edit_btn": {
+                  "@label": {
+                     "string": "Edit"
+                  },
+                  "@name": "edit_btn"
+               }
+            }
+         }
+      }
+   }
+}

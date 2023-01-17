@@ -1,0 +1,19 @@
+{
+   "toggleable_menu": {
+      "@name": "save_outfit_menu",
+      "menu_item_call:save_outfit": {
+         "@name": "save_outfit",
+         "@label": {
+            "string": "Save"
+         },
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:save_as_new_outfit": {
+         "@name": "save_as_new_outfit",
+         "@label": {
+            "string": "Save As"
+         },
+         "menu_item_call.on_click": null
+      }
+   }
+}

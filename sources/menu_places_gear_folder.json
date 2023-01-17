@@ -1,0 +1,88 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_folder_gear",
+      "menu_item_call:add_landmark": {
+         "@label": {
+            "string": "Landmark current location"
+         },
+         "@name": "add_landmark",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:add_folder": {
+         "@label": {
+            "string": "Create subfolder"
+         },
+         "@name": "add_folder",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:restore_item": {
+         "@label": {
+            "string": "Restore Item"
+         },
+         "@name": "restore_item",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:cut": {
+         "@label": {
+            "string": "Cut"
+         },
+         "@name": "cut",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:copy_folder": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "copy_folder",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "paste",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:rename": {
+         "@label": {
+            "string": "Rename"
+         },
+         "@name": "rename",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "delete",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:expand": {
+         "@label": {
+            "string": "Expand"
+         },
+         "@name": "expand",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      },
+      "menu_item_call:collapse": {
+         "@label": {
+            "string": "Collapse"
+         },
+         "@name": "collapse",
+         "on_click": null,
+         "on_enable": null,
+         "on_visible": null
+      }
+   }
+}

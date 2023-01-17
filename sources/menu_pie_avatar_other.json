@@ -1,0 +1,255 @@
+{
+   "pie_menu": {
+      "@name": "Avatar Pie",
+      "pie_slice:Profile...": {
+         "@label": {
+            "string": "Profile..."
+         },
+         "@name": "Profile...",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_menu:mute_menu": {
+         "@name": "mute_menu",
+         "@label": {
+            "string": "Mute >"
+         },
+         "pie_slice:Avatar Mute": {
+            "@label": {
+               "string": "Mute"
+            },
+            "@name": "Avatar Mute",
+            "pie_slice.on_click": null,
+            "#comment": "        <pie_slice.on_enable\n                    function=\"Avatar.EnableMute\" /> "
+         },
+         "pie_slice:Mute Particle": {
+            "@label": {
+               "string": "Part. Owner"
+            },
+            "@name": "Mute Particle",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         }
+      },
+      "pie_slice:Go to": {
+         "@label": {
+            "string": "Go to"
+         },
+         "@name": "Go to",
+         "pie_slice.on_click": null
+      },
+      "pie_slice:abuse": {
+         "@label": {
+            "string": "Report..."
+         },
+         "@name": "abuse",
+         "pie_slice.on_click": null
+      },
+      "pie_menu:add_avatar": {
+         "@label": {
+            "string": "Add >"
+         },
+         "@name": "add_avatar",
+         "pie_separator": null,
+         "pie_slice:Add Friend": {
+            "@label": {
+               "string": "As Friend..."
+            },
+            "@name": "Add Friend",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Add to set": {
+            "@label": {
+               "string": "To Set..."
+            },
+            "@name": "Add to set",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         }
+      },
+      "pie_slice:Pay...": {
+         "@label": {
+            "string": "Pay..."
+         },
+         "@name": "Pay...",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      },
+      "pie_menu:Avatar Pie More 1": {
+         "@name": "Avatar Pie More 1",
+         "@label": {
+            "string": "More >"
+         },
+         "pie_slice:Freeze...": {
+            "@label": {
+               "string": "Freeze"
+            },
+            "@name": "Freeze...",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Give Calling Card": {
+            "@label": {
+               "string": "Give Card"
+            },
+            "@name": "Give Calling Card",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_slice:Group Invite...": {
+            "@label": {
+               "string": "Invite to Group"
+            },
+            "@name": "Group Invite...",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_separator": null,
+         "pie_slice:Eject...": {
+            "@label": {
+               "string": "Eject..."
+            },
+            "@name": "Eject...",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
+         "pie_menu:Avatar Pie More 2": {
+            "@name": "Avatar Pie More 2",
+            "@label": {
+               "string": "More >"
+            },
+            "#comment": " ## Zi: Is this the right thing to use for avatar textures? ",
+            "pie_slice:Debug...": {
+               "@label": {
+                  "string": "Textures"
+               },
+               "@name": "Debug...",
+               "pie_slice.on_click": null
+            },
+            "pie_slice:ScriptInfo": {
+               "@label": {
+                  "string": "Script Info"
+               },
+               "@name": "ScriptInfo",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Call": {
+               "@label": {
+                  "string": "Call"
+               },
+               "@name": "Call",
+               "pie_slice.on_click": null,
+               "pie_slice.on_enable": null
+            },
+            "pie_slice:Zoom In": {
+               "@label": {
+                  "string": "Zoom In"
+               },
+               "@name": "Zoom In",
+               "pie_slice.on_click": null
+            },
+            "pie_slice:Texture Refresh": {
+               "@label": {
+                  "string": "Tex Refresh"
+               },
+               "@name": "Texture Refresh",
+               "pie_slice.on_click": null
+            },
+            "pie_menu:ResetMenu": {
+               "@name": "ResetMenu",
+               "@label": {
+                  "string": "Reset >"
+               },
+               "pie_slice:Reset Skeleton And Animations": {
+                  "@label": {
+                     "string": "Skel. & Anim."
+                  },
+                  "@name": "Reset Skeleton And Animations",
+                  "pie_slice.on_click": null
+               },
+               "pie_slice:Reset Skeleton": {
+                  "@label": {
+                     "string": "Skeleton"
+                  },
+                  "@name": "Reset Skeleton",
+                  "pie_slice.on_click": null
+               },
+               "pie_slice:Reset Mesh LOD": {
+                  "@label": {
+                     "string": "Mesh LOD"
+                  },
+                  "@name": "Reset Mesh LOD",
+                  "pie_slice.on_click": null
+               }
+            },
+            "pie_slice:Dump XML": {
+               "@label": {
+                  "string": "Dump XML"
+               },
+               "@name": "Dump XML",
+               "pie_slice.on_click": null,
+               "pie_slice.on_visible": null
+            },
+            "pie_menu:RenderMenu": {
+               "@name": "RenderMenu",
+               "@label": {
+                  "string": "Display >"
+               },
+               "pie_slice:RenderNormally": {
+                  "@name": "RenderNormally",
+                  "@label": {
+                     "string": "Normally"
+                  },
+                  "pie_slice.on_click": null,
+                  "pie_slice.on_visible": null
+               },
+               "pie_slice:DoNotRender": {
+                  "@name": "DoNotRender",
+                  "@label": {
+                     "string": "Never"
+                  },
+                  "pie_slice.on_click": null
+               },
+               "pie_slice:AlwaysRenderFully": {
+                  "@name": "AlwaysRenderFully",
+                  "@label": {
+                     "string": "Fully"
+                  },
+                  "pie_slice.on_click": null
+               }
+            }
+         },
+         "pie_menu:DerenderMenu": {
+            "@name": "DerenderMenu",
+            "@label": {
+               "string": "Derender >"
+            },
+            "pie_separator": null,
+            "pie_slice:DerenderPermanent": {
+               "@label": {
+                  "string": "Blacklist"
+               },
+               "@name": "DerenderPermanent",
+               "pie_slice.on_click": null
+            },
+            "pie_slice:Derender": {
+               "@label": {
+                  "string": "Temporary"
+               },
+               "@name": "Derender",
+               "pie_slice.on_click": null
+            }
+         }
+      },
+      "pie_slice:Send IM...": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "Send IM...",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      }
+   }
+}

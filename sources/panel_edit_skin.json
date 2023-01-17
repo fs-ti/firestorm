@@ -1,0 +1,80 @@
+{
+   "panel": {
+      "@name": "edit_skin_panel",
+      "panel:avatar_skin_color_panel": {
+         "@name": "avatar_skin_color_panel",
+         "texture_picker:Head": {
+            "@label": {
+               "string": "Head"
+            },
+            "@name": "Head",
+            "@tool_tip": {
+               "string": "Click to choose a picture"
+            },
+            "texture_picker.commit_callback": null
+         },
+         "texture_picker:Upper Body": {
+            "@label": {
+               "string": "Upper body"
+            },
+            "@name": "Upper Body",
+            "@tool_tip": {
+               "string": "Click to choose a picture"
+            },
+            "texture_picker.commit_callback": null
+         },
+         "texture_picker:Lower Body": {
+            "@label": {
+               "string": "Lower body"
+            },
+            "@name": "Lower Body",
+            "@tool_tip": {
+               "string": "Click to choose a picture"
+            },
+            "texture_picker.commit_callback": null
+         }
+      },
+      "panel:accordion_panel": {
+         "@name": "accordion_panel",
+         "accordion:wearable_accordion": {
+            "@name": "wearable_accordion",
+            "accordion_tab:skin_color_tab": {
+               "@name": "skin_color_tab",
+               "@title": {
+                  "string": "Skin Color"
+               },
+               "scrolling_panel_list:skin_color_param_list": {
+                  "@name": "skin_color_param_list"
+               }
+            },
+            "accordion_tab:skin_face_tab": {
+               "@name": "skin_face_tab",
+               "@title": {
+                  "string": "Face Detail"
+               },
+               "scrolling_panel_list:skin_face_param_list": {
+                  "@name": "skin_face_param_list"
+               }
+            },
+            "accordion_tab:skin_makeup_tab": {
+               "@name": "skin_makeup_tab",
+               "@title": {
+                  "string": "Makeup"
+               },
+               "scrolling_panel_list:skin_makeup_param_list": {
+                  "@name": "skin_makeup_param_list"
+               }
+            },
+            "accordion_tab:skin_body_tab": {
+               "@name": "skin_body_tab",
+               "@title": {
+                  "string": "Body Detail"
+               },
+               "scrolling_panel_list:skin_body_param_list": {
+                  "@name": "skin_body_param_list"
+               }
+            }
+         }
+      }
+   }
+}

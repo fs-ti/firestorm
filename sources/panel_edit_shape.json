@@ -1,0 +1,117 @@
+{
+   "panel": {
+      "@name": "edit_shape_panel",
+      "string:meters": {
+         "@name": "meters",
+         "#text": {
+            "string": "Meters"
+         }
+      },
+      "string:feet": {
+         "@name": "feet",
+         "#text": {
+            "string": "Feet"
+         }
+      },
+      "string:height": {
+         "@name": "height",
+         "#text": {
+            "string": "Height:"
+         }
+      },
+      "string": null,
+      "text:avatar_height": {
+         "@name": "avatar_height"
+      },
+      "panel:accordion_panel": {
+         "@label": {
+            "string": "Shirt"
+         },
+         "@name": "accordion_panel",
+         "accordion:wearable_accordion": {
+            "@name": "wearable_accordion",
+            "accordion_tab:shape_body_tab": {
+               "@name": "shape_body_tab",
+               "@title": {
+                  "string": "Body"
+               },
+               "scrolling_panel_list:shape_body_param_list": {
+                  "@name": "shape_body_param_list"
+               }
+            },
+            "accordion_tab:shape_head_tab": {
+               "@name": "shape_head_tab",
+               "@title": {
+                  "string": "Head"
+               },
+               "scrolling_panel_list:shape_head_param_list": {
+                  "@name": "shape_head_param_list"
+               }
+            },
+            "accordion_tab:shape_eyes_tab": {
+               "@name": "shape_eyes_tab",
+               "@title": {
+                  "string": "Eyes"
+               },
+               "scrolling_panel_list:shape_eyes_param_list": {
+                  "@name": "shape_eyes_param_list"
+               }
+            },
+            "accordion_tab:shape_ears_tab": {
+               "@name": "shape_ears_tab",
+               "@title": {
+                  "string": "Ears"
+               },
+               "scrolling_panel_list:shape_ears_param_list": {
+                  "@name": "shape_ears_param_list"
+               }
+            },
+            "accordion_tab:shape_nose_tab": {
+               "@name": "shape_nose_tab",
+               "@title": {
+                  "string": "Nose"
+               },
+               "scrolling_panel_list:shape_nose_param_list": {
+                  "@name": "shape_nose_param_list"
+               }
+            },
+            "accordion_tab:shape_mouth_tab": {
+               "@name": "shape_mouth_tab",
+               "@title": {
+                  "string": "Mouth"
+               },
+               "scrolling_panel_list:shape_mouth_param_list": {
+                  "@name": "shape_mouth_param_list"
+               }
+            },
+            "accordion_tab:shape_chin_tab": {
+               "@name": "shape_chin_tab",
+               "@title": {
+                  "string": "Chin"
+               },
+               "scrolling_panel_list:shape_chin_param_list": {
+                  "@name": "shape_chin_param_list"
+               }
+            },
+            "accordion_tab:shape_torso_tab": {
+               "@name": "shape_torso_tab",
+               "@title": {
+                  "string": "Torso"
+               },
+               "scrolling_panel_list:shape_torso_param_list": {
+                  "@name": "shape_torso_param_list"
+               }
+            },
+            "accordion_tab:shape_legs_tab": {
+               "@name": "shape_legs_tab",
+               "@title": {
+                  "string": "Legs"
+               },
+               "scrolling_panel_list:shape_legs_param_list": {
+                  "@name": "shape_legs_param_list"
+               }
+            }
+         }
+      }
+   }
+}

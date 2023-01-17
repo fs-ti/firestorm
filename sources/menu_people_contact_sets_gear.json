@@ -1,0 +1,61 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_people_contact_sets_gear",
+      "menu_item_call:profile": {
+         "@label": {
+            "string": "View Profile"
+         },
+         "@name": "profile",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:im": {
+         "@label": {
+            "string": "IM..."
+         },
+         "@name": "im",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:teleport": {
+         "@label": {
+            "string": "Teleport..."
+         },
+         "@name": "teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:set_pseudonym": {
+         "@label": {
+            "string": "Set alias..."
+         },
+         "@name": "set_pseudonym",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:remove_pseudonym": {
+         "@label": {
+            "string": "Remove alias..."
+         },
+         "@name": "remove_pseudonym",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:remove_displayname": {
+         "@label": {
+            "string": "Remove display name..."
+         },
+         "@name": "remove_displayname",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:set_config": {
+         "@label": {
+            "string": "Configure Contact Set..."
+         },
+         "@name": "set_config",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

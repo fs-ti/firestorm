@@ -1,0 +1,13 @@
+{
+   "pie_menu": {
+      "@name": "Mute Particle Pie",
+      "pie_slice:Mute Particle": {
+         "@label": {
+            "string": "Mute Part. Own."
+         },
+         "@name": "Mute Particle",
+         "pie_slice.on_click": null,
+         "pie_slice.on_enable": null
+      }
+   }
+}

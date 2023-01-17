@@ -1,0 +1,33 @@
+{
+   "panel": {
+      "@name": "edit_eyes_panel",
+      "panel:avatar_eye_color_panel": {
+         "@name": "avatar_eye_color_panel",
+         "texture_picker:Iris": {
+            "@label": {
+               "string": "Iris"
+            },
+            "@name": "Iris",
+            "@tool_tip": {
+               "string": "Click to choose a picture"
+            },
+            "texture_picker.commit_callback": null
+         }
+      },
+      "panel:accordion_panel": {
+         "@name": "accordion_panel",
+         "accordion:wearable_accordion": {
+            "@name": "wearable_accordion",
+            "accordion_tab:eyes_main_tab": {
+               "@name": "eyes_main_tab",
+               "@title": {
+                  "string": "Eyes"
+               },
+               "scrolling_panel_list:eyes_main_param_list": {
+                  "@name": "eyes_main_param_list"
+               }
+            }
+         }
+      }
+   }
+}

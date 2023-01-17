@@ -1,0 +1,54 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_group_plus",
+      "menu_item_check:sort_by_recent_speakers": {
+         "@label": {
+            "string": "Sort by Recent Speakers"
+         },
+         "@name": "sort_by_recent_speakers",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_name": {
+         "@label": {
+            "string": "Sort by Name"
+         },
+         "@name": "sort_name",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_distance": {
+         "@label": {
+            "string": "Sort by Distance"
+         },
+         "@name": "sort_distance",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:sort_arrival": {
+         "@label": {
+            "string": "Sort by Recent arrival"
+         },
+         "@name": "sort_arrival",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_separator": null,
+      "menu_item_check:view_icons": {
+         "@name": "view_icons",
+         "@label": {
+            "string": "View People Icons"
+         },
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null
+      },
+      "menu_item_check:view_map": {
+         "@name": "view_map",
+         "@label": {
+            "string": "View Map"
+         },
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      }
+   }
+}

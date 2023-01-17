@@ -1,0 +1,48 @@
+{
+   "context_menu": {
+      "@name": "Picks",
+      "menu_item_call:pick_teleport": {
+         "@label": {
+            "string": "Teleport"
+         },
+         "@name": "pick_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:pick_info": {
+         "@label": {
+            "string": "View Pick"
+         },
+         "@name": "pick_info",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:pick_edit": {
+         "@label": {
+            "string": "Edit Pick"
+         },
+         "@name": "pick_edit",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:pick_map": {
+         "@label": {
+            "string": "Show on map"
+         },
+         "@name": "pick_map",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:pick_separator": {
+         "@name": "pick_separator"
+      },
+      "menu_item_call:pick_delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "pick_delete",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "toggleable_menu": {
+      "@name": "Gear Wearing",
+      "menu_item_call:touch": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "touch",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:edit_item": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit_item",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:takeoff": {
+         "@label": {
+            "string": "Take Off"
+         },
+         "@name": "takeoff",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:edit_outfit": {
+         "@label": {
+            "string": "Edit Outfit"
+         },
+         "@name": "edit_outfit",
+         "on_click": null
+      },
+      "menu_item_call:copy": {
+         "@label": {
+            "string": "Copy outfit list to clipboard"
+         },
+         "@name": "copy",
+         "on_click": null
+      }
+   }
+}

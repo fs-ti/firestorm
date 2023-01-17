@@ -1,0 +1,19 @@
+{
+   "toggleable_menu": {
+      "@name": "menu_blocked_plus",
+      "menu_item_call:block_resident_by_name": {
+         "@label": {
+            "string": "Block Resident by name..."
+         },
+         "@name": "block_resident_by_name",
+         "on_click": null
+      },
+      "menu_item_call:block_object_by_name": {
+         "@label": {
+            "string": "Block object by name"
+         },
+         "@name": "block_object_by_name",
+         "on_click": null
+      }
+   }
+}
