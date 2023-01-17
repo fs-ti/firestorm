@@ -1,0 +1,29 @@
+{
+   "floater": {
+      "@name": "floater_help_browser",
+      "@title": {
+         "string": "Help Browser"
+      },
+      "floater.string:loading_text": {
+         "@name": "loading_text",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "floater.string:done_text": {
+         "@name": "done_text"
+      },
+      "layout_stack:stack1": {
+         "@name": "stack1",
+         "layout_panel:external_controls": {
+            "@name": "external_controls",
+            "web_browser:browser": {
+               "@name": "browser"
+            },
+            "text:status_text": {
+               "@name": "status_text"
+            }
+         }
+      }
+   }
+}

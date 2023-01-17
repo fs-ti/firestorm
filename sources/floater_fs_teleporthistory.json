@@ -1,0 +1,77 @@
+{
+   "floater": {
+      "@name": "floater_tphistory",
+      "@title": {
+         "string": "Teleport History"
+      },
+      "filter_editor:Filter": {
+         "@label": {
+            "string": "Filter Teleport History"
+         },
+         "@name": "Filter"
+      },
+      "menu_button:options_gear_btn": {
+         "@tool_tip": {
+            "string": "Show options"
+         },
+         "@name": "options_gear_btn"
+      },
+      "menu_button:sorting_menu_btn": {
+         "@tool_tip": {
+            "string": "Show sorting options"
+         },
+         "@name": "sorting_menu_btn"
+      },
+      "panel:history_placeholder": {
+         "@name": "history_placeholder"
+      },
+      "panel:button_panel": {
+         "@name": "button_panel",
+         "layout_stack:bottom_bar_ls0": {
+            "@name": "bottom_bar_ls0",
+            "layout_panel:show_lm_panel": {
+               "@name": "show_lm_panel",
+               "layout_stack:bottom_bar_ls1": {
+                  "@name": "bottom_bar_ls1",
+                  "layout_panel:teleport_btn_lp": {
+                     "@name": "teleport_btn_lp",
+                     "button:teleport_btn": {
+                        "@label": {
+                           "string": "Teleport"
+                        },
+                        "@name": "teleport_btn",
+                        "@tool_tip": {
+                           "string": "Teleport to the selected area"
+                        }
+                     }
+                  },
+                  "layout_panel:chat_btn_lp": {
+                     "@name": "chat_btn_lp",
+                     "button:map_btn": {
+                        "@label": {
+                           "string": "Map"
+                        },
+                        "@name": "map_btn",
+                        "@tool_tip": {
+                           "string": "Show the corresponding area on the World Map"
+                        }
+                     }
+                  },
+                  "layout_panel:profile_btn_lp": {
+                     "@name": "profile_btn_lp",
+                     "button:profile_btn": {
+                        "@label": {
+                           "string": "Show Profile"
+                        },
+                        "@name": "profile_btn",
+                        "@tool_tip": {
+                           "string": "Show the profile of this location"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

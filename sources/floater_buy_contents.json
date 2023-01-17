@@ -1,0 +1,65 @@
+{
+   "floater": {
+      "@name": "floater_buy_contents",
+      "@title": {
+         "string": "Buy Contents"
+      },
+      "floater.string:no_copy_text": {
+         "@name": "no_copy_text",
+         "#text": {
+            "string": "\n        (no copy)\n    "
+         }
+      },
+      "floater.string:no_modify_text": {
+         "@name": "no_modify_text",
+         "#text": {
+            "string": "\n        (no modify)\n    "
+         }
+      },
+      "floater.string:no_transfer_text": {
+         "@name": "no_transfer_text",
+         "#text": {
+            "string": "\n        (no transfer)\n    "
+         }
+      },
+      "text:contains_text": {
+         "@name": "contains_text",
+         "#text": {
+            "string": "\n        &lt;nolink&gt;[NAME]&lt;/nolink&gt; contains:\n    "
+         }
+      },
+      "scroll_list:item_list": {
+         "@name": "item_list",
+         "scroll_list.columns:icon": {
+            "@name": "icon"
+         },
+         "scroll_list.columns:text": {
+            "@name": "text"
+         }
+      },
+      "text:buy_text": {
+         "@name": "buy_text",
+         "#text": {
+            "string": "\n        Buy for L$[AMOUNT] from [NAME]?\n    "
+         }
+      },
+      "check_box:wear_check": {
+         "@label": {
+            "string": "Wear clothing now"
+         },
+         "@name": "wear_check"
+      },
+      "button:buy_btn": {
+         "@label": {
+            "string": "Buy"
+         },
+         "@name": "buy_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

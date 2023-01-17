@@ -1,0 +1,41 @@
+{
+   "floater": {
+      "@name": "floater_fs_protected_folders",
+      "@title": {
+         "string": "Protected Folders"
+      },
+      "floater.string:UnknownFolder": {
+         "@name": "UnknownFolder",
+         "#text": {
+            "string": "\n    (Unknown Folder)\n  "
+         }
+      },
+      "panel:buttons_panel": {
+         "@name": "buttons_panel",
+         "filter_editor:filter_input": {
+            "@label": {
+               "string": "Filter Protected Folders"
+            },
+            "@name": "filter_input"
+         },
+         "button:remove_btn": {
+            "@name": "remove_btn",
+            "@tool_tip": {
+               "string": "Remove folder from protected folder list"
+            }
+         }
+      },
+      "panel:panel_fs_protected_folders": {
+         "@name": "panel_fs_protected_folders",
+         "scroll_list:folder_list": {
+            "@name": "folder_list",
+            "scroll_list.columns:name": {
+               "@label": {
+                  "string": "Name"
+               },
+               "@name": "name"
+            }
+         }
+      }
+   }
+}

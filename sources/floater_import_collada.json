@@ -1,0 +1,56 @@
+{
+   "floater": {
+      "@name": "Import Collada",
+      "@title": {
+         "string": "Import Scene"
+      },
+      "text:mesh count": {
+         "@name": "mesh count",
+         "#text": {
+            "string": "\n  Meshes: [COUNT]\n  "
+         }
+      },
+      "text:texture count": {
+         "@name": "texture count",
+         "#text": {
+            "string": "\n  Textures: [COUNT]\n  "
+         }
+      },
+      "text:status": {
+         "@name": "status",
+         "#text": {
+            "string": "\n    Status: [STATUS]\n  "
+         }
+      },
+      "button:cancel": {
+         "@name": "cancel",
+         "@label": {
+            "string": "Cancel"
+         }
+      },
+      "button:ok": {
+         "@name": "ok",
+         "@label": {
+            "string": "OK"
+         }
+      },
+      "string:status_idle": {
+         "@name": "status_idle",
+         "#text": {
+            "string": "Idle"
+         }
+      },
+      "string:status_uploading": {
+         "@name": "status_uploading",
+         "#text": {
+            "string": "Uploading [NAME]"
+         }
+      },
+      "string:status_creating": {
+         "@name": "status_creating",
+         "#text": {
+            "string": "Creating object [NAME]"
+         }
+      }
+   }
+}

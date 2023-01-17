@@ -1,0 +1,88 @@
+{
+   "floater": {
+      "@name": "floater_voice_controls",
+      "@title": {
+         "string": "Voice Controls"
+      },
+      "string:title_nearby": {
+         "@name": "title_nearby",
+         "#text": {
+            "string": "\n        Nearby Voice\n    "
+         }
+      },
+      "string:title_group": {
+         "@name": "title_group",
+         "#text": {
+            "string": "\n        Group Call with [GROUP]\n    "
+         }
+      },
+      "string:title_adhoc": {
+         "@name": "title_adhoc",
+         "#text": {
+            "string": "\n        Conference Call\n    "
+         }
+      },
+      "string:title_peer_2_peer": {
+         "@name": "title_peer_2_peer",
+         "#text": {
+            "string": "\n        Call with [NAME]\n    "
+         }
+      },
+      "string:no_one_near": {
+         "@name": "no_one_near",
+         "#text": {
+            "string": "\n        No one near has voice enabled\n    "
+         }
+      },
+      "layout_stack:my_call_stack": {
+         "@name": "my_call_stack",
+         "layout_panel:my_panel": {
+            "@name": "my_panel",
+            "avatar_icon:user_icon": {
+               "@name": "user_icon"
+            },
+            "text:user_text": {
+               "@name": "user_text",
+               "@value": {
+                  "string": "My Avatar:"
+               }
+            },
+            "output_monitor:speaking_indicator": {
+               "@name": "speaking_indicator"
+            }
+         },
+         "layout_panel:leave_call_panel": {
+            "@name": "leave_call_panel",
+            "layout_stack:voice_effect_and_leave_call_stack": {
+               "@name": "voice_effect_and_leave_call_stack",
+               "layout_panel": {
+                  "panel:panel_voice_effect": {
+                     "@name": "panel_voice_effect"
+                  }
+               },
+               "layout_panel$2": {
+                  "@name": "leave_call_btn_panel",
+                  "button:leave_call_btn": {
+                     "@label": {
+                        "string": "Leave Call"
+                     },
+                     "@name": "leave_call_btn"
+                  }
+               }
+            }
+         },
+         "layout_panel:callers_panel": {
+            "@name": "callers_panel",
+            "avatar_list:speakers_list": {
+               "@name": "speakers_list"
+            },
+            "panel:non_avatar_caller": {
+               "@name": "non_avatar_caller"
+            },
+            "text:rlv_restricted": {
+               "@name": "rlv_restricted"
+            }
+         }
+      }
+   }
+}

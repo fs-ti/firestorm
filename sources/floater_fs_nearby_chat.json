@@ -1,0 +1,164 @@
+{
+   "floater": {
+      "@name": "nearby_chat",
+      "@title": {
+         "string": "Nearby Chat"
+      },
+      "floater.string:chatbox_label": {
+         "@name": "chatbox_label",
+         "#text": {
+            "string": "To nearby chat"
+         }
+      },
+      "layout_stack:ls_control_panel": {
+         "@name": "ls_control_panel",
+         "layout_panel:lp_translate_btn": {
+            "@name": "lp_translate_btn",
+            "button:translate_btn": {
+               "@tool_tip": {
+                  "string": "Use selected translation service"
+               },
+               "@name": "translate_btn"
+            }
+         },
+         "layout_panel:lp_chat_history_btn": {
+            "@name": "lp_chat_history_btn",
+            "button:chat_history_btn": {
+               "@tool_tip": {
+                  "string": "Open the nearby chat transcript."
+               },
+               "@name": "chat_history_btn"
+            }
+         },
+         "layout_panel:lp_chat_history_muted_btn": {
+            "@name": "lp_chat_history_muted_btn",
+            "button:chat_history_muted_btn": {
+               "@tool_tip": {
+                  "string": "Shows the muted chat in nearby chat transcript."
+               },
+               "@name": "chat_history_muted_btn"
+            }
+         },
+         "layout_panel:lp_options_btn": {
+            "@name": "lp_options_btn",
+            "menu_button:chat_options_btn": {
+               "@tool_tip": {
+                  "string": "Chat Options"
+               },
+               "@name": "chat_options_btn"
+            }
+         },
+         "layout_panel:lp_chat_search_btn": {
+            "@name": "lp_chat_search_btn",
+            "button:chat_search_btn": {
+               "@name": "chat_search_btn",
+               "@tool_tip": {
+                  "string": "Search nearby chat"
+               }
+            }
+         },
+         "layout_panel:lp_bar": {
+            "@name": "lp_bar",
+            "icon:dummy_icon": {
+               "@name": "dummy_icon"
+            }
+         }
+      },
+      "layout_stack:ls_chat": {
+         "@name": "ls_chat",
+         "layout_panel:panel_im_control_lp": {
+            "@name": "panel_im_control_lp",
+            "layout_stack:im_panels": {
+               "@name": "im_panels",
+               "layout_panel:chat_holder": {
+                  "@name": "chat_holder",
+                  "fs_chat_history:chat_history": {
+                     "@name": "chat_history"
+                  },
+                  "fs_chat_history:chat_history_muted": {
+                     "@name": "chat_history_muted"
+                  }
+               },
+               "layout_panel:unread_messages_holder": {
+                  "@name": "unread_messages_holder",
+                  "icon:unread_messages_background": {
+                     "@name": "unread_messages_background"
+                  },
+                  "text:unread_messages_text": {
+                     "@name": "unread_messages_text",
+                     "#text": {
+                        "string": "\n            Unread Messages: [NUM]\n          "
+                     }
+                  }
+               },
+               "layout_panel:chat_layout_panel": {
+                  "@name": "chat_layout_panel",
+                  "layout_stack:input_panels": {
+                     "@name": "input_panels",
+                     "layout_panel:input_editor_layout_panel": {
+                        "@name": "input_editor_layout_panel",
+                        "chat_editor:chat_box": {
+                           "@name": "chat_box"
+                        }
+                     },
+                     "layout_panel:input_button_layout_panel": {
+                        "@name": "input_button_layout_panel",
+                        "spinner:ChatChannel": {
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "ChatChannel",
+                           "@tool_tip": {
+                              "string": "Channel to send chat on. Enabled in Preferences -> Chat -> Firestorm -> Show channel selection in chat bar."
+                           }
+                        }
+                     },
+                     "layout_panel:chat_type_layout_panel": {
+                        "@name": "chat_type_layout_panel",
+                        "#comment": " Makeshift split button since LLSplitButton is broken ",
+                        "combo_box:chat_type": {
+                           "@name": "chat_type",
+                           "@tool_tip": {
+                              "string": "Whisper = 10m, Say = 20m, Shout = 100m"
+                           },
+                           "combo_box.item:chat_type_whisper": {
+                              "@name": "chat_type_whisper",
+                              "@label": {
+                                 "string": "Whisper"
+                              }
+                           },
+                           "combo_box.item:chat_type_say": {
+                              "@name": "chat_type_say",
+                              "@label": {
+                                 "string": "Say"
+                              }
+                           },
+                           "combo_box.item:chat_type_shout": {
+                              "@name": "chat_type_shout",
+                              "@label": {
+                                 "string": "Shout"
+                              }
+                           }
+                        },
+                        "#comment$3": " pad_bottom used to move the button text away so it's invisible under the combo box ",
+                        "button:send_chat": {
+                           "@label": {
+                              "string": "Say"
+                           },
+                           "@name": "send_chat",
+                           "@tool_tip": {
+                              "string": "Whisper = 10m, Say = 20m, Shout = 100m"
+                           }
+                        },
+                        "icon:chat_type_combo_arrow_icon": {
+                           "@name": "chat_type_combo_arrow_icon"
+                        },
+                        "#comment$6": " Makeshift split button since LLSplitButton is broken "
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

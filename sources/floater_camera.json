@@ -1,0 +1,173 @@
+{
+   "floater": {
+      "@name": "camera_floater",
+      "@title": {
+         "string": "Camera Controls"
+      },
+      "floater.string:rotate_tooltip": {
+         "@name": "rotate_tooltip",
+         "#text": {
+            "string": "\n        Rotate Camera Around Focus\n  "
+         }
+      },
+      "floater.string:zoom_tooltip": {
+         "@name": "zoom_tooltip",
+         "#text": {
+            "string": "\n        Zoom Camera Towards Focus\n  "
+         }
+      },
+      "floater.string:move_tooltip": {
+         "@name": "move_tooltip",
+         "#text": {
+            "string": "\n        Move Camera Up and Down, Left and Right\n  "
+         }
+      },
+      "floater.string:free_mode_title": {
+         "@name": "free_mode_title",
+         "#text": {
+            "string": "\n        View Object\n  "
+         }
+      },
+      "string:inactive_combo_text": {
+         "@name": "inactive_combo_text",
+         "#text": {
+            "string": "Use preset"
+         }
+      },
+      "panel:buttons_panel": {
+         "@name": "buttons_panel",
+         "panel_camera_item:front_view": {
+            "@name": "front_view",
+            "@tool_tip": {
+               "string": "Front View"
+            },
+            "panel_camera_item.mousedown_callback": null,
+            "panel_camera_item.picture": null,
+            "panel_camera_item.selected_picture": null
+         },
+         "panel_camera_item:group_view": {
+            "@name": "group_view",
+            "@tool_tip": {
+               "string": "Side View"
+            },
+            "panel_camera_item.mousedown_callback": null,
+            "panel_camera_item.picture": null,
+            "panel_camera_item.selected_picture": null
+         },
+         "panel_camera_item:rear_view": {
+            "@name": "rear_view",
+            "@tool_tip": {
+               "string": "Rear View"
+            },
+            "panel_camera_item.mousedown_callback": null,
+            "panel_camera_item.picture": null,
+            "panel_camera_item.selected_picture": null
+         },
+         "panel_camera_item:object_view": {
+            "@name": "object_view",
+            "@tool_tip": {
+               "string": "Object View"
+            },
+            "panel_camera_item.mousedown_callback": null,
+            "panel_camera_item.picture": null,
+            "panel_camera_item.selected_picture": null
+         },
+         "panel_camera_item:mouselook_view": {
+            "@name": "mouselook_view",
+            "@tool_tip": {
+               "string": "Mouselook View"
+            },
+            "panel_camera_item.mousedown_callback": null,
+            "panel_camera_item.picture": null,
+            "panel_camera_item.selected_picture": null
+         },
+         "panel_camera_item:reset_view": {
+            "@name": "reset_view",
+            "@tool_tip": {
+               "string": "Reset view"
+            },
+            "panel_camera_item.mousedown_callback": null,
+            "panel_camera_item.picture": null,
+            "panel_camera_item.selected_picture": null
+         }
+      },
+      "panel:zoom": {
+         "@name": "zoom",
+         "layout_stack:camera_view_layout_stack": {
+            "@name": "camera_view_layout_stack",
+            "layout_panel:camera_rotate_layout_panel": {
+               "@name": "camera_rotate_layout_panel",
+               "joystick_rotate:cam_rotate_stick": {
+                  "@name": "cam_rotate_stick",
+                  "@tool_tip": {
+                     "string": "Orbit camera around focus"
+                  }
+               }
+            },
+            "layout_panel:camera_zoom_layout_panel": {
+               "@name": "camera_zoom_layout_panel",
+               "button:zoom_plus_btn": {
+                  "@name": "zoom_plus_btn",
+                  "commit_callback": null,
+                  "mouse_held_callback": null
+               },
+               "slider_bar:zoom_slider": {
+                  "@name": "zoom_slider",
+                  "@tool_tip": {
+                     "string": "Zoom camera toward focus"
+                  },
+                  "commit_callback": null
+               },
+               "button:zoom_minus_btn": {
+                  "@name": "zoom_minus_btn",
+                  "commit_callback": null,
+                  "mouse_held_callback": null
+               }
+            },
+            "layout_panel:panel_track": {
+               "@name": "panel_track",
+               "joystick_track:cam_track_stick": {
+                  "@name": "cam_track_stick",
+                  "@tool_tip": {
+                     "string": "Move camera up and down, left and right"
+                  }
+               }
+            }
+         }
+      },
+      "panel:preset_buttons_panel": {
+         "@name": "preset_buttons_panel",
+         "button:camera_position_btn": {
+            "@label": {
+               "string": "Position..."
+            },
+            "@name": "camera_position_btn",
+            "button.commit_callback": null
+         },
+         "button:save_preset_btn": {
+            "@name": "save_preset_btn",
+            "@tool_tip": {
+               "string": "Save as Preset"
+            },
+            "button.commit_callback": null
+         },
+         "combo_box:preset_combo": {
+            "@name": "preset_combo",
+            "combo_list": null,
+            "combo_box.item:Use preset": {
+               "@label": {
+                  "string": "Use preset"
+               },
+               "@name": "Use preset"
+            }
+         },
+         "button:gear_btn": {
+            "@name": "gear_btn",
+            "@tool_tip": {
+               "string": "Camera Presets"
+            },
+            "button.commit_callback": null
+         }
+      }
+   }
+}

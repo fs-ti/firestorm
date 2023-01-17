@@ -1,0 +1,311 @@
+{
+   "floater": {
+      "@name": "avatar_texture_debug",
+      "@title": {
+         "string": "Avatar Textures"
+      },
+      "floater.string:InvalidAvatar": {
+         "@name": "InvalidAvatar",
+         "#text": {
+            "string": "\n        Invalid Avatar\n    "
+         }
+      },
+      "scroll_container:profile_scroll": {
+         "@name": "profile_scroll",
+         "panel:scroll_content_panel": {
+            "@name": "scroll_content_panel",
+            "text:label": {
+               "@name": "label",
+               "#text": {
+                  "string": "\n        Baked\nTextures\n    "
+               }
+            },
+            "text:composite_label": {
+               "@name": "composite_label",
+               "#text": {
+                  "string": "\n        Composite\nTextures\n    "
+               }
+            },
+            "button:Dump": {
+               "@label": {
+                  "string": "Dump IDs to Console"
+               },
+               "@name": "Dump"
+            },
+            "panel:scroll_content_panel": {
+               "@name": "scroll_content_panel",
+               "texture_picker:hair-baked": {
+                  "@label": {
+                     "string": "Hair"
+                  },
+                  "@name": "hair-baked"
+               },
+               "texture_picker:hair_grain": {
+                  "@label": {
+                     "string": "Hair"
+                  },
+                  "@name": "hair_grain"
+               },
+               "texture_picker:hair_alpha": {
+                  "@label": {
+                     "string": "Hair Alpha"
+                  },
+                  "@name": "hair_alpha"
+               },
+               "texture_picker:hair_tattoo": {
+                  "@label": {
+                     "string": "Hair Tattoo"
+                  },
+                  "@name": "hair_tattoo"
+               },
+               "texture_picker:head-baked": {
+                  "@label": {
+                     "string": "Head"
+                  },
+                  "@name": "head-baked"
+               },
+               "texture_picker:head_bodypaint": {
+                  "@label": {
+                     "string": "Makeup"
+                  },
+                  "@name": "head_bodypaint"
+               },
+               "texture_picker:head_alpha": {
+                  "@label": {
+                     "string": "Head Alpha"
+                  },
+                  "@name": "head_alpha"
+               },
+               "texture_picker:head_tattoo": {
+                  "@label": {
+                     "string": "Head Tattoo"
+                  },
+                  "@name": "head_tattoo"
+               },
+               "texture_picker:head_universal_tattoo": {
+                  "@label": {
+                     "string": "Head Unv Tattoo"
+                  },
+                  "@name": "head_universal_tattoo"
+               },
+               "texture_picker:eyes-baked": {
+                  "@label": {
+                     "string": "Eyes"
+                  },
+                  "@name": "eyes-baked"
+               },
+               "texture_picker:eyes_iris": {
+                  "@label": {
+                     "string": "Eye"
+                  },
+                  "@name": "eyes_iris"
+               },
+               "texture_picker:eyes_alpha": {
+                  "@label": {
+                     "string": "Eyes Alpha"
+                  },
+                  "@name": "eyes_alpha"
+               },
+               "texture_picker:eyes_tattoo": {
+                  "@label": {
+                     "string": "Eyes Tattoo"
+                  },
+                  "@name": "eyes_tattoo"
+               },
+               "texture_picker:upper-baked": {
+                  "@label": {
+                     "string": "Upper Body"
+                  },
+                  "@name": "upper-baked"
+               },
+               "texture_picker:upper_bodypaint": {
+                  "@label": {
+                     "string": "Upper BodyPaint"
+                  },
+                  "@name": "upper_bodypaint"
+               },
+               "texture_picker:upper_undershirt": {
+                  "@label": {
+                     "string": "Undershirt"
+                  },
+                  "@name": "upper_undershirt"
+               },
+               "texture_picker:upper_gloves": {
+                  "@label": {
+                     "string": "Gloves"
+                  },
+                  "@name": "upper_gloves"
+               },
+               "texture_picker:upper_shirt": {
+                  "@label": {
+                     "string": "Shirt"
+                  },
+                  "@name": "upper_shirt"
+               },
+               "texture_picker:upper_jacket": {
+                  "@label": {
+                     "string": "Upper Jacket"
+                  },
+                  "@name": "upper_jacket"
+               },
+               "texture_picker:upper_alpha": {
+                  "@label": {
+                     "string": "Upper Alpha"
+                  },
+                  "@name": "upper_alpha"
+               },
+               "texture_picker:upper_tattoo": {
+                  "@label": {
+                     "string": "Upper Tattoo"
+                  },
+                  "@name": "upper_tattoo"
+               },
+               "texture_picker:upper_universal_tattoo": {
+                  "@label": {
+                     "string": "Upper Unv Tattoo"
+                  },
+                  "@name": "upper_universal_tattoo"
+               },
+               "texture_picker:lower-baked": {
+                  "@label": {
+                     "string": "Lower Body"
+                  },
+                  "@name": "lower-baked"
+               },
+               "texture_picker:lower_bodypaint": {
+                  "@label": {
+                     "string": "Lower BodyPaint"
+                  },
+                  "@name": "lower_bodypaint"
+               },
+               "texture_picker:lower_underpants": {
+                  "@label": {
+                     "string": "Underpants"
+                  },
+                  "@name": "lower_underpants"
+               },
+               "texture_picker:lower_socks": {
+                  "@label": {
+                     "string": "Socks"
+                  },
+                  "@name": "lower_socks"
+               },
+               "texture_picker:lower_shoes": {
+                  "@label": {
+                     "string": "Shoes"
+                  },
+                  "@name": "lower_shoes"
+               },
+               "texture_picker:lower_pants": {
+                  "@label": {
+                     "string": "Pants"
+                  },
+                  "@name": "lower_pants"
+               },
+               "texture_picker:lower_jacket": {
+                  "@label": {
+                     "string": "Jacket"
+                  },
+                  "@name": "lower_jacket"
+               },
+               "texture_picker:lower_alpha": {
+                  "@label": {
+                     "string": "Lower Alpha"
+                  },
+                  "@name": "lower_alpha"
+               },
+               "texture_picker:lower_tattoo": {
+                  "@label": {
+                     "string": "Lower Tattoo"
+                  },
+                  "@name": "lower_tattoo"
+               },
+               "texture_picker:lower_universal_tattoo": {
+                  "@label": {
+                     "string": "Lower Unv Tattoo"
+                  },
+                  "@name": "lower_universal_tattoo"
+               },
+               "texture_picker:skirt-baked": {
+                  "@label": {
+                     "string": "Skirt"
+                  },
+                  "@name": "skirt-baked"
+               },
+               "texture_picker:skirt": {
+                  "@label": {
+                     "string": "Skirt"
+                  },
+                  "@name": "skirt"
+               },
+               "texture_picker:skirt_tattoo": {
+                  "@label": {
+                     "string": "Skirt Tattoo"
+                  },
+                  "@name": "skirt_tattoo"
+               },
+               "texture_picker:leftarm-baked": {
+                  "@label": {
+                     "string": "Left Arm"
+                  },
+                  "@name": "leftarm-baked"
+               },
+               "texture_picker:leftarm_tattoo": {
+                  "@label": {
+                     "string": "Left Arm Tattoo"
+                  },
+                  "@name": "leftarm_tattoo"
+               },
+               "texture_picker:leftleg-baked": {
+                  "@label": {
+                     "string": "Left Leg"
+                  },
+                  "@name": "leftleg-baked"
+               },
+               "texture_picker:leftleg_tattoo": {
+                  "@label": {
+                     "string": "Left Leg Tattoo"
+                  },
+                  "@name": "leftleg_tattoo"
+               },
+               "texture_picker:aux1-baked": {
+                  "@label": {
+                     "string": "AUX 1"
+                  },
+                  "@name": "aux1-baked"
+               },
+               "texture_picker:aux1_tattoo": {
+                  "@label": {
+                     "string": "AUX 1 Tattoo"
+                  },
+                  "@name": "aux1_tattoo"
+               },
+               "texture_picker:aux2-baked": {
+                  "@label": {
+                     "string": "AUX 2"
+                  },
+                  "@name": "aux2-baked"
+               },
+               "texture_picker:aux2_tattoo": {
+                  "@label": {
+                     "string": "AUX 2 Tattoo"
+                  },
+                  "@name": "aux2_tattoo"
+               },
+               "texture_picker:aux3-baked": {
+                  "@label": {
+                     "string": "AUX 3"
+                  },
+                  "@name": "aux3-baked"
+               },
+               "texture_picker:aux3_tattoo": {
+                  "@label": {
+                     "string": "AUX 3 Tattoo"
+                  },
+                  "@name": "aux3_tattoo"
+               }
+            }
+         }
+      }
+   }
+}

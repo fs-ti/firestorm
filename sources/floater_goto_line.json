@@ -1,0 +1,23 @@
+{
+   "floater": {
+      "@name": "script goto",
+      "@title": {
+         "string": "Go to Line"
+      },
+      "button:goto_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "goto_btn"
+      },
+      "text:txt": {
+         "@name": "txt",
+         "#text": {
+            "string": "\n        Go to line\n    "
+         }
+      },
+      "line_editor:goto_line": {
+         "@name": "goto_line"
+      }
+   }
+}

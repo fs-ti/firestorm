@@ -1,0 +1,47 @@
+{
+   "floater": {
+      "@name": "floater_fs_wearable_favorites",
+      "@title": {
+         "string": "Favorite Wearables"
+      },
+      "floater.string:empty_list": {
+         "@name": "empty_list",
+         "#text": {
+            "string": "\n    Drag wearable items here to add to list.\n  "
+         }
+      },
+      "floater.string:search_no_items": {
+         "@name": "search_no_items",
+         "#text": {
+            "string": "\n    No matching items found.\n  "
+         }
+      },
+      "panel:buttons_panel": {
+         "@name": "buttons_panel",
+         "filter_editor:wearable_filter_input": {
+            "@label": {
+               "string": "Filter Wearables"
+            },
+            "@name": "wearable_filter_input"
+         },
+         "menu_button:options_btn": {
+            "@name": "options_btn",
+            "@tool_tip": {
+               "string": "Wearable favorites options"
+            }
+         },
+         "button:remove_btn": {
+            "@name": "remove_btn",
+            "@tool_tip": {
+               "string": "Remove wearable from favorites list"
+            }
+         }
+      },
+      "panel:panel_fs_wearable_favorites": {
+         "@name": "panel_fs_wearable_favorites",
+         "fs_wearable_favorites_items_list:favorites_list": {
+            "@name": "favorites_list"
+         }
+      }
+   }
+}

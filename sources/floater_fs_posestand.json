@@ -1,0 +1,20 @@
+{
+   "floater": {
+      "@name": "floater_fs_posestand",
+      "@title": {
+         "string": "Pose Stand"
+      },
+      "combo_box:pose_combo": {
+         "@name": "pose_combo"
+      },
+      "check_box:enable_lock": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "enable_lock"
+      },
+      "icon:lock": {
+         "@name": "lock"
+      }
+   }
+}

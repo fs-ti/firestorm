@@ -1,0 +1,29 @@
+{
+   "floater": {
+      "@name": "animation_overrider",
+      "@title": {
+         "string": "Animation Overrider"
+      },
+      "floater.string:ao_no_sets_loaded": {
+         "@name": "ao_no_sets_loaded",
+         "#text": {
+            "string": "\nNo Sets Loaded\n  "
+         }
+      },
+      "floater.string:ao_no_animations_loaded": {
+         "@name": "ao_no_animations_loaded",
+         "#text": {
+            "string": "\nNo Animations Loaded\n  "
+         }
+      },
+      "floater.string:ao_dnd_only_on_full_interface": {
+         "@name": "ao_dnd_only_on_full_interface",
+         "#text": {
+            "string": "\nYou can only drag and drop an animation notecard on the full interface window. Click on the wrench icon to open it.\n  "
+         }
+      },
+      "panel:animation_overrider_outer_panel": {
+         "@name": "animation_overrider_outer_panel"
+      }
+   }
+}

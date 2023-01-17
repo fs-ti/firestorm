@@ -1,0 +1,93 @@
+{
+   "floater": {
+      "@name": "Fixed Environment",
+      "@title": {
+         "string": "Fixed Environment"
+      },
+      "string:edit_sky": {
+         "@name": "edit_sky",
+         "#text": {
+            "string": "Edit Sky:"
+         }
+      },
+      "string:edit_water": {
+         "@name": "edit_water",
+         "#text": {
+            "string": "Edit Water:"
+         }
+      },
+      "layout_stack:floater_stack": {
+         "@name": "floater_stack",
+         "layout_panel:info_panel": {
+            "@name": "info_panel",
+            "text:info_panel_label": {
+               "@name": "info_panel_label",
+               "#text": {
+                  "string": "\n                Name:\n            "
+               }
+            },
+            "line_editor:settings_name": {
+               "@name": "settings_name"
+            },
+            "button:btn_load": {
+               "@label": {
+                  "string": "Load"
+               },
+               "@name": "btn_load",
+               "@tool_tip": {
+                  "string": "Load a settings from inventory"
+               }
+            },
+            "button:btn_import": {
+               "@label": {
+                  "string": "Import"
+               },
+               "@name": "btn_import",
+               "@tool_tip": {
+                  "string": "Import legacy settings from disk."
+               }
+            }
+         },
+         "layout_panel:tab_area": {
+            "@name": "tab_area",
+            "tab_container:tab_settings": {
+               "@name": "tab_settings",
+               "#comment": " Tabs inserted here in code "
+            }
+         },
+         "layout_panel:button_panel": {
+            "@name": "button_panel",
+            "layout_stack:button_bar_ls": {
+               "@name": "button_bar_ls",
+               "layout_panel:save_btn_lp": {
+                  "@name": "save_btn_lp",
+                  "button:btn_commit": {
+                     "@label": {
+                        "string": "Save"
+                     },
+                     "@name": "btn_commit"
+                  },
+                  "button:btn_flyout": {
+                     "@name": "btn_flyout",
+                     "@label": {
+                        "string": ""
+                     }
+                  }
+               },
+               "layout_panel:revert_btn_lp": {
+                  "@name": "revert_btn_lp",
+                  "button:btn_cancel": {
+                     "@label": {
+                        "string": "Cancel"
+                     },
+                     "@name": "btn_cancel",
+                     "@tool_tip": {
+                        "string": "Revert to last saved version"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

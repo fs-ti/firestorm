@@ -1,0 +1,71 @@
+{
+   "floater": {
+      "@name": "group_titles",
+      "@title": {
+         "string": "Group Titles"
+      },
+      "floater.string:NoGroupTitle": {
+         "@name": "NoGroupTitle",
+         "@value": {
+            "string": "&lt;No group title&gt;"
+         }
+      },
+      "filter_editor:filter_input": {
+         "@label": {
+            "string": "Filter Group Titles"
+         },
+         "@name": "filter_input"
+      },
+      "scroll_list:title_list": {
+         "@name": "title_list",
+         "column:grouptitle": {
+            "@name": "grouptitle",
+            "@label": {
+               "string": "Title"
+            }
+         },
+         "column:groupname": {
+            "@name": "groupname",
+            "@label": {
+               "string": "Group"
+            }
+         },
+         "column:role_id": {
+            "@name": "role_id"
+         },
+         "column:group_id": {
+            "@name": "group_id"
+         },
+         "column:title_sort_column": {
+            "@name": "title_sort_column"
+         },
+         "column:name_sort_column": {
+            "@name": "name_sort_column"
+         }
+      },
+      "button:btnRefresh": {
+         "@tool_tip": {
+            "string": "Refresh list of available group titles"
+         },
+         "@name": "btnRefresh"
+      },
+      "button:btnInfo": {
+         "@name": "btnInfo",
+         "@label": {
+            "string": "Info"
+         },
+         "@tool_tip": {
+            "string": "Show info about group of selected title"
+         }
+      },
+      "button:btnActivate": {
+         "@name": "btnActivate",
+         "@label": {
+            "string": "Activate"
+         },
+         "@tool_tip": {
+            "string": "Activate selected group title"
+         }
+      }
+   }
+}

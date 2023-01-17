@@ -1,0 +1,118 @@
+{
+   "floater": {
+      "@name": "gestures",
+      "@title": {
+         "string": "Gestures"
+      },
+      "@label": {
+         "string": "Places"
+      },
+      "floater.string:loading": {
+         "@name": "loading",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "floater.string:playing": {
+         "@name": "playing",
+         "#text": {
+            "string": "\n        (Playing)\n    "
+         }
+      },
+      "#comment": " It's used to build new name for gesture created by \"Copy\" menu item ",
+      "floater.string:copy_name": {
+         "@name": "copy_name",
+         "#text": {
+            "string": "Copy of [COPY_NAME]"
+         }
+      },
+      "scroll_list:gesture_list": {
+         "@name": "gesture_list",
+         "scroll_list.columns:name": {
+            "@label": {
+               "string": "Name"
+            },
+            "@name": "name"
+         },
+         "scroll_list.columns:trigger": {
+            "@label": {
+               "string": "Chat"
+            },
+            "@name": "trigger"
+         },
+         "scroll_list.columns:key": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "key"
+         },
+         "scroll_list.columns:shortcut": {
+            "@label": {
+               "string": "Key"
+            },
+            "@name": "shortcut"
+         }
+      },
+      "panel:bottom_panel": {
+         "@label": {
+            "string": "bottom_panel"
+         },
+         "@name": "bottom_panel",
+         "menu_button:gear_btn": {
+            "@name": "gear_btn",
+            "@tool_tip": {
+               "string": "More options"
+            }
+         },
+         "button:new_gesture_btn": {
+            "@name": "new_gesture_btn",
+            "@tool_tip": {
+               "string": "Make new gesture"
+            }
+         },
+         "button:activate_btn": {
+            "@name": "activate_btn",
+            "@tool_tip": {
+               "string": "Activate/Deactivate selected gesture"
+            }
+         },
+         "check_box:FSShowOnlyActiveGestures": {
+            "@label": {
+               "string": "Active only"
+            },
+            "@name": "FSShowOnlyActiveGestures",
+            "check_box.commit_callback": null
+         },
+         "button:del_btn": {
+            "@name": "del_btn",
+            "@tool_tip": {
+               "string": "Delete this gesture"
+            }
+         }
+      },
+      "button:edit_btn": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@tool_tip": {
+            "string": "Open window for editing selected gesture."
+         },
+         "@name": "edit_btn"
+      },
+      "button:play_btn": {
+         "@label": {
+            "string": "Play"
+         },
+         "@tool_tip": {
+            "string": "Execute selected gesture in-world."
+         },
+         "@name": "play_btn"
+      },
+      "button:stop_btn": {
+         "@label": {
+            "string": "Stop"
+         },
+         "@name": "stop_btn"
+      }
+   }
+}

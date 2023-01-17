@@ -1,0 +1,161 @@
+{
+   "floater": {
+      "@name": "Image Preview",
+      "text:name_label": {
+         "@name": "name_label",
+         "#text": {
+            "string": "\n        Name:\n    "
+         }
+      },
+      "line_editor:name_form": {
+         "@name": "name_form"
+      },
+      "text:description_label": {
+         "@name": "description_label",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:description_form": {
+         "@name": "description_form"
+      },
+      "text:preview_label": {
+         "@name": "preview_label",
+         "#text": {
+            "string": "\n        Preview image as:\n    "
+         }
+      },
+      "combo_box:clothing_type_combo": {
+         "@label": {
+            "string": "Clothing Type"
+         },
+         "@name": "clothing_type_combo",
+         "item:Image": {
+            "@label": {
+               "string": "Image"
+            },
+            "@value": {
+               "string": "Image"
+            },
+            "@name": "Image"
+         },
+         "item:Hair": {
+            "@label": {
+               "string": "Hair"
+            },
+            "@value": {
+               "string": "Hair"
+            },
+            "@name": "Hair"
+         },
+         "item:FemaleHead": {
+            "@label": {
+               "string": "Female Head"
+            },
+            "@value": {
+               "string": "Female Head"
+            },
+            "@name": "FemaleHead"
+         },
+         "item:FemaleUpperBody": {
+            "@label": {
+               "string": "Female Upper Body"
+            },
+            "@value": {
+               "string": "Female Upper Body"
+            },
+            "@name": "FemaleUpperBody"
+         },
+         "item:FemaleLowerBody": {
+            "@label": {
+               "string": "Female Lower Body"
+            },
+            "@value": {
+               "string": "Female Lower Body"
+            },
+            "@name": "FemaleLowerBody"
+         },
+         "item:MaleHead": {
+            "@label": {
+               "string": "Male Head"
+            },
+            "@value": {
+               "string": "Male Head"
+            },
+            "@name": "MaleHead"
+         },
+         "item:MaleUpperBody": {
+            "@label": {
+               "string": "Male Upper Body"
+            },
+            "@value": {
+               "string": "Male Upper Body"
+            },
+            "@name": "MaleUpperBody"
+         },
+         "item:MaleLowerBody": {
+            "@label": {
+               "string": "Male Lower Body"
+            },
+            "@value": {
+               "string": "Male Lower Body"
+            },
+            "@name": "MaleLowerBody"
+         },
+         "item:Skirt": {
+            "@label": {
+               "string": "Skirt"
+            },
+            "@value": {
+               "string": "Skirt"
+            },
+            "@name": "Skirt"
+         },
+         "item:SculptedPrim": {
+            "@label": {
+               "string": "Sculpted Prim"
+            },
+            "@value": {
+               "string": "Sculpted Prim"
+            },
+            "@name": "SculptedPrim"
+         }
+      },
+      "text:bad_image_text": {
+         "@name": "bad_image_text",
+         "#text": {
+            "string": "\n        Unable to read image.\n\nTry saving image as 24 bit Targa (.tga).\n    "
+         }
+      },
+      "check_box:lossless_check": {
+         "@label": {
+            "string": "Use lossless compression"
+         },
+         "@name": "lossless_check"
+      },
+      "check_box:temp_check": {
+         "@name": "temp_check",
+         "@label": {
+            "string": "Temporary (Free)"
+         },
+         "@tool_tip": {
+            "string": "Sets the asset to be temporary, meaning its free, but in return, only good for a short time before it ceases to exist."
+         }
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "Upload (L$[AMOUNT])"
+         },
+         "@name": "ok_btn"
+      },
+      "text:info_text": {
+         "@name": "info_text"
+      }
+   }
+}

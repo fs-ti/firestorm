@@ -1,0 +1,53 @@
+{
+   "floater": {
+      "@name": "money_tracker",
+      "@title": {
+         "string": "Money Tracker"
+      },
+      "name_list:payment_list": {
+         "@name": "payment_list",
+         "name_list.columns:time": {
+            "@name": "time",
+            "@label": {
+               "string": "Time"
+            }
+         },
+         "name_list.columns:name": {
+            "@name": "name",
+            "@label": {
+               "string": "Name"
+            }
+         },
+         "name_list.columns:amount": {
+            "@name": "amount",
+            "@label": {
+               "string": "Amount"
+            }
+         },
+         "name_list.columns:time_sort_column": {
+            "@name": "time_sort_column"
+         }
+      },
+      "text:summary": {
+         "@name": "summary",
+         "#text": {
+            "string": "\n    Paid: L$ [PAID] - Received: L$ [RECEIVED]\n  "
+         }
+      },
+      "check_box:FSAlwaysTrackPayments": {
+         "@label": {
+            "string": "Track when closed"
+         },
+         "@name": "FSAlwaysTrackPayments",
+         "@tool_tip": {
+            "string": "Always track payments, even if the money tracker is closed."
+         }
+      },
+      "button:Clear": {
+         "@name": "Clear",
+         "@label": {
+            "string": "Clear"
+         }
+      }
+   }
+}

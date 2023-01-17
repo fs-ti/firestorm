@@ -1,0 +1,113 @@
+{
+   "floater": {
+      "@name": "floater_fs_export",
+      "@title": {
+         "string": "Backup objects..."
+      },
+      "floater.string:title_floater": {
+         "@name": "title_floater",
+         "#text": {
+            "string": "\n    Backup [OBJECT] to Hard Disk...\n  "
+         }
+      },
+      "floater.string:title_working": {
+         "@name": "title_working",
+         "#text": {
+            "string": "\n    Backup [OBJECT] working - Gathering information...\n  "
+         }
+      },
+      "floater.string:title_inventory": {
+         "@name": "title_inventory",
+         "#text": {
+            "string": "\n    Backup [OBJECT] working - Fetching inventory...\n  "
+         }
+      },
+      "floater.string:title_assets": {
+         "@name": "title_assets",
+         "#text": {
+            "string": "\n    Backup [OBJECT] working - Fetching assets...\n  "
+         }
+      },
+      "floater.string:title_textures": {
+         "@name": "title_textures",
+         "#text": {
+            "string": "\n    Backup [OBJECT] working - Fetching textures...\n  "
+         }
+      },
+      "layout_stack:resizing_stack": {
+         "@name": "resizing_stack",
+         "layout_panel:control_panel": {
+            "@name": "control_panel",
+            "text:SelectionInfoText": {
+               "@name": "SelectionInfoText",
+               "#text": {
+                  "string": "\n        Selection Info\n      "
+               }
+            },
+            "text:exportable_prims": {
+               "@name": "exportable_prims",
+               "#text": {
+                  "string": "\n        Exportable prims: [COUNT]/[TOTAL]\n      "
+               }
+            },
+            "text:exportable_textures": {
+               "@name": "exportable_textures",
+               "#text": {
+                  "string": "\n        Exportable textures: [COUNT]/[TOTAL]\n      "
+               }
+            },
+            "text:OptionsText": {
+               "@name": "OptionsText",
+               "#text": {
+                  "string": "\n        Options:\n      "
+               }
+            },
+            "check_box:contents_check": {
+               "@label": {
+                  "string": "Backup object contents to disk"
+               },
+               "@name": "contents_check"
+            },
+            "button:export_btn": {
+               "@label": {
+                  "string": "Save as..."
+               },
+               "@name": "export_btn"
+            }
+         },
+         "layout_panel:contents_panel": {
+            "@name": "contents_panel",
+            "tab_container:ls_tabs": {
+               "@name": "ls_tabs",
+               "panel:prims_panel": {
+                  "@label": {
+                     "string": "Objects"
+                  },
+                  "@name": "prims_panel",
+                  "scroll_list:selected_objects": {
+                     "@name": "selected_objects",
+                     "columns:icon": {
+                        "@name": "icon"
+                     },
+                     "columns:name": {
+                        "@name": "name"
+                     }
+                  }
+               },
+               "panel:texture_panel": {
+                  "@label": {
+                     "string": "Textures"
+                  },
+                  "@name": "texture_panel",
+                  "scroll_container:selected_textures": {
+                     "@name": "selected_textures",
+                     "panel:textures_panel": {
+                        "@name": "textures_panel"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "floater_big_preview",
+      "@title": {
+         "string": "Preview"
+      },
+      "panel:big_preview_placeholder": {
+         "@name": "big_preview_placeholder"
+      }
+   }
+}

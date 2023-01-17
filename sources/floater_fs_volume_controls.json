@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "volume_controls",
+      "@title": {
+         "string": "Volume Controls"
+      },
+      "panel:global_volume_controls_panel": {
+         "@name": "global_volume_controls_panel"
+      }
+   }
+}

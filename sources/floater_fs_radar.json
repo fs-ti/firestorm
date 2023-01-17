@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "radar",
+      "@title": {
+         "string": "Radar"
+      },
+      "panel:panel_radar": {
+         "@name": "panel_radar"
+      }
+   }
+}

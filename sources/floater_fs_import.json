@@ -1,0 +1,151 @@
+{
+   "floater": {
+      "@name": "fs_import",
+      "@title": {
+         "string": "Object Import"
+      },
+      "floater.string:floater_title": {
+         "@name": "floater_title",
+         "#text": {
+            "string": "\n    Import [FILENAME]\n  "
+         }
+      },
+      "floater.string:file_status": {
+         "@name": "file_status",
+         "#text": {
+            "string": "\n        [LINKSETS] linksets. [PRIMS] prims. [TEXTURES] textures.\n        [SOUNDS] sounds. [ANIMATIONS] animations.\n    "
+         }
+      },
+      "floater.string:file_status_error": {
+         "@name": "file_status_error",
+         "#text": {
+            "string": "\n        Error reading file. Select another file.\n    "
+         }
+      },
+      "floater.string:file_version_error": {
+         "@name": "file_version_error",
+         "#text": {
+            "string": "\n        Error parsing file, wrong format or version.\n    "
+         }
+      },
+      "floater.string:file_status_running": {
+         "@name": "file_status_running",
+         "#text": {
+            "string": "\n        Linkset [LINKSET] of [LINKSETS], prim [PRIM] of [PRIMS]\n    "
+         }
+      },
+      "floater.string:file_status_done": {
+         "@name": "file_status_done",
+         "#text": {
+            "string": "\n        Finished importing.\n    "
+         }
+      },
+      "floater.string:texture_uploading": {
+         "@name": "texture_uploading",
+         "#text": {
+            "string": "\n        Uploading texture [TEXTURE] of [TEXTURETOTAL].\n    "
+         }
+      },
+      "floater.string:sound_uploading": {
+         "@name": "sound_uploading",
+         "#text": {
+            "string": "\n        Uploading sound [SOUND] of [SOUNDTOTAL].\n    "
+         }
+      },
+      "floater.string:animation_uploading": {
+         "@name": "animation_uploading",
+         "#text": {
+            "string": "\n        Uploading animation [ANIMATION] of [ANIMATIONTOTAL].\n    "
+         }
+      },
+      "floater.string:asset_uploading": {
+         "@name": "asset_uploading",
+         "#text": {
+            "string": "\n        Uploading asset [ASSET] of [ASSETTOTAL].\n    "
+         }
+      },
+      "floater.string:upload_cost": {
+         "@name": "upload_cost",
+         "#text": {
+            "string": "\n        Total cost of uploads: L$ [COST].\n    "
+         }
+      },
+      "floater.string:object": {
+         "@name": "object",
+         "#text": {
+            "string": "\n        object\n    "
+         }
+      },
+      "floater.string:objects": {
+         "@name": "objects",
+         "#text": {
+            "string": "\n        objects\n    "
+         }
+      },
+      "text:filename_text": {
+         "@name": "filename_text",
+         "#text": {
+            "string": "\n    [FILENAME]\n    "
+         }
+      },
+      "text:creation_date_text": {
+         "@name": "creation_date_text",
+         "#text": {
+            "string": "\n    Created on [DATE_STRING]\n    "
+         }
+      },
+      "text:author_text": {
+         "@name": "author_text",
+         "#text": {
+            "string": "\n    by [AUTHOR] [GRID]\n    "
+         }
+      },
+      "text:client_text": {
+         "@name": "client_text",
+         "#text": {
+            "string": "\n    Client: [CLIENT] v.[VERSION]\n    "
+         }
+      },
+      "text:file_status_text": {
+         "@name": "file_status_text",
+         "#text": {
+            "string": "\n        Select a file.\n    "
+         }
+      },
+      "check_box:do_not_attach": {
+         "@name": "do_not_attach",
+         "@label": {
+            "string": "Do not attach object"
+         }
+      },
+      "check_box:region_position": {
+         "@name": "region_position",
+         "@label": {
+            "string": "Restore Region Position"
+         }
+      },
+      "check_box:upload_asset": {
+         "@name": "upload_asset",
+         "@label": {
+            "string": "Upload Content"
+         },
+         "check_box.commit_callback": null
+      },
+      "check_box:temp_asset": {
+         "@name": "temp_asset",
+         "@label": {
+            "string": "Temp"
+         },
+         "check_box.commit_callback": null
+      },
+      "button:import_btn": {
+         "@name": "import_btn",
+         "@label": {
+            "string": "Import"
+         }
+      },
+      "loading_indicator:progress_indicator": {
+         "@name": "progress_indicator"
+      }
+   }
+}

@@ -1,0 +1,263 @@
+{
+   "floater": {
+      "@name": "panel_im",
+      "floater.string:participant_added": {
+         "@name": "participant_added",
+         "@value": {
+            "string": "[NAME] was invited to the conversation."
+         }
+      },
+      "floater.string:multiple_participants_added": {
+         "@name": "multiple_participants_added",
+         "@value": {
+            "string": "[NAME] were invited to the conversation."
+         }
+      },
+      "layout_stack:ls_control_panel": {
+         "@name": "ls_control_panel",
+         "layout_panel:slide_panel": {
+            "@name": "slide_panel",
+            "button:slide_left_btn": {
+               "@name": "slide_left_btn"
+            },
+            "button:slide_right_btn": {
+               "@name": "slide_right_btn"
+            },
+            "icon:dummy_icon_slider": {
+               "@name": "dummy_icon_slider"
+            }
+         },
+         "layout_panel:gprofile_panel": {
+            "@name": "gprofile_panel",
+            "button:group_info_btn": {
+               "@name": "group_info_btn",
+               "@tool_tip": {
+                  "string": "Show this group's profile"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:profile_panel": {
+            "@name": "profile_panel",
+            "button:view_profile_btn": {
+               "@name": "view_profile_btn",
+               "@tool_tip": {
+                  "string": "Show this resident's profile"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:friend_panel": {
+            "@name": "friend_panel",
+            "button:add_friend_btn": {
+               "@tool_tip": {
+                  "string": "Add this resident as a friend"
+               },
+               "@name": "add_friend_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:tp_panel": {
+            "@name": "tp_panel",
+            "menu_button:teleport_btn": {
+               "@name": "teleport_btn",
+               "@tool_tip": {
+                  "string": "Offer or request a teleport"
+               }
+            }
+         },
+         "layout_panel:share_panel": {
+            "@name": "share_panel",
+            "button:share_btn": {
+               "@tool_tip": {
+                  "string": "Send an item to this resident"
+               },
+               "@name": "share_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:pay_panel": {
+            "@name": "pay_panel",
+            "button:pay_btn": {
+               "@tool_tip": {
+                  "string": "Send money to this resident"
+               },
+               "@name": "pay_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:call_btn_panel": {
+            "@name": "call_btn_panel",
+            "button:call_btn": {
+               "@tool_tip": {
+                  "string": "Add a voice to this chat"
+               },
+               "@name": "call_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:end_call_btn_panel": {
+            "@name": "end_call_btn_panel",
+            "button:end_call_btn": {
+               "@tool_tip": {
+                  "string": "End Voice Call"
+               },
+               "@name": "end_call_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:voice_ctrls_btn_panel": {
+            "@name": "voice_ctrls_btn_panel",
+            "button:voice_ctrls_btn": {
+               "@tool_tip": {
+                  "string": "Voice Properties"
+               },
+               "@name": "voice_ctrls_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:im_history_btn_panel": {
+            "@name": "im_history_btn_panel",
+            "button:im_history_btn": {
+               "@tool_tip": {
+                  "string": "Open this conversation's past transcripts."
+               },
+               "@name": "im_history_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:add_participant_panel": {
+            "@name": "add_participant_panel",
+            "button:add_participant_btn": {
+               "@tool_tip": {
+                  "string": "Add someone to this conversation"
+               },
+               "@name": "add_participant_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:send_sysinfo_btn_panel": {
+            "@name": "send_sysinfo_btn_panel",
+            "button:send_sysinfo_btn": {
+               "@tool_tip": {
+                  "string": "Send system info"
+               },
+               "@name": "send_sysinfo_btn"
+            }
+         },
+         "layout_panel:lp_options_btn": {
+            "@name": "lp_options_btn",
+            "menu_button:chat_options_btn": {
+               "@tool_tip": {
+                  "string": "Chat Options"
+               },
+               "@name": "chat_options_btn"
+            }
+         },
+         "layout_panel:lp_chat_search_btn": {
+            "@name": "lp_chat_search_btn",
+            "button:chat_search_btn": {
+               "@name": "chat_search_btn",
+               "@tool_tip": {
+                  "string": "Search chat"
+               }
+            }
+         },
+         "#comment": " Checkbox for FS prefix on support groups ",
+         "layout_panel:support_panel": {
+            "@name": "support_panel",
+            "icon:dummy_icon_support_group": {
+               "@name": "dummy_icon_support_group"
+            },
+            "check_box:FSSupportGroupChatPrefix_toggle": {
+               "@label": {
+                  "string": "Specify version"
+               },
+               "@name": "FSSupportGroupChatPrefix_toggle",
+               "@tool_tip": {
+                  "string": "Adds current viewer version, viewer skin, operating system and RLVa status to the front of messages sent by you to this group which will assist support staff in correctly diagnosing your issues and improve accuracy in answering your questions"
+               }
+            }
+         },
+         "layout_panel:testing_panel": {
+            "@name": "testing_panel",
+            "icon:dummy_icon_support_group_testing": {
+               "@name": "dummy_icon_support_group_testing"
+            },
+            "check_box:FSSupportGroupChatPrefixTesting_toggle": {
+               "@label": {
+                  "string": "Specify build"
+               },
+               "@name": "FSSupportGroupChatPrefixTesting_toggle",
+               "@tool_tip": {
+                  "string": "Adds current viewer version, viewer skin, operating system and RLVa status to the front of messages sent by you to this group which will assist support staff in correctly diagnosing your issues and improve accuracy in answering your questions. (This is seperate from the support groups)"
+               }
+            }
+         },
+         "#comment$19": " END: FS Prefix ",
+         "layout_panel:lp_bar": {
+            "@name": "lp_bar",
+            "icon:dummy_icon": {
+               "@name": "dummy_icon"
+            }
+         }
+      },
+      "layout_stack:chat_stack": {
+         "@name": "chat_stack",
+         "layout_panel:im_control_panel_holder": {
+            "@name": "im_control_panel_holder",
+            "panel:panel_im_control_panel": {
+               "@name": "panel_im_control_panel"
+            }
+         },
+         "layout_panel:panel_im_control_lp": {
+            "@name": "panel_im_control_lp",
+            "layout_stack:im_panels": {
+               "@name": "im_panels",
+               "layout_panel:chat_holder": {
+                  "@name": "chat_holder",
+                  "fs_chat_history:chat_history": {
+                     "@name": "chat_history"
+                  }
+               },
+               "layout_panel:unread_messages_holder": {
+                  "@name": "unread_messages_holder",
+                  "icon:unread_messages_background": {
+                     "@name": "unread_messages_background"
+                  },
+                  "text:unread_messages_text": {
+                     "@name": "unread_messages_text",
+                     "#text": {
+                        "string": "\n            Unread Messages: [NUM]\n          "
+                     }
+                  }
+               },
+               "layout_panel:chat_layout_panel": {
+                  "@name": "chat_layout_panel",
+                  "layout_stack:input_panels": {
+                     "@name": "input_panels",
+                     "layout_panel:input_editor_layout_panel": {
+                        "@name": "input_editor_layout_panel",
+                        "chat_editor:chat_editor": {
+                           "@name": "chat_editor"
+                        }
+                     },
+                     "layout_panel:input_button_layout_panel": {
+                        "@name": "input_button_layout_panel",
+                        "button:send_chat": {
+                           "@name": "send_chat",
+                           "@label": {
+                              "string": "Send"
+                           },
+                           "@tool_tip": {
+                              "string": "Sends the IM"
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

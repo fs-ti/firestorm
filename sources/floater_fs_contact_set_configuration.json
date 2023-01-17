@@ -1,0 +1,125 @@
+{
+   "floater": {
+      "@name": "floater_fs_contact_set_configure",
+      "@title": {
+         "string": "Contact set settings"
+      },
+      "floater.string:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n    [NAME] settings\n    "
+         }
+      },
+      "panel:top_panel": {
+         "@name": "top_panel",
+         "text:set_label": {
+            "@name": "set_label",
+            "#text": {
+               "string": "\nContact Set Settings:\n    "
+            }
+         },
+         "line_editor:set_name_editor": {
+            "@name": "set_name_editor"
+         },
+         "button:rename_btn": {
+            "@name": "rename_btn",
+            "@label": {
+               "string": "Rename"
+            }
+         },
+         "color_swatch:set_swatch": {
+            "@label": {
+               "string": "Set Color"
+            },
+            "@name": "set_swatch",
+            "@tool_tip": {
+               "string": "Click to open Color Picker"
+            }
+         },
+         "check_box:show_set_notifications": {
+            "@label": {
+               "string": "Show notifications"
+            },
+            "@name": "show_set_notifications"
+         }
+      },
+      "panel:bottom_panel": {
+         "@name": "bottom_panel",
+         "text:global_label": {
+            "@name": "global_label",
+            "#text": {
+               "string": "\nGlobal Settings:\n    "
+            }
+         },
+         "color_swatch:global_swatch": {
+            "@label": {
+               "string": "Default Set Color"
+            },
+            "@name": "global_swatch",
+            "@tool_tip": {
+               "string": "Click to open Color Picker"
+            }
+         },
+         "text:label_online": {
+            "@name": "label_online",
+            "#text": {
+               "string": "\nOnline notifications:\n    "
+            }
+         },
+         "check_box:ChatOnlineNotification": {
+            "@label": {
+               "string": "Show Online Notices for ALL friends as toasts"
+            },
+            "@name": "ChatOnlineNotification"
+         },
+         "check_box:OnlineOfflinetoNearbyChat": {
+            "@label": {
+               "string": "Show Online Notices for ALL friends in nearby chat"
+            },
+            "@name": "OnlineOfflinetoNearbyChat"
+         },
+         "check_box:FSContactSetsNotificationToast": {
+            "@label": {
+               "string": "Show Online Notices for certain Sets as toast"
+            },
+            "@name": "FSContactSetsNotificationToast"
+         },
+         "check_box:FSContactSetsNotificationNearbyChat": {
+            "@label": {
+               "string": "Show Online Notices for certain Sets in nearby chat"
+            },
+            "@name": "FSContactSetsNotificationNearbyChat"
+         },
+         "text:label_colors": {
+            "@name": "label_colors",
+            "#text": {
+               "string": "\nCustom Colors:\n    "
+            }
+         },
+         "check_box:FSContactSetsColorizeMiniMap": {
+            "@label": {
+               "string": "Color mini map icon based on their Contact Set"
+            },
+            "@name": "FSContactSetsColorizeMiniMap"
+         },
+         "check_box:FSContactSetsColorizeNameTag": {
+            "@label": {
+               "string": "Color name tag based on their Contact Set"
+            },
+            "@name": "FSContactSetsColorizeNameTag"
+         },
+         "check_box:FSContactSetsColorizeRadar": {
+            "@label": {
+               "string": "Color radar list entry based on their Contact Set"
+            },
+            "@name": "FSContactSetsColorizeRadar"
+         },
+         "check_box:FSContactSetsColorizeChat": {
+            "@label": {
+               "string": "Color chat based on their Contact Set"
+            },
+            "@name": "FSContactSetsColorizeChat"
+         }
+      }
+   }
+}

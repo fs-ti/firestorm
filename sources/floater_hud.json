@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "floater_hud",
+      "@title": {
+         "string": "Tutorial"
+      },
+      "web_browser:floater_hud_browser": {
+         "@name": "floater_hud_browser"
+      }
+   }
+}

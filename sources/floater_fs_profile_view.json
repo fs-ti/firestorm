@@ -1,0 +1,72 @@
+{
+   "floater": {
+      "@name": "avatarinfo",
+      "@title": {
+         "string": "Profile"
+      },
+      "#comment": " FS:Ansariel: Help topic set above is a dummy only - real topics are set for the panels down below! ",
+      "panel:panel_profile_view": {
+         "@name": "panel_profile_view",
+         "tab_container:panel_profile_tabs": {
+            "@name": "panel_profile_tabs",
+            "panel:panel_profile_secondlife": {
+               "@label": {
+                  "string": "2nd Life"
+               },
+               "@name": "panel_profile_secondlife"
+            },
+            "panel:panel_profile_web": {
+               "@label": {
+                  "string": "Web"
+               },
+               "@name": "panel_profile_web"
+            },
+            "panel:panel_profile_interests": {
+               "@label": {
+                  "string": "Interests"
+               },
+               "@name": "panel_profile_interests"
+            },
+            "panel:panel_profile_picks": {
+               "@label": {
+                  "string": "Picks"
+               },
+               "@name": "panel_profile_picks"
+            },
+            "panel:panel_profile_classified": {
+               "@label": {
+                  "string": "Classified"
+               },
+               "@name": "panel_profile_classified"
+            },
+            "panel:panel_profile_firstlife": {
+               "@label": {
+                  "string": "1st Life"
+               },
+               "@name": "panel_profile_firstlife"
+            },
+            "panel:panel_profile_notes": {
+               "@label": {
+                  "string": "Notes"
+               },
+               "@name": "panel_profile_notes"
+            }
+         },
+         "button:ok_btn": {
+            "@name": "ok_btn",
+            "@label": {
+               "string": "OK"
+            },
+            "@tool_tip": {
+               "string": "Save changes to profile and close"
+            }
+         },
+         "button:cancel_btn": {
+            "@name": "cancel_btn",
+            "@label": {
+               "string": "Cancel"
+            }
+         }
+      }
+   }
+}

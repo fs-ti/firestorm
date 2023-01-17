@@ -1,0 +1,65 @@
+{
+   "floater": {
+      "@name": "create_landmark",
+      "@title": {
+         "string": "Create Landmark"
+      },
+      "string:favorites_bar": {
+         "@name": "favorites_bar",
+         "#text": {
+            "string": "\n    Favorites bar\n  "
+         }
+      },
+      "text:title_label": {
+         "@name": "title_label",
+         "@value": {
+            "string": "Landmark Details"
+         }
+      },
+      "text:name_label": {
+         "@name": "name_label",
+         "@value": {
+            "string": "Name:"
+         }
+      },
+      "line_editor:title_editor": {
+         "@name": "title_editor"
+      },
+      "text:folder_label": {
+         "@name": "folder_label",
+         "@value": {
+            "string": "Save this landmark in:"
+         }
+      },
+      "combo_box:folder_combo": {
+         "@name": "folder_combo"
+      },
+      "text:new_folder_textbox": {
+         "@name": "new_folder_textbox",
+         "#text": {
+            "string": "\n        [secondlife:/// Create new folder]\n    "
+         }
+      },
+      "text:notes_label": {
+         "@name": "notes_label",
+         "@value": {
+            "string": "My notes:"
+         }
+      },
+      "text_editor:notes_editor": {
+         "@name": "notes_editor"
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

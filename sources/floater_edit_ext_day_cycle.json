@@ -1,0 +1,342 @@
+{
+   "floater": {
+      "@name": "env_edit_extdaycycle",
+      "@title": {
+         "string": "Edit Day Cycle"
+      },
+      "#comment": " obsolete?, add as hint for 'save' button? ",
+      "string:title_new": {
+         "@name": "title_new",
+         "#text": {
+            "string": "Create a New Day Cycle"
+         }
+      },
+      "string:title_edit": {
+         "@name": "title_edit",
+         "#text": {
+            "string": "Edit Day Cycle"
+         }
+      },
+      "string:hint_new": {
+         "@name": "hint_new",
+         "#text": {
+            "string": "Name your day cycle, adjust the controls to create it, and click \"Save\"."
+         }
+      },
+      "string:hint_edit": {
+         "@name": "hint_edit",
+         "#text": {
+            "string": "To edit your day cycle, adjust the controls below and click \"Save\"."
+         }
+      },
+      "#comment$7": " Substitutions ",
+      "string:time_label": {
+         "@name": "time_label",
+         "#text": {
+            "string": "([HH]:[MM])"
+         }
+      },
+      "string:sky_track_label": {
+         "@name": "sky_track_label",
+         "#text": {
+            "string": "Sky [ALT]"
+         }
+      },
+      "string:sky_label": {
+         "@name": "sky_label",
+         "#text": {
+            "string": "Sky"
+         }
+      },
+      "string:water_label": {
+         "@name": "water_label",
+         "#text": {
+            "string": "Water"
+         }
+      },
+      "string:commit_parcel": {
+         "@name": "commit_parcel",
+         "#text": {
+            "string": "Apply To Parcel"
+         }
+      },
+      "string:commit_region": {
+         "@name": "commit_region",
+         "#text": {
+            "string": "Apply To Region"
+         }
+      },
+      "#comment$14": " Layout ",
+      "layout_stack:outer_stack": {
+         "@name": "outer_stack",
+         "layout_panel:name_and_import": {
+            "@name": "name_and_import",
+            "#comment": " This layout_panel is for loading legacy presets ",
+            "text:label": {
+               "@name": "label",
+               "#text": {
+                  "string": "\n                Day Cycle Name:\n            "
+               }
+            },
+            "line_editor:day_cycle_name": {
+               "@name": "day_cycle_name"
+            },
+            "button:btn_import": {
+               "@label": {
+                  "string": "Import"
+               },
+               "@name": "btn_import",
+               "@tool_tip": {
+                  "string": "Import legacy settings from disk."
+               }
+            }
+         },
+         "layout_panel:content": {
+            "@name": "content",
+            "layout_stack:content_stack": {
+               "@name": "content_stack",
+               "layout_panel:timeline_track_selection": {
+                  "@name": "timeline_track_selection",
+                  "panel:timeline_layers": {
+                     "@name": "timeline_layers",
+                     "button:sky4_track": {
+                        "@label": {
+                           "string": "Sky 4"
+                        },
+                        "@name": "sky4_track",
+                        "button.commit_callback": null
+                     },
+                     "button:sky3_track": {
+                        "@label": {
+                           "string": "Sky 3"
+                        },
+                        "@name": "sky3_track",
+                        "button.commit_callback": null
+                     },
+                     "button:sky2_track": {
+                        "@label": {
+                           "string": "Sky 2"
+                        },
+                        "@name": "sky2_track",
+                        "button.commit_callback": null
+                     },
+                     "button:sky1_track": {
+                        "@label": {
+                           "string": "Ground Level"
+                        },
+                        "@name": "sky1_track",
+                        "button.commit_callback": null
+                     },
+                     "button:water_track": {
+                        "@label": {
+                           "string": "Water"
+                        },
+                        "@name": "water_track",
+                        "button.commit_callback": null
+                     }
+                  },
+                  "panel:timeline": {
+                     "@name": "timeline",
+                     "#comment": " Todo: These 5 tests might be subjected to a change to be dynamically generated, consider using layout_stack to get dynamic width adjustment",
+                     "text:p0": {
+                        "@name": "p0",
+                        "@value": {
+                           "string": "0% [DSC]"
+                        }
+                     },
+                     "text:p1": {
+                        "@name": "p1",
+                        "@value": {
+                           "string": "25% [DSC]"
+                        }
+                     },
+                     "text:p2": {
+                        "@name": "p2",
+                        "@value": {
+                           "string": "50% [DSC]"
+                        }
+                     },
+                     "text:p3": {
+                        "@name": "p3",
+                        "@value": {
+                           "string": "75% [DSC]"
+                        }
+                     },
+                     "text:p4": {
+                        "@name": "p4",
+                        "@value": {
+                           "string": "100% [DSC]"
+                        }
+                     },
+                     "multi_slider:WLTimeSlider": {
+                        "@name": "WLTimeSlider"
+                     },
+                     "multi_slider:WLDayCycleFrames": {
+                        "@name": "WLDayCycleFrames"
+                     },
+                     "text:current_time": {
+                        "@name": "current_time",
+                        "@value": {
+                           "string": "[PRCNT]% [DSC]"
+                        }
+                     },
+                     "layout_stack:track_options_ls": {
+                        "@name": "track_options_ls",
+                        "layout_panel:track_options_lp": {
+                           "@name": "track_options_lp",
+                           "button:copy_track": {
+                              "@label": {
+                                 "string": "Clone Track From"
+                              },
+                              "@name": "copy_track"
+                           },
+                           "button:load_track": {
+                              "@label": {
+                                 "string": "Load Track From"
+                              },
+                              "@name": "load_track"
+                           },
+                           "button:clear_track": {
+                              "@label": {
+                                 "string": "Clear Track"
+                              },
+                              "@name": "clear_track"
+                           }
+                        },
+                        "layout_panel:track_progress_lp": {
+                           "@name": "track_progress_lp",
+                           "layout_stack:progress_control": {
+                              "@name": "progress_control",
+                              "layout_panel:skip_back": {
+                                 "@name": "skip_back",
+                                 "button:skip_back_btn": {
+                                    "@name": "skip_back_btn",
+                                    "@tool_tip": {
+                                       "string": "Step back"
+                                    },
+                                    "button.commit_callback": null
+                                 }
+                              },
+                              "layout_panel:play_layout": {
+                                 "@name": "play_layout",
+                                 "button:play_btn": {
+                                    "@name": "play_btn",
+                                    "button.commit_callback": null
+                                 }
+                              },
+                              "layout_panel:pause_layout": {
+                                 "@name": "pause_layout",
+                                 "button:pause_btn": {
+                                    "@name": "pause_btn",
+                                    "button.commit_callback": null
+                                 }
+                              },
+                              "layout_panel:skip_forward": {
+                                 "@name": "skip_forward",
+                                 "button:skip_forward_btn": {
+                                    "@name": "skip_forward_btn",
+                                    "@tool_tip": {
+                                       "string": "Step forward"
+                                    },
+                                    "button.commit_callback": null
+                                 }
+                              }
+                           }
+                        },
+                        "layout_panel:frames_lp": {
+                           "@name": "frames_lp",
+                           "button:add_frame": {
+                              "@label": {
+                                 "string": "Add [FRAME]"
+                              },
+                              "@name": "add_frame"
+                           },
+                           "button:btn_load_frame": {
+                              "@label": {
+                                 "string": "Load [FRAME]"
+                              },
+                              "@name": "btn_load_frame"
+                           },
+                           "button:delete_frame": {
+                              "@label": {
+                                 "string": "Delete [FRAME]"
+                              },
+                              "@name": "delete_frame"
+                           }
+                        }
+                     }
+                  }
+               },
+               "layout_panel:frame_edit_controls": {
+                  "@name": "frame_edit_controls",
+                  "#comment": "bg_alpha_color=\"blue\"\n                background_visible=\"true\" ",
+                  "text:icn_lock_edit": {
+                     "@name": "icn_lock_edit",
+                     "#text": {
+                        "string": "\n                        Select a key frame from the timeline above to edit settings.\n                    "
+                     }
+                  }
+               },
+               "layout_panel:frame_settings_water": {
+                  "@name": "frame_settings_water",
+                  "tab_container:water_tabs": {
+                     "@name": "water_tabs",
+                     "panel:water_panel": {
+                        "@label": {
+                           "string": "Water"
+                        },
+                        "@name": "water_panel"
+                     }
+                  }
+               },
+               "layout_panel:frame_settings_sky": {
+                  "@name": "frame_settings_sky",
+                  "tab_container:sky_tabs": {
+                     "@name": "sky_tabs",
+                     "panel:atmosphere_panel": {
+                        "@label": {
+                           "string": "Atmosphere & Lighting"
+                        },
+                        "@name": "atmosphere_panel"
+                     },
+                     "panel:clouds_panel": {
+                        "@label": {
+                           "string": "Clouds"
+                        },
+                        "@name": "clouds_panel"
+                     },
+                     "panel:moon_panel": {
+                        "@label": {
+                           "string": "Sun & Moon"
+                        },
+                        "@name": "moon_panel"
+                     },
+                     "#comment": " added programatically so it doesn't show up whether we want it or not\n                        <panel\n                                border=\"true\"\n                                class=\"panel_settings_density\"\n                                filename=\"panel_settings_sky_density.xml\"\n                                label=\"Density\"\n                                layout=\"topleft\"\n                                left_delta=\"0\"\n                                top_pad=\"5\"\n                                name=\"density_panel\" />\n                         "
+                  }
+               }
+            }
+         },
+         "layout_panel:buttons": {
+            "@name": "buttons",
+            "button:save_btn": {
+               "@label": {
+                  "string": "Save"
+               },
+               "@name": "save_btn"
+            },
+            "button:btn_flyout": {
+               "@name": "btn_flyout",
+               "@label": {
+                  "string": ""
+               }
+            },
+            "button:cancel_btn": {
+               "@label": {
+                  "string": "Cancel"
+               },
+               "@name": "cancel_btn"
+            }
+         }
+      }
+   }
+}

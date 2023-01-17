@@ -1,0 +1,20 @@
+{
+   "floater": {
+      "@name": "HoverHeight",
+      "@title": {
+         "string": "Set Hover Height"
+      },
+      "slider:HoverHeightSlider": {
+         "@label": {
+            "string": "Height"
+         },
+         "@name": "HoverHeightSlider"
+      },
+      "check_box:BindCameraCheck": {
+         "@label": {
+            "string": "Affect Camera view"
+         },
+         "@name": "BindCameraCheck"
+      }
+   }
+}

@@ -1,0 +1,164 @@
+{
+   "floater": {
+      "@name": "inspect",
+      "@title": {
+         "string": "Inspect Objects"
+      },
+      "floater.string:timeStamp": {
+         "@name": "timeStamp",
+         "#text": {
+            "string": "\n        [year,datetime,slt] [mth,datetime,slt] [day,datetime,slt], [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt], [wkday,datetime,slt]\n    "
+         }
+      },
+      "floater.string:Group": {
+         "@name": "Group",
+         "#text": {
+            "string": "\n        (Group)\n    "
+         }
+      },
+      "floater.string:stats_list": {
+         "@name": "stats_list",
+         "#text": {
+            "string": "\n        Total stats:\n\n[NUM_OBJECTS] objects, [NUM_PRIMS] prims\n\nFaces: [NUM_FACES]\nVisible: [NUM_VISIBLE_FACES]\nVertices: [NUM_VERTICES]\nTriangles: [NUM_TRIANGLES]\nComplex.: [COMPLEXITY]\n\nTextures: [NUM_TEXTURES]\nTMem: [TEXTURE_MEMORY] KB\nVRAM: [VRAM_USAGE] KB\n    "
+         }
+      },
+      "text_editor:linksetstats_text": {
+         "@name": "linksetstats_text",
+         "@value": {
+            "string": "(loading...)"
+         }
+      },
+      "scroll_list:object_list": {
+         "@name": "object_list",
+         "@tool_tip": {
+            "string": "Select an object from this list to highlight it in-world"
+         },
+         "scroll_list.columns:object_name": {
+            "@label": {
+               "string": "Object Name"
+            },
+            "@name": "object_name"
+         },
+         "scroll_list.columns:description": {
+            "@label": {
+               "string": "Description"
+            },
+            "@name": "description"
+         },
+         "scroll_list.columns:owner_name": {
+            "@label": {
+               "string": "Owner Name"
+            },
+            "@name": "owner_name"
+         },
+         "scroll_list.columns:creator_name": {
+            "@label": {
+               "string": "Creator Name"
+            },
+            "@name": "creator_name"
+         },
+         "scroll_list.columns:facecount": {
+            "@label": {
+               "string": "Faces"
+            },
+            "@name": "facecount"
+         },
+         "scroll_list.columns:vertexcount": {
+            "@label": {
+               "string": "Vertices"
+            },
+            "@name": "vertexcount"
+         },
+         "scroll_list.columns:trianglecount": {
+            "@label": {
+               "string": "Triangles"
+            },
+            "@name": "trianglecount"
+         },
+         "scroll_list.columns:tramcount": {
+            "@label": {
+               "string": "TMem"
+            },
+            "@name": "tramcount"
+         },
+         "scroll_list.columns:vramcount": {
+            "@label": {
+               "string": "VRAM"
+            },
+            "@name": "vramcount"
+         },
+         "scroll_list.columns:creation_date": {
+            "@label": {
+               "string": "Creation Date"
+            },
+            "@name": "creation_date"
+         },
+         "scroll_list.columns:facecount_sort": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "facecount_sort"
+         },
+         "scroll_list.columns:vertexcount_sort": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "vertexcount_sort"
+         },
+         "scroll_list.columns:trianglecount_sort": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "trianglecount_sort"
+         },
+         "scroll_list.columns:tramcount_sort": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "tramcount_sort"
+         },
+         "scroll_list.columns:vramcount_sort": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "vramcount_sort"
+         },
+         "scroll_list.columns:creation_date_sort": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "creation_date_sort"
+         },
+         "scroll_list.commit_callback": null
+      },
+      "button:button owner": {
+         "@label": {
+            "string": "See Owner Profile..."
+         },
+         "@name": "button owner",
+         "@tool_tip": {
+            "string": "See profile of the highlighted object's owner"
+         },
+         "button.commit_callback": null
+      },
+      "button:button creator": {
+         "@label": {
+            "string": "See Creator Profile..."
+         },
+         "@name": "button creator",
+         "@tool_tip": {
+            "string": "See profile of the highlighted object's original creator"
+         },
+         "button.commit_callback": null
+      },
+      "menu_button:options_btn": {
+         "@name": "options_btn",
+         "@tool_tip": {
+            "string": "Options"
+         }
+      },
+      "icon:dummy_icon": {
+         "@name": "dummy_icon"
+      }
+   }
+}

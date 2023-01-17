@@ -1,0 +1,47 @@
+{
+   "floater": {
+      "@name": "floater_fs_add_contact",
+      "@title": {
+         "string": "Add to Contact Set..."
+      },
+      "floater.string:no_sets": {
+         "@name": "no_sets",
+         "#text": {
+            "string": "\n    No contact sets available.\n  "
+         }
+      },
+      "floater.string:text_add_single": {
+         "@name": "text_add_single",
+         "#text": {
+            "string": "\n    Please select which contact set to add [NAME] to:\n  "
+         }
+      },
+      "floater.string:text_add_multiple": {
+         "@name": "text_add_multiple",
+         "#text": {
+            "string": "\n    Please select which contact set to add [COUNT] avatars to:\n  "
+         }
+      },
+      "text:textfield": {
+         "@name": "textfield"
+      },
+      "combo_box:contact_sets": {
+         "@name": "contact_sets"
+      },
+      "button:add_set_btn": {
+         "@name": "add_set_btn"
+      },
+      "button:add_btn": {
+         "@label": {
+            "string": "Add to set"
+         },
+         "@name": "add_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

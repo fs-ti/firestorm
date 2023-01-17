@@ -1,0 +1,133 @@
+{
+   "floater": {
+      "@name": "floater_discord",
+      "@title": {
+         "string": "Discord"
+      },
+      "string:discord_connected": {
+         "@name": "discord_connected",
+         "#text": {
+            "string": "You are connected to Discord as:"
+         }
+      },
+      "string:discord_disconnected": {
+         "@name": "discord_disconnected",
+         "#text": {
+            "string": "Not connected to Discord."
+         }
+      },
+      "string:SocialDiscordConnecting": {
+         "@name": "SocialDiscordConnecting",
+         "#text": {
+            "string": "Connecting to Discord..."
+         }
+      },
+      "string:SocialDiscordErrorConnecting": {
+         "@name": "SocialDiscordErrorConnecting",
+         "#text": {
+            "string": "Problem connecting to Discord"
+         }
+      },
+      "string:SocialDiscordDisconnecting": {
+         "@name": "SocialDiscordDisconnecting",
+         "#text": {
+            "string": "Disconnecting from Discord..."
+         }
+      },
+      "text:account_caption_label": {
+         "@name": "account_caption_label",
+         "#text": {
+            "string": "\n    Not connected to Discord.\n  "
+         }
+      },
+      "text:account_name_label": {
+         "@name": "account_name_label"
+      },
+      "check_box:startup_check": {
+         "@label": {
+            "string": "Automatically connect on login"
+         },
+         "@name": "startup_check"
+      },
+      "check_box:name_check": {
+         "@label": {
+            "string": "Share username"
+         },
+         "@name": "name_check"
+      },
+      "button:connect_btn": {
+         "@label": {
+            "string": "Connect..."
+         },
+         "@name": "connect_btn",
+         "commit_callback": null
+      },
+      "button:disconnect_btn": {
+         "@label": {
+            "string": "Disconnect"
+         },
+         "@name": "disconnect_btn",
+         "commit_callback": null
+      },
+      "text:rating_label": {
+         "@name": "rating_label",
+         "#text": {
+            "string": "\n    Share name of regions with following content rating to Discord:\n  "
+         }
+      },
+      "combo_box:maturity_desired_combobox": {
+         "@name": "maturity_desired_combobox",
+         "combo_box.item:Desired_Adult": {
+            "@label": {
+               "string": "General, Moderate, Adult"
+            },
+            "@name": "Desired_Adult"
+         },
+         "combo_box.item:Desired_Mature": {
+            "@label": {
+               "string": "General and Moderate"
+            },
+            "@name": "Desired_Mature"
+         },
+         "combo_box.item:Desired_PG": {
+            "@label": {
+               "string": "General"
+            },
+            "@name": "Desired_PG"
+         },
+         "combo_box.item:Desired_None": {
+            "@label": {
+               "string": "Don't share"
+            },
+            "@name": "Desired_None"
+         }
+      },
+      "text:dont_names_label": {
+         "@name": "dont_names_label",
+         "#text": {
+            "string": "\n    Don't share region names to Discord if they are listed below:\n  "
+         }
+      },
+      "scroll_list:blacklisted_names": {
+         "@name": "blacklisted_names"
+      },
+      "line_editor:blacklist_entry": {
+         "@name": "blacklist_entry",
+         "commit_callback": null
+      },
+      "button:blacklist_entry_add": {
+         "@name": "blacklist_entry_add",
+         "commit_callback": null
+      },
+      "button:blacklist_entry_rem": {
+         "@name": "blacklist_entry_rem",
+         "commit_callback": null
+      },
+      "text:connection_status_text": {
+         "@name": "connection_status_text",
+         "#text": {
+            "string": "\n    Loading...\n  "
+         }
+      }
+   }
+}

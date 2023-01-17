@@ -1,0 +1,150 @@
+{
+   "floater": {
+      "@name": "fs_asset_blacklist",
+      "@title": {
+         "string": "Asset Blacklist"
+      },
+      "floater.string:asset_object": {
+         "@name": "asset_object",
+         "#text": {
+            "string": "\n    Object\n  "
+         }
+      },
+      "floater.string:asset_texture": {
+         "@name": "asset_texture",
+         "#text": {
+            "string": "\n    Texture\n  "
+         }
+      },
+      "floater.string:asset_sound": {
+         "@name": "asset_sound",
+         "#text": {
+            "string": "\n    Sound\n  "
+         }
+      },
+      "floater.string:asset_resident": {
+         "@name": "asset_resident",
+         "#text": {
+            "string": "\n    Resident\n  "
+         }
+      },
+      "floater.string:asset_unknown": {
+         "@name": "asset_unknown",
+         "#text": {
+            "string": "\n    Unknown\n  "
+         }
+      },
+      "floater.string:unknown_object": {
+         "@name": "unknown_object",
+         "#text": {
+            "string": "\n    Unknown object\n  "
+         }
+      },
+      "floater.string:unknown_region": {
+         "@name": "unknown_region",
+         "#text": {
+            "string": "\n    Unknown region\n  "
+         }
+      },
+      "floater.string:asset_permanent": {
+         "@name": "asset_permanent",
+         "#text": {
+            "string": "\n    ✔\n  "
+         }
+      },
+      "floater.string:DateFormatString": {
+         "@name": "DateFormatString",
+         "#text": {
+            "string": "\n    [year,datetime,local]/[mthnum,datetime,local]/[day,datetime,local] [hour,datetime,local]:[min,datetime,local]:[second,datetime,local]\n  "
+         }
+      },
+      "filter_editor:filter_input": {
+         "@label": {
+            "string": "Filter Asset Blacklist"
+         },
+         "@name": "filter_input"
+      },
+      "fs_scroll_list:result_list": {
+         "@name": "result_list",
+         "columns:name": {
+            "@name": "name",
+            "@label": {
+               "string": "Name"
+            }
+         },
+         "columns:region": {
+            "@name": "region",
+            "@label": {
+               "string": "Region"
+            }
+         },
+         "columns:type": {
+            "@name": "type",
+            "@label": {
+               "string": "Type"
+            }
+         },
+         "columns:date": {
+            "@name": "date",
+            "@label": {
+               "string": "Date"
+            }
+         },
+         "columns:permanent": {
+            "@name": "permanent",
+            "@label": {
+               "string": "Permanent"
+            }
+         },
+         "columns:date_sort": {
+            "@name": "date_sort"
+         },
+         "columns:asset_type": {
+            "@name": "asset_type"
+         },
+         "row": {
+            "column": "[UNKNOWN] Template item",
+            "column$1": "[UNKNOWN] Template item",
+            "column$2": "Unknown",
+            "column$3": "2012-12-11 13:37:00",
+            "column$4": "✔"
+         }
+      },
+      "button:remove_btn": {
+         "@name": "remove_btn",
+         "@label": {
+            "string": "Remove selected"
+         }
+      },
+      "button:remove_temp_btn": {
+         "@name": "remove_temp_btn",
+         "@label": {
+            "string": "Clear temporary"
+         }
+      },
+      "button:play_btn": {
+         "@name": "play_btn",
+         "@label": {
+            "string": "Play Sound"
+         },
+         "@tool_tip": {
+            "string": "Play the selected sound; only a single sound entry can be selected at a time for playback."
+         }
+      },
+      "button:stop_btn": {
+         "@name": "stop_btn",
+         "@label": {
+            "string": "Stop Sound"
+         },
+         "@tool_tip": {
+            "string": "Stop playing the current sound."
+         }
+      },
+      "button:close_btn": {
+         "@name": "close_btn",
+         "@label": {
+            "string": "Close"
+         }
+      }
+   }
+}

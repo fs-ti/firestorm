@@ -1,0 +1,95 @@
+{
+   "floater": {
+      "@name": "fast_timers",
+      "string:pause": {
+         "@name": "pause",
+         "#text": {
+            "string": "Pause"
+         }
+      },
+      "string:run": {
+         "@name": "run",
+         "#text": {
+            "string": "Run"
+         }
+      },
+      "combo_box:time_scale_combo": {
+         "@name": "time_scale_combo",
+         "item:2x Average": {
+            "@name": "2x Average",
+            "@label": {
+               "string": "2x Average"
+            }
+         },
+         "item:Max": {
+            "@name": "Max",
+            "@label": {
+               "string": "Max"
+            }
+         },
+         "item:Recent Max": {
+            "@name": "Recent Max",
+            "@label": {
+               "string": "Recent Max"
+            }
+         },
+         "item:100ms": {
+            "@name": "100ms",
+            "@label": {
+               "string": "100ms"
+            }
+         }
+      },
+      "combo_box:metric_combo": {
+         "@name": "metric_combo",
+         "item:Time": {
+            "@name": "Time",
+            "@label": {
+               "string": "Time"
+            }
+         },
+         "item:Number of Calls": {
+            "@name": "Number of Calls",
+            "@label": {
+               "string": "Number of Calls"
+            }
+         },
+         "item:Hz": {
+            "@name": "Hz",
+            "@label": {
+               "string": "Hz"
+            }
+         }
+      },
+      "button:pause_btn": {
+         "@name": "pause_btn",
+         "@label": {
+            "string": "Pause"
+         }
+      },
+      "layout_stack:legend_stack": {
+         "@name": "legend_stack",
+         "layout_panel:legend_panel": {
+            "@name": "legend_panel",
+            "panel:legend": {
+               "@name": "legend"
+            },
+            "scroll_bar:scroll_vert": {
+               "@name": "scroll_vert"
+            }
+         },
+         "layout_panel:timers_panel": {
+            "@name": "timers_panel",
+            "layout_stack:timer_bars_stack": {
+               "@name": "timer_bars_stack",
+               "layout_panel:bars_panel": {
+                  "@name": "bars_panel"
+               },
+               "layout_panel:lines_panel": {
+                  "@name": "lines_panel"
+               }
+            }
+         }
+      }
+   }
+}

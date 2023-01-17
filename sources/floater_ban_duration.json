@@ -1,0 +1,50 @@
+{
+   "floater": {
+      "@name": "ban_duration",
+      "@title": {
+         "string": "Ban duration"
+      },
+      "text:duration_textbox": {
+         "@name": "duration_textbox",
+         "#text": {
+            "string": "\n        Ban duration:\n   "
+         }
+      },
+      "radio_group:ban_duration_radio": {
+         "@name": "ban_duration_radio",
+         "radio_item:always_radio": {
+            "@label": {
+               "string": "Always"
+            },
+            "@name": "always_radio"
+         },
+         "radio_item:temporary_radio": {
+            "@label": {
+               "string": "Temporary"
+            },
+            "@name": "temporary_radio"
+         }
+      },
+      "spinner:ban_hours": {
+         "@name": "ban_hours"
+      },
+      "text:hours_textbox": {
+         "@name": "hours_textbox",
+         "#text": {
+            "string": "\n        hours.\n   "
+         }
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "Ok"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

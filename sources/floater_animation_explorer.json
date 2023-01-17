@@ -1,0 +1,80 @@
+{
+   "floater": {
+      "@name": "animation_explorer",
+      "@title": {
+         "string": "Animation Explorer"
+      },
+      "scroll_list:animation_list": {
+         "@name": "animation_list",
+         "scroll_list.column:played_by": {
+            "@label": {
+               "string": "Played by"
+            },
+            "@name": "played_by"
+         },
+         "scroll_list.column:played": {
+            "@label": {
+               "string": "Played"
+            },
+            "@name": "played"
+         },
+         "scroll_list.column:priority": {
+            "@label": {
+               "string": "Priority"
+            },
+            "@name": "priority"
+         },
+         "scroll_list.column:timestamp": {
+            "@label": {
+               "string": "Timestamp"
+            },
+            "@name": "timestamp"
+         },
+         "scroll_list.column:animation_id": {
+            "@label": {
+               "string": "Animation ID"
+            },
+            "@name": "animation_id"
+         },
+         "scroll_list.column:object_id": {
+            "@label": {
+               "string": "Object ID"
+            },
+            "@name": "object_id"
+         }
+      },
+      "view_border:animation_preview": {
+         "@name": "animation_preview"
+      },
+      "panel:buttons_panel": {
+         "@name": "buttons_panel",
+         "button:stop_btn": {
+            "@label": {
+               "string": "Stop"
+            },
+            "@name": "stop_btn"
+         },
+         "button:stop_and_revoke_btn": {
+            "@label": {
+               "string": "Stop and Revoke"
+            },
+            "@name": "stop_and_revoke_btn"
+         },
+         "button:revoke_btn": {
+            "@label": {
+               "string": "Revoke"
+            },
+            "@name": "revoke_btn"
+         },
+         "check_box:no_owned_animations_check": {
+            "@label": {
+               "string": "No Owned Animations"
+            },
+            "@name": "no_owned_animations_check",
+            "@tool_tip": {
+               "string": "When checked this will filter out all animations that are owned by your avatar, like AO animations or system default animations."
+            }
+         }
+      }
+   }
+}

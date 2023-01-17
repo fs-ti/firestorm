@@ -1,0 +1,482 @@
+{
+   "floater": {
+      "@name": "godtools floater",
+      "@title": {
+         "string": "God Tools"
+      },
+      "tab_container:GodTools Tabs": {
+         "@name": "GodTools Tabs",
+         "panel:grid": {
+            "@label": {
+               "string": "Grid"
+            },
+            "@name": "grid",
+            "button:Flush This Region's Map Visibility Caches": {
+               "@label": {
+                  "string": "Flush This Region's Map Visibility Caches"
+               },
+               "@name": "Flush This Region's Map Visibility Caches",
+               "button.commit_callback": null
+            }
+         },
+         "panel:region": {
+            "@label": {
+               "string": "Region"
+            },
+            "@name": "region",
+            "text:Region Name:": {
+               "@name": "Region Name:",
+               "#text": {
+                  "string": "\n                Region Name:\n            "
+               }
+            },
+            "line_editor:region name": {
+               "@name": "region name",
+               "line_editor.commit_callback": null
+            },
+            "check_box:check prelude": {
+               "@label": {
+                  "string": "Prelude"
+               },
+               "@name": "check prelude",
+               "@tool_tip": {
+                  "string": "Set this to make the region a prelude"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:check fixed sun": {
+               "@label": {
+                  "string": "Fixed Sun"
+               },
+               "@name": "check fixed sun",
+               "@tool_tip": {
+                  "string": "Fix the sun position (like in Region/Estate > Terrain)"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:check reset home": {
+               "@label": {
+                  "string": "Reset Home On Teleport"
+               },
+               "@name": "check reset home",
+               "@tool_tip": {
+                  "string": "When Resident teleports out, reset their home to the destination position."
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:check visible": {
+               "@label": {
+                  "string": "Visible"
+               },
+               "@name": "check visible",
+               "@tool_tip": {
+                  "string": "Set this to make the region visible to non-gods"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:check damage": {
+               "@label": {
+                  "string": "Damage"
+               },
+               "@name": "check damage",
+               "@tool_tip": {
+                  "string": "Set this to enable damage in this region"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:block dwell": {
+               "@label": {
+                  "string": "Block Traffic Tracking"
+               },
+               "@name": "block dwell",
+               "@tool_tip": {
+                  "string": "Set this to make the region not compute traffic"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:block terraform": {
+               "@label": {
+                  "string": "Block Terraform"
+               },
+               "@name": "block terraform",
+               "@tool_tip": {
+                  "string": "Set this to disallow people terraforming their land"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:is sandbox": {
+               "@label": {
+                  "string": "Sandbox"
+               },
+               "@name": "is sandbox",
+               "@tool_tip": {
+                  "string": "Toggle whether this is a sandbox region"
+               },
+               "check_box.commit_callback": null
+            },
+            "button:Bake Terrain": {
+               "@label": {
+                  "string": "Bake Terrain"
+               },
+               "@name": "Bake Terrain",
+               "@tool_tip": {
+                  "string": "Save the current terrain as default"
+               },
+               "button.commit_callback": null
+            },
+            "button:Revert Terrain": {
+               "@label": {
+                  "string": "Revert Terrain"
+               },
+               "@name": "Revert Terrain",
+               "@tool_tip": {
+                  "string": "Replace the current terrain with default"
+               },
+               "button.commit_callback": null
+            },
+            "button:Swap Terrain": {
+               "@label": {
+                  "string": "Swap Terrain"
+               },
+               "@name": "Swap Terrain",
+               "@tool_tip": {
+                  "string": "Swap current terrain with default"
+               },
+               "button.commit_callback": null
+            },
+            "text:estate id": {
+               "@name": "estate id",
+               "#text": {
+                  "string": "\n                Estate ID:\n            "
+               }
+            },
+            "line_editor:estate": {
+               "@name": "estate"
+            },
+            "text:parent id": {
+               "@name": "parent id",
+               "#text": {
+                  "string": "\n                Parent ID:\n            "
+               }
+            },
+            "line_editor:parentestate": {
+               "@name": "parentestate",
+               "@tool_tip": {
+                  "string": "This is the parent estate for this region"
+               },
+               "line_editor.commit_callback": null
+            },
+            "text:Grid Pos: ": {
+               "@name": "Grid Pos: ",
+               "#text": {
+                  "string": "\n                Grid Pos:\n            "
+               }
+            },
+            "line_editor:gridposx": {
+               "@name": "gridposx",
+               "@tool_tip": {
+                  "string": "This is the grid x position for this region"
+               },
+               "line_editor.commit_callback": null
+            },
+            "line_editor:gridposy": {
+               "@name": "gridposy",
+               "@tool_tip": {
+                  "string": "This is the grid y position for this region"
+               },
+               "line_editor.commit_callback": null
+            },
+            "text:Redirect to Grid: ": {
+               "@name": "Redirect to Grid: ",
+               "#text": {
+                  "string": "\n                Redirect to Grid:\n            "
+               }
+            },
+            "line_editor:redirectx": {
+               "@name": "redirectx",
+               "line_editor.commit_callback": null
+            },
+            "line_editor:redirecty": {
+               "@name": "redirecty",
+               "line_editor.commit_callback": null
+            },
+            "text:billable factor text": {
+               "@name": "billable factor text",
+               "#text": {
+                  "string": "\n                Billable Factor:\n            "
+               }
+            },
+            "spinner:billable factor": {
+               "@name": "billable factor",
+               "spinner.commit_callback": null
+            },
+            "text:land cost text": {
+               "@name": "land cost text",
+               "#text": {
+                  "string": "\n                L$ per m²:\n            "
+               }
+            },
+            "spinner:land cost": {
+               "@name": "land cost",
+               "spinner.commit_callback": null
+            },
+            "button:Refresh": {
+               "@label": {
+                  "string": "Refresh"
+               },
+               "@name": "Refresh",
+               "@tool_tip": {
+                  "string": "Click here to refresh the above information"
+               },
+               "button.commit_callback": null
+            },
+            "button:Apply": {
+               "@label": {
+                  "string": "Apply"
+               },
+               "@name": "Apply",
+               "@tool_tip": {
+                  "string": "Click here to apply any changes from above"
+               },
+               "button.commit_callback": null
+            },
+            "button:Select Region": {
+               "@label": {
+                  "string": "Select Region"
+               },
+               "@name": "Select Region",
+               "@tool_tip": {
+                  "string": "Select the whole region with the land tool"
+               },
+               "button.commit_callback": null
+            },
+            "button:Autosave now": {
+               "@label": {
+                  "string": "Autosave now"
+               },
+               "@name": "Autosave now",
+               "@tool_tip": {
+                  "string": "Save gzipped state to autosave directory"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "panel:objects": {
+            "@label": {
+               "string": "Objects"
+            },
+            "@name": "objects",
+            "panel.string:no_target": {
+               "@name": "no_target",
+               "#text": {
+                  "string": "\n                (no target)\n            "
+               }
+            },
+            "text:Region Name:": {
+               "@name": "Region Name:",
+               "#text": {
+                  "string": "\n                Region Name:\n            "
+               }
+            },
+            "text:region name": {
+               "@name": "region name",
+               "#text": {
+                  "string": "\n                Welsh\n            "
+               }
+            },
+            "check_box:disable scripts": {
+               "@label": {
+                  "string": "Disable Scripts"
+               },
+               "@name": "disable scripts",
+               "@tool_tip": {
+                  "string": "Set this to disable all scripts in this region"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:disable collisions": {
+               "@label": {
+                  "string": "Disable Collisions"
+               },
+               "@name": "disable collisions",
+               "@tool_tip": {
+                  "string": "Set this to disable non-agent collisions in this region"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:disable physics": {
+               "@label": {
+                  "string": "Disable Physics"
+               },
+               "@name": "disable physics",
+               "@tool_tip": {
+                  "string": "Set this to disable all physics in this region"
+               },
+               "check_box.commit_callback": null
+            },
+            "button:Apply": {
+               "@label": {
+                  "string": "Apply"
+               },
+               "@name": "Apply",
+               "@tool_tip": {
+                  "string": "Click here to apply any changes from above"
+               },
+               "button.commit_callback": null
+            },
+            "button:Set Target": {
+               "@label": {
+                  "string": "Set Target"
+               },
+               "@name": "Set Target",
+               "@tool_tip": {
+                  "string": "Set the target avatar for object deletion"
+               },
+               "button.commit_callback": null
+            },
+            "text:target_avatar_name": {
+               "@name": "target_avatar_name",
+               "#text": {
+                  "string": "\n                (no target)\n            "
+               }
+            },
+            "button:Delete Target's Scripted Objects On Others Land": {
+               "@label": {
+                  "string": "Delete Target's Scripted Objects On Others Land"
+               },
+               "@name": "Delete Target's Scripted Objects On Others Land",
+               "@tool_tip": {
+                  "string": "Delete all scripted objects owned by the target on land not owned by the target. (no copy) objects will be returned."
+               },
+               "button.commit_callback": null
+            },
+            "button:Delete Target's Scripted Objects On *Any* Land": {
+               "@label": {
+                  "string": "Delete Target's Scripted Objects On *Any* Land"
+               },
+               "@name": "Delete Target's Scripted Objects On *Any* Land",
+               "@tool_tip": {
+                  "string": "Delete all scripted objects owned by the target in this region. (no copy) objects will be returned."
+               },
+               "button.commit_callback": null
+            },
+            "button:Delete *ALL* Of Target's Objects": {
+               "@label": {
+                  "string": "Delete *ALL* Of Target's Objects"
+               },
+               "@name": "Delete *ALL* Of Target's Objects",
+               "@tool_tip": {
+                  "string": "Delete all objects owned by the target in this region. (no copy) objects will be returned."
+               },
+               "button.commit_callback": null
+            },
+            "button:Get Top Colliders": {
+               "@label": {
+                  "string": "Get Top Colliders"
+               },
+               "@name": "Get Top Colliders",
+               "@tool_tip": {
+                  "string": "Gets list of objects experiencing the most narrowphase callbacks"
+               },
+               "button.commit_callback": null
+            },
+            "button:Get Top Scripts": {
+               "@label": {
+                  "string": "Get Top Scripts"
+               },
+               "@name": "Get Top Scripts",
+               "@tool_tip": {
+                  "string": "Gets list of objects spending the most time running scripts"
+               },
+               "button.commit_callback": null
+            },
+            "button:Scripts digest": {
+               "@label": {
+                  "string": "Scripts digest"
+               },
+               "@name": "Scripts digest",
+               "@tool_tip": {
+                  "string": "Gets a list of all scripts and number of occurences of each"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "panel:request": {
+            "@label": {
+               "string": "Request"
+            },
+            "@name": "request",
+            "text:Destination:": {
+               "@name": "Destination:",
+               "#text": {
+                  "string": "\n                Destination:\n            "
+               }
+            },
+            "combo_box:destination": {
+               "@name": "destination",
+               "combo_box.item:item1": {
+                  "@label": {
+                     "string": "Selection"
+                  },
+                  "@name": "item1"
+               },
+               "combo_box.item:item2": {
+                  "@label": {
+                     "string": "Agent Region"
+                  },
+                  "@name": "item2"
+               }
+            },
+            "text:Request:": {
+               "@name": "Request:",
+               "#text": {
+                  "string": "\n                Request:\n            "
+               }
+            },
+            "combo_box:request": {
+               "@name": "request",
+               "combo_box.item:item1": {
+                  "@label": {
+                     "string": "colliders <steps>"
+                  },
+                  "@name": "item1"
+               },
+               "combo_box.item:item2": {
+                  "@label": {
+                     "string": "scripts <count>,<optional pattern>"
+                  },
+                  "@name": "item2"
+               },
+               "combo_box.item:item3": {
+                  "@label": {
+                     "string": "objects <pattern>"
+                  },
+                  "@name": "item3"
+               },
+               "combo_box.item:item4": {
+                  "@label": {
+                     "string": "rez <asset_id>"
+                  },
+                  "@name": "item4"
+               }
+            },
+            "text:Parameter:": {
+               "@name": "Parameter:",
+               "#text": {
+                  "string": "\n                Parameter:\n            "
+               }
+            },
+            "line_editor:parameter": {
+               "@name": "parameter"
+            },
+            "button:Make Request": {
+               "@label": {
+                  "string": "Make Request"
+               },
+               "@name": "Make Request",
+               "button.commit_callback": null
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,140 @@
+{
+   "floater": {
+      "@name": "floater_placedetails",
+      "@title": {
+         "string": "Landmark"
+      },
+      "string:title_place": {
+         "@name": "title_place",
+         "#text": {
+            "string": "\n    Place Details\n  "
+         }
+      },
+      "string:title_remote_place": {
+         "@name": "title_remote_place",
+         "#text": {
+            "string": "\n    Place Details\n  "
+         }
+      },
+      "string:title_remote_place_detail": {
+         "@name": "title_remote_place_detail",
+         "#text": {
+            "string": "\n    Place Details: [NAME]\n  "
+         }
+      },
+      "string:title_landmark": {
+         "@name": "title_landmark",
+         "#text": {
+            "string": "\n    Landmark\n  "
+         }
+      },
+      "string:title_landmark_detail": {
+         "@name": "title_landmark_detail",
+         "#text": {
+            "string": "\n    Landmark: [NAME]\n  "
+         }
+      },
+      "string:title_create_landmark": {
+         "@name": "title_create_landmark",
+         "#text": {
+            "string": "\n    Create Landmark\n  "
+         }
+      },
+      "string:title_teleport_history_item": {
+         "@name": "title_teleport_history_item",
+         "#text": {
+            "string": "\n    Teleport History Details: [NAME]\n  "
+         }
+      },
+      "panel:panel_landmark_info": {
+         "@name": "panel_landmark_info"
+      },
+      "panel:panel_place_profile": {
+         "@name": "panel_place_profile"
+      },
+      "panel:button_panel": {
+         "@name": "button_panel",
+         "layout_stack:bottom_bar_ls0": {
+            "@name": "bottom_bar_ls0",
+            "layout_panel:lp1": {
+               "@name": "lp1",
+               "layout_stack:bottom_bar_ls1": {
+                  "@name": "bottom_bar_ls1",
+                  "layout_panel:teleport_btn_lp": {
+                     "@name": "teleport_btn_lp",
+                     "button:teleport_btn": {
+                        "@label": {
+                           "string": "Teleport"
+                        },
+                        "@name": "teleport_btn",
+                        "@tool_tip": {
+                           "string": "Teleport to the selected area"
+                        }
+                     }
+                  },
+                  "layout_panel:map_btn_lp": {
+                     "@name": "map_btn_lp",
+                     "button:map_btn": {
+                        "@label": {
+                           "string": "Map"
+                        },
+                        "@name": "map_btn",
+                        "@tool_tip": {
+                           "string": "Show the corresponding area on the World Map"
+                        }
+                     }
+                  },
+                  "layout_panel:overflow_btn_lp": {
+                     "@name": "overflow_btn_lp",
+                     "menu_button:overflow_btn": {
+                        "@name": "overflow_btn",
+                        "@tool_tip": {
+                           "string": "Show additional options"
+                        }
+                     }
+                  }
+               }
+            }
+         },
+         "layout_stack:bottom_bar_ls1": {
+            "@name": "bottom_bar_ls1",
+            "layout_panel:lp2": {
+               "@name": "lp2",
+               "layout_stack:bottom_bar_close_ls3": {
+                  "@name": "bottom_bar_close_ls3",
+                  "layout_panel:close_btn_lp": {
+                     "@name": "close_btn_lp",
+                     "button:close_btn": {
+                        "@label": {
+                           "string": "Close"
+                        },
+                        "@name": "close_btn"
+                     }
+                  }
+               }
+            }
+         },
+         "layout_stack:bottom_bar_ls2": {
+            "@name": "bottom_bar_ls2",
+            "layout_panel:save_btn_lp": {
+               "@name": "save_btn_lp",
+               "button:save_btn": {
+                  "@label": {
+                     "string": "Save"
+                  },
+                  "@name": "save_btn"
+               }
+            },
+            "layout_panel:cancel_btn_lp": {
+               "@name": "cancel_btn_lp",
+               "button:cancel_btn": {
+                  "@label": {
+                     "string": "Cancel"
+                  },
+                  "@name": "cancel_btn"
+               }
+            }
+         }
+      }
+   }
+}

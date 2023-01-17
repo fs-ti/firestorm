@@ -1,0 +1,53 @@
+{
+   "floater": {
+      "@name": "imcontacts",
+      "@title": {
+         "string": "Contacts"
+      },
+      "string:no_friends": {
+         "@name": "no_friends",
+         "@value": {
+            "string": "No friends"
+         }
+      },
+      "string:no_filtered_groups_msg": {
+         "@name": "no_filtered_groups_msg",
+         "@value": {
+            "string": "No groups containing \"[SEARCH_TERM]\" found."
+         }
+      },
+      "string:no_groups_msg": {
+         "@name": "no_groups_msg",
+         "@value": {
+            "string": "Looking for Groups to join? Try [secondlife:///app/search/groups Search]."
+         }
+      },
+      "tab_container:friends_and_groups": {
+         "@name": "friends_and_groups",
+         "first_tab": null,
+         "middle_tab": null,
+         "last_tab": null,
+         "panel:friends_panel": {
+            "@label": {
+               "string": "Friends"
+            },
+            "@name": "friends_panel"
+         },
+         "panel:groups_panel": {
+            "@label": {
+               "string": "Groups"
+            },
+            "@name": "groups_panel"
+         },
+         "panel:contact_sets_panel": {
+            "@label": {
+               "string": "Contact Sets"
+            },
+            "@name": "contact_sets_panel"
+         }
+      },
+      "icon:dummy_icon": {
+         "@name": "dummy_icon"
+      }
+   }
+}

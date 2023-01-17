@@ -1,0 +1,41 @@
+{
+   "floater": {
+      "@name": "delete_pref_preset",
+      "@title": {
+         "string": "Delete Pref Preset"
+      },
+      "string:title_graphic": {
+         "@name": "title_graphic",
+         "#text": {
+            "string": "Delete Graphic Preset"
+         }
+      },
+      "string:title_camera": {
+         "@name": "title_camera",
+         "#text": {
+            "string": "Delete Camera Preset"
+         }
+      },
+      "text:Preset": {
+         "@name": "Preset",
+         "#text": {
+            "string": "\n     Select a preset\n    "
+         }
+      },
+      "combo_box:preset_combo": {
+         "@name": "preset_combo"
+      },
+      "button:delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "delete"
+      },
+      "button:cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel"
+      }
+   }
+}

@@ -1,0 +1,53 @@
+{
+   "floater": {
+      "@name": "avatarrendersettings",
+      "@title": {
+         "string": "Avatar Display Exceptions"
+      },
+      "floater.string:av_render_never": {
+         "@name": "av_render_never",
+         "#text": {
+            "string": "\n    Never\n  "
+         }
+      },
+      "floater.string:av_render_always": {
+         "@name": "av_render_always",
+         "#text": {
+            "string": "\n    Always\n  "
+         }
+      },
+      "filter_editor:filter_input": {
+         "@label": {
+            "string": "Filter Avatars"
+         },
+         "@name": "filter_input"
+      },
+      "menu_button:plus_btn": {
+         "@name": "plus_btn",
+         "@tool_tip": {
+            "string": "Add new person to the list"
+         }
+      },
+      "name_list:avatar_list": {
+         "@name": "avatar_list",
+         "name_list.columns:name": {
+            "@label": {
+               "string": "Name"
+            },
+            "@name": "name"
+         },
+         "name_list.columns:render_setting": {
+            "@label": {
+               "string": "Full detail"
+            },
+            "@name": "render_setting"
+         }
+      },
+      "button:close_btn": {
+         "@name": "close_btn",
+         "@label": {
+            "string": "Close"
+         }
+      }
+   }
+}
