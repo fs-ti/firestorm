@@ -1,0 +1,231 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Access"
+      },
+      "@name": "Access",
+      "tab_container:tabs": {
+         "@name": "tabs",
+         "#comment": " ============================= ESTATE MANAGERS tab ====================== ",
+         "panel:estate_managers_panel": {
+            "@label": {
+               "string": "Estate Managers"
+            },
+            "@name": "estate_managers_panel",
+            "text:estate_manager_label": {
+               "@name": "estate_manager_label",
+               "#text": {
+                  "string": "\n        Estate Managers:\n    "
+               }
+            },
+            "#comment": " Estate Managers box ",
+            "view_border": null,
+            "name_list:estate_manager_name_list": {
+               "@name": "estate_manager_name_list",
+               "columns:name": {
+                  "@label": {
+                     "string": "Name"
+                  },
+                  "@name": "name"
+               }
+            },
+            "#comment$6": " Estate Managers buttons ",
+            "button:add_estate_manager_btn": {
+               "@label": {
+                  "string": "Add..."
+               },
+               "@name": "add_estate_manager_btn"
+            },
+            "button:remove_estate_manager_btn": {
+               "@label": {
+                  "string": "Remove..."
+               },
+               "@name": "remove_estate_manager_btn"
+            }
+         },
+         "#comment$3": " ================================ ALLOWED tab =========================== ",
+         "panel:allowed_panel": {
+            "@label": {
+               "string": "Allowed"
+            },
+            "@name": "allowed_panel",
+            "panel:allowed_search_panel": {
+               "@label": {
+                  "string": "top_panel"
+               },
+               "@name": "allowed_search_panel",
+               "filter_editor:allowed_search_input": {
+                  "@label": {
+                     "string": "Search allowed agents"
+                  },
+                  "@name": "allowed_search_input"
+               },
+               "button:copy_allowed_list_btn": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "copy_allowed_list_btn"
+               }
+            },
+            "text:allow_resident_label": {
+               "@name": "allow_resident_label",
+               "#text": {
+                  "string": "\n        Always allowed:\n    "
+               }
+            },
+            "#comment": " Always allowed box ",
+            "view_border": null,
+            "name_list:allowed_avatar_name_list": {
+               "@name": "allowed_avatar_name_list",
+               "columns:name": {
+                  "@label": {
+                     "string": "Name"
+                  },
+                  "@name": "name"
+               }
+            },
+            "#comment$7": " Always allowed buttons ",
+            "button:add_allowed_avatar_btn": {
+               "@label": {
+                  "string": "Add..."
+               },
+               "@name": "add_allowed_avatar_btn"
+            },
+            "button:remove_allowed_avatar_btn": {
+               "@label": {
+                  "string": "Remove..."
+               },
+               "@name": "remove_allowed_avatar_btn"
+            }
+         },
+         "#comment$5": " ============================= ALLOWED GROUPS tab ======================= ",
+         "panel:allowed_groups_panel": {
+            "@label": {
+               "string": "Allowed Groups"
+            },
+            "@name": "allowed_groups_panel",
+            "panel:allowed_group_search_panel": {
+               "@label": {
+                  "string": "top_panel"
+               },
+               "@name": "allowed_group_search_panel",
+               "filter_editor:allowed_group_search_input": {
+                  "@label": {
+                     "string": "Search allowed groups"
+                  },
+                  "@name": "allowed_group_search_input"
+               },
+               "button:copy_allowed_group_list_btn": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "copy_allowed_group_list_btn"
+               }
+            },
+            "text:allow_group_label": {
+               "@name": "allow_group_label",
+               "#text": {
+                  "string": "\n        Groups always allowed:\n    "
+               }
+            },
+            "#comment": " Groups always allowed box ",
+            "view_border": null,
+            "name_list:allowed_group_name_list": {
+               "@name": "allowed_group_name_list",
+               "columns:name": {
+                  "@label": {
+                     "string": "Name"
+                  },
+                  "@name": "name"
+               }
+            },
+            "#comment$7": " Groups always allowed buttons ",
+            "button:add_allowed_group_btn": {
+               "@label": {
+                  "string": "Add..."
+               },
+               "@name": "add_allowed_group_btn"
+            },
+            "button:remove_allowed_group_btn": {
+               "@label": {
+                  "string": "Remove..."
+               },
+               "@name": "remove_allowed_group_btn"
+            }
+         },
+         "#comment$7": " ================================ BANNED tab ============================ ",
+         "panel:banned_panel": {
+            "@label": {
+               "string": "Banned"
+            },
+            "@name": "banned_panel",
+            "panel:banned_search_panel": {
+               "@label": {
+                  "string": "top_panel"
+               },
+               "@name": "banned_search_panel",
+               "filter_editor:banned_search_input": {
+                  "@label": {
+                     "string": "Search banned agents"
+                  },
+                  "@name": "banned_search_input"
+               },
+               "button:copy_banned_list_btn": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "copy_banned_list_btn"
+               }
+            },
+            "text:ban_resident_label": {
+               "@name": "ban_resident_label",
+               "#text": {
+                  "string": "\n        Always banned:\n    "
+               }
+            },
+            "#comment": " Always banned box ",
+            "view_border": null,
+            "name_list:banned_avatar_name_list": {
+               "@name": "banned_avatar_name_list",
+               "columns:name": {
+                  "@label": {
+                     "string": "Name"
+                  },
+                  "@name": "name"
+               },
+               "columns:last_login_date": {
+                  "@label": {
+                     "string": "Last login date"
+                  },
+                  "@name": "last_login_date"
+               },
+               "columns:ban_date": {
+                  "@label": {
+                     "string": "Date banned"
+                  },
+                  "@name": "ban_date"
+               },
+               "columns:bannedby": {
+                  "@label": {
+                     "string": "Banned by"
+                  },
+                  "@name": "bannedby"
+               }
+            },
+            "#comment$7": " Always banned buttons ",
+            "button:add_banned_avatar_btn": {
+               "@label": {
+                  "string": "Add..."
+               },
+               "@name": "add_banned_avatar_btn"
+            },
+            "button:remove_banned_avatar_btn": {
+               "@label": {
+                  "string": "Remove..."
+               },
+               "@name": "remove_banned_avatar_btn"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,555 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Texture"
+      },
+      "@name": "Texture",
+      "text:color label": {
+         "@name": "color label",
+         "#text": {
+            "string": "\n                Color\n            "
+         }
+      },
+      "#comment": " label is blank because control places it below the box ",
+      "color_swatch:colorswatch": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "colorswatch",
+         "@tool_tip": {
+            "string": "Click to open color picker"
+         }
+      },
+      "text:color trans": {
+         "@name": "color trans",
+         "#text": {
+            "string": "\n                Transparency %\n            "
+         }
+      },
+      "spinner:ColorTrans": {
+         "@name": "ColorTrans"
+      },
+      "text:glow label": {
+         "@name": "glow label",
+         "#text": {
+            "string": "\n                Glow\n            "
+         }
+      },
+      "spinner:glow": {
+         "@name": "glow"
+      },
+      "check_box:checkbox fullbright": {
+         "@label": {
+            "string": "Full Bright"
+         },
+         "@name": "checkbox fullbright"
+      },
+      "combo_box:combobox matmedia": {
+         "@name": "combobox matmedia",
+         "combo_box.item:Materials": {
+            "@label": {
+               "string": "Materials"
+            },
+            "@name": "Materials"
+         },
+         "combo_box.item:Media": {
+            "@label": {
+               "string": "Media"
+            },
+            "@name": "Media"
+         }
+      },
+      "radio_group:radio_material_type": {
+         "@name": "radio_material_type",
+         "radio_item:Texture (diffuse)": {
+            "@label": {
+               "string": "Texture (diffuse)"
+            },
+            "@name": "Texture (diffuse)"
+         },
+         "radio_item:Bumpiness (normal)": {
+            "@label": {
+               "string": "Bumpiness (normal)"
+            },
+            "@name": "Bumpiness (normal)"
+         },
+         "radio_item:Shininess (specular)": {
+            "@label": {
+               "string": "Shininess (specular)"
+            },
+            "@name": "Shininess (specular)"
+         }
+      },
+      "#comment$12": " Removed (again) to prefer the name and location of the FS control\n            <check_box\n             control_name=\"SyncMaterialSettings\"\n             follows=\"top|left\"\n             height=\"20\"\n             initial_value=\"false\"\n             label=\"Lock repeat\"\n             layout=\"topleft\"\n             left=\"8\"\n             name=\"checkbox_sync_settings\"\n             tool_tip=\"Adjust all maps repeats simultaneously\"\n             top_pad=\"-16\"\n             width=\"160\" />\n             ",
+      "texture_picker:texture control": {
+         "@label": {
+            "string": "Texture"
+         },
+         "@name": "texture control",
+         "@tool_tip": {
+            "string": "Click to choose a picture"
+         }
+      },
+      "text:label alphamode": {
+         "@name": "label alphamode",
+         "#text": {
+            "string": "\n                Alpha mode\n            "
+         }
+      },
+      "combo_box:combobox alphamode": {
+         "@name": "combobox alphamode",
+         "combo_box.item:None": {
+            "@label": {
+               "string": "None"
+            },
+            "@name": "None"
+         },
+         "combo_box.item:Alpha blending": {
+            "@label": {
+               "string": "Alpha blending"
+            },
+            "@name": "Alpha blending"
+         },
+         "combo_box.item:Alpha masking": {
+            "@label": {
+               "string": "Alpha masking"
+            },
+            "@name": "Alpha masking"
+         },
+         "combo_box.item:Emissive mask": {
+            "@label": {
+               "string": "Emissive mask"
+            },
+            "@name": "Emissive mask"
+         }
+      },
+      "text:label maskcutoff": {
+         "@name": "label maskcutoff",
+         "#text": {
+            "string": "\n                Mask cutoff\n            "
+         }
+      },
+      "spinner:maskcutoff": {
+         "@name": "maskcutoff"
+      },
+      "texture_picker:bumpytexture control": {
+         "@label": {
+            "string": "Texture"
+         },
+         "@name": "bumpytexture control",
+         "@tool_tip": {
+            "string": "Click to choose a picture"
+         }
+      },
+      "text:label bumpiness": {
+         "@name": "label bumpiness",
+         "#text": {
+            "string": "\n                Bumpiness\n            "
+         }
+      },
+      "combo_box:combobox bumpiness": {
+         "@name": "combobox bumpiness",
+         "combo_box.item:None": {
+            "@label": {
+               "string": "None"
+            },
+            "@name": "None"
+         },
+         "combo_box.item:Brightness": {
+            "@label": {
+               "string": "Brightness"
+            },
+            "@name": "Brightness"
+         },
+         "combo_box.item:Darkness": {
+            "@label": {
+               "string": "Darkness"
+            },
+            "@name": "Darkness"
+         },
+         "combo_box.item:woodgrain": {
+            "@label": {
+               "string": "woodgrain"
+            },
+            "@name": "woodgrain"
+         },
+         "combo_box.item:bark": {
+            "@label": {
+               "string": "bark"
+            },
+            "@name": "bark"
+         },
+         "combo_box.item:bricks": {
+            "@label": {
+               "string": "bricks"
+            },
+            "@name": "bricks"
+         },
+         "combo_box.item:checker": {
+            "@label": {
+               "string": "checker"
+            },
+            "@name": "checker"
+         },
+         "combo_box.item:concrete": {
+            "@label": {
+               "string": "concrete"
+            },
+            "@name": "concrete"
+         },
+         "combo_box.item:crustytile": {
+            "@label": {
+               "string": "crustytile"
+            },
+            "@name": "crustytile"
+         },
+         "combo_box.item:cutstone": {
+            "@label": {
+               "string": "cutstone"
+            },
+            "@name": "cutstone"
+         },
+         "combo_box.item:discs": {
+            "@label": {
+               "string": "discs"
+            },
+            "@name": "discs"
+         },
+         "combo_box.item:gravel": {
+            "@label": {
+               "string": "gravel"
+            },
+            "@name": "gravel"
+         },
+         "combo_box.item:petridish": {
+            "@label": {
+               "string": "petridish"
+            },
+            "@name": "petridish"
+         },
+         "combo_box.item:siding": {
+            "@label": {
+               "string": "siding"
+            },
+            "@name": "siding"
+         },
+         "combo_box.item:stonetile": {
+            "@label": {
+               "string": "stonetile"
+            },
+            "@name": "stonetile"
+         },
+         "combo_box.item:stucco": {
+            "@label": {
+               "string": "stucco"
+            },
+            "@name": "stucco"
+         },
+         "combo_box.item:suction": {
+            "@label": {
+               "string": "suction"
+            },
+            "@name": "suction"
+         },
+         "combo_box.item:weave": {
+            "@label": {
+               "string": "weave"
+            },
+            "@name": "weave"
+         },
+         "#comment": "\n                 NORSPEC-182, ensure item doesn't show up in menu until it should\n                <combo_box.item\n                 label=\"Use texture\"\n                 name=\"Use texture\"\n                 value=\"Use texture\" />\n                 "
+      },
+      "texture_picker:shinytexture control": {
+         "@label": {
+            "string": "Texture"
+         },
+         "@name": "shinytexture control",
+         "@tool_tip": {
+            "string": "Click to choose a picture"
+         }
+      },
+      "text:label shininess": {
+         "@name": "label shininess",
+         "#text": {
+            "string": "\n                Shininess\n            "
+         }
+      },
+      "combo_box:combobox shininess": {
+         "@name": "combobox shininess",
+         "combo_box.item:None": {
+            "@label": {
+               "string": "None"
+            },
+            "@name": "None"
+         },
+         "combo_box.item:Low": {
+            "@label": {
+               "string": "Low"
+            },
+            "@name": "Low"
+         },
+         "combo_box.item:Medium": {
+            "@label": {
+               "string": "Medium"
+            },
+            "@name": "Medium"
+         },
+         "combo_box.item:High": {
+            "@label": {
+               "string": "High"
+            },
+            "@name": "High"
+         },
+         "#comment": "\n                 NORSPEC-182, ensure item doesn't show up in menu until it should\n                <combo_box.item\n                 label=\"Use texture\"\n                 name=\"Use texture\"\n                 value=\"Use texture\" />\n                 "
+      },
+      "text:label glossiness": {
+         "@name": "label glossiness",
+         "#text": {
+            "string": "\n                Glossiness\n            "
+         }
+      },
+      "spinner:glossiness": {
+         "@name": "glossiness"
+      },
+      "text:label environment": {
+         "@name": "label environment",
+         "#text": {
+            "string": "\n                Environment\n            "
+         }
+      },
+      "spinner:environment": {
+         "@name": "environment"
+      },
+      "text:label shinycolor": {
+         "@name": "label shinycolor",
+         "#text": {
+            "string": "\n                Color\n            "
+         }
+      },
+      "#comment$29": " label is blank because control places it below the box ",
+      "color_swatch:shinycolorswatch": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "shinycolorswatch",
+         "@tool_tip": {
+            "string": "Click to open color picker"
+         }
+      },
+      "text:media_info": {
+         "@name": "media_info",
+         "#text": {
+            "string": "\n       URL of chosen media, if any, goes here\n       "
+         }
+      },
+      "button:add_media": {
+         "@name": "add_media",
+         "@tool_tip": {
+            "string": "Add Media"
+         },
+         "@label": {
+            "string": "Choose..."
+         },
+         "button.commit_callback": null
+      },
+      "button:delete_media": {
+         "@name": "delete_media",
+         "@tool_tip": {
+            "string": "Delete this media texture"
+         },
+         "@label": {
+            "string": "Remove"
+         },
+         "button.commit_callback": null
+      },
+      "button:button align": {
+         "@label": {
+            "string": "Align"
+         },
+         "@name": "button align",
+         "@tool_tip": {
+            "string": "Align media texture (must load first)"
+         }
+      },
+      "text:tex gen": {
+         "@name": "tex gen",
+         "#text": {
+            "string": "\n                Mapping\n            "
+         }
+      },
+      "combo_box:combobox texgen": {
+         "@name": "combobox texgen",
+         "combo_box.item:Default": {
+            "@label": {
+               "string": "Default"
+            },
+            "@name": "Default"
+         },
+         "combo_box.item:Planar": {
+            "@label": {
+               "string": "Planar"
+            },
+            "@name": "Planar"
+         }
+      },
+      "spinner:TexScaleU": {
+         "@label": {
+            "string": "Horizontal scale"
+         },
+         "@name": "TexScaleU"
+      },
+      "button:flipTextureScaleU": {
+         "@name": "flipTextureScaleU",
+         "@label": {
+            "string": ""
+         },
+         "@tool_tip": {
+            "string": "Flip"
+         },
+         "button.commit_callback": null
+      },
+      "spinner:TexScaleV": {
+         "@label": {
+            "string": "Vertical scale"
+         },
+         "@name": "TexScaleV"
+      },
+      "button:flipTextureScaleV": {
+         "@name": "flipTextureScaleV",
+         "@label": {
+            "string": ""
+         },
+         "@tool_tip": {
+            "string": "Flip"
+         },
+         "button.commit_callback": null
+      },
+      "spinner:rptctrl": {
+         "@label": {
+            "string": "Repeats per meter"
+         },
+         "@name": "rptctrl"
+      },
+      "spinner:TexRot": {
+         "@label": {
+            "string": "Rotation degrees"
+         },
+         "@name": "TexRot"
+      },
+      "spinner:TexOffsetU": {
+         "@label": {
+            "string": "Horizontal offset"
+         },
+         "@name": "TexOffsetU"
+      },
+      "spinner:TexOffsetV": {
+         "@label": {
+            "string": "Vertical offset"
+         },
+         "@name": "TexOffsetV"
+      },
+      "spinner:bumpyScaleU": {
+         "@label": {
+            "string": "Horizontal scale"
+         },
+         "@name": "bumpyScaleU"
+      },
+      "spinner:bumpyScaleV": {
+         "@label": {
+            "string": "Vertical scale"
+         },
+         "@name": "bumpyScaleV"
+      },
+      "spinner:bumpyRot": {
+         "@label": {
+            "string": "Rotation degrees"
+         },
+         "@name": "bumpyRot"
+      },
+      "spinner:bumpyOffsetU": {
+         "@label": {
+            "string": "Horizontal offset"
+         },
+         "@name": "bumpyOffsetU"
+      },
+      "spinner:bumpyOffsetV": {
+         "@label": {
+            "string": "Vertical offset"
+         },
+         "@name": "bumpyOffsetV"
+      },
+      "spinner:shinyScaleU": {
+         "@label": {
+            "string": "Horizontal scale"
+         },
+         "@name": "shinyScaleU"
+      },
+      "spinner:shinyScaleV": {
+         "@label": {
+            "string": "Vertical scale"
+         },
+         "@name": "shinyScaleV"
+      },
+      "spinner:shinyRot": {
+         "@label": {
+            "string": "Rotation degrees"
+         },
+         "@name": "shinyRot"
+      },
+      "spinner:shinyOffsetU": {
+         "@label": {
+            "string": "Horizontal offset"
+         },
+         "@name": "shinyOffsetU"
+      },
+      "spinner:shinyOffsetV": {
+         "@label": {
+            "string": "Vertical offset"
+         },
+         "@name": "shinyOffsetV"
+      },
+      "check_box:checkbox planar align": {
+         "@label": {
+            "string": "Align planar faces"
+         },
+         "@name": "checkbox planar align",
+         "@tool_tip": {
+            "string": "Align textures on all selected faces with the last selected face. Requires Planar texture mapping."
+         }
+      },
+      "#comment$56": " FS:Beq use Linden Lab control_name with FS control definition (also removes the typo in \"syncronize\" yay )",
+      "check_box:checkbox_sync_settings": {
+         "@label": {
+            "string": "Synchronize materials"
+         },
+         "@name": "checkbox_sync_settings",
+         "@tool_tip": {
+            "string": "Synchronize texture map parameters"
+         }
+      },
+      "button:button align textures": {
+         "@label": {
+            "string": "Align"
+         },
+         "@name": "button align textures",
+         "@tool_tip": {
+            "string": "Align current texture layers"
+         }
+      },
+      "button:copytextures": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "copytextures"
+      },
+      "button:pastetextures": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "pastetextures"
+      },
+      "web_browser:title_media": {
+         "@name": "title_media"
+      }
+   }
+}

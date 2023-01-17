@@ -1,0 +1,355 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Setup"
+      },
+      "@name": "Input panel",
+      "tab_container:tabs": {
+         "@name": "tabs",
+         "@label": {
+            "string": "Setup"
+         },
+         "panel:tab-conn": {
+            "@label": {
+               "string": "Connection"
+            },
+            "@name": "tab-conn",
+            "text:Maximum bandwidth": {
+               "@name": "Maximum bandwidth",
+               "#text": {
+                  "string": "\n      Maximum bandwidth ([https://wiki.firestormviewer.org/fs_speedtest need a suggestion?]):\n    "
+               }
+            },
+            "icon:NetworkLowGraphicsDivet": {
+               "@name": "NetworkLowGraphicsDivet"
+            },
+            "icon:NetworkMidGraphicsDivet": {
+               "@name": "NetworkMidGraphicsDivet"
+            },
+            "icon:NetworkHighGraphicsDivet": {
+               "@name": "NetworkHighGraphicsDivet"
+            },
+            "icon:NetworkLimitGraphicsDivet": {
+               "@name": "NetworkLimitGraphicsDivet"
+            },
+            "icon:NetworkScaleEndGraphicsDivet": {
+               "@name": "NetworkScaleEndGraphicsDivet"
+            },
+            "slider:max_bandwidth": {
+               "@name": "max_bandwidth"
+            },
+            "text:text_box2": {
+               "@name": "text_box2",
+               "#text": {
+                  "string": "\n      Kbps\n    "
+               }
+            },
+            "text:NetworkPrefText1": {
+               "@name": "NetworkPrefText1",
+               "#text": {
+                  "string": "\n      Wi-Fi\n    "
+               }
+            },
+            "text:NetworkPrefText2": {
+               "@name": "NetworkPrefText2",
+               "#text": {
+                  "string": "\n      DSL\n    "
+               }
+            },
+            "text:NetworkPrefText3": {
+               "@name": "NetworkPrefText3",
+               "#text": {
+                  "string": "\n      Cable\n    "
+               }
+            },
+            "text:NetworkPrefText4": {
+               "@name": "NetworkPrefText4",
+               "#text": {
+                  "string": "\n      May cause issues\n    "
+               }
+            },
+            "check_box:connection_port_enabled": {
+               "@label": {
+                  "string": "Custom port"
+               },
+               "@name": "connection_port_enabled",
+               "#comment": " check_box.commit_callback\n       function=\"Notification.Show\"\n       parameter=\"ChangeConnectionPort\" / "
+            },
+            "spinner:connection_port": {
+               "@label": {
+                  "string": "Port number:"
+               },
+               "@name": "connection_port"
+            },
+            "text:Web:": {
+               "@name": "Web:",
+               "#text": {
+                  "string": "\n      Web browser:\n    "
+               }
+            },
+            "radio_group:preferred_browser_behavior": {
+               "@name": "preferred_browser_behavior",
+               "radio_item:new_external": {
+                  "@label": {
+                     "string": "Use the default system browser for all links"
+                  },
+                  "@name": "new_external",
+                  "@tool_tip": {
+                     "string": "Use the default system web browser for help, web links, etc. Not recommended if running fullscreen."
+                  }
+               },
+               "radio_item:new_internal": {
+                  "@label": {
+                     "string": "Use the built-in browser for Second Life links only"
+                  },
+                  "@name": "new_internal",
+                  "@tool_tip": {
+                     "string": "Use the default system web browser for help, web links, etc. The built-in browser will be used only for LindenLab/SecondLife links."
+                  }
+               },
+               "radio_item:new_internal_all": {
+                  "@label": {
+                     "string": "Use the built-in browser for all links"
+                  },
+                  "@name": "new_internal_all"
+               }
+            },
+            "text:numberwebfloaters_label": {
+               "@name": "numberwebfloaters_label",
+               "#text": {
+                  "string": "\n      Maximum number of web browser windows:\n    "
+               }
+            },
+            "combo_box:web_number_combobox": {
+               "@tool_tip": {
+                  "string": "Maximum number of web brower windows that can be open at once in the Web content floater"
+               },
+               "@name": "web_number_combobox",
+               "combo_box.item:web_unlimited": {
+                  "@label": {
+                     "string": "Unlimited windows"
+                  },
+                  "@name": "web_unlimited"
+               },
+               "combo_box.item:web_1": {
+                  "@label": {
+                     "string": "One window"
+                  },
+                  "@name": "web_1"
+               },
+               "combo_box.item:web_5": {
+                  "@label": {
+                     "string": "Five windows"
+                  },
+                  "@name": "web_5"
+               },
+               "combo_box.item:web_10": {
+                  "@label": {
+                     "string": "Ten windows"
+                  },
+                  "@name": "web_10"
+               }
+            },
+            "button:ClearWebBrowserCache": {
+               "@label": {
+                  "string": "Clear Browser Cache"
+               },
+               "@name": "ClearWebBrowserCache",
+               "button.commit_callback": null
+            },
+            "check_box:browser_javascript_enabled": {
+               "@label": {
+                  "string": "Enable Javascript"
+               },
+               "@name": "browser_javascript_enabled",
+               "check_box.commit_callback": null
+            },
+            "check_box:media_popup_enabled": {
+               "@label": {
+                  "string": "Enable media browser pop-ups"
+               },
+               "@name": "media_popup_enabled"
+            },
+            "#comment": "\n    <button\n     label=\"Adjust proxy settings\"\n     follows=\"left|top\"\n     height=\"23\"\n     width=\"220\"\n     label_selected=\"Adjust proxy settings\"\n     layout=\"topleft\"\n     left=\"15\"\n     top_pad=\"5\"\n     name=\"set_proxy\">\n      <button.commit_callback\n        function=\"Pref.Proxy\" />\n    </button>\n    ",
+            "text:proxy_settings_label": {
+               "@name": "proxy_settings_label",
+               "#text": {
+                  "string": "\n       Your system's existing proxy settings will be used.\n    "
+               }
+            },
+            "text:home_page_label_l": {
+               "@name": "home_page_label_l",
+               "#text": {
+                  "string": "\n       Browser home page:\n    "
+               }
+            },
+            "line_editor:FSBrowserHomePage": {
+               "@name": "FSBrowserHomePage"
+            }
+         },
+         "panel:tab-dir": {
+            "@label": {
+               "string": "Directories"
+            },
+            "@name": "tab-dir",
+            "text:cache_size_label_l": {
+               "@name": "cache_size_label_l",
+               "#text": {
+                  "string": "\n       Texture Cache Size ([https://wiki.firestormviewer.org/cache need a suggestion?]):\n    "
+               }
+            },
+            "slider:cache_size": {
+               "@name": "cache_size"
+            },
+            "text:text_box5": {
+               "@name": "text_box5",
+               "#text": {
+                  "string": "\n      MB\n    "
+               }
+            },
+            "text:asset_cache_size_label_l": {
+               "@name": "asset_cache_size_label_l",
+               "#text": {
+                  "string": "\n       Asset Cache Size:\n    "
+               }
+            },
+            "slider:asset_cache_size": {
+               "@name": "asset_cache_size"
+            },
+            "text:asset_text_box5": {
+               "@name": "asset_text_box5",
+               "#text": {
+                  "string": "\n      MB\n    "
+               }
+            },
+            "button:ClearInventoryCache": {
+               "@label": {
+                  "string": "Clear Inventory Cache"
+               },
+               "@name": "ClearInventoryCache",
+               "button.commit_callback": null
+            },
+            "text:Cache location": {
+               "@name": "Cache location",
+               "#text": {
+                  "string": "\n      Cache location:\n    "
+               }
+            },
+            "line_editor:cache_location": {
+               "@name": "cache_location"
+            },
+            "button:open_cache": {
+               "@label": {
+                  "string": "Open"
+               },
+               "@name": "open_cache",
+               "button.commit_callback": null
+            },
+            "button:set_cache": {
+               "@label": {
+                  "string": "Set"
+               },
+               "@name": "set_cache",
+               "button.commit_callback": null
+            },
+            "button:reset_cache": {
+               "@label": {
+                  "string": "Reset"
+               },
+               "@name": "reset_cache",
+               "button.commit_callback": null
+            },
+            "button:clear_cache": {
+               "@label": {
+                  "string": "Clear Cache"
+               },
+               "@name": "clear_cache",
+               "button.commit_callback": null
+            },
+            "text:Sound Cache location": {
+               "@name": "Sound Cache location",
+               "#text": {
+                  "string": "\n      Sound Cache location:\n    "
+               }
+            },
+            "line_editor:FSSoundCacheLocation": {
+               "@name": "FSSoundCacheLocation"
+            },
+            "button:open_sound_cache": {
+               "@label": {
+                  "string": "Open"
+               },
+               "@name": "open_sound_cache",
+               "button.commit_callback": null
+            },
+            "button:set_sound_cache": {
+               "@label": {
+                  "string": "Set"
+               },
+               "@name": "set_sound_cache",
+               "button.commit_callback": null
+            },
+            "button:reset_sound_cache": {
+               "@label": {
+                  "string": "Reset"
+               },
+               "@name": "reset_sound_cache",
+               "button.commit_callback": null
+            },
+            "check_box:keep_unpacked_cache": {
+               "@label": {
+                  "string": "Don't delete unpacked DSF (sound) cache files when logging out"
+               },
+               "@tool_tip": {
+                  "string": "If checked, the viewer won't delete unpacked sound files from the cache when logging out, which may improve experience with playing inworld sounds. Please note: Enabling this will likely fill your cache directory very quickly, and does not adhere to the max cache setting. This may result in excessive disk space usage. Disabled by default."
+               },
+               "@name": "keep_unpacked_cache"
+            },
+            "text:log_path_desc": {
+               "@name": "log_path_desc",
+               "#text": {
+                  "string": "\n      Conversation logs and transcripts location:\n    "
+               }
+            },
+            "line_editor:log_path_string-panelsetup": {
+               "@name": "log_path_string-panelsetup"
+            },
+            "button:open_log_path_button-panelsetup": {
+               "@label": {
+                  "string": "Open"
+               },
+               "@name": "open_log_path_button-panelsetup",
+               "button.commit_callback": null
+            },
+            "button:log_path_button-panelsetup": {
+               "@label": {
+                  "string": "Set"
+               },
+               "@name": "log_path_button-panelsetup",
+               "button.commit_callback": null
+            },
+            "button:reset_logpath": {
+               "@label": {
+                  "string": "Reset"
+               },
+               "@name": "reset_logpath",
+               "button.commit_callback": null
+            },
+            "button:browse_crashlogs": {
+               "@label": {
+                  "string": "Open Viewer Logs"
+               },
+               "@name": "browse_crashlogs",
+               "button.commit_callback": null
+            },
+            "button:browse_settingsdir": {
+               "@label": {
+                  "string": "Open Settings folder"
+               },
+               "@name": "browse_settingsdir",
+               "button.commit_callback": null
+            }
+         }
+      }
+   }
+}

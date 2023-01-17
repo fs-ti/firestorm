@@ -1,0 +1,47 @@
+{
+   "panel": {
+      "@name": "script_experience",
+      "@title": {
+         "string": "Experience"
+      },
+      "#comment": " <floater.string name=\"EXPERIENCE\">EXPERIENCE!!!!</floater.string>\n \n  <floater.string name=\"Script:\">Script:</floater.string>\n  <floater.string name=\"Associated with:\">Associated with:</floater.string>\n  <floater.string name=\"You can contribute:\">You can contribute:</floater.string>\n  <floater.string name=\"Associate with:\">Associate with:</floater.string>\n  <floater.string name=\"Yes\">Yes</floater.string>\n  <floater.string name=\"No\">No</floater.string>\n  <floater.string name=\"(none)\"></floater.string>\n  <floater.string name=\"Choose Experience...\">Choose Experience...</floater.string>\n  <floater.string name=\"You are not a contributor to any experiences.\">You are not a contributor to any experiences.</floater.string>\n  ",
+      "button:Expand Experience": {
+         "@name": "Expand Experience",
+         "@label": {
+            "string": "Experience"
+         }
+      },
+      "check_box:enable_xp": {
+         "@label": {
+            "string": "Uses Experience"
+         },
+         "@name": "enable_xp"
+      },
+      "layout_stack:xp_details": {
+         "@name": "xp_details",
+         "layout_panel": {
+            "text": "\n        Script:\n      ",
+            "text$1": "\n        Associated with:\n      ",
+            "text$2": "\n        You can contribute:\n      ",
+            "text$3": "\n        Associate with:\n      "
+         },
+         "layout_panel$2": {
+            "text": "\n        EasySit Animator 1.2.4\n      ",
+            "text$1": "\n        Kyle's Superhero RPG\n      ",
+            "text$2": "\n        Yes\n      ",
+            "combo_box:Experiences...": {
+               "@label": {
+                  "string": "Choose Experience..."
+               },
+               "@name": "Experiences..."
+            }
+         }
+      },
+      "text:No Experiences": {
+         "@name": "No Experiences",
+         "#text": {
+            "string": "\n    You are not a contributor to any experiences.\n  "
+         }
+      }
+   }
+}

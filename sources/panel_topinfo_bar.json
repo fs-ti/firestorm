@@ -1,0 +1,41 @@
+{
+   "panel": {
+      "@name": "topinfo_bar",
+      "button:place_info_btn": {
+         "@name": "place_info_btn"
+      },
+      "text:parcel_info_text": {
+         "@name": "parcel_info_text",
+         "@value": {
+            "string": "(loading...)"
+         }
+      },
+      "icon:voice_icon": {
+         "@name": "voice_icon"
+      },
+      "icon:fly_icon": {
+         "@name": "fly_icon"
+      },
+      "icon:push_icon": {
+         "@name": "push_icon"
+      },
+      "icon:build_icon": {
+         "@name": "build_icon"
+      },
+      "icon:scripts_icon": {
+         "@name": "scripts_icon"
+      },
+      "icon:damage_icon": {
+         "@name": "damage_icon"
+      },
+      "icon:see_avatars_icon": {
+         "@name": "see_avatars_icon"
+      },
+      "text:damage_text": {
+         "@name": "damage_text",
+         "@value": {
+            "string": "100%"
+         }
+      }
+   }
+}

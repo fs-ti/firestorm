@@ -1,0 +1,71 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Skins"
+      },
+      "@name": "skin_panel",
+      "button:skin_preview": {
+         "@name": "skin_preview"
+      },
+      "text:skin_textbox": {
+         "@name": "skin_textbox",
+         "#text": {
+            "string": "\n        Skin:\n    "
+         }
+      },
+      "combo_box:skin_combobox": {
+         "@name": "skin_combobox"
+      },
+      "text:skin_textbox1": {
+         "@name": "skin_textbox1",
+         "#text": {
+            "string": "\n        (Requires restart)\n    "
+         }
+      },
+      "text:theme_textbox": {
+         "@name": "theme_textbox",
+         "#text": {
+            "string": "\n        Colour scheme:\n    "
+         }
+      },
+      "combo_box:theme_combobox": {
+         "@name": "theme_combobox"
+      },
+      "text:theme_textbox2": {
+         "@name": "theme_textbox2",
+         "#text": {
+            "string": "\n        (Requires restart)\n    "
+         }
+      },
+      "check_box:reset_toolbar_settings": {
+         "@label": {
+            "string": "Reset toolbars to the skin's preferred layout when changing skins."
+         },
+         "@tool_tip": {
+            "string": "When enabled, this option preserves the skin's designed toolbar button layout and will override your chosen button customisations when you change skins."
+         },
+         "@name": "reset_toolbar_settings"
+      },
+      "check_box:FSToolbarsResetOnModeChange": {
+         "@label": {
+            "string": "Reset toolbars to the login mode's preferred layout when changing login modes."
+         },
+         "@tool_tip": {
+            "string": "When enabled, this option preserves the login mode's designed toolbar button layout and will override your chosen button customisations when you change login mode."
+         },
+         "@name": "FSToolbarsResetOnModeChange"
+      },
+      "check_box:use_legacy_cursors": {
+         "@label": {
+            "string": "Use Viewer 1 style cursors"
+         },
+         "@name": "use_legacy_cursors"
+      },
+      "text:theme_textbox3": {
+         "@name": "theme_textbox3",
+         "#text": {
+            "string": "\n        (Requires restart)\n    "
+         }
+      }
+   }
+}

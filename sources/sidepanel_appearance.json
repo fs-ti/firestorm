@@ -1,0 +1,89 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Outfits"
+      },
+      "@name": "appearance panel",
+      "string:No Outfit": {
+         "@name": "No Outfit",
+         "@value": {
+            "string": "No Outfit"
+         }
+      },
+      "string:Unsaved Changes": {
+         "@name": "Unsaved Changes",
+         "@value": {
+            "string": "Unsaved changes"
+         }
+      },
+      "string:Now Wearing": {
+         "@name": "Now Wearing",
+         "@value": {
+            "string": "Now wearing..."
+         }
+      },
+      "string:Changing outfits": {
+         "@name": "Changing outfits",
+         "@value": {
+            "string": "Changing outfits"
+         }
+      },
+      "panel:panel_currentlook": {
+         "@name": "panel_currentlook",
+         "button:editappearance_btn": {
+            "@label": {
+               "string": "E"
+            },
+            "@name": "editappearance_btn"
+         },
+         "button:openoutfit_btn": {
+            "@label": {
+               "string": "O"
+            },
+            "@name": "openoutfit_btn"
+         },
+         "icon:outfit_icon": {
+            "@name": "outfit_icon"
+         },
+         "text:currentlook_status": {
+            "@name": "currentlook_status",
+            "#text": {
+               "string": "\n      (Status)\n      "
+            }
+         },
+         "text:currentlook_name": {
+            "@name": "currentlook_name",
+            "#text": {
+               "string": "\n      MyOutfit With a really Long Name like MOOSE\n      "
+            }
+         },
+         "button:edit_outfit_btn": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "edit_outfit_btn",
+            "@tool_tip": {
+               "string": "Edit this outfit"
+            }
+         },
+         "loading_indicator:wearables_loading_indicator": {
+            "@name": "wearables_loading_indicator"
+         }
+      },
+      "search_editor:Filter": {
+         "@label": {
+            "string": "Filter Outfits"
+         },
+         "@name": "Filter"
+      },
+      "panel:panel_outfits_inventory": {
+         "@name": "panel_outfits_inventory"
+      },
+      "panel:panel_outfit_edit": {
+         "@name": "panel_outfit_edit"
+      },
+      "panel:panel_edit_wearable": {
+         "@name": "panel_edit_wearable"
+      }
+   }
+}

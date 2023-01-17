@@ -1,0 +1,116 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Density"
+      },
+      "@name": "panel_settings_sky_density",
+      "layout_stack:main_ls": {
+         "@name": "main_ls",
+         "layout_panel:lp_1": {
+            "@name": "lp_1",
+            "slider:rayleigh_exponential": {
+               "@name": "rayleigh_exponential",
+               "@label": {
+                  "string": "Rayleigh Exponential Term:"
+               }
+            },
+            "slider:rayleigh_exponential_scale": {
+               "@name": "rayleigh_exponential_scale",
+               "@label": {
+                  "string": "Rayleigh Exponential Scale:"
+               }
+            },
+            "slider:rayleigh_linear": {
+               "@name": "rayleigh_linear",
+               "@label": {
+                  "string": "Rayleigh Linear Term:"
+               }
+            },
+            "slider:rayleigh_constant": {
+               "@name": "rayleigh_constant",
+               "@label": {
+                  "string": "Rayleigh Constant Term:"
+               }
+            },
+            "slider:rayleigh_max_altitude": {
+               "@name": "rayleigh_max_altitude",
+               "@label": {
+                  "string": "Rayleigh Max Altitude:"
+               }
+            }
+         },
+         "layout_panel:lp_2": {
+            "@name": "lp_2",
+            "slider:mie_exponential": {
+               "@name": "mie_exponential",
+               "@label": {
+                  "string": "Mie Exponential Term:"
+               }
+            },
+            "slider:mie_exponential_scale": {
+               "@name": "mie_exponential_scale",
+               "@label": {
+                  "string": "Mie Exponential Scale:"
+               }
+            },
+            "slider:mie_linear": {
+               "@name": "mie_linear",
+               "@label": {
+                  "string": "Mie Linear Term:"
+               }
+            },
+            "slider:mie_constant": {
+               "@name": "mie_constant",
+               "@label": {
+                  "string": "Mie Constant Term:"
+               }
+            },
+            "slider:mie_aniso_factor": {
+               "@name": "mie_aniso_factor",
+               "@label": {
+                  "string": "Mie Aniso Factor:"
+               }
+            },
+            "slider:mie_max_altitude": {
+               "@name": "mie_max_altitude",
+               "@label": {
+                  "string": "Mie Max Altitude:"
+               }
+            }
+         },
+         "layout_panel:lp_3": {
+            "@name": "lp_3",
+            "slider:absorption_exponential": {
+               "@name": "absorption_exponential",
+               "@label": {
+                  "string": "Absorption Exponential Term:"
+               }
+            },
+            "slider:absorption_exponential_scale": {
+               "@name": "absorption_exponential_scale",
+               "@label": {
+                  "string": "Absorption Exponential Scale:"
+               }
+            },
+            "slider:absorption_linear": {
+               "@name": "absorption_linear",
+               "@label": {
+                  "string": "Absorption Linear Term:"
+               }
+            },
+            "slider:absorption_constant": {
+               "@name": "absorption_constant",
+               "@label": {
+                  "string": "Absorption Constant Term:"
+               }
+            },
+            "slider:absorption_max_altitude": {
+               "@name": "absorption_max_altitude",
+               "@label": {
+                  "string": "Absorption Max Altitude:"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,168 @@
+{
+   "panel": {
+      "@name": "panel_snapshot_local",
+      "icon:title_icon": {
+         "@name": "title_icon"
+      },
+      "text:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n        Disk\n    "
+         }
+      },
+      "view_border:hr": {
+         "@name": "hr"
+      },
+      "combo_box:local_size_combo": {
+         "@label": {
+            "string": "Resolution"
+         },
+         "@name": "local_size_combo",
+         "combo_box.item:CurrentWindow": {
+            "@label": {
+               "string": "Current Window"
+            },
+            "@name": "CurrentWindow"
+         },
+         "combo_box.item:320x240": {
+            "@label": {
+               "string": "320x240"
+            },
+            "@name": "320x240"
+         },
+         "combo_box.item:640x480": {
+            "@label": {
+               "string": "640x480"
+            },
+            "@name": "640x480"
+         },
+         "combo_box.item:800x600": {
+            "@label": {
+               "string": "800x600"
+            },
+            "@name": "800x600"
+         },
+         "combo_box.item:1024x768": {
+            "@label": {
+               "string": "1024x768"
+            },
+            "@name": "1024x768"
+         },
+         "combo_box.item:1280x1024": {
+            "@label": {
+               "string": "1280x1024"
+            },
+            "@name": "1280x1024"
+         },
+         "combo_box.item:1600x1200": {
+            "@label": {
+               "string": "1600x1200"
+            },
+            "@name": "1600x1200"
+         },
+         "combo_box.item:Custom": {
+            "@label": {
+               "string": "Custom"
+            },
+            "@name": "Custom"
+         }
+      },
+      "spinner:local_snapshot_width": {
+         "@label": {
+            "string": "Width x Height"
+         },
+         "@name": "local_snapshot_width"
+      },
+      "spinner:local_snapshot_height": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "local_snapshot_height"
+      },
+      "check_box:local_keep_aspect_check": {
+         "@label": {
+            "string": "Constrain proportions"
+         },
+         "@name": "local_keep_aspect_check"
+      },
+      "text:local_format_label": {
+         "@name": "local_format_label",
+         "#text": {
+            "string": "\n         Format:\n     "
+         }
+      },
+      "combo_box:local_format_combo": {
+         "@label": {
+            "string": "Format"
+         },
+         "@name": "local_format_combo",
+         "combo_box.item:PNG": {
+            "@label": {
+               "string": "PNG (Lossless)"
+            },
+            "@name": "PNG"
+         },
+         "combo_box.item:JPEG": {
+            "@label": {
+               "string": "JPEG"
+            },
+            "@name": "JPEG"
+         },
+         "combo_box.item:BMP": {
+            "@label": {
+               "string": "BMP (Lossless)"
+            },
+            "@name": "BMP"
+         }
+      },
+      "slider:image_quality_slider": {
+         "@label": {
+            "string": "Quality:"
+         },
+         "@name": "image_quality_slider"
+      },
+      "check_box:local_remember_location_sessions": {
+         "@name": "local_remember_location_sessions"
+      },
+      "text:local_remember_location_sessions_text": {
+         "@name": "local_remember_location_sessions_text",
+         "#text": {
+            "string": "\n        Save location and filename between sessions\n    "
+         }
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "▶ Selection"
+         },
+         "@name": "cancel_btn",
+         "button.commit_callback": null
+      },
+      "flyout_button:save_btn": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save_btn",
+         "@tool_tip": {
+            "string": "Save image to a file"
+         },
+         "flyout_button.item:save_item": {
+            "@label": {
+               "string": "Save"
+            },
+            "@name": "save_item",
+            "@value": {
+               "string": "save"
+            }
+         },
+         "flyout_button.item:saveas_item": {
+            "@label": {
+               "string": "Save As..."
+            },
+            "@name": "saveas_item",
+            "@value": {
+               "string": "save as"
+            }
+         }
+      }
+   }
+}

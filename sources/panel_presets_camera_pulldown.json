@@ -1,0 +1,34 @@
+{
+   "panel": {
+      "@name": "presets_camera_pulldown",
+      "text:Camera Presets": {
+         "@name": "Camera Presets",
+         "#text": {
+            "string": "\n      Camera Presets\n  "
+         }
+      },
+      "scroll_list:preset_camera_list": {
+         "@name": "preset_camera_list",
+         "scroll_list.columns:icon": {
+            "@name": "icon"
+         },
+         "scroll_list.columns:preset_name": {
+            "@name": "preset_name"
+         },
+         "scroll_list.commit_callback": null
+      },
+      "view_border:horiz_separator": {
+         "@name": "horiz_separator"
+      },
+      "button:open_prefs_btn": {
+         "@name": "open_prefs_btn",
+         "@label": {
+            "string": "Open Camera Controls"
+         },
+         "@tool_tip": {
+            "string": "Bring up Camera Controls window"
+         },
+         "button.commit_callback": null
+      }
+   }
+}

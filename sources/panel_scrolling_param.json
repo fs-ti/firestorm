@@ -1,0 +1,41 @@
+{
+   "panel": {
+      "@name": "LLScrollingPanelParam",
+      "text:min param text": {
+         "@name": "min param text"
+      },
+      "text:max param text": {
+         "@name": "max param text"
+      },
+      "text:Loading...": {
+         "@name": "Loading...",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "text:Loading...2": {
+         "@name": "Loading...2",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "view_border:left_border": {
+         "@name": "left_border"
+      },
+      "view_border:right_border": {
+         "@name": "right_border"
+      },
+      "button:less": {
+         "@name": "less"
+      },
+      "button:more": {
+         "@name": "more"
+      },
+      "slider:param slider": {
+         "@label": {
+            "string": "[DESC]"
+         },
+         "@name": "param slider"
+      }
+   }
+}

@@ -1,0 +1,119 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Clouds"
+      },
+      "@name": "panel_settings_sky_clouds",
+      "layout_stack:main_ls": {
+         "@name": "main_ls",
+         "layout_panel:left_lp": {
+            "@name": "left_lp",
+            "text:cloud_coverage_label": {
+               "@name": "cloud_coverage_label",
+               "#text": {
+                  "string": "\n                Cloud Coverage:\n            "
+               }
+            },
+            "slider:cloud_coverage": {
+               "@name": "cloud_coverage"
+            },
+            "text:cloud_scale_label": {
+               "@name": "cloud_scale_label",
+               "#text": {
+                  "string": "\n                Cloud Scale:\n            "
+               }
+            },
+            "slider:cloud_scale": {
+               "@name": "cloud_scale"
+            },
+            "text:cloud_variance_label": {
+               "@name": "cloud_variance_label",
+               "#text": {
+                  "string": "\n                Cloud Variance:\n            "
+               }
+            },
+            "slider:cloud_variance": {
+               "@name": "cloud_variance"
+            },
+            "text:cloud_scroll_label": {
+               "@name": "cloud_scroll_label",
+               "#text": {
+                  "string": "\n                    Cloud Scroll:\n            "
+               }
+            },
+            "xy_vector:cloud_scroll_xy": {
+               "@name": "cloud_scroll_xy"
+            },
+            "text:cloud_image_label": {
+               "@name": "cloud_image_label",
+               "#text": {
+                  "string": "\n                    Cloud Image:\n                "
+               }
+            },
+            "texture_picker:cloud_map": {
+               "@name": "cloud_map"
+            },
+            "text:cloud_color_label": {
+               "@name": "cloud_color_label",
+               "#text": {
+                  "string": "\n                    Cloud Color:\n                "
+               }
+            },
+            "color_swatch:cloud_color": {
+               "@name": "cloud_color"
+            }
+         },
+         "layout_panel:right_lp": {
+            "@name": "right_lp",
+            "text:cloud_density_label": {
+               "@name": "cloud_density_label",
+               "#text": {
+                  "string": "\n                    Cloud Density:\n                "
+               }
+            },
+            "slider:cloud_density_x": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "cloud_density_x"
+            },
+            "slider:cloud_density_y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "cloud_density_y"
+            },
+            "slider:cloud_density_d": {
+               "@label": {
+                  "string": "D"
+               },
+               "@name": "cloud_density_d"
+            },
+            "text:cloud_detail_label": {
+               "@name": "cloud_detail_label",
+               "#text": {
+                  "string": "\n                Cloud Detail:\n            "
+               }
+            },
+            "slider:cloud_detail_x": {
+               "@label": {
+                  "string": "X"
+               },
+               "@name": "cloud_detail_x"
+            },
+            "slider:cloud_detail_y": {
+               "@label": {
+                  "string": "Y"
+               },
+               "@name": "cloud_detail_y"
+            },
+            "slider:cloud_detail_d": {
+               "@label": {
+                  "string": "D"
+               },
+               "@name": "cloud_detail_d"
+            }
+         }
+      }
+   }
+}

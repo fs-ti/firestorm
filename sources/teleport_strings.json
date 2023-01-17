@@ -1,0 +1,178 @@
+{
+   "teleport_messages": {
+      "message_set:errors": {
+         "@name": "errors",
+         "message:invalid_tport": {
+            "@name": "invalid_tport",
+            "#text": {
+               "string": "\n      Teleport attempts are limited to 6 per minute. If you are having trouble, wait one minute and try teleporting again. If the problem persists, log out and log in again.\n    "
+            }
+         },
+         "message:invalid_region_handoff": {
+            "@name": "invalid_region_handoff",
+            "#text": {
+               "string": "\n      Problem encountered processing your region crossing. You may need to log back in before you can cross regions.\nIf you continue to get this message, please check the [SUPPORT_SITE].\n    "
+            }
+         },
+         "message:blocked_tport": {
+            "@name": "blocked_tport",
+            "#text": {
+               "string": "\n      Sorry, teleport is currently blocked. Try again in a moment.\nIf you still cannot teleport, please log out and log back in to resolve the problem.\n    "
+            }
+         },
+         "message:nolandmark_tport": {
+            "@name": "nolandmark_tport",
+            "#text": {
+               "string": "\n      Sorry, but system was unable to locate landmark destination.\n    "
+            }
+         },
+         "message:timeout_tport": {
+            "@name": "timeout_tport",
+            "#text": {
+               "string": "\n      Sorry, but system was unable to complete the teleport connection.\nTry again in a moment.\n    "
+            }
+         },
+         "message:NoHelpIslandTP": {
+            "@name": "NoHelpIslandTP",
+            "#text": {
+               "string": "\nYou cannot teleport back to Welcome Island.\nGo to 'Welcome Island Public' to repeat the tutorial.\n    "
+            }
+         },
+         "message:noaccess_tport": {
+            "@name": "noaccess_tport",
+            "#text": {
+               "string": "\n      Sorry, you do not have access to that teleport destination.\n    "
+            }
+         },
+         "message:missing_attach_tport": {
+            "@name": "missing_attach_tport",
+            "#text": {
+               "string": "\n      Your attachments have not arrived yet. Try waiting for a few more seconds or log out and back in again before attempting to teleport.\n    "
+            }
+         },
+         "message:too_many_uploads_tport": {
+            "@name": "too_many_uploads_tport",
+            "#text": {
+               "string": "\n      The asset queue in this region is currently clogged so your teleport request will not be able to succeed in a timely manner. Please try again in a few minutes or go to a less busy area.\n    "
+            }
+         },
+         "message:expired_tport": {
+            "@name": "expired_tport",
+            "#text": {
+               "string": "\n      Sorry, but the system was unable to complete your teleport request in a timely fashion. Please try again in a few minutes.\n    "
+            }
+         },
+         "message:expired_region_handoff": {
+            "@name": "expired_region_handoff",
+            "#text": {
+               "string": "\n      Sorry, but the system was unable to complete your region crossing in a timely fashion. Please try again in a few minutes.\n    "
+            }
+         },
+         "message:preexisting_tport": {
+            "@name": "preexisting_tport",
+            "#text": {
+               "string": "\n      Sorry, but the system was unable to start your teleport. Please try again in a few minutes.\n    "
+            }
+         },
+         "message:no_host": {
+            "@name": "no_host",
+            "#text": {
+               "string": "\n      Unable to find teleport destination. The destination may be temporarily unavailable or no longer exists. Please try again in a few minutes.\n    "
+            }
+         },
+         "message:no_inventory_host": {
+            "@name": "no_inventory_host",
+            "#text": {
+               "string": "\n      The inventory system is currently unavailable.\n    "
+            }
+         },
+         "message:MustGetAgeRegion": {
+            "@name": "MustGetAgeRegion",
+            "#text": {
+               "string": "\n      You must be age 18 or over to enter this region.\n    "
+            }
+         },
+         "message:RegionTPSpecialUsageBlocked": {
+            "@name": "RegionTPSpecialUsageBlocked",
+            "#text": {
+               "string": "\n      Unable to enter region. '[REGION_NAME]' is a Skill Gaming Region, and you must meet certain criteria in order to enter. For details, please review the [http://wiki.secondlife.com/wiki/Linden_Lab_Official:Second_Life_Skill_Gaming_FAQ Skill Gaming FAQ].\n    "
+            }
+         }
+      },
+      "message_set:progress": {
+         "@name": "progress",
+         "message:sending_dest": {
+            "@name": "sending_dest",
+            "#text": {
+               "string": "\n      Sending to destination.\n    "
+            }
+         },
+         "message:redirecting": {
+            "@name": "redirecting",
+            "#text": {
+               "string": "\n      Redirecting to different location.\n    "
+            }
+         },
+         "message:relaying": {
+            "@name": "relaying",
+            "#text": {
+               "string": "\n      Relaying to destination.\n    "
+            }
+         },
+         "message:sending_home": {
+            "@name": "sending_home",
+            "#text": {
+               "string": "\n      Sending home location request.\n    "
+            }
+         },
+         "message:sending_landmark": {
+            "@name": "sending_landmark",
+            "#text": {
+               "string": "\n      Sending landmark location request.\n    "
+            }
+         },
+         "message:completing": {
+            "@name": "completing",
+            "#text": {
+               "string": "\n      Completing teleport.\n    "
+            }
+         },
+         "message:completed_from": {
+            "@name": "completed_from",
+            "#text": {
+               "string": "\n      Teleport completed from [T_SLURL]\n    "
+            }
+         },
+         "message:resolving": {
+            "@name": "resolving",
+            "#text": {
+               "string": "\n      Resolving destination.\n    "
+            }
+         },
+         "message:contacting": {
+            "@name": "contacting",
+            "#text": {
+               "string": "\n      Contacting new region.\n    "
+            }
+         },
+         "message:arriving": {
+            "@name": "arriving",
+            "#text": {
+               "string": "\n      Arriving...\n    "
+            }
+         },
+         "message:requesting": {
+            "@name": "requesting",
+            "#text": {
+               "string": "\n      Requesting Teleport...\n    "
+            }
+         },
+         "message:pending": {
+            "@name": "pending",
+            "#text": {
+               "string": "\n      Pending Teleport...\n    "
+            }
+         }
+      }
+   }
+}

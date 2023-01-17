@@ -1,0 +1,50 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Active RLV Locks"
+      },
+      "@name": "panel_rlvLocks",
+      "scroll_list:lock_list": {
+         "@name": "lock_list",
+         "scroll_list.columns:lock_type": {
+            "@label": {
+               "string": "Lock Type"
+            },
+            "@name": "lock_type"
+         },
+         "scroll_list.columns:lock_addrem": {
+            "@label": {
+               "string": "Method"
+            },
+            "@name": "lock_addrem"
+         },
+         "scroll_list.columns:lock_target": {
+            "@label": {
+               "string": "Target Object / Point"
+            },
+            "@name": "lock_target"
+         },
+         "scroll_list.columns:lock_origin": {
+            "@label": {
+               "string": "Lock Origin"
+            },
+            "@name": "lock_origin"
+         }
+      },
+      "panel:bottom_panel": {
+         "@label": {
+            "string": "bottom_panel"
+         },
+         "@name": "bottom_panel",
+         "button:refresh_btn": {
+            "@label": {
+               "string": "Refresh"
+            },
+            "@name": "refresh_btn"
+         },
+         "icon:dummy_icon": {
+            "@name": "dummy_icon"
+         }
+      }
+   }
+}

@@ -1,0 +1,164 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Sun & Moon"
+      },
+      "@name": "panel_settings_sky_hbodies",
+      "layout_stack:main_ls": {
+         "@name": "main_ls",
+         "layout_panel:sun_layout": {
+            "@name": "sun_layout",
+            "text:sun_stars_label": {
+               "@name": "sun_stars_label",
+               "#text": {
+                  "string": "\n                Sun &amp; Stars\n            "
+               }
+            },
+            "check_box:sunbeacon": {
+               "@label": {
+                  "string": "Show Beacon"
+               },
+               "@name": "sunbeacon"
+            },
+            "text:position_label": {
+               "@name": "position_label",
+               "#text": {
+                  "string": "\n                Position:\n            "
+               }
+            },
+            "sun_moon_trackball:sun_rotation": {
+               "@name": "sun_rotation"
+            },
+            "text:image_label": {
+               "@name": "image_label",
+               "#text": {
+                  "string": "\n                Image and scale:\n            "
+               }
+            },
+            "texture_picker:sun_image": {
+               "@name": "sun_image"
+            },
+            "slider_bar:sun_scale": {
+               "@name": "sun_scale"
+            },
+            "text:color_label": {
+               "@name": "color_label",
+               "#text": {
+                  "string": "\n                Color:\n            "
+               }
+            },
+            "color_swatch:sun_moon_color": {
+               "@name": "sun_moon_color"
+            },
+            "text:sun_azimuth_label": {
+               "@name": "sun_azimuth_label",
+               "#text": {
+                  "string": "\n            Azimuth:\n          "
+               }
+            },
+            "slider:sun_azimuth": {
+               "@name": "sun_azimuth"
+            },
+            "text:sun_elevation_label": {
+               "@name": "sun_elevation_label",
+               "#text": {
+                  "string": "\n            Elevation:\n          "
+               }
+            },
+            "slider:sun_elevation": {
+               "@name": "sun_elevation"
+            },
+            "text:glow_focus_label": {
+               "@name": "glow_focus_label",
+               "#text": {
+                  "string": "\n                Glow Focus:\n            "
+               }
+            },
+            "slider:glow_focus": {
+               "@name": "glow_focus"
+            },
+            "text:glow_size_label": {
+               "@name": "glow_size_label",
+               "#text": {
+                  "string": "\n                Glow Size:\n            "
+               }
+            },
+            "slider:glow_size": {
+               "@name": "glow_size"
+            },
+            "text:star_brightness_label": {
+               "@name": "star_brightness_label",
+               "#text": {
+                  "string": "\n                Star Brightness:\n            "
+               }
+            },
+            "slider:star_brightness": {
+               "@name": "star_brightness"
+            }
+         },
+         "layout_panel:moon_layout": {
+            "@name": "moon_layout",
+            "text:moon_label": {
+               "@name": "moon_label",
+               "#text": {
+                  "string": "\n                Moon\n                "
+               }
+            },
+            "check_box:moonbeacon": {
+               "@label": {
+                  "string": "Show Beacon"
+               },
+               "@name": "moonbeacon"
+            },
+            "text:position_label": {
+               "@name": "position_label",
+               "#text": {
+                  "string": "\n                Position:\n                "
+               }
+            },
+            "sun_moon_trackball:moon_rotation": {
+               "@name": "moon_rotation"
+            },
+            "text:moon_image_label": {
+               "@name": "moon_image_label",
+               "#text": {
+                  "string": "\n                        Image and scale:\n                    "
+               }
+            },
+            "texture_picker:moon_image": {
+               "@name": "moon_image"
+            },
+            "slider_bar:moon_scale": {
+               "@name": "moon_scale"
+            },
+            "text:moon_azimuth_label": {
+               "@name": "moon_azimuth_label",
+               "#text": {
+                  "string": "\n                    Azimuth:\n                  "
+               }
+            },
+            "slider:moon_azimuth": {
+               "@name": "moon_azimuth"
+            },
+            "text:moon_elevation_label": {
+               "@name": "moon_elevation_label",
+               "#text": {
+                  "string": "\n                    Elevation:\n                  "
+               }
+            },
+            "slider:moon_elevation": {
+               "@name": "moon_elevation"
+            },
+            "text:brightness_label": {
+               "@name": "brightness_label",
+               "#text": {
+                  "string": "\n                    Brightness:\n                  "
+               }
+            },
+            "slider:moon_brightness": {
+               "@name": "moon_brightness"
+            }
+         }
+      }
+   }
+}

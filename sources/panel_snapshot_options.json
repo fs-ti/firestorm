@@ -1,0 +1,64 @@
+{
+   "panel": {
+      "@name": "panel_snapshot_options",
+      "layout_stack:option_buttons": {
+         "@name": "option_buttons",
+         "layout_panel:lp_download": {
+            "@name": "lp_download",
+            "button:save_to_computer_btn": {
+               "@label": {
+                  "string": "Save to Disk"
+               },
+               "@name": "save_to_computer_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:lp_inventory": {
+            "@name": "lp_inventory",
+            "button:save_to_inventory_btn": {
+               "@label": {
+                  "string": "Save to Inventory (L$[AMOUNT])"
+               },
+               "@name": "save_to_inventory_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:lp_profile": {
+            "@name": "lp_profile",
+            "button:save_to_profile_btn": {
+               "@label": {
+                  "string": "Share to Profile Feed"
+               },
+               "@name": "save_to_profile_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:lp_flickr": {
+            "@name": "lp_flickr",
+            "button:send_to_flickr_btn": {
+               "@label": {
+                  "string": "Share to Flickr"
+               },
+               "@name": "send_to_flickr_btn",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:lp_email": {
+            "@name": "lp_email",
+            "button:save_to_email_btn": {
+               "@label": {
+                  "string": "Send via E-mail"
+               },
+               "@name": "save_to_email_btn",
+               "button.commit_callback": null
+            }
+         }
+      },
+      "text:fee_hint_lbl": {
+         "@name": "fee_hint_lbl",
+         "#text": {
+            "string": "\n    Fee is based on your subscription level. Higher levels are charged lower fees.\n  "
+         }
+      }
+   }
+}

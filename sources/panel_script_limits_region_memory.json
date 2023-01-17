@@ -1,0 +1,86 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Region Memory"
+      },
+      "@name": "script_limits_region_memory_panel",
+      "text:script_memory": {
+         "@name": "script_memory",
+         "#text": {
+            "string": "\n     Parcel Script Memory\n  "
+         }
+      },
+      "text:parcels_listed": {
+         "@name": "parcels_listed"
+      },
+      "text:memory_used": {
+         "@name": "memory_used"
+      },
+      "text:urls_used": {
+         "@name": "urls_used"
+      },
+      "text:loading_text": {
+         "@name": "loading_text",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "scroll_list:scripts_list": {
+         "@name": "scripts_list",
+         "scroll_list.columns:size": {
+            "@label": {
+               "string": "Size (kb)"
+            },
+            "@name": "size"
+         },
+         "scroll_list.columns:urls": {
+            "@label": {
+               "string": "URLs"
+            },
+            "@name": "urls"
+         },
+         "scroll_list.columns:name": {
+            "@label": {
+               "string": "Object Name"
+            },
+            "@name": "name"
+         },
+         "scroll_list.columns:owner": {
+            "@label": {
+               "string": "Object Owner"
+            },
+            "@name": "owner"
+         },
+         "scroll_list.columns:parcel": {
+            "@label": {
+               "string": "Parcel"
+            },
+            "@name": "parcel"
+         },
+         "scroll_list.columns:location": {
+            "@label": {
+               "string": "Location"
+            },
+            "@name": "location"
+         }
+      },
+      "button:refresh_list_btn": {
+         "@label": {
+            "string": "Refresh List"
+         },
+         "@name": "refresh_list_btn"
+      },
+      "button:return_btn": {
+         "@label": {
+            "string": "Return"
+         },
+         "@name": "return_btn"
+      },
+      "button:highlight_btn": {
+         "@label": {
+            "string": "Highlight"
+         },
+         "@name": "highlight_btn"
+      }
+   }
+}

@@ -1,0 +1,215 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Opensim"
+      },
+      "@name": "opensim_panel",
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Opensim"
+         },
+         "@name": "tabs",
+         "panel:grid_management_panel": {
+            "@label": {
+               "string": "Grid Manager"
+            },
+            "@name": "grid_management_panel",
+            "text:add_grid_text": {
+               "@name": "add_grid_text",
+               "#text": {
+                  "string": "\n      Manage Grids\n    "
+               }
+            },
+            "line_editor:add_grid": {
+               "@name": "add_grid",
+               "@label": {
+                  "string": "Enter a LoginURI"
+               }
+            },
+            "button:clear_grid": {
+               "@label": {
+                  "string": "Clear"
+               },
+               "@name": "clear_grid",
+               "button.commit_callback": null
+            },
+            "button:apply_new_grid": {
+               "@label": {
+                  "string": "Apply"
+               },
+               "@name": "apply_new_grid",
+               "button.commit_callback": null
+            },
+            "scroll_list:grid_list": {
+               "@name": "grid_list",
+               "scroll_list.columns:grid_label": {
+                  "@label": {
+                     "string": "Grid name"
+                  },
+                  "@name": "grid_label"
+               },
+               "scroll_list.columns:login_uri": {
+                  "@label": {
+                     "string": "Login URI"
+                  },
+                  "@name": "login_uri"
+               }
+            },
+            "button:refresh_grid": {
+               "@label": {
+                  "string": "Refresh"
+               },
+               "@name": "refresh_grid",
+               "button.commit_callback": null
+            },
+            "button:remove_grid": {
+               "@label": {
+                  "string": "Remove"
+               },
+               "@name": "remove_grid",
+               "button.commit_callback": null
+            },
+            "panel:advanced_grid_panel": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "advanced_grid_panel",
+               "text:grid_name_text": {
+                  "@name": "grid_name_text",
+                  "#text": {
+                     "string": "\n        Grid Name:\n      "
+                  }
+               },
+               "line_editor:name_edit": {
+                  "@name": "name_edit"
+               },
+               "check_box:enable_lock": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "enable_lock"
+               },
+               "icon:lock": {
+                  "@name": "lock"
+               },
+               "text:grid_uri_text": {
+                  "@name": "grid_uri_text",
+                  "#text": {
+                     "string": "\n        Grid URI:\n      "
+                  }
+               },
+               "line_editor:grid_uri_edit": {
+                  "@name": "grid_uri_edit"
+               },
+               "text:login_page_text": {
+                  "@name": "login_page_text",
+                  "#text": {
+                     "string": "\n        Login Page:\n      "
+                  }
+               },
+               "line_editor:login_page_edit": {
+                  "@name": "login_page_edit"
+               },
+               "text:helper_uri_text": {
+                  "@name": "helper_uri_text",
+                  "#text": {
+                     "string": "\n        Helper URI:\n      "
+                  }
+               },
+               "line_editor:helper_uri_edit": {
+                  "@name": "helper_uri_edit"
+               },
+               "text:website_text": {
+                  "@name": "website_text",
+                  "#text": {
+                     "string": "\n        Grid Website:\n      "
+                  }
+               },
+               "line_editor:website_edit": {
+                  "@name": "website_edit"
+               },
+               "text:support_text": {
+                  "@name": "support_text",
+                  "#text": {
+                     "string": "\n        Grid Support:\n      "
+                  }
+               },
+               "line_editor:support_edit": {
+                  "@name": "support_edit"
+               },
+               "text:register_text": {
+                  "@name": "register_text",
+                  "#text": {
+                     "string": "\n        Grid Registration:\n      "
+                  }
+               },
+               "line_editor:register_edit": {
+                  "@name": "register_edit"
+               },
+               "text:password_text": {
+                  "@name": "password_text",
+                  "#text": {
+                     "string": "\n        Grid Password URI:\n      "
+                  }
+               },
+               "line_editor:password_edit": {
+                  "@name": "password_edit"
+               },
+               "text:search_text": {
+                  "@name": "search_text",
+                  "#text": {
+                     "string": "\n        Grid Search:\n      "
+                  }
+               },
+               "line_editor:search_edit": {
+                  "@name": "search_edit"
+               },
+               "text:message_text": {
+                  "@name": "message_text",
+                  "#text": {
+                     "string": "\n        Grid Message URI:\n      "
+                  }
+               },
+               "line_editor:message_edit": {
+                  "@name": "message_edit"
+               }
+            }
+         },
+         "panel:opensim_misc_panel": {
+            "@label": {
+               "string": "Miscellaneous"
+            },
+            "@name": "opensim_misc_panel",
+            "check_box:DebugSearch": {
+               "@label": {
+                  "string": "Debug Search"
+               },
+               "@name": "DebugSearch"
+            },
+            "text:search_url_debug_text": {
+               "@name": "search_url_debug_text",
+               "#text": {
+                  "string": "\n      Override current search url: (no override if empty)\n    "
+               }
+            },
+            "line_editor:search_url_debug": {
+               "@name": "search_url_debug"
+            },
+            "button:clear_search_url_debug": {
+               "@label": {
+                  "string": "Clear"
+               },
+               "@name": "clear_search_url_debug",
+               "button.commit_callback": null
+            },
+            "button:pick_current_search_url": {
+               "@label": {
+                  "string": "Pick"
+               },
+               "@name": "pick_current_search_url",
+               "button.commit_callback": null
+            }
+         }
+      }
+   }
+}

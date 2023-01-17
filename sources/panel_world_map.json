@@ -1,0 +1,149 @@
+{
+   "panel": {
+      "@name": "world_map",
+      "panel.string:Loading": {
+         "@name": "Loading",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "panel.string:InvalidLocation": {
+         "@name": "InvalidLocation",
+         "#text": {
+            "string": "\n        Invalid Location\n    "
+         }
+      },
+      "panel.string:world_map_north": {
+         "@name": "world_map_north",
+         "#text": {
+            "string": "\n        N\n    "
+         }
+      },
+      "panel.string:world_map_east": {
+         "@name": "world_map_east",
+         "#text": {
+            "string": "\n        E\n    "
+         }
+      },
+      "panel.string:world_map_west": {
+         "@name": "world_map_west",
+         "#text": {
+            "string": "\n        W\n    "
+         }
+      },
+      "panel.string:world_map_south": {
+         "@name": "world_map_south",
+         "#text": {
+            "string": "\n        S\n    "
+         }
+      },
+      "panel.string:world_map_southeast": {
+         "@name": "world_map_southeast",
+         "#text": {
+            "string": "\n        SE\n    "
+         }
+      },
+      "panel.string:world_map_northeast": {
+         "@name": "world_map_northeast",
+         "#text": {
+            "string": "\n        NE\n    "
+         }
+      },
+      "panel.string:world_map_southwest": {
+         "@name": "world_map_southwest",
+         "#text": {
+            "string": "\n        SW\n    "
+         }
+      },
+      "panel.string:world_map_northwest": {
+         "@name": "world_map_northwest",
+         "#text": {
+            "string": "\n        NW\n    "
+         }
+      },
+      "panel.string:world_map_person": {
+         "@name": "world_map_person",
+         "#text": {
+            "string": "\n        1 person\n    "
+         }
+      },
+      "panel.string:world_map_people": {
+         "@name": "world_map_people",
+         "#text": {
+            "string": "\n        [NUMBER] people\n    "
+         }
+      },
+      "text:floater_map_north": {
+         "@label": {
+            "string": "N"
+         },
+         "@name": "floater_map_north",
+         "#text": {
+            "string": "\n        N\n    "
+         }
+      },
+      "text:floater_map_east": {
+         "@label": {
+            "string": "E"
+         },
+         "@name": "floater_map_east",
+         "#text": {
+            "string": "\n        E\n    "
+         }
+      },
+      "text:floater_map_west": {
+         "@label": {
+            "string": "W"
+         },
+         "@name": "floater_map_west",
+         "#text": {
+            "string": "\n        W\n    "
+         }
+      },
+      "text:floater_map_south": {
+         "@label": {
+            "string": "S"
+         },
+         "@name": "floater_map_south",
+         "#text": {
+            "string": "\n        S\n    "
+         }
+      },
+      "text:floater_map_southeast": {
+         "@label": {
+            "string": "SE"
+         },
+         "@name": "floater_map_southeast",
+         "#text": {
+            "string": "\n        SE\n    "
+         }
+      },
+      "text:floater_map_northeast": {
+         "@label": {
+            "string": "NE"
+         },
+         "@name": "floater_map_northeast",
+         "#text": {
+            "string": "\n        NE\n    "
+         }
+      },
+      "text:floater_map_southwest": {
+         "@label": {
+            "string": "SW"
+         },
+         "@name": "floater_map_southwest",
+         "#text": {
+            "string": "\n        SW\n    "
+         }
+      },
+      "text:floater_map_northwest": {
+         "@label": {
+            "string": "NW"
+         },
+         "@name": "floater_map_northwest",
+         "#text": {
+            "string": "\n        NW\n    "
+         }
+      }
+   }
+}

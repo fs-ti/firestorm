@@ -1,0 +1,161 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Water"
+      },
+      "@name": "panel_settings_water",
+      "layout_stack:water_stack1": {
+         "@name": "water_stack1",
+         "layout_panel:lp_top": {
+            "@name": "lp_top",
+            "text:water_fog_label": {
+               "@name": "water_fog_label",
+               "#text": {
+                  "string": "\n                Water Fog:\n            "
+               }
+            },
+            "text:color_label": {
+               "@name": "color_label",
+               "#text": {
+                  "string": "\n                Color:\n            "
+               }
+            },
+            "color_swatch:water_fog_color": {
+               "@name": "water_fog_color"
+            },
+            "text:density_exponent_label": {
+               "@name": "density_exponent_label",
+               "#text": {
+                  "string": "\n                Density Exponent:\n            "
+               }
+            },
+            "slider:water_fog_density": {
+               "@name": "water_fog_density"
+            },
+            "text:underwater_modifier_label": {
+               "@name": "underwater_modifier_label",
+               "#text": {
+                  "string": "\n                Underwater Modifier:"
+               }
+            },
+            "slider:water_underwater_mod": {
+               "@name": "water_underwater_mod"
+            },
+            "text:FresnelScaleText": {
+               "@name": "FresnelScaleText",
+               "#text": {
+                  "string": "\n                        Fresnel Scale:\n                    "
+               }
+            },
+            "slider:water_fresnel_scale": {
+               "@name": "water_fresnel_scale"
+            },
+            "text:FresnelOffsetText": {
+               "@name": "FresnelOffsetText",
+               "#text": {
+                  "string": "\n                        Fresnel Offset:\n                    "
+               }
+            },
+            "slider:water_fresnel_offset": {
+               "@name": "water_fresnel_offset"
+            }
+         },
+         "layout_panel:lp_bottom": {
+            "@name": "lp_bottom",
+            "layout_stack:water_stack2": {
+               "@name": "water_stack2",
+               "layout_panel:lp_left": {
+                  "@name": "lp_left",
+                  "text:normal_map_label": {
+                     "@name": "normal_map_label",
+                     "#text": {
+                        "string": "\n                        Normal Map\n                    "
+                     }
+                  },
+                  "texture_picker:water_normal_map": {
+                     "@name": "water_normal_map"
+                  },
+                  "text:large_wave_speed_label": {
+                     "@name": "large_wave_speed_label",
+                     "#text": {
+                        "string": "\n                        Large Wave Speed\n                    "
+                     }
+                  },
+                  "xy_vector:water_wave1_xy": {
+                     "@name": "water_wave1_xy"
+                  },
+                  "text:small_wave_speed_label": {
+                     "@name": "small_wave_speed_label",
+                     "#text": {
+                        "string": "\n                        Small Wave Speed\n                    "
+                     }
+                  },
+                  "xy_vector:water_wave2_xy": {
+                     "@name": "water_wave2_xy"
+                  },
+                  "text:reflection_wavelet_scale_label": {
+                     "@name": "reflection_wavelet_scale_label",
+                     "#text": {
+                        "string": "\n                        Reflection Wavelet Scale\n                    "
+                     }
+                  },
+                  "slider:water_normal_scale_x": {
+                     "@label": {
+                        "string": "X:"
+                     },
+                     "@name": "water_normal_scale_x"
+                  },
+                  "slider:water_normal_scale_y": {
+                     "@name": "water_normal_scale_y",
+                     "@label": {
+                        "string": "Y:"
+                     }
+                  },
+                  "slider:water_normal_scale_z": {
+                     "@name": "water_normal_scale_z",
+                     "@label": {
+                        "string": "Z:"
+                     }
+                  }
+               },
+               "layout_panel:lp_right": {
+                  "@name": "lp_right",
+                  "text:refraction_and_blur_label": {
+                     "@name": "refraction_and_blur_label",
+                     "#text": {
+                        "string": "\n                        Refraction And Blur:\n                    "
+                     }
+                  },
+                  "text:refraction_scale_above_label": {
+                     "@name": "refraction_scale_above_label",
+                     "#text": {
+                        "string": "\n                        Refraction Scale (Above)\n                    "
+                     }
+                  },
+                  "slider:water_scale_above": {
+                     "@name": "water_scale_above"
+                  },
+                  "text:refraction_scale_below_label": {
+                     "@name": "refraction_scale_below_label",
+                     "#text": {
+                        "string": "\n                        Refraction Scale (Below)\n                    "
+                     }
+                  },
+                  "slider:water_scale_below": {
+                     "@name": "water_scale_below"
+                  },
+                  "text:blur_multiplier_label": {
+                     "@name": "blur_multiplier_label",
+                     "#text": {
+                        "string": "\n                        Blur Multiplier\n                    "
+                     }
+                  },
+                  "slider:water_blur_multip": {
+                     "@name": "water_blur_multip"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,220 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Region"
+      },
+      "@name": "General",
+      "text:region_text_lbl": {
+         "@name": "region_text_lbl",
+         "#text": {
+            "string": "\n        Region:\n    "
+         }
+      },
+      "text:region_text": {
+         "@name": "region_text",
+         "#text": {
+            "string": "\n        unknown\n    "
+         }
+      },
+      "text:estate_id_lbl": {
+         "@name": "estate_id_lbl",
+         "#text": {
+            "string": "\n        Estate ID:\n    "
+         }
+      },
+      "line_editor:estate_id": {
+         "@name": "estate_id"
+      },
+      "text:region_type_lbl": {
+         "@name": "region_type_lbl",
+         "#text": {
+            "string": "\n        Type:\n    "
+         }
+      },
+      "text:region_type": {
+         "@name": "region_type",
+         "#text": {
+            "string": "\n        unknown\n    "
+         }
+      },
+      "text:grid_position_lbl": {
+         "@name": "grid_position_lbl",
+         "#text": {
+            "string": "\n        Grid Position:\n    "
+         }
+      },
+      "line_editor:grid_position_x": {
+         "@name": "grid_position_x"
+      },
+      "line_editor:grid_position_y": {
+         "@name": "grid_position_y"
+      },
+      "text:version_channel_text_lbl": {
+         "@name": "version_channel_text_lbl",
+         "#text": {
+            "string": "\n        Version:\n    "
+         }
+      },
+      "text:version_channel_text": {
+         "@name": "version_channel_text",
+         "#text": {
+            "string": "\n        unknown\n    "
+         }
+      },
+      "check_box:block_terraform_check": {
+         "@label": {
+            "string": "Block Terraform"
+         },
+         "@name": "block_terraform_check"
+      },
+      "check_box:block_fly_check": {
+         "@label": {
+            "string": "Block Fly"
+         },
+         "@name": "block_fly_check"
+      },
+      "check_box:block_fly_over_check": {
+         "@label": {
+            "string": "Block Parcel Fly Over"
+         },
+         "@name": "block_fly_over_check",
+         "@tool_tip": {
+            "string": "Extend access checks upwards to prevent flying over a parcel"
+         }
+      },
+      "check_box:allow_damage_check": {
+         "@label": {
+            "string": "Allow Damage"
+         },
+         "@name": "allow_damage_check"
+      },
+      "check_box:restrict_pushobject": {
+         "@label": {
+            "string": "Restrict Pushing"
+         },
+         "@name": "restrict_pushobject"
+      },
+      "check_box:allow_land_resell_check": {
+         "@label": {
+            "string": "Allow Land Resell"
+         },
+         "@name": "allow_land_resell_check"
+      },
+      "check_box:allow_parcel_changes_check": {
+         "@label": {
+            "string": "Allow Land Join/Divide"
+         },
+         "@name": "allow_parcel_changes_check"
+      },
+      "check_box:block_parcel_search_check": {
+         "@label": {
+            "string": "Block Land Show in Search"
+         },
+         "@name": "block_parcel_search_check",
+         "@tool_tip": {
+            "string": "Let people see this region and its parcels in search results"
+         }
+      },
+      "spinner:agent_limit_spin": {
+         "@label": {
+            "string": "Agent Limit"
+         },
+         "@name": "agent_limit_spin"
+      },
+      "spinner:object_bonus_spin": {
+         "@label": {
+            "string": "Object Bonus"
+         },
+         "@name": "object_bonus_spin"
+      },
+      "text:access_text": {
+         "@label": {
+            "string": "Maturity"
+         },
+         "@name": "access_text",
+         "#text": {
+            "string": "\n        Rating:\n    "
+         }
+      },
+      "icons_combo_box:access_combo": {
+         "@label": {
+            "string": "Moderate"
+         },
+         "@name": "access_combo",
+         "icons_combo_box.drop_down_button": null,
+         "icons_combo_box.item:Adult": {
+            "@label": {
+               "string": "Adult"
+            },
+            "@name": "Adult",
+            "@value": {
+               "string": "42"
+            },
+            "item.columns": {
+               "@value": {
+                  "string": "Parcel_R_Light"
+               }
+            }
+         },
+         "icons_combo_box.item:Mature": {
+            "@label": {
+               "string": "Moderate"
+            },
+            "@name": "Mature",
+            "@value": {
+               "string": "21"
+            },
+            "item.columns": {
+               "@value": {
+                  "string": "Parcel_M_Light"
+               }
+            }
+         },
+         "icons_combo_box.item:PG": {
+            "@label": {
+               "string": "General"
+            },
+            "@name": "PG",
+            "@value": {
+               "string": "13"
+            },
+            "item.columns": {
+               "@value": {
+                  "string": "Parcel_PG_Light"
+               }
+            }
+         }
+      },
+      "button:apply_btn": {
+         "@label": {
+            "string": "Apply"
+         },
+         "@name": "apply_btn"
+      },
+      "button:kick_btn": {
+         "@label": {
+            "string": "Teleport Home One Resident..."
+         },
+         "@name": "kick_btn"
+      },
+      "button:kick_all_btn": {
+         "@label": {
+            "string": "Teleport Home All Residents..."
+         },
+         "@name": "kick_all_btn"
+      },
+      "button:im_btn": {
+         "@label": {
+            "string": "Send Message To Region..."
+         },
+         "@name": "im_btn"
+      },
+      "button:manage_telehub_btn": {
+         "@label": {
+            "string": "Manage Telehub..."
+         },
+         "@name": "manage_telehub_btn",
+         "button.commit_callback": null
+      }
+   }
+}

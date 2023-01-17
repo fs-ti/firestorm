@@ -1,0 +1,95 @@
+{
+   "layout_panel": {
+      "@name": "option_layout_panel",
+      "#comment": " border parameters decide how the selection looks while editing ",
+      "panel:option_ordering_panel": {
+         "@name": "option_ordering_panel",
+         "layout_stack:option_inner_stack": {
+            "@name": "option_inner_stack",
+            "layout_panel:option_panel_updown": {
+               "@name": "option_panel_updown",
+               "button:remove_button": {
+                  "@name": "remove_button",
+                  "@tool_tip": {
+                     "string": "Remove this control"
+                  },
+                  "@label": {
+                     "string": ""
+                  }
+               }
+            },
+            "layout_panel:text_panel": {
+               "@name": "text_panel",
+               "text:option_label": {
+                  "@name": "option_label",
+                  "#text": {
+                     "string": "\nControl Label:\n"
+                  }
+               }
+            },
+            "layout_panel:option_panel": {
+               "@name": "option_panel",
+               "#comment": " one of these controls will be chosen by the user, all others remain hidden ",
+               "check_box:option_checkbox_control": {
+                  "@name": "option_checkbox_control",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "line_editor:option_text_control": {
+                  "@name": "option_text_control"
+               },
+               "spinner:option_spinner_control": {
+                  "@name": "option_spinner_control",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "slider:option_slider_control": {
+                  "@name": "option_slider_control",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "radio_group:option_radio_control": {
+                  "@name": "option_radio_control",
+                  "@label": {
+                     "string": ""
+                  },
+                  "radio_item:on": {
+                     "@name": "on",
+                     "@label": {
+                        "string": "On"
+                     }
+                  },
+                  "radio_item:off": {
+                     "@name": "off",
+                     "@label": {
+                        "string": "Off"
+                     }
+                  }
+               },
+               "color_swatch:option_color3_control": {
+                  "@name": "option_color3_control",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "color_swatch:option_color4_control": {
+                  "@name": "option_color4_control",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "spinner:option_color_alpha_control": {
+                  "@name": "option_color_alpha_control",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "#comment$10": " one of these controls will be chosen by the user, all others remain hidden "
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,134 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Atmosphere & Lighting"
+      },
+      "@name": "panel_settings_sky_atmos",
+      "layout_stack:main_ls": {
+         "@name": "main_ls",
+         "layout_panel:top_lp": {
+            "@name": "top_lp",
+            "text:ambient_color_label": {
+               "@name": "ambient_color_label",
+               "#text": {
+                  "string": "\n                Ambient Color:\n            "
+               }
+            },
+            "color_swatch:ambient_light": {
+               "@name": "ambient_light"
+            },
+            "text:blue_horizon_label": {
+               "@name": "blue_horizon_label",
+               "#text": {
+                  "string": "\n                Blue Horizon:\n            "
+               }
+            },
+            "color_swatch:blue_horizon": {
+               "@name": "blue_horizon"
+            },
+            "text:blue_density_label": {
+               "@name": "blue_density_label",
+               "#text": {
+                  "string": "\n                Blue Density:\n            "
+               }
+            },
+            "color_swatch:blue_density": {
+               "@name": "blue_density"
+            }
+         },
+         "layout_panel:bottom_lp": {
+            "@name": "bottom_lp",
+            "layout_stack:atmosphere1": {
+               "@name": "atmosphere1",
+               "layout_panel:left_lp": {
+                  "@name": "left_lp",
+                  "text:haze_horizon_label": {
+                     "@name": "haze_horizon_label",
+                     "#text": {
+                        "string": "\n                        Haze Horizon:\n                    "
+                     }
+                  },
+                  "slider:haze_horizon": {
+                     "@name": "haze_horizon"
+                  },
+                  "text:haze_density_label": {
+                     "@name": "haze_density_label",
+                     "#text": {
+                        "string": "\n                        Haze Density:\n                    "
+                     }
+                  },
+                  "slider:haze_density": {
+                     "@name": "haze_density"
+                  },
+                  "text:moisture_level_label": {
+                     "@name": "moisture_level_label",
+                     "#text": {
+                        "string": "\n                        Moisture Level:\n                    "
+                     }
+                  },
+                  "slider:moisture_level": {
+                     "@name": "moisture_level"
+                  },
+                  "text:droplet_radius_label": {
+                     "@name": "droplet_radius_label",
+                     "#text": {
+                        "string": "\n                        Droplet Radius:\n                    "
+                     }
+                  },
+                  "slider:droplet_radius": {
+                     "@name": "droplet_radius"
+                  },
+                  "text:ice_level_label": {
+                     "@name": "ice_level_label",
+                     "#text": {
+                        "string": "\n                        Ice Level:\n                    "
+                     }
+                  },
+                  "slider:ice_level": {
+                     "@name": "ice_level"
+                  }
+               },
+               "layout_panel:right_lp": {
+                  "@name": "right_lp",
+                  "text:density_multiplier_label": {
+                     "@name": "density_multiplier_label",
+                     "#text": {
+                        "string": "\n                        Density Multiplier:\n                    "
+                     }
+                  },
+                  "slider:density_multip": {
+                     "@name": "density_multip"
+                  },
+                  "text:distance_multiplier_label": {
+                     "@name": "distance_multiplier_label",
+                     "#text": {
+                        "string": "\n                        Distance Multiplier:\n                    "
+                     }
+                  },
+                  "slider:distance_multip": {
+                     "@name": "distance_multip"
+                  },
+                  "text:maximum_altitude_label": {
+                     "@name": "maximum_altitude_label",
+                     "#text": {
+                        "string": "\n                        Maximum Altitude:\n                    "
+                     }
+                  },
+                  "slider:max_alt": {
+                     "@name": "max_alt"
+                  },
+                  "text:scene_gamma_label": {
+                     "@name": "scene_gamma_label",
+                     "#text": {
+                        "string": "\n                        Scene Gamma:\n                    "
+                     }
+                  },
+                  "slider:scene_gamma": {
+                     "@name": "scene_gamma"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

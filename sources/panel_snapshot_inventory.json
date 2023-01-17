@@ -1,0 +1,97 @@
+{
+   "panel": {
+      "@name": "panel_snapshot_inventory",
+      "icon:title_icon": {
+         "@name": "title_icon"
+      },
+      "text:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n        Inventory\n    "
+         }
+      },
+      "view_border:hr": {
+         "@name": "hr"
+      },
+      "combo_box:texture_size_combo": {
+         "@label": {
+            "string": "Resolution"
+         },
+         "@name": "texture_size_combo",
+         "combo_box.item:Small(128x128)": {
+            "@label": {
+               "string": "Small (128x128)"
+            },
+            "@name": "Small(128x128)"
+         },
+         "combo_box.item:Medium(256x256)": {
+            "@label": {
+               "string": "Medium (256x256)"
+            },
+            "@name": "Medium(256x256)"
+         },
+         "combo_box.item:Large(512x512)": {
+            "@label": {
+               "string": "Large (512x512)"
+            },
+            "@name": "Large(512x512)"
+         },
+         "combo_box.item:CurrentWindow": {
+            "@label": {
+               "string": "Current Window(512x512)"
+            },
+            "@name": "CurrentWindow"
+         },
+         "combo_box.item:Custom": {
+            "@label": {
+               "string": "Custom"
+            },
+            "@name": "Custom"
+         }
+      },
+      "spinner:inventory_snapshot_width": {
+         "@label": {
+            "string": "Width x Height"
+         },
+         "@name": "inventory_snapshot_width"
+      },
+      "spinner:inventory_snapshot_height": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "inventory_snapshot_height"
+      },
+      "check_box:inventory_keep_aspect_check": {
+         "@label": {
+            "string": "Constrain proportions"
+         },
+         "@name": "inventory_keep_aspect_check"
+      },
+      "check_box:inventory_temp_upload": {
+         "@label": {
+            "string": "Temp upload"
+         },
+         "@name": "inventory_temp_upload"
+      },
+      "text:hint_lbl": {
+         "@name": "hint_lbl",
+         "#text": {
+            "string": "\n        To save your image as a texture select one of the square formats.\n    "
+         }
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "▶ Selection"
+         },
+         "@name": "cancel_btn",
+         "button.commit_callback": null
+      },
+      "button:save_btn": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save_btn",
+         "button.commit_callback": null
+      }
+   }
+}

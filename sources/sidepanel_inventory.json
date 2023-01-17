@@ -1,0 +1,149 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Things"
+      },
+      "@name": "objects panel",
+      "panel:sidepanel_inventory_panel": {
+         "@name": "sidepanel_inventory_panel",
+         "@label": {
+            "string": ""
+         },
+         "layout_stack:inventory_layout_stack": {
+            "@name": "inventory_layout_stack",
+            "layout_panel:main_inventory_layout_panel": {
+               "@name": "main_inventory_layout_panel",
+               "panel:panel_main_inventory": {
+                  "@name": "panel_main_inventory",
+                  "@label": {
+                     "string": ""
+                  }
+               }
+            },
+            "layout_panel:inbox_layout_panel": {
+               "@name": "inbox_layout_panel",
+               "panel:marketplace_inbox": {
+                  "@name": "marketplace_inbox",
+                  "@label": {
+                     "string": ""
+                  },
+                  "string:InboxLabelWithArg": {
+                     "@name": "InboxLabelWithArg",
+                     "#text": {
+                        "string": "Received items ([NUM])"
+                     }
+                  },
+                  "string:InboxLabelNoArg": {
+                     "@name": "InboxLabelNoArg",
+                     "#text": {
+                        "string": "Received items"
+                     }
+                  },
+                  "button:inbox_btn": {
+                     "@label": {
+                        "string": "Received items"
+                     },
+                     "@name": "inbox_btn"
+                  },
+                  "text:inbox_fresh_new_count": {
+                     "@name": "inbox_fresh_new_count",
+                     "#text": {
+                        "string": "\n                        [NUM] new\n                     "
+                     }
+                  },
+                  "panel:inbox_inventory_placeholder_panel": {
+                     "@name": "inbox_inventory_placeholder_panel",
+                     "@tool_tip": {
+                        "string": "Drag and drop items to your inventory to use them"
+                     },
+                     "text:inbox_inventory_placeholder": {
+                        "@name": "inbox_inventory_placeholder",
+                        "#text": {
+                           "string": "\nPurchases from the marketplace will be delivered here.\n                        "
+                        }
+                     }
+                  }
+               }
+            }
+         },
+         "panel:button_panel": {
+            "@name": "button_panel",
+            "layout_stack:button_panel_ls": {
+               "@name": "button_panel_ls",
+               "layout_panel:info_btn_lp": {
+                  "@name": "info_btn_lp",
+                  "button:info_btn": {
+                     "@label": {
+                        "string": "Profile"
+                     },
+                     "@name": "info_btn",
+                     "@tool_tip": {
+                        "string": "Show object profile"
+                     }
+                  }
+               },
+               "layout_panel:share_btn_lp": {
+                  "@name": "share_btn_lp",
+                  "button:share_btn": {
+                     "@label": {
+                        "string": "Share"
+                     },
+                     "@name": "share_btn",
+                     "@tool_tip": {
+                        "string": "Share an inventory item"
+                     }
+                  }
+               },
+               "layout_panel:shop_btn_lp": {
+                  "@name": "shop_btn_lp",
+                  "button:shop_btn": {
+                     "@label": {
+                        "string": "Marketplace"
+                     },
+                     "@name": "shop_btn",
+                     "@tool_tip": {
+                        "string": "Open Marketplace webpage"
+                     }
+                  },
+                  "button:wear_btn": {
+                     "@label": {
+                        "string": "Wear"
+                     },
+                     "@name": "wear_btn",
+                     "@tool_tip": {
+                        "string": "Wear seleceted outfit"
+                     }
+                  },
+                  "button:play_btn": {
+                     "@label": {
+                        "string": "Play"
+                     },
+                     "@name": "play_btn"
+                  },
+                  "button:teleport_btn": {
+                     "@label": {
+                        "string": "Teleport"
+                     },
+                     "@name": "teleport_btn",
+                     "@tool_tip": {
+                        "string": "Teleport to the selected area"
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "panel:sidepanel__item_panel": {
+         "@name": "sidepanel__item_panel",
+         "@label": {
+            "string": ""
+         }
+      },
+      "panel:sidepanel__task_panel": {
+         "@name": "sidepanel__task_panel",
+         "@label": {
+            "string": ""
+         }
+      }
+   }
+}

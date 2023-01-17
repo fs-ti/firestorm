@@ -1,0 +1,185 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Region Settings"
+      },
+      "@name": "RegionSettings",
+      "spinner:draw_distance": {
+         "@label": {
+            "string": "Default Draw Distance"
+         },
+         "@name": "draw_distance",
+         "@tool_tip": {
+            "string": "Default regional draw distance"
+         }
+      },
+      "check_box:force_draw_distance": {
+         "@label": {
+            "string": "Force Draw Distance"
+         },
+         "@name": "force_draw_distance",
+         "@tool_tip": {
+            "string": "Enables locking draw distance for all agents in this region. NOTE: This may lag users with lower-performance computers. (Default: Off)"
+         }
+      },
+      "spinner:max_drag_distance": {
+         "@label": {
+            "string": "Max Drag Distance"
+         },
+         "@name": "max_drag_distance",
+         "@tool_tip": {
+            "string": "Maximum distance a prim can be dragged in this region"
+         }
+      },
+      "spinner:max_prim_scale": {
+         "@label": {
+            "string": "Max Prim Scale"
+         },
+         "@name": "max_prim_scale",
+         "@tool_tip": {
+            "string": "Maximum size a prim can be made in this region"
+         }
+      },
+      "spinner:min_prim_scale": {
+         "@label": {
+            "string": "Min Prim Scale"
+         },
+         "@name": "min_prim_scale",
+         "@tool_tip": {
+            "string": "Minimum size a prim can be made in this region"
+         }
+      },
+      "spinner:max_phys_prim_scale": {
+         "@label": {
+            "string": "Max Physical Prim Scale"
+         },
+         "@name": "max_phys_prim_scale",
+         "@tool_tip": {
+            "string": "Maximum size a physical prim can be made in this region"
+         }
+      },
+      "spinner:max_hollow_size": {
+         "@label": {
+            "string": "Max Hollow Size"
+         },
+         "@name": "max_hollow_size",
+         "@tool_tip": {
+            "string": "Maximum size a hole can be made in a prim created in this region"
+         }
+      },
+      "spinner:min_hole_size": {
+         "@label": {
+            "string": "Min Hole Size"
+         },
+         "@name": "min_hole_size",
+         "@tool_tip": {
+            "string": "Minimum size a hole can be made in a prim created in this region"
+         }
+      },
+      "spinner:max_link_count": {
+         "@label": {
+            "string": "Max Link Count"
+         },
+         "@name": "max_link_count",
+         "@tool_tip": {
+            "string": "Maximum amount of objects that can be linked in a non-physical linkset for this region"
+         }
+      },
+      "spinner:max_link_count_phys": {
+         "@label": {
+            "string": "Max Link Count Phys"
+         },
+         "@name": "max_link_count_phys",
+         "@tool_tip": {
+            "string": "Maximum amount of objects that can be linked in a physical linkset for this region"
+         }
+      },
+      "spinner:max_inventory_items_transfer": {
+         "@label": {
+            "string": "Max Inventory Items To Transfer"
+         },
+         "@name": "max_inventory_items_transfer",
+         "@tool_tip": {
+            "string": "Number of objects that may be transfered between clients at once. -1 sets unlimited number of objects. (Default: -1)"
+         }
+      },
+      "spinner:terrain_detail_scale": {
+         "@label": {
+            "string": "Terrain Detail Scale"
+         },
+         "@name": "terrain_detail_scale",
+         "@tool_tip": {
+            "string": "Region terrain detail scale"
+         }
+      },
+      "spinner:show_tags": {
+         "@label": {
+            "string": "Show Tags"
+         },
+         "@name": "show_tags",
+         "@tool_tip": {
+            "string": "Nametag mode for this region. (Show nametags = 2, Show nametags briefly = 1, Blocks nametags = 0)"
+         }
+      },
+      "spinner:max_groups": {
+         "@label": {
+            "string": "Max Groups"
+         },
+         "@name": "max_groups",
+         "@tool_tip": {
+            "string": "Number of groups an agent can join. -1 sets unlimited number of groups. (Default: -1)"
+         }
+      },
+      "check_box:render_water": {
+         "@label": {
+            "string": "Render Water"
+         },
+         "@name": "render_water",
+         "@tool_tip": {
+            "string": "Enable water rendering in the region. (Default: On)"
+         }
+      },
+      "check_box:allow_minimap": {
+         "@label": {
+            "string": "Allow Minimap"
+         },
+         "@name": "allow_minimap",
+         "@tool_tip": {
+            "string": "Allow the minimap in this region. (Default: On)"
+         }
+      },
+      "check_box:allow_physical_prims": {
+         "@label": {
+            "string": "Allow Physical Prims"
+         },
+         "@name": "allow_physical_prims",
+         "@tool_tip": {
+            "string": "Allow physical prims to be created in this region. (Default: On)"
+         }
+      },
+      "check_box:enforce_max_build": {
+         "@label": {
+            "string": "Enforce Max Build Constraints"
+         },
+         "@name": "enforce_max_build",
+         "@tool_tip": {
+            "string": "Enforce maximum build constraints in this region. (Default: On)"
+         }
+      },
+      "check_box:allow_parcel_windlight": {
+         "@label": {
+            "string": "Allow Parcel WindLight"
+         },
+         "@name": "allow_parcel_windlight",
+         "@tool_tip": {
+            "string": "Enable WindLight for parcels in this region. (Default: On)"
+         }
+      },
+      "button:apply_ors_btn": {
+         "@label": {
+            "string": "Apply"
+         },
+         "@name": "apply_ors_btn"
+      }
+   }
+}

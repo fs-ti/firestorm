@@ -1,0 +1,91 @@
+{
+   "panel": {
+      "@name": "volumepulldown_floater",
+      "slider:System Volume": {
+         "@name": "System Volume",
+         "@label": {
+            "string": "Master"
+         },
+         "slider.commit_callback": null
+      },
+      "button:mute_audio": {
+         "@name": "mute_audio"
+      },
+      "button:prefs_btn": {
+         "@name": "prefs_btn",
+         "button.commit_callback": null
+      },
+      "slider:UI Volume": {
+         "@name": "UI Volume",
+         "@label": {
+            "string": "Buttons"
+         },
+         "slider.commit_callback": null
+      },
+      "slider:Wind Volume": {
+         "@name": "Wind Volume",
+         "@label": {
+            "string": "Ambient"
+         },
+         "slider.commit_callback": null
+      },
+      "check_box:collisions_audio_play_btn": {
+         "@name": "collisions_audio_play_btn",
+         "@tool_tip": {
+            "string": "Enable default sounds from collisions"
+         }
+      },
+      "slider:SFX Volume": {
+         "@name": "SFX Volume",
+         "@label": {
+            "string": "Sounds"
+         },
+         "slider.commit_callback": null
+      },
+      "check_box:gesture_audio_play_btn": {
+         "@name": "gesture_audio_play_btn",
+         "@tool_tip": {
+            "string": "Enable sounds from gestures"
+         }
+      },
+      "slider:Music Volume": {
+         "@name": "Music Volume",
+         "@label": {
+            "string": "Music"
+         },
+         "slider.commit_callback": null
+      },
+      "check_box:enable_music": {
+         "@name": "enable_music",
+         "@tool_tip": {
+            "string": "Enable Streaming Music"
+         }
+      },
+      "slider:Media Volume": {
+         "@name": "Media Volume",
+         "@label": {
+            "string": "Media"
+         },
+         "slider.commit_callback": null
+      },
+      "check_box:enable_media": {
+         "@name": "enable_media",
+         "@tool_tip": {
+            "string": "Enable Streaming Media"
+         }
+      },
+      "slider:Voice Volume": {
+         "@name": "Voice Volume",
+         "@label": {
+            "string": "Voice"
+         },
+         "slider.commit_callback": null
+      },
+      "check_box:enable_voice_check": {
+         "@name": "enable_voice_check",
+         "@tool_tip": {
+            "string": "Enable Voice Chat"
+         }
+      }
+   }
+}

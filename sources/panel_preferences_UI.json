@@ -1,0 +1,1117 @@
+{
+   "panel": {
+      "@label": {
+         "string": "UI-Pref"
+      },
+      "@name": "Display panel",
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Firestorm Prefs"
+         },
+         "@name": "tabs",
+         "#comment": "3D World",
+         "panel:UI Prefs Panel": {
+            "@label": {
+               "string": "3D World"
+            },
+            "@name": "UI Prefs Panel",
+            "text:HoverTipText": {
+               "@name": "HoverTipText",
+               "#text": {
+                  "string": "\n            Hover Tips:\n        "
+               }
+            },
+            "check_box:ShowHoverTips": {
+               "@label": {
+                  "string": "Show Hover Tips"
+               },
+               "@name": "ShowHoverTips",
+               "@tool_tip": {
+                  "string": "Set this to show hover tips on avatars and some other things - set this one first (CTRL+SHIFT+T)"
+               }
+            },
+            "check_box:ShowAllHoverTips": {
+               "@label": {
+                  "string": "on All Objects"
+               },
+               "@tool_tip": {
+                  "string": "Set this to show hover tips on in-world objects"
+               },
+               "@name": "ShowAllHoverTips"
+            },
+            "check_box:ShowLandHoverTips": {
+               "@label": {
+                  "string": "on Land"
+               },
+               "@tool_tip": {
+                  "string": "Set this to show hover tips on land"
+               },
+               "@name": "ShowLandHoverTips"
+            },
+            "check_box:FSAdvancedTooltips": {
+               "@name": "FSAdvancedTooltips",
+               "@label": {
+                  "string": "Show extended information in hovertips"
+               }
+            },
+            "check_box:FSShowGroupTitleInTooltip": {
+               "@name": "FSShowGroupTitleInTooltip",
+               "@label": {
+                  "string": "Show avatar group titles in hovertips"
+               }
+            },
+            "text:tooltip_textbox": {
+               "@name": "tooltip_textbox",
+               "#text": {
+                  "string": "\n           Hovertip Trigger Delays:\n        "
+               }
+            },
+            "slider:ToolTipDelay_slider": {
+               "@label": {
+                  "string": "Tooltips:"
+               },
+               "@name": "ToolTipDelay_slider",
+               "@tool_tip": {
+                  "string": "Delay after that tooltips for user interface elements such as buttons are shown. (Default: 0.7)"
+               }
+            },
+            "text:ToolTipDelay_text": {
+               "@name": "ToolTipDelay_text",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:AvatarInspectorTooltipDelay_slider": {
+               "@label": {
+                  "string": "Avatars:"
+               },
+               "@name": "AvatarInspectorTooltipDelay_slider",
+               "@tool_tip": {
+                  "string": "Delay after that hovertips for avatars are shown. (Default: 0.35)"
+               }
+            },
+            "text:AvatarInspectorTooltipDelay_text": {
+               "@name": "AvatarInspectorTooltipDelay_text",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:ObjectInspectorTooltipDelay_slider": {
+               "@label": {
+                  "string": "Objects:"
+               },
+               "@name": "ObjectInspectorTooltipDelay_slider",
+               "@tool_tip": {
+                  "string": "Delay after that hovertips for objects are shown. (Default: 0.35)"
+               }
+            },
+            "text:ObjectInspectorTooltipDelay_text": {
+               "@name": "ObjectInspectorTooltipDelay_text",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:FSHudTextFadeDistance": {
+               "@label": {
+                  "string": "Floating text fade distance (in m):"
+               },
+               "@tool_tip": {
+                  "string": "Sets the distance where floating text (hovertext) starts to fade"
+               },
+               "@name": "FSHudTextFadeDistance"
+            },
+            "slider:FSHudTextFadeRange": {
+               "@label": {
+                  "string": "Floating text fade range (in m):"
+               },
+               "@tool_tip": {
+                  "string": "Sets the range it takes for a floating text (hovertext) to fade from fully visible to completely invisible"
+               },
+               "@name": "FSHudTextFadeRange"
+            }
+         },
+         "#comment$4": "2D Overlay",
+         "panel:ui-2d-overlay": {
+            "@label": {
+               "string": "2D Overlay"
+            },
+            "@name": "ui-2d-overlay",
+            "text:UI Size:": {
+               "@name": "UI Size:",
+               "#text": {
+                  "string": "\n            UI Scaling:\n        "
+               }
+            },
+            "slider:ui_scale_slider": {
+               "@name": "ui_scale_slider"
+            },
+            "text:HUD Size:": {
+               "@name": "HUD Size:",
+               "#text": {
+                  "string": "\n            HUD Scaling:\n        "
+               }
+            },
+            "text:ScriptDialogsPerObjectLabel": {
+               "@name": "ScriptDialogsPerObjectLabel",
+               "#text": {
+                  "string": "\n        Script Dialogs per Object:\n      "
+               }
+            },
+            "combo_box:ScriptDialogPerObjectDropdown": {
+               "@name": "ScriptDialogPerObjectDropdown",
+               "combo_box.item:ScriptDialogOption_0": {
+                  "@label": {
+                     "string": "One per Object"
+                  },
+                  "@name": "ScriptDialogOption_0"
+               },
+               "combo_box.item:ScriptDialogOption_1": {
+                  "@label": {
+                     "string": "One per Channel"
+                  },
+                  "@name": "ScriptDialogOption_1"
+               },
+               "combo_box.item:ScriptDialogOption_2": {
+                  "@label": {
+                     "string": "One per Channel for Attachments"
+                  },
+                  "@name": "ScriptDialogOption_2"
+               },
+               "combo_box.item:ScriptDialogOption_3": {
+                  "@label": {
+                     "string": "One per Channel for HUDs"
+                  },
+                  "@name": "ScriptDialogOption_3"
+               },
+               "combo_box.item:ScriptDialogOption_4": {
+                  "@label": {
+                     "string": "Unconstrained for HUDs"
+                  },
+                  "@name": "ScriptDialogOption_4"
+               },
+               "combo_box.item:ScriptDialogOption_5": {
+                  "@label": {
+                     "string": "Unconstrained"
+                  },
+                  "@name": "ScriptDialogOption_5"
+               }
+            },
+            "check_box:FSRemoveScriptBlockButton": {
+               "@label": {
+                  "string": "Remove \"Block\" button"
+               },
+               "@name": "FSRemoveScriptBlockButton"
+            },
+            "text:ScriptDialogsPositionLabel": {
+               "@name": "ScriptDialogsPositionLabel",
+               "#text": {
+                  "string": "\n        Script Dialogs Position:\n      "
+               }
+            },
+            "combo_box:ScriptDialogsPositionDropdown": {
+               "@name": "ScriptDialogsPositionDropdown",
+               "@tool_tip": {
+                  "string": "Choose where script dialogs (menus) come up on your screen."
+               },
+               "combo_box.item:ScriptDialogPositionOption_1": {
+                  "@label": {
+                     "string": "Docked to Chiclet"
+                  },
+                  "@name": "ScriptDialogPositionOption_1"
+               },
+               "combo_box.item:ScriptDialogPositionOption_2": {
+                  "@label": {
+                     "string": "Top Left"
+                  },
+                  "@name": "ScriptDialogPositionOption_2"
+               },
+               "combo_box.item:ScriptDialogPositionOption_3": {
+                  "@label": {
+                     "string": "Top Right"
+                  },
+                  "@name": "ScriptDialogPositionOption_3"
+               },
+               "combo_box.item:ScriptDialogPositionOption_4": {
+                  "@label": {
+                     "string": "Bottom Left"
+                  },
+                  "@name": "ScriptDialogPositionOption_4"
+               },
+               "combo_box.item:ScriptDialogPositionOption_5": {
+                  "@label": {
+                     "string": "Bottom Right"
+                  },
+                  "@name": "ScriptDialogPositionOption_5"
+               }
+            },
+            "check_box:FSAnimatedScriptDialogs": {
+               "@label": {
+                  "string": "Animate Script Dialogs"
+               },
+               "@name": "FSAnimatedScriptDialogs",
+               "@tool_tip": {
+                  "string": "Set this to make script dialogs animate when opening (Classic V1.x behavior). Only works when dialogs open from the top down."
+               }
+            },
+            "slider:FSRowsPerScriptDialog": {
+               "@label": {
+                  "string": "Visible rows per script dialog:"
+               },
+               "@name": "FSRowsPerScriptDialog",
+               "@tool_tip": {
+                  "string": "The maximum number of rows in a script dialog that will be visible at the same time."
+               }
+            },
+            "check_box:UsePieMenu": {
+               "@label": {
+                  "string": "Use Pie Menu"
+               },
+               "@name": "UsePieMenu",
+               "@tool_tip": {
+                  "string": "Use the classic V1 ring menu instead of rectangular context menus when right clicking on land, avatars, objects or attachments."
+               }
+            },
+            "check_box:PieMenuPopupFontEffect": {
+               "@label": {
+                  "string": "Enable text animation"
+               },
+               "@name": "PieMenuPopupFontEffect",
+               "@tool_tip": {
+                  "string": "Enables the text within the pie menu being part of the animation when the pie menu opens."
+               }
+            },
+            "check_box:PieMenuOuterRingShade": {
+               "@label": {
+                  "string": "Enable outer ring shade"
+               },
+               "@name": "PieMenuOuterRingShade",
+               "@tool_tip": {
+                  "string": "Enables an additional outer ring shade that helps visualizing sub menus."
+               }
+            },
+            "text:ShowGroupNoticesTopRightLabel": {
+               "@name": "ShowGroupNoticesTopRightLabel",
+               "#text": {
+                  "string": "\n           Group Notices and chiclets location:\n        "
+               }
+            },
+            "radio_group:ShowGroupNoticesTopRight": {
+               "@name": "ShowGroupNoticesTopRight",
+               "@tool_tip": {
+                  "string": "Choose where group notifications and chiclet icons will appear on the screen."
+               },
+               "radio_item:radio": {
+                  "@label": {
+                     "string": "Bottom Right"
+                  },
+                  "@name": "radio"
+               },
+               "radio_item:radio1": {
+                  "@label": {
+                     "string": "Top Right"
+                  },
+                  "@name": "radio1"
+               }
+            },
+            "text:GroupTopRightRequiresRestart": {
+               "@name": "GroupTopRightRequiresRestart",
+               "#text": {
+                  "string": "\n           (requires restart)\n        "
+               }
+            },
+            "check_box:FSDisableIMChiclets": {
+               "@label": {
+                  "string": "Hide group and IM chat chiclets"
+               },
+               "@name": "FSDisableIMChiclets",
+               "@tool_tip": {
+                  "string": "If checked, Firestorm will not show any group / IM chat chiclets (notifications envelope and sum of IMs will remain on the screen)."
+               }
+            },
+            "check_box:FSLegacyNotificationWell": {
+               "@label": {
+                  "string": "Use legacy list layout for Notifications window"
+               },
+               "@name": "FSLegacyNotificationWell",
+               "@tool_tip": {
+                  "string": "If checked, Firestorm will use the legacy list view to display stored notifications."
+               }
+            },
+            "text:FSLegacyNotificationWellRequiresRestart": {
+               "@name": "FSLegacyNotificationWellRequiresRestart",
+               "#text": {
+                  "string": "\n            (requires restart)\n        "
+               }
+            },
+            "check_box:FSLegacyNotificationWellAutoResize": {
+               "@label": {
+                  "string": "Auto-resize Conversations and legacy Notifications lists"
+               },
+               "@name": "FSLegacyNotificationWellAutoResize",
+               "@tool_tip": {
+                  "string": "If checked, Firestorm will always resize the Conversations and legacy Notifications lists automatically when items get added or removed."
+               }
+            },
+            "check_box:FSRemapLinuxShortcuts": {
+               "@label": {
+                  "string": "Remap shortcuts already used by Linux (Linux only; requires restart)"
+               },
+               "@name": "FSRemapLinuxShortcuts",
+               "@tool_tip": {
+                  "string": "If enabled, shortcuts that are already used by the Linux operating system (such as CTRL-ALT-Fx) will be remapped."
+               }
+            },
+            "check_box:FSStatisticsNoFocus": {
+               "@label": {
+                  "string": "Prevent statistics window from gaining focus"
+               },
+               "@name": "FSStatisticsNoFocus",
+               "@tool_tip": {
+                  "string": "If enabled, the statistics window will never receive focus when another window is closed (actions such as changing graph layout for items are still possible when enabled)."
+               }
+            },
+            "slider:ButtonsFlashCount": {
+               "@label": {
+                  "string": "Number of times IM tabs flash:"
+               },
+               "@name": "ButtonsFlashCount"
+            },
+            "slider:ButtonFlashRate": {
+               "@label": {
+                  "string": "IM tab flash period:"
+               },
+               "@tool_tip": {
+                  "string": "Time in seconds a single flash of IM tabs takes - used for IM notifications"
+               },
+               "@name": "ButtonFlashRate"
+            },
+            "text:ButtonFlashRateText": {
+               "@name": "ButtonFlashRateText",
+               "#text": {
+                  "string": "\n            sec\n        "
+               }
+            }
+         },
+         "#comment$6": "Top Bars",
+         "panel:UI-interface-top-bars": {
+            "@label": {
+               "string": "Top Bars"
+            },
+            "@name": "UI-interface-top-bars",
+            "text:statusbar_textbox": {
+               "@name": "statusbar_textbox",
+               "#text": {
+                  "string": "\n    Status bar:\n    "
+               }
+            },
+            "check_box:ShowNetStats": {
+               "@tool_tip": {
+                  "string": "Show traffic indicator in top menu"
+               },
+               "@label": {
+                  "string": "Show traffic indicator in upper right corner of the screen"
+               },
+               "@name": "ShowNetStats"
+            },
+            "check_box:FSStatbarLegacyMeanPerSec": {
+               "@label": {
+                  "string": "Use legacy period mean per second display for traffic indicator"
+               },
+               "@name": "FSStatbarLegacyMeanPerSec",
+               "@tool_tip": {
+                  "string": "If enabled, Firestorm will use the legacy method of showing the period mean per second value in the traffic indicator instead of the current observed value"
+               }
+            },
+            "check_box:FSUseStatsInsteadOfLagMeter": {
+               "@label": {
+                  "string": "Clicking on traffic indicator opens Statistics instead of the Lag Meter"
+               },
+               "@name": "FSUseStatsInsteadOfLagMeter"
+            },
+            "check_box:FSEnableVolumeControls": {
+               "@label": {
+                  "string": "Show media controls in top menu"
+               },
+               "@name": "FSEnableVolumeControls",
+               "@tool_tip": {
+                  "string": "If checked, Firestorm will show media controls (volume, media, stream) in upper right corner of the screen. Useful, if skin already has its own controls."
+               }
+            },
+            "check_box:ShowMenuBarLocation": {
+               "@label": {
+                  "string": "Show location in top menu"
+               },
+               "@name": "ShowMenuBarLocation"
+            },
+            "check_box:FSStatusbarShowSimulatorVersion": {
+               "@label": {
+                  "string": "Show simulator version in top menu"
+               },
+               "@name": "FSStatusbarShowSimulatorVersion",
+               "@tool_tip": {
+                  "string": "Shows the current simulator version in the V1-like status bar."
+               }
+            },
+            "check_box:show_search_menu_check": {
+               "@label": {
+                  "string": "Show menu search"
+               },
+               "@name": "show_search_menu_check"
+            },
+            "check_box:FSShowCurrencyBalanceInStatusbar": {
+               "@label": {
+                  "string": "Show currency balance"
+               },
+               "@name": "FSShowCurrencyBalanceInStatusbar"
+            },
+            "check_box:FSStatusBarMenuButtonPopupOnRollover": {
+               "@label": {
+                  "string": "Enable mouse rollover popup on status bar menu icons"
+               },
+               "@name": "FSStatusBarMenuButtonPopupOnRollover"
+            },
+            "text:statusbar_timeformat_textbox": {
+               "@name": "statusbar_timeformat_textbox",
+               "#text": {
+                  "string": "\n     Time format:\n    "
+               }
+            },
+            "combo_box:FSStatusBarTimeFormat": {
+               "@name": "FSStatusBarTimeFormat",
+               "@tool_tip": {
+                  "string": "Selects the time format used on main menu bar."
+               },
+               "combo_box.item:Language": {
+                  "@label": {
+                     "string": "Language default"
+                  },
+                  "@name": "Language"
+               },
+               "combo_box.item:12_Hour": {
+                  "@label": {
+                     "string": "12 Hour"
+                  },
+                  "@name": "12_Hour"
+               },
+               "combo_box.item:12_Hour_Seconds": {
+                  "@label": {
+                     "string": "12 Hour incl. Seconds"
+                  },
+                  "@name": "12_Hour_Seconds"
+               },
+               "combo_box.item:12_Hour_TZ": {
+                  "@label": {
+                     "string": "12 Hour incl. Timezone"
+                  },
+                  "@name": "12_Hour_TZ"
+               },
+               "combo_box.item:12_Hour_TZ_Seconds": {
+                  "@label": {
+                     "string": "12 Hour incl. Seconds & Timezone"
+                  },
+                  "@name": "12_Hour_TZ_Seconds"
+               },
+               "combo_box.item:24_Hour": {
+                  "@label": {
+                     "string": "24 Hour"
+                  },
+                  "@name": "24_Hour"
+               },
+               "combo_box.item:24_Hour_Seconds": {
+                  "@label": {
+                     "string": "24 Hour incl. Seconds"
+                  },
+                  "@name": "24_Hour_Seconds"
+               },
+               "combo_box.item:24_Hour_TZ": {
+                  "@label": {
+                     "string": "24 Hour incl. Timezone"
+                  },
+                  "@name": "24_Hour_TZ"
+               },
+               "combo_box.item:24_Hour_TZ_Seconds": {
+                  "@label": {
+                     "string": "24 Hour incl. Seconds & Timezone"
+                  },
+                  "@name": "24_Hour_TZ_Seconds"
+               }
+            },
+            "text:navfav_textbox": {
+               "@name": "navfav_textbox",
+               "#text": {
+                  "string": "\n    Navigation &amp; Favourites bars:\n    "
+               }
+            },
+            "check_box:ShowNavbarFavoritesPanel": {
+               "@label": {
+                  "string": "Show Favorites Bar"
+               },
+               "@name": "ShowNavbarFavoritesPanel"
+            },
+            "check_box:ShowNavbarNavigationPanel": {
+               "@label": {
+                  "string": "Show Navigation and Search Bar"
+               },
+               "@name": "ShowNavbarNavigationPanel"
+            },
+            "check_box:ShowSearchTopBar": {
+               "@label": {
+                  "string": "Show Search Bar"
+               },
+               "@name": "ShowSearchTopBar"
+            }
+         },
+         "#comment$8": "Interface Windows",
+         "panel:UI-interface-windows-tab": {
+            "@label": {
+               "string": "Interface Windows"
+            },
+            "@name": "UI-interface-windows-tab",
+            "check_box:FSInspectAvatarSlurlOpensProfile": {
+               "@label": {
+                  "string": "Open avatar profile directly when clicking on its name"
+               },
+               "@name": "FSInspectAvatarSlurlOpensProfile",
+               "@tool_tip": {
+                  "string": "If enabled, Firestorm will open the profile of an avatar directly when clicking on a link with its name"
+               }
+            },
+            "check_box:FSUseWebProfiles": {
+               "@label": {
+                  "string": "Use web profiles by default"
+               },
+               "@name": "FSUseWebProfiles",
+               "@tool_tip": {
+                  "string": "Shows profiles as a web page instead of a v1-style panel."
+               }
+            },
+            "check_box:FSDisableBlockListAutoOpen": {
+               "@label": {
+                  "string": "Disable automatic opening of block list"
+               },
+               "@name": "FSDisableBlockListAutoOpen",
+               "@tool_tip": {
+                  "string": "Disables the automatic opening of the block list when blocking avatars or objects."
+               }
+            },
+            "check_box:FSUseV2Friends": {
+               "@label": {
+                  "string": "'Friends' and 'Groups' in 'Comm' menu opens the [SHORT_VIEWER_GENERATION] based windows"
+               },
+               "@name": "FSUseV2Friends",
+               "@tool_tip": {
+                  "string": "If enabled, Friends / Groups will open through the People panel - otherwise they will open in the Contacts panel."
+               }
+            },
+            "check_box:FSUseLegacyObjectProperties": {
+               "@label": {
+                  "string": "Use legacy object properties"
+               },
+               "@name": "FSUseLegacyObjectProperties",
+               "@tool_tip": {
+                  "string": "If enabled, the legacy object profile window will be used when opening object properties."
+               }
+            },
+            "check_box:FSUseSmallCameraFloater": {
+               "@label": {
+                  "string": "Use small camera window"
+               },
+               "@name": "FSUseSmallCameraFloater",
+               "@tool_tip": {
+                  "string": "If enabled, the smaller, legacy camera window without camera preset controls will be used."
+               }
+            },
+            "text:standalone_textbox": {
+               "@name": "standalone_textbox",
+               "#text": {
+                  "string": "\n    Use stand-alone windows for:\n    "
+               }
+            },
+            "check_box:FSUseStandaloneGroupFloater": {
+               "@name": "FSUseStandaloneGroupFloater",
+               "@label": {
+                  "string": "Group profiles"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, group profiles will open in separate windows."
+               }
+            },
+            "check_box:FSUseStandaloneTeleportHistoryFloater": {
+               "@name": "FSUseStandaloneTeleportHistoryFloater",
+               "@label": {
+                  "string": "Teleport history"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, using the shortcut for teleport history will open the history in a separate window."
+               }
+            },
+            "check_box:FSUseStandaloneBlocklistFloater": {
+               "@name": "FSUseStandaloneBlocklistFloater",
+               "@label": {
+                  "string": "Block/mute list"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, the list of blocked/muted residents and objects will open in a separate window."
+               }
+            },
+            "check_box:FSUseStandalonePlaceDetailsFloater": {
+               "@name": "FSUseStandalonePlaceDetailsFloater",
+               "@label": {
+                  "string": "Landmarks, place details and teleport history details"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, landmarks, place details and teleport history details will open in separate windows."
+               }
+            },
+            "text:ExtendedTeleportHistoryLabel": {
+               "@name": "ExtendedTeleportHistoryLabel",
+               "#text": {
+                  "string": "\n      Extend teleport history by:\n    "
+               }
+            },
+            "check_box:FSTeleportHistoryShowPosition": {
+               "@name": "FSTeleportHistoryShowPosition",
+               "@label": {
+                  "string": "Position"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, the local coordinates within the region will be shown in the teleport history."
+               }
+            },
+            "check_box:FSTeleportHistoryShowDate": {
+               "@name": "FSTeleportHistoryShowDate",
+               "@label": {
+                  "string": "Date"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, the date and time of the teleport will be shown in the teleport history."
+               }
+            },
+            "text:textFriendlistOptions": {
+               "@name": "textFriendlistOptions",
+               "#text": {
+                  "string": "\n      Contact list options:\n    "
+               }
+            },
+            "text:textFriendlistColumns": {
+               "@name": "textFriendlistColumns",
+               "#text": {
+                  "string": "\n      Visible name columns:\n    "
+               }
+            },
+            "check_box:FSFriendListColumnShowUserName": {
+               "@label": {
+                  "string": "Username"
+               },
+               "@name": "FSFriendListColumnShowUserName",
+               "@tool_tip": {
+                  "string": "The contact list will show a column with the friend's username."
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:FSFriendListColumnShowDisplayName": {
+               "@label": {
+                  "string": "Display name"
+               },
+               "@name": "FSFriendListColumnShowDisplayName",
+               "@tool_tip": {
+                  "string": "The contact list will show a column with the friend's display name."
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:FSFriendListColumnShowFullName": {
+               "@label": {
+                  "string": "Full name"
+               },
+               "@name": "FSFriendListColumnShowFullName",
+               "@tool_tip": {
+                  "string": "The contact list will show a column with the friend's full name."
+               },
+               "check_box.commit_callback": null
+            },
+            "text:textFriendListSortOrder": {
+               "@name": "textFriendListSortOrder",
+               "#text": {
+                  "string": "\n     Sort list by:\n    "
+               }
+            },
+            "radio_group:FSFriendListSortOrder": {
+               "@name": "FSFriendListSortOrder",
+               "@tool_tip": {
+                  "string": ""
+               },
+               "radio_item:username": {
+                  "@label": {
+                     "string": "Username"
+                  },
+                  "@name": "username"
+               },
+               "radio_item:displayname": {
+                  "@label": {
+                     "string": "Display name"
+                  },
+                  "@name": "displayname"
+               }
+            },
+            "text:textFriendListFullNameFormat": {
+               "@name": "textFriendListFullNameFormat",
+               "#text": {
+                  "string": "\n     Show full name as:\n    "
+               }
+            },
+            "radio_group:FSFriendListFullNameFormat": {
+               "@name": "FSFriendListFullNameFormat",
+               "@tool_tip": {
+                  "string": ""
+               },
+               "radio_item:username_displayname": {
+                  "@label": {
+                     "string": "Username (Display name)"
+                  },
+                  "@name": "username_displayname"
+               },
+               "radio_item:displayname_username": {
+                  "@label": {
+                     "string": "Display name (Username)"
+                  },
+                  "@name": "displayname_username"
+               }
+            },
+            "check_box:FSFriendListColumnShowPermissions": {
+               "@label": {
+                  "string": "Show permissions column"
+               },
+               "@name": "FSFriendListColumnShowPermissions",
+               "@tool_tip": {
+                  "string": "The contact list will show the columns with the permissions you granted this avatar and vice versa."
+               }
+            },
+            "check_box:FSContactListShowSearch": {
+               "@label": {
+                  "string": "Show search filter"
+               },
+               "@name": "FSContactListShowSearch",
+               "@tool_tip": {
+                  "string": "The contact list will show a search textbox to filter the list."
+               }
+            },
+            "text:textInventoryOptions": {
+               "@name": "textInventoryOptions",
+               "#text": {
+                  "string": "\n      Inventory options:\n    "
+               }
+            },
+            "check_box:DebugHideEmptySystemFolders": {
+               "@label": {
+                  "string": "Hide empty system folders from inventory"
+               },
+               "@name": "DebugHideEmptySystemFolders",
+               "@tool_tip": {
+                  "string": "If enabled, the inventory windows will hide all empty system folders like Favorites, Landmarks etc."
+               }
+            },
+            "check_box:FSShowInboxFolder": {
+               "@label": {
+                  "string": "Show the Received Items folder in normal inventory"
+               },
+               "@name": "FSShowInboxFolder",
+               "@tool_tip": {
+                  "string": "If enabled, the inventory windows will also show the Received Items folder"
+               }
+            },
+            "check_box:FSAlwaysShowInboxButton": {
+               "@label": {
+                  "string": "Always show Received Items button at bottom of inventory"
+               },
+               "@name": "FSAlwaysShowInboxButton",
+               "@tool_tip": {
+                  "string": "If enabled, the Received Items button is always shown at the bottom of the inventory windows, even if the folder is shown in the inventory."
+               }
+            },
+            "check_box:FSSplitInventorySearchOverTabs": {
+               "@label": {
+                  "string": "Allow separate search terms on each tab in inventory"
+               },
+               "@name": "FSSplitInventorySearchOverTabs",
+               "@tool_tip": {
+                  "string": "If enabled, it is possible to enter a different search term for each tab in inventory."
+               }
+            }
+         },
+         "#comment$10": "Toasts",
+         "panel:UI-toasts-tab": {
+            "@label": {
+               "string": "Toasts"
+            },
+            "@name": "UI-toasts-tab",
+            "text:ToastSettings": {
+               "@name": "ToastSettings",
+               "#text": {
+                  "string": "\n            Notification Display Settings (popups, console, toasts):\n        "
+               }
+            },
+            "slider:ToastSpace": {
+               "@label": {
+                  "string": "Space between lowest Toast and bottom:"
+               },
+               "@tool_tip": {
+                  "string": "Space in pixels between the bottom of the UI and the bottom toast"
+               },
+               "@name": "ToastSpace"
+            },
+            "text:ToastSpaceText": {
+               "@name": "ToastSpaceText",
+               "#text": {
+                  "string": "\n            pixels\n        "
+               }
+            },
+            "slider:ToastLifetime": {
+               "@label": {
+                  "string": "Notification Toast life:"
+               },
+               "@tool_tip": {
+                  "string": "Number of seconds that a notification toast is displayed before fading"
+               },
+               "@name": "ToastLifetime"
+            },
+            "text:ToastLifetimeText": {
+               "@name": "ToastLifetimeText",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:TipToastLifetime": {
+               "@label": {
+                  "string": "Tip Toast life:"
+               },
+               "@tool_tip": {
+                  "string": "Number of seconds that a tip toast is displayed before fading"
+               },
+               "@name": "TipToastLifetime"
+            },
+            "text:TipToastLifetimeText": {
+               "@name": "TipToastLifetimeText",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:NearbyToastLifetime": {
+               "@label": {
+                  "string": "Nearby Chat Toast life:"
+               },
+               "@tool_tip": {
+                  "string": "Number of seconds that a nearby chat popup is displayed before fading"
+               },
+               "@name": "NearbyToastLifetime"
+            },
+            "text:NearbyToastLifetimeText": {
+               "@name": "NearbyToastLifetimeText",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:FSNearbyChatToastsOffset": {
+               "@label": {
+                  "string": "Nearby Chat Toast z-offset:"
+               },
+               "@tool_tip": {
+                  "string": "Controls the z-offset of nearby chat toasts"
+               },
+               "@name": "FSNearbyChatToastsOffset"
+            },
+            "text:FSNearbyChatToastsOffsetText": {
+               "@name": "FSNearbyChatToastsOffsetText",
+               "#text": {
+                  "string": "\n            pixels\n        "
+               }
+            },
+            "slider:NearbyToastFadingTime": {
+               "@label": {
+                  "string": "Nearby Chat Toast fade time:"
+               },
+               "@tool_tip": {
+                  "string": "Number of seconds that a nearby chat popup takes to fade completely"
+               },
+               "@name": "NearbyToastFadingTime"
+            },
+            "text:NearbyToastFadingTimeText": {
+               "@name": "NearbyToastFadingTimeText",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:StartupToastLifetime": {
+               "@label": {
+                  "string": "Startup Toast life:"
+               },
+               "@tool_tip": {
+                  "string": "Number of seconds that a toast is shown on startup before fading"
+               },
+               "@name": "StartupToastLifetime"
+            },
+            "text:StartupToastLifetimeText": {
+               "@name": "StartupToastLifetimeText",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:ToastFadingTime": {
+               "@label": {
+                  "string": "Normal Toast fade time:"
+               },
+               "@tool_tip": {
+                  "string": "Number of seconds that a normal toast is displayed before fading"
+               },
+               "@name": "ToastFadingTime"
+            },
+            "text:ToastFadingTimeText": {
+               "@name": "ToastFadingTimeText",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:ToastGap": {
+               "@label": {
+                  "string": "Gap between Toasts:"
+               },
+               "@tool_tip": {
+                  "string": "Gap between adjacent toasts in pixels"
+               },
+               "@name": "ToastGap"
+            },
+            "text:ToastGapText": {
+               "@name": "ToastGapText",
+               "#text": {
+                  "string": "\n            pixels\n        "
+               }
+            },
+            "slider:OverflowToastHeight": {
+               "@label": {
+                  "string": "Height of Overflow Toast:"
+               },
+               "@tool_tip": {
+                  "string": "Height of an overflow toast in pixels"
+               },
+               "@name": "OverflowToastHeight"
+            },
+            "text:OverflowToastHeightText": {
+               "@name": "OverflowToastHeightText",
+               "#text": {
+                  "string": "\n            pixels\n        "
+               }
+            },
+            "slider:NearbyToastWidth": {
+               "@label": {
+                  "string": "Width of Nearby Chat Toast:"
+               },
+               "@tool_tip": {
+                  "string": "Width of a the nearby chat popups in percent of screen width"
+               },
+               "@name": "NearbyToastWidth"
+            },
+            "text:NearbyToastWidthText": {
+               "@name": "NearbyToastWidthText",
+               "#text": {
+                  "string": "\n            %\n        "
+               }
+            },
+            "check_box:FSShowToastsInFront": {
+               "@label": {
+                  "string": "Show toasts in front of other windows"
+               },
+               "@name": "FSShowToastsInFront"
+            },
+            "check_box:FSUseNewRegionRestartNotification": {
+               "@label": {
+                  "string": "Use new region restart notification"
+               },
+               "@name": "FSUseNewRegionRestartNotification"
+            },
+            "check_box:FSNoScreenShakeOnRegionRestart": {
+               "@label": {
+                  "string": "Don't shake my screen when region restart alert message is shown"
+               },
+               "@name": "FSNoScreenShakeOnRegionRestart"
+            },
+            "check_box:FSReportRegionRestartToChat": {
+               "@label": {
+                  "string": "Send region restart info to channel:"
+               },
+               "@name": "FSReportRegionRestartToChat"
+            },
+            "spinner:FSRegionRestartAnnounceChannel": {
+               "@name": "FSRegionRestartAnnounceChannel"
+            }
+         },
+         "#comment$12": "Font",
+         "panel:UI-font-tab": {
+            "@label": {
+               "string": "Font"
+            },
+            "@name": "UI-font-tab",
+            "text:tooltip_textbox1": {
+               "@name": "tooltip_textbox1",
+               "#text": {
+                  "string": "\n           Font Scheme:\n        "
+               }
+            },
+            "combo_box:Fontsettingsfile": {
+               "@name": "Fontsettingsfile",
+               "#comment": " KC: Dynamicly loaded now "
+            },
+            "text:tooltip_textbox2": {
+               "@name": "tooltip_textbox2",
+               "#text": {
+                  "string": "\n           (Requires restart)\n        "
+               }
+            },
+            "text:tooltip_textbox5": {
+               "@name": "tooltip_textbox5",
+               "#text": {
+                  "string": "\n           Font Size Adjustment:\n        "
+               }
+            },
+            "spinner:font_size_adj_slider": {
+               "@name": "font_size_adj_slider"
+            },
+            "text:tooltip_textbox6": {
+               "@name": "tooltip_textbox6",
+               "#text": {
+                  "string": "\n           pt (requires restart)\nDefault 0. Larger values may not work well.\n        "
+               }
+            },
+            "text:tooltip_textbox3": {
+               "@name": "tooltip_textbox3",
+               "#text": {
+                  "string": "\n           Chat Line spacing:\n        "
+               }
+            },
+            "spinner:chat_line_spacing_slider": {
+               "@name": "chat_line_spacing_slider"
+            },
+            "text:tooltip_textbox4": {
+               "@name": "tooltip_textbox4",
+               "#text": {
+                  "string": "\n          pixels (requires restart)\n[VIEWER_GENERATION] default 0. Viewer 1 default 2.\n        "
+               }
+            },
+            "text:Label_FolderItemViewHeight": {
+               "@name": "Label_FolderItemViewHeight",
+               "#text": {
+                  "string": "\n           Folder Item Height:\n        "
+               }
+            },
+            "spinner:FSFolderViewItemHeight": {
+               "@name": "FSFolderViewItemHeight"
+            },
+            "text:Label_FolderItemViewHeight_Scale": {
+               "@name": "Label_FolderItemViewHeight_Scale",
+               "#text": {
+                  "string": "\n          pixels (requires restart)\n[VIEWER_GENERATION] default 20. Viewer 1 default 18.\n        "
+               }
+            },
+            "#comment": " not a live preview\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"15\"\n         left=\"10\"\n         height=\"24\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifHuge\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"5\"\n         left=\"10\"\n         height=\"18\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifLarge\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"5\"\n         left=\"10\"\n         height=\"16\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifMedium\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"5\"\n         left=\"10\"\n         height=\"16\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifSmall\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"8\"\n         left=\"10\"\n         height=\"12\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"Monospace\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n"
+         }
+      }
+   }
+}

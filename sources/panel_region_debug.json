@@ -1,0 +1,170 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Debug"
+      },
+      "@name": "Debug",
+      "text:region_text_lbl": {
+         "@name": "region_text_lbl",
+         "#text": {
+            "string": "\n        Region:\n    "
+         }
+      },
+      "text:region_text": {
+         "@name": "region_text",
+         "#text": {
+            "string": "\n        unknown\n    "
+         }
+      },
+      "check_box:disable_scripts_check": {
+         "@label": {
+            "string": "Disable Scripts"
+         },
+         "@name": "disable_scripts_check",
+         "@tool_tip": {
+            "string": "Disable all scripts in this region"
+         }
+      },
+      "check_box:disable_collisions_check": {
+         "@label": {
+            "string": "Disable Collisions"
+         },
+         "@name": "disable_collisions_check",
+         "@tool_tip": {
+            "string": "Disable non-avatar collisions in this region"
+         }
+      },
+      "check_box:disable_physics_check": {
+         "@label": {
+            "string": "Disable Physics"
+         },
+         "@name": "disable_physics_check",
+         "@tool_tip": {
+            "string": "Disable all physics in this region"
+         }
+      },
+      "button:apply_btn": {
+         "@label": {
+            "string": "Apply"
+         },
+         "@name": "apply_btn"
+      },
+      "text:objret_text_lbl": {
+         "@name": "objret_text_lbl",
+         "#text": {
+            "string": "\n        Object Return\n    "
+         }
+      },
+      "text:resident_text_lbl": {
+         "@name": "resident_text_lbl",
+         "#text": {
+            "string": "\n        Resident:\n    "
+         }
+      },
+      "line_editor:target_avatar_name": {
+         "@name": "target_avatar_name",
+         "#text": {
+            "string": "\n        (none)\n    "
+         }
+      },
+      "button:choose_avatar_btn": {
+         "@label": {
+            "string": "Choose"
+         },
+         "@name": "choose_avatar_btn"
+      },
+      "text:options_text_lbl": {
+         "@name": "options_text_lbl",
+         "#text": {
+            "string": "\n        Options:\n    "
+         }
+      },
+      "check_box:return_scripts": {
+         "@label": {
+            "string": "With scripts"
+         },
+         "@name": "return_scripts",
+         "@tool_tip": {
+            "string": "Return only objects which have scripts"
+         }
+      },
+      "check_box:return_other_land": {
+         "@label": {
+            "string": "On someone else's land"
+         },
+         "@name": "return_other_land",
+         "@tool_tip": {
+            "string": "Return only objects which are on land belonging to someone else"
+         }
+      },
+      "check_box:return_estate_wide": {
+         "@label": {
+            "string": "In every region of this estate"
+         },
+         "@name": "return_estate_wide",
+         "@tool_tip": {
+            "string": "Return objects in all of the regions that make up this estate"
+         }
+      },
+      "button:return_btn": {
+         "@label": {
+            "string": "Return"
+         },
+         "@name": "return_btn"
+      },
+      "button:top_colliders_btn": {
+         "@label": {
+            "string": "Get Top Colliders..."
+         },
+         "@name": "top_colliders_btn",
+         "@tool_tip": {
+            "string": "List of objects experiencing the most potential collisions"
+         }
+      },
+      "button:top_scripts_btn": {
+         "@label": {
+            "string": "Get Top Scripts..."
+         },
+         "@name": "top_scripts_btn",
+         "@tool_tip": {
+            "string": "List of objects spending the most time running scripts"
+         }
+      },
+      "button:restart_btn": {
+         "@label": {
+            "string": "Restart Region"
+         },
+         "@name": "restart_btn",
+         "@tool_tip": {
+            "string": "Give countdown of selected seconds and restart region"
+         }
+      },
+      "text:label_restart_delay": {
+         "@name": "label_restart_delay",
+         "#text": {
+            "string": "\n    Seconds:\n  "
+         }
+      },
+      "spinner:restart_delay": {
+         "@name": "restart_delay"
+      },
+      "button:cancel_restart_btn": {
+         "@label": {
+            "string": "Cancel Restart"
+         },
+         "@name": "cancel_restart_btn",
+         "@tool_tip": {
+            "string": "Cancel region restart"
+         }
+      },
+      "button:region_debug_console_btn": {
+         "@label": {
+            "string": "Region Debug Console"
+         },
+         "@name": "region_debug_console_btn",
+         "@tool_tip": {
+            "string": "Open Region Debug Console"
+         }
+      }
+   }
+}

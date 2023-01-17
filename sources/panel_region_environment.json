@@ -1,0 +1,345 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Environment"
+      },
+      "@name": "panel_env_info",
+      "string:str_label_use_default": {
+         "@name": "str_label_use_default",
+         "#text": {
+            "string": "Use Default Settings"
+         }
+      },
+      "string:str_label_use_region": {
+         "@name": "str_label_use_region",
+         "#text": {
+            "string": "Use Region Settings"
+         }
+      },
+      "string:str_altitude_desription": {
+         "@name": "str_altitude_desription",
+         "#text": {
+            "string": "Sky [INDEX]([ALTITUDE]m)"
+         }
+      },
+      "string:str_no_parcel": {
+         "@name": "str_no_parcel",
+         "#text": {
+            "string": "No parcel is selected. Environmental settings are disabled."
+         }
+      },
+      "string:str_cross_region": {
+         "@name": "str_cross_region",
+         "#text": {
+            "string": "Environmental settings are not available across region boundaries."
+         }
+      },
+      "string:str_legacy": {
+         "@name": "str_legacy",
+         "#text": {
+            "string": "Environmental settings are not available on this region."
+         }
+      },
+      "string:str_disallowed": {
+         "@name": "str_disallowed",
+         "#text": {
+            "string": "The estate manager does not allow changing parcel environments in this region."
+         }
+      },
+      "string:str_too_small": {
+         "@name": "str_too_small",
+         "#text": {
+            "string": "The parcel must be at least 128 square meters to support an environment."
+         }
+      },
+      "string:str_empty": {
+         "@name": "str_empty",
+         "#text": {
+            "string": "(empty)"
+         }
+      },
+      "string:str_region_env": {
+         "@name": "str_region_env",
+         "#text": {
+            "string": "(region environment)"
+         }
+      },
+      "layout_stack:ls_main": {
+         "@name": "ls_main",
+         "layout_panel:pnl_environment_region_msg": {
+            "@name": "pnl_environment_region_msg",
+            "text:region_text_lbl": {
+               "@name": "region_text_lbl",
+               "#text": {
+                  "string": "\n                Region:\n            "
+               }
+            },
+            "text:region_text": {
+               "@name": "region_text",
+               "#text": {
+                  "string": "\n                unknown\n            "
+               }
+            }
+         },
+         "layout_panel:pnl_environment_disabled": {
+            "@name": "pnl_environment_disabled",
+            "text:txt_environment_disabled": {
+               "@name": "txt_environment_disabled",
+               "#text": {
+                  "string": "\n                ...\n            "
+               }
+            }
+         },
+         "layout_panel:pnl_environment_config": {
+            "@name": "pnl_environment_config",
+            "layout_stack:ls_environment_config": {
+               "@name": "ls_environment_config",
+               "layout_panel:pnl_environment_config": {
+                  "@name": "pnl_environment_config",
+                  "layout_stack:ls_environment_config2": {
+                     "@name": "ls_environment_config2",
+                     "layout_panel:pnl_environment_current": {
+                        "@name": "pnl_environment_current",
+                        "text:select_environment_label": {
+                           "@name": "select_environment_label",
+                           "#text": {
+                              "string": "Select Environment"
+                           }
+                        },
+                        "button:btn_usedefault": {
+                           "@label": {
+                              "string": "[USEDEFAULT]"
+                           },
+                           "@name": "btn_usedefault"
+                        },
+                        "button:btn_select_inventory": {
+                           "@label": {
+                              "string": "Use Inventory"
+                           },
+                           "@name": "btn_select_inventory"
+                        },
+                        "button:btn_edit": {
+                           "@label": {
+                              "string": "Customize Day Cycle"
+                           },
+                           "@name": "btn_edit"
+                        },
+                        "check_box:chk_allow_override": {
+                           "@label": {
+                              "string": "Parcel Owners May Override"
+                           },
+                           "@name": "chk_allow_override"
+                        }
+                     },
+                     "layout_panel:pnl_environment_length": {
+                        "@name": "pnl_environment_length",
+                        "text:day_settings_label": {
+                           "@name": "day_settings_label",
+                           "#text": {
+                              "string": "Day Settings"
+                           }
+                        },
+                        "text:day_length_label": {
+                           "@name": "day_length_label",
+                           "#text": {
+                              "string": "\n                                Day Length (hours)\n                            "
+                           }
+                        },
+                        "slider:sld_day_length": {
+                           "@name": "sld_day_length"
+                        },
+                        "text:day_offset_label": {
+                           "@name": "day_offset_label",
+                           "#text": {
+                              "string": "\n                                Day Offset (hours)\n                            "
+                           }
+                        },
+                        "slider:sld_day_offset": {
+                           "@name": "sld_day_offset"
+                        },
+                        "text:apparent_time_of_day_label": {
+                           "@name": "apparent_time_of_day_label",
+                           "#text": {
+                              "string": "\n                                Apparent Time of Day:\n                            "
+                           }
+                        },
+                        "text:lbl_apparent_time": {
+                           "@name": "lbl_apparent_time",
+                           "#text": {
+                              "string": "\n                                [HH]:[MM][AP] ([PRC]%)\n                            "
+                           }
+                        }
+                     },
+                     "layout_panel:pnl_environment_buttons": {
+                        "@name": "pnl_environment_buttons",
+                        "#comment": " used to be buttons, but now spacer.\n"
+                     }
+                  }
+               },
+               "layout_panel:pnl_environment_altitudes": {
+                  "@name": "pnl_environment_altitudes",
+                  "#comment": " Three movable panels first so that they will be 'below' slider",
+                  "panel:pnl_alt1": {
+                     "@name": "pnl_alt1",
+                     "text:txt_alt1": {
+                        "@name": "txt_alt1",
+                        "#text": {
+                           "string": "\n                            Sky [INDEX]\n                            [ALTITUDE]m\n                        "
+                        }
+                     },
+                     "line_editor:edt_invname_alt1": {
+                        "@name": "edt_invname_alt1",
+                        "#text": {
+                           "string": "\n                            Unknown\n                        "
+                        }
+                     },
+                     "settings_drop_target:sdt_alt1": {
+                        "@name": "sdt_alt1",
+                        "@tool_tip": {
+                           "string": "Drag a setting from Inventory onto this target box to select it as current sky."
+                        }
+                     }
+                  },
+                  "panel:pnl_alt2": {
+                     "@name": "pnl_alt2",
+                     "text:txt_alt2": {
+                        "@name": "txt_alt2",
+                        "#text": {
+                           "string": "\n                            Sky [INDEX]\n                            [ALTITUDE]m\n                        "
+                        }
+                     },
+                     "line_editor:edt_invname_alt2": {
+                        "@name": "edt_invname_alt2",
+                        "#text": {
+                           "string": "\n                            Unknown\n                        "
+                        }
+                     },
+                     "settings_drop_target:sdt_alt2": {
+                        "@name": "sdt_alt2",
+                        "@tool_tip": {
+                           "string": "Drag a setting from Inventory onto this target box to select it as current sky."
+                        }
+                     }
+                  },
+                  "panel:pnl_alt3": {
+                     "@name": "pnl_alt3",
+                     "text:txt_alt3": {
+                        "@name": "txt_alt3",
+                        "#text": {
+                           "string": "\n                            Sky [INDEX]\n                            [ALTITUDE]m\n                        "
+                        }
+                     },
+                     "line_editor:edt_invname_alt3": {
+                        "@name": "edt_invname_alt3",
+                        "#text": {
+                           "string": "\n                            Unknown\n                        "
+                        }
+                     },
+                     "settings_drop_target:sdt_alt3": {
+                        "@name": "sdt_alt3",
+                        "@tool_tip": {
+                           "string": "Drag a setting from Inventory onto this target box to select it as current sky."
+                        }
+                     }
+                  },
+                  "text:sky_altitudes_label": {
+                     "@name": "sky_altitudes_label",
+                     "#text": {
+                        "string": "Sky Altitudes"
+                     }
+                  },
+                  "#comment$6": " Divider icons also should be under slider to not interfer with clicks",
+                  "icon:mark0": {
+                     "@name": "mark0"
+                  },
+                  "icon:mark1": {
+                     "@name": "mark1"
+                  },
+                  "icon:mark2": {
+                     "@name": "mark2"
+                  },
+                  "multi_slider:sld_altitudes": {
+                     "@name": "sld_altitudes",
+                     "slider:sld1": {
+                        "@name": "sld1",
+                        "@value": {
+                           "string": "1000"
+                        }
+                     },
+                     "slider:sld2": {
+                        "@name": "sld2",
+                        "@value": {
+                           "string": "2000"
+                        }
+                     },
+                     "slider:sld3": {
+                        "@name": "sld3",
+                        "@value": {
+                           "string": "3000"
+                        }
+                     }
+                  },
+                  "panel:pnl_ground": {
+                     "@name": "pnl_ground",
+                     "text:txt_ground": {
+                        "@name": "txt_ground",
+                        "#text": {
+                           "string": "\n                            Ground\n                        "
+                        }
+                     },
+                     "icon:icon_ground": {
+                        "@name": "icon_ground"
+                     },
+                     "line_editor:edt_invname_ground": {
+                        "@name": "edt_invname_ground",
+                        "#text": {
+                           "string": "\n                            Unknown\n                        "
+                        }
+                     },
+                     "settings_drop_target:sdt_ground": {
+                        "@name": "sdt_ground",
+                        "@tool_tip": {
+                           "string": "Drag a setting from Inventory onto this target box to select it as the ground level sky."
+                        }
+                     }
+                  },
+                  "panel:pnl_water": {
+                     "@name": "pnl_water",
+                     "text:txt_water": {
+                        "@name": "txt_water",
+                        "#text": {
+                           "string": "\n                            Water\n                        "
+                        }
+                     },
+                     "icon:icon_water": {
+                        "@name": "icon_water"
+                     },
+                     "line_editor:edt_invname_water": {
+                        "@name": "edt_invname_water",
+                        "#text": {
+                           "string": "\n                            Unknown\n                        "
+                        }
+                     },
+                     "settings_drop_target:sdt_water": {
+                        "@name": "sdt_water",
+                        "@tool_tip": {
+                           "string": "Drag a setting from Inventory onto this target box to select it as current water."
+                        }
+                     }
+                  },
+                  "button:btn_rst_altitudes": {
+                     "@label": {
+                        "string": "Reset"
+                     },
+                     "@tool_tip": {
+                        "string": "Reset to default altitudes"
+                     },
+                     "@name": "btn_rst_altitudes"
+                  }
+               }
+            }
+         },
+         "#comment": "\n        <layout_panel \n                user_resize=\"false\"\n                height=\"155\"\n                min_height=\"0\"\n                name=\"pnl_environment_config\"\n                visible=\"true\">\n            <layout_stack \n                    left=\"5\"\n                    top=\"0\"\n                    right=\"-5\"\n                    bottom=\"-1\"\n                    layout=\"topleft\"\n                    follows=\"all\"\n                    animate=\"false\"\n                    orientation=\"horizontal\">\n                <layout_panel \n                        background_visible=\"true\"\n                        border=\"true\"\n                        bevel_style=\"in\"\n                        user_resize=\"false\"\n                        width=\"260\"\n                        min_width=\"260\"\n                        name=\"pnl_environment_current\">\n                    <text follows=\"top|left\"\n                            font=\"SansSerif\"\n                            halign=\"left\"\n                            text_color=\"white\"\n                            top=\"2\">Current Environment</text>\n                    <radio_group\n                            height=\"90\"\n                            layout=\"topleft\"\n                            top_pad=\"8\"\n                            left_delta=\"10\"\n                            name=\"rdg_environment_select\">\n                        <radio_item\n                                label=\"[USEDEFAULT]\"\n                                layout=\"topleft\"\n                                name=\"rdo_use_xxx_setting\"\n                                height=\"20\"/>\n                        <radio_item\n                                label=\"Settings From Inventory\"\n                                layout=\"topleft\"\n                                valign=\"top\"\n                                name=\"rdo_use_inv_setting\"\n                                height=\"20\"/>\n                        <radio_item\n                                top_pad=\"25\"\n                                label=\"Custom Environment\"\n                                layout=\"topleft\"\n                                height=\"20\"\n                                name=\"rdo_use_custom_setting\"/>\n                    </radio_group>\n                    <line_editor\n                            follows=\"top|left\"\n                            enabled=\"false\"\n                            left_delta=\"20\"\n                            top_delta=\"50\"\n                            height=\"20\"\n                            layout=\"topleft\"\n                            name=\"edt_inventory_name\"\n                            width=\"200\">\n                        Unknown\n                    </line_editor>\n                    <settings_drop_target\n                            height=\"20\"\n                            top_pad=\"-20\"\n                            follows=\"top|left\"\n                            layout=\"topleft\"\n                            name=\"sdt_drop_target\"\n                            tool_tip=\"Drag a setting from Inventory onto this target box to select it as current evironment.\"\n                            width=\"200\" />\n                    <button\n                            name=\"btn_select_inventory\"\n                            follows=\"top|left\"\n                            image_overlay=\"Command_Inventory_Icon\"\n                            layout=\"topleft\"\n                            height=\"20\"\n                            width=\"20\"\n                            left_delta=\"205\"\n                            top_delta=\"0\"/>\n                    <button\n                            follows=\"top|left\"\n                            top_pad=\"25\"\n                            left_delta=\"-205\"\n                            layout=\"topleft\"\n                            height=\"23\"\n                            label=\"Edit Environment\"\n                            width=\"120\"\n                            name=\"btn_edit\"/>\n\n                </layout_panel>\n                <layout_panel \n                        border=\"true\"\n                        bevel_style=\"in\"\n                        user_resize=\"false\"\n                        width=\"260\"\n                        min_width=\"260\"\n                        background_visible=\"true\"\n                        name=\"pnl_environment_length\">\n                    <text \n                            font=\"SansSerif\"\n                            follows=\"top|left|right\"\n                            halign=\"left\"\n                            text_color=\"white\"\n                            top=\"2\">Day Settings</text>\n                    <text\n                            type=\"string\"\n                            length=\"1\"\n                            follows=\"left|top\"\n                            height=\"12\"\n                            layout=\"topleft\"\n                            left_delta=\"10\"\n                            top_pad=\"14\"\n                            width=\"200\">\n                        Day Length (hours)\n                    </text>\n                    <slider\n                            can_edit_text=\"true\"\n                            decimal_digits=\"1\"\n                            follows=\"left|top\"\n                            height=\"20\"\n                            increment=\"0.5\"\n                            initial_value=\"4\"\n                            layout=\"topleft\"\n                            left_delta=\"0\"\n                            top_pad=\"6\"\n                            name=\"sld_day_length\"\n                            min_val=\"4\"\n                            max_val=\"168\"\n                            width=\"180\" />\n                    <text\n                            type=\"string\"\n                            length=\"1\"\n                            follows=\"left|top\"\n                            height=\"12\"\n                            layout=\"topleft\"\n                            left_delta=\"0\"\n                            top_pad=\"10\"\n                            width=\"200\">\n                        Day Offset (hours)\n                    </text>\n                    <slider\n                            can_edit_text=\"true\"\n                            decimal_digits=\"1\"\n                            follows=\"left|top\"\n                            height=\"20\"\n                            increment=\"0.5\"\n                            initial_value=\"-8\"\n                            layout=\"topleft\"\n                            left_delta=\"0\"\n                            top_pad=\"6\"\n                            name=\"sld_day_offset\"\n                            min_val=\"-12\"\n                            max_val=\"12\"\n                            width=\"180\" />\n                    <text\n                            type=\"string\"\n                            length=\"1\"\n                            follows=\"left|top\"\n                            height=\"12\"\n                            layout=\"topleft\"\n                            left_delta=\"0\"\n                            top_pad=\"10\"\n                            width=\"200\">\n                        Apparent Time of Day:\n                    </text>\n                    <text\n                            name=\"lbl_apparent_time\"\n                            type=\"string\"\n                            length=\"1\"\n                            follows=\"left|top\"\n                            height=\"12\"\n                            layout=\"topleft\"\n                            left_delta=\"10\"\n                            top_pad=\"5\"\n                            width=\"200\">\n                        [HH]:[MM][AP] ([PRC]%)\n                    </text>\n\n                </layout_panel>\n            </layout_stack>\n        </layout_panel>\n        <layout_panel\n                user_resize=\"false\"\n                height=\"155\"\n                min_height=\"0\"\n                name=\"pnl_environment_altitudes\"\n                visible=\"true\">\n            <panel\n                    left=\"5\"\n                    top=\"0\"\n                    bottom=\"-1\"\n                    width=\"260\"\n                    follows=\"left|top|bottom\"\n                    background_visible=\"true\"\n                    border=\"true\"\n                    bevel_style=\"in\"\n                    name=\"cnt_panel\">\n                <text follows=\"top|left\"\n                        font=\"SansSerif\"\n                        halign=\"left\"\n                        text_color=\"white\"\n                        top=\"2\">Sky Altitudes</text>\n                <multi_slider\n                        decimal_digits=\"0\"\n                        follows=\"bottom\"\n                        height=\"123\"\n                        width=\"17\"\n                        orientation=\"vertical\"\n                        increment=\"10\"\n                        overlap_threshold=\"100\"\n                        min_val=\"100\"\n                        max_val=\"4000\"\n                        layout=\"topleft\"\n                        left=\"15\"\n                        top=\"20\"\n                        max_sliders=\"20\"\n                        name=\"sld_altitudes\"\n                        show_text=\"false\"\n                        thumb_image=\"Inv_SettingsSky\"\n                        thumb_width=\"17\"\n                        thumb_highlight_color=\"white\">\n                    <slider name=\"sld1\"\n                            value=\"200\"/>\n                    <slider name=\"sld2\"\n                            value=\"400\"/>\n                    <slider name=\"sld3\"\n                            value=\"600\"/>\n                </multi_slider>\n                <icon\n                        follows=\"left|top\"\n                        height=\"17\"\n                        width=\"17\"\n                        image_name=\"Inv_SettingsSky\"\n                        layout=\"topleft\"\n                        name=\"icon_ground\"\n                        mouse_opaque=\"false\"\n                        visible=\"true\"\n                        left_delta=\"0\"\n                        top_pad=\"-9\"/>\n                <text\n                        type=\"string\"\n                        length=\"1\"\n                        follows=\"left|top\"\n                        height=\"12\"\n                        layout=\"topleft\"\n                        left_pad=\"3\"\n                        top_delta=\"2\"\n                        width=\"200\"\n                        name=\"ground\">\n                    Ground\n                </text>\n                <text\n                        type=\"string\"\n                        length=\"1\"\n                        follows=\"left\"\n                        height=\"12\"\n                        layout=\"topleft\"\n                        left=\"35\"\n                        top=\"30\"\n                        width=\"200\"\n                        name=\"alt1\">\n                    Sky [INDEX]([ALTITUDE]m)\n                </text>\n                <text\n                        type=\"string\"\n                        length=\"1\"\n                        follows=\"left|top\"\n                        height=\"12\"\n                        layout=\"topleft\"\n                        left=\"35\"\n                        top=\"40\"\n                        width=\"200\"\n                        name=\"alt2\">\n                    Sky [INDEX]([ALTITUDE]m)\n                </text>\n                <text\n                        type=\"string\"\n                        length=\"1\"\n                        follows=\"left|top\"\n                        height=\"12\"\n                        layout=\"topleft\"\n                        left=\"35\"\n                        top=\"50\"\n                        width=\"200\"\n                        name=\"alt3\">\n                    Sky [INDEX]([ALTITUDE]m)\n                </text>\n            </panel>\n        </layout_panel>\n        <layout_panel\n                user_resize=\"false\"\n                height=\"0\"\n                min_height=\"0\"\n                name=\"pnl_auto_adjust\"\n                visible=\"true\"/>\n        <layout_panel\n                user_resize=\"false\"\n                height=\"59\"\n                min_height=\"59\"\n                name=\"pnl_environment_buttons\">\n            <check_box\n                    height=\"20\"\n                    label=\"Parcel Owners May Override Environment\"\n                    layout=\"topleft\"\n                    left=\"10\"\n                    top=\"0\"\n                    name=\"chk_allow_override\"\n                    width=\"200\" />\n            <button\n                    follows=\"top|left\"\n                    height=\"23\"\n                    label=\"Apply\"\n                    top_pad=\"5\"\n                    name=\"btn_apply\"\n                    width=\"100\" />\n            <button\n                    follows=\"top|left\"\n                    height=\"23\"\n                    label=\"Reset\"\n                    layout=\"topleft\"\n                    left_pad=\"10\"\n                    top_delta=\"0\"\n                    name=\"btn_cancel\"\n                    width=\"100\" /> \n\n        </layout_panel>\n"
+      }
+   }
+}

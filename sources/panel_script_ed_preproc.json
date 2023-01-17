@@ -1,0 +1,334 @@
+{
+   "panel": {
+      "@name": "script panel",
+      "panel.string:loading": {
+         "@name": "loading",
+         "#text": {
+            "string": "\n    Loading...\n  "
+         }
+      },
+      "panel.string:can_not_view": {
+         "@name": "can_not_view",
+         "#text": {
+            "string": "\n    You can not view or edit this script, since it has been set with restricted permissions. You need full permissions to view or edit a script inside an object.\n  "
+         }
+      },
+      "panel.string:public_objects_can_not_run": {
+         "@name": "public_objects_can_not_run",
+         "#text": {
+            "string": "\n    Public Objects cannot run scripts\n  "
+         }
+      },
+      "panel.string:script_running": {
+         "@name": "script_running",
+         "#text": {
+            "string": "\n    Running\n  "
+         }
+      },
+      "panel.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n    Script: [NAME]\n  "
+         }
+      },
+      "menu_bar:script_menu": {
+         "@name": "script_menu",
+         "menu:File": {
+            "@label": {
+               "string": "File"
+            },
+            "@name": "File",
+            "menu_item_call:Save": {
+               "@label": {
+                  "string": "Save"
+               },
+               "@name": "Save"
+            },
+            "menu_item_separator": null,
+            "menu_item_call:Revert All Changes": {
+               "@label": {
+                  "string": "Revert All Changes"
+               },
+               "@name": "Revert All Changes"
+            },
+            "menu_item_call:LoadFromFile": {
+               "@label": {
+                  "string": "Load from file..."
+               },
+               "@name": "LoadFromFile"
+            },
+            "menu_item_call:SaveToFile": {
+               "@label": {
+                  "string": "Save to file..."
+               },
+               "@name": "SaveToFile"
+            },
+            "menu_item_call:ScriptPrefs": {
+               "@label": {
+                  "string": "Script Editor Preferences..."
+               },
+               "@name": "ScriptPrefs"
+            }
+         },
+         "menu:Edit": {
+            "@label": {
+               "string": "Edit"
+            },
+            "@name": "Edit",
+            "menu_item_call:Undo": {
+               "@label": {
+                  "string": "Undo"
+               },
+               "@name": "Undo"
+            },
+            "menu_item_call:Redo": {
+               "@label": {
+                  "string": "Redo"
+               },
+               "@name": "Redo"
+            },
+            "menu_item_separator": null,
+            "menu_item_call:Cut": {
+               "@label": {
+                  "string": "Cut"
+               },
+               "@name": "Cut"
+            },
+            "menu_item_call:Copy": {
+               "@label": {
+                  "string": "Copy"
+               },
+               "@name": "Copy"
+            },
+            "menu_item_call:Paste": {
+               "@label": {
+                  "string": "Paste"
+               },
+               "@name": "Paste"
+            },
+            "menu_item_separator:separator2": {
+               "@name": "separator2"
+            },
+            "menu_item_call:Select All": {
+               "@label": {
+                  "string": "Select All"
+               },
+               "@name": "Select All"
+            },
+            "menu_item_call:Deselect": {
+               "@label": {
+                  "string": "Deselect"
+               },
+               "@name": "Deselect"
+            },
+            "menu_item_separator:separator3": {
+               "@name": "separator3"
+            },
+            "menu_item_call:Search / Replace...": {
+               "@label": {
+                  "string": "Search / Replace..."
+               },
+               "@name": "Search / Replace..."
+            },
+            "menu_item_call:Go to line...": {
+               "@label": {
+                  "string": "Go to line..."
+               },
+               "@name": "Go to line..."
+            }
+         },
+         "menu:Help": {
+            "@label": {
+               "string": "Help"
+            },
+            "@name": "Help",
+            "menu_item_call:Help...": {
+               "@label": {
+                  "string": "Help..."
+               },
+               "@name": "Help..."
+            },
+            "menu_item_call:Keyword Help...": {
+               "@label": {
+                  "string": "Keyword Help..."
+               },
+               "@name": "Keyword Help..."
+            },
+            "menu_item_call:Script Library": {
+               "@label": {
+                  "string": "Script Library..."
+               },
+               "@name": "Script Library",
+               "menu_item_call.on_click:script_library_url": {
+                  "@name": "script_library_url"
+               }
+            }
+         }
+      },
+      "layout_stack:script_editor_button_bar": {
+         "@name": "script_editor_button_bar",
+         "layout_panel:script_editor_buttons_panel": {
+            "@name": "script_editor_buttons_panel",
+            "button:save_btn": {
+               "@tool_tip": {
+                  "string": "Save script"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "save_btn"
+            },
+            "button:Edit_btn": {
+               "@tool_tip": {
+                  "string": "External Script Editor"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "Edit_btn"
+            },
+            "button:load_disk_btn": {
+               "@tool_tip": {
+                  "string": "Load a Script from your Hard Disk"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "load_disk_btn"
+            },
+            "button:save_disk_btn": {
+               "@tool_tip": {
+                  "string": "Save a Script to your Hard Disk"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "save_disk_btn"
+            },
+            "button:cut_btn": {
+               "@tool_tip": {
+                  "string": "Cut"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "cut_btn"
+            },
+            "button:copy_btn": {
+               "@tool_tip": {
+                  "string": "Copy"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "copy_btn"
+            },
+            "button:paste_btn": {
+               "@tool_tip": {
+                  "string": "Paste"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "paste_btn"
+            },
+            "button:undo_btn": {
+               "@tool_tip": {
+                  "string": "Undo"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "undo_btn"
+            },
+            "button:redo_btn": {
+               "@tool_tip": {
+                  "string": "Redo"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "redo_btn"
+            },
+            "button:search_btn": {
+               "@tool_tip": {
+                  "string": "Search/Replace"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "search_btn"
+            },
+            "button:prefs_btn": {
+               "@tool_tip": {
+                  "string": "Script Editor Preferences"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "prefs_btn"
+            },
+            "loading_indicator:progress_indicator": {
+               "@name": "progress_indicator"
+            },
+            "icon:status_indicator": {
+               "@name": "status_indicator"
+            }
+         }
+      },
+      "tab_container:Tabset": {
+         "@name": "Tabset",
+         "panel:Script": {
+            "@name": "Script",
+            "@label": {
+               "string": "Script"
+            },
+            "script_editor:Script Editor": {
+               "@name": "Script Editor",
+               "#text": {
+                  "string": "\n      Loading...\n    "
+               }
+            }
+         },
+         "panel:Preprocessed": {
+            "@name": "Preprocessed",
+            "@label": {
+               "string": "Preprocessed"
+            },
+            "fs_lsl_preproc_viewer:Post Editor": {
+               "@name": "Post Editor",
+               "#text": {
+                  "string": "\n      Loading...\n    "
+               }
+            }
+         }
+      },
+      "scroll_list:lsl errors": {
+         "@name": "lsl errors"
+      },
+      "combo_box:Insert...": {
+         "@label": {
+            "string": "Insert..."
+         },
+         "@name": "Insert..."
+      },
+      "text:line_col": {
+         "@name": "line_col",
+         "@value": {
+            "string": "Line 0, Column 0"
+         }
+      },
+      "button:edit_btn_2": {
+         "@label": {
+            "string": "Edit..."
+         },
+         "@name": "edit_btn_2"
+      },
+      "button:save_btn_2": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save_btn_2"
+      }
+   }
+}

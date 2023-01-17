@@ -1,0 +1,64 @@
+{
+   "panel": {
+      "@name": "panel_snapshot_postcard",
+      "string:default_subject": {
+         "@name": "default_subject",
+         "#text": {
+            "string": "\n        Postcard from [SECOND_LIFE].\n    "
+         }
+      },
+      "string:default_message": {
+         "@name": "default_message",
+         "#text": {
+            "string": "\n        Check this out!\n    "
+         }
+      },
+      "string:upload_message": {
+         "@name": "upload_message",
+         "#text": {
+            "string": "\n        Sending...\n    "
+         }
+      },
+      "icon:title_icon": {
+         "@name": "title_icon"
+      },
+      "text:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n        E-mail\n    "
+         }
+      },
+      "view_border:hr": {
+         "@name": "hr"
+      },
+      "tab_container:postcard_tabs": {
+         "@name": "postcard_tabs",
+         "panel:panel_postcard_message": {
+            "@label": {
+               "string": "Message"
+            },
+            "@name": "panel_postcard_message"
+         },
+         "panel:panel_postcard_settings": {
+            "@label": {
+               "string": "Settings"
+            },
+            "@name": "panel_postcard_settings"
+         }
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "▶ Selection"
+         },
+         "@name": "cancel_btn",
+         "button.commit_callback": null
+      },
+      "button:send_btn": {
+         "@label": {
+            "string": "Send"
+         },
+         "@name": "send_btn",
+         "button.commit_callback": null
+      }
+   }
+}

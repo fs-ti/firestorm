@@ -1,0 +1,77 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Experiences"
+      },
+      "@name": "Experiences",
+      "panel.string:trusted_estate_text": {
+         "@name": "trusted_estate_text",
+         "#text": {
+            "string": "\nAny Experience may be Key.\n\nKey Experiences have permission to run on this estate.\n\nAdditionally, if the estate does not allow public access, Residents participating in any Key Experience may enter the estate and can remain as long as they are in a Key Experience.\n   "
+         }
+      },
+      "panel.string:allowed_estate_text": {
+         "@name": "allowed_estate_text",
+         "#text": {
+            "string": "\nOnly Experiences that are Land-Scope may be Allowed.\n\nAllowed Experiences have permission to run on this estate.\n   "
+         }
+      },
+      "panel.string:blocked_estate_text": {
+         "@name": "blocked_estate_text",
+         "#text": {
+            "string": "\nOnly Grid-Scope Experiences may be Blocked.\n      \nBlocked Experiences may not run on this estate.\n   "
+         }
+      },
+      "panel.string:estate_caption": {
+         "@name": "estate_caption",
+         "#text": {
+            "string": "\n      Changes to settings on this tab will affect all regions in the estate.\n   "
+         }
+      },
+      "panel.string:allowed_parcel_text": {
+         "@name": "allowed_parcel_text",
+         "#text": {
+            "string": "Only Experiences that are Land-Scope may be Allowed.\n      \nAllowed Experiences have permission to run on this parcel if they are not Blocked by the estate.\n   "
+         }
+      },
+      "panel.string:blocked_parcel_text": {
+         "@name": "blocked_parcel_text",
+         "#text": {
+            "string": "Any Resident Experience may be Blocked.\n      \nBlocked Experiences may not run on this parcel.\n   "
+         }
+      },
+      "panel.string:parcel_caption": {
+         "@name": "parcel_caption"
+      },
+      "text:experiences_help_text": {
+         "@name": "experiences_help_text"
+      },
+      "layout_stack": {
+         "layout_panel:trusted_layout_panel": {
+            "@name": "trusted_layout_panel",
+            "panel:panel_trusted": {
+               "@name": "panel_trusted"
+            },
+            "text:trusted_text_help": {
+               "@name": "trusted_text_help"
+            }
+         },
+         "layout_panel": {
+            "panel:panel_allowed": {
+               "@name": "panel_allowed"
+            },
+            "text:allowed_text_help": {
+               "@name": "allowed_text_help"
+            }
+         },
+         "layout_panel$2": {
+            "panel:panel_blocked": {
+               "@name": "panel_blocked"
+            },
+            "text:blocked_text_help": {
+               "@name": "blocked_text_help"
+            }
+         }
+      }
+   }
+}

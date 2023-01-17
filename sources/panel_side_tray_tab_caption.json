@@ -1,0 +1,30 @@
+{
+   "panel": {
+      "@name": "sidetray_tab_panel",
+      "text:sidetray_tab_title": {
+         "@name": "sidetray_tab_title",
+         "@value": {
+            "string": "Side Panel"
+         }
+      },
+      "button:undock": {
+         "@name": "undock",
+         "@tool_tip": {
+            "string": "Undock"
+         }
+      },
+      "button:dock": {
+         "@name": "dock",
+         "@tool_tip": {
+            "string": "Dock"
+         }
+      },
+      "button:minimize": {
+         "@name": "minimize",
+         "@tool_tip": {
+            "string": "Collapse"
+         }
+      },
+      "#comment": "\n  What does this do here? It seems to be left over from somewhere.\n\n        <button.commit_callback\n         function=\"Button.ShowHelp\" />\n    </button>\n//"
+   }
+}

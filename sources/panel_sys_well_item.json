@@ -1,0 +1,13 @@
+{
+   "panel": {
+      "text:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n    Beware the trout. BEWARE! THE! TROUT!\n  "
+         }
+      },
+      "button:close_btn": {
+         "@name": "close_btn"
+      }
+   }
+}

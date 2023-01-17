@@ -1,0 +1,83 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Device Settings"
+      },
+      "@name": "device_settings_panel",
+      "panel.string:default_text": {
+         "@name": "default_text",
+         "#text": {
+            "string": "\n        Default\n    "
+         }
+      },
+      "string:name_no_device": {
+         "@name": "name_no_device",
+         "#text": {
+            "string": "\n        No Device\n    "
+         }
+      },
+      "string:name_default_system_device": {
+         "@name": "name_default_system_device",
+         "#text": {
+            "string": "\n        Default System Device\n    "
+         }
+      },
+      "icon:microphone_icon": {
+         "@name": "microphone_icon"
+      },
+      "icon:speaker_icon": {
+         "@name": "speaker_icon"
+      },
+      "text:Input": {
+         "@name": "Input",
+         "#text": {
+            "string": "\n        Input\n    "
+         }
+      },
+      "combo_box:voice_input_device": {
+         "@name": "voice_input_device"
+      },
+      "text:Output": {
+         "@name": "Output",
+         "#text": {
+            "string": "\n        Output\n    "
+         }
+      },
+      "combo_box:voice_output_device": {
+         "@name": "voice_output_device"
+      },
+      "text:My volume label": {
+         "@name": "My volume label",
+         "#text": {
+            "string": "\n        Mic volume:\n    "
+         }
+      },
+      "slider_bar:mic_volume_slider": {
+         "@name": "mic_volume_slider",
+         "@tool_tip": {
+            "string": "Change the mic level using this slider"
+         }
+      },
+      "text:wait_text": {
+         "@name": "wait_text",
+         "#text": {
+            "string": "\n        Please wait\n    "
+         }
+      },
+      "locate:bar0": {
+         "@name": "bar0"
+      },
+      "locate:bar1": {
+         "@name": "bar1"
+      },
+      "locate:bar2": {
+         "@name": "bar2"
+      },
+      "locate:bar3": {
+         "@name": "bar3"
+      },
+      "locate:bar4": {
+         "@name": "bar4"
+      }
+   }
+}

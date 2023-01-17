@@ -1,0 +1,70 @@
+{
+   "panel": {
+      "@name": "login_progress_panel",
+      "layout_stack:horizontal_centering": {
+         "@name": "horizontal_centering",
+         "layout_panel:left": {
+            "@name": "left"
+         },
+         "layout_panel:center": {
+            "@name": "center",
+            "layout_stack:vertical_centering": {
+               "@name": "vertical_centering",
+               "layout_panel:panel3": {
+                  "@name": "panel3"
+               },
+               "layout_panel:panel4": {
+                  "@name": "panel4",
+                  "icon": null,
+                  "layout_stack:vertical_centering": {
+                     "@name": "vertical_centering",
+                     "layout_panel:panel_top_spacer": {
+                        "@name": "panel_top_spacer"
+                     },
+                     "layout_panel:panel_login": {
+                        "@name": "panel_login",
+                        "text:title_text": {
+                           "@name": "title_text"
+                        },
+                        "text:progress_text": {
+                           "@name": "progress_text"
+                        },
+                        "progress_bar:login_progress_bar": {
+                           "@name": "login_progress_bar"
+                        }
+                     },
+                     "layout_panel:panel_motd": {
+                        "@name": "panel_motd",
+                        "text:message_text": {
+                           "@name": "message_text"
+                        }
+                     },
+                     "layout_panel:panel_icons": {
+                        "@name": "panel_icons",
+                        "#comment": "Logos are tied to following label from code",
+                        "text:logos_lbl": {
+                           "@name": "logos_lbl",
+                           "#text": {
+                              "string": "\n                          [APP_NAME] uses\n                        "
+                           }
+                        }
+                     }
+                  }
+               },
+               "layout_panel:panel5": {
+                  "@name": "panel5"
+               }
+            }
+         },
+         "layout_panel:right": {
+            "@name": "right"
+         }
+      },
+      "button:cancel_btn": {
+         "@name": "cancel_btn"
+      },
+      "web_browser:login_media_panel": {
+         "@name": "login_media_panel"
+      }
+   }
+}

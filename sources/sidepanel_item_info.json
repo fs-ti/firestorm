@@ -1,0 +1,297 @@
+{
+   "panel": {
+      "@name": "item properties",
+      "@title": {
+         "string": "Item Profile"
+      },
+      "panel.string:loading_experience": {
+         "@name": "loading_experience",
+         "#text": {
+            "string": "\n    (loading)\n  "
+         }
+      },
+      "panel.string:unknown": {
+         "@name": "unknown",
+         "#text": {
+            "string": "\n    (unknown)\n  "
+         }
+      },
+      "panel.string:unknown_multiple": {
+         "@name": "unknown_multiple",
+         "#text": {
+            "string": "\n    (unknown / multiple)\n  "
+         }
+      },
+      "panel.string:public": {
+         "@name": "public",
+         "#text": {
+            "string": "\n    (public)\n  "
+         }
+      },
+      "panel.string:you_can": {
+         "@name": "you_can",
+         "#text": {
+            "string": "\n    You can:\n  "
+         }
+      },
+      "panel.string:owner_can": {
+         "@name": "owner_can",
+         "#text": {
+            "string": "\n    Owner can:\n  "
+         }
+      },
+      "panel.string:acquiredDate": {
+         "@name": "acquiredDate",
+         "#text": {
+            "string": "\n    [wkday,datetime,slt] [mth,datetime,slt] [day,datetime,slt] [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt] [year,datetime,slt]\n  "
+         }
+      },
+      "panel.string:origin_inventory": {
+         "@name": "origin_inventory",
+         "#text": {
+            "string": "\n    (Inventory)\n  "
+         }
+      },
+      "panel.string:origin_inworld": {
+         "@name": "origin_inworld",
+         "#text": {
+            "string": "\n    (Inworld)\n  "
+         }
+      },
+      "icon:IconLocked": {
+         "@name": "IconLocked"
+      },
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:title": {
+         "@name": "title",
+         "@value": {
+            "string": "Item Profile"
+         }
+      },
+      "text:origin": {
+         "@name": "origin",
+         "@value": {
+            "string": "(Inventory)"
+         }
+      },
+      "scroll_container:item_profile_scroll": {
+         "@name": "item_profile_scroll",
+         "panel:item_profile": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "item_profile",
+            "text:LabelItemNameTitle": {
+               "@name": "LabelItemNameTitle",
+               "#text": {
+                  "string": "\n        Name:\n      "
+               }
+            },
+            "line_editor:LabelItemName": {
+               "@name": "LabelItemName",
+               "@tool_tip": {
+                  "string": "The name is limited to 63 characters. Longer prim names are cut short. Names can only consist of printable characters found in the ASCII-7 (non-extended) character set, with the exception of the vertical bar/pipe '|'."
+               }
+            },
+            "text:LabelItemDescTitle": {
+               "@name": "LabelItemDescTitle",
+               "#text": {
+                  "string": "\n        Description:\n      "
+               }
+            },
+            "line_editor:LabelItemDesc": {
+               "@name": "LabelItemDesc",
+               "@tool_tip": {
+                  "string": "When people have 'Hover Tips on All Objects' selected in the viewer's settings, they'll see the object description pop-up for any object under their mouse pointer. The prim description is limited to 127 bytes any string longer then that will be truncated."
+               }
+            },
+            "text:LabelCreatorTitle": {
+               "@name": "LabelCreatorTitle",
+               "#text": {
+                  "string": "\n        Creator:\n      "
+               }
+            },
+            "avatar_icon": null,
+            "text:LabelCreatorName": {
+               "@name": "LabelCreatorName"
+            },
+            "button:BtnCreator": {
+               "@name": "BtnCreator"
+            },
+            "text:LabelOwnerTitle": {
+               "@name": "LabelOwnerTitle",
+               "#text": {
+                  "string": "\n        Owner:\n      "
+               }
+            },
+            "text:LabelOwnerName": {
+               "@name": "LabelOwnerName"
+            },
+            "button:BtnOwner": {
+               "@name": "BtnOwner"
+            },
+            "text:LabelAcquiredTitle": {
+               "@name": "LabelAcquiredTitle",
+               "#text": {
+                  "string": "\n        Acquired:\n      "
+               }
+            },
+            "text:LabelAcquiredDate": {
+               "@name": "LabelAcquiredDate"
+            },
+            "text:LabelItemExperienceTitle": {
+               "@name": "LabelItemExperienceTitle",
+               "#text": {
+                  "string": "\n        Experience:\n      "
+               }
+            },
+            "text:LabelItemExperience": {
+               "@name": "LabelItemExperience"
+            },
+            "panel:perms_inv": {
+               "@name": "perms_inv",
+               "text:perm_modify": {
+                  "@name": "perm_modify",
+                  "#text": {
+                     "string": "\n          You can:\n        "
+                  }
+               },
+               "check_box:CheckOwnerModify": {
+                  "@label": {
+                     "string": "Modify"
+                  },
+                  "@name": "CheckOwnerModify"
+               },
+               "check_box:CheckOwnerCopy": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "CheckOwnerCopy"
+               },
+               "check_box:CheckOwnerTransfer": {
+                  "@label": {
+                     "string": "Transfer"
+                  },
+                  "@name": "CheckOwnerTransfer"
+               },
+               "text:AnyoneLabel": {
+                  "@name": "AnyoneLabel",
+                  "#text": {
+                     "string": "\n          Anyone:\n        "
+                  }
+               },
+               "check_box:CheckEveryoneCopy": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "CheckEveryoneCopy",
+                  "@tool_tip": {
+                     "string": "Anyone can take a copy of the object. Object and all of its contents must be copy and transfer permissive."
+                  }
+               },
+               "text:GroupLabel": {
+                  "@name": "GroupLabel",
+                  "#text": {
+                     "string": "\n          Group:\n        "
+                  }
+               },
+               "check_box:CheckShareWithGroup": {
+                  "@label": {
+                     "string": "Share"
+                  },
+                  "@name": "CheckShareWithGroup",
+                  "@tool_tip": {
+                     "string": "Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
+                  }
+               },
+               "text:NextOwnerLabel": {
+                  "@name": "NextOwnerLabel",
+                  "#text": {
+                     "string": "\n          Next owner:\n        "
+                  }
+               },
+               "check_box:CheckNextOwnerModify": {
+                  "@label": {
+                     "string": "Modify"
+                  },
+                  "@name": "CheckNextOwnerModify",
+                  "@tool_tip": {
+                     "string": "Next owner can edit properties like item name or scale of this object."
+                  }
+               },
+               "check_box:CheckNextOwnerCopy": {
+                  "@label": {
+                     "string": "Copy"
+                  },
+                  "@name": "CheckNextOwnerCopy",
+                  "@tool_tip": {
+                     "string": "Next owner can make unlimited copies of this object. Copies maintain creator information, and can never be more permissive than the item being copied."
+                  }
+               },
+               "check_box:CheckNextOwnerTransfer": {
+                  "@label": {
+                     "string": "Transfer"
+                  },
+                  "@name": "CheckNextOwnerTransfer",
+                  "@tool_tip": {
+                     "string": "Next owner can give away or resell this object."
+                  }
+               }
+            },
+            "check_box:CheckPurchase": {
+               "@label": {
+                  "string": "For Sale"
+               },
+               "@name": "CheckPurchase",
+               "@tool_tip": {
+                  "string": "Lets people buy this object, its content or it copy inworld for specified price."
+               }
+            },
+            "combo_box:ComboBoxSaleType": {
+               "@name": "ComboBoxSaleType",
+               "@tool_tip": {
+                  "string": "Select whether purchaser will receive a copy, copy of the content or item itself."
+               },
+               "combo_box.item:Copy": {
+                  "@name": "Copy",
+                  "@label": {
+                     "string": "Copy"
+                  }
+               },
+               "combo_box.item:Contents": {
+                  "@name": "Contents",
+                  "@label": {
+                     "string": "Contents"
+                  }
+               },
+               "combo_box.item:Original": {
+                  "@name": "Original",
+                  "@label": {
+                     "string": "Original"
+                  }
+               }
+            },
+            "spinner:Edit Cost": {
+               "@name": "Edit Cost",
+               "@label": {
+                  "string": "Price: L$"
+               },
+               "@tool_tip": {
+                  "string": "Object cost."
+               }
+            }
+         }
+      },
+      "panel:button_panel": {
+         "@name": "button_panel",
+         "button:cancel_btn": {
+            "@label": {
+               "string": "Cancel"
+            },
+            "@name": "cancel_btn"
+         }
+      }
+   }
+}

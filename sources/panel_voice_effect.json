@@ -1,0 +1,36 @@
+{
+   "panel": {
+      "@name": "panel_voice_effect",
+      "string:no_voice_effect": {
+         "@name": "no_voice_effect",
+         "#text": {
+            "string": "\n    Voice Morphing Off\n  "
+         }
+      },
+      "string:preview_voice_effects": {
+         "@name": "preview_voice_effects",
+         "#text": {
+            "string": "\n    Preview Voice Morphing  ▶\n  "
+         }
+      },
+      "string:get_voice_effects": {
+         "@name": "get_voice_effects",
+         "#text": {
+            "string": "\n    Get Voice Morphing  ▶\n  "
+         }
+      },
+      "combo_box:voice_effect": {
+         "@name": "voice_effect",
+         "@tool_tip": {
+            "string": "Select a Voice Morph to change your voice"
+         },
+         "combo_box.item:no_voice_effect": {
+            "@label": {
+               "string": "Voice Morphing Off"
+            },
+            "@name": "no_voice_effect"
+         },
+         "combo_box.commit_callback": null
+      }
+   }
+}

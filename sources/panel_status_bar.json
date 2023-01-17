@@ -1,0 +1,168 @@
+{
+   "panel": {
+      "@name": "status",
+      "#comment": " icon\n    top=\"0\"\n   scale_image=\"true\"\n   follows=\"left|right|top|bottom\"\n   height=\"44\"\n   image_name=\"menu_bar.tga\"\n   left=\"0\"\n   width=\"1000\" / ",
+      "panel:parcel_info_panel": {
+         "@name": "parcel_info_panel",
+         "icon:voice_icon": {
+            "@name": "voice_icon"
+         },
+         "icon:fly_icon": {
+            "@name": "fly_icon"
+         },
+         "icon:push_icon": {
+            "@name": "push_icon"
+         },
+         "icon:build_icon": {
+            "@name": "build_icon"
+         },
+         "icon:scripts_icon": {
+            "@name": "scripts_icon"
+         },
+         "icon:see_avs_icon": {
+            "@name": "see_avs_icon"
+         },
+         "icon:pathfinding_dirty_icon": {
+            "@name": "pathfinding_dirty_icon"
+         },
+         "icon:pathfinding_disabled_icon": {
+            "@name": "pathfinding_disabled_icon"
+         },
+         "button:buy_land_btn": {
+            "@name": "buy_land_btn",
+            "@tool_tip": {
+               "string": "Parcel is for sale"
+            }
+         },
+         "icon:damage_icon": {
+            "@name": "damage_icon"
+         },
+         "text:damage_text": {
+            "@name": "damage_text",
+            "@value": {
+               "string": "100%"
+            }
+         },
+         "icon:scriptout": {
+            "@name": "scriptout"
+         },
+         "#comment": " <FS:Zi> This text changes color when hovered over, implemented in llstatusbar.cpp\n                  Colors are defined in colors.xml as ParcelNormalColor and ParcelHoverColor ",
+         "text:parcel_info_text": {
+            "@tool_tip": {
+               "string": "Name of land parcel on which you are standing. Click for About Land."
+            },
+            "@name": "parcel_info_text",
+            "@value": {
+               "string": "(loading...)"
+            }
+         }
+      },
+      "panel.string:packet_loss_tooltip": {
+         "@name": "packet_loss_tooltip",
+         "#text": {
+            "string": "\n        Packet Loss\n    "
+         }
+      },
+      "panel.string:bandwidth_tooltip": {
+         "@name": "bandwidth_tooltip",
+         "#text": {
+            "string": "\n        Bandwidth\n    "
+         }
+      },
+      "panel.string:time": {
+         "@name": "time",
+         "#text": {
+            "string": "\n        [hour12, datetime, slt]:[min, datetime, slt]:[second, datetime, slt] [ampm, datetime, slt] [timezone,datetime, slt]\n    "
+         }
+      },
+      "panel.string:timeTooltip": {
+         "@name": "timeTooltip",
+         "#text": {
+            "string": "\n        [weekday, datetime, slt], [day, datetime, slt] [month, datetime, slt] [year, datetime, slt]\n    "
+         }
+      },
+      "panel.string:buycurrencylabel": {
+         "@name": "buycurrencylabel",
+         "#text": {
+            "string": "\n        L$ [AMT]\n    "
+         }
+      },
+      "panel:menu_search_panel": {
+         "@name": "menu_search_panel",
+         "search_editor:search_menu_edit": {
+            "@label": {
+               "string": "Search Menus"
+            },
+            "@name": "search_menu_edit",
+            "@tool_tip": {
+               "string": "Type the search term you are interested in here. Results will be displayed for partial fulltext matches within the menu."
+            },
+            "search_button": null,
+            "clear_button": null
+         }
+      },
+      "panel:balance_bg": {
+         "@name": "balance_bg",
+         "text:balance": {
+            "@name": "balance",
+            "@tool_tip": {
+               "string": "Click to refresh your L$ balance"
+            },
+            "@value": {
+               "string": "L$??"
+            }
+         },
+         "button:buyL": {
+            "@label": {
+               "string": "BUY L$"
+            },
+            "@name": "buyL",
+            "@tool_tip": {
+               "string": "Click to buy more L$"
+            }
+         }
+      },
+      "panel:time_and_media_bg": {
+         "@name": "time_and_media_bg",
+         "text:TimeText": {
+            "@name": "TimeText",
+            "@tool_tip": {
+               "string": "Current time (Pacific)"
+            },
+            "#text": {
+               "string": "\n        24:00:00 AM PST\n    "
+            }
+         },
+         "button:presets_icon_camera": {
+            "@name": "presets_icon_camera"
+         },
+         "button:presets_icon_graphic": {
+            "@name": "presets_icon_graphic"
+         },
+         "button:stream_toggle_btn": {
+            "@name": "stream_toggle_btn",
+            "@tool_tip": {
+               "string": "Start/Stop Parcel Audio Stream"
+            }
+         },
+         "button:media_toggle_btn": {
+            "@name": "media_toggle_btn",
+            "@tool_tip": {
+               "string": "Start/Stop All Media (Music, Video, Web pages)"
+            }
+         },
+         "button:volume_btn": {
+            "@name": "volume_btn"
+         },
+         "text:FPSText": {
+            "@name": "FPSText",
+            "@tool_tip": {
+               "string": "Frames per second"
+            },
+            "#text": {
+               "string": "\n        200.0\n    "
+            }
+         }
+      }
+   }
+}

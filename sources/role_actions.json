@@ -1,0 +1,520 @@
+{
+   "role_actions": {
+      "action_set:Membership": {
+         "@description": {
+            "string": "These Abilities include powers to add and remove group Members, and allow new Members to join without an invitation."
+         },
+         "@name": "Membership",
+         "action:member invite": {
+            "@description": {
+               "string": "Invite People to this Group"
+            },
+            "@longdescription": {
+               "string": "Invite People to this Group using the 'Invite' button in the Members & Roles section > Members tab."
+            },
+            "@name": "member invite"
+         },
+         "action:member eject": {
+            "@description": {
+               "string": "Eject Members belonging to the 'Everyone' role from this Group"
+            },
+            "@longdescription": {
+               "string": "Eject Members from this Group using the 'Eject' button in the Members & Roles section > Members tab. An Owner can eject anyone except another Owner. If you're not an Owner, a Member can be ejected from a group if, and only if, they're only in the Everyone Role, and NO other Roles. To remove Members from Roles, you need to have the 'Remove Members from Roles' Ability."
+            },
+            "@name": "member eject"
+         },
+         "action:allow ban": {
+            "@description": {
+               "string": "Manage ban list"
+            },
+            "@longdescription": {
+               "string": "Allows the group member to ban / un-ban Residents from this group."
+            },
+            "@name": "allow ban"
+         },
+         "action:member options": {
+            "@description": {
+               "string": "Toggle 'Open Enrollment' and change 'Enrollment fee'"
+            },
+            "@longdescription": {
+               "string": "Toggle 'Open Enrollment' to let new Members join without an invitation, and change the 'Enrollment fee' in the General section."
+            },
+            "@name": "member options"
+         }
+      },
+      "action_set:Roles": {
+         "@description": {
+            "string": "These Abilities include powers to add, remove, and change group Roles, add and remove Members in Roles, and assign Abilities to Roles."
+         },
+         "@name": "Roles",
+         "action:role create": {
+            "@description": {
+               "string": "Create new Roles"
+            },
+            "@longdescription": {
+               "string": "Create new Roles in the Members & Roles section > Roles tab."
+            },
+            "@name": "role create"
+         },
+         "action:role delete": {
+            "@description": {
+               "string": "Delete Roles"
+            },
+            "@longdescription": {
+               "string": "Delete Roles in the Members & Roles section > Roles tab."
+            },
+            "@name": "role delete"
+         },
+         "action:role properties": {
+            "@description": {
+               "string": "Change Role names, titles, descriptions, and whether Role members are publicly revealed"
+            },
+            "@longdescription": {
+               "string": "Change Role names, titles, descriptions, and whether Role members are publicly revealed. This is done at the bottom of the the Members & Roles section > Roles tab after selecting a Role."
+            },
+            "@name": "role properties"
+         },
+         "action:role assign member limited": {
+            "@description": {
+               "string": "Assign Members to Assigner's Roles"
+            },
+            "@longdescription": {
+               "string": "Assign Members to Roles in the list of Assigned Roles (Members & Roles section > Members tab). A Member with this Ability can only add Members to a Role that the assigner is already in."
+            },
+            "@name": "role assign member limited"
+         },
+         "action:role assign member": {
+            "@description": {
+               "string": "Assign Members to Any Role"
+            },
+            "@longdescription": {
+               "string": "Assign Members to Any Role in the list of Assigned Roles (Members & Roles section > Members tab). *WARNING* Any Member in a Role with this Ability can assign themselves--and any other non-Owner Member--to Roles that have more powers than they currently have, potentially elevating themselves to near-Owner power. Be sure you know what you're doing before assigning this Ability."
+            },
+            "@name": "role assign member"
+         },
+         "action:role remove member": {
+            "@description": {
+               "string": "Remove Members from Roles"
+            },
+            "@longdescription": {
+               "string": "Remove Members from Roles in the list of Assigned Roles (Members & Roles section > Members tab). Owners can't be removed."
+            },
+            "@name": "role remove member"
+         },
+         "action:role change actions": {
+            "@description": {
+               "string": "Assign and Remove Abilities in Roles"
+            },
+            "@longdescription": {
+               "string": "Assign and Remove Abilities for each Role in the list of Allowed Abilities (Members & Roles section > Roles tab). *WARNING* Any Member in a Role with this Ability can assign themselves--and any other non-Owner Member--all Abilities, potentially elevating themselves to near-Owner power. Be sure you know what you're doing before assigning this Ability."
+            },
+            "@name": "role change actions"
+         }
+      },
+      "action_set:Group Identity": {
+         "@description": {
+            "string": "These Abilities include powers to modify this group's identity, such as changing public visibility, charter, and insignia."
+         },
+         "@name": "Group Identity",
+         "action:group change identity": {
+            "@description": {
+               "string": "Change Charter, Insignia, and 'Show in search'"
+            },
+            "@longdescription": {
+               "string": "Change Charter, Insignia, and 'Show in search'. This is done in the General section."
+            },
+            "@name": "group change identity"
+         }
+      },
+      "action_set:Parcel Management": {
+         "@description": {
+            "string": "These Abilities include powers to deed, modify, and sell land in this group's land holdings. To get to the About Land window, right-click the ground and select 'About Land', or click the 'i' icon in the Navigation Bar."
+         },
+         "@name": "Parcel Management",
+         "action:land deed": {
+            "@description": {
+               "string": "Deed land and buy land for group"
+            },
+            "@longdescription": {
+               "string": "Deed land and buy land for group. This is done in About Land > General tab."
+            },
+            "@name": "land deed"
+         },
+         "action:land release": {
+            "@description": {
+               "string": "Abandon land to Governor Linden"
+            },
+            "@longdescription": {
+               "string": "Abandon land to Governor Linden. *WARNING* Any Member in a Role with this Ability can abandon group-owned land in About Land > General tab, reverting it to Linden ownership without a sale! Be sure you know what you're doing before assigning this Ability."
+            },
+            "@name": "land release"
+         },
+         "action:land set sale info": {
+            "@description": {
+               "string": "Set land for sale info"
+            },
+            "@longdescription": {
+               "string": "Set land for sale info. *WARNING* Any Member in a Role with this Ability can sell group-owned land in About Land > General tab as they wish! Be sure you know what you're doing before assigning this Ability."
+            },
+            "@name": "land set sale info"
+         },
+         "action:land divide join": {
+            "@description": {
+               "string": "Subdivide and join parcels"
+            },
+            "@longdescription": {
+               "string": "Subdivide and join parcels. This is done by right-clicking the ground, 'Edit Terrain', and dragging your mouse on the land to make a selection. To subdivide, select what you want to split and click 'Subdivide'. To join, select two or more contiguous parcels and click 'Join'. "
+            },
+            "@name": "land divide join"
+         }
+      },
+      "action_set:Parcel Identity": {
+         "@description": {
+            "string": "These Abilities include powers to change the parcel name and publish settings, Find directory visibility, and landing point & TP routing options."
+         },
+         "@name": "Parcel Identity",
+         "action:land find places": {
+            "@description": {
+               "string": "Toggle 'Show Place in Search' and set category"
+            },
+            "@longdescription": {
+               "string": "Toggle 'Show Place in Search' and setting a parcel's category in About Land > Options tab."
+            },
+            "@name": "land find places"
+         },
+         "action:land change identity": {
+            "@description": {
+               "string": "Change parcel name, description, and 'Moderate Content' settings"
+            },
+            "@longdescription": {
+               "string": "Change parcel name, description, and 'Moderate Content' settings. This is done in About Land > Options tab."
+            },
+            "@name": "land change identity"
+         },
+         "action:land set landing point": {
+            "@description": {
+               "string": "Set landing point and set teleport routing"
+            },
+            "@longdescription": {
+               "string": "On a group-owned parcel, Members in a Role with this Ability can set a landing point to specify where incoming teleports arrive, and also set teleport routing for further control. This is done in About Land > Options tab."
+            },
+            "@name": "land set landing point"
+         }
+      },
+      "action_set:Parcel Settings": {
+         "@description": {
+            "string": "These Abilities include powers which affect parcel options, such as 'Create Objects', 'Edit Terrain', and music & media settings."
+         },
+         "@name": "Parcel Settings",
+         "action:land change media": {
+            "@description": {
+               "string": "Change music & media settings"
+            },
+            "@longdescription": {
+               "string": "Change streaming music and movie settings in About Land > Media tab."
+            },
+            "@name": "land change media"
+         },
+         "action:land edit": {
+            "@description": {
+               "string": "Toggle 'Edit Terrain'"
+            },
+            "@longdescription": {
+               "string": "Toggle 'Edit Terrain'. *WARNING* About Land > Options tab > Edit Terrain allows anyone to terraform your land's shape, and place and move Linden plants. Be sure you know what you're doing before assigning this Ability. Editing terrain is toggled in About Land > Options tab."
+            },
+            "@name": "land edit"
+         },
+         "action:land options": {
+            "@description": {
+               "string": "Toggle various About Land > Options settings"
+            },
+            "@longdescription": {
+               "string": "Toggle 'Safe (no damage)', 'Fly', and allow other Residents to: 'Edit Terrain', 'Build', 'Create Landmarks', and 'Run Scripts' on group-owned land in About Land > Options tab."
+            },
+            "@name": "land options"
+         },
+         "action:land change environment": {
+            "@description": {
+               "string": "Modify environment settings and day cycle."
+            },
+            "@longdescription": {
+               "string": "Change the environment settings and day cycle from the About Land > Environment tab."
+            },
+            "@name": "land change environment"
+         }
+      },
+      "action_set:Parcel Powers": {
+         "@description": {
+            "string": "These Abilities include powers which allow Members to bypass restrictions on group-owned parcels."
+         },
+         "@name": "Parcel Powers",
+         "action:land allow edit land": {
+            "@description": {
+               "string": "Always allow 'Edit Terrain'"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can edit terrain on a group-owned parcel, even if it's turned off in About Land > Options tab."
+            },
+            "@name": "land allow edit land"
+         },
+         "action:land allow fly": {
+            "@description": {
+               "string": "Always allow 'Fly'"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can fly on a group-owned parcel, even if it's turned off in About Land > Options tab."
+            },
+            "@name": "land allow fly"
+         },
+         "action:land allow create": {
+            "@description": {
+               "string": "Always allow 'Create Objects'"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can create objects on a group-owned parcel, even if it's turned off in About Land > Options tab."
+            },
+            "@name": "land allow create"
+         },
+         "action:land allow direct teleport": {
+            "@description": {
+               "string": "Ignore landing point"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can direct teleport to a group-owned parcel, even if a landing point is set in About Land > Options tab."
+            },
+            "@name": "land allow direct teleport"
+         },
+         "action:land allow set home": {
+            "@description": {
+               "string": "Allow 'Set Home to Here' on group land"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can use World menu > Set Home to Here on a parcel deeded to this group."
+            },
+            "@name": "land allow set home"
+         },
+         "action:land allow host event": {
+            "@description": {
+               "string": "Allow 'Event Hosting' on group land"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can select group owned parcels as venus when hosting an event."
+            },
+            "@name": "land allow host event"
+         }
+      },
+      "action_set:Parcel Access": {
+         "@description": {
+            "string": "These Abilities include powers to allow or restrict access to group-owned parcels, including freezing and ejecting Residents."
+         },
+         "@name": "Parcel Access",
+         "action:land manage allowed": {
+            "@description": {
+               "string": "Manage parcel Access lists"
+            },
+            "@longdescription": {
+               "string": "Manage parcel Access lists in About Land > Access tab."
+            },
+            "@name": "land manage allowed"
+         },
+         "action:land manage banned": {
+            "@description": {
+               "string": "Manage parcel Ban lists"
+            },
+            "@longdescription": {
+               "string": "Manage parcel Ban lists in About Land > Access tab."
+            },
+            "@name": "land manage banned"
+         },
+         "action:land manage passes": {
+            "@description": {
+               "string": "Change parcel 'Sell passes to' settings"
+            },
+            "@longdescription": {
+               "string": "Change parcel 'Sell passes to' settings in About Land > Access tab."
+            },
+            "@name": "land manage passes"
+         },
+         "action:land admin": {
+            "@description": {
+               "string": "Eject and freeze Residents on parcels"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can handle an unwelcome Resident on a group-owned parcel by right-clicking them, then selecting 'Eject' or 'Freeze'."
+            },
+            "@name": "land admin"
+         }
+      },
+      "action_set:Parcel Content": {
+         "@description": {
+            "string": "These Abilities include powers to allow members to return objects and place and move Linden plants. This is useful for Members to clean up litter and do landscaping, but it should also be used with care, because there's no undo for returning objects."
+         },
+         "@name": "Parcel Content",
+         "action:land return group owned": {
+            "@description": {
+               "string": "Return objects owned by group"
+            },
+            "@longdescription": {
+               "string": "Return objects on group-owned parcels that are owned by the group in About Land > Objects tab."
+            },
+            "@name": "land return group owned"
+         },
+         "action:land return group set": {
+            "@description": {
+               "string": "Return objects set to group"
+            },
+            "@longdescription": {
+               "string": "Return objects on group-owned parcels that are set to the group in About Land > Objects tab."
+            },
+            "@name": "land return group set"
+         },
+         "action:land return non group": {
+            "@description": {
+               "string": "Return non-group objects"
+            },
+            "@longdescription": {
+               "string": "Return objects on group-owned parcels that are non-group in About Land > Objects tab."
+            },
+            "@name": "land return non group"
+         },
+         "action:land gardening": {
+            "@description": {
+               "string": "Landscaping using Linden plants"
+            },
+            "@longdescription": {
+               "string": "Landscaping ability to place and move Linden trees, plants, and grasses. These items can be found in your inventory's Library > Objects folder, or they can be created via the Build menu."
+            },
+            "@name": "land gardening"
+         }
+      },
+      "action_set:Object Management": {
+         "@description": {
+            "string": "These Abilities include powers to deed, modify, and sell group-owned objects. These changes are done in the Build Tools > General tab. Right-click an object and Edit to see its settings. "
+         },
+         "@name": "Object Management",
+         "action:object deed": {
+            "@description": {
+               "string": "Deed objects to group"
+            },
+            "@longdescription": {
+               "string": "Deed objects to group in the Build Tools > General tab."
+            },
+            "@name": "object deed"
+         },
+         "action:object manipulate": {
+            "@description": {
+               "string": "Manipulate (move, copy, modify) group-owned objects"
+            },
+            "@longdescription": {
+               "string": "Manipulate (move, copy, modify) group-owned objects in the Build Tools > General tab."
+            },
+            "@name": "object manipulate"
+         },
+         "action:object set sale": {
+            "@description": {
+               "string": "Set group-owned objects for sale"
+            },
+            "@longdescription": {
+               "string": "Set group-owned objects for sale in the Build Tools > General tab."
+            },
+            "@name": "object set sale"
+         }
+      },
+      "action_set:Accounting": {
+         "@description": {
+            "string": "These Abilities include powers which require Members to pay group liabilities and receive group dividends, and restrict access to group account history."
+         },
+         "@name": "Accounting",
+         "action:accounting accountable": {
+            "@description": {
+               "string": "Pay group liabilities and receive group dividends"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability will automatically pay group liabilities and receive group dividends. This means they will receive a portion of group-owned land sales which are distributed daily, as well as contribute towards things like parcel listing fees. "
+            },
+            "@name": "accounting accountable"
+         }
+      },
+      "action_set:Notices": {
+         "@description": {
+            "string": "These Abilities include powers to allow Members to send, receive, and view group Notices."
+         },
+         "@name": "Notices",
+         "action:notices send": {
+            "@description": {
+               "string": "Send Notices"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can send Notices via the Group > Notices section."
+            },
+            "@name": "notices send"
+         },
+         "action:notices receive": {
+            "@description": {
+               "string": "Receive Notices and view past Notices"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can receive Notices and view past Notices in Group > Notices section."
+            },
+            "@name": "notices receive"
+         }
+      },
+      "action_set:Chat": {
+         "@description": {
+            "string": "These Abilities include powers to allow or restrict access to group chat sessions and group voice chat."
+         },
+         "@name": "Chat",
+         "action:join group chat": {
+            "@description": {
+               "string": "Join Group Chat"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can join group chat sessions, for text and voice."
+            },
+            "@name": "join group chat"
+         },
+         "action:join voice chat": {
+            "@description": {
+               "string": "Join Group Voice Chat"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can join group voice chat sessions.  NOTE: The Join Group Chat ability is required to access the voice chat session."
+            },
+            "@name": "join voice chat"
+         },
+         "action:moderate group chat": {
+            "@description": {
+               "string": "Moderate Group Chat"
+            },
+            "@longdescription": {
+               "string": "Members in a Role with this Ability can control access and participation in group voice and text chat sessions."
+            },
+            "@name": "moderate group chat"
+         }
+      },
+      "action_set:experience_tools_experience": {
+         "@description": {
+            "string": "These Abilities include power to modify experiences owned by this group."
+         },
+         "@name": "experience_tools_experience",
+         "action:experience admin": {
+            "@description": {
+               "string": "Experience Admin"
+            },
+            "@longdescription": {
+               "string": "Members in a role with this ability can edit the meta-data for an experience."
+            },
+            "@name": "experience admin"
+         },
+         "action:experience contributor": {
+            "@description": {
+               "string": "Experience Contributor"
+            },
+            "@longdescription": {
+               "string": "Members in a role with this ability can contribute scripts for an experience."
+            },
+            "@name": "experience contributor"
+         }
+      }
+   }
+}

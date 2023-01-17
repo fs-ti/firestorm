@@ -1,0 +1,56 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Uploads"
+      },
+      "@name": "uploads",
+      "text:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n    Current destination folders for uploads\n  "
+         }
+      },
+      "text:title_models": {
+         "@name": "title_models",
+         "#text": {
+            "string": "\n    Images\n  "
+         }
+      },
+      "text:upload_textures": {
+         "@name": "upload_textures"
+      },
+      "text:title_sounds": {
+         "@name": "title_sounds",
+         "#text": {
+            "string": "\n    Sounds\n  "
+         }
+      },
+      "text:upload_sounds": {
+         "@name": "upload_sounds"
+      },
+      "text:title_animation": {
+         "@name": "title_animation",
+         "#text": {
+            "string": "\n    Animations\n  "
+         }
+      },
+      "text:upload_animation": {
+         "@name": "upload_animation"
+      },
+      "text:title_model": {
+         "@name": "title_model",
+         "#text": {
+            "string": "\n    Models\n  "
+         }
+      },
+      "text:upload_models": {
+         "@name": "upload_models"
+      },
+      "text:upload_help": {
+         "@name": "upload_help",
+         "#text": {
+            "string": "\n    To change a destination folder, right click on it in inventory and choose\n \"Use as default for\"\n  "
+         }
+      }
+   }
+}

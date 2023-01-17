@@ -1,0 +1,20 @@
+{
+   "panel": {
+      "@name": "mini_progress_panel",
+      "progress_bar:progress_bar_mini": {
+         "@name": "progress_bar_mini"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      },
+      "text:progress_text": {
+         "@name": "progress_text",
+         "@value": {
+            "string": "Progress..."
+         }
+      }
+   }
+}

@@ -1,0 +1,164 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Covenant"
+      },
+      "@name": "Covenant",
+      "panel.string:can_resell": {
+         "@name": "can_resell",
+         "#text": {
+            "string": "\n        Purchased land in this region may be resold.\n    "
+         }
+      },
+      "panel.string:can_not_resell": {
+         "@name": "can_not_resell",
+         "#text": {
+            "string": "\n        Purchased land in this region may not be resold.\n    "
+         }
+      },
+      "panel.string:can_change": {
+         "@name": "can_change",
+         "#text": {
+            "string": "\n        Purchased land in this region may be joined or subdivided.\n    "
+         }
+      },
+      "panel.string:can_not_change": {
+         "@name": "can_not_change",
+         "#text": {
+            "string": "\n        Purchased land in this region may not be joined or subdivided.\n    "
+         }
+      },
+      "text:estate_section_lbl": {
+         "@name": "estate_section_lbl",
+         "#text": {
+            "string": "\n        Estate\n    "
+         }
+      },
+      "text:estate_name_lbl": {
+         "@name": "estate_name_lbl",
+         "#text": {
+            "string": "\n        Name:\n    "
+         }
+      },
+      "text:estate_name_text": {
+         "@name": "estate_name_text",
+         "#text": {
+            "string": "\n        mainland\n    "
+         }
+      },
+      "text:estate_owner_lbl": {
+         "@name": "estate_owner_lbl",
+         "#text": {
+            "string": "\n        Owner:\n    "
+         }
+      },
+      "text:estate_owner_text": {
+         "@name": "estate_owner_text",
+         "#text": {
+            "string": "\n        (none)\n    "
+         }
+      },
+      "text:estate_cov_lbl": {
+         "@name": "estate_cov_lbl",
+         "#text": {
+            "string": "\n        Covenant:\n    "
+         }
+      },
+      "text:covenant_timestamp_text": {
+         "@name": "covenant_timestamp_text",
+         "#text": {
+            "string": "\n        Last Modified Wed Dec 31 16:00:00 1969\n    "
+         }
+      },
+      "text_editor:covenant_editor": {
+         "@name": "covenant_editor",
+         "#text": {
+            "string": "\n        There is no Covenant provided for this Estate.\n    "
+         }
+      },
+      "button:reset_covenant": {
+         "@label": {
+            "string": "Reset"
+         },
+         "@name": "reset_covenant"
+      },
+      "text:covenant_help_text": {
+         "@name": "covenant_help_text",
+         "#text": {
+            "string": "\n        Changes to the covenant will show on all parcels in the estate.\n    "
+         }
+      },
+      "text:covenant_instructions": {
+         "@name": "covenant_instructions",
+         "#text": {
+            "string": "\n        Drag and drop a notecard to change the Covenant for this estate.\n    "
+         }
+      },
+      "text:region_section_lbl": {
+         "@name": "region_section_lbl",
+         "#text": {
+            "string": "\n        Region\n    "
+         }
+      },
+      "text:region_name_lbl": {
+         "@name": "region_name_lbl",
+         "#text": {
+            "string": "\n        Name:\n    "
+         }
+      },
+      "text:region_name_text": {
+         "@name": "region_name_text",
+         "#text": {
+            "string": "\n        Erica\n    "
+         }
+      },
+      "text:region_landtype_lbl": {
+         "@name": "region_landtype_lbl",
+         "#text": {
+            "string": "\n        Type:\n    "
+         }
+      },
+      "text:region_landtype_text": {
+         "@name": "region_landtype_text",
+         "#text": {
+            "string": "\n        Mainland / Homestead\n    "
+         }
+      },
+      "text:region_maturity_lbl": {
+         "@name": "region_maturity_lbl",
+         "#text": {
+            "string": "\n        Rating:\n    "
+         }
+      },
+      "text:region_maturity_text": {
+         "@name": "region_maturity_text",
+         "#text": {
+            "string": "\n        Adult\n    "
+         }
+      },
+      "text:resellable_lbl": {
+         "@name": "resellable_lbl",
+         "#text": {
+            "string": "\n        Resale:\n    "
+         }
+      },
+      "text:resellable_clause": {
+         "@name": "resellable_clause",
+         "#text": {
+            "string": "\n        Land in this region may not be resold.\n    "
+         }
+      },
+      "text:changeable_lbl": {
+         "@name": "changeable_lbl",
+         "#text": {
+            "string": "\n        Subdivide:\n    "
+         }
+      },
+      "text:changeable_clause": {
+         "@name": "changeable_clause",
+         "#text": {
+            "string": "\n        Land in this region may not be joined/subdivided.\n    "
+         }
+      }
+   }
+}

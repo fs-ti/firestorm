@@ -1,0 +1,2528 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Sounds"
+      },
+      "@name": "Preference Media panel",
+      "panel.string:middle_mouse": {
+         "@name": "middle_mouse",
+         "#text": {
+            "string": "\n     Middle Mouse\n    "
+         }
+      },
+      "panel.string:button4_mouse": {
+         "@name": "button4_mouse",
+         "#text": {
+            "string": "\n     Mouse Button 4\n    "
+         }
+      },
+      "panel.string:button5_mouse": {
+         "@name": "button5_mouse",
+         "#text": {
+            "string": "\n     Mouse Button 5\n    "
+         }
+      },
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Firestorm Prefs"
+         },
+         "@name": "tabs",
+         "#comment": " Sounds ",
+         "panel:Media Sounds Panel": {
+            "@label": {
+               "string": "Sounds"
+            },
+            "@name": "Media Sounds Panel",
+            "slider:System Volume": {
+               "@label": {
+                  "string": "Master volume"
+               },
+               "@name": "System Volume",
+               "slider.commit_callback": null
+            },
+            "button:mute_audio": {
+               "@name": "mute_audio"
+            },
+            "check_box:mute_when_minimized": {
+               "@label": {
+                  "string": "Mute when minimized"
+               },
+               "@name": "mute_when_minimized"
+            },
+            "slider:UI Volume": {
+               "@label": {
+                  "string": "Buttons"
+               },
+               "@name": "UI Volume",
+               "slider.commit_callback": null
+            },
+            "slider:Wind Volume": {
+               "@label": {
+                  "string": "Ambient"
+               },
+               "@name": "Wind Volume",
+               "slider.commit_callback": null
+            },
+            "check_box:collisions_audio_play_btn": {
+               "@name": "collisions_audio_play_btn",
+               "@tool_tip": {
+                  "string": "Check this to hear default sounds from collisions"
+               },
+               "@label": {
+                  "string": "Play sounds from collisions"
+               }
+            },
+            "slider:SFX Volume": {
+               "@label": {
+                  "string": "Sound Effects"
+               },
+               "@name": "SFX Volume",
+               "slider.commit_callback": null
+            },
+            "check_box:gesture_audio_play_btn": {
+               "@name": "gesture_audio_play_btn",
+               "@tool_tip": {
+                  "string": "Check this to hear sounds from gestures"
+               },
+               "@label": {
+                  "string": "Play sounds from gestures"
+               }
+            },
+            "slider:Music Volume": {
+               "@label": {
+                  "string": "Streaming music"
+               },
+               "@name": "Music Volume",
+               "slider.commit_callback": null
+            },
+            "check_box:enable_music": {
+               "@label": {
+                  "string": "Enabled"
+               },
+               "@name": "enable_music",
+               "#comment": "\n            <check_box.commit_callback\n             function=\"Pref.updateMediaAutoPlayCheckbox\"/>\n        "
+            },
+            "slider:Media Volume": {
+               "@label": {
+                  "string": "Media"
+               },
+               "@name": "Media Volume",
+               "slider.commit_callback": null
+            },
+            "check_box:enable_media": {
+               "@label": {
+                  "string": "Enabled"
+               },
+               "@name": "enable_media",
+               "#comment": "\n            <check_box.commit_callback\n             function=\"Pref.updateMediaAutoPlayCheckbox\"/>\n        "
+            },
+            "slider:Voice Volume": {
+               "@label": {
+                  "string": "Voice Chat"
+               },
+               "@name": "Voice Volume",
+               "slider.commit_callback": null
+            },
+            "check_box:enable_voice_check_volume": {
+               "@label": {
+                  "string": "Enabled"
+               },
+               "@name": "enable_voice_check_volume"
+            },
+            "text:auto_unmute_label": {
+               "@name": "auto_unmute_label",
+               "#text": {
+                  "string": "\n            Automatically unmute after teleport:\n        "
+               }
+            },
+            "check_box:FSAutoUnmuteAmbient": {
+               "@name": "FSAutoUnmuteAmbient",
+               "@label": {
+                  "string": "Ambient"
+               },
+               "@tool_tip": {
+                  "string": "Automatically unmute Ambient after teleporting, if muted (default: off)"
+               }
+            },
+            "check_box:FSAutoUnmuteSounds": {
+               "@name": "FSAutoUnmuteSounds",
+               "@label": {
+                  "string": "Sound Effects"
+               },
+               "@tool_tip": {
+                  "string": "Automatically unmute Sound Effects after teleporting, if muted (default: off)"
+               }
+            },
+            "text:friends_logon_sounds_label": {
+               "@name": "friends_logon_sounds_label",
+               "#text": {
+                  "string": "\n            Play a sound when my friends:\n        "
+               }
+            },
+            "check_box:friends_notify_online_sound": {
+               "@name": "friends_notify_online_sound",
+               "@label": {
+                  "string": "Log in"
+               }
+            },
+            "check_box:friends_notify_offline_sound": {
+               "@name": "friends_notify_offline_sound",
+               "@label": {
+                  "string": "Log out"
+               }
+            },
+            "text:money_change_threshold_label": {
+               "@name": "money_change_threshold_label",
+               "@tool_tip": {
+                  "string": "Plays a sound when money is spent or received higher then the amount set here."
+               },
+               "#text": {
+                  "string": "\n            L$ change threshold:\n        "
+               }
+            },
+            "spinner:money_change_threshold": {
+               "@name": "money_change_threshold"
+            },
+            "panel:output_device_settings_panel": {
+               "@name": "output_device_settings_panel",
+               "panel.string:output_default_text": {
+                  "@name": "output_default_text",
+                  "#text": {
+                     "string": "\n             Default\n            "
+                  }
+               },
+               "panel.string:output_no_device": {
+                  "@name": "output_no_device",
+                  "#text": {
+                     "string": "\n             No device available\n            "
+                  }
+               },
+               "panel.string:output_name_no_device": {
+                  "@name": "output_name_no_device",
+                  "#text": {
+                     "string": "\n             Unnamed device\n            "
+                  }
+               },
+               "panel.string:output_device_unavailable": {
+                  "@name": "output_device_unavailable",
+                  "#text": {
+                     "string": "\n             Unavailable device\n            "
+                  }
+               },
+               "icon:output_speaker_icon": {
+                  "@name": "output_speaker_icon"
+               },
+               "text:output_label": {
+                  "@name": "output_label",
+                  "#text": {
+                     "string": "\n                Output device:\n            "
+                  }
+               },
+               "combo_box:sound_output_device": {
+                  "@name": "sound_output_device"
+               }
+            }
+         },
+         "#comment$4": " Media ",
+         "panel:Media Media Panel": {
+            "@label": {
+               "string": "Media"
+            },
+            "@name": "Media Media Panel",
+            "text:media_autoplay_label": {
+               "@name": "media_autoplay_label",
+               "#text": {
+                  "string": "\n        Media auto-play\n      "
+               }
+            },
+            "combo_box:media_auto_play_combo": {
+               "@name": "media_auto_play_combo",
+               "item:autoplay_disabled": {
+                  "@label": {
+                     "string": "Disabled"
+                  },
+                  "@name": "autoplay_disabled"
+               },
+               "item:autoplay_enabled": {
+                  "@label": {
+                     "string": "Enabled"
+                  },
+                  "@name": "autoplay_enabled"
+               },
+               "#comment": "<item\n            label=\"Ask\"\n            name=\"autoplay_ask\"\n            value=\"2\"/>"
+            },
+            "check_box:media_allowscript_btn": {
+               "@name": "media_allowscript_btn",
+               "@tool_tip": {
+                  "string": "This settings allows / disallows scripted prims from controlling your media connections"
+               },
+               "@label": {
+                  "string": "Allow inworld scripts to play media"
+               }
+            },
+            "check_box:media_show_on_others_btn": {
+               "@name": "media_show_on_others_btn",
+               "@tool_tip": {
+                  "string": "Uncheck this to hide media attached to other avatars nearby"
+               },
+               "@label": {
+                  "string": "Play media attached to other avatars"
+               }
+            },
+            "check_box:media_filter": {
+               "@name": "media_filter",
+               "@tool_tip": {
+                  "string": "Check this to enable the filter that allows you to choose whether to play media from a specific host"
+               },
+               "@label": {
+                  "string": "Enable media filter (increased security)"
+               }
+            },
+            "button:edit_media_lists_button": {
+               "@label": {
+                  "string": "Manage Media Sites"
+               },
+               "@name": "edit_media_lists_button",
+               "button.commit_callback": null
+            },
+            "text:Media Rolloff": {
+               "@name": "Media Rolloff",
+               "#text": {
+                  "string": "\n            Media source volume rolloff distance:\n        "
+               }
+            },
+            "slider:MediaRollOffMin": {
+               "@label": {
+                  "string": "Starts getting quieter at:"
+               },
+               "@name": "MediaRollOffMin",
+               "@tool_tip": {
+                  "string": "Minimum distance from the source for rolloff to begin taking effect."
+               }
+            },
+            "text:MinMeters": {
+               "@name": "MinMeters",
+               "#text": {
+                  "string": "\n            meters\n        "
+               }
+            },
+            "slider:MediaRollOffMax": {
+               "@label": {
+                  "string": "Completely disappears at:"
+               },
+               "@name": "MediaRollOffMax",
+               "@tool_tip": {
+                  "string": "Maximum distance from the source for rolloff to completely mute the sound."
+               }
+            },
+            "text:MaxMeters": {
+               "@name": "MaxMeters",
+               "#text": {
+                  "string": "\n            meters\n        "
+               }
+            }
+         },
+         "#comment$6": " Music ",
+         "panel:Media Music Panel": {
+            "@label": {
+               "string": "Music"
+            },
+            "@name": "Media Music Panel",
+            "check_box:audio_auto_play_btn": {
+               "@name": "audio_auto_play_btn",
+               "@tool_tip": {
+                  "string": "Check this to automatically start audio streams."
+               },
+               "@label": {
+                  "string": "Allow audio streams to auto-play"
+               }
+            },
+            "check_box:FSFadeAudioStream": {
+               "@name": "FSFadeAudioStream",
+               "@tool_tip": {
+                  "string": "Check this if fading should be used when the parcel audio stream changes"
+               },
+               "@label": {
+                  "string": "Enable Parcel Audio Fading:"
+               }
+            },
+            "slider:FSAudioMusicFadeIn": {
+               "@label": {
+                  "string": "Fade in:"
+               },
+               "@name": "FSAudioMusicFadeIn",
+               "@tool_tip": {
+                  "string": "Audio fade in time for parcel audio."
+               }
+            },
+            "text:FSAudioMusicFadeInSeconds": {
+               "@name": "FSAudioMusicFadeInSeconds",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:FSAudioMusicFadeOut": {
+               "@label": {
+                  "string": "Fade out:"
+               },
+               "@name": "FSAudioMusicFadeOut",
+               "@tool_tip": {
+                  "string": "Audio fade out time for parcel audio."
+               }
+            },
+            "text:FSAudioMusicFadeOutSeconds": {
+               "@name": "FSAudioMusicFadeOutSeconds",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "text:show_stream_metadata_text": {
+               "@name": "show_stream_metadata_text",
+               "#text": {
+                  "string": "\n            Show stream title notifications:\n        "
+               }
+            },
+            "radio_group:show_stream_metadata": {
+               "@name": "show_stream_metadata",
+               "radio_item:radio_off": {
+                  "@label": {
+                     "string": "Off"
+                  },
+                  "@name": "radio_off"
+               },
+               "radio_item:radio_toasts": {
+                  "@label": {
+                     "string": "Toasts"
+                  },
+                  "@name": "radio_toasts"
+               },
+               "radio_item:radio_chat": {
+                  "@label": {
+                     "string": "Nearby Chat"
+                  },
+                  "@name": "radio_chat"
+               }
+            },
+            "check_box:StreamMetadataAnnounceToChat": {
+               "@name": "StreamMetadataAnnounceToChat",
+               "@label": {
+                  "string": "Send stream title to channel:"
+               }
+            },
+            "spinner:StreamMetadataAnnounceChannel": {
+               "@name": "StreamMetadataAnnounceChannel"
+            }
+         },
+         "#comment$8": " Voice ",
+         "panel:Media Voice tab": {
+            "@label": {
+               "string": "Voice"
+            },
+            "@name": "Media Voice tab",
+            "check_box:enable_voice_check": {
+               "@label": {
+                  "string": "Enable Voice"
+               },
+               "@name": "enable_voice_check"
+            },
+            "button:reset_voice_button": {
+               "@tool_tip": {
+                  "string": "Reset Voice"
+               },
+               "@name": "reset_voice_button",
+               "button.commit_callback": null
+            },
+            "check_box:VoiceMultiInstance": {
+               "@label": {
+                  "string": "Allow Voice in multiple viewer instances simultaneously"
+               },
+               "@name": "VoiceMultiInstance"
+            },
+            "#comment": "\n        <text\n         type=\"string\"\n         length=\"1\"\n         follows=\"left|top\"\n         layout=\"topleft\"\n         left=\"25\"\n         top_pad=\"5\"\n         name=\"Listen from\"\n         width=\"112\">\n            Listen from:\n        </text>\n        <icon\n         follows=\"left|top\"\n         height=\"18\"\n         image_name=\"Cam_FreeCam_Off\"\n         layout=\"topleft\"\n         name=\"camera_icon\"\n         mouse_opaque=\"false\"\n         visible=\"true\"\n         width=\"18\"\n         left_pad=\"-4\"\n         top_delta=\"-5\"/>\n        <icon\n         follows=\"left|top\"\n         height=\"18\"\n         image_name=\"Move_Walk_Off\"\n         layout=\"topleft\"\n         left_pad=\"170\"\n         name=\"avatar_icon\"\n         mouse_opaque=\"false\"\n         visible=\"true\"\n         width=\"18\"\n         top_delta=\"0\" />\n",
+            "radio_group:ear_location": {
+               "@name": "ear_location",
+               "radio_item:0": {
+                  "@label": {
+                     "string": "Hear Voice from Camera position"
+                  },
+                  "@name": "0"
+               },
+               "radio_item:1": {
+                  "@label": {
+                     "string": "Hear Voice from Avatar position"
+                  },
+                  "@name": "1"
+               },
+               "radio_item:2": {
+                  "@label": {
+                     "string": "Hear Nearby Voices at full volume (Open Sim Only)"
+                  },
+                  "@name": "2"
+               }
+            },
+            "check_box:enable_lip_sync": {
+               "@label": {
+                  "string": "Move avatar lips when speaking"
+               },
+               "@name": "enable_lip_sync"
+            },
+            "check_box:FSShowVoiceVisualizer": {
+               "@label": {
+                  "string": "Show voice visualizers over avatars"
+               },
+               "@tool_tip": {
+                  "string": "Shows Voice Indicator (white dot) over avatars"
+               },
+               "@name": "FSShowVoiceVisualizer"
+            },
+            "check_box:FSShowMyOwnVoiceVisualizer": {
+               "@label": {
+                  "string": "Show voice visualizer over my own avatar"
+               },
+               "@name": "FSShowMyOwnVoiceVisualizer"
+            },
+            "check_box:FSShowVoiceVisualizerWithDot": {
+               "@label": {
+                  "string": "Show the dot as part of the voice visualizer"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, the dot is shown as part of the voice visualizer. If disabled, it only shows voice waves."
+               },
+               "@name": "FSShowVoiceVisualizerWithDot"
+            },
+            "check_box:Show_Voice_Visualizers_In_Calls": {
+               "@label": {
+                  "string": "Show voice visualizers in calls"
+               },
+               "@tool_tip": {
+                  "string": "Shows Voice Indicator and move lips in world while being in private and group calls"
+               },
+               "@name": "Show_Voice_Visualizers_In_Calls"
+            },
+            "check_box:FSShowConversationVoiceStateIndicator": {
+               "@label": {
+                  "string": "Show voice channel state in conversation tabs"
+               },
+               "@tool_tip": {
+                  "string": "Shows the current voice channel state in the tabs in the conversations window"
+               },
+               "@name": "FSShowConversationVoiceStateIndicator"
+            },
+            "check_box:VoiceCallsRejectGroup": {
+               "@label": {
+                  "string": "Automatically reject all incoming group voice calls"
+               },
+               "@name": "VoiceCallsRejectGroup"
+            },
+            "check_box:VoiceCallsRejectAdHoc": {
+               "@label": {
+                  "string": "Automatically reject all incoming conference (ad-hoc) voice calls"
+               },
+               "@name": "VoiceCallsRejectAdHoc"
+            },
+            "check_box:VoiceCallsRejectP2P": {
+               "@label": {
+                  "string": "Automatically reject all incoming P2P (avatar with avatar) voice calls"
+               },
+               "@name": "VoiceCallsRejectP2P"
+            },
+            "check_box:push_to_talk_toggle_check": {
+               "@label": {
+                  "string": "Toggle speak on/off when I press button in toolbar"
+               },
+               "@name": "push_to_talk_toggle_check",
+               "@tool_tip": {
+                  "string": "When in toggle mode, press and release the trigger key ONCE to switch your microphone on or off. When not in toggle mode, the microphone broadcasts your voice only while the trigger is being held down."
+               }
+            },
+            "button:device_settings_btn": {
+               "@label": {
+                  "string": "Audio Device Settings"
+               },
+               "@name": "device_settings_btn"
+            },
+            "panel:device_settings_panel": {
+               "@label": {
+                  "string": "Device Settings"
+               },
+               "@name": "device_settings_panel",
+               "panel.string:default_text": {
+                  "@name": "default_text",
+                  "#text": {
+                     "string": "\n             Default\n            "
+                  }
+               },
+               "panel.string:default system device": {
+                  "@name": "default system device",
+                  "#text": {
+                     "string": "\n             Default system device\n            "
+                  }
+               },
+               "panel.string:name_default_system_device": {
+                  "@name": "name_default_system_device",
+                  "#text": {
+                     "string": "\n             Default system device\n            "
+                  }
+               },
+               "panel.string:no device": {
+                  "@name": "no device",
+                  "#text": {
+                     "string": "\n             No device\n            "
+                  }
+               },
+               "panel.string:name_no_device": {
+                  "@name": "name_no_device",
+                  "#text": {
+                     "string": "\n             No device\n            "
+                  }
+               },
+               "icon:microphone_icon": {
+                  "@name": "microphone_icon"
+               },
+               "text:Input": {
+                  "@name": "Input",
+                  "#text": {
+                     "string": "\n                Input\n            "
+                  }
+               },
+               "combo_box:voice_input_device": {
+                  "@name": "voice_input_device"
+               },
+               "icon:speaker_icon": {
+                  "@name": "speaker_icon"
+               },
+               "text:Output": {
+                  "@name": "Output",
+                  "#text": {
+                     "string": "\n                Output\n            "
+                  }
+               },
+               "combo_box:voice_output_device": {
+                  "@name": "voice_output_device"
+               },
+               "text:Volume label": {
+                  "@name": "Volume label",
+                  "#text": {
+                     "string": "\n                Input Volume:\n            "
+                  }
+               },
+               "slider_bar:mic_volume_slider": {
+                  "@name": "mic_volume_slider",
+                  "@tool_tip": {
+                     "string": "Change the volume using this slider"
+                  }
+               },
+               "text:wait_text": {
+                  "@name": "wait_text",
+                  "#text": {
+                     "string": "\n                Please wait\n            "
+                  }
+               },
+               "locate:bar0": {
+                  "@name": "bar0"
+               },
+               "locate:bar1": {
+                  "@name": "bar1"
+               },
+               "locate:bar2": {
+                  "@name": "bar2"
+               },
+               "locate:bar3": {
+                  "@name": "bar3"
+               },
+               "locate:bar4": {
+                  "@name": "bar4"
+               }
+            }
+         },
+         "#comment$10": " UI Sounds 1 ",
+         "panel:UI Sounds tab 1": {
+            "@label": {
+               "string": "UI Sounds 1"
+            },
+            "@name": "UI Sounds tab 1",
+            "text:textFSExplanation_tab1": {
+               "@name": "textFSExplanation_tab1",
+               "#text": {
+                  "string": "\n            Here you can change (by providing sound UUIDs), enable or disable default interface sounds.\nHover your mouse cursor over UUID field to show its default value.\n        "
+               }
+            },
+            "text:textFSSndAlert": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on default Firestorm alerts."
+               },
+               "@name": "textFSSndAlert",
+               "#text": {
+                  "string": "\n            Default alert:\n        "
+               }
+            },
+            "line_editor:UISndAlert": {
+               "@name": "UISndAlert"
+            },
+            "button:Prev_UISndAlert": {
+               "@name": "Prev_UISndAlert",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndAlert": {
+               "@name": "Def_UISndAlert",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndAlert": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndAlert"
+            },
+            "text:textFSBadKeystroke": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on invalid keystroke."
+               },
+               "@name": "textFSBadKeystroke",
+               "#text": {
+                  "string": "\n            Invalid keystroke:\n        "
+               }
+            },
+            "line_editor:UISndBadKeystroke": {
+               "@name": "UISndBadKeystroke"
+            },
+            "button:Prev_UISndBadKeystroke": {
+               "@name": "Prev_UISndBadKeystroke",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndBadKeystroke": {
+               "@name": "Def_UISndBadKeystroke",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndBadKeystroke": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndBadKeystroke"
+            },
+            "text:textFSClick": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on mouse button click."
+               },
+               "@name": "textFSClick",
+               "#text": {
+                  "string": "\n            Mouse button click:\n        "
+               }
+            },
+            "line_editor:UISndClick": {
+               "@name": "UISndClick"
+            },
+            "button:Prev_UISndClick": {
+               "@name": "Prev_UISndClick",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndClick": {
+               "@name": "Def_UISndClick",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndClick": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndClick"
+            },
+            "text:textFSClickRelease": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on mouse button release."
+               },
+               "@name": "textFSClickRelease",
+               "#text": {
+                  "string": "\n            Mouse button release:\n        "
+               }
+            },
+            "line_editor:UISndClickRelease": {
+               "@name": "UISndClickRelease"
+            },
+            "button:Prev_UISndClickRelease": {
+               "@name": "Prev_UISndClickRelease",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndClickRelease": {
+               "@name": "Def_UISndClickRelease",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndClickRelease": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndClickRelease"
+            },
+            "text:textFSHealthReductionF": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when female avatar takes damage."
+               },
+               "@name": "textFSHealthReductionF",
+               "#text": {
+                  "string": "\n            Female avatar hurt:\n        "
+               }
+            },
+            "line_editor:UISndHealthReductionF": {
+               "@name": "UISndHealthReductionF"
+            },
+            "button:Prev_UISndHealthReductionF": {
+               "@name": "Prev_UISndHealthReductionF",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndHealthReductionF": {
+               "@name": "Def_UISndHealthReductionF",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndHealthReductionF": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndHealthReductionF"
+            },
+            "text:textFSHealthReductionM": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when male avatar takes damage."
+               },
+               "@name": "textFSHealthReductionM",
+               "#text": {
+                  "string": "\n            Male avatar hurt:\n        "
+               }
+            },
+            "line_editor:UISndHealthReductionM": {
+               "@name": "UISndHealthReductionM"
+            },
+            "button:Prev_UISndHealthReductionM": {
+               "@name": "Prev_UISndHealthReductionM",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndHealthReductionM": {
+               "@name": "Def_UISndHealthReductionM",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndHealthReductionM": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndHealthReductionM"
+            },
+            "text:textFSMoneyChangeDown": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on money balance decrease."
+               },
+               "@name": "textFSMoneyChangeDown",
+               "#text": {
+                  "string": "\n            Money balance decrease:\n        "
+               }
+            },
+            "line_editor:UISndMoneyChangeDown": {
+               "@name": "UISndMoneyChangeDown"
+            },
+            "button:Prev_UISndMoneyChangeDown": {
+               "@name": "Prev_UISndMoneyChangeDown",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndMoneyChangeDown": {
+               "@name": "Def_UISndMoneyChangeDown",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndMoneyChangeDown": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndMoneyChangeDown"
+            },
+            "text:textFSMoneyChangeUp": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on money balance increase."
+               },
+               "@name": "textFSMoneyChangeUp",
+               "#text": {
+                  "string": "\n            Money balance increase:\n        "
+               }
+            },
+            "line_editor:UISndMoneyChangeUp": {
+               "@name": "UISndMoneyChangeUp"
+            },
+            "button:Prev_UISndMoneyChangeUp": {
+               "@name": "Prev_UISndMoneyChangeUp",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndMoneyChangeUp": {
+               "@name": "Def_UISndMoneyChangeUp",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndMoneyChangeUp": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndMoneyChangeUp"
+            },
+            "text:textFSNewIncomingIMSession": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on incoming instant message. This setting is shared with Chat > Notifications > 'When receiving Instant Messages'."
+               },
+               "@name": "textFSNewIncomingIMSession",
+               "#text": {
+                  "string": "\n            Incoming Instant Message:\n        "
+               }
+            },
+            "line_editor:UISndNewIncomingIMSession": {
+               "@name": "UISndNewIncomingIMSession"
+            },
+            "button:Prev_UISndNewIncomingIMSession": {
+               "@name": "Prev_UISndNewIncomingIMSession",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndNewIncomingIMSession": {
+               "@name": "Def_UISndNewIncomingIMSession",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "combo_box:PlayModeUISndNewIncomingIMSession": {
+               "@name": "PlayModeUISndNewIncomingIMSession",
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Play only on new session"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "Play on every message"
+                  },
+                  "@name": "2"
+               },
+               "combo_box.item:3": {
+                  "@label": {
+                     "string": "Play only if not in focus"
+                  },
+                  "@name": "3"
+               },
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "Mute this sound"
+                  },
+                  "@name": "0"
+               }
+            },
+            "text:textFSNewGroupIncomingIMSession": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on incoming group instant message. This setting is shared with Chat > Notifications > 'When receiving Group Instant Messages'."
+               },
+               "@name": "textFSNewGroupIncomingIMSession",
+               "#text": {
+                  "string": "\n            Group Instant Message:\n        "
+               }
+            },
+            "line_editor:UISndNewIncomingGroupIMSession": {
+               "@name": "UISndNewIncomingGroupIMSession"
+            },
+            "button:Prev_UISndNewIncomingGroupIMSession": {
+               "@name": "Prev_UISndNewIncomingGroupIMSession",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndNewIncomingGroupIMSession": {
+               "@name": "Def_UISndNewIncomingGroupIMSession",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "combo_box:PlayModeUISndNewIncomingGroupIMSession": {
+               "@name": "PlayModeUISndNewIncomingGroupIMSession",
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Play only on new session"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "Play on every message"
+                  },
+                  "@name": "2"
+               },
+               "combo_box.item:3": {
+                  "@label": {
+                     "string": "Play only if not in focus"
+                  },
+                  "@name": "3"
+               },
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "Mute this sound"
+                  },
+                  "@name": "0"
+               }
+            },
+            "text:textFSNewConferenceIncomingIMSession": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on incoming conference instant message. This setting is shared with Chat > Notifications > 'When receiving ad-hoc Instant Messages'."
+               },
+               "@name": "textFSNewConferenceIncomingIMSession",
+               "#text": {
+                  "string": "\n            Ad-hoc Instant Message:\n        "
+               }
+            },
+            "line_editor:UISndNewIncomingConfIMSession": {
+               "@name": "UISndNewIncomingConfIMSession"
+            },
+            "button:Prev_UISndNewIncomingConfIMSession": {
+               "@name": "Prev_UISndNewIncomingConfIMSession",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndNewIncomingConfIMSession": {
+               "@name": "Def_UISndNewIncomingConfIMSession",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "combo_box:PlayModeUISndNewIncomingConfIMSession": {
+               "@name": "PlayModeUISndNewIncomingConfIMSession",
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Play only on new session"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "Play on every message"
+                  },
+                  "@name": "2"
+               },
+               "combo_box.item:3": {
+                  "@label": {
+                     "string": "Play only if not in focus"
+                  },
+                  "@name": "3"
+               },
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "Mute this sound"
+                  },
+                  "@name": "0"
+               }
+            },
+            "text:textFSStartIM": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when starting new IM session."
+               },
+               "@name": "textFSStartIM",
+               "#text": {
+                  "string": "\n            Starting IM session:\n        "
+               }
+            },
+            "line_editor:UISndStartIM": {
+               "@name": "UISndStartIM"
+            },
+            "button:Prev_UISndStartIM": {
+               "@name": "Prev_UISndStartIM",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndStartIM": {
+               "@name": "Def_UISndStartIM",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndStartIM": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndStartIM"
+            },
+            "text:textFSObjectCreate": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on new object creation."
+               },
+               "@name": "textFSObjectCreate",
+               "#text": {
+                  "string": "\n            Object creation:\n        "
+               }
+            },
+            "line_editor:UISndObjectCreate": {
+               "@name": "UISndObjectCreate"
+            },
+            "button:Prev_UISndObjectCreate": {
+               "@name": "Prev_UISndObjectCreate",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndObjectCreate": {
+               "@name": "Def_UISndObjectCreate",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndObjectCreate": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndObjectCreate"
+            },
+            "text:textFSObjectDelete": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on object deletion."
+               },
+               "@name": "textFSObjectDelete",
+               "#text": {
+                  "string": "\n            Object deletion:\n        "
+               }
+            },
+            "line_editor:UISndObjectDelete": {
+               "@name": "UISndObjectDelete"
+            },
+            "button:Prev_UISndObjectDelete": {
+               "@name": "Prev_UISndObjectDelete",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndObjectDelete": {
+               "@name": "Def_UISndObjectDelete",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndObjectDelete": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndObjectDelete"
+            },
+            "text:textFSObjectRezIn": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on object rezzing."
+               },
+               "@name": "textFSObjectRezIn",
+               "#text": {
+                  "string": "\n            Object rezzing:\n        "
+               }
+            },
+            "line_editor:UISndObjectRezIn": {
+               "@name": "UISndObjectRezIn"
+            },
+            "button:Prev_UISndObjectRezIn": {
+               "@name": "Prev_UISndObjectRezIn",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndObjectRezIn": {
+               "@name": "Def_UISndObjectRezIn",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndObjectRezIn": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndObjectRezIn"
+            },
+            "text:textFSObjectRezOut": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on object derezzing."
+               },
+               "@name": "textFSObjectRezOut",
+               "#text": {
+                  "string": "\n            Object derezzing:\n        "
+               }
+            },
+            "line_editor:UISndObjectRezOut": {
+               "@name": "UISndObjectRezOut"
+            },
+            "button:Prev_UISndObjectRezOut": {
+               "@name": "Prev_UISndObjectRezOut",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndObjectRezOut": {
+               "@name": "Def_UISndObjectRezOut",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndObjectRezOut": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndObjectRezOut"
+            },
+            "text:textFSSnapshot": {
+               "@tool_tip": {
+                  "string": "Sound UUID played when taking snapshot. This setting is shared with 'Quiet Snapshots' option from Advanced menu."
+               },
+               "@name": "textFSSnapshot",
+               "#text": {
+                  "string": "\n            Taking snapshot:\n        "
+               }
+            },
+            "line_editor:UISndSnapshot": {
+               "@name": "UISndSnapshot"
+            },
+            "button:Prev_UISndSnapshot": {
+               "@name": "Prev_UISndSnapshot",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndSnapshot": {
+               "@name": "Def_UISndSnapshot",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:QuietSnapshotsToDiskCheckBox": {
+               "@label": {
+                  "string": "Mute this sound"
+               },
+               "@name": "QuietSnapshotsToDiskCheckBox"
+            },
+            "text:textFSTeleportOut": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on teleporting. This setting is shared with Move and View > Movement > 'Play sound effect when teleporting'."
+               },
+               "@name": "textFSTeleportOut",
+               "#text": {
+                  "string": "\n            Teleportation:\n        "
+               }
+            },
+            "line_editor:UISndTeleportOut": {
+               "@name": "UISndTeleportOut"
+            },
+            "button:Prev_UISndTeleportOut": {
+               "@name": "Prev_UISndTeleportOut",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndTeleportOut": {
+               "@name": "Def_UISndTeleportOut",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndTeleportOut": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndTeleportOut"
+            }
+         },
+         "#comment$12": " UI Sounds 2 ",
+         "panel:UI Sounds tab 2": {
+            "@label": {
+               "string": "UI Sounds 2"
+            },
+            "@name": "UI Sounds tab 2",
+            "text:textFSExplanation_tab2": {
+               "@name": "textFSExplanation_tab2",
+               "#text": {
+                  "string": "\n            Here you can change (by providing sound UUIDs), enable or disable default interface sounds.\nHover your mouse cursor over UUID field to show its default value.\n        "
+               }
+            },
+            "text:textFSPieMenuAppear": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when Pie Menu appears."
+               },
+               "@name": "textFSPieMenuAppear",
+               "#text": {
+                  "string": "\n            Pie Menu appear:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuAppear": {
+               "@name": "UISndPieMenuAppear"
+            },
+            "button:Prev_UISndPieMenuAppear": {
+               "@name": "Prev_UISndPieMenuAppear",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuAppear": {
+               "@name": "Def_UISndPieMenuAppear",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuAppear": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuAppear"
+            },
+            "text:textFSPieMenuHide": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when Pie Menu disappears."
+               },
+               "@name": "textFSPieMenuHide",
+               "#text": {
+                  "string": "\n            Pie Menu disappear:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuHide": {
+               "@name": "UISndPieMenuHide"
+            },
+            "button:Prev_UISndPieMenuHide": {
+               "@name": "Prev_UISndPieMenuHide",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuHide": {
+               "@name": "Def_UISndPieMenuHide",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuHide": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuHide"
+            },
+            "text:textFSPieMenuSliceHighlight0": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 1."
+               },
+               "@name": "textFSPieMenuSliceHighlight0",
+               "#text": {
+                  "string": "\n            Pie Menu option 1:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight0": {
+               "@name": "UISndPieMenuSliceHighlight0"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight0": {
+               "@name": "Prev_UISndPieMenuSliceHighlight0",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight0": {
+               "@name": "Def_UISndPieMenuSliceHighlight0",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight0": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight0"
+            },
+            "text:textFSPieMenuSliceHighlight1": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 2."
+               },
+               "@name": "textFSPieMenuSliceHighlight1",
+               "#text": {
+                  "string": "\n            Pie Menu option 2:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight1": {
+               "@name": "UISndPieMenuSliceHighlight1"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight1": {
+               "@name": "Prev_UISndPieMenuSliceHighlight1",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight1": {
+               "@name": "Def_UISndPieMenuSliceHighlight1",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight1": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight1"
+            },
+            "text:textFSPieMenuSliceHighlight2": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 3."
+               },
+               "@name": "textFSPieMenuSliceHighlight2",
+               "#text": {
+                  "string": "\n            Pie Menu option 3:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight2": {
+               "@name": "UISndPieMenuSliceHighlight2"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight2": {
+               "@name": "Prev_UISndPieMenuSliceHighlight2",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight2": {
+               "@name": "Def_UISndPieMenuSliceHighlight2",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight2": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight2"
+            },
+            "text:textFSPieMenuSliceHighlight3": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 4."
+               },
+               "@name": "textFSPieMenuSliceHighlight3",
+               "#text": {
+                  "string": "\n            Pie Menu option 4:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight3": {
+               "@name": "UISndPieMenuSliceHighlight3"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight3": {
+               "@name": "Prev_UISndPieMenuSliceHighlight3",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight3": {
+               "@name": "Def_UISndPieMenuSliceHighlight3",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight3": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight3"
+            },
+            "text:textFSPieMenuSliceHighlight4": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 5."
+               },
+               "@name": "textFSPieMenuSliceHighlight4",
+               "#text": {
+                  "string": "\n            Pie Menu option 5:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight4": {
+               "@name": "UISndPieMenuSliceHighlight4"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight4": {
+               "@name": "Prev_UISndPieMenuSliceHighlight4",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight4": {
+               "@name": "Def_UISndPieMenuSliceHighlight4",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight4": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight4"
+            },
+            "text:textFSPieMenuSliceHighlight5": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 6."
+               },
+               "@name": "textFSPieMenuSliceHighlight5",
+               "#text": {
+                  "string": "\n            Pie Menu option 6:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight5": {
+               "@name": "UISndPieMenuSliceHighlight5"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight5": {
+               "@name": "Prev_UISndPieMenuSliceHighlight5",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight5": {
+               "@name": "Def_UISndPieMenuSliceHighlight5",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight5": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight5"
+            },
+            "text:textFSPieMenuSliceHighlight6": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 7."
+               },
+               "@name": "textFSPieMenuSliceHighlight6",
+               "#text": {
+                  "string": "\n            Pie Menu option 7:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight6": {
+               "@name": "UISndPieMenuSliceHighlight6"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight6": {
+               "@name": "Prev_UISndPieMenuSliceHighlight6",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight6": {
+               "@name": "Def_UISndPieMenuSliceHighlight6",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight6": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight6"
+            },
+            "text:textFSPieMenuSliceHighlight7": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when selecting pie menu item 8."
+               },
+               "@name": "textFSPieMenuSliceHighlight7",
+               "#text": {
+                  "string": "\n            Pie Menu option 8:\n        "
+               }
+            },
+            "line_editor:UISndPieMenuSliceHighlight7": {
+               "@name": "UISndPieMenuSliceHighlight7"
+            },
+            "button:Prev_UISndPieMenuSliceHighlight7": {
+               "@name": "Prev_UISndPieMenuSliceHighlight7",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndPieMenuSliceHighlight7": {
+               "@name": "Def_UISndPieMenuSliceHighlight7",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndPieMenuSliceHighlight7": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndPieMenuSliceHighlight7"
+            },
+            "text:textFSTyping": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when starting to type a chat message. This setting is shared with Chat > General > 'Hear typing sound when people type in nearby chat'."
+               },
+               "@name": "textFSTyping",
+               "#text": {
+                  "string": "\n            Typing a message:\n        "
+               }
+            },
+            "line_editor:UISndTyping": {
+               "@name": "UISndTyping"
+            },
+            "button:Prev_UISndTyping": {
+               "@name": "Prev_UISndTyping",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndTyping": {
+               "@name": "Def_UISndTyping",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:FSPlayTypingSoundCheckBox": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "FSPlayTypingSoundCheckBox"
+            },
+            "text:textFSWindowClose": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when closing a window."
+               },
+               "@name": "textFSWindowClose",
+               "#text": {
+                  "string": "\n            Closing a window:\n        "
+               }
+            },
+            "line_editor:UISndWindowClose": {
+               "@name": "UISndWindowClose"
+            },
+            "button:Prev_UISndWindowClose": {
+               "@name": "Prev_UISndWindowClose",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndWindowClose": {
+               "@name": "Def_UISndWindowClose",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndWindowClose": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndWindowClose"
+            },
+            "text:textFSWindowOpen": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when opening a window."
+               },
+               "@name": "textFSWindowOpen",
+               "#text": {
+                  "string": "\n            Opening a window:\n        "
+               }
+            },
+            "line_editor:UISndWindowOpen": {
+               "@name": "UISndWindowOpen"
+            },
+            "button:Prev_UISndWindowOpen": {
+               "@name": "Prev_UISndWindowOpen",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndWindowOpen": {
+               "@name": "Def_UISndWindowOpen",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndWindowOpen": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndWindowOpen"
+            },
+            "text:textFSScriptFloaterOpen": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when script opens a dialog window."
+               },
+               "@name": "textFSScriptFloaterOpen",
+               "#text": {
+                  "string": "\n            Script dialog:\n        "
+               }
+            },
+            "line_editor:UISndScriptFloaterOpen": {
+               "@name": "UISndScriptFloaterOpen"
+            },
+            "button:Prev_UISndScriptFloaterOpen": {
+               "@name": "Prev_UISndScriptFloaterOpen",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndScriptFloaterOpen": {
+               "@name": "Def_UISndScriptFloaterOpen",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndScriptFloaterOpen": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndScriptFloaterOpen"
+            },
+            "text:textFSFriendOnline": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when your friend comes online."
+               },
+               "@name": "textFSFriendOnline",
+               "#text": {
+                  "string": "\n            Friend comes online:\n        "
+               }
+            },
+            "line_editor:UISndFriendOnline": {
+               "@name": "UISndFriendOnline"
+            },
+            "button:Prev_UISndFriendOnline": {
+               "@name": "Prev_UISndFriendOnline",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndFriendOnline": {
+               "@name": "Def_UISndFriendOnline",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndFriendOnline": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndFriendOnline"
+            },
+            "text:textFSFriendOffline": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when your friend goes offline."
+               },
+               "@name": "textFSFriendOffline",
+               "#text": {
+                  "string": "\n            Friend goes offline:\n        "
+               }
+            },
+            "line_editor:UISndFriendOffline": {
+               "@name": "UISndFriendOffline"
+            },
+            "button:Prev_UISndFriendOffline": {
+               "@name": "Prev_UISndFriendOffline",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndFriendOffline": {
+               "@name": "Def_UISndFriendOffline",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndFriendOffline": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndFriendOffline"
+            },
+            "text:textFSFriendshipOffer": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on friendship offer."
+               },
+               "@name": "textFSFriendshipOffer",
+               "#text": {
+                  "string": "\n            Friendship offer:\n        "
+               }
+            },
+            "line_editor:UISndFriendshipOffer": {
+               "@name": "UISndFriendshipOffer"
+            },
+            "button:Prev_UISndFriendshipOffer": {
+               "@name": "Prev_UISndFriendshipOffer",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndFriendshipOffer": {
+               "@name": "Def_UISndFriendshipOffer",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndFriendshipOffer": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndFriendshipOffer"
+            },
+            "text:textFSTeleportOffer": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on teleport offer."
+               },
+               "@name": "textFSTeleportOffer",
+               "#text": {
+                  "string": "\n            Teleport offer:\n        "
+               }
+            },
+            "line_editor:UISndTeleportOffer": {
+               "@name": "UISndTeleportOffer"
+            },
+            "button:Prev_UISndTeleportOffer": {
+               "@name": "Prev_UISndTeleportOffer",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndTeleportOffer": {
+               "@name": "Def_UISndTeleportOffer",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndTeleportOffer": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndTeleportOffer"
+            }
+         },
+         "#comment$14": " UI Sounds 3 ",
+         "panel:UI Sounds tab 3": {
+            "@label": {
+               "string": "UI Sounds 3"
+            },
+            "@name": "UI Sounds tab 3",
+            "text:textFSExplanation_tab3": {
+               "@name": "textFSExplanation_tab3",
+               "#text": {
+                  "string": "\n            Here you can change (by providing sound UUIDs), enable or disable default interface sounds.\nHover your mouse cursor over UUID field to show its default value.\n        "
+               }
+            },
+            "text:textFSInventoryOffer": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on inventory offer."
+               },
+               "@name": "textFSInventoryOffer",
+               "#text": {
+                  "string": "\n            Inventory offer:\n        "
+               }
+            },
+            "line_editor:UISndInventoryOffer": {
+               "@name": "UISndInventoryOffer"
+            },
+            "button:Prev_UISndInventoryOffer": {
+               "@name": "Prev_UISndInventoryOffer",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndInventoryOffer": {
+               "@name": "Def_UISndInventoryOffer",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndInventoryOffer": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndInventoryOffer"
+            },
+            "text:textFSIncomingVoiceCall": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on incoming voice call."
+               },
+               "@name": "textFSIncomingVoiceCall",
+               "#text": {
+                  "string": "\n            Voice call:\n        "
+               }
+            },
+            "line_editor:UISndIncomingVoiceCall": {
+               "@name": "UISndIncomingVoiceCall"
+            },
+            "button:Prev_UISndIncomingVoiceCall": {
+               "@name": "Prev_UISndIncomingVoiceCall",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndIncomingVoiceCall": {
+               "@name": "Def_UISndIncomingVoiceCall",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndIncomingVoiceCall": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndIncomingVoiceCall"
+            },
+            "text:textFSGroupInvitation": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on group invitation."
+               },
+               "@name": "textFSGroupInvitation",
+               "#text": {
+                  "string": "\n            Group invitation:\n        "
+               }
+            },
+            "line_editor:UISndGroupInvitation": {
+               "@name": "UISndGroupInvitation"
+            },
+            "button:Prev_UISndGroupInvitation": {
+               "@name": "Prev_UISndGroupInvitation",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndGroupInvitation": {
+               "@name": "Def_UISndGroupInvitation",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndGroupInvitation": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndGroupInvitation"
+            },
+            "text:textFSGroupNotice": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on group notice."
+               },
+               "@name": "textFSGroupNotice",
+               "#text": {
+                  "string": "\n            Group notice:\n        "
+               }
+            },
+            "line_editor:UISndGroupNotice": {
+               "@name": "UISndGroupNotice"
+            },
+            "button:Prev_UISndGroupNotice": {
+               "@name": "Prev_UISndGroupNotice",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndGroupNotice": {
+               "@name": "Def_UISndGroupNotice",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndGroupNotice": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndGroupNotice"
+            },
+            "text:textFSQuestionExperience": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on new Experience notifications."
+               },
+               "@name": "textFSQuestionExperience",
+               "#text": {
+                  "string": "\n            New Experience:\n        "
+               }
+            },
+            "line_editor:UISndQuestionExperience": {
+               "@name": "UISndQuestionExperience"
+            },
+            "button:Prev_UISndQuestionExperience": {
+               "@name": "Prev_UISndQuestionExperience",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndQuestionExperience": {
+               "@name": "Def_UISndQuestionExperience",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndQuestionExperience": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndQuestionExperience"
+            },
+            "text:textFSInvalidOp": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on invalid operations."
+               },
+               "@name": "textFSInvalidOp",
+               "#text": {
+                  "string": "\n            Invalid operation:\n        "
+               }
+            },
+            "line_editor:UISndInvalidOp": {
+               "@name": "UISndInvalidOp"
+            },
+            "button:Prev_UISndInvalidOp": {
+               "@name": "Prev_UISndInvalidOp",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndInvalidOp": {
+               "@name": "Def_UISndInvalidOp",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndInvalidOp": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndInvalidOp"
+            },
+            "text:textFSMovelockToggle": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on toggling movelock."
+               },
+               "@name": "textFSMovelockToggle",
+               "#text": {
+                  "string": "\n            Toggling movelock:\n        "
+               }
+            },
+            "line_editor:UISndMovelockToggle": {
+               "@name": "UISndMovelockToggle"
+            },
+            "button:Prev_UISndMovelockToggle": {
+               "@name": "Prev_UISndMovelockToggle",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndMovelockToggle": {
+               "@name": "Def_UISndMovelockToggle",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndMovelockToggle": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndMovelockToggle"
+            },
+            "text:textFSFootsteps": {
+               "@tool_tip": {
+                  "string": "Sound UUID played on default footsteps. Change requires restart to take effect."
+               },
+               "@name": "textFSFootsteps",
+               "#text": {
+                  "string": "\n            Default footsteps:\n        "
+               }
+            },
+            "line_editor:UISndFootsteps": {
+               "@name": "UISndFootsteps"
+            },
+            "button:Prev_UISndFootsteps": {
+               "@name": "Prev_UISndFootsteps",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndFootsteps": {
+               "@name": "Def_UISndFootsteps",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndFootsteps": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndFootsteps"
+            },
+            "text:textFSTrackerBeacon": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when the tracker beacon is active. It is more frequent when the avatar is closer to the destination."
+               },
+               "@name": "textFSTrackerBeacon",
+               "#text": {
+                  "string": "\n            Tracker beacon:\n        "
+               }
+            },
+            "line_editor:UISndTrackerBeacon": {
+               "@name": "UISndTrackerBeacon"
+            },
+            "button:Prev_UISndTrackerBeacon": {
+               "@name": "Prev_UISndTrackerBeacon",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndTrackerBeacon": {
+               "@name": "Def_UISndTrackerBeacon",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndTrackerBeacon": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndTrackerBeacon"
+            },
+            "text:textFSRestart": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when the region restart alert appears."
+               },
+               "@name": "textFSRestart",
+               "#text": {
+                  "string": "\n            Region restart:\n        "
+               }
+            },
+            "line_editor:UISndRestart": {
+               "@name": "UISndRestart"
+            },
+            "button:Prev_UISndRestart": {
+               "@name": "Prev_UISndRestart",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRestart": {
+               "@name": "Def_UISndRestart",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndRestart": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndRestart"
+            },
+            "text:textFSRestartOpenSim": {
+               "@tool_tip": {
+                  "string": "Sound UUID played, when the region restart alert appears (OpenSim)."
+               },
+               "@name": "textFSRestartOpenSim",
+               "#text": {
+                  "string": "\n            Region restart (OpenSim):\n        "
+               }
+            },
+            "line_editor:UISndRestartOpenSim": {
+               "@name": "UISndRestartOpenSim"
+            },
+            "button:Prev_UISndRestartOpenSim": {
+               "@name": "Prev_UISndRestartOpenSim",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRestartOpenSim": {
+               "@name": "Def_UISndRestartOpenSim",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:PlayModeUISndRestartOpenSim": {
+               "@label": {
+                  "string": "Play this sound"
+               },
+               "@name": "PlayModeUISndRestartOpenSim"
+            }
+         }
+      }
+   }
+}

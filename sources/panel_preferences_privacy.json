@@ -1,0 +1,503 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Communication"
+      },
+      "@name": "im",
+      "string:AutoresponseItemNotSet": {
+         "@name": "AutoresponseItemNotSet",
+         "#text": {
+            "string": "\n    No item set\n  "
+         }
+      },
+      "string:AutoresponseItemNotAvailable": {
+         "@name": "AutoresponseItemNotAvailable",
+         "#text": {
+            "string": "\n    Item not available\n  "
+         }
+      },
+      "string:AutoresponseItemNotLoggedIn": {
+         "@name": "AutoresponseItemNotLoggedIn",
+         "#text": {
+            "string": "\n    Not logged in\n  "
+         }
+      },
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Privacy"
+         },
+         "@name": "tabs",
+         "#comment": "General",
+         "panel:tab-general": {
+            "@label": {
+               "string": "General"
+            },
+            "@name": "tab-general",
+            "panel.string:log_in_to_change": {
+               "@name": "log_in_to_change",
+               "#text": {
+                  "string": "\n   log in to change\n  "
+               }
+            },
+            "button:clear_webcache": {
+               "@label": {
+                  "string": "Clear History"
+               },
+               "@tool_tip": {
+                  "string": "Clear login image, last location, teleport history, web and texture cache"
+               },
+               "@name": "clear_webcache",
+               "button.commit_callback": null
+            },
+            "text:cache_size_label": {
+               "@name": "cache_size_label",
+               "#text": {
+                  "string": "\n    (Locations, images, web, search history)\n   "
+               }
+            },
+            "check_box:online_searchresults": {
+               "@label": {
+                  "string": "Show my profile info in Search results"
+               },
+               "@name": "online_searchresults"
+            },
+            "check_box:online_visibility": {
+               "@label": {
+                  "string": "Only friends and groups know I'm online"
+               },
+               "@name": "online_visibility"
+            },
+            "check_box:voice_call_friends_only_check": {
+               "@label": {
+                  "string": "Only friends and groups can call or IM me"
+               },
+               "@name": "voice_call_friends_only_check"
+            },
+            "check_box:FSShowJoinedGroupInvitations": {
+               "@label": {
+                  "string": "Show invitations for already joined groups"
+               },
+               "@name": "FSShowJoinedGroupInvitations"
+            },
+            "check_box:auto_disengage_mic_check": {
+               "@label": {
+                  "string": "Switch off microphone when ending calls"
+               },
+               "@name": "auto_disengage_mic_check"
+            },
+            "check_box:LanguageIsPublic": {
+               "@label": {
+                  "string": "Let scripted objects see my current language setting"
+               },
+               "@name": "LanguageIsPublic"
+            },
+            "check_box:favorites_on_login_check": {
+               "@label": {
+                  "string": "Show my Favorite Landmarks at Login (via 'Start At' drop-down menu)"
+               },
+               "@name": "favorites_on_login_check"
+            },
+            "check_box:Auto_Accept_New_Inventory": {
+               "@label": {
+                  "string": "Automatically accept new inventory items"
+               },
+               "@name": "Auto_Accept_New_Inventory"
+            },
+            "check_box:FSLogAutoAcceptInventoryToChat": {
+               "@label": {
+                  "string": "Log automatically accepted inventory items to nearby chat"
+               },
+               "@name": "FSLogAutoAcceptInventoryToChat"
+            },
+            "check_box:FSUseLegacyInventoryAcceptMessages": {
+               "@label": {
+                  "string": "Use legacy inventory offer accept/decline messages"
+               },
+               "@name": "FSUseLegacyInventoryAcceptMessages",
+               "@tool_tip": {
+                  "string": "If enabled, the viewer will only send accept and decline messages after pressing the according button. If disabled, the accept response will be sent automatically as soon as the inventory offer has been received. This option has no effect if inventory offers are accepted automatically."
+               }
+            },
+            "check_box:Show_In_Inventory": {
+               "@label": {
+                  "string": "Automatically show newly accepted items in inventory"
+               },
+               "@name": "Show_In_Inventory"
+            },
+            "check_box:Show_New_Inventory": {
+               "@label": {
+                  "string": "Automatically view notecards, textures, landmarks after accepting"
+               },
+               "@name": "Show_New_Inventory"
+            },
+            "check_box:FSOpenInventoryAfterSnapshot": {
+               "@label": {
+                  "string": "Automatically show snapshots in inventory after upload"
+               },
+               "@name": "FSOpenInventoryAfterSnapshot"
+            },
+            "check_box:FSCreateGiveInventoryParticleEffect": {
+               "@label": {
+                  "string": "Create particle effects upon giving inventory objects to other avatars"
+               },
+               "@name": "FSCreateGiveInventoryParticleEffect"
+            },
+            "button:block_list": {
+               "@label": {
+                  "string": "Manage Block / Mute list"
+               },
+               "@name": "block_list",
+               "button.commit_callback": null
+            }
+         },
+         "#comment$4": "Logging",
+         "panel:tab-logging": {
+            "@label": {
+               "string": "Logs & Transcripts"
+            },
+            "@name": "tab-logging",
+            "text:logging_label": {
+               "@name": "logging_label",
+               "#text": {
+                  "string": "\n    Save:\n     "
+               }
+            },
+            "combo_box:conversation_log_combo": {
+               "@tool_tip": {
+                  "string": "Log (Conversation Log): The list of chat conversations started by you or another party. Transcript: The actual written text as it appeared on the screen."
+               },
+               "@name": "conversation_log_combo",
+               "item:log_and_transcripts": {
+                  "@name": "log_and_transcripts",
+                  "@label": {
+                     "string": "Log and transcripts"
+                  }
+               },
+               "item:log_only": {
+                  "@name": "log_only",
+                  "@label": {
+                     "string": "Log only"
+                  }
+               },
+               "item:no_log_or_transcript": {
+                  "@name": "no_log_or_transcript",
+                  "@label": {
+                     "string": "No log or transcripts"
+                  }
+               }
+            },
+            "button:clear_log": {
+               "@label": {
+                  "string": "Clear log..."
+               },
+               "@name": "clear_log",
+               "button.commit_callback": null
+            },
+            "button:delete_transcripts": {
+               "@label": {
+                  "string": "Delete transcripts..."
+               },
+               "@name": "delete_transcripts",
+               "commit_callback": null
+            },
+            "check_box:LogNearbyChat": {
+               "@name": "LogNearbyChat",
+               "@label": {
+                  "string": "Save nearby chat transcript"
+               },
+               "@tool_tip": {
+                  "string": "Record nearby chat message transcript to your hard drive"
+               }
+            },
+            "check_box:UseLegacyIMLogNames": {
+               "@label": {
+                  "string": "Use legacy file name format for transcripts"
+               },
+               "@name": "UseLegacyIMLogNames",
+               "@tool_tip": {
+                  "string": "If enabled, the legacy file name format for transcripts (User Name) will be used instead of new format (user_name)."
+               }
+            },
+            "check_box:LogFileNamewithDate": {
+               "@label": {
+                  "string": "Add date stamp to transcript filenames"
+               },
+               "@name": "LogFileNamewithDate",
+               "@tool_tip": {
+                  "string": "Add date stamp to chat and IM logs with format chat-YYYY-MM-DD and 'IM file name'-YYYY-MM."
+               }
+            },
+            "check_box:FSUseBuiltInHistory": {
+               "@label": {
+                  "string": "Use built-in transcript viewer"
+               },
+               "@name": "FSUseBuiltInHistory",
+               "@tool_tip": {
+                  "string": "Uses the built-in transcript viewer for reading transcripts. If disabled, transcripts will open in your operating system's defined text editor."
+               }
+            }
+         },
+         "#comment$6": "LookAt",
+         "panel:tab-lookat": {
+            "@label": {
+               "string": "LookAt"
+            },
+            "@name": "tab-lookat",
+            "check_box:showlookat": {
+               "@label": {
+                  "string": "Show look at targets:"
+               },
+               "@name": "showlookat",
+               "@tool_tip": {
+                  "string": "The LookAt point is an animation hint, viewers use it to know which way to turn your eyes, head and torso. It can also be used to determine the anchor point of an avatar's camera."
+               }
+            },
+            "text:lookatshownames": {
+               "@name": "lookatshownames",
+               "@tool_tip": {
+                  "string": "Name format to show avatar names on the look at targets"
+               },
+               "#text": {
+                  "string": "\n            Show names for look at targets:\n        "
+               }
+            },
+            "combo_box:lookatshownames_combobox": {
+               "@name": "lookatshownames_combobox",
+               "combo_box.item:None": {
+                  "@label": {
+                     "string": "None"
+                  },
+                  "@name": "None"
+               },
+               "combo_box.item:Complete_Name": {
+                  "@label": {
+                     "string": "Complete name"
+                  },
+                  "@name": "Complete_Name"
+               },
+               "combo_box.item:Display_Name": {
+                  "@label": {
+                     "string": "Display name"
+                  },
+                  "@name": "Display_Name"
+               },
+               "combo_box.item:Legacy_Name": {
+                  "@label": {
+                     "string": "Legacy name"
+                  },
+                  "@name": "Legacy_Name"
+               },
+               "combo_box.item:User_Name": {
+                  "@label": {
+                     "string": "Username"
+                  },
+                  "@name": "User_Name"
+               }
+            },
+            "check_box:LookAtHideOwn": {
+               "@label": {
+                  "string": "Don't show me my own lookat target"
+               },
+               "@name": "LookAtHideOwn",
+               "@tool_tip": {
+                  "string": "Don't show me my own camera crosshairs"
+               }
+            },
+            "check_box:ExodusLookAtLines": {
+               "@label": {
+                  "string": "Render lines to lookat target"
+               },
+               "@name": "ExodusLookAtLines",
+               "@tool_tip": {
+                  "string": "Render a line from the avatar to their lookat target crosshair"
+               }
+            },
+            "text:mylookat": {
+               "@name": "mylookat",
+               "#text": {
+                  "string": "\n        My look at targets:\n      "
+               }
+            },
+            "check_box:privatelookat": {
+               "@label": {
+                  "string": "Don't send my look at targets to others"
+               },
+               "@name": "privatelookat",
+               "@tool_tip": {
+                  "string": "Prevents your look at hints from being broadcast to others"
+               }
+            },
+            "check_box:privateLocalLookat": {
+               "@label": {
+                  "string": "Don't send any look at targets at all, not even to myself"
+               },
+               "@name": "privateLocalLookat",
+               "@tool_tip": {
+                  "string": "Prevents your avatar's head from moving to face a point your camera is focused on in your own view. This head movement is not necessarily visible to others whether or not this option is enabled"
+               }
+            },
+            "check_box:privatepointat": {
+               "@label": {
+                  "string": "Don't send my selection target hints"
+               },
+               "@name": "privatepointat",
+               "@tool_tip": {
+                  "string": "Prevents your selection point from showing to others"
+               }
+            },
+            "check_box:LimitLookAt": {
+               "@label": {
+                  "string": "Limit distance from head:"
+               },
+               "@name": "LimitLookAt",
+               "@tool_tip": {
+                  "string": "Clamps your look at target around your head."
+               }
+            },
+            "slider:LimitLookAtDistance": {
+               "@name": "LimitLookAtDistance"
+            },
+            "text:LimitLookAtDistanceMeterText": {
+               "@name": "LimitLookAtDistanceMeterText",
+               "#text": {
+                  "string": "\n          m\n        "
+               }
+            }
+         },
+         "#comment$8": "Autoresponse",
+         "panel:tab-autoresponse-1": {
+            "@label": {
+               "string": "Autoresponse 1"
+            },
+            "@name": "tab-autoresponse-1",
+            "text:autorespond_toggle_location_tip": {
+               "@name": "autorespond_toggle_location_tip",
+               "#text": {
+                  "string": "\n           Note: To activate the Autoresponse messages please set your online status via Comm Menu &gt; Online Status\n        "
+               }
+            },
+            "text:text_box3": {
+               "@name": "text_box3",
+               "#text": {
+                  "string": "\n          Automatic response when in UNAVAILABLE (ie, BUSY)  mode:\n        "
+               }
+            },
+            "text_editor:do_not_disturb_response": {
+               "@name": "do_not_disturb_response",
+               "#text": {
+                  "string": "\n         log_in_to_change\n        "
+               }
+            },
+            "text:autorespond_response_label": {
+               "@name": "autorespond_response_label",
+               "#text": {
+                  "string": "\n           Automatic response to all avatars when in AUTORESPONSE to everyone mode:\n        "
+               }
+            },
+            "text_editor:autorespond_response": {
+               "@name": "autorespond_response",
+               "#text": {
+                  "string": "\n           log_in_to_change\n        "
+               }
+            },
+            "text:autorespond_nf_response_label": {
+               "@name": "autorespond_nf_response_label",
+               "#text": {
+                  "string": "\n           Automatic response to non-friends when in AUTORESPONSE TO NON-FRIENDS mode:\n        "
+               }
+            },
+            "text_editor:autorespond_nf_response": {
+               "@name": "autorespond_nf_response",
+               "#text": {
+                  "string": "\n           log_in_to_change\n        "
+               }
+            },
+            "check_box:send_away_av_response": {
+               "@label": {
+                  "string": "Send autoresponse when in AWAY mode:"
+               },
+               "@name": "send_away_av_response",
+               "@tool_tip": {
+                  "string": "Send the text below when someone sends you an IM while you're in away mode."
+               }
+            },
+            "text_editor:away_avatar_response": {
+               "@name": "away_avatar_response",
+               "#text": {
+                  "string": "\n        log_in_to_change\n      "
+               }
+            },
+            "check_box:send_muted_av_response": {
+               "@label": {
+                  "string": "Send autoresponse to MUTED avatars:"
+               },
+               "@name": "send_muted_av_response",
+               "@tool_tip": {
+                  "string": "Send the text below when someone you've muted sends you an IM."
+               }
+            },
+            "text_editor:muted_avatar_response": {
+               "@name": "muted_avatar_response",
+               "#text": {
+                  "string": "\n           log_in_to_change\n        "
+               }
+            }
+         },
+         "#comment$10": "Autoresponse",
+         "panel:tab-autoresponse-2": {
+            "@label": {
+               "string": "Autoresponse 2"
+            },
+            "@name": "tab-autoresponse-2",
+            "text:autorespond_rto_response_label": {
+               "@name": "autorespond_rto_response_label",
+               "#text": {
+                  "string": "\n           Automatic response to all avatars when in REJECT TELEPORT OFFERS mode:\n        "
+               }
+            },
+            "text_editor:autorespond_rto_response": {
+               "@name": "autorespond_rto_response",
+               "#text": {
+                  "string": "\n           log_in_to_change\n        "
+               }
+            },
+            "check_box:FSDontRejectTeleportOffersFromFriends": {
+               "@label": {
+                  "string": "Don't reject teleport offers (and send response) from people on friends list"
+               },
+               "@name": "FSDontRejectTeleportOffersFromFriends"
+            },
+            "text:autorespond_rfr_response_label": {
+               "@name": "autorespond_rfr_response_label",
+               "#text": {
+                  "string": "\n           Automatic response to all avatars when in REJECT FRIENDSHIP REQUESTS mode:\n        "
+               }
+            },
+            "text_editor:autorespond_rfr_response": {
+               "@name": "autorespond_rfr_response",
+               "#text": {
+                  "string": "\n           log_in_to_change\n        "
+               }
+            },
+            "text:autoresponse_item_label": {
+               "@name": "autoresponse_item_label",
+               "#text": {
+                  "string": "\n          Item sent with all autoresponses:\n        "
+               }
+            },
+            "fs_copytrans_inventory_drop_target:autoresponse_item": {
+               "@name": "autoresponse_item",
+               "@tool_tip": {
+                  "string": "Drag and drop source inventory item here."
+               }
+            },
+            "button:clear_autoresponse_item": {
+               "@label": {
+                  "string": "Clear"
+               },
+               "@name": "clear_autoresponse_item"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,281 @@
+{
+   "panel": {
+      "@name": "MediaControls",
+      "string:control_background_image_name": {
+         "@name": "control_background_image_name",
+         "#text": {
+            "string": "Inspector_Background"
+         }
+      },
+      "string:skip_step": {
+         "@name": "skip_step",
+         "#text": {
+            "string": "0.2"
+         }
+      },
+      "string:min_width": {
+         "@name": "min_width",
+         "#text": {
+            "string": "300"
+         }
+      },
+      "string:min_height": {
+         "@name": "min_height",
+         "#text": {
+            "string": "75"
+         }
+      },
+      "string:zoom_near_padding": {
+         "@name": "zoom_near_padding",
+         "#text": {
+            "string": "1.0"
+         }
+      },
+      "string:zoom_medium_padding": {
+         "@name": "zoom_medium_padding",
+         "#text": {
+            "string": "1.1"
+         }
+      },
+      "string:zoom_far_padding": {
+         "@name": "zoom_far_padding",
+         "#text": {
+            "string": "1.5"
+         }
+      },
+      "string:top_world_view_avoid_zone": {
+         "@name": "top_world_view_avoid_zone",
+         "#text": {
+            "string": "50"
+         }
+      },
+      "layout_stack:progress_indicator_area": {
+         "@name": "progress_indicator_area",
+         "#comment": " outer layout_panels center the inner one ",
+         "layout_panel:left_bookend_bottom": {
+            "@name": "left_bookend_bottom"
+         },
+         "layout_panel:media_progress_indicator": {
+            "@name": "media_progress_indicator",
+            "progress_bar:media_progress_bar": {
+               "@name": "media_progress_bar",
+               "@tool_tip": {
+                  "string": "Media is Loading"
+               }
+            }
+         },
+         "layout_panel:right_bookend_bottom": {
+            "@name": "right_bookend_bottom"
+         }
+      },
+      "layout_stack:media_controls": {
+         "@name": "media_controls",
+         "#comment": " outer layout_panels center the inner one ",
+         "layout_panel:left_bookend": {
+            "@name": "left_bookend"
+         },
+         "layout_panel:back": {
+            "@name": "back",
+            "button:back_btn": {
+               "@name": "back_btn",
+               "@tool_tip": {
+                  "string": "Navigate back"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:fwd": {
+            "@name": "fwd",
+            "button:fwd_btn": {
+               "@name": "fwd_btn",
+               "@tool_tip": {
+                  "string": "Navigate forward"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:home": {
+            "@name": "home",
+            "button:home_btn": {
+               "@name": "home_btn",
+               "@tool_tip": {
+                  "string": "Home page"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:media_stop": {
+            "@name": "media_stop",
+            "button:media_stop_btn": {
+               "@name": "media_stop_btn",
+               "@tool_tip": {
+                  "string": "Stop media"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:reload": {
+            "@name": "reload",
+            "button:reload_btn": {
+               "@name": "reload_btn",
+               "@tool_tip": {
+                  "string": "Reload"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:stop": {
+            "@name": "stop",
+            "button:stop_btn": {
+               "@name": "stop_btn",
+               "@tool_tip": {
+                  "string": "Stop loading"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:play": {
+            "@name": "play",
+            "button:play_btn": {
+               "@name": "play_btn",
+               "@tool_tip": {
+                  "string": "Play media"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:pause": {
+            "@name": "pause",
+            "button:pause_btn": {
+               "@name": "pause_btn",
+               "@tool_tip": {
+                  "string": "Pause media"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "#comment$11": " media URL entry  ",
+         "layout_panel:media_address": {
+            "@name": "media_address",
+            "line_editor:media_address_url": {
+               "@name": "media_address_url",
+               "@tool_tip": {
+                  "string": "Media URL"
+               },
+               "line_editor.commit_callback": null
+            },
+            "icon:media_secure_lock_flag": {
+               "@name": "media_secure_lock_flag",
+               "@tool_tip": {
+                  "string": "Secured Browsing"
+               }
+            },
+            "layout_stack:media_address_url_icons": {
+               "@name": "media_address_url_icons",
+               "layout_panel:media_address_url_icons_wl": {
+                  "@name": "media_address_url_icons_wl",
+                  "icon:media_whitelist_flag": {
+                     "@name": "media_whitelist_flag",
+                     "@tool_tip": {
+                        "string": "White List enabled"
+                     }
+                  }
+               }
+            }
+         },
+         "layout_panel:media_play_position": {
+            "@name": "media_play_position",
+            "slider_bar:media_play_slider": {
+               "@name": "media_play_slider",
+               "@tool_tip": {
+                  "string": "Movie play progress"
+               },
+               "slider_bar.mouse_down_callback": null,
+               "slider_bar.mouse_up_callback": null
+            }
+         },
+         "layout_panel:skip_back": {
+            "@name": "skip_back",
+            "button:skip_back_btn": {
+               "@name": "skip_back_btn",
+               "@tool_tip": {
+                  "string": "Step back"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:skip_forward": {
+            "@name": "skip_forward",
+            "button:skip_forward_btn": {
+               "@name": "skip_forward_btn",
+               "@tool_tip": {
+                  "string": "Step forward"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:media_volume": {
+            "@name": "media_volume",
+            "#comment": " Note: this is not quite right either...the mute button is not the ",
+            "#comment$2": " same as the others because it cannot have the \"image_overlay\" be  ",
+            "#comment$3": " two different images.  ",
+            "#comment$4": " Note also: the button and the slider must overlap! ",
+            "button:media_mute_button": {
+               "@name": "media_mute_button",
+               "@tool_tip": {
+                  "string": "Mute This Media"
+               },
+               "button.commit_callback": null,
+               "button.mouseenter_callback": null,
+               "button.mouseleave_callback": null
+            },
+            "slider:volume_slider": {
+               "@name": "volume_slider",
+               "@tool_tip": {
+                  "string": "Media Volume"
+               },
+               "slider.commit_callback": null,
+               "slider.mouseenter_callback": null,
+               "slider.mouseleave_callback": null
+            }
+         },
+         "layout_panel:zoom_frame": {
+            "@name": "zoom_frame",
+            "button:zoom_frame_btn": {
+               "@name": "zoom_frame_btn",
+               "@tool_tip": {
+                  "string": "Zoom into media"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:close": {
+            "@name": "close",
+            "button:close_btn": {
+               "@name": "close_btn",
+               "@tool_tip": {
+                  "string": "Zoom Back"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:new_window": {
+            "@name": "new_window",
+            "button:new_window_btn": {
+               "@name": "new_window_btn",
+               "@tool_tip": {
+                  "string": "Open URL in browser"
+               },
+               "button.commit_callback": null
+            }
+         },
+         "#comment$20": " bookend panel ",
+         "layout_panel:right_bookend": {
+            "@name": "right_bookend"
+         }
+      },
+      "panel:media_region": {
+         "@name": "media_region"
+      }
+   }
+}

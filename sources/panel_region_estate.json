@@ -1,0 +1,108 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Estate"
+      },
+      "@name": "Estate",
+      "text:estate_help_text": {
+         "@name": "estate_help_text",
+         "#text": {
+            "string": "\n        Changes to settings on this tab will affect all regions in the estate.\n    "
+         }
+      },
+      "text:estate_text": {
+         "@name": "estate_text",
+         "#text": {
+            "string": "\n        Estate:\n    "
+         }
+      },
+      "text:estate_name": {
+         "@name": "estate_name",
+         "#text": {
+            "string": "\n        (unknown)\n    "
+         }
+      },
+      "text:owner_text": {
+         "@name": "owner_text",
+         "#text": {
+            "string": "\n        Estate owner:\n    "
+         }
+      },
+      "text:estate_owner": {
+         "@name": "estate_owner",
+         "#text": {
+            "string": "\n        (unknown)\n    "
+         }
+      },
+      "view_border": null,
+      "radio_group:externally_visible_radio": {
+         "@name": "externally_visible_radio",
+         "radio_item:estate_restricted_access": {
+            "@label": {
+               "string": "Allow only residents and groups listed on the Access tab"
+            },
+            "@name": "estate_restricted_access"
+         },
+         "radio_item:estate_public_access": {
+            "@label": {
+               "string": "Anyone can visit"
+            },
+            "@name": "estate_public_access"
+         }
+      },
+      "check_box:limit_age_verified": {
+         "@label": {
+            "string": "Must be 18+"
+         },
+         "@name": "limit_age_verified",
+         "@tool_tip": {
+            "string": "Residents must be age 18 or older to access this estate. See the [SUPPORT_SITE] for more information."
+         }
+      },
+      "check_box:limit_payment": {
+         "@label": {
+            "string": "Must have payment info on file"
+         },
+         "@name": "limit_payment",
+         "@tool_tip": {
+            "string": "Residents must have payment information on file to access this estate.  See the [SUPPORT_SITE] for more information."
+         }
+      },
+      "check_box:parcel_access_override": {
+         "@label": {
+            "string": "Parcel owners can be more restrictive"
+         },
+         "@name": "parcel_access_override"
+      },
+      "check_box:voice_chat_check": {
+         "@label": {
+            "string": "Allow Voice Chat"
+         },
+         "@name": "voice_chat_check"
+      },
+      "check_box:allow_direct_teleport": {
+         "@label": {
+            "string": "Allow Direct Teleport"
+         },
+         "@name": "allow_direct_teleport"
+      },
+      "button:apply_btn": {
+         "@label": {
+            "string": "Apply"
+         },
+         "@name": "apply_btn"
+      },
+      "button:message_estate_btn": {
+         "@label": {
+            "string": "Send Message To Estate..."
+         },
+         "@name": "message_estate_btn"
+      },
+      "button:kick_user_from_estate_btn": {
+         "@label": {
+            "string": "Kick Resident from Estate..."
+         },
+         "@name": "kick_user_from_estate_btn"
+      }
+   }
+}

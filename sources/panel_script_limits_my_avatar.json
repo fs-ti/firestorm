@@ -1,0 +1,59 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Avatar"
+      },
+      "@name": "script_limits_my_avatar_panel",
+      "text:script_memory": {
+         "@name": "script_memory",
+         "#text": {
+            "string": "\n    Avatar Script Usage\n  "
+         }
+      },
+      "text:memory_used": {
+         "@name": "memory_used"
+      },
+      "text:urls_used": {
+         "@name": "urls_used"
+      },
+      "text:loading_text": {
+         "@name": "loading_text",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "scroll_list:scripts_list": {
+         "@name": "scripts_list",
+         "scroll_list.columns:size": {
+            "@label": {
+               "string": "Size (kb)"
+            },
+            "@name": "size"
+         },
+         "scroll_list.columns:urls": {
+            "@label": {
+               "string": "URLs"
+            },
+            "@name": "urls"
+         },
+         "scroll_list.columns:name": {
+            "@label": {
+               "string": "Object Name"
+            },
+            "@name": "name"
+         },
+         "scroll_list.columns:location": {
+            "@label": {
+               "string": "Location"
+            },
+            "@name": "location"
+         }
+      },
+      "button:refresh_list_btn": {
+         "@label": {
+            "string": "Refresh List"
+         },
+         "@name": "refresh_list_btn"
+      }
+   }
+}

@@ -1,0 +1,101 @@
+{
+   "panel": {
+      "@name": "Teleport History",
+      "accordion:history_accordion": {
+         "@name": "history_accordion",
+         "no_matched_tabs_text:no_matched_teleports_msg": {
+            "@name": "no_matched_teleports_msg",
+            "@value": {
+               "string": "Didn't find what you're looking for? Try [secondlife:///app/search/places/[SEARCH_TERM] Search]."
+            }
+         },
+         "no_visible_tabs_text:no_teleports_msg": {
+            "@name": "no_teleports_msg",
+            "@value": {
+               "string": "Teleport history is empty. Try [secondlife:///app/search/places/ Search]."
+            }
+         },
+         "accordion_tab:today": {
+            "@name": "today",
+            "@title": {
+               "string": "Today"
+            },
+            "flat_list_view:today_items": {
+               "@name": "today_items"
+            }
+         },
+         "accordion_tab:yesterday": {
+            "@name": "yesterday",
+            "@title": {
+               "string": "Yesterday"
+            },
+            "flat_list_view:yesterday_items": {
+               "@name": "yesterday_items"
+            }
+         },
+         "accordion_tab:2_days_ago": {
+            "@name": "2_days_ago",
+            "@title": {
+               "string": "2 days ago"
+            },
+            "flat_list_view:2_days_ago": {
+               "@name": "2_days_ago"
+            }
+         },
+         "accordion_tab:3_days_ago": {
+            "@name": "3_days_ago",
+            "@title": {
+               "string": "3 days ago"
+            },
+            "flat_list_view:3_days_ago": {
+               "@name": "3_days_ago"
+            }
+         },
+         "accordion_tab:4_days_ago": {
+            "@name": "4_days_ago",
+            "@title": {
+               "string": "4 days ago"
+            },
+            "flat_list_view:4_days_ago": {
+               "@name": "4_days_ago"
+            }
+         },
+         "accordion_tab:5_days_ago": {
+            "@name": "5_days_ago",
+            "@title": {
+               "string": "5 days ago"
+            },
+            "flat_list_view:5_days_ago_items": {
+               "@name": "5_days_ago_items"
+            }
+         },
+         "accordion_tab:6_days_and_older": {
+            "@name": "6_days_and_older",
+            "@title": {
+               "string": "6 days and older"
+            },
+            "flat_list_view:6_days_and_older_items": {
+               "@name": "6_days_and_older_items"
+            }
+         },
+         "accordion_tab:1_month_and_older": {
+            "@name": "1_month_and_older",
+            "@title": {
+               "string": "1 month and older"
+            },
+            "flat_list_view:1_month_and_older_items": {
+               "@name": "1_month_and_older_items"
+            }
+         },
+         "accordion_tab:6_months_and_older": {
+            "@name": "6_months_and_older",
+            "@title": {
+               "string": "6 months and older"
+            },
+            "flat_list_view:6_months_and_older_items": {
+               "@name": "6_months_and_older_items"
+            }
+         }
+      }
+   }
+}

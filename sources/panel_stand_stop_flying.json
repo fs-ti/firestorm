@@ -1,0 +1,33 @@
+{
+   "panel": {
+      "@name": "panel_stand_stop_flying",
+      "button:stand_btn": {
+         "@label": {
+            "string": "Stand"
+         },
+         "@name": "stand_btn",
+         "@tool_tip": {
+            "string": "Click here to stand up."
+         }
+      },
+      "button:stop_fly_btn": {
+         "@label": {
+            "string": "Stop Flying"
+         },
+         "@name": "stop_fly_btn",
+         "@tool_tip": {
+            "string": "Stop flying"
+         }
+      },
+      "button:flycam_btn": {
+         "@label": {
+            "string": "Flycam"
+         },
+         "@name": "flycam_btn",
+         "@tool_tip": {
+            "string": "Stop Flycam Mode"
+         },
+         "commit_callback": null
+      }
+   }
+}
