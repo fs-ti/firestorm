@@ -1,0 +1,38 @@
+{
+   "floater": {
+      "@name": "publish_classified",
+      "@title": {
+         "string": "Publishing Classified"
+      },
+      "text:explanation_text": {
+         "@name": "explanation_text",
+         "#text": {
+            "string": "\n     \nYour classified ad will run for one week from the date it is published.\n        \nRemember, Classified fees are non-refundable.\n\n    "
+         }
+      },
+      "spinner:price_for_listing": {
+         "@label": {
+            "string": "Price: L$ "
+         },
+         "@value": {
+            "string": "50"
+         },
+         "@name": "price_for_listing",
+         "@tool_tip": {
+            "string": "Price for listing."
+         }
+      },
+      "button:publish_btn": {
+         "@label": {
+            "string": "Publish"
+         },
+         "@name": "publish_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

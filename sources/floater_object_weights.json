@@ -1,0 +1,191 @@
+{
+   "floater": {
+      "@name": "object_weights",
+      "@title": {
+         "string": "Advanced"
+      },
+      "floater.string:nothing_selected": {
+         "@name": "nothing_selected",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "text:selected_text": {
+         "@name": "selected_text",
+         "@value": {
+            "string": "SELECTED"
+         }
+      },
+      "text:objects": {
+         "@name": "objects",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "text:objects_label": {
+         "@name": "objects_label",
+         "@value": {
+            "string": "Objects"
+         }
+      },
+      "text:prims": {
+         "@name": "prims",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "text:prims_label": {
+         "@name": "prims_label",
+         "@value": {
+            "string": "Prims"
+         }
+      },
+      "view_border:selected_text_border": {
+         "@name": "selected_text_border"
+      },
+      "text:weights_of_selected_text": {
+         "@name": "weights_of_selected_text",
+         "@value": {
+            "string": "WEIGHTS OF SELECTED"
+         }
+      },
+      "text:download": {
+         "@name": "download",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:download_loading_indicator": {
+         "@name": "download_loading_indicator"
+      },
+      "text:download_label": {
+         "@name": "download_label",
+         "@value": {
+            "string": "Download"
+         }
+      },
+      "text:physics": {
+         "@name": "physics",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:physics_loading_indicator": {
+         "@name": "physics_loading_indicator"
+      },
+      "text:physics_label": {
+         "@name": "physics_label",
+         "@value": {
+            "string": "Physics"
+         }
+      },
+      "text:server": {
+         "@name": "server",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:server_loading_indicator": {
+         "@name": "server_loading_indicator"
+      },
+      "text:server_label": {
+         "@name": "server_label",
+         "@value": {
+            "string": "Server"
+         }
+      },
+      "text:display": {
+         "@name": "display",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:display_loading_indicator": {
+         "@name": "display_loading_indicator"
+      },
+      "text:display_label": {
+         "@name": "display_label",
+         "@value": {
+            "string": "Display"
+         }
+      },
+      "view_border:weights_text_border": {
+         "@name": "weights_text_border"
+      },
+      "text:land_impacts_text": {
+         "@name": "land_impacts_text",
+         "@value": {
+            "string": "LAND IMPACTS"
+         }
+      },
+      "text:selected": {
+         "@name": "selected",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:selected_loading_indicator": {
+         "@name": "selected_loading_indicator"
+      },
+      "text:selected_label": {
+         "@name": "selected_label",
+         "@value": {
+            "string": "Selected"
+         }
+      },
+      "text:rezzed_on_land": {
+         "@name": "rezzed_on_land",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:rezzed_on_land_loading_indicator": {
+         "@name": "rezzed_on_land_loading_indicator"
+      },
+      "text:rezzed_on_land_label": {
+         "@name": "rezzed_on_land_label",
+         "@value": {
+            "string": "Rezzed on land"
+         }
+      },
+      "text:remaining_capacity": {
+         "@name": "remaining_capacity",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:remaining_capacity_loading_indicator": {
+         "@name": "remaining_capacity_loading_indicator"
+      },
+      "text:remaining_capacity_label": {
+         "@name": "remaining_capacity_label",
+         "@value": {
+            "string": "Remaining capacity"
+         }
+      },
+      "text:total_capacity": {
+         "@name": "total_capacity",
+         "@value": {
+            "string": "--"
+         }
+      },
+      "loading_indicator:total_capacity_loading_indicator": {
+         "@name": "total_capacity_loading_indicator"
+      },
+      "text:total_capacity_label": {
+         "@name": "total_capacity_label",
+         "@value": {
+            "string": "Total capacity"
+         }
+      },
+      "view_border:land_impacts_text_border": {
+         "@name": "land_impacts_text_border"
+      },
+      "text:help_SLURL": {
+         "@name": "help_SLURL",
+         "@value": {
+            "string": "[secondlife:///app/help/object_weights What is all this?...]"
+         }
+      }
+   }
+}

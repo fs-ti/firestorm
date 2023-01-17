@@ -1,0 +1,326 @@
+{
+   "floater": {
+      "@name": "quickprefs",
+      "@title": {
+         "string": "Quick Preferences"
+      },
+      "panel:quickprefs": {
+         "@name": "quickprefs",
+         "layout_stack:options_stack": {
+            "@name": "options_stack",
+            "#comment": " <FS:Zi> dummy panel to make XUI validation happy ",
+            "layout_panel:dummy_options_panel": {
+               "@name": "dummy_options_panel"
+            }
+         },
+         "view_border:divider_line_dynamic_to_static": {
+            "@name": "divider_line_dynamic_to_static"
+         },
+         "layout_stack:wl_options_stack": {
+            "@name": "wl_options_stack",
+            "layout_panel:wl_options_panel": {
+               "@name": "wl_options_panel",
+               "text:HoverHeightLabel": {
+                  "@name": "HoverHeightLabel",
+                  "@tool_tip": {
+                     "string": "Set the hover height of your avatar"
+                  },
+                  "#text": {
+                     "string": "\n            Hover Height:\n        "
+                  }
+               },
+               "slider:HoverHeightSlider": {
+                  "@name": "HoverHeightSlider"
+               },
+               "#comment": "<FS:HG> FIRE-6340, FIRE-6567 - Setting Bandwidth issues ",
+               "text:Maximum bandwidth": {
+                  "@name": "Maximum bandwidth",
+                  "@tool_tip": {
+                     "string": "Set your Network bandwidth in Kbps (kilobits per second)"
+                  },
+                  "#text": {
+                     "string": "\n            Max Bandwidth:\n        "
+                  }
+               },
+               "slider:max_bandwidth": {
+                  "@name": "max_bandwidth"
+               },
+               "text:Maximum complexity": {
+                  "@name": "Maximum complexity",
+                  "@tool_tip": {
+                     "string": "Controls at what point a visually complex avatar is drawn as a jelly doll"
+                  },
+                  "#text": {
+                     "string": "\n            Max Complexity:\n        "
+                  }
+               },
+               "slider:IndirectMaxComplexity": {
+                  "@name": "IndirectMaxComplexity"
+               },
+               "text:IndirectMaxComplexityText": {
+                  "@name": "IndirectMaxComplexityText",
+                  "#text": {
+                     "string": "\n            No Limit\n        "
+                  }
+               },
+               "#comment$9": "</FS:HG> FIRE-6340, FIRE-6567 - Setting Bandwidth issues ",
+               "text:WL Sky": {
+                  "@name": "WL Sky",
+                  "@tool_tip": {
+                     "string": "Presets for your sky"
+                  },
+                  "#text": {
+                     "string": "\n            Sky:\n        "
+                  }
+               },
+               "combo_box:WLPresetsCombo": {
+                  "@name": "WLPresetsCombo"
+               },
+               "button:WLPrevPreset": {
+                  "@name": "WLPrevPreset",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "button:WLNextPreset": {
+                  "@name": "WLNextPreset",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "text:WL Water": {
+                  "@name": "WL Water",
+                  "@tool_tip": {
+                     "string": "Presets for your water"
+                  },
+                  "#text": {
+                     "string": "\n            Water:\n        "
+                  }
+               },
+               "combo_box:WaterPresetsCombo": {
+                  "@name": "WaterPresetsCombo"
+               },
+               "button:WWPrevPreset": {
+                  "@name": "WWPrevPreset",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "button:WWNextPreset": {
+                  "@name": "WWNextPreset",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "text:Day Cycle": {
+                  "@name": "Day Cycle",
+                  "@tool_tip": {
+                     "string": "Presets for your day cycle"
+                  },
+                  "#text": {
+                     "string": "\n            Day Cycle:\n        "
+                  }
+               },
+               "combo_box:DCPresetsCombo": {
+                  "@name": "DCPresetsCombo"
+               },
+               "button:DCPrevPreset": {
+                  "@name": "DCPrevPreset",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "button:DCNextPreset": {
+                  "@name": "DCNextPreset",
+                  "@label": {
+                     "string": ""
+                  }
+               },
+               "button:btn_personal_lighting": {
+                  "@name": "btn_personal_lighting",
+                  "@label": {
+                     "string": "Personal Lighting..."
+                  },
+                  "button.commit_callback": null,
+                  "button.on_enable": null
+               },
+               "button:ResetToRegionDefault": {
+                  "@name": "ResetToRegionDefault",
+                  "@label": {
+                     "string": ""
+                  },
+                  "@tool_tip": {
+                     "string": "Reset the environment options to shared environment."
+                  }
+               },
+               "#comment$24": " <FS:Zi> floater titlebar button to edit dynamic quickprefs ",
+               "button:button_edit": {
+                  "@name": "button_edit",
+                  "@label": {
+                     "string": ""
+                  },
+                  "@tool_tip": {
+                     "string": "Click here to configure your Quick Preferences controls"
+                  }
+               },
+               "#comment$26": " </FS:Zi> "
+            }
+         }
+      },
+      "#comment": " <FS:Zi> Dynamic quick prefs: edit overlay ",
+      "panel:edit_overlay_panel": {
+         "@name": "edit_overlay_panel",
+         "view_border:divider_line_edit_options": {
+            "@name": "divider_line_edit_options"
+         },
+         "button:move_up_button": {
+            "@name": "move_up_button",
+            "@tool_tip": {
+               "string": "Move selected control one slot up"
+            }
+         },
+         "button:add_new_button": {
+            "@name": "add_new_button",
+            "@tool_tip": {
+               "string": "Add a new quick preferences control"
+            }
+         },
+         "line_editor:label_edit": {
+            "@name": "label_edit",
+            "@tool_tip": {
+               "string": "Type the label for the control here"
+            },
+            "@label": {
+               "string": "Control label:"
+            }
+         },
+         "button:move_down_button": {
+            "@name": "move_down_button",
+            "@tool_tip": {
+               "string": "Move selected control one slot down"
+            }
+         },
+         "combo_box:control_name_combo": {
+            "@name": "control_name_combo",
+            "@tool_tip": {
+               "string": "Select control from the list of debug settings"
+            },
+            "combo_box.item:control_name_list_header": {
+               "@label": {
+                  "string": "=== Choose ==="
+               },
+               "@name": "control_name_list_header"
+            }
+         },
+         "text:control_type_label": {
+            "@name": "control_type_label",
+            "#text": {
+               "string": "\nType:\n"
+            }
+         },
+         "combo_box:control_type_combo_box": {
+            "@name": "control_type_combo_box",
+            "@tool_tip": {
+               "string": "Select the type of user interface control you want to use for this setting"
+            },
+            "#comment": " do not use <combo_item>Foo</combo_item>, it doesn't work ",
+            "combo_box.item:Checkbox": {
+               "@label": {
+                  "string": "Checkbox"
+               },
+               "@name": "Checkbox"
+            },
+            "combo_box.item:Text": {
+               "@label": {
+                  "string": "Text"
+               },
+               "@name": "Text"
+            },
+            "combo_box.item:Spinner": {
+               "@label": {
+                  "string": "Spinner"
+               },
+               "@name": "Spinner"
+            },
+            "combo_box.item:Slider": {
+               "@label": {
+                  "string": "Slider"
+               },
+               "@name": "Slider"
+            },
+            "combo_box.item:Radio": {
+               "@label": {
+                  "string": "Radio"
+               },
+               "@name": "Radio"
+            },
+            "combo_box.item:Color 3": {
+               "@label": {
+                  "string": "Color 3"
+               },
+               "@name": "Color 3"
+            },
+            "combo_box.item:Color 4": {
+               "@label": {
+                  "string": "Color 4"
+               },
+               "@name": "Color 4"
+            }
+         },
+         "#comment": " enable/disable done in code depending on the type of control chosen ",
+         "check_box:control_integer_checkbox": {
+            "@name": "control_integer_checkbox",
+            "@tool_tip": {
+               "string": "Activate this checkbox if your setting is an integer value, i.e. it has only whole numbers"
+            },
+            "@label": {
+               "string": "Integer"
+            }
+         },
+         "#comment$11": " enable/disable additionally done in code depending on the type of control chosen ",
+         "spinner:control_min_edit": {
+            "@name": "control_min_edit",
+            "@tool_tip": {
+               "string": "The lowest value you will be allowed to select"
+            },
+            "@label": {
+               "string": "Min:"
+            }
+         },
+         "spinner:control_max_edit": {
+            "@name": "control_max_edit",
+            "@tool_tip": {
+               "string": "The highest value you will be allowed to select"
+            },
+            "@label": {
+               "string": "Max:"
+            }
+         },
+         "spinner:control_increment_edit": {
+            "@name": "control_increment_edit",
+            "@tool_tip": {
+               "string": "The increment for your value when you click the up/down arrow on a spinner or use the cursor keys on a slider"
+            },
+            "@label": {
+               "string": "Incr:"
+            }
+         },
+         "button:Restore_Btn": {
+            "@name": "Restore_Btn",
+            "@tool_tip": {
+               "string": "Restore the default settings"
+            },
+            "@label": {
+               "string": "Reset"
+            }
+         },
+         "#comment$16": " reverse the image names here beause we have a toggle ON button ",
+         "button:button_close": {
+            "@name": "button_close",
+            "@tool_tip": {
+               "string": "Close the edit overlay panel"
+            }
+         }
+      }
+   }
+}

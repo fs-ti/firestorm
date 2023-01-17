@@ -1,0 +1,23 @@
+{
+   "floater": {
+      "@name": "floater_sound_devices",
+      "@title": {
+         "string": "Sound Devices"
+      },
+      "panel:device_settings_panel": {
+         "@name": "device_settings_panel"
+      },
+      "text:voice_label": {
+         "@name": "voice_label",
+         "#text": {
+            "string": "Voice Chat"
+         }
+      },
+      "check_box:enable_voice": {
+         "@name": "enable_voice",
+         "@label": {
+            "string": "Enabled"
+         }
+      }
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "floater": {
+      "@name": "preview_sound",
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Sound: [NAME]\n    "
+         }
+      },
+      "text:desc txt": {
+         "@name": "desc txt",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:desc": {
+         "@name": "desc"
+      },
+      "button:Sound play btn": {
+         "@label": {
+            "string": "Play Inworld"
+         },
+         "@name": "Sound play btn",
+         "@tool_tip": {
+            "string": "Play this sound so that others can hear it"
+         }
+      },
+      "button:Sound audition btn": {
+         "@label": {
+            "string": "Play Locally"
+         },
+         "@name": "Sound audition btn",
+         "@tool_tip": {
+            "string": "Play this sound so that only you can hear it"
+         }
+      }
+   }
+}

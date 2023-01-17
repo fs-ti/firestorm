@@ -1,0 +1,30 @@
+{
+   "floater": {
+      "@name": "rlva_strings",
+      "@title": {
+         "string": "RLVa Strings"
+      },
+      "combo_box:string_list": {
+         "@name": "string_list"
+      },
+      "text_editor:string_descr": {
+         "@name": "string_descr"
+      },
+      "text_editor:string_value": {
+         "@name": "string_value"
+      },
+      "panel:bottom_panel": {
+         "@name": "bottom_panel",
+         "button:default_btn": {
+            "@label": {
+               "string": "Reset to default"
+            },
+            "@name": "default_btn",
+            "button.commit_callback": null
+         },
+         "icon:dummy_icon": {
+            "@name": "dummy_icon"
+         }
+      }
+   }
+}

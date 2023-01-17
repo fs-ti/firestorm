@@ -1,0 +1,95 @@
+{
+   "floater": {
+      "@name": "script ed float",
+      "@title": {
+         "string": "Script: New script"
+      },
+      "floater.string:not_allowed": {
+         "@name": "not_allowed",
+         "#text": {
+            "string": "\n    You can not view or edit this script, since it has been set with restricted permissions. You need full permissions to view or edit a script inside an object.\n  "
+         }
+      },
+      "floater.string:script_running": {
+         "@name": "script_running",
+         "#text": {
+            "string": "\n    Running\n  "
+         }
+      },
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n    Script: [NAME]\n  "
+         }
+      },
+      "floater.string:experience_enabled": {
+         "@name": "experience_enabled",
+         "#text": {
+            "string": "\n    Uncheck to remove the current experience\n  "
+         }
+      },
+      "floater.string:no_experiences": {
+         "@name": "no_experiences",
+         "#text": {
+            "string": "\n    You are not authorized for any experiences\n  "
+         }
+      },
+      "floater.string:add_experiences": {
+         "@name": "add_experiences",
+         "#text": {
+            "string": "\n    Select to add an experience\n  "
+         }
+      },
+      "floater.string:show_experience_profile": {
+         "@name": "show_experience_profile",
+         "#text": {
+            "string": "\n    Click to view the experience profile\n  "
+         }
+      },
+      "floater.string:loading": {
+         "@name": "loading",
+         "#text": {
+            "string": "\n    Loading...\n  "
+         }
+      },
+      "panel:script ed panel": {
+         "@name": "script ed panel"
+      },
+      "button:Reset": {
+         "@label": {
+            "string": "Reset"
+         },
+         "@name": "Reset"
+      },
+      "check_box:running": {
+         "@label": {
+            "string": "Running"
+         },
+         "@name": "running"
+      },
+      "check_box:mono": {
+         "@label": {
+            "string": "Mono"
+         },
+         "@name": "mono"
+      },
+      "check_box:enable_xp": {
+         "@label": {
+            "string": "Use Experience:"
+         },
+         "@name": "enable_xp"
+      },
+      "combo_box:Experiences...": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "Experiences..."
+      },
+      "button:view_profile": {
+         "@label": {
+            "string": ">"
+         },
+         "@name": "view_profile"
+      }
+   }
+}

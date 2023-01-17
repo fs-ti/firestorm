@@ -1,0 +1,173 @@
+{
+   "floater": {
+      "@name": "sell land",
+      "@title": {
+         "string": "Sell Land"
+      },
+      "scroll_container:profile_scroll": {
+         "@name": "profile_scroll",
+         "panel:scroll_content_panel": {
+            "@name": "scroll_content_panel",
+            "texture_picker:info_image": {
+               "@name": "info_image"
+            },
+            "text:info_parcel_label": {
+               "@name": "info_parcel_label",
+               "#text": {
+                  "string": "\n        Parcel:\n    "
+               }
+            },
+            "text:info_parcel": {
+               "@name": "info_parcel",
+               "#text": {
+                  "string": "\n        PARCEL NAME\n    "
+               }
+            },
+            "text:info_size_label": {
+               "@name": "info_size_label",
+               "#text": {
+                  "string": "\n        Size:\n    "
+               }
+            },
+            "text:info_size": {
+               "@name": "info_size",
+               "#text": {
+                  "string": "\n        [AREA] m²\n    "
+               }
+            },
+            "text:info_action": {
+               "@name": "info_action",
+               "#text": {
+                  "string": "\n        To sell this parcel:\n    "
+               }
+            },
+            "text:price_label": {
+               "@name": "price_label",
+               "#text": {
+                  "string": "\n        1. Set a price:\n    "
+               }
+            },
+            "text:price_text": {
+               "@name": "price_text",
+               "#text": {
+                  "string": "\n        Choose an appropriate price.\n    "
+               }
+            },
+            "text:price_ld": {
+               "@name": "price_ld",
+               "#text": {
+                  "string": "\n        L$\n    "
+               }
+            },
+            "line_editor:price": {
+               "@name": "price",
+               "#text": {
+                  "string": "\n        0\n    "
+               }
+            },
+            "text:price_per_m": {
+               "@name": "price_per_m",
+               "#text": {
+                  "string": "\n        (L$[PER_METER] per m²)\n    "
+               }
+            },
+            "text:sell_to_label": {
+               "@name": "sell_to_label",
+               "#text": {
+                  "string": "\n        2. Sell the land to:\n    "
+               }
+            },
+            "text:sell_to_text": {
+               "@name": "sell_to_text",
+               "#text": {
+                  "string": "\n        Choose whether to sell to anyone or a particular buyer.\n    "
+               }
+            },
+            "combo_box:sell_to": {
+               "@name": "sell_to",
+               "combo_box.item:--selectone--": {
+                  "@label": {
+                     "string": "- Select one -"
+                  },
+                  "@name": "--selectone--"
+               },
+               "combo_box.item:Anyone": {
+                  "@label": {
+                     "string": "Anyone"
+                  },
+                  "@name": "Anyone"
+               },
+               "combo_box.item:Specificuser:": {
+                  "@label": {
+                     "string": "Specific person:"
+                  },
+                  "@name": "Specificuser:"
+               }
+            },
+            "line_editor:sell_to_agent": {
+               "@name": "sell_to_agent"
+            },
+            "button:sell_to_select_agent": {
+               "@label": {
+                  "string": "Select"
+               },
+               "@name": "sell_to_select_agent"
+            },
+            "text:sell_objects_label": {
+               "@name": "sell_objects_label",
+               "#text": {
+                  "string": "\n        3. Sell the objects with the land?\n    "
+               }
+            },
+            "text:sell_objects_text": {
+               "@name": "sell_objects_text",
+               "#text": {
+                  "string": "\n        Land owner's transferable objects on parcel will change ownership.\n    "
+               }
+            },
+            "radio_group:sell_objects": {
+               "@name": "sell_objects",
+               "radio_item:none": {
+                  "@name": "none"
+               },
+               "radio_item:no": {
+                  "@label": {
+                     "string": "No, keep ownership of objects"
+                  },
+                  "@name": "no"
+               },
+               "radio_item:yes": {
+                  "@label": {
+                     "string": "Yes, sell objects with land"
+                  },
+                  "@name": "yes"
+               }
+            },
+            "button:show_objects": {
+               "@label": {
+                  "string": "Show Objects"
+               },
+               "@name": "show_objects"
+            },
+            "text:nag_message_label": {
+               "@name": "nag_message_label",
+               "#text": {
+                  "string": "\n        REMEMBER: All sales are final.\n    "
+               }
+            },
+            "button:sell_btn": {
+               "@label": {
+                  "string": "Set Land For Sale"
+               },
+               "@name": "sell_btn"
+            },
+            "button:cancel_btn": {
+               "@label": {
+                  "string": "Cancel"
+               },
+               "@name": "cancel_btn"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,88 @@
+{
+   "floater": {
+      "@name": "outgoing call",
+      "@title": {
+         "string": "Calling"
+      },
+      "floater.string:lifetime": {
+         "@name": "lifetime",
+         "#text": {
+            "string": "\n        5\n    "
+         }
+      },
+      "floater.string:localchat": {
+         "@name": "localchat",
+         "#text": {
+            "string": "\n        Nearby Voice Chat\n    "
+         }
+      },
+      "floater.string:anonymous": {
+         "@name": "anonymous",
+         "#text": {
+            "string": "\n        anonymous\n    "
+         }
+      },
+      "floater.string:VoiceInviteP2P": {
+         "@name": "VoiceInviteP2P",
+         "#text": {
+            "string": "\n        is calling.\n    "
+         }
+      },
+      "floater.string:VoiceInviteAdHoc": {
+         "@name": "VoiceInviteAdHoc",
+         "#text": {
+            "string": "\n        has joined a Voice Chat call with a conference chat.\n    "
+         }
+      },
+      "avatar_icon": null,
+      "group_icon": null,
+      "text:connecting": {
+         "@name": "connecting",
+         "#text": {
+            "string": "\nConnecting to [CALLEE_NAME]\n    "
+         }
+      },
+      "text:calling": {
+         "@name": "calling",
+         "#text": {
+            "string": "\nCalling [CALLEE_NAME]\n    "
+         }
+      },
+      "text:noanswer": {
+         "@name": "noanswer",
+         "#text": {
+            "string": "\nNo Answer.  Please try again later.\n    "
+         }
+      },
+      "text:nearby": {
+         "@name": "nearby",
+         "#text": {
+            "string": "\n    You have been disconnected from [VOICE_CHANNEL_NAME].  [RECONNECT_NEARBY]\n  "
+         }
+      },
+      "text:nearby_P2P_by_other": {
+         "@name": "nearby_P2P_by_other",
+         "#text": {
+            "string": "\n    Your call has ended.  [RECONNECT_NEARBY]\n  "
+         }
+      },
+      "text:nearby_P2P_by_agent": {
+         "@name": "nearby_P2P_by_agent",
+         "#text": {
+            "string": "\n    You have ended the call.  [RECONNECT_NEARBY]\n  "
+         }
+      },
+      "text:leaving": {
+         "@name": "leaving",
+         "#text": {
+            "string": "\nLeaving [CURRENT_CHAT].\n    "
+         }
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

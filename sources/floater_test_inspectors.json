@@ -1,0 +1,92 @@
+{
+   "floater": {
+      "text:test_inspectors": {
+         "@name": "test_inspectors",
+         "#text": {
+            "string": "\n    Click to spawn an inspector:\n  "
+         }
+      },
+      "button:avatar_2d_btn1": {
+         "@name": "avatar_2d_btn1",
+         "@label": {
+            "string": "Avatar 2D"
+         }
+      },
+      "#comment": " InspectorA Tester ",
+      "button:avatar_2d_btn5": {
+         "@name": "avatar_2d_btn5",
+         "@label": {
+            "string": "Avatar 2D"
+         }
+      },
+      "#comment$4": " InspectorB Tester ",
+      "button:avatar_2d_btn2": {
+         "@name": "avatar_2d_btn2",
+         "@label": {
+            "string": "Avatar 2D"
+         }
+      },
+      "#comment$6": " InspectorC Tester ",
+      "button:avatar_2d_btn3": {
+         "@name": "avatar_2d_btn3",
+         "@label": {
+            "string": "Avatar 2D"
+         }
+      },
+      "#comment$8": " jarvtest Bombastic 2009-10-3 ",
+      "button:avatar_2d_btn4": {
+         "@name": "avatar_2d_btn4",
+         "@label": {
+            "string": "Avatar 2D"
+         }
+      },
+      "button:avatar_3d_btn": {
+         "@name": "avatar_3d_btn",
+         "@label": {
+            "string": "Avatar 3D"
+         }
+      },
+      "button:object_2d_btn": {
+         "@name": "object_2d_btn",
+         "@label": {
+            "string": "Object 2D"
+         }
+      },
+      "button:object_3d_btn": {
+         "@name": "object_3d_btn",
+         "@label": {
+            "string": "Object 3D"
+         }
+      },
+      "button:group_btn": {
+         "@name": "group_btn",
+         "@label": {
+            "string": "Group"
+         }
+      },
+      "button:place_btn": {
+         "@name": "place_btn",
+         "@label": {
+            "string": "Place"
+         }
+      },
+      "button:event_btn": {
+         "@name": "event_btn",
+         "@label": {
+            "string": "Event"
+         }
+      },
+      "text:slurl": {
+         "@name": "slurl",
+         "#text": {
+            "string": "\n    secondlife:///app/agent/00000000-0000-0000-0000-000000000000/inspect\n  "
+         }
+      },
+      "text:slurl_group": {
+         "@name": "slurl_group",
+         "#text": {
+            "string": "\n    secondlife:///app/group/00000000-0000-0000-0000-000000000000/inspect\n  "
+         }
+      }
+   }
+}

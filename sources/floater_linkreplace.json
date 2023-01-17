@@ -1,0 +1,98 @@
+{
+   "floater": {
+      "@name": "linkreplace",
+      "@title": {
+         "string": "Replace Inventory Links"
+      },
+      "string:Ready": {
+         "@name": "Ready",
+         "#text": {
+            "string": "\n    Ready...\n  "
+         }
+      },
+      "string:TargetNotFound": {
+         "@name": "TargetNotFound",
+         "#text": {
+            "string": "\n    Target item not found.\n  "
+         }
+      },
+      "string:ItemsIdentical": {
+         "@name": "ItemsIdentical",
+         "#text": {
+            "string": "\n    Source and target are identical.\n  "
+         }
+      },
+      "string:ItemsFound": {
+         "@name": "ItemsFound",
+         "#text": {
+            "string": "\n    Found [NUM] inventory links.\n  "
+         }
+      },
+      "string:ItemsRemaining": {
+         "@name": "ItemsRemaining",
+         "#text": {
+            "string": "\n    Links remaining: [NUM]\n  "
+         }
+      },
+      "string:ReplaceFinished": {
+         "@name": "ReplaceFinished",
+         "#text": {
+            "string": "\n    Finished replacing inventory links.\n  "
+         }
+      },
+      "text:source_label": {
+         "@name": "source_label",
+         "#text": {
+            "string": "\n    Old:\n  "
+         }
+      },
+      "inventory_link_replace_drop_target:source_uuid_editor": {
+         "@name": "source_uuid_editor",
+         "@tool_tip": {
+            "string": "Drag and drop the current inventory item here that should be replaced."
+         }
+      },
+      "text:delete_text": {
+         "@name": "delete_text",
+         "#text": {
+            "string": "\n    Links to this item will be removed.\n  "
+         }
+      },
+      "text:target_label": {
+         "@name": "target_label",
+         "#text": {
+            "string": "\n    New:\n  "
+         }
+      },
+      "inventory_link_replace_drop_target:target_uuid_editor": {
+         "@name": "target_uuid_editor",
+         "@tool_tip": {
+            "string": "Drag and drop new inventory item here."
+         }
+      },
+      "check_box:delete_links_only": {
+         "@label": {
+            "string": "Delete links only"
+         },
+         "@name": "delete_links_only"
+      },
+      "text:status_text": {
+         "@name": "status_text",
+         "#text": {
+            "string": "\n    Ready...\n  "
+         }
+      },
+      "button:btn_refresh": {
+         "@name": "btn_refresh",
+         "@label": {
+            "string": "Refresh"
+         }
+      },
+      "button:btn_start": {
+         "@name": "btn_start",
+         "@label": {
+            "string": "Start"
+         }
+      }
+   }
+}

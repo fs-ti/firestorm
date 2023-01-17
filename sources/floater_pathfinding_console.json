@@ -1,0 +1,373 @@
+{
+   "floater": {
+      "@name": "floater_pathfinding_console",
+      "@title": {
+         "string": "Pathfinding view / test"
+      },
+      "floater.string:no_havok": {
+         "@name": "no_havok",
+         "#text": {
+            "string": "navmesh for pathfinding"
+         }
+      },
+      "floater.string:navmesh_viewer_status_unknown": {
+         "@name": "navmesh_viewer_status_unknown"
+      },
+      "floater.string:navmesh_viewer_status_library_not_implemented": {
+         "@name": "navmesh_viewer_status_library_not_implemented",
+         "#text": {
+            "string": "Cannot find pathing library implementation."
+         }
+      },
+      "floater.string:navmesh_viewer_status_region_not_enabled": {
+         "@name": "navmesh_viewer_status_region_not_enabled",
+         "#text": {
+            "string": "This region is not enabled for pathfinding."
+         }
+      },
+      "floater.string:navmesh_viewer_status_region_loading": {
+         "@name": "navmesh_viewer_status_region_loading",
+         "#text": {
+            "string": "Waiting for the region to finish loading."
+         }
+      },
+      "floater.string:navmesh_viewer_status_checking_version": {
+         "@name": "navmesh_viewer_status_checking_version",
+         "#text": {
+            "string": "Checking the status of the navmesh."
+         }
+      },
+      "floater.string:navmesh_viewer_status_downloading": {
+         "@name": "navmesh_viewer_status_downloading",
+         "#text": {
+            "string": "Downloading the navmesh."
+         }
+      },
+      "floater.string:navmesh_viewer_status_updating": {
+         "@name": "navmesh_viewer_status_updating",
+         "#text": {
+            "string": "The navmesh has changed on the server. Downloading the latest navmesh."
+         }
+      },
+      "floater.string:navmesh_viewer_status_has_navmesh": {
+         "@name": "navmesh_viewer_status_has_navmesh",
+         "#text": {
+            "string": "Latest navmesh has been downloaded."
+         }
+      },
+      "floater.string:navmesh_viewer_status_error": {
+         "@name": "navmesh_viewer_status_error",
+         "#text": {
+            "string": "Unable to download navmesh successfully."
+         }
+      },
+      "floater.string:navmesh_simulator_status_unknown": {
+         "@name": "navmesh_simulator_status_unknown"
+      },
+      "floater.string:navmesh_simulator_status_pending": {
+         "@name": "navmesh_simulator_status_pending",
+         "#text": {
+            "string": "Navmesh has pending changes."
+         }
+      },
+      "floater.string:navmesh_simulator_status_building": {
+         "@name": "navmesh_simulator_status_building",
+         "#text": {
+            "string": "Navmesh is building."
+         }
+      },
+      "floater.string:navmesh_simulator_status_some_pending": {
+         "@name": "navmesh_simulator_status_some_pending",
+         "#text": {
+            "string": "Some navmesh regions have pending changes."
+         }
+      },
+      "floater.string:navmesh_simulator_status_some_building": {
+         "@name": "navmesh_simulator_status_some_building",
+         "#text": {
+            "string": "Some navmesh regions are building."
+         }
+      },
+      "floater.string:navmesh_simulator_status_pending_and_building": {
+         "@name": "navmesh_simulator_status_pending_and_building",
+         "#text": {
+            "string": "Some navmesh regions have pending changes and others are building."
+         }
+      },
+      "floater.string:navmesh_simulator_status_complete": {
+         "@name": "navmesh_simulator_status_complete",
+         "#text": {
+            "string": "Navmesh is up-to-date."
+         }
+      },
+      "floater.string:pathing_unknown": {
+         "@name": "pathing_unknown"
+      },
+      "floater.string:pathing_library_not_implemented": {
+         "@name": "pathing_library_not_implemented",
+         "#text": {
+            "string": "Cannot find pathing library implementation."
+         }
+      },
+      "floater.string:pathing_region_not_enabled": {
+         "@name": "pathing_region_not_enabled",
+         "#text": {
+            "string": "This region is not enabled for pathfinding."
+         }
+      },
+      "floater.string:pathing_choose_start_and_end_points": {
+         "@name": "pathing_choose_start_and_end_points",
+         "#text": {
+            "string": "Please choose start and end points."
+         }
+      },
+      "floater.string:pathing_choose_start_point": {
+         "@name": "pathing_choose_start_point",
+         "#text": {
+            "string": "Please choose start point."
+         }
+      },
+      "floater.string:pathing_choose_end_point": {
+         "@name": "pathing_choose_end_point",
+         "#text": {
+            "string": "Please choose end point."
+         }
+      },
+      "floater.string:pathing_path_valid": {
+         "@name": "pathing_path_valid",
+         "#text": {
+            "string": "Path is shown in orange."
+         }
+      },
+      "floater.string:pathing_path_invalid": {
+         "@name": "pathing_path_invalid",
+         "#text": {
+            "string": "A path between the chosen points cannot be found."
+         }
+      },
+      "floater.string:pathing_error": {
+         "@name": "pathing_error",
+         "#text": {
+            "string": "An error occurred during path generation."
+         }
+      },
+      "panel:pathfinding_console_main": {
+         "@name": "pathfinding_console_main",
+         "text:viewer_status_label": {
+            "@name": "viewer_status_label",
+            "#text": {
+               "string": "\n      Viewer status\n    "
+            }
+         },
+         "text:pathfinding_viewer_status": {
+            "@name": "pathfinding_viewer_status"
+         }
+      },
+      "panel:pathfinding_console_simulator": {
+         "@name": "pathfinding_console_simulator",
+         "text:simulator_status_label": {
+            "@name": "simulator_status_label",
+            "#text": {
+               "string": "\n      Simulator status\n    "
+            }
+         },
+         "text:pathfinding_simulator_status": {
+            "@name": "pathfinding_simulator_status"
+         }
+      },
+      "view_border": null,
+      "tab_container:view_test_tab_container": {
+         "@name": "view_test_tab_container",
+         "panel:view_panel": {
+            "@name": "view_panel",
+            "@label": {
+               "string": "View"
+            },
+            "text:show_label": {
+               "@name": "show_label",
+               "#text": {
+                  "string": "\n        Show:\n      "
+               }
+            },
+            "check_box:show_world": {
+               "@label": {
+                  "string": "World"
+               },
+               "@name": "show_world"
+            },
+            "check_box:show_world_movables_only": {
+               "@label": {
+                  "string": "Movables only"
+               },
+               "@name": "show_world_movables_only"
+            },
+            "check_box:show_navmesh": {
+               "@label": {
+                  "string": "Navmesh"
+               },
+               "@name": "show_navmesh"
+            },
+            "text:show_walkability_label": {
+               "@name": "show_walkability_label",
+               "#text": {
+                  "string": "\n        Show walkability map:\n      "
+               }
+            },
+            "combo_box:show_heatmap_mode": {
+               "@name": "show_heatmap_mode",
+               "combo_box.item:show_heatmap_mode_none": {
+                  "@label": {
+                     "string": "Do not show"
+                  },
+                  "@name": "show_heatmap_mode_none"
+               },
+               "combo_box.item:show_heatmap_mode_a": {
+                  "@label": {
+                     "string": "Character type A"
+                  },
+                  "@name": "show_heatmap_mode_a"
+               },
+               "combo_box.item:show_heatmap_mode_b": {
+                  "@label": {
+                     "string": "Character type B"
+                  },
+                  "@name": "show_heatmap_mode_b"
+               },
+               "combo_box.item:show_heatmap_mode_c": {
+                  "@label": {
+                     "string": "Character type C"
+                  },
+                  "@name": "show_heatmap_mode_c"
+               },
+               "combo_box.item:show_heatmap_mode_d": {
+                  "@label": {
+                     "string": "Character type D"
+                  },
+                  "@name": "show_heatmap_mode_d"
+               }
+            },
+            "check_box:show_walkables": {
+               "@label": {
+                  "string": "Walkables"
+               },
+               "@name": "show_walkables"
+            },
+            "check_box:show_material_volumes": {
+               "@label": {
+                  "string": "Material volumes"
+               },
+               "@name": "show_material_volumes"
+            },
+            "check_box:show_static_obstacles": {
+               "@label": {
+                  "string": "Static obstacles"
+               },
+               "@name": "show_static_obstacles"
+            },
+            "check_box:show_exclusion_volumes": {
+               "@label": {
+                  "string": "Exclusion volumes"
+               },
+               "@name": "show_exclusion_volumes"
+            },
+            "check_box:show_water_plane": {
+               "@label": {
+                  "string": "Water plane"
+               },
+               "@name": "show_water_plane"
+            },
+            "check_box:show_xray": {
+               "@label": {
+                  "string": "With X-ray vision"
+               },
+               "@name": "show_xray"
+            }
+         },
+         "panel:test_panel": {
+            "@name": "test_panel",
+            "@label": {
+               "string": "Test path"
+            },
+            "text:ctrl_click_label": {
+               "@name": "ctrl_click_label",
+               "#text": {
+                  "string": "\n        Ctrl-click to select start point.\n      "
+               }
+            },
+            "text:shift_click_label": {
+               "@name": "shift_click_label",
+               "#text": {
+                  "string": "\n        Shift-click to select end point.\n      "
+               }
+            },
+            "view_border": null,
+            "text:character_width_label": {
+               "@name": "character_width_label",
+               "#text": {
+                  "string": "\n        Character width\n      "
+               }
+            },
+            "slider:character_width": {
+               "@name": "character_width",
+               "@value": {
+                  "string": "1"
+               }
+            },
+            "text:character_width_unit_label": {
+               "@name": "character_width_unit_label",
+               "#text": {
+                  "string": "\n        m\n      "
+               }
+            },
+            "text:character_type_label": {
+               "@name": "character_type_label",
+               "#text": {
+                  "string": "\n        Character type\n      "
+               }
+            },
+            "combo_box:path_character_type": {
+               "@name": "path_character_type",
+               "combo_box.item:path_character_type_none": {
+                  "@label": {
+                     "string": "None"
+                  },
+                  "@name": "path_character_type_none"
+               },
+               "combo_box.item:path_character_type_a": {
+                  "@label": {
+                     "string": "A"
+                  },
+                  "@name": "path_character_type_a"
+               },
+               "combo_box.item:path_character_type_b": {
+                  "@label": {
+                     "string": "B"
+                  },
+                  "@name": "path_character_type_b"
+               },
+               "combo_box.item:path_character_type_c": {
+                  "@label": {
+                     "string": "C"
+                  },
+                  "@name": "path_character_type_c"
+               },
+               "combo_box.item:path_character_type_d": {
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@name": "path_character_type_d"
+               }
+            },
+            "text:path_test_status": {
+               "@name": "path_test_status"
+            },
+            "button:clear_path": {
+               "@label": {
+                  "string": "Clear path"
+               },
+               "@name": "clear_path"
+            }
+         }
+      }
+   }
+}

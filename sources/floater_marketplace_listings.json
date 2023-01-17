@@ -1,0 +1,47 @@
+{
+   "floater": {
+      "@title": {
+         "string": "Marketplace Listings"
+      },
+      "@name": "floater_marketplace_listings",
+      "panel:marketplace_listings_panel": {
+         "@name": "marketplace_listings_panel",
+         "panel:background_panel": {
+            "@name": "background_panel",
+            "panel:marketplace_listings_inventory_placeholder_panel": {
+               "@name": "marketplace_listings_inventory_placeholder_panel",
+               "text:marketplace_listings_inventory_placeholder_title": {
+                  "@name": "marketplace_listings_inventory_placeholder_title",
+                  "#text": {
+                     "string": "\n            Loading...\n        "
+                  }
+               },
+               "text:marketplace_listings_inventory_placeholder_text": {
+                  "@name": "marketplace_listings_inventory_placeholder_text"
+               }
+            },
+            "panel:panel_marketplace_listing": {
+               "@name": "panel_marketplace_listing"
+            }
+         },
+         "panel:marketplace_panel_status": {
+            "@name": "marketplace_panel_status",
+            "text:marketplace_status": {
+               "@name": "marketplace_status"
+            }
+         },
+         "layout_stack:initialization_progress_indicator": {
+            "@name": "initialization_progress_indicator",
+            "layout_panel": {
+               "layout_stack": {
+                  "layout_panel": {
+                     "loading_indicator": null
+                  },
+                  "layout_panel$1": null
+               }
+            },
+            "layout_panel$2": null
+         }
+      }
+   }
+}

@@ -1,0 +1,88 @@
+{
+   "floater": {
+      "@name": "settings picker",
+      "@title": {
+         "string": "Select Settings"
+      },
+      "#comment": "  top static ",
+      "floater.string:pick title": {
+         "@name": "pick title",
+         "#text": {
+            "string": "\n        Pick:\n    "
+         }
+      },
+      "floater.string:pick_track": {
+         "@name": "pick_track",
+         "#text": {
+            "string": "\n        Select Track\n    "
+         }
+      },
+      "floater.string:pick_settings": {
+         "@name": "pick_settings",
+         "#text": {
+            "string": "\n        Select Settings\n    "
+         }
+      },
+      "floater.string:track_water": {
+         "@name": "track_water",
+         "#text": {
+            "string": "\n        Water\n    "
+         }
+      },
+      "floater.string:track_ground": {
+         "@name": "track_ground",
+         "#text": {
+            "string": "\n        Ground\n    "
+         }
+      },
+      "floater.string:track_sky": {
+         "@name": "track_sky",
+         "#text": {
+            "string": "\n        Sky[NUM]\n    "
+         }
+      },
+      "layout_stack:test_stack": {
+         "@name": "test_stack",
+         "layout_panel:inv_list": {
+            "@name": "inv_list",
+            "filter_editor:flt_inventory_search": {
+               "@label": {
+                  "string": "Filter Settings"
+               },
+               "@name": "flt_inventory_search"
+            },
+            "panel:pnl_inv_wrap": {
+               "@name": "pnl_inv_wrap",
+               "asset_filtered_inv_panel:pnl_inventory": {
+                  "@name": "pnl_inventory"
+               }
+            }
+         },
+         "layout_panel:pnl_combo": {
+            "@name": "pnl_combo",
+            "combo_box:track_selection": {
+               "@name": "track_selection"
+            }
+         },
+         "layout_panel:temp": {
+            "@name": "temp",
+            "button:btn_select": {
+               "@label": {
+                  "string": "OK"
+               },
+               "@name": "btn_select"
+            },
+            "button:btn_cancel": {
+               "@label": {
+                  "string": "Cancel"
+               },
+               "@name": "btn_cancel"
+            }
+         }
+      },
+      "#comment$10": "  middle: inventory mode ",
+      "#comment$11": "\n\n\n",
+      "#comment$12": " bottom static ",
+      "#comment$13": "\n     "
+   }
+}

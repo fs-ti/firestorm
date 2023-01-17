@@ -1,0 +1,14 @@
+{
+   "floater": {
+      "@name": "region_debug_console",
+      "@title": {
+         "string": "Region Debug"
+      },
+      "text_editor:region_debug_console_output": {
+         "@name": "region_debug_console_output"
+      },
+      "line_editor:region_debug_console_input": {
+         "@name": "region_debug_console_input"
+      }
+   }
+}

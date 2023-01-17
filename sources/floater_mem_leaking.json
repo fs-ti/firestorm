@@ -1,0 +1,68 @@
+{
+   "floater": {
+      "@name": "MemLeak",
+      "@title": {
+         "string": "Simulate a Memory Leak"
+      },
+      "spinner:leak_speed": {
+         "@label": {
+            "string": "Leaking Speed (bytes per frame):"
+         },
+         "@name": "leak_speed",
+         "spinner.commit_callback": null
+      },
+      "spinner:max_leak": {
+         "@label": {
+            "string": "Max Leaked Memory (MB):"
+         },
+         "@name": "max_leak",
+         "spinner.commit_callback": null
+      },
+      "text:total_leaked_label": {
+         "@name": "total_leaked_label",
+         "#text": {
+            "string": "\n        Current leaked memory: [SIZE] KB\n    "
+         }
+      },
+      "text:note_label_1": {
+         "@name": "note_label_1",
+         "#text": {
+            "string": "\n        [NOTE1]\n    "
+         }
+      },
+      "text:note_label_2": {
+         "@name": "note_label_2",
+         "#text": {
+            "string": "\n        [NOTE2]\n    "
+         }
+      },
+      "button:start_btn": {
+         "@label": {
+            "string": "Start"
+         },
+         "@name": "start_btn",
+         "button.commit_callback": null
+      },
+      "button:stop_btn": {
+         "@label": {
+            "string": "Stop"
+         },
+         "@name": "stop_btn",
+         "button.commit_callback": null
+      },
+      "button:release_btn": {
+         "@label": {
+            "string": "Release"
+         },
+         "@name": "release_btn",
+         "button.commit_callback": null
+      },
+      "button:close_btn": {
+         "@label": {
+            "string": "Close"
+         },
+         "@name": "close_btn",
+         "button.commit_callback": null
+      }
+   }
+}

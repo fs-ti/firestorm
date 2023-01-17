@@ -1,0 +1,54 @@
+{
+   "floater": {
+      "@name": "save_camera_preset",
+      "@title": {
+         "string": "Save Camera Preset"
+      },
+      "string:btn_label_save": {
+         "@name": "btn_label_save",
+         "#text": {
+            "string": "Save"
+         }
+      },
+      "string:btn_label_replace": {
+         "@name": "btn_label_replace",
+         "#text": {
+            "string": "Replace"
+         }
+      },
+      "radio_group:radio_save_preset": {
+         "@name": "radio_save_preset",
+         "radio_item:new_preset": {
+            "@label": {
+               "string": "Save as a new preset"
+            },
+            "@name": "new_preset"
+         },
+         "radio_item:replace_preset": {
+            "@label": {
+               "string": "Replace a preset"
+            },
+            "@name": "replace_preset"
+         }
+      },
+      "line_editor:preset_txt_editor": {
+         "@name": "preset_txt_editor"
+      },
+      "button:save": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save"
+      },
+      "button:cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel"
+      },
+      "#comment": " *HACK to correctly draw drop-down list over the buttons",
+      "combo_box:preset_combo": {
+         "@name": "preset_combo"
+      }
+   }
+}

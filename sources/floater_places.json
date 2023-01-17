@@ -1,0 +1,14 @@
+{
+   "floater": {
+      "@name": "floater_places",
+      "@title": {
+         "string": "Places"
+      },
+      "panel:main_panel": {
+         "@name": "main_panel",
+         "@label": {
+            "string": "Places"
+         }
+      }
+   }
+}

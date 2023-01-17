@@ -1,0 +1,263 @@
+{
+   "floater": {
+      "@name": "Snapshot",
+      "@title": {
+         "string": "Snapshot"
+      },
+      "floater.string:unknown": {
+         "@name": "unknown",
+         "#text": {
+            "string": "\n        unknown\n    "
+         }
+      },
+      "string:postcard_progress_str": {
+         "@name": "postcard_progress_str",
+         "#text": {
+            "string": "\n        Sending Email\n    "
+         }
+      },
+      "string:profile_progress_str": {
+         "@name": "profile_progress_str",
+         "#text": {
+            "string": "\n        Posting\n    "
+         }
+      },
+      "string:inventory_progress_str": {
+         "@name": "inventory_progress_str",
+         "#text": {
+            "string": "\n        Saving to Inventory\n    "
+         }
+      },
+      "string:local_progress_str": {
+         "@name": "local_progress_str",
+         "#text": {
+            "string": "\n        Saving to Computer\n    "
+         }
+      },
+      "string:profile_succeeded_str": {
+         "@name": "profile_succeeded_str",
+         "#text": {
+            "string": "\n       Image uploaded\n   "
+         }
+      },
+      "string:postcard_succeeded_str": {
+         "@name": "postcard_succeeded_str",
+         "#text": {
+            "string": "\n       Email Sent!\n   "
+         }
+      },
+      "string:inventory_succeeded_str": {
+         "@name": "inventory_succeeded_str",
+         "#text": {
+            "string": "\n       Saved to Inventory!\n   "
+         }
+      },
+      "string:local_succeeded_str": {
+         "@name": "local_succeeded_str",
+         "#text": {
+            "string": "\n       Saved to Computer!\n   "
+         }
+      },
+      "string:profile_failed_str": {
+         "@name": "profile_failed_str",
+         "#text": {
+            "string": "\n       Failed to upload image to your Profile Feed.\n   "
+         }
+      },
+      "string:postcard_failed_str": {
+         "@name": "postcard_failed_str",
+         "#text": {
+            "string": "\n       Failed to send email.\n   "
+         }
+      },
+      "string:inventory_failed_str": {
+         "@name": "inventory_failed_str",
+         "#text": {
+            "string": "\n       Failed to save to inventory.\n   "
+         }
+      },
+      "string:local_failed_str": {
+         "@name": "local_failed_str",
+         "#text": {
+            "string": "\n       Failed to save to computer.\n   "
+         }
+      },
+      "view:controls_container": {
+         "@name": "controls_container",
+         "button:new_snapshot_btn": {
+            "@label": {
+               "string": "Refresh"
+            },
+            "@name": "new_snapshot_btn"
+         },
+         "button:retract_btn": {
+            "@name": "retract_btn"
+         },
+         "button:extend_btn": {
+            "@name": "extend_btn"
+         },
+         "panel:advanced_options_panel": {
+            "@name": "advanced_options_panel",
+            "view_border:advanced_options_hr": {
+               "@name": "advanced_options_hr"
+            },
+            "text:layer_type_label": {
+               "@name": "layer_type_label",
+               "#text": {
+                  "string": "\n            Capture:\n        "
+               }
+            },
+            "combo_box:layer_types": {
+               "@label": {
+                  "string": "Image Layers"
+               },
+               "@name": "layer_types",
+               "combo_box.item:Colors": {
+                  "@label": {
+                     "string": "Colors"
+                  },
+                  "@name": "Colors"
+               },
+               "combo_box.item:Depth": {
+                  "@label": {
+                     "string": "Depth"
+                  },
+                  "@name": "Depth"
+               },
+               "combo_box.item:Depth24": {
+                  "@label": {
+                     "string": "Depth (24 bit)"
+                  },
+                  "@name": "Depth24"
+               }
+            },
+            "check_box:ui_check": {
+               "@label": {
+                  "string": "Interface"
+               },
+               "@name": "ui_check"
+            },
+            "check_box:currency_check": {
+               "@label": {
+                  "string": "L$ Balance"
+               },
+               "@name": "currency_check"
+            },
+            "check_box:hud_check": {
+               "@label": {
+                  "string": "HUDs"
+               },
+               "@name": "hud_check"
+            },
+            "check_box:freeze_frame_check": {
+               "@label": {
+                  "string": "Freeze frame (fullscreen)"
+               },
+               "@name": "freeze_frame_check"
+            },
+            "check_box:auto_snapshot_check": {
+               "@label": {
+                  "string": "Auto-refresh"
+               },
+               "@name": "auto_snapshot_check"
+            },
+            "text:filter_list_label": {
+               "@name": "filter_list_label",
+               "#text": {
+                  "string": "\n            Filter:\n        "
+               }
+            },
+            "combo_box:filters_combobox": {
+               "@name": "filters_combobox",
+               "@tool_tip": {
+                  "string": "Image filters"
+               },
+               "combo_box.item:NoFilter": {
+                  "@label": {
+                     "string": "No Filter"
+                  },
+                  "@name": "NoFilter"
+               }
+            }
+         },
+         "panel_container:panel_container": {
+            "@name": "panel_container",
+            "panel:panel_snapshot_options": {
+               "@name": "panel_snapshot_options"
+            },
+            "panel:panel_snapshot_profile": {
+               "@name": "panel_snapshot_profile"
+            },
+            "panel:panel_snapshot_postcard": {
+               "@name": "panel_snapshot_postcard"
+            },
+            "panel:panel_snapshot_inventory": {
+               "@name": "panel_snapshot_inventory"
+            },
+            "panel:panel_snapshot_local": {
+               "@name": "panel_snapshot_local"
+            }
+         },
+         "view_border:status_hr": {
+            "@name": "status_hr"
+         },
+         "panel:succeeded_panel": {
+            "@name": "succeeded_panel",
+            "text:succeeded_lbl": {
+               "@name": "succeeded_lbl",
+               "#text": {
+                  "string": "\n              Succeeded\n          "
+               }
+            }
+         },
+         "panel:failed_panel": {
+            "@name": "failed_panel",
+            "text:failed_lbl": {
+               "@name": "failed_lbl",
+               "#text": {
+                  "string": "\n              Failed\n          "
+               }
+            }
+         },
+         "loading_indicator:working_indicator": {
+            "@name": "working_indicator"
+         },
+         "text:working_lbl": {
+            "@name": "working_lbl",
+            "#text": {
+               "string": "\n          Working\n      "
+            }
+         },
+         "text:refresh_lbl": {
+            "@name": "refresh_lbl",
+            "#text": {
+               "string": "\n          Refresh to save.\n      "
+            }
+         }
+      },
+      "ui_ctrl:thumbnail_placeholder": {
+         "@name": "thumbnail_placeholder"
+      },
+      "view_border:img_info_border": {
+         "@name": "img_info_border"
+      },
+      "text:image_res_text": {
+         "@name": "image_res_text",
+         "#text": {
+            "string": "\n       [WIDTH]px (width) x [HEIGHT]px (height)\n   "
+         }
+      },
+      "text:file_size_label": {
+         "@name": "file_size_label",
+         "#text": {
+            "string": "\n       [SIZE] KB\n   "
+         }
+      },
+      "button:360_label": {
+         "@label": {
+            "string": "Take 360° snapshot"
+         },
+         "@name": "360_label"
+      }
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "floater": {
+      "@name": "Give Money",
+      "string:payee_group": {
+         "@name": "payee_group",
+         "#text": {
+            "string": "\n        Pay Group\n    "
+         }
+      },
+      "string:payee_resident": {
+         "@name": "payee_resident",
+         "#text": {
+            "string": "\n        Pay Resident\n    "
+         }
+      },
+      "text:payee_name": {
+         "@name": "payee_name",
+         "#text": {
+            "string": "\n      Ericacita Moostopolison\n    "
+         }
+      },
+      "text:object_name_label": {
+         "@name": "object_name_label",
+         "#text": {
+            "string": "\n        Via object:\n    "
+         }
+      },
+      "icon:icon_object": {
+         "@name": "icon_object",
+         "@tool_tip": {
+            "string": "Objects"
+         }
+      },
+      "text:object_name_text": {
+         "@name": "object_name_text",
+         "#text": {
+            "string": "\n        My awesome object with a really damn long name\n    "
+         }
+      },
+      "button:fastpay 1": {
+         "@label": {
+            "string": "L$1"
+         },
+         "@name": "fastpay 1"
+      },
+      "button:fastpay 5": {
+         "@label": {
+            "string": "L$5"
+         },
+         "@name": "fastpay 5"
+      },
+      "button:fastpay 10": {
+         "@label": {
+            "string": "L$10"
+         },
+         "@name": "fastpay 10"
+      },
+      "button:fastpay 20": {
+         "@label": {
+            "string": "L$20"
+         },
+         "@name": "fastpay 20"
+      },
+      "text:amount text": {
+         "@name": "amount text",
+         "#text": {
+            "string": "\n        Or, choose amount:\n    "
+         }
+      },
+      "line_editor:amount": {
+         "@name": "amount"
+      },
+      "button:pay btn": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "pay btn"
+      },
+      "button:cancel btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel btn"
+      }
+   }
+}

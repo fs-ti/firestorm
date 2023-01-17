@@ -1,0 +1,596 @@
+{
+   "floater": {
+      "@title": {
+         "string": "Cameratools"
+      },
+      "@name": "phototools_camera_floater",
+      "floater.string:rotate_tooltip": {
+         "@name": "rotate_tooltip",
+         "#text": {
+            "string": "\n    Rotate Camera Around Focus\n  "
+         }
+      },
+      "floater.string:zoom_tooltip": {
+         "@name": "zoom_tooltip",
+         "#text": {
+            "string": "\n    Zoom Camera Towards Focus\n  "
+         }
+      },
+      "floater.string:move_tooltip": {
+         "@name": "move_tooltip",
+         "#text": {
+            "string": "\n    Move Camera Up and Down, Left and Right\n  "
+         }
+      },
+      "floater.string:free_mode_title": {
+         "@name": "free_mode_title",
+         "#text": {
+            "string": "\n    View Object\n  "
+         }
+      },
+      "string:inactive_combo_text": {
+         "@name": "inactive_combo_text",
+         "#text": {
+            "string": "Use preset"
+         }
+      },
+      "tab_container:tabs": {
+         "@name": "tabs",
+         "panel:P_Cam_Controls_1": {
+            "@name": "P_Cam_Controls_1",
+            "@label": {
+               "string": "Cam Controls 1"
+            },
+            "panel:cameracontrolspanel": {
+               "@name": "cameracontrolspanel",
+               "panel:controls1": {
+                  "@name": "controls1",
+                  "panel:preset_views_list": {
+                     "@name": "preset_views_list",
+                     "panel_camera_item:front_view": {
+                        "@name": "front_view",
+                        "panel_camera_item.mousedown_callback": null,
+                        "panel_camera_item.picture": null,
+                        "panel_camera_item.selected_picture": null,
+                        "panel_camera_item.text:front_view_text": {
+                           "@name": "front_view_text",
+                           "#text": {
+                              "string": "\n                Front View\n              "
+                           }
+                        }
+                     },
+                     "panel_camera_item:group_view": {
+                        "@name": "group_view",
+                        "panel_camera_item.mousedown_callback": null,
+                        "panel_camera_item.picture": null,
+                        "panel_camera_item.selected_picture": null,
+                        "panel_camera_item.text:side_view_text": {
+                           "@name": "side_view_text",
+                           "#text": {
+                              "string": "\n                Side View\n              "
+                           }
+                        }
+                     },
+                     "panel_camera_item:rear_view": {
+                        "@name": "rear_view",
+                        "panel_camera_item.mousedown_callback": null,
+                        "panel_camera_item.picture": null,
+                        "panel_camera_item.selected_picture": null,
+                        "panel_camera_item.text:rear_view_text": {
+                           "@name": "rear_view_text",
+                           "#text": {
+                              "string": "\n                Rear View\n              "
+                           }
+                        }
+                     },
+                     "combo_box:preset_combo": {
+                        "@name": "preset_combo",
+                        "combo_list": null,
+                        "combo_box.item:Use preset": {
+                           "@label": {
+                              "string": "Use preset"
+                           },
+                           "@name": "Use preset"
+                        }
+                     },
+                     "button:gear_btn": {
+                        "@name": "gear_btn",
+                        "@tool_tip": {
+                           "string": "Camera Presets"
+                        },
+                        "button.commit_callback": null
+                     },
+                     "button:camera_position_btn": {
+                        "@label": {
+                           "string": "Position..."
+                        },
+                        "@name": "camera_position_btn",
+                        "button.commit_callback": null
+                     }
+                  },
+                  "panel:camera_modes_list": {
+                     "@name": "camera_modes_list",
+                     "panel_camera_item:object_view": {
+                        "@name": "object_view",
+                        "panel_camera_item.mousedown_callback": null,
+                        "panel_camera_item.text:object_view_text": {
+                           "@name": "object_view_text",
+                           "#text": {
+                              "string": "\n                Object View\n              "
+                           }
+                        },
+                        "panel_camera_item.picture": null,
+                        "panel_camera_item.selected_picture": null
+                     },
+                     "panel_camera_item:mouselook_view": {
+                        "@name": "mouselook_view",
+                        "panel_camera_item.mousedown_callback": null,
+                        "panel_camera_item.text:mouselook_view_text": {
+                           "@name": "mouselook_view_text",
+                           "#text": {
+                              "string": "\n                Mouselook View\n              "
+                           }
+                        },
+                        "panel_camera_item.picture": null,
+                        "panel_camera_item.selected_picture": null
+                     }
+                  },
+                  "#comment": "TODO: replace + - images ",
+                  "panel:zoom": {
+                     "@name": "zoom",
+                     "joystick_rotate:cam_rotate_stick": {
+                        "@name": "cam_rotate_stick",
+                        "@tool_tip": {
+                           "string": "Orbit camera around focus"
+                        }
+                     },
+                     "button:zoom_plus_btn": {
+                        "@name": "zoom_plus_btn",
+                        "commit_callback": null,
+                        "mouse_held_callback": null
+                     },
+                     "slider_bar:zoom_slider": {
+                        "@name": "zoom_slider",
+                        "@tool_tip": {
+                           "string": "This simply moves the camera in and out. NOTE: It does not make the camera ZOOM in RL terms! It has no effect on the FOV. Use the 'View angle' slider for real zooming."
+                        },
+                        "commit_callback": null
+                     },
+                     "button:zoom_minus_btn": {
+                        "@name": "zoom_minus_btn",
+                        "commit_callback": null,
+                        "mouse_held_callback": null
+                     },
+                     "joystick_track:cam_track_stick": {
+                        "@name": "cam_track_stick",
+                        "@tool_tip": {
+                           "string": "Move camera up and down, left and right."
+                        }
+                     }
+                  }
+               },
+               "panel:buttons": {
+                  "@name": "buttons",
+                  "button:presets_btn": {
+                     "@label": {
+                        "string": ""
+                     },
+                     "@name": "presets_btn",
+                     "@tool_tip": {
+                        "string": "Preset Views"
+                     }
+                  },
+                  "button:pan_btn": {
+                     "@label": {
+                        "string": ""
+                     },
+                     "@name": "pan_btn",
+                     "@tool_tip": {
+                        "string": "Orbit Zoom Pan"
+                     }
+                  },
+                  "button:avatarview_btn": {
+                     "@label": {
+                        "string": ""
+                     },
+                     "@name": "avatarview_btn",
+                     "@tool_tip": {
+                        "string": "Camera modes"
+                     }
+                  },
+                  "button:store_camera_view_btn": {
+                     "@label": {
+                        "string": ""
+                     },
+                     "@name": "store_camera_view_btn",
+                     "@tool_tip": {
+                        "string": "Store current camera view"
+                     },
+                     "button.commit_callback": null
+                  },
+                  "button:load_camera_view_btn": {
+                     "@label": {
+                        "string": ""
+                     },
+                     "@name": "load_camera_view_btn",
+                     "@tool_tip": {
+                        "string": "Load stored camera view"
+                     },
+                     "button.commit_callback": null
+                  }
+               }
+            },
+            "panel:P_Cam_Mov_Settings": {
+               "@name": "P_Cam_Mov_Settings",
+               "text:T_Cam_Mov_Settings": {
+                  "@name": "T_Cam_Mov_Settings",
+                  "#text": {
+                     "string": "\n          Camera Movement Settings\n        "
+                  }
+               }
+            },
+            "panel:P_Zoom": {
+               "@name": "P_Zoom",
+               "text:T_Zoom": {
+                  "@name": "T_Zoom",
+                  "@tool_tip": {
+                     "string": "In real world terms this is a Zoom feature. This will change the field of view in your viewer window. It is the same as hitting Ctrl + 0 or Ctrl+8. NOTE: This will not function if you have flycam enabled (3D SpaceNavigator)."
+                  },
+                  "#text": {
+                     "string": "\n          View angle\n        "
+                  }
+               },
+               "slider:SL_Zoom": {
+                  "@name": "SL_Zoom"
+               },
+               "#comment": "spinner\n         name=\"S_Zoom\"\n         can_edit_text=\"true\"\n         control_name=\"CameraAngle\"\n         top_delta=\"-3\"\n         label_width=\"0\"\n         left_delta=\"120\"\n         decimal_digits=\"3\"\n         follows=\"top|right\"\n         max_val=\"3.06\"\n         min_val=\"0.08\"\n         width=\"53\"\n         increment=\"0.001\"\n         border_visible=\"false\"/",
+               "button:Reset_Camera_Angle": {
+                  "@name": "Reset_Camera_Angle",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Zoom_Speed": {
+                  "@name": "T_Zoom_Speed",
+                  "@tool_tip": {
+                     "string": "Controls how fast/slow the camera will zoom in and out. Higher values produce slower and smother zoom."
+                  },
+                  "#text": {
+                     "string": "\n          Zoom Speed\n        "
+                  }
+               },
+               "slider:SL_Zoom_Speed": {
+                  "@name": "SL_Zoom_Speed"
+               },
+               "button:Reset_Zoom_Time": {
+                  "@name": "Reset_Zoom_Time",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Camera_Lag": {
+                  "@name": "T_Camera_Lag",
+                  "@tool_tip": {
+                     "string": "Amount camera lags behind avatar motion (0 = none, 30 = avatar velocity)."
+                  },
+                  "#text": {
+                     "string": "\n          Camera Lag\n        "
+                  }
+               },
+               "slider:SL_Camera_Lag": {
+                  "@name": "SL_Camera_Lag"
+               },
+               "button:Reset_Camera_Lag": {
+                  "@name": "Reset_Camera_Lag",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Camera_Offset": {
+                  "@name": "T_Camera_Offset",
+                  "@tool_tip": {
+                     "string": "Controls how far the camera is offset/distance from the default point of view."
+                  },
+                  "#text": {
+                     "string": "\n          Camera Offset\n        "
+                  }
+               },
+               "slider:SL_Camera_Offset": {
+                  "@name": "SL_Camera_Offset"
+               },
+               "button:Reset_Camera_Offset": {
+                  "@name": "Reset_Camera_Offset",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Camera_Smoothing": {
+                  "@name": "T_Camera_Smoothing",
+                  "@tool_tip": {
+                     "string": "Controls how smoothly the camera starts and stops. Higher values produce smoother (and somewhat slower) movement."
+                  },
+                  "#text": {
+                     "string": "\n          Cam. Smoothing\n        "
+                  }
+               },
+               "slider:SL_Camera_Smoothing": {
+                  "@name": "SL_Camera_Smoothing"
+               },
+               "button:Reset_Camera_Smoothing": {
+                  "@name": "Reset_Camera_Smoothing",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               }
+            }
+         },
+         "panel:P_Cam_Controls_2": {
+            "@name": "P_Cam_Controls_2",
+            "@label": {
+               "string": "Cam Controls 2"
+            },
+            "panel:P_Mouse_Movement": {
+               "@name": "P_Mouse_Movement",
+               "text:T_Mouse_Movement": {
+                  "@name": "T_Mouse_Movement",
+                  "#text": {
+                     "string": "\n          Mouse Movement Settings\n        "
+                  }
+               }
+            },
+            "panel:P_Mouse_Movement_Settings": {
+               "@name": "P_Mouse_Movement_Settings",
+               "text:T_Mouse_Sensitivity": {
+                  "@name": "T_Mouse_Sensitivity",
+                  "@tool_tip": {
+                     "string": "Controls responsiveness of mouse when in mouselook mode."
+                  },
+                  "#text": {
+                     "string": "\n          Mouse Sensitivity\n        "
+                  }
+               },
+               "slider:SL_Mouse_Sensitivity": {
+                  "@name": "SL_Mouse_Sensitivity"
+               },
+               "button:Reset_Mouse_Sensitivity": {
+                  "@name": "Reset_Mouse_Sensitivity",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "check_box:first_person_avatar_visible": {
+                  "@label": {
+                     "string": "Display avatar in mouselook"
+                  },
+                  "@tool_tip": {
+                     "string": "Display avatar and attachments below neck while in mouselook. Default is OFF."
+                  },
+                  "@name": "first_person_avatar_visible"
+               },
+               "check_box:MouseSmooth": {
+                  "@label": {
+                     "string": "Smooth Mouselook Movements"
+                  },
+                  "@tool_tip": {
+                     "string": "Smooths out motion of mouse when in mouselook mode."
+                  },
+                  "@name": "MouseSmooth"
+               }
+            },
+            "panel:P_Additional_Camera_Options": {
+               "@name": "P_Additional_Camera_Options",
+               "text:T_Additional_Camera_Options": {
+                  "@name": "T_Additional_Camera_Options",
+                  "#text": {
+                     "string": "\n          Addtional Camera Options\n        "
+                  }
+               }
+            },
+            "panel:P_Add_Cam_Opt_Settings": {
+               "@name": "P_Add_Cam_Opt_Settings",
+               "check_box:clickonavatarkeepscamera": {
+                  "@label": {
+                     "string": "Clicking your avatar keeps camera position"
+                  },
+                  "@name": "clickonavatarkeepscamera",
+                  "@tool_tip": {
+                     "string": "Normally, clicking on your avatar resets the camera position. This option removes this behavior."
+                  }
+               },
+               "check_box:FSResetCameraOnTP": {
+                  "@label": {
+                     "string": "Reset camera position after teleport"
+                  },
+                  "@name": "FSResetCameraOnTP",
+                  "@tool_tip": {
+                     "string": "Normally, the camera position gets reset when teleporting (within a region). This option prevents this behavior."
+                  }
+               },
+               "check_box:disableminzoomdist": {
+                  "@label": {
+                     "string": "Disable minimum camera zoom distance"
+                  },
+                  "@name": "disableminzoomdist",
+                  "@tool_tip": {
+                     "string": "Disable the constraint on the closest distance the camera is allowed to get to an object."
+                  }
+               },
+               "check_box:ignorecameraconstraints": {
+                  "@label": {
+                     "string": "Allow the camera to move w/o constraints"
+                  },
+                  "@name": "ignorecameraconstraints",
+                  "@tool_tip": {
+                     "string": "Ignores the 'push' the simulator applies to your camera to keep it out of objects. REQUIRES RESTART!"
+                  }
+               },
+               "check_box:resetcameraonmovement": {
+                  "@label": {
+                     "string": "Reset camera position on avatar movement"
+                  },
+                  "@name": "resetcameraonmovement",
+                  "@tool_tip": {
+                     "string": "Resets the camera to its default position when you move the avatar"
+                  }
+               }
+            }
+         },
+         "panel:P_3D_Mouse": {
+            "@name": "P_3D_Mouse",
+            "@label": {
+               "string": "3D Mouse"
+            },
+            "panel:P_3D_Mouse_Settings1": {
+               "@name": "P_3D_Mouse_Settings1",
+               "slider:FlycamAxisScale1b": {
+                  "@label": {
+                     "string": "Move L/R"
+                  },
+                  "@name": "FlycamAxisScale1b",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Left/Right movement. If you find it difficult to move with precision, use lower scale values."
+                  }
+               },
+               "slider:FlycamAxisScale2b": {
+                  "@label": {
+                     "string": "Move U/D"
+                  },
+                  "@name": "FlycamAxisScale2b",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Up/Down movement. If you find it difficult to move with precision, use lower scale values."
+                  }
+               },
+               "slider:FlycamAxisScale0b": {
+                  "@label": {
+                     "string": "Move I/O"
+                  },
+                  "@name": "FlycamAxisScale0b",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the In/Out movement. If you find it difficult to move with precision, use lower scale values."
+                  }
+               },
+               "slider:FlycamAxisScale4": {
+                  "@label": {
+                     "string": "Pitch"
+                  },
+                  "@name": "FlycamAxisScale4",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Pitch movement. If you find it difficult to move with precision, use lower scale values."
+                  }
+               },
+               "slider:FlycamAxisScale5": {
+                  "@label": {
+                     "string": "Yaw"
+                  },
+                  "@name": "FlycamAxisScale5",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Yaw movement. If you find it difficult to move with precision, use lower scale values."
+                  }
+               },
+               "slider:FlycamAxisScale3": {
+                  "@label": {
+                     "string": "Roll"
+                  },
+                  "@name": "FlycamAxisScale3",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Roll movement. If you find it difficult to move with precision, use lower scale values."
+                  }
+               },
+               "slider:FlycamAxisScale6": {
+                  "@label": {
+                     "string": "Zoom Speed"
+                  },
+                  "@name": "FlycamAxisScale6",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Zoom speed. If you find it difficult to zoom with precision, use lower scale values."
+                  }
+               },
+               "slider:FlycamFeathering": {
+                  "@label": {
+                     "string": "Feather"
+                  },
+                  "@name": "FlycamFeathering",
+                  "@tool_tip": {
+                     "string": "Setting the slider all the way to the right will make the camera very rigid, giving complete control to the joystick. Setting the slider all the way to the left will make the camera very fluid like the camera weighs a lot; good for fly-by shots, not good for framing."
+                  }
+               }
+            },
+            "panel:P_3D_Mouse_Settings2": {
+               "@name": "P_3D_Mouse_Settings2",
+               "spinner:JoystickAxis6": {
+                  "@label": {
+                     "string": "Zoom Axis Mapping"
+                  },
+                  "@name": "JoystickAxis6",
+                  "@tool_tip": {
+                     "string": "Controls which mouse axis the zooming function is mapped to (set to work with)."
+                  }
+               },
+               "check_box:enable_joystick": {
+                  "@label": {
+                     "string": "Enable 3D Mouse"
+                  },
+                  "@tool_tip": {
+                     "string": "This turns on the 3D Mouse."
+                  },
+                  "@name": "enable_joystick"
+               },
+               "check_box:CB_Zoom_Control": {
+                  "@name": "CB_Zoom_Control",
+                  "@label": {
+                     "string": "Enable Zoom Control (See Tool Tip!)"
+                  },
+                  "@tool_tip": {
+                     "string": "In order for the zooming control to work, you must set the 'Zoom Axis Mapping' above to '4'."
+                  }
+               },
+               "check_box:CB_Auto_Leveling": {
+                  "@name": "CB_Auto_Leveling",
+                  "@label": {
+                     "string": "Enable Auto Leveling (Prevents Camera Roll)"
+                  }
+               },
+               "check_box:CB_3D_Mouse_Avatar": {
+                  "@name": "CB_3D_Mouse_Avatar",
+                  "@label": {
+                     "string": "Use the 3D Mouse to move the avatar"
+                  }
+               },
+               "check_box:CB_3D_Mouse_Build": {
+                  "@name": "CB_3D_Mouse_Build",
+                  "@label": {
+                     "string": "Use the 3D Mouse to move objects (building)"
+                  },
+                  "@tool_tip": {
+                     "string": "Uses the 3D mouse to move objects when building and editing."
+                  }
+               }
+            }
+         }
+      }
+   }
+}

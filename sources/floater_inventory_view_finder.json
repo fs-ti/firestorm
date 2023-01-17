@@ -1,0 +1,224 @@
+{
+   "floater": {
+      "@name": "Inventory Finder",
+      "@title": {
+         "string": "Inventory Recent Items"
+      },
+      "icon:icon_animation": {
+         "@name": "icon_animation"
+      },
+      "check_box:check_animation": {
+         "@label": {
+            "string": "Animation"
+         },
+         "@name": "check_animation"
+      },
+      "icon:icon_calling_card": {
+         "@name": "icon_calling_card"
+      },
+      "check_box:check_calling_card": {
+         "@label": {
+            "string": "Calling Cards"
+         },
+         "@name": "check_calling_card"
+      },
+      "icon:icon_clothing": {
+         "@name": "icon_clothing"
+      },
+      "check_box:check_clothing": {
+         "@label": {
+            "string": "Clothing"
+         },
+         "@name": "check_clothing"
+      },
+      "icon:icon_gesture": {
+         "@name": "icon_gesture"
+      },
+      "check_box:check_gesture": {
+         "@label": {
+            "string": "Gestures"
+         },
+         "@name": "check_gesture"
+      },
+      "icon:icon_landmark": {
+         "@name": "icon_landmark"
+      },
+      "check_box:check_landmark": {
+         "@label": {
+            "string": "Landmarks"
+         },
+         "@name": "check_landmark"
+      },
+      "icon:icon_notecard": {
+         "@name": "icon_notecard"
+      },
+      "check_box:check_notecard": {
+         "@label": {
+            "string": "Notecards"
+         },
+         "@name": "check_notecard"
+      },
+      "icon:icon_object": {
+         "@name": "icon_object"
+      },
+      "check_box:check_object": {
+         "@label": {
+            "string": "Objects"
+         },
+         "@name": "check_object"
+      },
+      "icon:icon_script": {
+         "@name": "icon_script"
+      },
+      "check_box:check_script": {
+         "@label": {
+            "string": "Scripts"
+         },
+         "@name": "check_script"
+      },
+      "icon:icon_sound": {
+         "@name": "icon_sound"
+      },
+      "check_box:check_sound": {
+         "@label": {
+            "string": "Sounds"
+         },
+         "@name": "check_sound"
+      },
+      "icon:icon_texture": {
+         "@name": "icon_texture"
+      },
+      "check_box:check_texture": {
+         "@label": {
+            "string": "Textures"
+         },
+         "@name": "check_texture"
+      },
+      "icon:icon_snapshot": {
+         "@name": "icon_snapshot"
+      },
+      "check_box:check_snapshot": {
+         "@label": {
+            "string": "Snapshots"
+         },
+         "@name": "check_snapshot"
+      },
+      "icon:icon_settings": {
+         "@name": "icon_settings"
+      },
+      "check_box:check_settings": {
+         "@label": {
+            "string": "Settings"
+         },
+         "@name": "check_settings"
+      },
+      "button:All": {
+         "@label": {
+            "string": "All"
+         },
+         "@name": "All"
+      },
+      "button:None": {
+         "@label": {
+            "string": "None"
+         },
+         "@name": "None"
+      },
+      "#comment": " <FS:Zi> FIRE-1175 - Filter Permissions Menu ",
+      "check_box:check_modify": {
+         "@label": {
+            "string": "Mod"
+         },
+         "@name": "check_modify"
+      },
+      "check_box:check_copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "check_copy"
+      },
+      "check_box:check_transfer": {
+         "@label": {
+            "string": "Trans"
+         },
+         "@name": "check_transfer"
+      },
+      "#comment$32": " Changed top_pad from 6 to 0 in this block ",
+      "check_box:check_show_empty": {
+         "@label": {
+            "string": "Always show folders"
+         },
+         "@name": "check_show_empty"
+      },
+      "#comment$34": " </FS:Zi> ",
+      "check_box:check_created_by_me": {
+         "@label": {
+            "string": "Created by me"
+         },
+         "@name": "check_created_by_me"
+      },
+      "check_box:check_created_by_others": {
+         "@label": {
+            "string": "Created by others"
+         },
+         "@name": "check_created_by_others"
+      },
+      "check_box:check_since_logoff": {
+         "@label": {
+            "string": "Since Logoff"
+         },
+         "@name": "check_since_logoff"
+      },
+      "text:- OR -": {
+         "@name": "- OR -",
+         "#text": {
+            "string": "\n        - OR -\n    "
+         }
+      },
+      "radio_group:date_search_direction": {
+         "@name": "date_search_direction",
+         "radio_item:newer": {
+            "@label": {
+               "string": "Newer than"
+            },
+            "@name": "newer"
+         },
+         "radio_item:older": {
+            "@label": {
+               "string": "Older than"
+            },
+            "@name": "older"
+         }
+      },
+      "spinner:spin_hours_ago": {
+         "@name": "spin_hours_ago"
+      },
+      "text:label_hours": {
+         "@name": "label_hours",
+         "#text": {
+            "string": "\n        Hours\n    "
+         }
+      },
+      "spinner:spin_days_ago": {
+         "@name": "spin_days_ago"
+      },
+      "text:label_days": {
+         "@name": "label_days",
+         "#text": {
+            "string": "\n        Days\n    "
+         }
+      },
+      "button:btnReset": {
+         "@label": {
+            "string": "Reset"
+         },
+         "@name": "btnReset"
+      },
+      "button:Close": {
+         "@label": {
+            "string": "Close"
+         },
+         "@name": "Close"
+      }
+   }
+}

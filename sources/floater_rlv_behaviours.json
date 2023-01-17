@@ -1,0 +1,110 @@
+{
+   "floater": {
+      "@name": "rlv_behaviours",
+      "@title": {
+         "string": "Active RLV Restrictions"
+      },
+      "tab_container:behaviour_tab": {
+         "@name": "behaviour_tab",
+         "panel:behaviour_panel": {
+            "@label": {
+               "string": "Restrictions"
+            },
+            "@name": "behaviour_panel",
+            "scroll_list:behaviour_list": {
+               "@name": "behaviour_list",
+               "@tool_tip": {
+                  "string": "List of current RLVa restrictions."
+               },
+               "scroll_list.columns:behaviour": {
+                  "@label": {
+                     "string": "Restriction"
+                  },
+                  "@name": "behaviour"
+               },
+               "scroll_list.columns:issuer": {
+                  "@label": {
+                     "string": "Object Name"
+                  },
+                  "@name": "issuer"
+               }
+            }
+         },
+         "panel:exception_panel": {
+            "@label": {
+               "string": "Exceptions"
+            },
+            "@name": "exception_panel",
+            "scroll_list:exception_list": {
+               "@name": "exception_list",
+               "@tool_tip": {
+                  "string": "List of current RLVa exceptions."
+               },
+               "scroll_list.columns:behaviour": {
+                  "@label": {
+                     "string": "Exception"
+                  },
+                  "@name": "behaviour"
+               },
+               "scroll_list.columns:option": {
+                  "@label": {
+                     "string": "Source"
+                  },
+                  "@name": "option"
+               },
+               "scroll_list.columns:issuer": {
+                  "@label": {
+                     "string": "Object Name"
+                  },
+                  "@name": "issuer"
+               }
+            }
+         },
+         "panel:modifier_panel": {
+            "@label": {
+               "string": "Modifiers"
+            },
+            "@name": "modifier_panel",
+            "scroll_list:modifier_list": {
+               "@name": "modifier_list",
+               "@tool_tip": {
+                  "string": "List of current RLVa modifiers."
+               },
+               "scroll_list.columns:modifier": {
+                  "@label": {
+                     "string": "Modifier"
+                  },
+                  "@name": "modifier"
+               },
+               "scroll_list.columns:value": {
+                  "@label": {
+                     "string": "Value"
+                  },
+                  "@name": "value"
+               },
+               "scroll_list.columns:primary": {
+                  "@label": {
+                     "string": "Primary Object"
+                  },
+                  "@name": "primary"
+               }
+            }
+         }
+      },
+      "panel:bottom_panel": {
+         "@label": {
+            "string": "bottom_panel"
+         },
+         "@name": "bottom_panel",
+         "button:copy_btn": {
+            "@label": {
+               "string": "Copy to Clipboard"
+            },
+            "@name": "copy_btn"
+         },
+         "icon:dummy_icon": {
+            "@name": "dummy_icon"
+         }
+      }
+   }
+}

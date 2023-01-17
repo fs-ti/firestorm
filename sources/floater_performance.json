@@ -1,0 +1,309 @@
+{
+   "floater": {
+      "@name": "performance",
+      "@title": {
+         "string": "Improve Graphics Speed (Experimental)"
+      },
+      "floater.string:frame_stats": {
+         "@name": "frame_stats",
+         "#text": {
+            "string": "\n  Frame: [TOT_FRAME_TIME]ms - Scenery:[SCENERY_FRAME_PCT]% Avatars:[AV_FRAME_PCT]% UI:[UI_FRAME_PCT]% HUDs:[HUDS_FRAME_PCT]% Swap:[SWAP_FRAME_PCT]% Tasks:[IDLE_FRAME_PCT]%\n  "
+         }
+      },
+      "floater.string:limit_fps": {
+         "@name": "limit_fps",
+         "#text": {
+            "string": "\n  User Limited @ [FPSCAP] FPS\n  "
+         }
+      },
+      "floater.string:tuning_fps": {
+         "@name": "tuning_fps",
+         "#text": {
+            "string": "\n  Target [FPSTARGET] FPS\n  "
+         }
+      },
+      "floater.string:av_frame_pct": {
+         "@name": "av_frame_pct",
+         "#text": {
+            "string": "\n  [AV_FRAME_PCT]%\n  "
+         }
+      },
+      "floater.string:huds_frame_pct": {
+         "@name": "huds_frame_pct",
+         "#text": {
+            "string": "\n  [HUDS_FRAME_PCT]%\n  "
+         }
+      },
+      "floater.string:focus_fps": {
+         "@name": "focus_fps",
+         "#text": {
+            "string": "\n   In Background\n  "
+         }
+      },
+      "floater.string:info_waitforit": {
+         "@name": "info_waitforit",
+         "#text": {
+            "string": "\n  Allow 5-10 seconds for changes to take effect.\n  "
+         }
+      },
+      "floater.string:info_frozen": {
+         "@name": "info_frozen",
+         "#text": {
+            "string": "\n  Stats pause when FPS is limited or in background.\n  "
+         }
+      },
+      "floater.string:tot_av_template": {
+         "@name": "tot_av_template",
+         "#text": {
+            "string": "\n  Total: [TOT_AV] ([TOT_AV_TIME]μs)\n  "
+         }
+      },
+      "floater.string:tot_att_template": {
+         "@name": "tot_att_template",
+         "#text": {
+            "string": "\n  Total: [TOT_ATT] ([TOT_ATT_TIME]μs)\n  "
+         }
+      },
+      "panel:panel_top": {
+         "@name": "panel_top",
+         "panel:fps_subpanel": {
+            "@name": "fps_subpanel",
+            "text:fps_value": {
+               "@name": "fps_value",
+               "#text": {
+                  "string": "\n          167\n      "
+               }
+            },
+            "text:fps_lbl": {
+               "@name": "fps_lbl",
+               "#text": {
+                  "string": "\n          frames per second\n      "
+               }
+            },
+            "text:fps_warning": {
+               "@name": "fps_warning",
+               "#text": {
+                  "string": " User Limited @ 000 FPS\n      "
+               }
+            },
+            "text:fps_desc1_lbl": {
+               "@name": "fps_desc1_lbl",
+               "#text": {
+                  "string": "\n        Stats pause when FPS is limited or in background.\n      "
+               }
+            },
+            "text:frame_breakdown": {
+               "@name": "frame_breakdown",
+               "#text": {
+                  "string": "\n[--------------------Frame breakdown will appear here.---------------------]\n      "
+               }
+            }
+         },
+         "panel:target_subpanel": {
+            "@name": "target_subpanel",
+            "text:settings_lbl": {
+               "@name": "settings_lbl",
+               "@tool_tip": {
+                  "string": "Automatically adjust settings to maintain FPS. Set the Target to the desired frame rate and the viewer will attempt to match this by dynamically altering your settings."
+               },
+               "#text": {
+                  "string": "\n    Auto Tune:\n      "
+               }
+            },
+            "text:targetfps_desc": {
+               "@name": "targetfps_desc",
+               "#text": {
+                  "string": "\n          Target Frame Rate (fps)\n      "
+               }
+            },
+            "spinner:target_fps": {
+               "@name": "target_fps",
+               "@tool_tip": {
+                  "string": "Target FPS - The desired FPS level. The viewer will attempt to achieve this by adjusting your graphics settings."
+               }
+            },
+            "button:AutoTuneFPS": {
+               "@label": {
+                  "string": "Start"
+               },
+               "@name": "AutoTuneFPS",
+               "@tool_tip": {
+                  "string": "The viewer will attempt to adjust settings to meet the target FPS."
+               }
+            },
+            "check_box:AutoTuneContinuous": {
+               "@label": {
+                  "string": "Continuous"
+               },
+               "@name": "AutoTuneContinuous",
+               "@tool_tip": {
+                  "string": "The viewer will continually adapt the settings to meet the target FPS until stopped even with the floater closed. When disabled clicking the Auto Tune button will adjust for the current settings then stop."
+               }
+            },
+            "button:PrefSaveButton": {
+               "@name": "PrefSaveButton",
+               "@tool_tip": {
+                  "string": "Save the current settings to a default for future use."
+               },
+               "button.commit_callback": null
+            },
+            "button:PrefLoadButton": {
+               "@name": "PrefLoadButton",
+               "@tool_tip": {
+                  "string": "Load an existing preset."
+               },
+               "button.commit_callback": null
+            },
+            "#comment": "Reset Button",
+            "button:Defaults": {
+               "@tool_tip": {
+                  "string": "Reload default graphics settings for your hardware."
+               },
+               "@name": "Defaults",
+               "button.commit_callback": null
+            },
+            "text:settings_desc": {
+               "@name": "settings_desc",
+               "#text": {
+                  "string": "\n        Tuning Strategy\n      "
+               }
+            },
+            "combo_box:FSTuningFPSStrategy": {
+               "@name": "FSTuningFPSStrategy",
+               "combo_box.item:av_only": {
+                  "@label": {
+                     "string": "Avatars Only"
+                  },
+                  "@name": "av_only"
+               },
+               "combo_box.item:av_and_scene": {
+                  "@label": {
+                     "string": "Avatars and Scene"
+                  },
+                  "@name": "av_and_scene"
+               }
+            },
+            "button:target_btn": {
+               "@name": "target_btn",
+               "@tool_tip": {
+                  "string": "Change the Tuning Strategy behavior."
+               }
+            }
+         }
+      },
+      "panel:panel_performance_main": {
+         "@name": "panel_performance_main",
+         "panel:settings_subpanel": {
+            "@name": "settings_subpanel",
+            "text:settings_lbl": {
+               "@name": "settings_lbl",
+               "#text": {
+                  "string": "\n          Graphics settings\n        "
+               }
+            },
+            "text:settings_desc": {
+               "@name": "settings_desc",
+               "#text": {
+                  "string": "\n          Choose settings for distance, water, lighting and more.\n        "
+               }
+            },
+            "icon:icon_arrow3": {
+               "@name": "icon_arrow3"
+            }
+         },
+         "panel:nearby_subpanel": {
+            "@name": "nearby_subpanel",
+            "text:avatars_nearby_lbl": {
+               "@name": "avatars_nearby_lbl",
+               "#text": {
+                  "string": "\n       Avatars nearby\n      "
+               }
+            },
+            "text:avatars_nearby_desc": {
+               "@name": "avatars_nearby_desc",
+               "#text": {
+                  "string": "\n      Manage which nearby avatars are fully displayed.\n    "
+               }
+            },
+            "text:avatars_frme_pct_lbl": {
+               "@name": "avatars_frme_pct_lbl",
+               "#text": {
+                  "string": "\nTime spent\ndrawing \navatars\n      "
+               }
+            },
+            "text:av_frame_stats": {
+               "@name": "av_frame_stats",
+               "#text": {
+                  "string": "\n         00%\n     "
+               }
+            },
+            "icon:icon_arrow2": {
+               "@name": "icon_arrow2"
+            }
+         },
+         "panel:complexity_subpanel": {
+            "@name": "complexity_subpanel",
+            "text:complexity_lbl": {
+               "@name": "complexity_lbl",
+               "#text": {
+                  "string": "\n          Your avatar complexity\n      "
+               }
+            },
+            "text:complexity_info": {
+               "@name": "complexity_info",
+               "#text": {
+                  "string": "\n          Be a good citizen. Manage the impact of your avatar\n      "
+               }
+            },
+            "icon:icon_arrow4": {
+               "@name": "icon_arrow4"
+            }
+         },
+         "panel:huds_subpanel": {
+            "@name": "huds_subpanel",
+            "text:huds_lbl": {
+               "@name": "huds_lbl",
+               "#text": {
+                  "string": "\n          Your active HUDs\n      "
+               }
+            },
+            "text:huds_desc": {
+               "@name": "huds_desc",
+               "#text": {
+                  "string": "\n          Removing unnecessary HUDs may improve speed.\n      "
+               }
+            },
+            "text:huds_frme_pct_lbl": {
+               "@name": "huds_frme_pct_lbl",
+               "#text": {
+                  "string": "\nTime spent\ndrawing \nHUDs\n     "
+               }
+            },
+            "text:huds_frame_stats": {
+               "@name": "huds_frame_stats",
+               "#text": {
+                  "string": "\n        00%\n    "
+               }
+            },
+            "icon:icon_arrow4": {
+               "@name": "icon_arrow4"
+            }
+         }
+      },
+      "panel:panel_performance_nearby": {
+         "@name": "panel_performance_nearby"
+      },
+      "panel:panel_performance_complexity": {
+         "@name": "panel_performance_complexity"
+      },
+      "panel:panel_performance_preferences": {
+         "@name": "panel_performance_preferences"
+      },
+      "panel:panel_performance_huds": {
+         "@name": "panel_performance_huds"
+      },
+      "panel:panel_performance_autotune": {
+         "@name": "panel_performance_autotune"
+      }
+   }
+}

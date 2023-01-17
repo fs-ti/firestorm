@@ -1,0 +1,2418 @@
+{
+   "floater": {
+      "@title": {
+         "string": "Phototools"
+      },
+      "@name": "phototools",
+      "tab_container:tabs": {
+         "@name": "tabs",
+         "panel:EnvironmentTab": {
+            "@name": "EnvironmentTab",
+            "@label": {
+               "string": "Env"
+            },
+            "panel:PT_WL_Settings": {
+               "@name": "PT_WL_Settings",
+               "text:T_WL_Settings": {
+                  "@name": "T_WL_Settings",
+                  "#text": {
+                     "string": "\n          Environment Settings\n        "
+                  }
+               }
+            },
+            "panel:P_WL_Settings": {
+               "@name": "P_WL_Settings",
+               "check_box:WindLightUseAtmosShaders": {
+                  "@label": {
+                     "string": "Enable Atmospheric Shaders"
+                  },
+                  "@name": "WindLightUseAtmosShaders",
+                  "@tool_tip": {
+                     "string": "This will enable full EEP functionality (atmospheric shaders)."
+                  }
+               }
+            },
+            "panel:P_WL_Sky_Water": {
+               "@name": "P_WL_Sky_Water",
+               "text:WL Sky": {
+                  "@name": "WL Sky",
+                  "@tool_tip": {
+                     "string": "Presets for your sky."
+                  },
+                  "#text": {
+                     "string": "\n          Sky\n        "
+                  }
+               },
+               "combo_box:WLPresetsCombo": {
+                  "@name": "WLPresetsCombo"
+               },
+               "button:WLPrevPreset": {
+                  "@name": "WLPrevPreset"
+               },
+               "button:WLNextPreset": {
+                  "@name": "WLNextPreset"
+               },
+               "text:WL Water": {
+                  "@name": "WL Water",
+                  "@tool_tip": {
+                     "string": "Presets for your water."
+                  },
+                  "#text": {
+                     "string": "\n          Water\n        "
+                  }
+               },
+               "combo_box:WaterPresetsCombo": {
+                  "@name": "WaterPresetsCombo"
+               },
+               "button:WWPrevPreset": {
+                  "@name": "WWPrevPreset"
+               },
+               "button:WWNextPreset": {
+                  "@name": "WWNextPreset"
+               },
+               "text:Day Cycle": {
+                  "@name": "Day Cycle",
+                  "@tool_tip": {
+                     "string": "Presets for your day cycle."
+                  },
+                  "#text": {
+                     "string": "\n          Day Cycle\n        "
+                  }
+               },
+               "combo_box:DCPresetsCombo": {
+                  "@name": "DCPresetsCombo"
+               },
+               "button:DCPrevPreset": {
+                  "@name": "DCPrevPreset"
+               },
+               "button:DCNextPreset": {
+                  "@name": "DCNextPreset"
+               },
+               "button:btn_personal_lighting": {
+                  "@name": "btn_personal_lighting",
+                  "@label": {
+                     "string": "Personal Lighting..."
+                  },
+                  "button.commit_callback": null
+               },
+               "button:ResetToRegionDefault": {
+                  "@name": "ResetToRegionDefault",
+                  "@label": {
+                     "string": ""
+                  },
+                  "@tool_tip": {
+                     "string": "Reset the environment options to shared environment."
+                  }
+               },
+               "button:PauseClouds": {
+                  "@label": {
+                     "string": "Pause Clouds"
+                  },
+                  "@name": "PauseClouds",
+                  "@tool_tip": {
+                     "string": "Pauses cloud animations"
+                  },
+                  "button.commit_callback": null,
+                  "button.is_toggled_callback": null
+               }
+            },
+            "panel:P_Q_Windlights": {
+               "@name": "P_Q_Windlights",
+               "text:T_Q_Windlights": {
+                  "@name": "T_Q_Windlights",
+                  "#text": {
+                     "string": "\n          Quick Environments\n        "
+                  }
+               },
+               "view_border:horiz_separator1": {
+                  "@name": "horiz_separator1"
+               },
+               "button:Sunrise": {
+                  "@name": "Sunrise",
+                  "@label": {
+                     "string": "Sunrise"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:Noon": {
+                  "@name": "Noon",
+                  "@label": {
+                     "string": "Noon"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:Sunset": {
+                  "@name": "Sunset",
+                  "@label": {
+                     "string": "Sunset"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:Midnight": {
+                  "@name": "Midnight",
+                  "@label": {
+                     "string": "Midnight"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:Revert to Region Default": {
+                  "@name": "Revert to Region Default",
+                  "@label": {
+                     "string": "Shared Environment"
+                  },
+                  "button.commit_callback": null
+               }
+            },
+            "panel:P_WL_Presets": {
+               "@name": "P_WL_Presets",
+               "text:T_WL_Presets": {
+                  "@name": "T_WL_Presets",
+                  "@tool_tip": {
+                     "string": "Click an item below to create new preset or modify an existing one."
+                  },
+                  "#text": {
+                     "string": "\n          Windlight Presets\n        "
+                  }
+               },
+               "view_border:horiz_separator2": {
+                  "@name": "horiz_separator2"
+               },
+               "button:new_sky_preset": {
+                  "@name": "new_sky_preset",
+                  "@label": {
+                     "string": "New Sky Preset"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:edit_sky_preset": {
+                  "@name": "edit_sky_preset",
+                  "@label": {
+                     "string": "Edit Sky Preset"
+                  },
+                  "button.commit_callback": null
+               },
+               "view_border:horiz_separator3": {
+                  "@name": "horiz_separator3"
+               },
+               "button:new_water_preset": {
+                  "@name": "new_water_preset",
+                  "@label": {
+                     "string": "New Water Preset"
+                  },
+                  "button.commit_callback": null
+               },
+               "button:edit_water_preset": {
+                  "@name": "edit_water_preset",
+                  "@label": {
+                     "string": "Edit Water Preset"
+                  },
+                  "button.commit_callback": null
+               }
+            },
+            "panel:P_W_Reflections": {
+               "@name": "P_W_Reflections",
+               "text:T_W_Reflections": {
+                  "@name": "T_W_Reflections",
+                  "#text": {
+                     "string": "\n          Water Reflection Settings\n        "
+                  }
+               }
+            },
+            "panel:P_W_R_Types": {
+               "@name": "P_W_R_Types",
+               "text:T_W_R_Types": {
+                  "@name": "T_W_R_Types",
+                  "@tool_tip": {
+                     "string": "Determines what will show up in water reflections."
+                  },
+                  "#text": {
+                     "string": "\n          Type\n        "
+                  }
+               },
+               "combo_box:Reflections": {
+                  "@name": "Reflections",
+                  "combo_box.item:0": {
+                     "@label": {
+                        "string": "Minimal"
+                     },
+                     "@name": "0"
+                  },
+                  "combo_box.item:1": {
+                     "@label": {
+                        "string": "Terrain and trees"
+                     },
+                     "@name": "1"
+                  },
+                  "combo_box.item:2": {
+                     "@label": {
+                        "string": "All static objects"
+                     },
+                     "@name": "2"
+                  },
+                  "combo_box.item:3": {
+                     "@label": {
+                        "string": "All avatars and objects"
+                     },
+                     "@name": "3"
+                  },
+                  "combo_box.item:4": {
+                     "@label": {
+                        "string": "Everything"
+                     },
+                     "@name": "4"
+                  }
+               }
+            },
+            "panel:P_R_Res": {
+               "@name": "P_R_Res",
+               "text:T_R_Res": {
+                  "@name": "T_R_Res",
+                  "@tool_tip": {
+                     "string": "Determines the resolution/quality of water reflections. Whenever resolution settings are set to 'Very Good' or above, you must also enable 'Advanced Lighting Model' in tab 'Light'."
+                  },
+                  "#text": {
+                     "string": "\n          Resolution\n        "
+                  }
+               },
+               "combo_box:ReflectionRescombo": {
+                  "@name": "ReflectionRescombo",
+                  "combo_box.item:0": {
+                     "@label": {
+                        "string": "Decent"
+                     },
+                     "@name": "0"
+                  },
+                  "combo_box.item:1": {
+                     "@label": {
+                        "string": "Good"
+                     },
+                     "@name": "1"
+                  },
+                  "combo_box.item:2": {
+                     "@label": {
+                        "string": "Very Good          - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+                     },
+                     "@name": "2"
+                  },
+                  "combo_box.item:3": {
+                     "@label": {
+                        "string": "Excellent            - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+                     },
+                     "@name": "3"
+                  },
+                  "combo_box.item:4": {
+                     "@label": {
+                        "string": "Outstanding      - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+                     },
+                     "@name": "4"
+                  },
+                  "combo_box.item:5": {
+                     "@label": {
+                        "string": "Life-Like             - NOTE: You must also enable 'Advanced Lighting Model' (Light Tab)"
+                     },
+                     "@name": "5"
+                  },
+                  "combo_box.commit_callback": null
+               },
+               "check_box:TransparentWater": {
+                  "@label": {
+                     "string": "Transparent Water"
+                  },
+                  "@name": "TransparentWater",
+                  "@tool_tip": {
+                     "string": "Render water as transparent. Disabling renders water as opaque with a simple texture applied."
+                  }
+               }
+            }
+         },
+         "panel:P_Lighting": {
+            "@name": "P_Lighting",
+            "@label": {
+               "string": "Light"
+            },
+            "panel:PT_Light_Shadows": {
+               "@name": "PT_Light_Shadows",
+               "text:T_Light_Shadows": {
+                  "@name": "T_Light_Shadows",
+                  "#text": {
+                     "string": "\n          Lights and Shadows Settings\n        "
+                  }
+               }
+            },
+            "panel:P_L_S_Settings": {
+               "@name": "P_L_S_Settings",
+               "check_box:RenderDeferred": {
+                  "@label": {
+                     "string": "Enable Advanced Lighting Model"
+                  },
+                  "@name": "RenderDeferred",
+                  "@tool_tip": {
+                     "string": "This will enable shadows from the Sun and Moon and in-world light sources. It will also allow you to turn on Depth of Field and other graphic features. Basically you need to turn this on to see most of the 'eye candy' in-world. If you cannot enable this feature or see its effect, first ensure Atmospheric Shaders is enabled in tab 'Env'."
+                  }
+               },
+               "check_box:LocalLights": {
+                  "@label": {
+                     "string": "Enable All Local Lights"
+                  },
+                  "@name": "LocalLights",
+                  "@tool_tip": {
+                     "string": "This will turn on all in-world lights. If you disable this feature, light from Sun and Moon will still appear. Useful when you wish to eliminate SIM lighting and use only the Sun and Moon light."
+                  }
+               },
+               "check_box:Render Attached Lights": {
+                  "@label": {
+                     "string": "Enable Attached Lights (Face Lights)"
+                  },
+                  "@tool_tip": {
+                     "string": "This will enable any lights, such as face lights, avatars have attached to them. Useful for turning off facelights when necessary."
+                  },
+                  "@name": "Render Attached Lights",
+                  "check_box.on_check": null,
+                  "check_box.check_button.commit_callback": null
+               }
+            },
+            "panel:P_Shadows": {
+               "@name": "P_Shadows",
+               "text:T_Shadow_Types": {
+                  "@name": "T_Shadow_Types",
+                  "@tool_tip": {
+                     "string": "This setting only affects the shadows that are rendered from light sources, the lights will still function normally otherwise. Point light (lights that do not have the projection feature enabled) will always create a sense of shadows, yet they will not cast them upon any surface. It is important to note that regardless of the setting you choose here, textures projected from projection lights will still be enabled."
+                  },
+                  "#text": {
+                     "string": "\n          Shadow Types\n        "
+                  }
+               },
+               "combo_box:ShadowDetail": {
+                  "@name": "ShadowDetail",
+                  "combo_box.item:0": {
+                     "@label": {
+                        "string": "None"
+                     },
+                     "@name": "0"
+                  },
+                  "combo_box.item:1": {
+                     "@label": {
+                        "string": "Sun/Moon"
+                     },
+                     "@name": "1"
+                  },
+                  "combo_box.item:2": {
+                     "@label": {
+                        "string": "Sun/Moon + Projectors"
+                     },
+                     "@name": "2"
+                  }
+               }
+            },
+            "panel:P_Shadow_Res": {
+               "@name": "P_Shadow_Res",
+               "text:T_Shadow_Res": {
+                  "@name": "T_Shadow_Res",
+                  "@tool_tip": {
+                     "string": "Shadow Resolution: This is a VERY important setting. It determines the quality of the shadows. It also is VERY heavy on the computer. It is a good idea to leave this setting as LOW as possible when you are not shooting. When you are shooting, set it to 1.0 while preparing your shot. When you are ready to take your shot, slowly raise the slider bar to the right. You need to be careful of your framerate while you raise this setting. It is helpful to turn on the Statistics Bar (in tab 'Aids' under 'Interface aids') when you do this for the first few times so you can be familiar with the level of shadows that works best with your system. NOTE: Setting this too high or moving it too fast will cause viewer crashes."
+                  },
+                  "#text": {
+                     "string": "\n          Shd. Res\n        "
+                  }
+               },
+               "slider_bar:SB_Shadow_Res": {
+                  "@name": "SB_Shadow_Res"
+               },
+               "spinner:S_Shadow_Res": {
+                  "@name": "S_Shadow_Res"
+               },
+               "button:Reset_Shadow_Res": {
+                  "@name": "Reset_Shadow_Res",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "#comment": " RenderShadowSplitExponent Y component ",
+               "text:T_Shd_Clarity": {
+                  "@name": "T_Shd_Clarity",
+                  "@tool_tip": {
+                     "string": "This is a VERY important setting. It essentially determines how clear the Sun/Moon shadows are drawn overall. This setting should be set first before adjusting the setting below. With the value of 'Shd. Res' above set to 1.0, slide the value for 'Shd. Clarity' until the sharpest possible result is achieved. Please note, the clarity of shadows is directly related to the position of the camera and Sun/Moon. Every time you move either the camera or the Sun/Moon, it is best to adjust this value again. In addition, in order to make adjusting this value easier, it is helpful to set 'Shd. Blur' to 0.0 first."
+                  },
+                  "#text": {
+                     "string": "\n          Shd Clarity\n        "
+                  }
+               },
+               "slider_bar:SB_Shd_Clarity": {
+                  "@name": "SB_Shd_Clarity"
+               },
+               "spinner:S_Shd_Clarity": {
+                  "@name": "S_Shd_Clarity"
+               },
+               "button:Shd_Clarity_Reset": {
+                  "@name": "Shd_Clarity_Reset",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  }
+               },
+               "text:T_Blur_Size": {
+                  "@name": "T_Blur_Size",
+                  "@tool_tip": {
+                     "string": "The higher the number, the softer the shadow edges. Set to '0' for the sharpest shadows possible. This setting is directly related to the one below it as well. It allows you to set the overall possible amount of shadow blur. If set to 4.00, you can use Shadows Soften to adjust the shadow blur independent of the ambient occlusion. PLEASE NOTE: Ambient Occlusion must be enabled for this setting to work."
+                  },
+                  "#text": {
+                     "string": "\n          Shd. Blur\n        "
+                  }
+               },
+               "slider_bar:SB_Blur_Size": {
+                  "@name": "SB_Blur_Size"
+               },
+               "spinner:S_Blur_Size": {
+                  "@name": "S_Blur_Size"
+               },
+               "button:Blur_Reset": {
+                  "@name": "Blur_Reset",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "#comment$14": " RenderShadowGaussian X component ",
+               "text:T_Shd_Soften": {
+                  "@name": "T_Shd_Soften",
+                  "@tool_tip": {
+                     "string": "Controls the softening effect of Sun/Moon shadows. One simple way to set this value for your specific needs is to first set the 'Shd. Blur' value above to around 3.0. Then the slider here to soften the AO to your liking. Please note, a value of 0.0 will effectively turn off all Sun/Moon shadows. In addition, this has no effect of shadows the caused by projector lights"
+                  },
+                  "#text": {
+                     "string": "\n          Shd. Soften\n        "
+                  }
+               },
+               "slider_bar:SB_Shd_Soften": {
+                  "@name": "SB_Shd_Soften"
+               },
+               "spinner:S_Shd_Soften": {
+                  "@name": "S_Shd_Soften"
+               },
+               "button:Shd_Soften_Reset": {
+                  "@name": "Shd_Soften_Reset",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  }
+               },
+               "text:T_Blur_Dist": {
+                  "@name": "T_Blur_Dist",
+                  "@tool_tip": {
+                     "string": "This will determine the point at which the shadows will begin to blur relative to the camera. The lower the value the closer the point of shadow blur will begin. PLEASE NOTE: Ambient Oclussion must be enabled for this setting to work."
+                  },
+                  "#text": {
+                     "string": "\n          Blur. Dist.\n        "
+                  }
+               },
+               "slider_bar:SB_Blur_Dist": {
+                  "@name": "SB_Blur_Dist"
+               },
+               "spinner:S_Blur_Dist": {
+                  "@name": "S_Blur_Dist"
+               },
+               "button:Blur_Dist_Reset": {
+                  "@name": "Blur_Dist_Reset",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_FOV_Cutoff": {
+                  "@name": "T_FOV_Cutoff",
+                  "@tool_tip": {
+                     "string": "This determines the FOV cutoff at which the viewer will switch between ortho instead of perspective projection. If you are getting shadows that are 'jaggedy' try adjusting this setting for improvement. Also adjusting the XYZ values for the debug setting RenderShadowSplitExponent can be VERY helpful."
+                  },
+                  "#text": {
+                     "string": "\n          FOV Cutoff\n        "
+                  }
+               },
+               "slider_bar:SB_FOV_Cutoff": {
+                  "@name": "SB_FOV_Cutoff"
+               },
+               "spinner:S_FOV_Cutoff": {
+                  "@name": "S_FOV_Cutoff"
+               },
+               "button:FOV_Cutoff_Reset": {
+                  "@name": "FOV_Cutoff_Reset",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Shd_Bias": {
+                  "@name": "T_Shd_Bias",
+                  "@tool_tip": {
+                     "string": ""
+                  },
+                  "#text": {
+                     "string": "\n          Shd. Bias\n        "
+                  }
+               },
+               "slider_bar:SB_Shd_Bias": {
+                  "@name": "SB_Shd_Bias"
+               },
+               "spinner:S_Shd_Bias": {
+                  "@name": "S_Shd_Bias"
+               },
+               "button:Shd_Bias_Reset": {
+                  "@name": "Shd_Bias_Reset",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               }
+            },
+            "panel:P_Ambient_Occlusion": {
+               "@name": "P_Ambient_Occlusion",
+               "text:T_Ambient_Occlusion": {
+                  "@name": "T_Ambient_Occlusion",
+                  "#text": {
+                     "string": "\n          Ambient Occlusion Settings\n        "
+                  }
+               }
+            },
+            "panel:P_Amb_Occ_Settings": {
+               "@name": "P_Amb_Occ_Settings",
+               "check_box:UseSSAO": {
+                  "@label": {
+                     "string": "Enable Ambient Occlusion (Depth Perception)"
+                  },
+                  "@name": "UseSSAO",
+                  "@tool_tip": {
+                     "string": "Ambient Occlusion adds shading to all objects. It is most effective when the Effect and AO Soften settings below are used. It can add a high level of realism to the image. This is especially true when images are made at resolutions of 2048 pixels or above."
+                  }
+               }
+            },
+            "panel:P_Scale": {
+               "@name": "P_Scale",
+               "text:T_Scale": {
+                  "@name": "T_Scale",
+                  "@tool_tip": {
+                     "string": "Controls sampling region; larger regions are more accurate. It can be helpful to set these values high and then add a bit of shadow blur to soften their effect."
+                  },
+                  "#text": {
+                     "string": "\n          Scale\n        "
+                  }
+               },
+               "slider_bar:SB_Scale": {
+                  "@name": "SB_Scale"
+               },
+               "spinner:S_Scale": {
+                  "@name": "S_Scale"
+               },
+               "button:Reset_Scale": {
+                  "@name": "Reset_Scale",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Max_Scale": {
+                  "@name": "T_Max_Scale",
+                  "@tool_tip": {
+                     "string": "Controls maximum screen radius from which to sample from, to avoid graphics card cache misses and associated large performance penalty. It can be helpful to set these values high and then add a bit of shadow blur to soften their effect."
+                  },
+                  "#text": {
+                     "string": "\n          Max Scale\n        "
+                  }
+               },
+               "slider_bar:SB_Max_Scale": {
+                  "@name": "SB_Max_Scale"
+               },
+               "spinner:S_Max_Scale": {
+                  "@name": "S_Max_Scale"
+               },
+               "button:Reset_Max_Scale": {
+                  "@name": "Reset_Max_Scale",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Scaling_Factor": {
+                  "@name": "T_Scaling_Factor",
+                  "@tool_tip": {
+                     "string": "Scaling factor for the effect (larger is darker). It can be helpful to set these values high and then add a bit of shadow blur to soften their effect."
+                  },
+                  "#text": {
+                     "string": "\n          Factor\n        "
+                  }
+               },
+               "slider_bar:SB_Scaling_Factor": {
+                  "@name": "SB_Scaling_Factor"
+               },
+               "spinner:S_Scaling_Factor": {
+                  "@name": "S_Scaling_Factor"
+               },
+               "button:Reset_Scaling_Factor": {
+                  "@name": "Reset_Scaling_Factor",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "#comment": " RenderSSAOEffect X component ",
+               "text:T_Effect": {
+                  "@name": "T_Effect",
+                  "@tool_tip": {
+                     "string": "Controls the overall darkening effect of Ambient Occlusion. The default value of 0.8 produces an almost imperceptible effect. Values of 0.0 and below provide a more realistic result. Please note that the Ambient Occlusion produces a noise like effect and this can be softened using the 'AO Soften' controls below. In addition, the standard mesh avatar can look less than appealing with high Effect values due to the low quality geometry of the avatar. Please Note: The lowest value you can set in the slider is 0, while in the spinner you can enter negative values of up to -10000."
+                  },
+                  "#text": {
+                     "string": "\n          Effect\n        "
+                  }
+               },
+               "slider_bar:SB_Effect": {
+                  "@name": "SB_Effect"
+               },
+               "spinner:S_Effect": {
+                  "@name": "S_Effect"
+               },
+               "button:Reset_Effect": {
+                  "@name": "Reset_Effect",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  }
+               },
+               "#comment$18": " RenderShadowGaussian Y component ",
+               "text:T_AO_Soften": {
+                  "@name": "T_AO_Soften",
+                  "@tool_tip": {
+                     "string": "Controls the softening of the Ambient Occlusion effect. One simple way to set this value for your specific needs is to first set the 'Shd. Blur' value above to around 4.0. Then the slider here to soften the AO to your liking. Please note, a value of 0.0 will effectively turn off Ambient Occlusion rendering."
+                  },
+                  "#text": {
+                     "string": "\n          AO Soften\n        "
+                  }
+               },
+               "slider_bar:SB_AO_Soften": {
+                  "@name": "SB_AO_Soften"
+               },
+               "spinner:S_AO_Soften": {
+                  "@name": "S_AO_Soften"
+               },
+               "button:Reset_AO_Soften": {
+                  "@name": "Reset_AO_Soften",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  }
+               }
+            }
+         },
+         "panel:P_DoF_Glow": {
+            "@name": "P_DoF_Glow",
+            "@label": {
+               "string": "DoF/Glow"
+            },
+            "panel:PT_DoF_Glow": {
+               "@name": "PT_DoF_Glow",
+               "text:T_DoF": {
+                  "@name": "T_DoF",
+                  "#text": {
+                     "string": "\n          Depth of Field Settings\n        "
+                  }
+               }
+            },
+            "panel:P_DoF_Settings": {
+               "@name": "P_DoF_Settings",
+               "check_box:UseDepthofField": {
+                  "@label": {
+                     "string": "Enable Depth of Field (DoF)"
+                  },
+                  "@name": "UseDepthofField",
+                  "@tool_tip": {
+                     "string": "This will enable Depth of Field which will 'determine distance between the nearest and farthest objects in a scene that appear acceptably sharp in an image' (Wikipedia). If you are not using it turn it off and it will speed up your frame rate. If you cannot enable this feature or do not see its effect, please turn on 'Advanced Lighting Model' in tab 'Light'."
+                  }
+               },
+               "check_box:UseDoFUnderwater": {
+                  "@label": {
+                     "string": "Enable DoF when underwater"
+                  },
+                  "@tool_tip": {
+                     "string": "Normally, Depth of Field is disabled when underwater, even with the above box checked. This setting will remove that restriction. Note that you may have to manually refocus your camera on desired objects by alt-clicking on them when you're underwater."
+                  },
+                  "@name": "UseDoFUnderwater"
+               },
+               "check_box:FSFocusPointFollowsPointer": {
+                  "@label": {
+                     "string": "Depth of Field focus follows pointer"
+                  },
+                  "@name": "FSFocusPointFollowsPointer",
+                  "@tool_tip": {
+                     "string": "Depth of Field (DoF) focus will follow your mouse, this behaviour matches that seen when using flycam. Use in conjunction with DoF focus lock"
+                  }
+               },
+               "check_box:MIC_Show_FOV": {
+                  "@label": {
+                     "string": "Show the Current FOV of Viewer Screen"
+                  },
+                  "@tool_tip": {
+                     "string": "This will show you the vertical field of view for the camera. Within the viewer it is possible to change the lens length just like in real life. The smaller the FOV the longer the camera lens. A 50mm lens has a FOV of 27.0 degrees. To adjust the FOV use the zoom slider bar below. Please see: 'http://en.wikipedia.org/wiki/Angle_of_view' for a table showing the relationship between FOV and Lens Focal Length (mm). TURN IT OFF BEFORE YOU TAKE SNAPSHOTS OR IT WILL BE IN THE PICTURE!"
+                  },
+                  "@name": "MIC_Show_FOV",
+                  "check_box.on_check": null,
+                  "check_box.check_button.commit_callback": null
+               }
+            },
+            "panel:P_Zoom": {
+               "@name": "P_Zoom",
+               "text:T_Zoom": {
+                  "@name": "T_Zoom",
+                  "@tool_tip": {
+                     "string": "In real world terms this is a Zoom feature. This will change the field of view in your viewer window. It is the same as hitting Ctrl + 0 or Ctrl+8. NOTE: This will not function if you have flycam enabled (3D SpaceNavigator)."
+                  },
+                  "#text": {
+                     "string": "\n          View angle\n        "
+                  }
+               },
+               "slider_bar:SB_Zoom": {
+                  "@name": "SB_Zoom"
+               },
+               "spinner:S_Zoom": {
+                  "@name": "S_Zoom"
+               },
+               "button:Reset_Zoom": {
+                  "@name": "Reset_Zoom",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_FOV": {
+                  "@name": "T_FOV",
+                  "@tool_tip": {
+                     "string": "Field of View: This tells the viewer what FOV you would like to simulate for the DOF effect. It is best to set this to the current FOV of the viewer."
+                  },
+                  "#text": {
+                     "string": "\n          FOV\n        "
+                  }
+               },
+               "slider_bar:SB_FOV": {
+                  "@name": "SB_FOV"
+               },
+               "spinner:S_FOV": {
+                  "@name": "S_FOV"
+               },
+               "button:Reset_FOV": {
+                  "@name": "Reset_FOV",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_F_Number": {
+                  "@name": "T_F_Number",
+                  "@tool_tip": {
+                     "string": "In real world terms this is the aperture setting for the lens and the lower the value the shorter the depth of field will be. The same applies to SL."
+                  },
+                  "#text": {
+                     "string": "\n          f-number\n        "
+                  }
+               },
+               "slider_bar:SB_F_Number": {
+                  "@name": "SB_F_Number"
+               },
+               "spinner:S_F_Number": {
+                  "@name": "S_F_Number"
+               },
+               "button:Reset_F_Number": {
+                  "@name": "Reset_F_Number",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Focal_Length": {
+                  "@name": "T_Focal_Length",
+                  "@tool_tip": {
+                     "string": "Focal Length (mm): This tells the viewer what Focal Length/Lens Length to simulate for the DOF effect. Higher numbers produce a narrower depth of field."
+                  },
+                  "#text": {
+                     "string": "\n          Foc Length\n        "
+                  }
+               },
+               "slider_bar:SB_Focal_Length": {
+                  "@name": "SB_Focal_Length"
+               },
+               "spinner:S_Focal_Length": {
+                  "@name": "S_Focal_Length"
+               },
+               "button:Reset_Focal_Length": {
+                  "@name": "Reset_Focal_Length",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Foc_Time": {
+                  "@name": "T_Foc_Time",
+                  "@tool_tip": {
+                     "string": "Focus Transition Time: This sets the time in seconds it take to the viewer to change focus from one object."
+                  },
+                  "#text": {
+                     "string": "\n          Foc Time\n        "
+                  }
+               },
+               "slider_bar:SB_Foc_Time": {
+                  "@name": "SB_Foc_Time"
+               },
+               "spinner:S_Foc_Time": {
+                  "@name": "S_Foc_Time"
+               },
+               "button:Reset_Foc_Time": {
+                  "@name": "Reset_Foc_Time",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_CoC": {
+                  "@name": "T_CoC",
+                  "@tool_tip": {
+                     "string": "Circle of Confusion: This is a VERY IMPORTANT SETTING. It determines the strength of the blur itself. It does not change the depth of field, it adjusts how much those objects outside of it will be blurry. Also you can access negative values for interesting effects in the spinner text box."
+                  },
+                  "#text": {
+                     "string": "\n          CoC\n        "
+                  }
+               },
+               "slider_bar:SB_CoC": {
+                  "@name": "SB_CoC"
+               },
+               "spinner:S_CoC": {
+                  "@name": "S_CoC"
+               },
+               "button:Reset_CoC": {
+                  "@name": "Reset_CoC",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Resolution": {
+                  "@name": "T_Resolution",
+                  "@tool_tip": {
+                     "string": "Resolution: This determines the quality of the DOF Effect. For non-photography uses '.25' is good. For setting up shots '.50' or '.70' is very nice. For shooting quality images '1.00' is best. High values will slow down your FPS! Also you can access negative values for interesting effects in the spinner text box."
+                  },
+                  "#text": {
+                     "string": "\n          Resolution\n        "
+                  }
+               },
+               "slider_bar:SB_Resolution": {
+                  "@name": "SB_Resolution"
+               },
+               "spinner:S_Resolution": {
+                  "@name": "S_Resolution"
+               },
+               "button:Reset_Resolution": {
+                  "@name": "Reset_Resolution",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               }
+            },
+            "panel:P_Glow_Settings": {
+               "@name": "P_Glow_Settings",
+               "text:T_Glow_Settings": {
+                  "@name": "T_Glow_Settings",
+                  "#text": {
+                     "string": "\n          Glow Settings\n        "
+                  }
+               }
+            },
+            "panel:P_Glow_Quality": {
+               "@name": "P_Glow_Quality",
+               "#comment": "\n        <check_box\n         control_name=\"RenderGlow\"\n         height=\"16\"\n         label=\"Enable Glow Effect (please read the tool tip)\"\n         layout=\"topleft\"\n         left=\"5\"\n         name=\"UseGlow\"\n         top_pad=\"10\"\n         width=\"110\"\n         tool_tip=\"If Shadows are turned on, you must set the Strength to 0.0 to turn off this effect as the check box will not work.\"/>\n        ",
+               "text:T_Glow_Quality": {
+                  "@name": "T_Glow_Quality",
+                  "@tool_tip": {
+                     "string": "This will determine the quality of the glow effect, higher is better. There is little visual difference between 8 and 10."
+                  },
+                  "#text": {
+                     "string": "\n          Quality\n        "
+                  }
+               },
+               "#comment$3": "slider_bar\n         name=\"SB_Glow_Quality\"\n         control_name=\"RenderGlowResolutionPow\"\n         follows=\"top|left\"\n         height=\"16\"\n         decimal_digits=\"0\"\n         increment=\"1\"\n         layout=\"topleft\"\n         left_pad=\"-20\"\n         min_val=\"8\"\n         max_val=\"10\"\n         top_delta=\"-2\"\n         width=\"127\" /",
+               "spinner:S_Glow_Quality": {
+                  "@name": "S_Glow_Quality"
+               },
+               "button:Reset_Glow_Quality": {
+                  "@name": "Reset_Glow_Quality",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               }
+            },
+            "panel:P_Glow_Iterations": {
+               "@name": "P_Glow_Iterations",
+               "text:T_Glow_Iterations": {
+                  "@name": "T_Glow_Iterations",
+                  "@tool_tip": {
+                     "string": "Number of times to iterate/repeat the glow (higher = wider and smoother and a bit slower)."
+                  },
+                  "#text": {
+                     "string": "\n          Iterations\n        "
+                  }
+               },
+               "slider_bar:SB_Glow_Iterations": {
+                  "@name": "SB_Glow_Iterations"
+               },
+               "spinner:S_Glow_Iterations": {
+                  "@name": "S_Glow_Iterations"
+               },
+               "button:Reset_Glow_Iterations": {
+                  "@name": "Reset_Glow_Iterations",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Glow_Strength": {
+                  "@name": "T_Glow_Strength",
+                  "@tool_tip": {
+                     "string": "Additive strength of glow. Very low values are needed to see this effect. Start low!"
+                  },
+                  "#text": {
+                     "string": "\n          Strength\n        "
+                  }
+               },
+               "slider_bar:SB_Glow_Strength": {
+                  "@name": "SB_Glow_Strength"
+               },
+               "spinner:S_Glow_Strength": {
+                  "@name": "S_Glow_Strength"
+               },
+               "button:Reset_Glow_Strength": {
+                  "@name": "Reset_Glow_Strength",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Luminance": {
+                  "@name": "T_Luminance",
+                  "@tool_tip": {
+                     "string": "Minimum luminance intensity necessary to consider an object bright enough to automatically glow."
+                  },
+                  "#text": {
+                     "string": "\n          Luminance\n        "
+                  }
+               },
+               "slider_bar:SB_Luminance": {
+                  "@name": "SB_Luminance"
+               },
+               "spinner:S_Luminance": {
+                  "@name": "S_Luminance"
+               },
+               "button:Reset_Luminance": {
+                  "@name": "Reset_Luminance",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Warmth": {
+                  "@name": "T_Warmth",
+                  "@tool_tip": {
+                     "string": "Amount of warmth extraction to use (versus luminance extraction). 0 = lum, 1.0 = warmth. OFTEN HAS LITTLE OR NO EFFECT!"
+                  },
+                  "#text": {
+                     "string": "\n          Warmth\n        "
+                  }
+               },
+               "slider_bar:SB_Warmth": {
+                  "@name": "SB_Warmth"
+               },
+               "spinner:S_Warmth": {
+                  "@name": "S_Warmth"
+               },
+               "button:Reset_Warmth": {
+                  "@name": "Reset_Warmth",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Glow_Width": {
+                  "@name": "T_Glow_Width",
+                  "@tool_tip": {
+                     "string": "Glow sample size. Higher = wider and softer glow, but eventually it will become more pixelated."
+                  },
+                  "#text": {
+                     "string": "\n          Width\n        "
+                  }
+               },
+               "slider_bar:SB_Glow_Width": {
+                  "@name": "SB_Glow_Width"
+               },
+               "spinner:S_Glow_Width": {
+                  "@name": "S_Glow_Width"
+               },
+               "button:Reset_Glow_Width": {
+                  "@name": "Reset_Glow_Width",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Alpha": {
+                  "@name": "T_Alpha",
+                  "@tool_tip": {
+                     "string": "Basically how bright the glow is allowed to get."
+                  },
+                  "#text": {
+                     "string": "\n          Alpha\n        "
+                  }
+               },
+               "slider_bar:SB_Alpha": {
+                  "@name": "SB_Alpha"
+               },
+               "spinner:S_Alpha": {
+                  "@name": "S_Alpha"
+               },
+               "button:Reset_Alpha": {
+                  "@name": "Reset_Alpha",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               }
+            }
+         },
+         "panel:P_General": {
+            "@name": "P_General",
+            "@label": {
+               "string": "Gen"
+            },
+            "panel:PT_General": {
+               "@name": "PT_General",
+               "text:T_General": {
+                  "@name": "T_General",
+                  "#text": {
+                     "string": "\n          General Render Settings\n        "
+                  }
+               }
+            },
+            "panel:P_General_Settings": {
+               "@name": "P_General_Settings",
+               "text:T_Draw_Distance": {
+                  "@name": "T_Draw_Distance",
+                  "@tool_tip": {
+                     "string": "This sets the furthest distance the viewer will draw anything. High values will slow your FPS!"
+                  },
+                  "#text": {
+                     "string": "\n          Draw Dist.\n        "
+                  }
+               },
+               "slider_bar:SB_Draw_Distance": {
+                  "@name": "SB_Draw_Distance"
+               },
+               "spinner:S_Draw_Distance": {
+                  "@name": "S_Draw_Distance"
+               },
+               "button:Reset_Draw_Distance": {
+                  "@name": "Reset_Draw_Distance",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Avi_Count": {
+                  "@name": "T_Avi_Count",
+                  "@tool_tip": {
+                     "string": "Maximum number of other avatars to render in a scene. Very helpful for situations where many avatars are slowing your FPS."
+                  },
+                  "#text": {
+                     "string": "\n          Avi Count\n        "
+                  }
+               },
+               "slider_bar:SB_Avi_Count": {
+                  "@name": "SB_Avi_Count"
+               },
+               "spinner:S_Avi_Count": {
+                  "@name": "S_Avi_Count"
+               },
+               "button:Reset_Avi_Count": {
+                  "@name": "Reset_Avi_Count",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Avi_Detail": {
+                  "@name": "T_Avi_Detail",
+                  "@tool_tip": {
+                     "string": "Sets the render quality of the avatars. Higher is better!"
+                  },
+                  "#text": {
+                     "string": "\n          Avi Detail\n        "
+                  }
+               },
+               "slider_bar:SB_Avi_Detail": {
+                  "@name": "SB_Avi_Detail"
+               },
+               "spinner:S_Avi_Detail": {
+                  "@name": "S_Avi_Detail"
+               },
+               "button:Reset_Avi_Detail": {
+                  "@name": "Reset_Avi_Detail",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Avi_Physics": {
+                  "@name": "T_Avi_Physics",
+                  "@tool_tip": {
+                     "string": "Controls level of detail of avatar physics (such as chest physics). Higher is better."
+                  },
+                  "#text": {
+                     "string": "\n          Avi Physics\n        "
+                  }
+               },
+               "slider_bar:SB_Avi_Physics": {
+                  "@name": "SB_Avi_Physics"
+               },
+               "spinner:S_Avi_Physics": {
+                  "@name": "S_Avi_Physics"
+               },
+               "button:Reset_Avi_Physics": {
+                  "@name": "Reset_Avi_Physics",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Particle_Cnt": {
+                  "@name": "T_Particle_Cnt",
+                  "@tool_tip": {
+                     "string": "Sets the maximum number of particles to render."
+                  },
+                  "#text": {
+                     "string": "\n          Particle Cnt.\n        "
+                  }
+               },
+               "slider_bar:SB_Particle_Cnt": {
+                  "@name": "SB_Particle_Cnt"
+               },
+               "spinner:S_Particle_Cnt": {
+                  "@name": "S_Particle_Cnt"
+               },
+               "button:Reset_Particle_Cnt": {
+                  "@name": "Reset_Particle_Cnt",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Terrain_Scale": {
+                  "@name": "T_Terrain_Scale",
+                  "@tool_tip": {
+                     "string": "Sets the quality of the default ground (terrain) texture."
+                  },
+                  "#text": {
+                     "string": "\n          Terr. Scale\n        "
+                  }
+               },
+               "slider_bar:SB_Terrain_Scale": {
+                  "@name": "SB_Terrain_Scale"
+               },
+               "spinner:S_Terrain_Scale": {
+                  "@name": "S_Terrain_Scale"
+               },
+               "button:Reset_Terrain_Scale": {
+                  "@name": "Reset_Terrain_Scale",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Terrain_Quality": {
+                  "@name": "T_Terrain_Quality",
+                  "@tool_tip": {
+                     "string": "Sets the quality of terrain. High numbers mean more detailed terrain in the distance."
+                  },
+                  "#text": {
+                     "string": "\n          Terrain Qal\n        "
+                  }
+               },
+               "slider_bar:SB_Terrain_Quality": {
+                  "@name": "SB_Terrain_Quality"
+               },
+               "spinner:S_Terrain_Quality": {
+                  "@name": "S_Terrain_Quality"
+               },
+               "button:Reset_Terrain_Quality": {
+                  "@name": "Reset_Terrain_Quality",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Object_Detail": {
+                  "@name": "T_Object_Detail",
+                  "@tool_tip": {
+                     "string": "Controls when lower-detail objects can be used to reduce rendering cost. Higher values cause lag, use with care."
+                  },
+                  "#text": {
+                     "string": "\n          Obj. Detail\n        "
+                  }
+               },
+               "slider_bar:SB_Object_Detail": {
+                  "@name": "SB_Object_Detail"
+               },
+               "spinner:S_Object_Detail": {
+                  "@name": "S_Object_Detail"
+               },
+               "button:Reset_Object_Detail": {
+                  "@name": "Reset_Object_Detail",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Flexi_Detail": {
+                  "@name": "T_Flexi_Detail",
+                  "@tool_tip": {
+                     "string": "Controls level of detail of flexible objects. Higher means more detail."
+                  },
+                  "#text": {
+                     "string": "\n          Flexiprims\n        "
+                  }
+               },
+               "slider_bar:SB_Flexi_Detail": {
+                  "@name": "SB_Flexi_Detail"
+               },
+               "spinner:S_Flexi_Detail": {
+                  "@name": "S_Flexi_Detail"
+               },
+               "button:Reset_Flexi_Detail": {
+                  "@name": "Reset_Flexi_Detail",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Tree_Detail": {
+                  "@name": "T_Tree_Detail",
+                  "@tool_tip": {
+                     "string": "Controls level of detail of vegetation. Higher numbers produce greater detail."
+                  },
+                  "#text": {
+                     "string": "\n          Tree Detail\n        "
+                  }
+               },
+               "slider_bar:SB_Tree_Detail": {
+                  "@name": "SB_Tree_Detail"
+               },
+               "spinner:S_Tree_Detail": {
+                  "@name": "S_Tree_Detail"
+               },
+               "button:Reset_Tree_Detail": {
+                  "@name": "Reset_Tree_Detail",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Sky_Detail": {
+                  "@name": "T_Sky_Detail",
+                  "@tool_tip": {
+                     "string": "Controls vertex detail on the WindLight sky. Lower numbers will give better performance and less than lovely skies."
+                  },
+                  "#text": {
+                     "string": "\n          Sky Detail\n        "
+                  }
+               },
+               "slider_bar:SB_Sky_Detail": {
+                  "@name": "SB_Sky_Detail"
+               },
+               "spinner:S_Sky_Detail": {
+                  "@name": "S_Sky_Detail"
+               },
+               "button:Reset_Sky_Detail": {
+                  "@name": "Reset_Sky_Detail",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               }
+            },
+            "#comment": "view_border\n       bevel_style=\"none\"\n       follows=\"left|top\"\n       height=\"0\"\n       layout=\"topleft\"\n       left=\"10\"\n       name=\"horiz_separator4\"\n       top_pad=\"5\"\n       width=\"260\"/",
+            "panel:P_Vignetting": {
+               "@name": "P_Vignetting",
+               "text:T_VignetteX": {
+                  "@name": "T_VignetteX",
+                  "@tool_tip": {
+                     "string": ""
+                  },
+                  "#text": {
+                     "string": "\n         Vig. Amount\n        "
+                  }
+               },
+               "slider_bar:VignetteSliderX": {
+                  "@name": "VignetteSliderX"
+               },
+               "spinner:VignetteSpinnerX": {
+                  "@name": "VignetteSpinnerX"
+               },
+               "button:Reset_VignetteX": {
+                  "@name": "Reset_VignetteX",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  }
+               },
+               "text:T_VignetteY": {
+                  "@name": "T_VignetteY",
+                  "@tool_tip": {
+                     "string": ""
+                  },
+                  "#text": {
+                     "string": "\n         Vig. Power\n        "
+                  }
+               },
+               "slider_bar:VignetteSliderY": {
+                  "@name": "VignetteSliderY"
+               },
+               "spinner:VignetteSpinnerY": {
+                  "@name": "VignetteSpinnerY"
+               },
+               "button:Reset_VignetteY": {
+                  "@name": "Reset_VignetteY",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  }
+               },
+               "text:T_VignetteZ": {
+                  "@name": "T_VignetteZ",
+                  "@tool_tip": {
+                     "string": ""
+                  },
+                  "#text": {
+                     "string": "\n         Vig. Multiply\n        "
+                  }
+               },
+               "slider_bar:VignetteSliderZ": {
+                  "@name": "VignetteSliderZ"
+               },
+               "spinner:VignetteSpinnerZ": {
+                  "@name": "VignetteSpinnerZ"
+               },
+               "button:Reset_VignetteZ": {
+                  "@name": "Reset_VignetteZ",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  }
+               }
+            },
+            "panel:P_Render": {
+               "@name": "P_Render",
+               "check_box:UseFarClip": {
+                  "@label": {
+                     "string": "Enable Draw Distance"
+                  },
+                  "@name": "UseFarClip",
+                  "@tool_tip": {
+                     "string": "Enable Draw Distance, if you disable this feature the Viewer will render past your set draw distance."
+                  }
+               },
+               "check_box:RednerLod1": {
+                  "@label": {
+                     "string": "Dynamically adjust level of detail"
+                  },
+                  "@name": "RednerLod1",
+                  "@tool_tip": {
+                     "string": "This enables the feature that allows the viewer to dynamically adjust the level of detail in scene as you move further away from objects. It helps improve performance, it also can reduce the quality of the objects in the scene."
+                  }
+               },
+               "check_box:UssOcclusion1": {
+                  "@label": {
+                     "string": "Render only Objects visible to the Camera"
+                  },
+                  "@tool_tip": {
+                     "string": "This allows the viewer only to process/draw those objects that are within the camera field of view and not hidden behind anything else. Usually this is a performance booster. Sometimes it can actually reduce performance especially when the scene/sim has few objects. Toggle to see if it helps or not!"
+                  },
+                  "@name": "UssOcclusion1"
+               },
+               "check_box:Anisotropic": {
+                  "@label": {
+                     "string": "Anisotropic Filtering (texture crispness)"
+                  },
+                  "@tool_tip": {
+                     "string": "This enables higher texture crispness."
+                  },
+                  "@name": "Anisotropic"
+               },
+               "check_box:Render Attached Particle": {
+                  "@label": {
+                     "string": "Render Particles Attached to other Avatars"
+                  },
+                  "@tool_tip": {
+                     "string": "Enables the viewer to render any and all particles attached to/coming from other avatars."
+                  },
+                  "@name": "Render Attached Particle",
+                  "check_box.on_check": null,
+                  "check_box.check_button.commit_callback": null
+               }
+            },
+            "#comment$7": "view_border\n       bevel_style=\"none\"\n       follows=\"left|top\"\n       height=\"0\"\n       layout=\"topleft\"\n       left=\"10\"\n       name=\"horiz_separator5\"\n       top_pad=\"5\"\n       width=\"260\"/",
+            "panel:P_Anti-aliasing": {
+               "@name": "P_Anti-aliasing",
+               "text:T_Anti-aliasing": {
+                  "@name": "T_Anti-aliasing",
+                  "@tool_tip": {
+                     "string": "Determines how sharp and smooth the edges of objects will be. On top level graphics cards, higher values have virtually NO performance impact. On lower graphics cards, higher values can slow performance."
+                  },
+                  "#text": {
+                     "string": "\n          Anti-aliasing\n        "
+                  }
+               },
+               "combo_box:fsaa": {
+                  "@label": {
+                     "string": "Antialiasing"
+                  },
+                  "@name": "fsaa",
+                  "combo_box.item:FSAADisabled": {
+                     "@label": {
+                        "string": "Disabled (Rougher Edges)"
+                     },
+                     "@name": "FSAADisabled"
+                  },
+                  "combo_box.item:2x": {
+                     "@label": {
+                        "string": "2x (Smooth Edges)"
+                     },
+                     "@name": "2x"
+                  },
+                  "combo_box.item:4x": {
+                     "@label": {
+                        "string": "4x (Smoother Edges)"
+                     },
+                     "@name": "4x"
+                  },
+                  "combo_box.item:8x": {
+                     "@label": {
+                        "string": "8x (Even Smoother)"
+                     },
+                     "@name": "8x"
+                  },
+                  "combo_box.item:16x": {
+                     "@label": {
+                        "string": "16x (Smoothest)"
+                     },
+                     "@name": "16x"
+                  }
+               },
+               "text:T_Texture_Bumpiness": {
+                  "@name": "T_Texture_Bumpiness",
+                  "@tool_tip": {
+                     "string": "Controls the strength and resolution of normal and bump maps."
+                  },
+                  "#text": {
+                     "string": "\n          Texture Bumpiness\n        "
+                  }
+               },
+               "combo_box:BumpStrengthSelection": {
+                  "@name": "BumpStrengthSelection",
+                  "combo_box.item:0": {
+                     "@label": {
+                        "string": "Very fine (very weak)"
+                     },
+                     "@name": "0"
+                  },
+                  "combo_box.item:1": {
+                     "@label": {
+                        "string": "Finer (weaker)"
+                     },
+                     "@name": "1"
+                  },
+                  "combo_box.item:2": {
+                     "@label": {
+                        "string": "Fine (weak)"
+                     },
+                     "@name": "2"
+                  },
+                  "combo_box.item:3": {
+                     "@label": {
+                        "string": "Normal"
+                     },
+                     "@name": "3"
+                  },
+                  "combo_box.item:4": {
+                     "@label": {
+                        "string": "Rough (stronger)"
+                     },
+                     "@name": "4"
+                  },
+                  "combo_box.item:5": {
+                     "@label": {
+                        "string": "Rougher (very strong)"
+                     },
+                     "@name": "5"
+                  },
+                  "combo_box.commit_callback": null
+               }
+            }
+         },
+         "panel:P_Aids": {
+            "@name": "P_Aids",
+            "@label": {
+               "string": "Aids"
+            },
+            "panel:PT_Aids": {
+               "@name": "PT_Aids",
+               "text:T_Aids": {
+                  "@name": "T_Aids",
+                  "#text": {
+                     "string": "\n          Interface Aids\n        "
+                  }
+               }
+            },
+            "check_box:Lights": {
+               "@label": {
+                  "string": "Show Bounding Boxes for All Lights in Scene"
+               },
+               "@name": "Lights",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Show Light Radius for Selection": {
+               "@label": {
+                  "string": "Show Light Radius for Selected Light(s)"
+               },
+               "@name": "Show Light Radius for Selection",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Bounding Boxes": {
+               "@label": {
+                  "string": "Show Bounding Boxes for Objects in Scene"
+               },
+               "@name": "Bounding Boxes",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Statistics Bar": {
+               "@label": {
+                  "string": "Show the Statistics Bar"
+               },
+               "@name": "Statistics Bar",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Camera": {
+               "@label": {
+                  "string": "Show Detailed Camera Position Data"
+               },
+               "@name": "Camera",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Texture Console": {
+               "@label": {
+                  "string": "Show Detailed Texture Loading Information"
+               },
+               "@name": "Texture Console",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Show Color Under Cursor": {
+               "@label": {
+                  "string": "Show RGB-I Color Values Under Cursor"
+               },
+               "@name": "Show Color Under Cursor",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Highlight Transparent": {
+               "@label": {
+                  "string": "Highlight Transparent Objects in Red"
+               },
+               "@name": "Highlight Transparent",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Wireframe": {
+               "@label": {
+                  "string": "Show the Scene as Wireframe"
+               },
+               "@name": "Wireframe",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Show HUD Attachments": {
+               "@label": {
+                  "string": "Show the HUD attached to Your Avatar"
+               },
+               "@name": "Show HUD Attachments",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Slow Motion Animations": {
+               "@label": {
+                  "string": "Slow-mo Your Avatar (in your viewer only)"
+               },
+               "@name": "Slow Motion Animations",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "button:Rebake Texture": {
+               "@name": "Rebake Texture",
+               "@label": {
+                  "string": "Force Appearance Update (Rebake)"
+               },
+               "button.commit_callback": null
+            },
+            "button:Set Window Size...": {
+               "@name": "Set Window Size...",
+               "@label": {
+                  "string": "Set Window Viewer Size..."
+               },
+               "button.commit_callback": null
+            },
+            "button:Debug Settings": {
+               "@name": "Debug Settings",
+               "@label": {
+                  "string": "Show Debug Settings Menu"
+               },
+               "button.commit_callback": null
+            },
+            "#comment": "view_border\n       bevel_style=\"none\"\n       follows=\"left|top\"\n       height=\"0\"\n       layout=\"topleft\"\n       left=\"10\"\n       name=\"horiz_separator6\"\n       top_pad=\"265\"\n       width=\"260\"/",
+            "panel:P_Quick_Stats": {
+               "@name": "P_Quick_Stats",
+               "text:T_Quick_Stats": {
+                  "@name": "T_Quick_Stats",
+                  "@tool_tip": {
+                     "string": "Here you can find some very useful stats for gauging system performance. Expand/Collapse the items below by clicking their labels."
+                  },
+                  "#text": {
+                     "string": "\n          Quick Stats\n        "
+                  }
+               }
+            },
+            "scroll_container:statistics_scroll": {
+               "@name": "statistics_scroll",
+               "container_view:statistics_view": {
+                  "@name": "statistics_view",
+                  "stat_view:basic": {
+                     "@name": "basic",
+                     "stat_bar:fps": {
+                        "@name": "fps",
+                        "@label": {
+                           "string": "Frames Per Seccond"
+                        },
+                        "@tool_tip": {
+                           "string": "FPS: The number of times per second your computer is redrawing (or refreshing) what's on the screen. Higher numbers are better. A framerate between 12 to 15 is common for animations, 24 is the standard for motion pictures, and 25 (PAL)/30 (NTSC) frames per second (FPS) is the rate for broadcast television."
+                        }
+                     },
+                     "stat_bar:bandwidth": {
+                        "@name": "bandwidth",
+                        "@label": {
+                           "string": "Bandwidth"
+                        },
+                        "@tool_tip": {
+                           "string": "Bandwidth: How much data is being transferred between your computer and the Virtual World. This number varies wildly depending on what bandwidth settings you've used, where you are inworld, what's going on, and whether you're still loading some things (objects/textures/etc) that are in your field of view. If bandwidth is 0 Kbps, something may be wrong (you may be partially disconnected)."
+                        }
+                     },
+                     "stat_bar:ktrisframe": {
+                        "@name": "ktrisframe",
+                        "@label": {
+                           "string": "KTris Drawn per Frame"
+                        },
+                        "@tool_tip": {
+                           "string": "KTris Drawn: (per frame) Computer-generated 3D objects are built out of triangles (the basic geometric shape). This is a count of the number of triangles, or 'tris', in each frame of the current scene."
+                        }
+                     },
+                     "stat_bar:ktrissec": {
+                        "@name": "ktrissec",
+                        "@label": {
+                           "string": "KTris Drawn per Sec"
+                        },
+                        "@tool_tip": {
+                           "string": "KTris Drawn: (per second) Computer-generated 3D objects are built out of triangles (the basic geometric shape). This is a count of the number of triangles ('tris') drawn every second."
+                        }
+                     },
+                     "stat_bar:objs": {
+                        "@name": "objs",
+                        "@label": {
+                           "string": "Total Objects"
+                        },
+                        "@tool_tip": {
+                           "string": "Total Objs: The number of objects currently in view, which includes: Prims, Avatars, Terrain patches, Trees, Particle groups, and Water patches."
+                        }
+                     },
+                     "stat_bar:newobjs": {
+                        "@name": "newobjs",
+                        "@label": {
+                           "string": "New Objects"
+                        },
+                        "@tool_tip": {
+                           "string": "New Objs: The number of objects being downloaded per second."
+                        }
+                     },
+                     "stat_bar:numimagesstat": {
+                        "@name": "numimagesstat",
+                        "@label": {
+                           "string": "Texture Count"
+                        },
+                        "@tool_tip": {
+                           "string": "Count: The number of unique textures loaded by the viewer."
+                        }
+                     }
+                  }
+               }
+            }
+         },
+         "panel:P_Cam": {
+            "@name": "P_Cam",
+            "@label": {
+               "string": "Cam"
+            },
+            "panel:PT_Cam": {
+               "@name": "PT_Cam",
+               "text:T_Cam": {
+                  "@name": "T_Cam",
+                  "#text": {
+                     "string": "\n          3D Mouse (Joystick) Settings\n        "
+                  }
+               }
+            },
+            "panel:P_Cam_Settings": {
+               "@name": "P_Cam_Settings",
+               "text:T_LR_Axis": {
+                  "@name": "T_LR_Axis",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Left/Right movement. If you find it difficult to move with precision, use lower scale values."
+                  },
+                  "#text": {
+                     "string": "\n          Left/Right\n        "
+                  }
+               },
+               "slider_bar:SB_LR_Axis": {
+                  "@name": "SB_LR_Axis"
+               },
+               "spinner:S_LR_Axis": {
+                  "@name": "S_LR_Axis"
+               },
+               "button:Reset_LR_Axis": {
+                  "@name": "Reset_LR_Axis",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_UD_Axis": {
+                  "@name": "T_UD_Axis",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Up/Down movement. If you find it difficult to move with precision, use lower scale values."
+                  },
+                  "#text": {
+                     "string": "\n          Up/Down\n        "
+                  }
+               },
+               "slider_bar:SB_UD_Axis": {
+                  "@name": "SB_UD_Axis"
+               },
+               "spinner:S_UD_Axis": {
+                  "@name": "S_UD_Axis"
+               },
+               "button:Reset_UD_Axis": {
+                  "@name": "Reset_UD_Axis",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_IO_Axis": {
+                  "@name": "T_IO_Axis",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the In/Out movement. If you find it difficult to move with precision, use lower scale values."
+                  },
+                  "#text": {
+                     "string": "\n          In/Out\n        "
+                  }
+               },
+               "slider_bar:SB_IO_Axis": {
+                  "@name": "SB_IO_Axis"
+               },
+               "spinner:S_IO_Axis": {
+                  "@name": "S_IO_Axis"
+               },
+               "button:Reset_IO_Axis": {
+                  "@name": "Reset_IO_Axis",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Tilt": {
+                  "@name": "T_Tilt",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Pitch movement. If you find it difficult to move with precision, use lower scale values."
+                  },
+                  "#text": {
+                     "string": "\n          Pitch\n        "
+                  }
+               },
+               "slider_bar:SB_Tilt": {
+                  "@name": "SB_Tilt"
+               },
+               "spinner:S_Tilt": {
+                  "@name": "S_Tilt"
+               },
+               "button:Reset_Tilt": {
+                  "@name": "Reset_Tilt",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Spin": {
+                  "@name": "T_Spin",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Yaw movement. If you find it difficult to move with precision, use lower scale values."
+                  },
+                  "#text": {
+                     "string": "\n          Yaw\n        "
+                  }
+               },
+               "slider_bar:SB_Spin": {
+                  "@name": "SB_Spin"
+               },
+               "spinner:S_Spin": {
+                  "@name": "S_Spin"
+               },
+               "button:Reset_Spin": {
+                  "@name": "Reset_Spin",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Roll": {
+                  "@name": "T_Roll",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Roll movement. If you find it difficult to move with precision, use lower scale values."
+                  },
+                  "#text": {
+                     "string": "\n          Roll\n        "
+                  }
+               },
+               "slider_bar:SB_Roll": {
+                  "@name": "SB_Roll"
+               },
+               "spinner:S_Roll": {
+                  "@name": "S_Roll"
+               },
+               "button:Reset_Roll": {
+                  "@name": "Reset_Roll",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Zoom_Speed": {
+                  "@name": "T_Zoom_Speed",
+                  "@tool_tip": {
+                     "string": "Adjusts the sensitivity of the Zoom speed. If you find it difficult to zoom with precision, use lower scale values."
+                  },
+                  "#text": {
+                     "string": "\n          Zoom Spd\n        "
+                  }
+               },
+               "slider_bar:SB_Zoom_Speed": {
+                  "@name": "SB_Zoom_Speed"
+               },
+               "spinner:S_Zoom_Speed": {
+                  "@name": "S_Zoom_Speed"
+               },
+               "button:Reset_Zoom_Speed": {
+                  "@name": "Reset_Zoom_Speed",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               },
+               "text:T_Feathering": {
+                  "@name": "T_Feathering",
+                  "@tool_tip": {
+                     "string": "Setting the slider all the way to the right will make the camera very rigid, giving complete control to the joystick. Setting the slider all the way to the left will make the camera very fluid like the camera weighs a lot; good for fly-by shots, not good for framing."
+                  },
+                  "#text": {
+                     "string": "\n          Feathering\n        "
+                  }
+               },
+               "slider_bar:SB_Feathering": {
+                  "@name": "SB_Feathering"
+               },
+               "spinner:S_Feathering": {
+                  "@name": "S_Feathering"
+               },
+               "button:Reset_Feathering": {
+                  "@name": "Reset_Feathering",
+                  "@label": {
+                     "string": "D"
+                  },
+                  "@tool_tip": {
+                     "string": "Reset to the default value."
+                  },
+                  "button.commit_callback": null
+               }
+            },
+            "panel:P_Axis_Mapping": {
+               "@name": "P_Axis_Mapping",
+               "spinner:JoystickAxis6": {
+                  "@label": {
+                     "string": "Zoom Axis Mapping"
+                  },
+                  "@name": "JoystickAxis6",
+                  "@tool_tip": {
+                     "string": "Controls which mouse axis the zooming function is mapped to (set to work with)."
+                  }
+               },
+               "check_box:enable_joystick": {
+                  "@label": {
+                     "string": "Enable 3D Mouse"
+                  },
+                  "@tool_tip": {
+                     "string": "This turns on the 3D Mouse."
+                  },
+                  "@name": "enable_joystick"
+               },
+               "check_box:CB_ZoomDirect": {
+                  "@name": "CB_ZoomDirect",
+                  "@label": {
+                     "string": "Enable Zoom Control (See Tool Tip!)"
+                  },
+                  "@tool_tip": {
+                     "string": "In order for the zooming control to work, you must set the 'Zoom Axis Mapping' above to '4'."
+                  }
+               },
+               "check_box:CB_AutoLeveling": {
+                  "@name": "CB_AutoLeveling",
+                  "@label": {
+                     "string": "Enable Auto Leveling (Prevents Camera Roll)"
+                  },
+                  "@tool_tip": {
+                     "string": "When enabled the camera will always remain level."
+                  }
+               },
+               "check_box:CB_Move_Avatar": {
+                  "@name": "CB_Move_Avatar",
+                  "@label": {
+                     "string": "Use the 3D Mouse to move the avatar"
+                  },
+                  "@tool_tip": {
+                     "string": "When enabled the mouse will move your avatar."
+                  }
+               },
+               "check_box:CB_Move_Objects": {
+                  "@name": "CB_Move_Objects",
+                  "@label": {
+                     "string": "Use the 3D Mouse to move objects (building)"
+                  },
+                  "@tool_tip": {
+                     "string": "Uses the 3D mouse to move objects when building and editing."
+                  }
+               },
+               "check_box:CAM_Show_FOV": {
+                  "@label": {
+                     "string": "Show the Current FOV of Viewer Screen"
+                  },
+                  "@tool_tip": {
+                     "string": "This will show you the vertical field of view for the camera. Within the viewer it is possible to change the lens length just like in real life. The smaller the FOV the longer the camera lens. A 50mm lens has a FOV of 27.0 degrees. To adjust the FOV use the zoom slider bar below. Please see: 'http://en.wikipedia.org/wiki/Angle_of_view' for a table showing the relationship between FOV and Lens Focal Length (mm). TURN IT OFF BEFORE YOU TAKE SNAPSHOTS OR IT WILL BE IN THE PICTURE!"
+                  },
+                  "@name": "CAM_Show_FOV",
+                  "check_box.on_check": null,
+                  "check_box.check_button.commit_callback": null
+               },
+               "check_box:Camera": {
+                  "@label": {
+                     "string": "Show Detailed Camera Position Data"
+                  },
+                  "@name": "Camera",
+                  "check_box.on_check": null,
+                  "check_box.check_button.commit_callback": null
+               }
+            },
+            "panel:P_Viewer_Cam_Menu": {
+               "@name": "P_Viewer_Cam_Menu",
+               "text:PT_Viewer_Cam_Menu": {
+                  "@name": "PT_Viewer_Cam_Menu",
+                  "#text": {
+                     "string": "\n          Viewer Camera Menu Settings\n        "
+                  }
+               }
+            },
+            "panel:P_Viewer_Cam_Menu_Settings": {
+               "@name": "P_Viewer_Cam_Menu_Settings",
+               "tab_container:TC_Viewer_Cam_Menu_Settings": {
+                  "@name": "TC_Viewer_Cam_Menu_Settings",
+                  "panel:CamMov": {
+                     "@name": "CamMov",
+                     "@label": {
+                        "string": "Camera Movement"
+                     },
+                     "panel:P_Cam2": {
+                        "@name": "P_Cam2",
+                        "text:T_Zoom2": {
+                           "@name": "T_Zoom2",
+                           "@tool_tip": {
+                              "string": "In real world terms this is a Zoom feature. This will change the field of view in your viewer window. It is the same as hitting Ctrl + 0 or Ctrl+8. NOTE: This will not function if you have flycam enabled (3D SpaceNavigator)."
+                           },
+                           "#text": {
+                              "string": "\n                View angle\n              "
+                           }
+                        },
+                        "slider:SB_Zoom2": {
+                           "@name": "SB_Zoom2"
+                        },
+                        "#comment": "spinner\n               name=\"S_Zoom2\"\n               control_name=\"CameraAngle\"\n               top_delta=\"-3\"\n               label_width=\"0\"\n               left_delta=\"120\"\n               decimal_digits=\"3\"\n               follows=\"top|right\"\n               max_val=\"3.06\"\n               min_val=\"0.08\"\n               width=\"53\"\n               increment=\"0.001\"/",
+                        "button:Reset_Zoom2": {
+                           "@name": "Reset_Zoom2",
+                           "@label": {
+                              "string": "D"
+                           },
+                           "@tool_tip": {
+                              "string": "Reset to the default value."
+                           },
+                           "button.commit_callback": null
+                        },
+                        "text:T_Zoom_Speed2": {
+                           "@name": "T_Zoom_Speed2",
+                           "@tool_tip": {
+                              "string": "Controls how fast/slow the camera will zoom in and out. Higher values produce slower and smoother zoom."
+                           },
+                           "#text": {
+                              "string": "\n                Zoom Speed\n              "
+                           }
+                        },
+                        "slider:S_Zoom_Speed2": {
+                           "@name": "S_Zoom_Speed2"
+                        },
+                        "button:Reset_Zoom_Speed2": {
+                           "@name": "Reset_Zoom_Speed2",
+                           "@label": {
+                              "string": "D"
+                           },
+                           "@tool_tip": {
+                              "string": "Reset to the default value."
+                           },
+                           "button.commit_callback": null
+                        },
+                        "text:T_Camera_Lag": {
+                           "@name": "T_Camera_Lag",
+                           "@tool_tip": {
+                              "string": "Amount camera lags behind avatar motion (0 = none, 30 = avatar velocity)."
+                           },
+                           "#text": {
+                              "string": "\n                Camera Lag\n              "
+                           }
+                        },
+                        "slider:S_Camera_Lag": {
+                           "@name": "S_Camera_Lag"
+                        },
+                        "button:Reset_Camera_Lag": {
+                           "@name": "Reset_Camera_Lag",
+                           "@label": {
+                              "string": "D"
+                           },
+                           "@tool_tip": {
+                              "string": "Reset to the default value."
+                           },
+                           "button.commit_callback": null
+                        },
+                        "text:T_Camera_Offset": {
+                           "@name": "T_Camera_Offset",
+                           "@tool_tip": {
+                              "string": "Controls how far the camera is offset/distance from the default point of view."
+                           },
+                           "#text": {
+                              "string": "\n                Camera Offset\n              "
+                           }
+                        },
+                        "slider:S_Camera_Offset": {
+                           "@name": "S_Camera_Offset"
+                        },
+                        "button:Reset_Camera_Offset": {
+                           "@name": "Reset_Camera_Offset",
+                           "@label": {
+                              "string": "D"
+                           },
+                           "@tool_tip": {
+                              "string": "Reset to the default value."
+                           },
+                           "button.commit_callback": null
+                        },
+                        "text:T_Cam_Smoothing": {
+                           "@name": "T_Cam_Smoothing",
+                           "@tool_tip": {
+                              "string": "Controls how smoothly the camera starts and stops. Higher values produce smoother (and somewhat slower) movement."
+                           },
+                           "#text": {
+                              "string": "\n                Cam. Smoothing\n              "
+                           }
+                        },
+                        "slider:S_Cam_Smoothing": {
+                           "@name": "S_Cam_Smoothing"
+                        },
+                        "button:Reset_Cam_Smoothing": {
+                           "@name": "Reset_Cam_Smoothing",
+                           "@label": {
+                              "string": "D"
+                           },
+                           "@tool_tip": {
+                              "string": "Reset to the default value."
+                           },
+                           "button.commit_callback": null
+                        }
+                     }
+                  },
+                  "panel:P_Mouse": {
+                     "@name": "P_Mouse",
+                     "@label": {
+                        "string": "Mouse"
+                     },
+                     "panel:P_Mouse_Settings": {
+                        "@name": "P_Mouse_Settings",
+                        "text:T_Mouse_Sens": {
+                           "@name": "T_Mouse_Sens",
+                           "@tool_tip": {
+                              "string": "Controls responsiveness of mouse when in mouselook mode."
+                           },
+                           "#text": {
+                              "string": "\n                Mouse Sensitivity\n              "
+                           }
+                        },
+                        "slider:S_Mouse_Sens": {
+                           "@name": "S_Mouse_Sens"
+                        },
+                        "button:Reset_Mouse_Sens": {
+                           "@name": "Reset_Mouse_Sens",
+                           "@label": {
+                              "string": "D"
+                           },
+                           "@tool_tip": {
+                              "string": "Reset to the default value."
+                           },
+                           "button.commit_callback": null
+                        },
+                        "check_box:first_person_avatar_visible": {
+                           "@label": {
+                              "string": "Display avatar & attachments in mouselook"
+                           },
+                           "@tool_tip": {
+                              "string": "Displays avatar and attachments below neck while in mouselook. Default is OFF."
+                           },
+                           "@name": "first_person_avatar_visible"
+                        },
+                        "check_box:MouseSmooth": {
+                           "@label": {
+                              "string": "Smooth Mouselook Movements"
+                           },
+                           "@tool_tip": {
+                              "string": "Smooths out motion of mouse when in mouselook mode."
+                           },
+                           "@name": "MouseSmooth"
+                        }
+                     }
+                  },
+                  "panel:P_Misc": {
+                     "@name": "P_Misc",
+                     "@label": {
+                        "string": "Misc Settings"
+                     },
+                     "panel:P_Misc_Settings": {
+                        "@name": "P_Misc_Settings",
+                        "check_box:clickonavatarkeepscamera": {
+                           "@label": {
+                              "string": "Clicking your avatar keeps camera position"
+                           },
+                           "@name": "clickonavatarkeepscamera",
+                           "@tool_tip": {
+                              "string": "Normally, clicking on your avatar resets the camera position. This option removes this behavior."
+                           }
+                        },
+                        "check_box:FSResetCameraOnTP": {
+                           "@label": {
+                              "string": "Reset camera position after teleport"
+                           },
+                           "@name": "FSResetCameraOnTP",
+                           "@tool_tip": {
+                              "string": "Normally, the camera position gets reset when teleporting (within a region). This option prevents this behavior."
+                           }
+                        },
+                        "check_box:disableminzoomdist": {
+                           "@label": {
+                              "string": "Disable minimum camera zoom distance"
+                           },
+                           "@name": "disableminzoomdist",
+                           "@tool_tip": {
+                              "string": "Disable the constraint on the closest distance the camera is allowed to get to an object."
+                           }
+                        },
+                        "check_box:ignorecameraconstraints": {
+                           "@label": {
+                              "string": "Allow the camera to move w/o constraints"
+                           },
+                           "@name": "ignorecameraconstraints",
+                           "@tool_tip": {
+                              "string": "Ignores the 'push' the simulator applies to your camera to keep it out of objects. REQUIRES RESTART!"
+                           }
+                        },
+                        "check_box:resetcamerapositiononmovement": {
+                           "@label": {
+                              "string": "Reset camera position on avatar movement"
+                           },
+                           "@name": "resetcamerapositiononmovement",
+                           "@tool_tip": {
+                              "string": "Resets the camera to its default position when you move the avatar"
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

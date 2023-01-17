@@ -1,0 +1,65 @@
+{
+   "floater": {
+      "@name": "track picker",
+      "@title": {
+         "string": "Pick Track"
+      },
+      "layout_stack:adjuster": {
+         "@name": "adjuster",
+         "layout_panel:pnl_desc": {
+            "@name": "pnl_desc",
+            "text:select_description": {
+               "@name": "select_description",
+               "#text": {
+                  "string": "\n                Select source sky:\n            "
+               }
+            }
+         },
+         "layout_panel:pnl_traks": {
+            "@name": "pnl_traks",
+            "radio_group:track_selection": {
+               "@name": "track_selection",
+               "radio_item:radio_sky4": {
+                  "@label": {
+                     "string": "Sky4 [ALT]"
+                  },
+                  "@name": "radio_sky4"
+               },
+               "radio_item:radio_sky3": {
+                  "@label": {
+                     "string": "Sky3 [ALT]"
+                  },
+                  "@name": "radio_sky3"
+               },
+               "radio_item:radio_sky2": {
+                  "@label": {
+                     "string": "Sky2 [ALT]"
+                  },
+                  "@name": "radio_sky2"
+               },
+               "radio_item:radio_sky1": {
+                  "@label": {
+                     "string": "Ground"
+                  },
+                  "@name": "radio_sky1"
+               }
+            }
+         },
+         "layout_panel:pnl_ok_cancel": {
+            "@name": "pnl_ok_cancel",
+            "button:btn_select": {
+               "@label": {
+                  "string": "OK"
+               },
+               "@name": "btn_select"
+            },
+            "button:btn_cancel": {
+               "@label": {
+                  "string": "Cancel"
+               },
+               "@name": "btn_cancel"
+            }
+         }
+      }
+   }
+}

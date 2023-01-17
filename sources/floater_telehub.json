@@ -1,0 +1,71 @@
+{
+   "floater": {
+      "@name": "telehub",
+      "@title": {
+         "string": "Telehub"
+      },
+      "text:status_text_connected": {
+         "@name": "status_text_connected",
+         "#text": {
+            "string": "\n        Telehub connected to object [OBJECT]\n    "
+         }
+      },
+      "text:status_text_not_connected": {
+         "@name": "status_text_not_connected",
+         "#text": {
+            "string": "\n        No telehub connected.\n    "
+         }
+      },
+      "text:help_text_connected": {
+         "@name": "help_text_connected",
+         "#text": {
+            "string": "\n        To remove, click Disconnect.\n    "
+         }
+      },
+      "text:help_text_not_connected": {
+         "@name": "help_text_not_connected",
+         "#text": {
+            "string": "\n        Select object and click Connect Telehub.\n    "
+         }
+      },
+      "button:connect_btn": {
+         "@label": {
+            "string": "Connect Telehub"
+         },
+         "@name": "connect_btn"
+      },
+      "button:disconnect_btn": {
+         "@label": {
+            "string": "Disconnect"
+         },
+         "@name": "disconnect_btn"
+      },
+      "text:spawn_points_text": {
+         "@name": "spawn_points_text",
+         "#text": {
+            "string": "\n        Spawn Points (positions, not objects):\n    "
+         }
+      },
+      "scroll_list:spawn_points_list": {
+         "@name": "spawn_points_list"
+      },
+      "button:add_spawn_point_btn": {
+         "@label": {
+            "string": "Add Spawn"
+         },
+         "@name": "add_spawn_point_btn"
+      },
+      "button:remove_spawn_point_btn": {
+         "@label": {
+            "string": "Remove Spawn"
+         },
+         "@name": "remove_spawn_point_btn"
+      },
+      "text:spawn_point_help": {
+         "@name": "spawn_point_help",
+         "#text": {
+            "string": "\n        Select object and click \"Add Spawn\" to specify position.\nYou can then move or delete the object.\nPositions are relative to the telehub center.\nSelect an item in list to highlight it inworld.\n    "
+         }
+      }
+   }
+}

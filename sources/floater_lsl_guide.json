@@ -1,0 +1,35 @@
+{
+   "floater": {
+      "@name": "script ed float",
+      "@title": {
+         "string": "LSL Reference"
+      },
+      "check_box:lock_check": {
+         "@label": {
+            "string": "Follow cursor"
+         },
+         "@name": "lock_check"
+      },
+      "combo_box:history_combo": {
+         "@label": {
+            "string": "Lock"
+         },
+         "@name": "history_combo"
+      },
+      "button:back_btn": {
+         "@label": {
+            "string": "Back"
+         },
+         "@name": "back_btn"
+      },
+      "button:fwd_btn": {
+         "@label": {
+            "string": "Forward"
+         },
+         "@name": "fwd_btn"
+      },
+      "web_browser:lsl_guide_html": {
+         "@name": "lsl_guide_html"
+      }
+   }
+}

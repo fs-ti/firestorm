@@ -1,0 +1,101 @@
+{
+   "floater": {
+      "@name": "my_environments",
+      "@title": {
+         "string": "My Environments"
+      },
+      "layout_stack:main_layout": {
+         "@name": "main_layout",
+         "layout_panel:filter_panel": {
+            "@name": "filter_panel",
+            "@label": {
+               "string": "Filters"
+            },
+            "icon:icon_settingsdays": {
+               "@name": "icon_settingsdays"
+            },
+            "check_box:chk_days": {
+               "@label": {
+                  "string": "Days"
+               },
+               "@name": "chk_days"
+            },
+            "icon:icon_settingsskies": {
+               "@name": "icon_settingsskies"
+            },
+            "check_box:chk_skies": {
+               "@label": {
+                  "string": "Skies"
+               },
+               "@name": "chk_skies"
+            },
+            "icon:icon_settingswater": {
+               "@name": "icon_settingswater"
+            },
+            "check_box:chk_water": {
+               "@label": {
+                  "string": "Water"
+               },
+               "@name": "chk_water"
+            },
+            "filter_editor:flt_search": {
+               "@label": {
+                  "string": "Filter Environments"
+               },
+               "@name": "flt_search"
+            }
+         },
+         "layout_panel:list_panel": {
+            "@name": "list_panel",
+            "@label": {
+               "string": "Environments"
+            },
+            "panel:pnl_inv_wrap": {
+               "@name": "pnl_inv_wrap",
+               "@label": {
+                  "string": "pnl_inv_wrap"
+               },
+               "asset_filtered_inv_panel:pnl_settings": {
+                  "@name": "pnl_settings"
+               }
+            }
+         },
+         "layout_panel:lp_showfolders": {
+            "@name": "lp_showfolders",
+            "check_box:chk_showfolders": {
+               "@label": {
+                  "string": "Show All Folders"
+               },
+               "@name": "chk_showfolders"
+            }
+         },
+         "layout_panel:pnl_control": {
+            "@name": "pnl_control",
+            "panel:pnl_bottom": {
+               "@label": {
+                  "string": "bottom_panel"
+               },
+               "@name": "pnl_bottom",
+               "menu_button:btn_gear": {
+                  "@name": "btn_gear",
+                  "@tool_tip": {
+                     "string": "More options"
+                  }
+               },
+               "menu_button:btn_newsettings": {
+                  "@name": "btn_newsettings",
+                  "@tool_tip": {
+                     "string": "Make new setting"
+                  }
+               },
+               "button:btn_del": {
+                  "@name": "btn_del",
+                  "@tool_tip": {
+                     "string": "Remove selected item"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

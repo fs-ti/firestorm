@@ -1,0 +1,455 @@
+{
+   "floater": {
+      "@name": "particle_editor_floater",
+      "@title": {
+         "string": "Particle Editor"
+      },
+      "panel:particle_editor_panel": {
+         "@name": "particle_editor_panel",
+         "panel:top_left_panel": {
+            "@name": "top_left_panel",
+            "text:Pattern_Label": {
+               "@name": "Pattern_Label",
+               "#text": {
+                  "string": "\nPattern:\n"
+               }
+            },
+            "combo_box:pattern_type_combo": {
+               "@name": "pattern_type_combo",
+               "combo_box.item:explode": {
+                  "@label": {
+                     "string": "Explode"
+                  },
+                  "@name": "explode"
+               },
+               "combo_box.item:angle": {
+                  "@label": {
+                     "string": "Angle"
+                  },
+                  "@name": "angle"
+               },
+               "combo_box.item:angle_cone": {
+                  "@label": {
+                     "string": "Angle Cone"
+                  },
+                  "@name": "angle_cone"
+               },
+               "combo_box.item:angle_cone_empty": {
+                  "@label": {
+                     "string": "Angle Cone Empty"
+                  },
+                  "@name": "angle_cone_empty"
+               },
+               "combo_box.item:drop": {
+                  "@label": {
+                     "string": "Drop"
+                  },
+                  "@name": "drop"
+               }
+            },
+            "text:Texture_Label": {
+               "@name": "Texture_Label",
+               "#text": {
+                  "string": "\n  Texture:\n"
+               }
+            },
+            "texture_picker:texture_picker": {
+               "@name": "texture_picker"
+            },
+            "text:Burst_Rate_Label": {
+               "@name": "Burst_Rate_Label",
+               "#text": {
+                  "string": "\n  Burst Rate:\n"
+               }
+            },
+            "spinner:burst_rate_spinner": {
+               "@name": "burst_rate_spinner"
+            },
+            "text:Burst_Count_Label": {
+               "@name": "Burst_Count_Label",
+               "#text": {
+                  "string": "\n  Burst Count:\n"
+               }
+            },
+            "spinner:burst_count_spinner": {
+               "@name": "burst_count_spinner"
+            },
+            "text:Burst_Radius_Label": {
+               "@name": "Burst_Radius_Label",
+               "#text": {
+                  "string": "\n  Burst Radius:\n"
+               }
+            },
+            "spinner:burst_radius_spinner": {
+               "@name": "burst_radius_spinner"
+            },
+            "text:Angle_Begin_Label": {
+               "@name": "Angle_Begin_Label",
+               "#text": {
+                  "string": "\n  Angle Begin:\n"
+               }
+            },
+            "spinner:angle_begin_spinner": {
+               "@name": "angle_begin_spinner"
+            },
+            "text:Burst_Speed_Min_Label": {
+               "@name": "Burst_Speed_Min_Label",
+               "#text": {
+                  "string": "\n  Burst Speed Min:\n"
+               }
+            },
+            "spinner:burst_speed_min_spinner": {
+               "@name": "burst_speed_min_spinner"
+            },
+            "text:Angle_End_Label": {
+               "@name": "Angle_End_Label",
+               "#text": {
+                  "string": "\n  Angle End:\n"
+               }
+            },
+            "spinner:angle_end_spinner": {
+               "@name": "angle_end_spinner"
+            },
+            "text:Burst_Speed_Max_Label": {
+               "@name": "Burst_Speed_Max_Label",
+               "#text": {
+                  "string": "\n  Burst Speed Max:\n"
+               }
+            },
+            "spinner:burst_speed_max_spinner": {
+               "@name": "burst_speed_max_spinner"
+            },
+            "text:Source_Max_Age_Label": {
+               "@name": "Source_Max_Age_Label",
+               "#text": {
+                  "string": "\n  Source Max Age:\n"
+               }
+            },
+            "spinner:source_max_age_spinner": {
+               "@name": "source_max_age_spinner"
+            },
+            "text:Start_Alpha_Label": {
+               "@name": "Start_Alpha_Label",
+               "#text": {
+                  "string": "\n  Start Alpha:\n"
+               }
+            },
+            "spinner:start_alpha_spinner": {
+               "@name": "start_alpha_spinner"
+            },
+            "text:Particles_Max_Age_Label": {
+               "@name": "Particles_Max_Age_Label",
+               "#text": {
+                  "string": "\n  Particles Max Age:\n"
+               }
+            },
+            "spinner:particles_max_age_spinner": {
+               "@name": "particles_max_age_spinner"
+            },
+            "text:End_Alpha_Label": {
+               "@name": "End_Alpha_Label",
+               "#text": {
+                  "string": "\n  End Alpha:\n"
+               }
+            },
+            "spinner:end_alpha_spinner": {
+               "@name": "end_alpha_spinner"
+            },
+            "text:Start_Glow_Label": {
+               "@name": "Start_Glow_Label",
+               "#text": {
+                  "string": "\n  Start Glow:\n"
+               }
+            },
+            "spinner:start_glow_spinner": {
+               "@name": "start_glow_spinner"
+            },
+            "combo_box:blend_func_src_combo": {
+               "@name": "blend_func_src_combo",
+               "combo_box.item:blend_one": {
+                  "@label": {
+                     "string": "Blend One"
+                  },
+                  "@name": "blend_one"
+               },
+               "combo_box.item:blend_zero": {
+                  "@label": {
+                     "string": "Blend Zero"
+                  },
+                  "@name": "blend_zero"
+               },
+               "combo_box.item:blend_dest_color": {
+                  "@label": {
+                     "string": "Blend Dest Color"
+                  },
+                  "@name": "blend_dest_color"
+               },
+               "combo_box.item:blend_src_color": {
+                  "@label": {
+                     "string": "Blend Src Color"
+                  },
+                  "@name": "blend_src_color"
+               },
+               "combo_box.item:blend_one_minus_dest_color": {
+                  "@label": {
+                     "string": "Blend 1 - Dest Color"
+                  },
+                  "@name": "blend_one_minus_dest_color"
+               },
+               "combo_box.item:blend_one_minus_src_color": {
+                  "@label": {
+                     "string": "Blend 1 - Src Color"
+                  },
+                  "@name": "blend_one_minus_src_color"
+               },
+               "combo_box.item:blend_src_alpha": {
+                  "@label": {
+                     "string": "Blend Src Alpha"
+                  },
+                  "@name": "blend_src_alpha"
+               },
+               "combo_box.item:blend_one_minus_src_alpha": {
+                  "@label": {
+                     "string": "Blend 1 - Src Alpha"
+                  },
+                  "@name": "blend_one_minus_src_alpha"
+               }
+            },
+            "text:End_Glow_Label": {
+               "@name": "End_Glow_Label",
+               "#text": {
+                  "string": "\n  End Glow:\n"
+               }
+            },
+            "spinner:end_glow_spinner": {
+               "@name": "end_glow_spinner"
+            },
+            "combo_box:blend_func_dest_combo": {
+               "@name": "blend_func_dest_combo",
+               "combo_box.item:blend_one": {
+                  "@label": {
+                     "string": "Blend One"
+                  },
+                  "@name": "blend_one"
+               },
+               "combo_box.item:blend_zero": {
+                  "@label": {
+                     "string": "Blend Zero"
+                  },
+                  "@name": "blend_zero"
+               },
+               "combo_box.item:blend_dest_color": {
+                  "@label": {
+                     "string": "Blend Dest Color"
+                  },
+                  "@name": "blend_dest_color"
+               },
+               "combo_box.item:blend_src_color": {
+                  "@label": {
+                     "string": "Blend Src Color"
+                  },
+                  "@name": "blend_src_color"
+               },
+               "combo_box.item:blend_one_minus_dest_color": {
+                  "@label": {
+                     "string": "Blend 1 - Dest Color"
+                  },
+                  "@name": "blend_one_minus_dest_color"
+               },
+               "combo_box.item:blend_one_minus_src_color": {
+                  "@label": {
+                     "string": "Blend 1 - Src Color"
+                  },
+                  "@name": "blend_one_minus_src_color"
+               },
+               "combo_box.item:blend_src_alpha": {
+                  "@label": {
+                     "string": "Blend Src Alpha"
+                  },
+                  "@name": "blend_src_alpha"
+               },
+               "combo_box.item:blend_one_minus_src_alpha": {
+                  "@label": {
+                     "string": "Blend 1 - Src Alpha"
+                  },
+                  "@name": "blend_one_minus_src_alpha"
+               }
+            },
+            "text:Scale_Start_Label": {
+               "@name": "Scale_Start_Label",
+               "#text": {
+                  "string": "\n  Scale Start:\n"
+               }
+            },
+            "spinner:scale_start_x_spinner": {
+               "@name": "scale_start_x_spinner"
+            },
+            "spinner:scale_start_y_spinner": {
+               "@name": "scale_start_y_spinner"
+            },
+            "text:End_Label": {
+               "@name": "End_Label",
+               "#text": {
+                  "string": "\n  End:\n"
+               }
+            },
+            "spinner:scale_end_x_spinner": {
+               "@name": "scale_end_x_spinner"
+            },
+            "spinner:scale_end_y_spinner": {
+               "@name": "scale_end_y_spinner"
+            }
+         },
+         "panel:top_right_panel": {
+            "@name": "top_right_panel",
+            "check_box:bounce_checkbox": {
+               "@name": "bounce_checkbox",
+               "@label": {
+                  "string": "Bounce"
+               }
+            },
+            "check_box:emissive_checkbox": {
+               "@name": "emissive_checkbox",
+               "@label": {
+                  "string": "Emissive"
+               }
+            },
+            "check_box:follow_source_checkbox": {
+               "@name": "follow_source_checkbox",
+               "@label": {
+                  "string": "Follow Source"
+               }
+            },
+            "check_box:follow_velocity_checkbox": {
+               "@name": "follow_velocity_checkbox",
+               "@label": {
+                  "string": "Follow Velocity"
+               }
+            },
+            "check_box:interpolate_color_checkbox": {
+               "@name": "interpolate_color_checkbox",
+               "@label": {
+                  "string": "Interpolate Color"
+               }
+            },
+            "check_box:interpolate_scale_checkbox": {
+               "@name": "interpolate_scale_checkbox",
+               "@label": {
+                  "string": "Interpolate Scale"
+               }
+            },
+            "check_box:target_position_checkbox": {
+               "@name": "target_position_checkbox",
+               "@label": {
+                  "string": "Target Position"
+               }
+            },
+            "check_box:target_linear_checkbox": {
+               "@name": "target_linear_checkbox",
+               "@label": {
+                  "string": "Target Linear"
+               }
+            },
+            "check_box:wind_checkbox": {
+               "@name": "wind_checkbox",
+               "@label": {
+                  "string": "Wind"
+               }
+            },
+            "check_box:ribbon_checkbox": {
+               "@name": "ribbon_checkbox",
+               "@label": {
+                  "string": "Ribbon"
+               }
+            },
+            "button:copy_button": {
+               "@name": "copy_button",
+               "@label": {
+                  "string": "Copy"
+               },
+               "@tool_tip": {
+                  "string": "Copies the particle system's parameter as LSL script to the clipboard."
+               }
+            },
+            "button:inject_button": {
+               "@name": "inject_button",
+               "@label": {
+                  "string": "Inject"
+               },
+               "@tool_tip": {
+                  "string": "Inject this particle system into the selected object."
+               }
+            }
+         },
+         "panel:bottom_left_panel": {
+            "@name": "bottom_left_panel",
+            "text:Target_Key_Label": {
+               "@name": "Target_Key_Label",
+               "#text": {
+                  "string": "\n  Target Key:\n"
+               }
+            },
+            "line_editor:target_key_input": {
+               "@name": "target_key_input"
+            },
+            "button:clear_target_button": {
+               "@name": "clear_target_button",
+               "@tool_tip": {
+                  "string": "Clear target object or avatar."
+               }
+            },
+            "button:pick_target_button": {
+               "@name": "pick_target_button",
+               "@tool_tip": {
+                  "string": "Click here to select the particle target object or avatar."
+               }
+            },
+            "text:Acceleration_Label": {
+               "@name": "Acceleration_Label",
+               "#text": {
+                  "string": "\n  Acceleration:\n"
+               }
+            },
+            "spinner:acceleration_x_spinner": {
+               "@name": "acceleration_x_spinner"
+            },
+            "spinner:acceleration_y_spinner": {
+               "@name": "acceleration_y_spinner"
+            },
+            "spinner:acceleration_z_spinner": {
+               "@name": "acceleration_z_spinner"
+            },
+            "text:Omega_Label": {
+               "@name": "Omega_Label",
+               "#text": {
+                  "string": "\n  Omega:\n"
+               }
+            },
+            "spinner:omega_x_spinner": {
+               "@name": "omega_x_spinner"
+            },
+            "spinner:omega_y_spinner": {
+               "@name": "omega_y_spinner"
+            },
+            "spinner:omega_z_spinner": {
+               "@name": "omega_z_spinner"
+            }
+         },
+         "panel:bottom_right_panel": {
+            "@name": "bottom_right_panel",
+            "color_swatch:start_color_selector": {
+               "@label": {
+                  "string": "Start Color"
+               },
+               "@name": "start_color_selector"
+            },
+            "color_swatch:end_color_selector": {
+               "@label": {
+                  "string": "End Color"
+               },
+               "@name": "end_color_selector"
+            }
+         }
+      }
+   }
+}

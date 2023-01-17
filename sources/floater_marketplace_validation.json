@@ -1,0 +1,20 @@
+{
+   "floater": {
+      "@title": {
+         "string": "Audit Marketplace Listings"
+      },
+      "@name": "floater_marketplace_validation",
+      "button:OK": {
+         "@name": "OK",
+         "@label": {
+            "string": "OK"
+         }
+      },
+      "text_editor:validation_text": {
+         "@name": "validation_text",
+         "#text": {
+            "string": "\n        MARKETPLACE_VALIDATION_TEXT\n    "
+         }
+      }
+   }
+}

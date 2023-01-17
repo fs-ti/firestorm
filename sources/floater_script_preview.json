@@ -1,0 +1,29 @@
+{
+   "floater": {
+      "@name": "preview lsl text",
+      "@title": {
+         "string": "Script: Rotation script"
+      },
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Script: [NAME]\n    "
+         }
+      },
+      "panel:script panel": {
+         "@name": "script panel"
+      },
+      "icon:lock": {
+         "@name": "lock"
+      },
+      "text:desc txt": {
+         "@name": "desc txt",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:desc": {
+         "@name": "desc"
+      }
+   }
+}

@@ -1,0 +1,185 @@
+{
+   "floater": {
+      "@name": "Post-Process Floater",
+      "@title": {
+         "string": "Post-process Settings"
+      },
+      "tab_container:Post-Process Tabs": {
+         "@name": "Post-Process Tabs",
+         "panel:wmiColorFilterPanel": {
+            "@label": {
+               "string": "Color Filter"
+            },
+            "@name": "wmiColorFilterPanel",
+            "check_box:wmiColorFilterToggle": {
+               "@label": {
+                  "string": "Enable"
+               },
+               "@name": "wmiColorFilterToggle"
+            },
+            "text:wmiColorFilterBrightnessText": {
+               "@name": "wmiColorFilterBrightnessText",
+               "#text": {
+                  "string": "\n                Brightness\n            "
+               }
+            },
+            "slider:wmiColorFilterBrightness": {
+               "@name": "wmiColorFilterBrightness"
+            },
+            "text:wmiColorFilterSaturationText": {
+               "@name": "wmiColorFilterSaturationText",
+               "#text": {
+                  "string": "\n                Saturation\n            "
+               }
+            },
+            "slider:wmiColorFilterSaturation": {
+               "@name": "wmiColorFilterSaturation"
+            },
+            "text:wmiColorFilterContrastText": {
+               "@name": "wmiColorFilterContrastText",
+               "#text": {
+                  "string": "\n                Contrast\n            "
+               }
+            },
+            "slider:wmiColorFilterContrast": {
+               "@name": "wmiColorFilterContrast"
+            },
+            "text:wmiColorFilterBaseText": {
+               "@name": "wmiColorFilterBaseText",
+               "#text": {
+                  "string": "\n                Contrast Base Color\n            "
+               }
+            },
+            "slider:wmiColorFilterBaseR": {
+               "@label": {
+                  "string": "R"
+               },
+               "@name": "wmiColorFilterBaseR"
+            },
+            "slider:wmiColorFilterBaseG": {
+               "@label": {
+                  "string": "G"
+               },
+               "@name": "wmiColorFilterBaseG"
+            },
+            "slider:wmiColorFilterBaseB": {
+               "@label": {
+                  "string": "B"
+               },
+               "@name": "wmiColorFilterBaseB"
+            },
+            "slider:wmiColorFilterBaseI": {
+               "@label": {
+                  "string": "I"
+               },
+               "@name": "wmiColorFilterBaseI"
+            }
+         },
+         "panel:wmiNightVisionPanel": {
+            "@label": {
+               "string": "Night Vision"
+            },
+            "@name": "wmiNightVisionPanel",
+            "check_box:wmiNightVisionToggle": {
+               "@label": {
+                  "string": "Enable"
+               },
+               "@name": "wmiNightVisionToggle"
+            },
+            "text:wmiNightVisionBrightMultText": {
+               "@name": "wmiNightVisionBrightMultText",
+               "#text": {
+                  "string": "\n                Light Amplification Multiple\n            "
+               }
+            },
+            "slider:wmiNightVisionBrightMult": {
+               "@name": "wmiNightVisionBrightMult"
+            },
+            "text:wmiNightVisionNoiseSizeText": {
+               "@name": "wmiNightVisionNoiseSizeText",
+               "#text": {
+                  "string": "\n                Noise Size\n            "
+               }
+            },
+            "slider:wmiNightVisionNoiseSize": {
+               "@name": "wmiNightVisionNoiseSize"
+            },
+            "text:wmiNightVisionNoiseStrengthText": {
+               "@name": "wmiNightVisionNoiseStrengthText",
+               "#text": {
+                  "string": "\n                Noise Strength\n            "
+               }
+            },
+            "slider:wmiNightVisionNoiseStrength": {
+               "@name": "wmiNightVisionNoiseStrength"
+            }
+         },
+         "panel:wmiBloomPanel": {
+            "@label": {
+               "string": "Bloom"
+            },
+            "@name": "wmiBloomPanel",
+            "check_box:wmiBloomToggle": {
+               "@label": {
+                  "string": "Enable"
+               },
+               "@name": "wmiBloomToggle"
+            },
+            "text:wmiBloomExtractText": {
+               "@name": "wmiBloomExtractText",
+               "#text": {
+                  "string": "\n                Luminosity Extraction\n            "
+               }
+            },
+            "slider:wmiBloomExtract": {
+               "@name": "wmiBloomExtract"
+            },
+            "text:wmiBloomSizeText": {
+               "@name": "wmiBloomSizeText",
+               "#text": {
+                  "string": "\n                Bloom Size\n            "
+               }
+            },
+            "slider:wmiBloomSize": {
+               "@name": "wmiBloomSize"
+            },
+            "text:wmiBloomStrengthText": {
+               "@name": "wmiBloomStrengthText",
+               "#text": {
+                  "string": "\n                Bloom Strength\n            "
+               }
+            },
+            "slider:wmiBloomStrength": {
+               "@name": "wmiBloomStrength"
+            }
+         },
+         "panel:Extras": {
+            "@label": {
+               "string": "Extras"
+            },
+            "@name": "Extras",
+            "button:PPLoadEffect": {
+               "@label": {
+                  "string": "LoadEffect"
+               },
+               "@name": "PPLoadEffect"
+            },
+            "button:PPSaveEffect": {
+               "@label": {
+                  "string": "SaveEffect"
+               },
+               "@name": "PPSaveEffect"
+            },
+            "combo_box:PPEffectsCombo": {
+               "@name": "PPEffectsCombo"
+            },
+            "line_editor:PPEffectNameEditor": {
+               "@label": {
+                  "string": "Effect Name"
+               },
+               "@name": "PPEffectNameEditor"
+            }
+         }
+      }
+   }
+}

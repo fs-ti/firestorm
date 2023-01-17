@@ -1,0 +1,32 @@
+{
+   "floater": {
+      "@title": {
+         "string": "Save Outfit"
+      },
+      "@name": "modal container",
+      "button:Save": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "Save"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      },
+      "text:Save item as:": {
+         "@name": "Save item as:",
+         "#text": {
+            "string": "\n        Save what I'm wearing\nas a new Outfit:\n    "
+         }
+      },
+      "line_editor:name ed": {
+         "@name": "name ed",
+         "#text": {
+            "string": "\n        [DESC] (new)\n    "
+         }
+      }
+   }
+}

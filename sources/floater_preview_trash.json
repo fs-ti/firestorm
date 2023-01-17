@@ -1,0 +1,34 @@
+{
+   "floater": {
+      "@name": "floater_preview_trash",
+      "@title": {
+         "string": "Trash"
+      },
+      "inventory_panel:inventory_trash": {
+         "@name": "inventory_trash",
+         "folder": null,
+         "item": null
+      },
+      "layout_stack:button_panel_ls": {
+         "@name": "button_panel_ls",
+         "layout_panel:empty_btn_lp": {
+            "@name": "empty_btn_lp",
+            "button:empty_btn": {
+               "@label": {
+                  "string": "Empty Trash"
+               },
+               "@name": "empty_btn"
+            }
+         },
+         "layout_panel:share_btn_lp": {
+            "@name": "share_btn_lp",
+            "button:cancel_btn": {
+               "@label": {
+                  "string": "Cancel"
+               },
+               "@name": "cancel_btn"
+            }
+         }
+      }
+   }
+}

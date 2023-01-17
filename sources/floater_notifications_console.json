@@ -1,0 +1,24 @@
+{
+   "floater": {
+      "@name": "notifications_console",
+      "@title": {
+         "string": "Notifications Console"
+      },
+      "combo_box:notification_types": {
+         "@label": {
+            "string": "Select notification type"
+         },
+         "@name": "notification_types"
+      },
+      "button:add_notification": {
+         "@label": {
+            "string": "Add"
+         },
+         "@name": "add_notification",
+         "button.commit_callback": null
+      },
+      "layout_stack:notification_channels": {
+         "@name": "notification_channels"
+      }
+   }
+}

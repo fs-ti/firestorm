@@ -1,0 +1,68 @@
+{
+   "floater": {
+      "@name": "preview notecard",
+      "@title": {
+         "string": "Notecard:"
+      },
+      "floater.string:no_object": {
+         "@name": "no_object",
+         "#text": {
+            "string": "\n        Unable to find object containing this notecard.\n    "
+         }
+      },
+      "floater.string:not_allowed": {
+         "@name": "not_allowed",
+         "#text": {
+            "string": "\n        You do not have permission to view this notecard.\n    "
+         }
+      },
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Notecard: [NAME]\n    "
+         }
+      },
+      "icon:lock": {
+         "@name": "lock"
+      },
+      "text:desc txt": {
+         "@name": "desc txt",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:desc": {
+         "@name": "desc"
+      },
+      "text_editor:Notecard Editor": {
+         "@name": "Notecard Editor",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "button:Search": {
+         "@name": "Search",
+         "@tool_tip": {
+            "string": "Search & Replace"
+         }
+      },
+      "button:Edit": {
+         "@label": {
+            "string": "Edit..."
+         },
+         "@name": "Edit"
+      },
+      "button:Save": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "Save"
+      },
+      "button:Delete": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "Delete"
+      }
+   }
+}

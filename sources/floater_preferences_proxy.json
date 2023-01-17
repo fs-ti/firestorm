@@ -1,0 +1,161 @@
+{
+   "floater": {
+      "@name": "Proxy Settings Floater",
+      "@title": {
+         "string": "Proxy Settings"
+      },
+      "check_box:web_proxy_enabled": {
+         "@label": {
+            "string": "Use HTTP Proxy for Web pages"
+         },
+         "@name": "web_proxy_enabled"
+      },
+      "text:http_proxy_label": {
+         "@name": "http_proxy_label",
+         "#text": {
+            "string": "\n      HTTP Proxy:\n  "
+         }
+      },
+      "line_editor:web_proxy_editor": {
+         "@name": "web_proxy_editor",
+         "@tool_tip": {
+            "string": "The DNS name or IP address of the HTTP proxy you would like to use."
+         }
+      },
+      "spinner:web_proxy_port": {
+         "@label": {
+            "string": "Port number:"
+         },
+         "@name": "web_proxy_port",
+         "@tool_tip": {
+            "string": "The port of the HTTP proxy you would like to use."
+         }
+      },
+      "check_box:socks_proxy_enabled": {
+         "@label": {
+            "string": "Use SOCKS 5 Proxy for UDP traffic"
+         },
+         "@name": "socks_proxy_enabled"
+      },
+      "text:socks5_proxy_label": {
+         "@name": "socks5_proxy_label",
+         "#text": {
+            "string": "\n      SOCKS 5 Proxy:\n  "
+         }
+      },
+      "line_editor:socks_proxy_editor": {
+         "@name": "socks_proxy_editor",
+         "@tool_tip": {
+            "string": "The DNS name or IP address of the SOCKS 5 proxy you would like to use."
+         }
+      },
+      "spinner:socks_proxy_port": {
+         "@label": {
+            "string": "Port number:"
+         },
+         "@name": "socks_proxy_port",
+         "@tool_tip": {
+            "string": "The port of the SOCKS 5 proxy you would like to use."
+         }
+      },
+      "text:socks_auth_label": {
+         "@name": "socks_auth_label",
+         "#text": {
+            "string": "\n      SOCKS Authentication:\n  "
+         }
+      },
+      "radio_group:socks5_auth_type": {
+         "@name": "socks5_auth_type",
+         "radio_item:Socks5NoAuth": {
+            "@label": {
+               "string": "No Authentication"
+            },
+            "@name": "Socks5NoAuth",
+            "@tool_tip": {
+               "string": "Socks5 proxy requires no authentication."
+            }
+         },
+         "radio_item:Socks5UserPass": {
+            "@label": {
+               "string": "Username/Password"
+            },
+            "@name": "Socks5UserPass",
+            "@tool_tip": {
+               "string": "Socks5 proxy requires username/password authentication."
+            }
+         }
+      },
+      "text:socks5_username_label": {
+         "@name": "socks5_username_label",
+         "#text": {
+            "string": "\n      Username:\n  "
+         }
+      },
+      "text:socks5_password_label": {
+         "@name": "socks5_password_label",
+         "#text": {
+            "string": "\n      Password:\n  "
+         }
+      },
+      "line_editor:socks5_username": {
+         "@name": "socks5_username",
+         "@tool_tip": {
+            "string": "The username used to authenticate with your SOCKS 5 server"
+         }
+      },
+      "line_editor:socks5_password": {
+         "@name": "socks5_password",
+         "@tool_tip": {
+            "string": "The password used to authenticate with your SOCKS 5 server"
+         }
+      },
+      "text:other_proxy_label": {
+         "@name": "other_proxy_label",
+         "#text": {
+            "string": "\n     Other HTTP traffic proxy:\n  "
+         }
+      },
+      "radio_group:other_http_proxy_type": {
+         "@name": "other_http_proxy_type",
+         "radio_item:OtherNoProxy": {
+            "@label": {
+               "string": "Do not proxy"
+            },
+            "@name": "OtherNoProxy",
+            "@tool_tip": {
+               "string": "Non-web HTTP traffic will NOT be sent to any proxy."
+            }
+         },
+         "radio_item:OtherHTTPProxy": {
+            "@label": {
+               "string": "Use HTTP Proxy"
+            },
+            "@name": "OtherHTTPProxy",
+            "@tool_tip": {
+               "string": "Non-web HTTP will be sent through the configured Web proxy."
+            }
+         },
+         "radio_item:OtherSocksProxy": {
+            "@label": {
+               "string": "Use SOCKS 5 Proxy"
+            },
+            "@name": "OtherSocksProxy",
+            "@tool_tip": {
+               "string": "Non-web HTTP traffic will be sent through the configured Socks 5 proxy."
+            }
+         }
+      },
+      "button:OK": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "OK"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

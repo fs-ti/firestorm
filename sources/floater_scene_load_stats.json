@@ -1,0 +1,302 @@
+{
+   "floater": {
+      "@name": "Scene Load Statistics",
+      "@title": {
+         "string": "Scene Load Statistics"
+      },
+      "scroll_container:statistics_scroll": {
+         "@name": "statistics_scroll",
+         "container_view:statistics_view": {
+            "@name": "statistics_view",
+            "#comment": "Basic Section",
+            "stat_view:basic": {
+               "@name": "basic",
+               "@label": {
+                  "string": "Basic"
+               },
+               "stat_bar:frame difference": {
+                  "@name": "frame difference",
+                  "@label": {
+                     "string": "Frame Pixel Difference"
+                  }
+               },
+               "stat_bar:bandwidth": {
+                  "@name": "bandwidth",
+                  "@label": {
+                     "string": "UDP Data Received"
+                  }
+               },
+               "stat_bar:packet_loss": {
+                  "@name": "packet_loss",
+                  "@label": {
+                     "string": "Packet Loss"
+                  }
+               }
+            },
+            "#comment$3": "Advanced Section",
+            "stat_view:advanced": {
+               "@name": "advanced",
+               "@label": {
+                  "string": "Advanced"
+               },
+               "stat_view:render": {
+                  "@name": "render",
+                  "@label": {
+                     "string": "Render"
+                  },
+                  "stat_bar:objs": {
+                     "@name": "objs",
+                     "@label": {
+                        "string": "Total Objects"
+                     }
+                  },
+                  "stat_bar:newobjs": {
+                     "@name": "newobjs",
+                     "@label": {
+                        "string": "New Objects"
+                     }
+                  },
+                  "stat_bar:object_cache_hits": {
+                     "@name": "object_cache_hits",
+                     "@label": {
+                        "string": "Object Cache Hit Rate"
+                     }
+                  }
+               },
+               "#comment": "Texture Stats",
+               "stat_view:texture": {
+                  "@name": "texture",
+                  "@label": {
+                     "string": "Texture"
+                  },
+                  "stat_bar:texture_cache_hits": {
+                     "@name": "texture_cache_hits",
+                     "@label": {
+                        "string": "Cache Hit Rate"
+                     }
+                  },
+                  "stat_bar:texture_cache_read_latency": {
+                     "@name": "texture_cache_read_latency",
+                     "@label": {
+                        "string": "Cache Read Latency"
+                     }
+                  },
+                  "stat_bar:numimagesstat": {
+                     "@name": "numimagesstat",
+                     "@label": {
+                        "string": "Count"
+                     }
+                  },
+                  "stat_bar:numrawimagesstat": {
+                     "@name": "numrawimagesstat",
+                     "@label": {
+                        "string": "Raw Count"
+                     }
+                  }
+               },
+               "#comment$5": "Network Stats",
+               "stat_view:network": {
+                  "@name": "network",
+                  "@label": {
+                     "string": "Network"
+                  },
+                  "stat_bar:packetsinstat": {
+                     "@name": "packetsinstat",
+                     "@label": {
+                        "string": "Packets In"
+                     }
+                  },
+                  "stat_bar:packetsoutstat": {
+                     "@name": "packetsoutstat",
+                     "@label": {
+                        "string": "Packets Out"
+                     }
+                  },
+                  "stat_bar:objectdatareceived": {
+                     "@name": "objectdatareceived",
+                     "@label": {
+                        "string": "Objects"
+                     }
+                  },
+                  "stat_bar:texturedatareceived": {
+                     "@name": "texturedatareceived",
+                     "@label": {
+                        "string": "Texture"
+                     }
+                  },
+                  "stat_bar:assetudpdatareceived": {
+                     "@name": "assetudpdatareceived",
+                     "@label": {
+                        "string": "Asset"
+                     }
+                  },
+                  "stat_bar:layersdatareceived": {
+                     "@name": "layersdatareceived",
+                     "@label": {
+                        "string": "Layers"
+                     }
+                  },
+                  "stat_bar:messagedatain": {
+                     "@name": "messagedatain",
+                     "@label": {
+                        "string": "Actual In"
+                     }
+                  },
+                  "stat_bar:messagedataout": {
+                     "@name": "messagedataout",
+                     "@label": {
+                        "string": "Actual Out"
+                     }
+                  }
+               }
+            },
+            "#comment$5": "Sim Stats",
+            "stat_view:sim": {
+               "@name": "sim",
+               "@label": {
+                  "string": "Simulator"
+               },
+               "stat_bar:simobjects": {
+                  "@name": "simobjects",
+                  "@label": {
+                     "string": "Objects"
+                  }
+               },
+               "stat_bar:simactiveobjects": {
+                  "@name": "simactiveobjects",
+                  "@label": {
+                     "string": "Active Objects"
+                  }
+               },
+               "stat_bar:simactivescripts": {
+                  "@name": "simactivescripts",
+                  "@label": {
+                     "string": "Active Scripts"
+                  }
+               },
+               "stat_bar:siminpps": {
+                  "@name": "siminpps",
+                  "@label": {
+                     "string": "Packets In"
+                  }
+               },
+               "stat_bar:simoutpps": {
+                  "@name": "simoutpps",
+                  "@label": {
+                     "string": "Packets Out"
+                  }
+               },
+               "stat_bar:simpendingdownloads": {
+                  "@name": "simpendingdownloads",
+                  "@label": {
+                     "string": "Pending Downloads"
+                  }
+               },
+               "stat_bar:simpendinguploads": {
+                  "@name": "simpendinguploads",
+                  "@label": {
+                     "string": "Pending Uploads"
+                  }
+               },
+               "stat_bar:simtotalunackedbytes": {
+                  "@name": "simtotalunackedbytes",
+                  "@label": {
+                     "string": "Total Unacked Bytes"
+                  }
+               },
+               "stat_view:simperf": {
+                  "@name": "simperf",
+                  "@label": {
+                     "string": "Time (ms)"
+                  },
+                  "stat_bar:simframemsec": {
+                     "@name": "simframemsec",
+                     "@label": {
+                        "string": "Total Frame Time"
+                     }
+                  },
+                  "stat_bar:simnetmsec": {
+                     "@name": "simnetmsec",
+                     "@label": {
+                        "string": "Net Time"
+                     }
+                  },
+                  "stat_bar:simsimphysicsmsec": {
+                     "@name": "simsimphysicsmsec",
+                     "@label": {
+                        "string": "Physics Time"
+                     }
+                  },
+                  "stat_bar:simsimothermsec": {
+                     "@name": "simsimothermsec",
+                     "@label": {
+                        "string": "Simulation Time"
+                     }
+                  },
+                  "stat_bar:simagentmsec": {
+                     "@name": "simagentmsec",
+                     "@label": {
+                        "string": "Agent Time"
+                     }
+                  },
+                  "stat_bar:simimagesmsec": {
+                     "@name": "simimagesmsec",
+                     "@label": {
+                        "string": "Images Time"
+                     }
+                  },
+                  "stat_bar:simscriptmsec": {
+                     "@name": "simscriptmsec",
+                     "@label": {
+                        "string": "Script Time"
+                     }
+                  },
+                  "stat_bar:simsparemsec": {
+                     "@name": "simsparemsec",
+                     "@label": {
+                        "string": "Spare Time"
+                     }
+                  },
+                  "#comment": "2nd level time blocks under 'Details' second",
+                  "stat_view:timedetails": {
+                     "@name": "timedetails",
+                     "@label": {
+                        "string": "Time Details (ms)"
+                     },
+                     "stat_bar:simsimphysicsstepmsec": {
+                        "@name": "simsimphysicsstepmsec",
+                        "@label": {
+                           "string": "  Physics Step"
+                        }
+                     },
+                     "stat_bar:simsimphysicsshapeupdatemsec": {
+                        "@name": "simsimphysicsshapeupdatemsec",
+                        "@label": {
+                           "string": "  Update Phys Shapes"
+                        }
+                     },
+                     "stat_bar:simsimphysicsothermsec": {
+                        "@name": "simsimphysicsothermsec",
+                        "@label": {
+                           "string": "  Physics Other"
+                        }
+                     },
+                     "stat_bar:simsleepmsec": {
+                        "@name": "simsleepmsec",
+                        "@label": {
+                           "string": "  Sleep Time"
+                        }
+                     },
+                     "stat_bar:simpumpiomsec": {
+                        "@name": "simpumpiomsec",
+                        "@label": {
+                           "string": "  Pump IO"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

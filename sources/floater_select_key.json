@@ -1,0 +1,65 @@
+{
+   "floater": {
+      "@title": {
+         "string": "Select Key"
+      },
+      "@name": "modal container",
+      "floater.string:keyboard": {
+         "@name": "keyboard",
+         "#text": {
+            "string": "\n    Keyboard\n  "
+         }
+      },
+      "floater.string:mouse": {
+         "@name": "mouse",
+         "#text": {
+            "string": "\n    Mouse Buttons\n  "
+         }
+      },
+      "floater.string:basic_description": {
+         "@name": "basic_description",
+         "#text": {
+            "string": "\nPress a key or mouse button to set your trigger.\nAllowed input: [INPUT].\n  "
+         }
+      },
+      "floater.string:reserved_by_menu": {
+         "@name": "reserved_by_menu",
+         "#text": {
+            "string": "\nCombination [KEYSTR] is reserved by menu.\n  "
+         }
+      },
+      "text:descritption": {
+         "@name": "descritption",
+         "#text": {
+            "string": "\nPress a key or mouse button to set your trigger.\nAllowed input: [INPUT].\n    "
+         }
+      },
+      "check_box:apply_all": {
+         "@label": {
+            "string": "Apply to all"
+         },
+         "@name": "apply_all",
+         "@tool_tip": {
+            "string": "Viewer uses different control combinations depending on what you are doing in world, setting this will apply your change to all combinations"
+         }
+      },
+      "button:SetEmpty": {
+         "@label": {
+            "string": "Set Empty"
+         },
+         "@name": "SetEmpty"
+      },
+      "button:Default": {
+         "@label": {
+            "string": "Default"
+         },
+         "@name": "Default"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

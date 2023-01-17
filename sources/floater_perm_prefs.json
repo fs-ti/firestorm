@@ -1,0 +1,65 @@
+{
+   "floater": {
+      "@name": "perm prefs",
+      "@title": {
+         "string": "Default Upload Permissions"
+      },
+      "panel:permissions": {
+         "@label": {
+            "string": "Permissions"
+         },
+         "@name": "permissions",
+         "check_box:share_with_group": {
+            "@label": {
+               "string": "Share with group"
+            },
+            "@name": "share_with_group"
+         },
+         "check_box:everyone_copy": {
+            "@label": {
+               "string": "Allow anyone to copy"
+            },
+            "@name": "everyone_copy"
+         },
+         "text:NextOwnerLabel": {
+            "@name": "NextOwnerLabel",
+            "#text": {
+               "string": "\n            Next owner can:\n        "
+            }
+         },
+         "check_box:next_owner_modify": {
+            "@label": {
+               "string": "Modify"
+            },
+            "@name": "next_owner_modify"
+         },
+         "check_box:next_owner_copy": {
+            "@label": {
+               "string": "Copy"
+            },
+            "@name": "next_owner_copy",
+            "check_box.commit_callback": null
+         },
+         "check_box:next_owner_transfer": {
+            "@label": {
+               "string": "Resell/Give away"
+            },
+            "@name": "next_owner_transfer"
+         }
+      },
+      "button:ok": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok",
+         "button.commit_callback": null
+      },
+      "button:cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel",
+         "button.commit_callback": null
+      }
+   }
+}

@@ -1,0 +1,515 @@
+{
+   "floater": {
+      "@name": "Joystick",
+      "@title": {
+         "string": "Joystick Configuration"
+      },
+      "floater.string:JoystickDisabled": {
+         "@name": "JoystickDisabled",
+         "#text": {
+            "string": "\n        None\n    "
+         }
+      },
+      "text:joystick_lbl": {
+         "@name": "joystick_lbl",
+         "#text": {
+            "string": "\n      Joystick:\n    "
+         }
+      },
+      "combo_box:joystick_combo": {
+         "@name": "joystick_combo"
+      },
+      "spinner:JoystickAxis1": {
+         "@label": {
+            "string": "X Axis Mapping"
+         },
+         "@name": "JoystickAxis1"
+      },
+      "spinner:JoystickAxis2": {
+         "@label": {
+            "string": "Y Axis Mapping"
+         },
+         "@name": "JoystickAxis2"
+      },
+      "spinner:JoystickAxis0": {
+         "@label": {
+            "string": "Z Axis Mapping"
+         },
+         "@name": "JoystickAxis0"
+      },
+      "spinner:JoystickAxis4": {
+         "@label": {
+            "string": "Pitch Mapping"
+         },
+         "@name": "JoystickAxis4"
+      },
+      "spinner:JoystickAxis5": {
+         "@label": {
+            "string": "Yaw Mapping"
+         },
+         "@name": "JoystickAxis5"
+      },
+      "spinner:JoystickAxis3": {
+         "@label": {
+            "string": "Roll Mapping"
+         },
+         "@name": "JoystickAxis3"
+      },
+      "spinner:JoystickAxis6": {
+         "@label": {
+            "string": "Zoom Mapping"
+         },
+         "@name": "JoystickAxis6"
+      },
+      "check_box:ZoomDirect": {
+         "@label": {
+            "string": "Direct Zoom"
+         },
+         "@name": "ZoomDirect"
+      },
+      "check_box:Cursor3D": {
+         "@label": {
+            "string": "3D Cursor"
+         },
+         "@name": "Cursor3D"
+      },
+      "check_box:AutoLeveling": {
+         "@label": {
+            "string": "Auto Level"
+         },
+         "@name": "AutoLeveling"
+      },
+      "text:Control Modes:": {
+         "@name": "Control Modes:",
+         "#text": {
+            "string": "\n        Control Modes:\n    "
+         }
+      },
+      "check_box:JoystickAvatarEnabled": {
+         "@label": {
+            "string": "Avatar"
+         },
+         "@name": "JoystickAvatarEnabled"
+      },
+      "check_box:JoystickBuildEnabled": {
+         "@label": {
+            "string": "Build"
+         },
+         "@name": "JoystickBuildEnabled"
+      },
+      "check_box:JoystickFlycamEnabled": {
+         "@label": {
+            "string": "Flycam"
+         },
+         "@name": "JoystickFlycamEnabled"
+      },
+      "#comment": " <FS:Zi> FIRE-14344 - Add button preview and allow for more than 6 axes ",
+      "text:joystick_monitor_label": {
+         "@name": "joystick_monitor_label",
+         "#text": {
+            "string": "\n      Joystick Monitor\n    "
+         }
+      },
+      "icon:button_light_0": {
+         "@name": "button_light_0",
+         "@tool_tip": {
+            "string": "Joystick Button 0"
+         }
+      },
+      "icon:button_light_1": {
+         "@name": "button_light_1",
+         "@tool_tip": {
+            "string": "Joystick Button 1"
+         }
+      },
+      "icon:button_light_2": {
+         "@name": "button_light_2",
+         "@tool_tip": {
+            "string": "Joystick Button 2"
+         }
+      },
+      "icon:button_light_3": {
+         "@name": "button_light_3",
+         "@tool_tip": {
+            "string": "Joystick Button 3"
+         }
+      },
+      "icon:button_light_4": {
+         "@name": "button_light_4",
+         "@tool_tip": {
+            "string": "Joystick Button 4"
+         }
+      },
+      "icon:button_light_5": {
+         "@name": "button_light_5",
+         "@tool_tip": {
+            "string": "Joystick Button 5"
+         }
+      },
+      "icon:button_light_6": {
+         "@name": "button_light_6",
+         "@tool_tip": {
+            "string": "Joystick Button 6"
+         }
+      },
+      "icon:button_light_7": {
+         "@name": "button_light_7",
+         "@tool_tip": {
+            "string": "Joystick Button 7"
+         }
+      },
+      "icon:button_light_8": {
+         "@name": "button_light_8",
+         "@tool_tip": {
+            "string": "Joystick Button 8"
+         }
+      },
+      "icon:button_light_9": {
+         "@name": "button_light_9",
+         "@tool_tip": {
+            "string": "Joystick Button 9"
+         }
+      },
+      "icon:button_light_10": {
+         "@name": "button_light_10",
+         "@tool_tip": {
+            "string": "Joystick Button 10"
+         }
+      },
+      "icon:button_light_11": {
+         "@name": "button_light_11",
+         "@tool_tip": {
+            "string": "Joystick Button 11"
+         }
+      },
+      "icon:button_light_12": {
+         "@name": "button_light_12",
+         "@tool_tip": {
+            "string": "Joystick Button 12"
+         }
+      },
+      "icon:button_light_13": {
+         "@name": "button_light_13",
+         "@tool_tip": {
+            "string": "Joystick Button 13"
+         }
+      },
+      "icon:button_light_14": {
+         "@name": "button_light_14",
+         "@tool_tip": {
+            "string": "Joystick Button 14"
+         }
+      },
+      "icon:button_light_15": {
+         "@name": "button_light_15",
+         "@tool_tip": {
+            "string": "Joystick Button 15"
+         }
+      },
+      "scroll_container:joystick_monitor_axes_scroller": {
+         "@name": "joystick_monitor_axes_scroller",
+         "container_view:joystick_monitor_axes_container": {
+            "@name": "joystick_monitor_axes_container",
+            "#comment": " Zi: One stat_view for each axis so we can hide them individually ",
+            "stat_view:axis_view_0": {
+               "@name": "axis_view_0",
+               "stat_bar:axis0": {
+                  "@label": {
+                     "string": "Axis 0"
+                  },
+                  "@name": "axis0"
+               }
+            },
+            "stat_view:axis_view_1": {
+               "@name": "axis_view_1",
+               "stat_bar:axis1": {
+                  "@label": {
+                     "string": "Axis 1"
+                  },
+                  "@name": "axis1"
+               }
+            },
+            "stat_view:axis_view_2": {
+               "@name": "axis_view_2",
+               "stat_bar:axis2": {
+                  "@label": {
+                     "string": "Axis 2"
+                  },
+                  "@name": "axis2"
+               }
+            },
+            "stat_view:axis_view_3": {
+               "@name": "axis_view_3",
+               "stat_bar:axis3": {
+                  "@label": {
+                     "string": "Axis 3"
+                  },
+                  "@name": "axis3"
+               }
+            },
+            "stat_view:axis_view_4": {
+               "@name": "axis_view_4",
+               "stat_bar:axis4": {
+                  "@label": {
+                     "string": "Axis 4"
+                  },
+                  "@name": "axis4"
+               }
+            },
+            "stat_view:axis_view_5": {
+               "@name": "axis_view_5",
+               "stat_bar:axis5": {
+                  "@label": {
+                     "string": "Axis 5"
+                  },
+                  "@name": "axis5"
+               }
+            },
+            "stat_view:axis_view_6": {
+               "@name": "axis_view_6",
+               "stat_bar:axis6": {
+                  "@label": {
+                     "string": "Axis 6"
+                  },
+                  "@name": "axis6"
+               }
+            },
+            "stat_view:axis_view_7": {
+               "@name": "axis_view_7",
+               "stat_bar:axis7": {
+                  "@label": {
+                     "string": "Axis 7"
+                  },
+                  "@name": "axis7"
+               }
+            }
+         }
+      },
+      "#comment$38": " </FS:Zi> ",
+      "text:XScale": {
+         "@name": "XScale",
+         "#text": {
+            "string": "\n        X Scale\n    "
+         }
+      },
+      "spinner:AvatarAxisScale1": {
+         "@name": "AvatarAxisScale1"
+      },
+      "spinner:BuildAxisScale1": {
+         "@name": "BuildAxisScale1"
+      },
+      "spinner:FlycamAxisScale1": {
+         "@name": "FlycamAxisScale1"
+      },
+      "text:YScale": {
+         "@name": "YScale",
+         "#text": {
+            "string": "\n        Y Scale\n    "
+         }
+      },
+      "spinner:AvatarAxisScale2": {
+         "@name": "AvatarAxisScale2"
+      },
+      "spinner:BuildAxisScale2": {
+         "@name": "BuildAxisScale2"
+      },
+      "spinner:FlycamAxisScale2": {
+         "@name": "FlycamAxisScale2"
+      },
+      "text:ZScale": {
+         "@name": "ZScale",
+         "#text": {
+            "string": "\n        Z Scale\n    "
+         }
+      },
+      "spinner:AvatarAxisScale0": {
+         "@name": "AvatarAxisScale0"
+      },
+      "spinner:BuildAxisScale0": {
+         "@name": "BuildAxisScale0"
+      },
+      "spinner:FlycamAxisScale0": {
+         "@name": "FlycamAxisScale0"
+      },
+      "text:PitchScale": {
+         "@name": "PitchScale",
+         "#text": {
+            "string": "\n        Pitch Scale\n    "
+         }
+      },
+      "spinner:AvatarAxisScale4": {
+         "@name": "AvatarAxisScale4"
+      },
+      "spinner:BuildAxisScale4": {
+         "@name": "BuildAxisScale4"
+      },
+      "spinner:FlycamAxisScale4": {
+         "@name": "FlycamAxisScale4"
+      },
+      "text:YawScale": {
+         "@name": "YawScale",
+         "#text": {
+            "string": "\n        Yaw Scale\n    "
+         }
+      },
+      "spinner:AvatarAxisScale5": {
+         "@name": "AvatarAxisScale5"
+      },
+      "spinner:BuildAxisScale5": {
+         "@name": "BuildAxisScale5"
+      },
+      "spinner:FlycamAxisScale5": {
+         "@name": "FlycamAxisScale5"
+      },
+      "text:RollScale": {
+         "@name": "RollScale",
+         "#text": {
+            "string": "\n        Roll Scale\n    "
+         }
+      },
+      "spinner:BuildAxisScale3": {
+         "@name": "BuildAxisScale3"
+      },
+      "spinner:FlycamAxisScale3": {
+         "@name": "FlycamAxisScale3"
+      },
+      "text:XDeadZone": {
+         "@name": "XDeadZone",
+         "#text": {
+            "string": "\n        X Dead Zone\n    "
+         }
+      },
+      "spinner:AvatarAxisDeadZone1": {
+         "@name": "AvatarAxisDeadZone1"
+      },
+      "spinner:BuildAxisDeadZone1": {
+         "@name": "BuildAxisDeadZone1"
+      },
+      "spinner:FlycamAxisDeadZone1": {
+         "@name": "FlycamAxisDeadZone1"
+      },
+      "text:YDeadZone": {
+         "@name": "YDeadZone",
+         "#text": {
+            "string": "\n        Y Dead Zone\n    "
+         }
+      },
+      "spinner:AvatarAxisDeadZone2": {
+         "@name": "AvatarAxisDeadZone2"
+      },
+      "spinner:BuildAxisDeadZone2": {
+         "@name": "BuildAxisDeadZone2"
+      },
+      "spinner:FlycamAxisDeadZone2": {
+         "@name": "FlycamAxisDeadZone2"
+      },
+      "text:ZDeadZone": {
+         "@name": "ZDeadZone",
+         "#text": {
+            "string": "\n        Z Dead Zone\n    "
+         }
+      },
+      "spinner:AvatarAxisDeadZone0": {
+         "@name": "AvatarAxisDeadZone0"
+      },
+      "spinner:BuildAxisDeadZone0": {
+         "@name": "BuildAxisDeadZone0"
+      },
+      "spinner:FlycamAxisDeadZone0": {
+         "@name": "FlycamAxisDeadZone0"
+      },
+      "text:PitchDeadZone": {
+         "@name": "PitchDeadZone",
+         "#text": {
+            "string": "\n        Pitch Dead Zone\n    "
+         }
+      },
+      "spinner:AvatarAxisDeadZone4": {
+         "@name": "AvatarAxisDeadZone4"
+      },
+      "spinner:BuildAxisDeadZone4": {
+         "@name": "BuildAxisDeadZone4"
+      },
+      "spinner:FlycamAxisDeadZone4": {
+         "@name": "FlycamAxisDeadZone4"
+      },
+      "text:YawDeadZone": {
+         "@name": "YawDeadZone",
+         "#text": {
+            "string": "\n        Yaw Dead Zone\n    "
+         }
+      },
+      "spinner:AvatarAxisDeadZone5": {
+         "@name": "AvatarAxisDeadZone5"
+      },
+      "spinner:BuildAxisDeadZone5": {
+         "@name": "BuildAxisDeadZone5"
+      },
+      "spinner:FlycamAxisDeadZone5": {
+         "@name": "FlycamAxisDeadZone5"
+      },
+      "text:RollDeadZone": {
+         "@name": "RollDeadZone",
+         "#text": {
+            "string": "\n        Roll Dead Zone\n    "
+         }
+      },
+      "spinner:BuildAxisDeadZone3": {
+         "@name": "BuildAxisDeadZone3"
+      },
+      "spinner:FlycamAxisDeadZone3": {
+         "@name": "FlycamAxisDeadZone3"
+      },
+      "text:Feathering": {
+         "@name": "Feathering",
+         "#text": {
+            "string": "\n        Feathering\n    "
+         }
+      },
+      "slider:AvatarFeathering": {
+         "@name": "AvatarFeathering"
+      },
+      "slider:BuildFeathering": {
+         "@name": "BuildFeathering"
+      },
+      "slider:FlycamFeathering": {
+         "@name": "FlycamFeathering"
+      },
+      "text:ZoomScale2": {
+         "@name": "ZoomScale2",
+         "#text": {
+            "string": "\n        Zoom Scale\n    "
+         }
+      },
+      "spinner:FlycamAxisScale6": {
+         "@name": "FlycamAxisScale6"
+      },
+      "text:ZoomDeadZone": {
+         "@name": "ZoomDeadZone",
+         "#text": {
+            "string": "\n        Zoom Dead Zone\n    "
+         }
+      },
+      "spinner:FlycamAxisDeadZone6": {
+         "@name": "FlycamAxisDeadZone6"
+      },
+      "button:SpaceNavigatorDefaults": {
+         "@label": {
+            "string": "SpaceNavigator Defaults"
+         },
+         "@name": "SpaceNavigatorDefaults"
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

@@ -1,0 +1,101 @@
+{
+   "floater": {
+      "@name": "floatermedialists",
+      "@title": {
+         "string": "Media Lists"
+      },
+      "floater.string:EnterUrlAllow": {
+         "@name": "EnterUrlAllow",
+         "#text": {
+            "string": "\n    Enter domain or URL to always allow:\n  "
+         }
+      },
+      "floater.string:EnterUrlDeny": {
+         "@name": "EnterUrlDeny",
+         "#text": {
+            "string": "\n    Enter domain or URL to never allow:\n  "
+         }
+      },
+      "layout_stack:lists_layout_stack": {
+         "@name": "lists_layout_stack",
+         "layout_panel:whitelist_layout_panel": {
+            "@name": "whitelist_layout_panel",
+            "text:whitelist_text": {
+               "@name": "whitelist_text",
+               "#text": {
+                  "string": "\n    Allowed Domains:\n  "
+               }
+            },
+            "scroll_list:whitelist": {
+               "@name": "whitelist",
+               "column:list": {
+                  "@label": {
+                     "string": "Whitelist"
+                  },
+                  "@name": "list"
+               }
+            },
+            "layout_stack:whitelist_buttons_layout_stack": {
+               "@name": "whitelist_buttons_layout_stack",
+               "layout_panel:whitelist_buttons_panel_add": {
+                  "@name": "whitelist_buttons_panel_add",
+                  "button:add_whitelist": {
+                     "@label": {
+                        "string": "Add..."
+                     },
+                     "@name": "add_whitelist"
+                  }
+               },
+               "layout_panel:whitelist_buttons_panel_remove": {
+                  "@name": "whitelist_buttons_panel_remove",
+                  "button:remove_whitelist": {
+                     "@label": {
+                        "string": "Remove"
+                     },
+                     "@name": "remove_whitelist"
+                  }
+               }
+            }
+         },
+         "layout_panel:blacklist_layout_panel": {
+            "@name": "blacklist_layout_panel",
+            "text:blacklist_text": {
+               "@name": "blacklist_text",
+               "#text": {
+                  "string": "\n    Blocked Domains:\n  "
+               }
+            },
+            "scroll_list:blacklist": {
+               "@name": "blacklist",
+               "column:list": {
+                  "@label": {
+                     "string": "Blacklist"
+                  },
+                  "@name": "list"
+               }
+            },
+            "layout_stack:blacklist_buttons_layout_stack": {
+               "@name": "blacklist_buttons_layout_stack",
+               "layout_panel:blacklist_buttons_panel_add": {
+                  "@name": "blacklist_buttons_panel_add",
+                  "button:add_blacklist": {
+                     "@label": {
+                        "string": "Add..."
+                     },
+                     "@name": "add_blacklist"
+                  }
+               },
+               "layout_panel:blacklist_buttons_panel_remove": {
+                  "@name": "blacklist_buttons_panel_remove",
+                  "button:remove_blacklist": {
+                     "@label": {
+                        "string": "Remove"
+                     },
+                     "@name": "remove_blacklist"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,237 @@
+{
+   "floater": {
+      "@name": "move_floater",
+      "string:walk_forward_tooltip": {
+         "@name": "walk_forward_tooltip",
+         "#text": {
+            "string": "\n        Walk Forward (press Up Arrow or W)\n    "
+         }
+      },
+      "string:walk_back_tooltip": {
+         "@name": "walk_back_tooltip",
+         "#text": {
+            "string": "\n        Walk Backwards (press Down Arrow or S)\n    "
+         }
+      },
+      "string:walk_left_tooltip": {
+         "@name": "walk_left_tooltip",
+         "#text": {
+            "string": "\n        Walk left (press Shift + Left Arrow or A)\n    "
+         }
+      },
+      "string:walk_right_tooltip": {
+         "@name": "walk_right_tooltip",
+         "#text": {
+            "string": "\n        Walk right (press Shift + Right Arrow or D)\n    "
+         }
+      },
+      "string:run_forward_tooltip": {
+         "@name": "run_forward_tooltip",
+         "#text": {
+            "string": "\n        Run Forward (press Up Arrow or W)\n    "
+         }
+      },
+      "string:run_back_tooltip": {
+         "@name": "run_back_tooltip",
+         "#text": {
+            "string": "\n        Run Backwards (press Down Arrow or S)\n    "
+         }
+      },
+      "string:run_left_tooltip": {
+         "@name": "run_left_tooltip",
+         "#text": {
+            "string": "\n        Run left (press Shift + Left Arrow or A)\n    "
+         }
+      },
+      "string:run_right_tooltip": {
+         "@name": "run_right_tooltip",
+         "#text": {
+            "string": "\n        Run right (press Shift + Right Arrow or D)\n    "
+         }
+      },
+      "string:fly_forward_tooltip": {
+         "@name": "fly_forward_tooltip",
+         "#text": {
+            "string": "\n        Fly Forward (press Up Arrow or W)\n    "
+         }
+      },
+      "string:fly_back_tooltip": {
+         "@name": "fly_back_tooltip",
+         "#text": {
+            "string": "\n        Fly Backwards (press Down Arrow or S)\n    "
+         }
+      },
+      "string:fly_left_tooltip": {
+         "@name": "fly_left_tooltip",
+         "#text": {
+            "string": "\n        Fly left (press Shift + Left Arrow or A)\n    "
+         }
+      },
+      "string:fly_right_tooltip": {
+         "@name": "fly_right_tooltip",
+         "#text": {
+            "string": "\n        Fly right (press Shift + Right Arrow or D)\n    "
+         }
+      },
+      "string:fly_up_tooltip": {
+         "@name": "fly_up_tooltip",
+         "#text": {
+            "string": "\n        Fly up (press E)\n    "
+         }
+      },
+      "string:fly_down_tooltip": {
+         "@name": "fly_down_tooltip",
+         "#text": {
+            "string": "\n        Fly down (press C)\n    "
+         }
+      },
+      "string:jump_tooltip": {
+         "@name": "jump_tooltip",
+         "#text": {
+            "string": "\n        Jump (press E)\n    "
+         }
+      },
+      "string:crouch_tooltip": {
+         "@name": "crouch_tooltip",
+         "#text": {
+            "string": "\n        Crouch (press C)\n    "
+         }
+      },
+      "string:walk_title": {
+         "@name": "walk_title"
+      },
+      "string:run_title": {
+         "@name": "run_title"
+      },
+      "string:fly_title": {
+         "@name": "fly_title"
+      },
+      "panel:panel_actions": {
+         "@name": "panel_actions",
+         "layout_stack:ls_vertical": {
+            "@name": "ls_vertical",
+            "layout_panel:lp_row1": {
+               "@name": "lp_row1",
+               "layout_stack:ls_horizontal1": {
+                  "@name": "ls_horizontal1",
+                  "layout_panel:lp_col1_1": {
+                     "@name": "lp_col1_1",
+                     "button:turn left btn": {
+                        "@name": "turn left btn",
+                        "@tool_tip": {
+                           "string": "Turn left (press Left Arrow or A)"
+                        }
+                     }
+                  },
+                  "layout_panel:lp_col1_2": {
+                     "@name": "lp_col1_2",
+                     "joystick_turn:forward btn": {
+                        "@name": "forward btn",
+                        "@tool_tip": {
+                           "string": "Walk forward (press up arrow or W)"
+                        }
+                     }
+                  },
+                  "layout_panel:lp_col1_3": {
+                     "@name": "lp_col1_3",
+                     "button:turn right btn": {
+                        "@name": "turn right btn",
+                        "@tool_tip": {
+                           "string": "Turn right (press Right Arrow or D)"
+                        }
+                     }
+                  },
+                  "layout_panel:lp_col1_4": {
+                     "@name": "lp_col1_4",
+                     "button:move up btn": {
+                        "@name": "move up btn",
+                        "@tool_tip": {
+                           "string": "Fly up (press E)"
+                        }
+                     }
+                  }
+               }
+            },
+            "layout_panel:lp_row2": {
+               "@name": "lp_row2",
+               "layout_stack:ls_horizontal2": {
+                  "@name": "ls_horizontal2",
+                  "layout_panel:lp_col2_1": {
+                     "@name": "lp_col2_1",
+                     "joystick_slide:move left btn": {
+                        "@name": "move left btn",
+                        "@tool_tip": {
+                           "string": "Walk left (press Shift + Left Arrow or A)"
+                        }
+                     }
+                  },
+                  "layout_panel:lp_col2_2": {
+                     "@name": "lp_col2_2",
+                     "joystick_turn:backward btn": {
+                        "@name": "backward btn",
+                        "@tool_tip": {
+                           "string": "Walk backward (press down arrow or S)"
+                        }
+                     }
+                  },
+                  "layout_panel:lp_col2_3": {
+                     "@name": "lp_col2_3",
+                     "joystick_slide:move right btn": {
+                        "@name": "move right btn",
+                        "@tool_tip": {
+                           "string": "Walk right (press Shift + Right Arrow or D)"
+                        }
+                     }
+                  },
+                  "layout_panel:lp_col2_4": {
+                     "@name": "lp_col2_4",
+                     "button:move down btn": {
+                        "@name": "move down btn",
+                        "@tool_tip": {
+                           "string": "Fly down (press C)"
+                        }
+                     }
+                  }
+               }
+            },
+            "layout_panel:lp_row3": {
+               "@name": "lp_row3",
+               "layout_stack:ls_horizontal3": {
+                  "@name": "ls_horizontal3",
+                  "layout_panel:lp_col3_1": {
+                     "@name": "lp_col3_1"
+                  },
+                  "layout_panel:modes_container": {
+                     "@name": "modes_container",
+                     "#comment": " Width and height of this panel should be synchronized with panel_stand_stop_flying.xml ",
+                     "panel:panel_modes": {
+                        "@name": "panel_modes",
+                        "button:mode_walk_btn": {
+                           "@name": "mode_walk_btn",
+                           "@tool_tip": {
+                              "string": "Walking mode"
+                           }
+                        },
+                        "button:mode_run_btn": {
+                           "@name": "mode_run_btn",
+                           "@tool_tip": {
+                              "string": "Running mode"
+                           }
+                        },
+                        "button:mode_fly_btn": {
+                           "@name": "mode_fly_btn",
+                           "@tool_tip": {
+                              "string": "Flying mode"
+                           }
+                        }
+                     }
+                  },
+                  "layout_panel:lp_col3_3": {
+                     "@name": "lp_col3_3"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

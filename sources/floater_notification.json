@@ -1,0 +1,20 @@
+{
+   "floater": {
+      "@name": "notification",
+      "@title": {
+         "string": "Notifications Console"
+      },
+      "text_editor:payload": {
+         "@name": "payload",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "combo_box:response": {
+         "@label": {
+            "string": "Response"
+         },
+         "@name": "response"
+      }
+   }
+}

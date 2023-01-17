@@ -1,0 +1,122 @@
+{
+   "floater": {
+      "@name": "land holdings floater",
+      "@title": {
+         "string": "Owned Land"
+      },
+      "floater.string:area_string": {
+         "@name": "area_string",
+         "#text": {
+            "string": "\n        [AREA] m²\n    "
+         }
+      },
+      "scroll_list:parcel list": {
+         "@name": "parcel list",
+         "scroll_list.columns:name": {
+            "@label": {
+               "string": "Parcel"
+            },
+            "@name": "name"
+         },
+         "scroll_list.columns:location": {
+            "@label": {
+               "string": "Region"
+            },
+            "@name": "location"
+         },
+         "scroll_list.columns:type": {
+            "@label": {
+               "string": "Type"
+            },
+            "@name": "type"
+         },
+         "scroll_list.columns:area": {
+            "@label": {
+               "string": "Area"
+            },
+            "@name": "area"
+         },
+         "scroll_list.columns:hidden": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "hidden"
+         }
+      },
+      "button:Teleport": {
+         "@label": {
+            "string": "Teleport"
+         },
+         "@name": "Teleport",
+         "@tool_tip": {
+            "string": "Teleport to the center of this land."
+         }
+      },
+      "button:Show on Map": {
+         "@label": {
+            "string": "Map"
+         },
+         "@name": "Show on Map",
+         "@tool_tip": {
+            "string": "Show this land on the world map"
+         }
+      },
+      "text:contrib_label": {
+         "@name": "contrib_label",
+         "#text": {
+            "string": "\n        Contributions to your groups:\n    "
+         }
+      },
+      "scroll_list:grant list": {
+         "@name": "grant list",
+         "scroll_list.columns:group": {
+            "@label": {
+               "string": "Group"
+            },
+            "@name": "group"
+         },
+         "scroll_list.columns:area": {
+            "@label": {
+               "string": "Area"
+            },
+            "@name": "area"
+         }
+      },
+      "text:allowed_label": {
+         "@name": "allowed_label",
+         "#text": {
+            "string": "\n        Allowed land holdings at current payment plan:\n    "
+         }
+      },
+      "text:allowed_text": {
+         "@name": "allowed_text",
+         "#text": {
+            "string": "\n        [AREA] m²\n    "
+         }
+      },
+      "text:current_label": {
+         "@name": "current_label",
+         "#text": {
+            "string": "\n        Current land holdings:\n    "
+         }
+      },
+      "text:current_text": {
+         "@name": "current_text",
+         "#text": {
+            "string": "\n        [AREA] m²\n    "
+         }
+      },
+      "text:available_label": {
+         "@name": "available_label",
+         "#text": {
+            "string": "\n        Available for land purchases:\n    "
+         }
+      },
+      "text:available_text": {
+         "@name": "available_text",
+         "#text": {
+            "string": "\n        [AREA] m²\n    "
+         }
+      }
+   }
+}

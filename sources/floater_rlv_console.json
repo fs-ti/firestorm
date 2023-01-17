@@ -1,0 +1,23 @@
+{
+   "floater": {
+      "@name": "rlv_console",
+      "@title": {
+         "string": "RLVa console"
+      },
+      "layout_stack:main_stack": {
+         "@name": "main_stack",
+         "layout_panel:body_panel": {
+            "@name": "body_panel",
+            "text_editor:console_output": {
+               "@name": "console_output"
+            }
+         },
+         "layout_panel:input_panel": {
+            "@name": "input_panel",
+            "chat_editor:console_input": {
+               "@name": "console_input"
+            }
+         }
+      }
+   }
+}

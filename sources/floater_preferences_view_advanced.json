@@ -1,0 +1,89 @@
+{
+   "floater": {
+      "@name": "floaterpreferencesviewadvanced",
+      "@title": {
+         "string": "Camera Position"
+      },
+      "text:camera_offset_lbl": {
+         "@name": "camera_offset_lbl",
+         "#text": {
+            "string": "\n      Camera offset:\n  "
+         }
+      },
+      "spinner:camera_x": {
+         "@label": {
+            "string": "X"
+         },
+         "@name": "camera_x",
+         "spinner.commit_callback": null
+      },
+      "spinner:camera_y": {
+         "@label": {
+            "string": "Y"
+         },
+         "@name": "camera_y",
+         "spinner.commit_callback": null
+      },
+      "spinner:camera_z": {
+         "@label": {
+            "string": "Z"
+         },
+         "@name": "camera_z",
+         "spinner.commit_callback": null
+      },
+      "text:focus_offset_lbl": {
+         "@name": "focus_offset_lbl",
+         "#text": {
+            "string": "\n      Focus offset:\n  "
+         }
+      },
+      "spinner:focus_x": {
+         "@label": {
+            "string": "X"
+         },
+         "@name": "focus_x",
+         "spinner.commit_callback": null
+      },
+      "spinner:focus_y": {
+         "@label": {
+            "string": "Y"
+         },
+         "@name": "focus_y",
+         "spinner.commit_callback": null
+      },
+      "spinner:focus_z": {
+         "@label": {
+            "string": "Z"
+         },
+         "@name": "focus_z",
+         "spinner.commit_callback": null
+      },
+      "text:offset_scale_lbl": {
+         "@name": "offset_scale_lbl",
+         "#text": {
+            "string": "\n      Camera offset scale:\n  "
+         }
+      },
+      "slider:offset_scale_sld": {
+         "@name": "offset_scale_sld"
+      },
+      "spinner:offset_scale_ctrl": {
+         "@name": "offset_scale_ctrl",
+         "spinner.commit_callback": null
+      },
+      "button:save_preset_btn": {
+         "@label": {
+            "string": "Save as preset..."
+         },
+         "@name": "save_preset_btn",
+         "button.commit_callback": null
+      },
+      "button:close_btn": {
+         "@label": {
+            "string": "Close"
+         },
+         "@name": "close_btn",
+         "button.commit_callback": null
+      }
+   }
+}

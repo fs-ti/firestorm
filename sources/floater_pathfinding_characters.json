@@ -1,0 +1,188 @@
+{
+   "floater": {
+      "@name": "floater_pathfinding_characters",
+      "@title": {
+         "string": "Pathfinding Characters"
+      },
+      "floater.string:messaging_initial": {
+         "@name": "messaging_initial"
+      },
+      "floater.string:messaging_get_inprogress": {
+         "@name": "messaging_get_inprogress",
+         "#text": {
+            "string": "Querying for pathfinding characters ..."
+         }
+      },
+      "floater.string:messaging_get_error": {
+         "@name": "messaging_get_error",
+         "#text": {
+            "string": "Error detected while querying for pathfinding characters."
+         }
+      },
+      "floater.string:messaging_set_inprogress": {
+         "@name": "messaging_set_inprogress"
+      },
+      "floater.string:messaging_set_error": {
+         "@name": "messaging_set_error"
+      },
+      "floater.string:messaging_complete_none_found": {
+         "@name": "messaging_complete_none_found",
+         "#text": {
+            "string": "No pathfinding characters."
+         }
+      },
+      "floater.string:messaging_complete_available": {
+         "@name": "messaging_complete_available",
+         "#text": {
+            "string": "[NUM_SELECTED] characters selected out of [NUM_TOTAL]."
+         }
+      },
+      "floater.string:messaging_not_enabled": {
+         "@name": "messaging_not_enabled",
+         "#text": {
+            "string": "This region is not enabled for pathfinding."
+         }
+      },
+      "floater.string:character_cpu_time": {
+         "@name": "character_cpu_time",
+         "#text": {
+            "string": "[CPU_TIME] µs"
+         }
+      },
+      "floater.string:character_owner_loading": {
+         "@name": "character_owner_loading",
+         "#text": {
+            "string": "[Loading]"
+         }
+      },
+      "floater.string:character_owner_unknown": {
+         "@name": "character_owner_unknown",
+         "#text": {
+            "string": "[Unknown]"
+         }
+      },
+      "floater.string:character_owner_group": {
+         "@name": "character_owner_group",
+         "#text": {
+            "string": "[group]"
+         }
+      },
+      "panel:pathfinding_chars_main": {
+         "@name": "pathfinding_chars_main",
+         "scroll_list:objects_scroll_list": {
+            "@name": "objects_scroll_list",
+            "scroll_list.columns:name": {
+               "@label": {
+                  "string": "Name"
+               },
+               "@name": "name"
+            },
+            "scroll_list.columns:description": {
+               "@label": {
+                  "string": "Description"
+               },
+               "@name": "description"
+            },
+            "scroll_list.columns:owner": {
+               "@label": {
+                  "string": "Owner"
+               },
+               "@name": "owner"
+            },
+            "scroll_list.columns:cpu_time": {
+               "@label": {
+                  "string": "CPU"
+               },
+               "@name": "cpu_time"
+            },
+            "scroll_list.columns:altitude": {
+               "@label": {
+                  "string": "Altitude"
+               },
+               "@name": "altitude"
+            }
+         },
+         "text:messaging_status": {
+            "@name": "messaging_status",
+            "#text": {
+               "string": "\n      Characters:\n    "
+            }
+         },
+         "button:refresh_objects_list": {
+            "@label": {
+               "string": "Refresh list"
+            },
+            "@name": "refresh_objects_list"
+         },
+         "button:select_all_objects": {
+            "@label": {
+               "string": "Select all"
+            },
+            "@name": "select_all_objects"
+         },
+         "button:select_none_objects": {
+            "@label": {
+               "string": "Select none"
+            },
+            "@name": "select_none_objects"
+         }
+      },
+      "view_border:horiz_separator": {
+         "@name": "horiz_separator"
+      },
+      "panel:pathfinding_chars_actions": {
+         "@name": "pathfinding_chars_actions",
+         "text:actions_label": {
+            "@name": "actions_label",
+            "#text": {
+               "string": "\n      Actions on selected characters:\n    "
+            }
+         },
+         "check_box:show_beacon": {
+            "@label": {
+               "string": "Show beacon"
+            },
+            "@name": "show_beacon"
+         },
+         "check_box:show_physics_capsule": {
+            "@label": {
+               "string": "Show physics capsule"
+            },
+            "@name": "show_physics_capsule"
+         },
+         "button:take_objects": {
+            "@label": {
+               "string": "Take"
+            },
+            "@name": "take_objects"
+         },
+         "button:take_copy_objects": {
+            "@label": {
+               "string": "Take copy"
+            },
+            "@name": "take_copy_objects"
+         },
+         "button:teleport_me_to_object": {
+            "@label": {
+               "string": "Teleport me to it"
+            },
+            "@name": "teleport_me_to_object",
+            "@tool_tip": {
+               "string": "Enabled only when one character is selected."
+            }
+         },
+         "button:return_objects": {
+            "@label": {
+               "string": "Return"
+            },
+            "@name": "return_objects"
+         },
+         "button:delete_objects": {
+            "@label": {
+               "string": "Delete"
+            },
+            "@name": "delete_objects"
+         }
+      }
+   }
+}

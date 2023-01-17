@@ -1,0 +1,1456 @@
+{
+   "floater": {
+      "@name": "Model Preview",
+      "@title": {
+         "string": "Upload Model"
+      },
+      "string:no_havok": {
+         "@name": "no_havok",
+         "#text": {
+            "string": "mesh upload with physics"
+         }
+      },
+      "string:status_idle": {
+         "@name": "status_idle"
+      },
+      "string:status_parse_error": {
+         "@name": "status_parse_error",
+         "#text": {
+            "string": "Error: Dae parsing issue - see log for details."
+         }
+      },
+      "string:status_bind_shape_orientation": {
+         "@name": "status_bind_shape_orientation",
+         "#text": {
+            "string": "Warning: bind shape matrix is not in standard X-forward orientation."
+         }
+      },
+      "string:status_material_mismatch": {
+         "@name": "status_material_mismatch",
+         "#text": {
+            "string": "Error: Material of model is not a subset of reference model."
+         }
+      },
+      "string:status_lod_model_mismatch": {
+         "@name": "status_lod_model_mismatch",
+         "#text": {
+            "string": "Error: LOD Model has no parent."
+         }
+      },
+      "string:status_reading_file": {
+         "@name": "status_reading_file",
+         "#text": {
+            "string": "Loading..."
+         }
+      },
+      "string:status_generating_meshes": {
+         "@name": "status_generating_meshes",
+         "#text": {
+            "string": "Generating Meshes..."
+         }
+      },
+      "string:status_vertex_number_overflow": {
+         "@name": "status_vertex_number_overflow",
+         "#text": {
+            "string": "Error: Vertex number is more than 65535, aborted!"
+         }
+      },
+      "string:bad_element": {
+         "@name": "bad_element",
+         "#text": {
+            "string": "Error: element is invalid"
+         }
+      },
+      "string:high": {
+         "@name": "high",
+         "#text": {
+            "string": "High"
+         }
+      },
+      "string:medium": {
+         "@name": "medium",
+         "#text": {
+            "string": "Medium"
+         }
+      },
+      "string:low": {
+         "@name": "low",
+         "#text": {
+            "string": "Low"
+         }
+      },
+      "string:lowest": {
+         "@name": "lowest",
+         "#text": {
+            "string": "Lowest"
+         }
+      },
+      "string:mesh_status_good": {
+         "@name": "mesh_status_good",
+         "#text": {
+            "string": "Ship it!"
+         }
+      },
+      "string:mesh_status_na": {
+         "@name": "mesh_status_na",
+         "#text": {
+            "string": "N/A"
+         }
+      },
+      "string:mesh_status_none": {
+         "@name": "mesh_status_none",
+         "#text": {
+            "string": "None"
+         }
+      },
+      "string:mesh_status_submesh_mismatch": {
+         "@name": "mesh_status_submesh_mismatch",
+         "#text": {
+            "string": "Levels of detail have a different number of textureable faces."
+         }
+      },
+      "string:mesh_status_mesh_mismatch": {
+         "@name": "mesh_status_mesh_mismatch",
+         "#text": {
+            "string": "Levels of detail have a different number of mesh instances."
+         }
+      },
+      "string:mesh_status_too_many_vertices": {
+         "@name": "mesh_status_too_many_vertices",
+         "#text": {
+            "string": "Level of detail has too many vertices."
+         }
+      },
+      "string:mesh_status_missing_lod": {
+         "@name": "mesh_status_missing_lod",
+         "#text": {
+            "string": "Missing required level of detail."
+         }
+      },
+      "string:mesh_status_invalid_material_list": {
+         "@name": "mesh_status_invalid_material_list",
+         "#text": {
+            "string": "LOD materials are not a subset of reference model."
+         }
+      },
+      "string:phys_status_vertex_limit_exceeded": {
+         "@name": "phys_status_vertex_limit_exceeded",
+         "#text": {
+            "string": "Some physical hulls exceed the vertex limit (256); try an alternative 'Analyze Method'."
+         }
+      },
+      "string:phys_status_hull_limit_exceeded": {
+         "@name": "phys_status_hull_limit_exceeded",
+         "#text": {
+            "string": "Some models exceed the hull limit (256); try 'simplify'."
+         }
+      },
+      "string:phys_status_degenerate_triangles": {
+         "@name": "phys_status_degenerate_triangles",
+         "#text": {
+            "string": "Physics mesh too dense; remove the small, thin triangles (see preview)."
+         }
+      },
+      "string:phys_status_no_havok": {
+         "@name": "phys_status_no_havok",
+         "#text": {
+            "string": "This version contains no Havok support and is not recommended for physics upload in Second Life. Results may be unpredictable."
+         }
+      },
+      "string:phys_status_unknown_error": {
+         "@name": "phys_status_unknown_error",
+         "#text": {
+            "string": "An unrecognized error was detected."
+         }
+      },
+      "string:layer_all": {
+         "@name": "layer_all",
+         "#text": {
+            "string": "All"
+         }
+      },
+      "#comment": " Text to display in physics layer combo box for \"all layers\" ",
+      "string:decomposing": {
+         "@name": "decomposing",
+         "#text": {
+            "string": "Analyzing..."
+         }
+      },
+      "string:simplifying": {
+         "@name": "simplifying",
+         "#text": {
+            "string": "Simplifying..."
+         }
+      },
+      "string:tbd": {
+         "@name": "tbd",
+         "#text": {
+            "string": "TBD"
+         }
+      },
+      "#comment$34": " Warnings and info from model loader",
+      "string:TooManyJoint": {
+         "@name": "TooManyJoint",
+         "#text": {
+            "string": "Skinning disabled due to too many joints: [JOINTS], maximum: [MAX]"
+         }
+      },
+      "string:UnrecognizedJoint": {
+         "@name": "UnrecognizedJoint",
+         "#text": {
+            "string": "Rigged to unrecognized joint name [NAME]"
+         }
+      },
+      "string:UnknownJoints": {
+         "@name": "UnknownJoints",
+         "#text": {
+            "string": "Skinning disabled due to [COUNT] unknown joints"
+         }
+      },
+      "string:ModelLoaded": {
+         "@name": "ModelLoaded",
+         "#text": {
+            "string": "Model [MODEL_NAME] loaded"
+         }
+      },
+      "string:IncompleteTC": {
+         "@name": "IncompleteTC",
+         "#text": {
+            "string": "Texture coordinates data is not complete."
+         }
+      },
+      "panel:left_panel": {
+         "@name": "left_panel",
+         "panel:model_name_representation_panel": {
+            "@name": "model_name_representation_panel",
+            "text:name_label": {
+               "@name": "name_label",
+               "#text": {
+                  "string": "\n          Model name:\n        "
+               }
+            },
+            "line_editor:description_form": {
+               "@name": "description_form"
+            }
+         },
+         "tab_container:import_tab": {
+            "@name": "import_tab",
+            "last_tab": null,
+            "#comment": " for log tab ",
+            "#comment$3": " LOD PANEL ",
+            "panel:lod_panel": {
+               "@label": {
+                  "string": "Level of Detail"
+               },
+               "@name": "lod_panel",
+               "@title": {
+                  "string": "Level of Detail"
+               },
+               "view_border:lod_tab_border": {
+                  "@name": "lod_tab_border"
+               },
+               "text:source": {
+                  "@name": "source",
+                  "@value": {
+                     "string": "Source"
+                  }
+               },
+               "text:triangles": {
+                  "@name": "triangles",
+                  "@value": {
+                     "string": "Triangles"
+                  }
+               },
+               "text:vertices": {
+                  "@name": "vertices",
+                  "@value": {
+                     "string": "Vertices"
+                  }
+               },
+               "text:high_label": {
+                  "@name": "high_label",
+                  "@value": {
+                     "string": "High"
+                  }
+               },
+               "combo_box:lod_source_high": {
+                  "@name": "lod_source_high",
+                  "item:Load from file": {
+                     "@name": "Load from file",
+                     "@label": {
+                        "string": "Load from file"
+                     },
+                     "@value": {
+                        "string": "Load from file"
+                     }
+                  },
+                  "item:Generate": {
+                     "@name": "Generate",
+                     "@label": {
+                        "string": "Generate"
+                     },
+                     "@value": {
+                        "string": "Generate"
+                     }
+                  }
+               },
+               "line_editor:lod_file_high": {
+                  "@name": "lod_file_high",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "button:lod_browse_high": {
+                  "@label": {
+                     "string": "Browse..."
+                  },
+                  "@name": "lod_browse_high"
+               },
+               "combo_box:lod_mode_high": {
+                  "@name": "lod_mode_high",
+                  "item:Triangle Limit": {
+                     "@name": "Triangle Limit",
+                     "@label": {
+                        "string": "Triangle Limit"
+                     },
+                     "@value": {
+                        "string": "Triangle Limit"
+                     }
+                  },
+                  "item:Error Threshold": {
+                     "@name": "Error Threshold",
+                     "@label": {
+                        "string": "Error Threshold"
+                     },
+                     "@value": {
+                        "string": "Error Threshold"
+                     }
+                  }
+               },
+               "spinner:lod_triangle_limit_high": {
+                  "@name": "lod_triangle_limit_high"
+               },
+               "spinner:lod_error_threshold_high": {
+                  "@name": "lod_error_threshold_high"
+               },
+               "text:high_triangles": {
+                  "@name": "high_triangles",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:high_vertices": {
+                  "@name": "high_vertices",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:high_status": {
+                  "@name": "high_status",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "icon:status_icon_high": {
+                  "@name": "status_icon_high"
+               },
+               "text:medium_label": {
+                  "@name": "medium_label",
+                  "@value": {
+                     "string": "Medium"
+                  }
+               },
+               "combo_box:lod_source_medium": {
+                  "@name": "lod_source_medium",
+                  "item:Load from file": {
+                     "@name": "Load from file",
+                     "@label": {
+                        "string": "Load from file"
+                     },
+                     "@value": {
+                        "string": "Load from file"
+                     }
+                  },
+                  "item:Generate": {
+                     "@name": "Generate",
+                     "@label": {
+                        "string": "Generate"
+                     },
+                     "@value": {
+                        "string": "Generate"
+                     }
+                  },
+                  "item:Use LoD above": {
+                     "@name": "Use LoD above",
+                     "@label": {
+                        "string": "Use LoD above"
+                     },
+                     "@value": {
+                        "string": "Use LoD above"
+                     }
+                  }
+               },
+               "line_editor:lod_file_medium": {
+                  "@name": "lod_file_medium",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "button:lod_browse_medium": {
+                  "@label": {
+                     "string": "Browse..."
+                  },
+                  "@name": "lod_browse_medium"
+               },
+               "combo_box:lod_mode_medium": {
+                  "@name": "lod_mode_medium",
+                  "item:Triangle Limit": {
+                     "@name": "Triangle Limit",
+                     "@label": {
+                        "string": "Triangle Limit"
+                     },
+                     "@value": {
+                        "string": "Triangle Limit"
+                     }
+                  },
+                  "item:Error Threshold": {
+                     "@name": "Error Threshold",
+                     "@label": {
+                        "string": "Error Threshold"
+                     },
+                     "@value": {
+                        "string": "Error Threshold"
+                     }
+                  }
+               },
+               "spinner:lod_triangle_limit_medium": {
+                  "@name": "lod_triangle_limit_medium"
+               },
+               "spinner:lod_error_threshold_medium": {
+                  "@name": "lod_error_threshold_medium"
+               },
+               "text:medium_triangles": {
+                  "@name": "medium_triangles",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:medium_vertices": {
+                  "@name": "medium_vertices",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:medium_status": {
+                  "@name": "medium_status",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "icon:status_icon_medium": {
+                  "@name": "status_icon_medium"
+               },
+               "text:low_label": {
+                  "@name": "low_label",
+                  "@value": {
+                     "string": "Low"
+                  }
+               },
+               "combo_box:lod_source_low": {
+                  "@name": "lod_source_low",
+                  "item:Load from file": {
+                     "@name": "Load from file",
+                     "@label": {
+                        "string": "Load from file"
+                     },
+                     "@value": {
+                        "string": "Load from file"
+                     }
+                  },
+                  "item:Generate": {
+                     "@name": "Generate",
+                     "@label": {
+                        "string": "Generate"
+                     },
+                     "@value": {
+                        "string": "Generate"
+                     }
+                  },
+                  "item:Use LoD above": {
+                     "@name": "Use LoD above",
+                     "@label": {
+                        "string": "Use LoD above"
+                     },
+                     "@value": {
+                        "string": "Use LoD above"
+                     }
+                  }
+               },
+               "line_editor:lod_file_low": {
+                  "@name": "lod_file_low",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "button:lod_browse_low": {
+                  "@label": {
+                     "string": "Browse..."
+                  },
+                  "@name": "lod_browse_low"
+               },
+               "combo_box:lod_mode_low": {
+                  "@name": "lod_mode_low",
+                  "item:Triangle Limit": {
+                     "@name": "Triangle Limit",
+                     "@label": {
+                        "string": "Triangle Limit"
+                     },
+                     "@value": {
+                        "string": "Triangle Limit"
+                     }
+                  },
+                  "item:Error Threshold": {
+                     "@name": "Error Threshold",
+                     "@label": {
+                        "string": "Error Threshold"
+                     },
+                     "@value": {
+                        "string": "Error Threshold"
+                     }
+                  }
+               },
+               "spinner:lod_triangle_limit_low": {
+                  "@name": "lod_triangle_limit_low"
+               },
+               "spinner:lod_error_threshold_low": {
+                  "@name": "lod_error_threshold_low"
+               },
+               "text:low_triangles": {
+                  "@name": "low_triangles",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:low_vertices": {
+                  "@name": "low_vertices",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:low_status": {
+                  "@name": "low_status",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "icon:status_icon_low": {
+                  "@name": "status_icon_low"
+               },
+               "text:lowest_label": {
+                  "@name": "lowest_label",
+                  "@value": {
+                     "string": "Lowest"
+                  }
+               },
+               "combo_box:lod_source_lowest": {
+                  "@name": "lod_source_lowest",
+                  "item:Load from file": {
+                     "@name": "Load from file",
+                     "@label": {
+                        "string": "Load from file"
+                     },
+                     "@value": {
+                        "string": "Load from file"
+                     }
+                  },
+                  "item:Generate": {
+                     "@name": "Generate",
+                     "@label": {
+                        "string": "Generate"
+                     },
+                     "@value": {
+                        "string": "Generate"
+                     }
+                  },
+                  "item:Use LoD above": {
+                     "@name": "Use LoD above",
+                     "@label": {
+                        "string": "Use LoD above"
+                     },
+                     "@value": {
+                        "string": "Use LoD above"
+                     }
+                  }
+               },
+               "line_editor:lod_file_lowest": {
+                  "@name": "lod_file_lowest",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "button:lod_browse_lowest": {
+                  "@label": {
+                     "string": "Browse..."
+                  },
+                  "@name": "lod_browse_lowest"
+               },
+               "combo_box:lod_mode_lowest": {
+                  "@name": "lod_mode_lowest",
+                  "item:Triangle Limit": {
+                     "@name": "Triangle Limit",
+                     "@label": {
+                        "string": "Triangle Limit"
+                     },
+                     "@value": {
+                        "string": "Triangle Limit"
+                     }
+                  },
+                  "item:Error Threshold": {
+                     "@name": "Error Threshold",
+                     "@label": {
+                        "string": "Error Threshold"
+                     },
+                     "@value": {
+                        "string": "Error Threshold"
+                     }
+                  }
+               },
+               "spinner:lod_triangle_limit_lowest": {
+                  "@name": "lod_triangle_limit_lowest"
+               },
+               "spinner:lod_error_threshold_lowest": {
+                  "@name": "lod_error_threshold_lowest"
+               },
+               "text:lowest_triangles": {
+                  "@name": "lowest_triangles",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:lowest_vertices": {
+                  "@name": "lowest_vertices",
+                  "@value": {
+                     "string": "0"
+                  }
+               },
+               "text:lowest_status": {
+                  "@name": "lowest_status",
+                  "@value": {
+                     "string": ""
+                  }
+               },
+               "icon:status_icon_lowest": {
+                  "@name": "status_icon_lowest"
+               },
+               "icon:lod_status_message_icon": {
+                  "@name": "lod_status_message_icon"
+               },
+               "text:lod_status_message_text": {
+                  "@name": "lod_status_message_text"
+               },
+               "check_box:gen_normals": {
+                  "@label": {
+                     "string": "Generate Normals"
+                  },
+                  "@name": "gen_normals"
+               },
+               "text:crease_label": {
+                  "@name": "crease_label",
+                  "@value": {
+                     "string": "Crease Angle:"
+                  }
+               },
+               "spinner:crease_angle": {
+                  "@name": "crease_angle",
+                  "@value": {
+                     "string": "75"
+                  }
+               }
+            },
+            "#comment$5": " PHYSYCS PANEL ",
+            "panel:physics_panel": {
+               "@label": {
+                  "string": "Physics"
+               },
+               "@name": "physics_panel",
+               "#comment": " ==== STEP 1: Level of Detail ==== ",
+               "view_border:physics_tab_border": {
+                  "@name": "physics_tab_border"
+               },
+               "panel:physics geometry": {
+                  "@name": "physics geometry",
+                  "text:first_step_name": {
+                     "@name": "first_step_name",
+                     "#text": {
+                        "string": "\n                      Step 1: Pick a physics model\n                    "
+                     }
+                  },
+                  "combo_box:physics_lod_combo": {
+                     "@name": "physics_lod_combo",
+                     "@tool_tip": {
+                        "string": "LOD to use for physics shape"
+                     },
+                     "combo_item:choose_one": {
+                        "@name": "choose_one",
+                        "#text": {
+                           "string": "     Choose one...   "
+                        }
+                     },
+                     "combo_item:physics_high": {
+                        "@name": "physics_high",
+                        "#text": {
+                           "string": "   High   "
+                        }
+                     },
+                     "combo_item:physics_medium": {
+                        "@name": "physics_medium",
+                        "#text": {
+                           "string": " Medium "
+                        }
+                     },
+                     "combo_item:physics_low": {
+                        "@name": "physics_low",
+                        "#text": {
+                           "string": "    Low    "
+                        }
+                     },
+                     "combo_item:physics_lowest": {
+                        "@name": "physics_lowest",
+                        "#text": {
+                           "string": " Lowest "
+                        }
+                     },
+                     "combo_item:physics_cube": {
+                        "@name": "physics_cube",
+                        "#text": {
+                           "string": " Cube "
+                        }
+                     },
+                     "combo_item:physics_hex": {
+                        "@name": "physics_hex",
+                        "#text": {
+                           "string": " Hexagon "
+                        }
+                     },
+                     "combo_item:physics_ud": {
+                        "@name": "physics_ud",
+                        "#text": {
+                           "string": " User Defined "
+                        }
+                     },
+                     "combo_item:load_from_file": {
+                        "@name": "load_from_file",
+                        "#text": {
+                           "string": " From file   "
+                        }
+                     }
+                  },
+                  "line_editor:physics_file": {
+                     "@value": {
+                        "string": ""
+                     },
+                     "@name": "physics_file"
+                  },
+                  "button:physics_browse": {
+                     "@name": "physics_browse",
+                     "@label": {
+                        "string": "Browse..."
+                     }
+                  },
+                  "#comment": " <check_box name=\"physics_optimize\" follows=\"left|top\" width=\"130\" left=\"10\" top_pad=\"5\" height=\"20\" label=\"Optimize\"/>\n                    <check_box name=\"physics_use_hull\" follows=\"left|top\" width=\"130\" left_pad=\"5\" height=\"20\" label=\"Use Convex Hull\"/> "
+               },
+               "#comment$5": " ==== STEP 2: Analyze ==== ",
+               "panel:physics analysis": {
+                  "@name": "physics analysis",
+                  "text:method_label": {
+                     "@name": "method_label",
+                     "#text": {
+                        "string": "\n                      Step 2: Convert to hulls (optional)\n                    "
+                     }
+                  },
+                  "text:analysis_method_label": {
+                     "@name": "analysis_method_label",
+                     "#text": {
+                        "string": "\n                      Method:\n                    "
+                     }
+                  },
+                  "text:quality_label": {
+                     "@name": "quality_label",
+                     "#text": {
+                        "string": "\n                      Quality:\n                    "
+                     }
+                  },
+                  "text:smooth_method_label": {
+                     "@name": "smooth_method_label",
+                     "#text": {
+                        "string": "\n                      Smooth:\n                    "
+                     }
+                  },
+                  "combo_box:Method": {
+                     "@name": "Method"
+                  },
+                  "combo_box:Decompose Quality": {
+                     "@name": "Decompose Quality"
+                  },
+                  "combo_box:Cosine%": {
+                     "@name": "Cosine%"
+                  },
+                  "check_box:Close Holes (Slow)": {
+                     "@label": {
+                        "string": "Close Holes"
+                     },
+                     "@name": "Close Holes (Slow)"
+                  },
+                  "button:Decompose": {
+                     "@label": {
+                        "string": "Analyze"
+                     },
+                     "@name": "Decompose"
+                  },
+                  "button:decompose_cancel": {
+                     "@label": {
+                        "string": "Cancel"
+                     },
+                     "@name": "decompose_cancel"
+                  }
+               },
+               "#comment$7": " ==== STEP 3: Simplify ==== ",
+               "panel:physics simplification": {
+                  "@name": "physics simplification",
+                  "text:second_step_label": {
+                     "@name": "second_step_label",
+                     "#text": {
+                        "string": "\n                      Step 3: Simplify\n                    "
+                     }
+                  },
+                  "text:simp_method_header": {
+                     "@name": "simp_method_header",
+                     "#text": {
+                        "string": "\n                      Method:\n                    "
+                     }
+                  },
+                  "text:pass_method_header": {
+                     "@name": "pass_method_header",
+                     "#text": {
+                        "string": "\n                      Passes:\n                    "
+                     }
+                  },
+                  "text:Detail Scale label": {
+                     "@name": "Detail Scale label",
+                     "#text": {
+                        "string": "\n                      Detail scale:\n                    "
+                     }
+                  },
+                  "text:Retain%_label": {
+                     "@name": "Retain%_label",
+                     "#text": {
+                        "string": "\n                      Retain:\n                    "
+                     }
+                  },
+                  "combo_box:Simplify Method": {
+                     "@name": "Simplify Method"
+                  },
+                  "combo_box:Combine Quality": {
+                     "@name": "Combine Quality",
+                     "@value": {
+                        "string": "1"
+                     }
+                  },
+                  "spinner:Detail Scale": {
+                     "@name": "Detail Scale"
+                  },
+                  "spinner:Retain%": {
+                     "@name": "Retain%"
+                  },
+                  "button:Simplify": {
+                     "@label": {
+                        "string": "Simplify"
+                     },
+                     "@name": "Simplify"
+                  },
+                  "button:simplify_cancel": {
+                     "@label": {
+                        "string": "Cancel"
+                     },
+                     "@name": "simplify_cancel"
+                  }
+               },
+               "#comment$9": " ==== Results ==== ",
+               "panel:physics info": {
+                  "@name": "physics info",
+                  "text:results_text": {
+                     "@name": "results_text",
+                     "#text": {
+                        "string": "\n                      Results:\n                    "
+                     }
+                  },
+                  "text:physics_triangles": {
+                     "@name": "physics_triangles",
+                     "#text": {
+                        "string": "\n                      Triangles: [TRIANGLES],\n                    "
+                     }
+                  },
+                  "text:physics_points": {
+                     "@name": "physics_points",
+                     "#text": {
+                        "string": "\n                      Vertices: [POINTS],\n                    "
+                     }
+                  },
+                  "text:physics_hulls": {
+                     "@name": "physics_hulls",
+                     "#text": {
+                        "string": "\n                      Hulls: [HULLS]\n                    "
+                     }
+                  }
+               },
+               "panel:physics message": {
+                  "@name": "physics message",
+                  "icon:physics_status_message_icon": {
+                     "@name": "physics_status_message_icon"
+                  },
+                  "text:physics_status_message_text": {
+                     "@name": "physics_status_message_text"
+                  }
+               }
+            },
+            "#comment$7": " MODIFIERS PANEL ",
+            "panel:modifiers_panel": {
+               "@label": {
+                  "string": "Upload options"
+               },
+               "@name": "modifiers_panel",
+               "view_border:border": {
+                  "@name": "border"
+               },
+               "text:scale_label": {
+                  "@name": "scale_label",
+                  "#text": {
+                     "string": "\n             Scale (1=no scaling):\n           "
+                  }
+               },
+               "spinner:import_scale": {
+                  "@name": "import_scale",
+                  "@value": {
+                     "string": "1.0"
+                  }
+               },
+               "text:dimensions_label": {
+                  "@name": "dimensions_label",
+                  "#text": {
+                     "string": "\n             Dimensions:\n           "
+                  }
+               },
+               "text:import_dimensions": {
+                  "@name": "import_dimensions",
+                  "#text": {
+                     "string": "\n             [X] X [Y] X [Z]\n           "
+                  }
+               },
+               "check_box:upload_textures": {
+                  "@name": "upload_textures",
+                  "@label": {
+                     "string": "Include textures"
+                  }
+               }
+            },
+            "panel:rigging_panel": {
+               "@label": {
+                  "string": "Overrides"
+               },
+               "@name": "rigging_panel",
+               "@title": {
+                  "string": "Rigging"
+               },
+               "view_border:avatar_tab_border": {
+                  "@name": "avatar_tab_border"
+               },
+               "check_box:upload_skin": {
+                  "@label": {
+                     "string": "Include skin weight"
+                  },
+                  "@name": "upload_skin"
+               },
+               "check_box:upload_joints": {
+                  "@label": {
+                     "string": "Include joint positions"
+                  },
+                  "@name": "upload_joints"
+               },
+               "check_box:lock_scale_if_joint_position": {
+                  "@label": {
+                     "string": "Lock scale if joint position defined"
+                  },
+                  "@name": "lock_scale_if_joint_position"
+               },
+               "text:pelvis_offset_label": {
+                  "@name": "pelvis_offset_label",
+                  "#text": {
+                     "string": "\n          Z offset (raise or lower avatar):\n        "
+                  }
+               },
+               "spinner:pelvis_offset": {
+                  "@name": "pelvis_offset",
+                  "@value": {
+                     "string": "0.0"
+                  }
+               },
+               "text:skin_too_many_joints": {
+                  "@name": "skin_too_many_joints",
+                  "#text": {
+                     "string": "\n          Too many skinned joints\n        "
+                  }
+               },
+               "text:skin_unknown_joint": {
+                  "@name": "skin_unknown_joint",
+                  "#text": {
+                     "string": "\n          Model has an unknown joint(s)\n        "
+                  }
+               },
+               "text:joints_descr": {
+                  "@name": "joints_descr",
+                  "#text": {
+                     "string": "\n          Joints:\n        "
+                  }
+               },
+               "scroll_list:joints_list": {
+                  "@name": "joints_list"
+               },
+               "text:conflicts_description": {
+                  "@name": "conflicts_description",
+                  "#text": {
+                     "string": "\n          [CONFLICTS] conflicts in [JOINTS_COUNT] joints\n        "
+                  }
+               },
+               "text:pos_overrides_descr": {
+                  "@name": "pos_overrides_descr",
+                  "#text": {
+                     "string": "\n          Position overrides for joint '[JOINT]':\n        "
+                  }
+               },
+               "scroll_list:pos_overrides_list": {
+                  "@name": "pos_overrides_list",
+                  "scroll_list.columns:model_name": {
+                     "@label": {
+                        "string": "Model"
+                     },
+                     "@name": "model_name"
+                  },
+                  "scroll_list.columns:axis_x": {
+                     "@label": {
+                        "string": "X"
+                     },
+                     "@name": "axis_x"
+                  },
+                  "scroll_list.columns:axis_y": {
+                     "@label": {
+                        "string": "Y"
+                     },
+                     "@name": "axis_y"
+                  },
+                  "scroll_list.columns:axis_z": {
+                     "@label": {
+                        "string": "Z"
+                     },
+                     "@name": "axis_z"
+                  }
+               }
+            },
+            "panel:logs_panel": {
+               "@label": {
+                  "string": "Log"
+               },
+               "@name": "logs_panel",
+               "view_border:log_tab_border": {
+                  "@name": "log_tab_border"
+               },
+               "#comment": " FS:Beq Add control for vberbose logging ",
+               "check_box:verbose_logging": {
+                  "@label": {
+                     "string": "Show detailed logging"
+                  },
+                  "@name": "verbose_logging"
+               },
+               "#comment$5": " FS:Beq/ ",
+               "text_editor:log_text": {
+                  "@name": "log_text"
+               }
+            },
+            "panel:mesh_preview_settings_panel": {
+               "@label": {
+                  "string": "Preview Settings"
+               },
+               "@name": "mesh_preview_settings_panel",
+               "view_border:mesh_preview_settings_tab_border": {
+                  "@name": "mesh_preview_settings_tab_border"
+               },
+               "text:mesh_upload_behaviour_label": {
+                  "@name": "mesh_upload_behaviour_label",
+                  "#text": {
+                     "string": "\n         Model Upload Behaviour Settings:\n       "
+                  }
+               },
+               "check_box:mesh_preview_auto_weights": {
+                  "@label": {
+                     "string": "Auto-enable weights"
+                  },
+                  "@tool_tip": {
+                     "string": "Automatically set weights enabled for meshes with rigging info"
+                  },
+                  "@name": "mesh_preview_auto_weights"
+               },
+               "check_box:mesh_preview_auto_show_weights": {
+                  "@label": {
+                     "string": "Auto-preview weights"
+                  },
+                  "@tool_tip": {
+                     "string": "Automatically show weights in preview for meshes with rigging info"
+                  },
+                  "@name": "mesh_preview_auto_show_weights"
+               },
+               "text:mesh_preview_ud_preset_label": {
+                  "@name": "mesh_preview_ud_preset_label",
+                  "#text": {
+                     "string": "\n          Physics User Defined Preset:\n        "
+                  }
+               },
+               "line_editor:ud_physics": {
+                  "@name": "ud_physics",
+                  "@tool_tip": {
+                     "string": "Full system path to a simple Collada mesh definition to be used for physics."
+                  }
+               },
+               "text:mesh_preview_colors_label": {
+                  "@name": "mesh_preview_colors_label",
+                  "#text": {
+                     "string": "\n         Model Upload Preview Colors:\n       "
+                  }
+               },
+               "text:user_label": {
+                  "@name": "user_label",
+                  "#text": {
+                     "string": "\n        General:\n       "
+                  }
+               },
+               "color_swatch:mesh_preview_canvas_color": {
+                  "@label": {
+                     "string": "Background"
+                  },
+                  "@tool_tip": {
+                     "string": "Canvas color for the Mesh uploader"
+                  },
+                  "@name": "mesh_preview_canvas_color"
+               },
+               "color_swatch:mesh_preview_edge_color": {
+                  "@label": {
+                     "string": "Model Edge"
+                  },
+                  "@tool_tip": {
+                     "string": "Edge color for the model in preview window on the Mesh uploader"
+                  },
+                  "@name": "mesh_preview_edge_color"
+               },
+               "color_swatch:preview_ambient_color": {
+                  "@label": {
+                     "string": "Ambient Light"
+                  },
+                  "@tool_tip": {
+                     "string": "Ambient light level in preview window (also affects animation preview etc)"
+                  },
+                  "@name": "preview_ambient_color"
+               },
+               "text:physics_settings_label": {
+                  "@name": "physics_settings_label",
+                  "#text": {
+                     "string": "\n         Physics:\n        "
+                  }
+               },
+               "color_swatch:mesh_preview_physics_edge_color": {
+                  "@label": {
+                     "string": "Physics Edge"
+                  },
+                  "@tool_tip": {
+                     "string": "Edge color for physics triangles in preview window on the Mesh uploader"
+                  },
+                  "@name": "mesh_preview_physics_edge_color"
+               },
+               "color_swatch:mesh_preview_physics_fill_color": {
+                  "@label": {
+                     "string": "Physics Fill"
+                  },
+                  "@tool_tip": {
+                     "string": "Fill color for physics model in preview window on the Mesh uploader"
+                  },
+                  "@name": "mesh_preview_physics_fill_color"
+               },
+               "text:physics_issues_setting_label": {
+                  "@name": "physics_issues_setting_label",
+                  "#text": {
+                     "string": "\n        Physics Issues:\n      "
+                  }
+               },
+               "color_swatch:mesh_preview_degenerate_edge_color": {
+                  "@label": {
+                     "string": "Bad Triangle Edge"
+                  },
+                  "@tool_tip": {
+                     "string": "Edge color for degenerate (thin) triangles in preview window on the Mesh uploader"
+                  },
+                  "@name": "mesh_preview_degenerate_edge_color"
+               },
+               "color_swatch:mesh_degenerate_fill_color": {
+                  "@label": {
+                     "string": "Bad Triangle Fill"
+                  },
+                  "@tool_tip": {
+                     "string": "Fill color for degenerate (thin) triangles in preview window on the Mesh uploader"
+                  },
+                  "@name": "mesh_degenerate_fill_color"
+               }
+            }
+         },
+         "panel:weights_and_warning_panel": {
+            "@name": "weights_and_warning_panel",
+            "button:calculate_btn": {
+               "@label": {
+                  "string": "Calculate weights & fee"
+               },
+               "@name": "calculate_btn",
+               "@tool_tip": {
+                  "string": "Calculate weights &fee"
+               }
+            },
+            "button:cancel_btn": {
+               "@label": {
+                  "string": "Cancel"
+               },
+               "@name": "cancel_btn"
+            },
+            "button:ok_btn": {
+               "@label": {
+                  "string": "Upload"
+               },
+               "@name": "ok_btn",
+               "@tool_tip": {
+                  "string": "Upload to simulator"
+               }
+            },
+            "button:reset_btn": {
+               "@label": {
+                  "string": "Clear settings & reset form"
+               },
+               "@name": "reset_btn"
+            },
+            "#comment": " ========== WEIGHTS ==========",
+            "text:upload_fee": {
+               "@name": "upload_fee",
+               "#text": {
+                  "string": "\n         Upload fee: L$ [FEE]\n       "
+               }
+            },
+            "text:prim_weight": {
+               "@name": "prim_weight",
+               "#text": {
+                  "string": "\n         Land impact: [EQ]\n       "
+               }
+            },
+            "text:download_weight": {
+               "@name": "download_weight",
+               "#text": {
+                  "string": "\n         Download: [ST]\n       "
+               }
+            },
+            "text:physics_weight": {
+               "@name": "physics_weight",
+               "#text": {
+                  "string": "\n         Physics: [PH]\n       "
+               }
+            },
+            "text:server_weight": {
+               "@name": "server_weight",
+               "#text": {
+                  "string": "\n         Server: [SIM]\n       "
+               }
+            },
+            "#comment$11": " =========== Cost breakdown ======== ",
+            "panel:price_breakdown_panel": {
+               "@name": "price_breakdown_panel",
+               "text:price_breakdown_title": {
+                  "@name": "price_breakdown_title",
+                  "#text": {
+                     "string": "\n          Price Breakdown\n        "
+                  }
+               },
+               "view_border:price_breakdown_border": {
+                  "@name": "price_breakdown_border"
+               },
+               "text:price_breakdown_labels": {
+                  "@name": "price_breakdown_labels",
+                  "#text": {
+                     "string": "\nDownload:\nPhysics:\nInstances:\nTextures:\nModel:\n        "
+                  }
+               },
+               "text:price_breakdown": {
+                  "@name": "price_breakdown",
+                  "#text": {
+                     "string": "\n[STREAMING]\n[PHYSICS]\n[INSTANCES]\n[TEXTURES]\n[MODEL]\n        "
+                  }
+               }
+            },
+            "#comment$13": " \n       Streaming breakdown numbers are available but not fully understood\n       uncommenting the following sections will display the numbers for debugging purposes\n       <text\n        height=\"80\"\n        top_delta=\"0\"\n        layout=\"topleft\"\n        left=\"130\"\n        name=\"streaming_breakdown_labels\"\n        width=\"65\"\n        word_wrap=\"true\">\nStreaming/Download:\nHigh:\nMedium:\nLow:\nLowest:\n      </text>\n       <text\n        height=\"80\"\n        top_delta=\"0\"\n        layout=\"topleft\"\n        left_pad=\"0\"\n        name=\"streaming_breakdown\"\n        width=\"95\"\n        word_wrap=\"true\">\n[STR_TOTAL]\n[STR_HIGH]\n[STR_MED]\n[STR_LOW]\n[STR_LOWEST]\n      </text>",
+            "panel:physics_costs_panel": {
+               "@name": "physics_costs_panel",
+               "text:physics_breakdown_title": {
+                  "@name": "physics_breakdown_title",
+                  "#text": {
+                     "string": "\n          Physics Costs\n        "
+                  }
+               },
+               "view_border:physics_breakdown_border": {
+                  "@name": "physics_breakdown_border"
+               },
+               "text:physics_breakdown_labels": {
+                  "@name": "physics_breakdown_labels",
+                  "#text": {
+                     "string": "\nBase Hull:\nMesh:\nAnalysed:\n        "
+                  }
+               },
+               "text:physics_breakdown": {
+                  "@name": "physics_breakdown",
+                  "#text": {
+                     "string": "\n[PCH]\n[PM]\n[PHU]\n        "
+                  }
+               },
+               "#text": {
+                  "string": "-->\n      "
+               }
+            },
+            "#comment$15": " FS:Beq relocate the preview controls to be sensible ",
+            "panel:preview_controls_panel": {
+               "@name": "preview_controls_panel",
+               "panel:preview_controls_inner_panel": {
+                  "@name": "preview_controls_inner_panel",
+                  "text:preview_controls_title": {
+                     "@name": "preview_controls_title",
+                     "#text": {
+                        "string": "\n            Preview controls\n          "
+                     }
+                  },
+                  "combo_box:preview_lod_combo": {
+                     "@name": "preview_lod_combo",
+                     "@tool_tip": {
+                        "string": "LOD to view in preview render"
+                     },
+                     "combo_item:high": {
+                        "@name": "high",
+                        "#text": {
+                           "string": "   High   "
+                        }
+                     },
+                     "combo_item:medium": {
+                        "@name": "medium",
+                        "#text": {
+                           "string": " Medium "
+                        }
+                     },
+                     "combo_item:low": {
+                        "@name": "low",
+                        "#text": {
+                           "string": "    Low    "
+                        }
+                     },
+                     "combo_item:lowest": {
+                        "@name": "lowest",
+                        "#text": {
+                           "string": " Lowest "
+                        }
+                     }
+                  }
+               },
+               "view_border:preview_controls_border": {
+                  "@name": "preview_controls_border"
+               },
+               "check_box:show_edges": {
+                  "@label": {
+                     "string": "Edges"
+                  },
+                  "@name": "show_edges"
+               },
+               "check_box:show_textures": {
+                  "@label": {
+                     "string": "Textures"
+                  },
+                  "@name": "show_textures"
+               },
+               "check_box:show_uv_guide": {
+                  "@label": {
+                     "string": "UV guide"
+                  },
+                  "@name": "show_uv_guide"
+               },
+               "check_box:show_physics": {
+                  "@label": {
+                     "string": "Physics"
+                  },
+                  "@name": "show_physics"
+               },
+               "text:exploder_label": {
+                  "@name": "exploder_label",
+                  "#text": {
+                     "string": "\n            Explode hulls\n      "
+                  }
+               },
+               "slider:physics_explode": {
+                  "@name": "physics_explode"
+               },
+               "check_box:show_skin_weight": {
+                  "@label": {
+                     "string": "Weights"
+                  },
+                  "@name": "show_skin_weight"
+               },
+               "check_box:show_joint_positions": {
+                  "@label": {
+                     "string": "Joint Positions"
+                  },
+                  "@name": "show_joint_positions"
+               },
+               "check_box:show_joint_overrides": {
+                  "@label": {
+                     "string": "Joint Pos. Overrides"
+                  },
+                  "@name": "show_joint_overrides"
+               }
+            },
+            "#comment$17": " ========== NOTE MESSAGE ========== ",
+            "text:warning_title": {
+               "@name": "warning_title",
+               "#text": {
+                  "string": "\n      NOTE:\n    "
+               }
+            },
+            "text:warning_message": {
+               "@name": "warning_message",
+               "#text": {
+                  "string": "\n      You don't have rights to upload mesh models. [[VURL] Find out how] to get certified.\n    "
+               }
+            },
+            "text:status": {
+               "@name": "status",
+               "#text": {
+                  "string": "\n    [STATUS]\n    "
+               }
+            }
+         },
+         "#comment": " /FS:Beq "
+      },
+      "text:lod_label": {
+         "@name": "lod_label",
+         "#text": {
+            "string": "\nPreview:\n"
+         }
+      },
+      "panel:preview_panel": {
+         "@name": "preview_panel"
+      }
+   }
+}

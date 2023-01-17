@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "script",
+      "@title": {
+         "string": "[ALL SCRIPTS]"
+      },
+      "text_editor:Chat History Editor": {
+         "@name": "Chat History Editor"
+      }
+   }
+}

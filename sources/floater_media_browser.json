@@ -1,0 +1,127 @@
+{
+   "floater": {
+      "@name": "floater_about",
+      "@title": {
+         "string": "Media Browser"
+      },
+      "floater.string:home_page_url": {
+         "@name": "home_page_url",
+         "#text": {
+            "string": "\n        http://www.secondlife.com\n    "
+         }
+      },
+      "floater.string:support_page_url": {
+         "@name": "support_page_url",
+         "#text": {
+            "string": "\n        http://support.secondlife.com\n    "
+         }
+      },
+      "layout_stack:stack1": {
+         "@name": "stack1",
+         "layout_panel:nav_controls": {
+            "@name": "nav_controls",
+            "button:back": {
+               "@label": {
+                  "string": "Back"
+               },
+               "@name": "back",
+               "button.commit_callback": null
+            },
+            "button:forward": {
+               "@label": {
+                  "string": "Forward"
+               },
+               "@name": "forward",
+               "button.commit_callback": null
+            },
+            "button:reload": {
+               "@label": {
+                  "string": "Reload"
+               },
+               "@name": "reload",
+               "button.commit_callback": null
+            },
+            "combo_box:address": {
+               "@name": "address",
+               "combo_box.commit_callback": null
+            },
+            "button:go": {
+               "@label": {
+                  "string": "Go"
+               },
+               "@name": "go",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:time_controls": {
+            "@name": "time_controls",
+            "button:rewind": {
+               "@label": {
+                  "string": "rewind"
+               },
+               "@name": "rewind"
+            },
+            "button:play": {
+               "@name": "play"
+            },
+            "button:pause": {
+               "@name": "pause"
+            },
+            "button:stop": {
+               "@label": {
+                  "string": "stop"
+               },
+               "@name": "stop"
+            },
+            "button:seek": {
+               "@label": {
+                  "string": "forward"
+               },
+               "@name": "seek"
+            }
+         },
+         "layout_panel:parcel_owner_controls": {
+            "@name": "parcel_owner_controls",
+            "button:assign": {
+               "@label": {
+                  "string": "Send Current Page to Parcel"
+               },
+               "@name": "assign",
+               "button.commit_callback": null
+            }
+         },
+         "layout_panel:external_controls": {
+            "@name": "external_controls",
+            "text:plugin_fail_text": {
+               "@name": "plugin_fail_text",
+               "#text": {
+                  "string": "\nThe web browser plugin seems to be taking a while to open.\nIf the plugin never loads, please visit:\n\nhttps://wiki.firestormviewer.org/fs_media\n\nfor possible steps to resolve this issue.\n          "
+               }
+            },
+            "web_browser:browser": {
+               "@name": "browser"
+            },
+            "button:open_browser": {
+               "@label": {
+                  "string": "Open in My Web Browser"
+               },
+               "@name": "open_browser",
+               "button.commit_callback": null
+            },
+            "check_box:open_always": {
+               "@label": {
+                  "string": "Always open in my web browser"
+               },
+               "@name": "open_always"
+            },
+            "button:close": {
+               "@label": {
+                  "string": "Close"
+               },
+               "@name": "close",
+               "button.commit_callback": null
+            }
+         }
+      }
+   }
+}

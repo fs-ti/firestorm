@@ -1,0 +1,486 @@
+{
+   "floater": {
+      "@name": "prefs_graphics_advanced",
+      "@title": {
+         "string": "Advanced Graphics Preferences"
+      },
+      "#comment": " This block shows Advanced Settings ",
+      "text:GeneralText": {
+         "@name": "GeneralText",
+         "#text": {
+            "string": "\n     General\n  "
+         }
+      },
+      "slider:DrawDistance": {
+         "@label": {
+            "string": "Draw distance:"
+         },
+         "@name": "DrawDistance"
+      },
+      "text:DrawDistanceMeterText2": {
+         "@name": "DrawDistanceMeterText2",
+         "#text": {
+            "string": "\n     m\n  "
+         }
+      },
+      "slider:MaxParticleCount": {
+         "@label": {
+            "string": "Max. particle count:"
+         },
+         "@name": "MaxParticleCount"
+      },
+      "slider:RenderPostProcess": {
+         "@label": {
+            "string": "Post process quality:"
+         },
+         "@name": "RenderPostProcess",
+         "slider.commit_callback": null
+      },
+      "text:PostProcessText": {
+         "@name": "PostProcessText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "text:AvatarText": {
+         "@name": "AvatarText",
+         "#text": {
+            "string": "\n     Avatar\n  "
+         }
+      },
+      "slider:IndirectMaxComplexity": {
+         "@tool_tip": {
+            "string": "Controls at what point a visually complex avatar is drawn as a JellyDoll"
+         },
+         "@label": {
+            "string": "Maximum complexity:"
+         },
+         "@name": "IndirectMaxComplexity",
+         "slider.commit_callback": null
+      },
+      "text:IndirectMaxComplexityText": {
+         "@name": "IndirectMaxComplexityText",
+         "#text": {
+            "string": "\n       0\n  "
+         }
+      },
+      "slider:IndirectMaxNonImpostors": {
+         "@label": {
+            "string": "Max. # of non-impostors:"
+         },
+         "@name": "IndirectMaxNonImpostors",
+         "slider.commit_callback": null
+      },
+      "text:IndirectMaxNonImpostorsText": {
+         "@name": "IndirectMaxNonImpostorsText",
+         "#text": {
+            "string": "\n       0\n  "
+         }
+      },
+      "slider:AvatarMeshDetail": {
+         "@label": {
+            "string": "Detail:"
+         },
+         "@name": "AvatarMeshDetail",
+         "slider.commit_callback": null
+      },
+      "text:AvatarMeshDetailText": {
+         "@name": "AvatarMeshDetailText",
+         "#text": {
+            "string": "\n     Low\n  "
+         }
+      },
+      "slider:AvatarPhysicsDetail": {
+         "@label": {
+            "string": "Physics:"
+         },
+         "@name": "AvatarPhysicsDetail",
+         "slider.commit_callback": null
+      },
+      "text:AvatarPhysicsDetailText": {
+         "@name": "AvatarPhysicsDetailText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "text:HardwareText": {
+         "@name": "HardwareText",
+         "#text": {
+            "string": "\n     Hardware\n  "
+         }
+      },
+      "slider:GraphicsCardTextureMemory": {
+         "@label": {
+            "string": "Texture Memory (MB):"
+         },
+         "@name": "GraphicsCardTextureMemory",
+         "@tool_tip": {
+            "string": "Amount of memory to allocate for textures. Defaults to video card memory up to 512MB on 32bit systems and up to 2048MB on 64bit systems, depending on the available dedicated video memory of the video card. Reducing this may improve performance but may also make textures blurry."
+         }
+      },
+      "slider:fog": {
+         "@label": {
+            "string": "Fog Distance Ratio:"
+         },
+         "@name": "fog"
+      },
+      "slider:gamma": {
+         "@label": {
+            "string": "Gamma:"
+         },
+         "@name": "gamma"
+      },
+      "text:(brightness, lower is brighter)": {
+         "@name": "(brightness, lower is brighter)",
+         "#text": {
+            "string": "\n      (0 = default brightness, lower = brighter)\n  "
+         }
+      },
+      "check_box:ani": {
+         "@label": {
+            "string": "Anisotropic Filtering (slower when enabled)"
+         },
+         "@name": "ani"
+      },
+      "check_box:vbo": {
+         "@label": {
+            "string": "Enable OpenGL Vertex Buffer Objects"
+         },
+         "@name": "vbo",
+         "@tool_tip": {
+            "string": "Enabling this on modern hardware gives a performance gain.  However, older hardware often has poor implementations of VBOs and you may get crashes when this is enabled."
+         }
+      },
+      "check_box:texture compression": {
+         "@label": {
+            "string": "Enable Texture Compression (requires restart)"
+         },
+         "@name": "texture compression",
+         "@tool_tip": {
+            "string": "Compresses textures in video memory, allowing for higher resolution textures to be loaded at the cost of some color quality."
+         }
+      },
+      "check_box:use HiDPI": {
+         "@label": {
+            "string": "Enable support for HiDPI displays (requires restart)"
+         },
+         "@name": "use HiDPI",
+         "@tool_tip": {
+            "string": "Enable OpenGL for High-Resolution Drawing."
+         }
+      },
+      "text:antialiasing label": {
+         "@name": "antialiasing label",
+         "#text": {
+            "string": "\n      Antialiasing:\n  "
+         }
+      },
+      "combo_box:fsaa": {
+         "@label": {
+            "string": "Antialiasing"
+         },
+         "@name": "fsaa",
+         "combo_box.item:FSAADisabled": {
+            "@label": {
+               "string": "Disabled"
+            },
+            "@name": "FSAADisabled"
+         },
+         "combo_box.item:2x": {
+            "@label": {
+               "string": "2x"
+            },
+            "@name": "2x"
+         },
+         "combo_box.item:4x": {
+            "@label": {
+               "string": "4x"
+            },
+            "@name": "4x"
+         },
+         "combo_box.item:8x": {
+            "@label": {
+               "string": "8x"
+            },
+            "@name": "8x"
+         },
+         "combo_box.item:16x": {
+            "@label": {
+               "string": "16x"
+            },
+            "@name": "16x"
+         }
+      },
+      "text:antialiasing restart": {
+         "@name": "antialiasing restart",
+         "#text": {
+            "string": "\n     (requires restart)\n  "
+         }
+      },
+      "view_border:vert_border": {
+         "@name": "vert_border"
+      },
+      "text:MeshText": {
+         "@name": "MeshText",
+         "#text": {
+            "string": "\n     Mesh\n  "
+         }
+      },
+      "slider:TerrainMeshDetail": {
+         "@label": {
+            "string": "Terrain Mesh Detail:"
+         },
+         "@name": "TerrainMeshDetail",
+         "slider.commit_callback": null
+      },
+      "text:TerrainMeshDetailText": {
+         "@name": "TerrainMeshDetailText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "slider:TreeMeshDetail": {
+         "@label": {
+            "string": "Trees:"
+         },
+         "@name": "TreeMeshDetail",
+         "slider.commit_callback": null
+      },
+      "text:TreeMeshDetailText": {
+         "@name": "TreeMeshDetailText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "slider:ObjectMeshDetail": {
+         "@label": {
+            "string": "Objects:"
+         },
+         "@name": "ObjectMeshDetail",
+         "slider.commit_callback": null
+      },
+      "text:ObjectMeshDetailText": {
+         "@name": "ObjectMeshDetailText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "slider:FlexibleMeshDetail": {
+         "@label": {
+            "string": "Flexiprims:"
+         },
+         "@name": "FlexibleMeshDetail",
+         "slider.commit_callback": null
+      },
+      "text:FlexibleMeshDetailText": {
+         "@name": "FlexibleMeshDetailText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "text:ShadersText": {
+         "@name": "ShadersText",
+         "#text": {
+            "string": "\n     Shaders\n  "
+         }
+      },
+      "check_box:TransparentWater": {
+         "@label": {
+            "string": "Transparent Water"
+         },
+         "@name": "TransparentWater",
+         "check_box.commit_callback": null
+      },
+      "check_box:BumpShiny": {
+         "@label": {
+            "string": "Bump mapping and shiny"
+         },
+         "@name": "BumpShiny",
+         "check_box.commit_callback": null
+      },
+      "check_box:LocalLights": {
+         "@label": {
+            "string": "Local Lights"
+         },
+         "@name": "LocalLights"
+      },
+      "#comment$44": " <FS:LO> remove orphaned code left over from EEP\n  <slider\n    control_name=\"RenderTerrainDetail\"\n    follows=\"left|top\"\n    height=\"16\"\n    label=\"Terrain Detail:\"\n    label_width=\"165\"\n    layout=\"topleft\"\n    left=\"440\"\n    show_text=\"false\"\n    initial_value=\"0\"\n    increment=\"1\"\n    min_val=\"0\"\n    max_val=\"1\"\n    name=\"TerrainDetail\"\n    top_delta=\"16\"\n    width=\"280\" >\n    <slider.commit_callback\n      function=\"Pref.UpdateSliderText\"\n      parameter=\"TerrainDetail\" />\n  </slider> ",
+      "text:TerrainDetailText": {
+         "@name": "TerrainDetailText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "check_box:AvatarVertexProgram": {
+         "@label": {
+            "string": "Avatar Hardware skinning"
+         },
+         "@name": "AvatarVertexProgram",
+         "check_box.commit_callback": null
+      },
+      "check_box:AvatarCloth": {
+         "@label": {
+            "string": "Avatar cloth"
+         },
+         "@name": "AvatarCloth"
+      },
+      "text:ReflectionsText": {
+         "@name": "ReflectionsText",
+         "#text": {
+            "string": "\n       Water Reflections:\n  "
+         }
+      },
+      "combo_box:Reflections": {
+         "@name": "Reflections",
+         "combo_box.item:-2": {
+            "@label": {
+               "string": "None; opaque"
+            },
+            "@name": "-2"
+         },
+         "combo_box.item:-1": {
+            "@label": {
+               "string": "None; transparent"
+            },
+            "@name": "-1"
+         },
+         "combo_box.item:0": {
+            "@label": {
+               "string": "Minimal"
+            },
+            "@name": "0"
+         },
+         "combo_box.item:1": {
+            "@label": {
+               "string": "Terrain and trees"
+            },
+            "@name": "1"
+         },
+         "combo_box.item:2": {
+            "@label": {
+               "string": "All static objects"
+            },
+            "@name": "2"
+         },
+         "combo_box.item:3": {
+            "@label": {
+               "string": "All avatars and objects"
+            },
+            "@name": "3"
+         },
+         "combo_box.item:4": {
+            "@label": {
+               "string": "Everything"
+            },
+            "@name": "4"
+         }
+      },
+      "check_box:WindLightUseAtmosShaders": {
+         "@label": {
+            "string": "Atmospheric shaders"
+         },
+         "@name": "WindLightUseAtmosShaders",
+         "check_box.commit_callback": null
+      },
+      "slider:SkyMeshDetail": {
+         "@label": {
+            "string": "Sky:"
+         },
+         "@name": "SkyMeshDetail",
+         "slider.commit_callback": null
+      },
+      "text:SkyMeshDetailText": {
+         "@name": "SkyMeshDetailText",
+         "#text": {
+            "string": "\n       Low\n  "
+         }
+      },
+      "check_box:UseLightShaders": {
+         "@label": {
+            "string": "Advanced Lighting Model"
+         },
+         "@name": "UseLightShaders",
+         "check_box.commit_callback": null
+      },
+      "check_box:UseSSAO": {
+         "@label": {
+            "string": "Ambient Occlusion"
+         },
+         "@name": "UseSSAO",
+         "check_box.commit_callback": null
+      },
+      "check_box:UseDoF": {
+         "@label": {
+            "string": "Depth of Field"
+         },
+         "@name": "UseDoF",
+         "check_box.commit_callback": null
+      },
+      "#comment$56": "\n  <check_box\n    control_name=\"RenderUseAdvancedAtmospherics\"\n    height=\"16\"\n    initial_value=\"true\"\n    label=\"Advanced Atmospherics\"\n    layout=\"topleft\"\n    left=\"480\"\n    name=\"UseAdvancedAtmo\"\n    top_delta=\"16\"\n    width=\"240\">\n    <check_box.commit_callback\n      function=\"Pref.AdvancedAtmosphericsEnable\" />\n  </check_box>\n  ",
+      "text:RenderShadowDetailText": {
+         "@name": "RenderShadowDetailText",
+         "#text": {
+            "string": "\n      Shadows:\n  "
+         }
+      },
+      "combo_box:ShadowDetail": {
+         "@name": "ShadowDetail",
+         "combo_box.item:0": {
+            "@label": {
+               "string": "None"
+            },
+            "@name": "0"
+         },
+         "combo_box.item:1": {
+            "@label": {
+               "string": "Sun/Moon"
+            },
+            "@name": "1"
+         },
+         "combo_box.item:2": {
+            "@label": {
+               "string": "Sun/Moon + Projectors"
+            },
+            "@name": "2"
+         }
+      },
+      "#comment$59": " End of Advanced Settings block ",
+      "view_border:horiz_border": {
+         "@name": "horiz_border"
+      },
+      "button:Defaults": {
+         "@label": {
+            "string": "Reset to recommended settings"
+         },
+         "@name": "Defaults",
+         "button.commit_callback": null
+      },
+      "button:OK": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "OK",
+         "button.commit_callback": null
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel",
+         "button.commit_callback": null
+      },
+      "#comment$64": " These two check boxes are dummies and will never be displayed.  They are here so the control variables\nare saved in a preset file. ",
+      "check_box:RenderAvatarMaxComplexity": {
+         "@label": {
+            "string": "RenderAvatarMaxComplexity"
+         },
+         "@name": "RenderAvatarMaxComplexity"
+      },
+      "check_box:RenderAvatarMaxNonImpostors": {
+         "@label": {
+            "string": "RenderAvatarMaxNonImpostors"
+         },
+         "@name": "RenderAvatarMaxNonImpostors"
+      }
+   }
+}

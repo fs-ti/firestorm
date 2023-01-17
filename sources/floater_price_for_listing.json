@@ -1,0 +1,41 @@
+{
+   "floater": {
+      "@name": "price_for_listing",
+      "@title": {
+         "string": "Publish Classified Ad"
+      },
+      "text:explanation_text": {
+         "@name": "explanation_text",
+         "#text": {
+            "string": "\n        Your classified ad will run for one week from the day it is published.\n\nYour ad's position in the classified listings is determined by how much you choose to pay.\n\nThe highest paid ads go to the top of the list, and appear higher in searches.\n    "
+         }
+      },
+      "text:price_text": {
+         "@name": "price_text",
+         "#text": {
+            "string": "\n        Price for Ad:\n    "
+         }
+      },
+      "text:price_symbol": {
+         "@name": "price_symbol",
+         "#text": {
+            "string": "\n        L$\n    "
+         }
+      },
+      "line_editor:price_edit": {
+         "@name": "price_edit"
+      },
+      "button:set_price_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "set_price_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

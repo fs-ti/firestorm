@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "rlvLocks",
+      "@title": {
+         "string": "Active RLV Locks"
+      },
+      "panel:panel_rlvLocks": {
+         "@name": "panel_rlvLocks"
+      }
+   }
+}

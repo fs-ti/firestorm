@@ -1,0 +1,71 @@
+{
+   "floater": {
+      "@name": "spellcheck_floater",
+      "@title": {
+         "string": "Spell Checker Settings"
+      },
+      "check_box:spellcheck_enable": {
+         "@label": {
+            "string": "Enable spell checker"
+         },
+         "@name": "spellcheck_enable"
+      },
+      "view_border:divisor1": {
+         "@name": "divisor1"
+      },
+      "text:spellcheck_main": {
+         "@name": "spellcheck_main",
+         "#text": {
+            "string": "\n    Main dictionary:\n  "
+         }
+      },
+      "combo_box:spellcheck_main_combo": {
+         "@name": "spellcheck_main_combo"
+      },
+      "text:spellcheck_additional": {
+         "@label": {
+            "string": "Logs:"
+         },
+         "@name": "spellcheck_additional",
+         "#text": {
+            "string": "\n    Additional dictionaries:\n  "
+         }
+      },
+      "text:spellcheck_available": {
+         "@name": "spellcheck_available",
+         "#text": {
+            "string": "\n      Available\n  "
+         }
+      },
+      "text:spellcheck_active": {
+         "@name": "spellcheck_active",
+         "#text": {
+            "string": "\n      Active\n  "
+         }
+      },
+      "scroll_list:spellcheck_available_list": {
+         "@name": "spellcheck_available_list"
+      },
+      "button:spellcheck_moveright_btn": {
+         "@name": "spellcheck_moveright_btn"
+      },
+      "button:spellcheck_moveleft_btn": {
+         "@name": "spellcheck_moveleft_btn"
+      },
+      "scroll_list:spellcheck_active_list": {
+         "@name": "spellcheck_active_list"
+      },
+      "button:spellcheck_remove_btn": {
+         "@label": {
+            "string": "Remove"
+         },
+         "@name": "spellcheck_remove_btn"
+      },
+      "button:spellcheck_import_btn": {
+         "@label": {
+            "string": "Import..."
+         },
+         "@name": "spellcheck_import_btn"
+      }
+   }
+}

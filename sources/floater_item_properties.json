@@ -1,0 +1,14 @@
+{
+   "floater": {
+      "@name": "Item Properties",
+      "@title": {
+         "string": "Item Properties"
+      },
+      "panel:item_panel": {
+         "@name": "item_panel",
+         "@label": {
+            "string": ""
+         }
+      }
+   }
+}

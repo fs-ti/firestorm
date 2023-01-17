@@ -1,0 +1,512 @@
+{
+   "floater": {
+      "@name": "floater_pathfinding_linksets",
+      "@title": {
+         "string": "Region Objects"
+      },
+      "floater.string:messaging_initial": {
+         "@name": "messaging_initial"
+      },
+      "floater.string:messaging_get_inprogress": {
+         "@name": "messaging_get_inprogress",
+         "#text": {
+            "string": "Querying for pathfinding linksets ..."
+         }
+      },
+      "floater.string:messaging_get_error": {
+         "@name": "messaging_get_error",
+         "#text": {
+            "string": "Error detected while querying for pathfinding linksets."
+         }
+      },
+      "floater.string:messaging_set_inprogress": {
+         "@name": "messaging_set_inprogress",
+         "#text": {
+            "string": "Modifying selected pathfinding linksets ..."
+         }
+      },
+      "floater.string:messaging_set_error": {
+         "@name": "messaging_set_error",
+         "#text": {
+            "string": "Error detected while modifying selected pathfinding linksets."
+         }
+      },
+      "floater.string:messaging_complete_none_found": {
+         "@name": "messaging_complete_none_found",
+         "#text": {
+            "string": "No pathfinding linksets."
+         }
+      },
+      "floater.string:messaging_complete_available": {
+         "@name": "messaging_complete_available",
+         "#text": {
+            "string": "[NUM_SELECTED] selected out of [NUM_TOTAL]."
+         }
+      },
+      "floater.string:messaging_not_enabled": {
+         "@name": "messaging_not_enabled",
+         "#text": {
+            "string": "This region is not enabled for pathfinding."
+         }
+      },
+      "floater.string:linkset_terrain_name": {
+         "@name": "linkset_terrain_name",
+         "#text": {
+            "string": "[Terrain]"
+         }
+      },
+      "floater.string:linkset_terrain_description": {
+         "@name": "linkset_terrain_description",
+         "#text": {
+            "string": "--"
+         }
+      },
+      "floater.string:linkset_terrain_owner": {
+         "@name": "linkset_terrain_owner",
+         "#text": {
+            "string": "--"
+         }
+      },
+      "floater.string:linkset_terrain_scripted": {
+         "@name": "linkset_terrain_scripted",
+         "#text": {
+            "string": "--"
+         }
+      },
+      "floater.string:linkset_terrain_land_impact": {
+         "@name": "linkset_terrain_land_impact",
+         "#text": {
+            "string": "--"
+         }
+      },
+      "floater.string:linkset_terrain_dist_from_you": {
+         "@name": "linkset_terrain_dist_from_you",
+         "#text": {
+            "string": "--"
+         }
+      },
+      "floater.string:linkset_owner_loading": {
+         "@name": "linkset_owner_loading",
+         "#text": {
+            "string": "[Loading]"
+         }
+      },
+      "floater.string:linkset_owner_unknown": {
+         "@name": "linkset_owner_unknown",
+         "#text": {
+            "string": "[Unknown]"
+         }
+      },
+      "floater.string:linkset_owner_group": {
+         "@name": "linkset_owner_group",
+         "#text": {
+            "string": "[group]"
+         }
+      },
+      "floater.string:linkset_is_scripted": {
+         "@name": "linkset_is_scripted",
+         "#text": {
+            "string": "Yes"
+         }
+      },
+      "floater.string:linkset_is_not_scripted": {
+         "@name": "linkset_is_not_scripted",
+         "#text": {
+            "string": "No"
+         }
+      },
+      "floater.string:linkset_is_unknown_scripted": {
+         "@name": "linkset_is_unknown_scripted",
+         "#text": {
+            "string": "Unknown"
+         }
+      },
+      "floater.string:linkset_use_walkable": {
+         "@name": "linkset_use_walkable",
+         "#text": {
+            "string": "Walkable"
+         }
+      },
+      "floater.string:linkset_use_static_obstacle": {
+         "@name": "linkset_use_static_obstacle",
+         "#text": {
+            "string": "Static obstacle"
+         }
+      },
+      "floater.string:linkset_use_dynamic_obstacle": {
+         "@name": "linkset_use_dynamic_obstacle",
+         "#text": {
+            "string": "Movable obstacle"
+         }
+      },
+      "floater.string:linkset_use_material_volume": {
+         "@name": "linkset_use_material_volume",
+         "#text": {
+            "string": "Material volume"
+         }
+      },
+      "floater.string:linkset_use_exclusion_volume": {
+         "@name": "linkset_use_exclusion_volume",
+         "#text": {
+            "string": "Exclusion volume"
+         }
+      },
+      "floater.string:linkset_use_dynamic_phantom": {
+         "@name": "linkset_use_dynamic_phantom",
+         "#text": {
+            "string": "Movable phantom"
+         }
+      },
+      "floater.string:linkset_is_terrain": {
+         "@name": "linkset_is_terrain",
+         "#text": {
+            "string": "[unmodifiable]"
+         }
+      },
+      "floater.string:linkset_is_restricted_state": {
+         "@name": "linkset_is_restricted_state",
+         "#text": {
+            "string": "[restricted]"
+         }
+      },
+      "floater.string:linkset_is_non_volume_state": {
+         "@name": "linkset_is_non_volume_state",
+         "#text": {
+            "string": "[concave]"
+         }
+      },
+      "floater.string:linkset_is_restricted_non_volume_state": {
+         "@name": "linkset_is_restricted_non_volume_state",
+         "#text": {
+            "string": "[restricted,concave]"
+         }
+      },
+      "floater.string:linkset_choose_use": {
+         "@name": "linkset_choose_use",
+         "#text": {
+            "string": "Choose linkset use..."
+         }
+      },
+      "panel:pathfinding_linksets_main": {
+         "@name": "pathfinding_linksets_main",
+         "text:linksets_filter_label": {
+            "@name": "linksets_filter_label",
+            "#text": {
+               "string": "\n      Filter by:\n    "
+            }
+         },
+         "text:linksets_name_label": {
+            "@name": "linksets_name_label",
+            "#text": {
+               "string": "\n      Name\n    "
+            }
+         },
+         "line_editor:filter_by_name": {
+            "@name": "filter_by_name"
+         },
+         "text:linksets_desc_label": {
+            "@name": "linksets_desc_label",
+            "#text": {
+               "string": "\n      Description\n    "
+            }
+         },
+         "line_editor:filter_by_description": {
+            "@name": "filter_by_description"
+         },
+         "combo_box:filter_by_linkset_use": {
+            "@name": "filter_by_linkset_use",
+            "combo_box.item:filter_by_linkset_use_none": {
+               "@label": {
+                  "string": "Filter by linkset use..."
+               },
+               "@name": "filter_by_linkset_use_none"
+            },
+            "combo_box.item:filter_by_linkset_use_walkable": {
+               "@label": {
+                  "string": "Walkable"
+               },
+               "@name": "filter_by_linkset_use_walkable"
+            },
+            "combo_box.item:filter_by_linkset_use_static_obstacle": {
+               "@label": {
+                  "string": "Static obstacle"
+               },
+               "@name": "filter_by_linkset_use_static_obstacle"
+            },
+            "combo_box.item:filter_by_linkset_use_dynamic_obstacle": {
+               "@label": {
+                  "string": "Movable obstacle"
+               },
+               "@name": "filter_by_linkset_use_dynamic_obstacle"
+            },
+            "combo_box.item:filter_by_linkset_use_material_volume": {
+               "@label": {
+                  "string": "Material volume"
+               },
+               "@name": "filter_by_linkset_use_material_volume"
+            },
+            "combo_box.item:filter_by_linkset_use_exclusion_volume": {
+               "@label": {
+                  "string": "Exclusion volume"
+               },
+               "@name": "filter_by_linkset_use_exclusion_volume"
+            },
+            "combo_box.item:filter_by_linkset_use_dynamic_phantom": {
+               "@label": {
+                  "string": "Movable phantom"
+               },
+               "@name": "filter_by_linkset_use_dynamic_phantom"
+            }
+         },
+         "button:apply_filters": {
+            "@label": {
+               "string": "Apply"
+            },
+            "@name": "apply_filters"
+         },
+         "button:clear_filters": {
+            "@label": {
+               "string": "Clear"
+            },
+            "@name": "clear_filters"
+         },
+         "scroll_list:objects_scroll_list": {
+            "@name": "objects_scroll_list",
+            "scroll_list.columns:name": {
+               "@label": {
+                  "string": "Name (root prim)"
+               },
+               "@name": "name"
+            },
+            "scroll_list.columns:description": {
+               "@label": {
+                  "string": "Description (root prim)"
+               },
+               "@name": "description"
+            },
+            "scroll_list.columns:owner": {
+               "@label": {
+                  "string": "Owner"
+               },
+               "@name": "owner"
+            },
+            "scroll_list.columns:scripted": {
+               "@label": {
+                  "string": "Scripted"
+               },
+               "@name": "scripted"
+            },
+            "scroll_list.columns:land_impact": {
+               "@label": {
+                  "string": "Impact"
+               },
+               "@name": "land_impact"
+            },
+            "scroll_list.columns:dist_from_you": {
+               "@label": {
+                  "string": "Distance"
+               },
+               "@name": "dist_from_you"
+            },
+            "scroll_list.columns:linkset_use": {
+               "@label": {
+                  "string": "Pathfinding use"
+               },
+               "@name": "linkset_use"
+            },
+            "scroll_list.columns:a_percent": {
+               "@label": {
+                  "string": "A %"
+               },
+               "@name": "a_percent"
+            },
+            "scroll_list.columns:b_percent": {
+               "@label": {
+                  "string": "B %"
+               },
+               "@name": "b_percent"
+            },
+            "scroll_list.columns:c_percent": {
+               "@label": {
+                  "string": "C %"
+               },
+               "@name": "c_percent"
+            },
+            "scroll_list.columns:d_percent": {
+               "@label": {
+                  "string": "D %"
+               },
+               "@name": "d_percent"
+            }
+         },
+         "text:messaging_status": {
+            "@name": "messaging_status",
+            "#text": {
+               "string": "\n      Linksets:\n    "
+            }
+         },
+         "button:refresh_objects_list": {
+            "@label": {
+               "string": "Refresh list"
+            },
+            "@name": "refresh_objects_list"
+         },
+         "button:select_all_objects": {
+            "@label": {
+               "string": "Select all"
+            },
+            "@name": "select_all_objects"
+         },
+         "button:select_none_objects": {
+            "@label": {
+               "string": "Select none"
+            },
+            "@name": "select_none_objects"
+         }
+      },
+      "view_border:horiz_separator": {
+         "@name": "horiz_separator"
+      },
+      "panel:pathfinding_linksets_actions": {
+         "@name": "pathfinding_linksets_actions",
+         "text:linksets_actions_label": {
+            "@name": "linksets_actions_label",
+            "#text": {
+               "string": "\n      Actions on selected\n    "
+            }
+         },
+         "check_box:show_beacon": {
+            "@label": {
+               "string": "Show beacon"
+            },
+            "@name": "show_beacon"
+         },
+         "button:take_objects": {
+            "@label": {
+               "string": "Take"
+            },
+            "@name": "take_objects"
+         },
+         "button:take_copy_objects": {
+            "@label": {
+               "string": "Take copy"
+            },
+            "@name": "take_copy_objects"
+         },
+         "button:teleport_me_to_object": {
+            "@label": {
+               "string": "Teleport me to it"
+            },
+            "@name": "teleport_me_to_object"
+         },
+         "button:return_objects": {
+            "@label": {
+               "string": "Return"
+            },
+            "@name": "return_objects"
+         },
+         "button:delete_objects": {
+            "@label": {
+               "string": "Delete"
+            },
+            "@name": "delete_objects"
+         }
+      },
+      "panel:pathfinding_linksets_attributes": {
+         "@name": "pathfinding_linksets_attributes",
+         "text:linksets_attributes_label": {
+            "@name": "linksets_attributes_label",
+            "#text": {
+               "string": "\n      Edit pathfinding attributes\n    "
+            }
+         },
+         "combo_box:edit_linkset_use": {
+            "@name": "edit_linkset_use"
+         },
+         "text:walkability_coefficients_label": {
+            "@name": "walkability_coefficients_label",
+            "#text": {
+               "string": "\n      Walkability:\n    "
+            }
+         },
+         "text:edit_a_label": {
+            "@name": "edit_a_label",
+            "#text": {
+               "string": "\n      A\n    "
+            }
+         },
+         "line_editor:edit_a_value": {
+            "@name": "edit_a_value",
+            "@tool_tip": {
+               "string": "Walkability for characters of type A.  Example character type is humanoid."
+            }
+         },
+         "text:edit_b_label": {
+            "@name": "edit_b_label",
+            "#text": {
+               "string": "\n      B\n    "
+            }
+         },
+         "line_editor:edit_b_value": {
+            "@name": "edit_b_value",
+            "@tool_tip": {
+               "string": "Walkability for characters of type B.  Example character type is creature."
+            }
+         },
+         "text:edit_c_label": {
+            "@name": "edit_c_label",
+            "#text": {
+               "string": "\n      C\n    "
+            }
+         },
+         "line_editor:edit_c_value": {
+            "@name": "edit_c_value",
+            "@tool_tip": {
+               "string": "Walkability for characters of type C.  Example character type is mechanical."
+            }
+         },
+         "text:edit_d_label": {
+            "@name": "edit_d_label",
+            "#text": {
+               "string": "\n      D\n    "
+            }
+         },
+         "line_editor:edit_d_value": {
+            "@name": "edit_d_value",
+            "@tool_tip": {
+               "string": "Walkability for characters of type D.  Example character type is other."
+            }
+         },
+         "button:apply_edit_values": {
+            "@label": {
+               "string": "Apply changes"
+            },
+            "@name": "apply_edit_values"
+         },
+         "text:suggested_use_a_label": {
+            "@name": "suggested_use_a_label",
+            "#text": {
+               "string": "\n      (Humanoid)\n    "
+            }
+         },
+         "text:suggested_use_b_label": {
+            "@name": "suggested_use_b_label",
+            "#text": {
+               "string": "\n      (Creature)\n    "
+            }
+         },
+         "text:suggested_use_c_label": {
+            "@name": "suggested_use_c_label",
+            "#text": {
+               "string": "\n      (Mechanical)\n    "
+            }
+         },
+         "text:suggested_use_d_label": {
+            "@name": "suggested_use_d_label",
+            "#text": {
+               "string": "\n      (Other)\n    "
+            }
+         }
+      }
+   }
+}

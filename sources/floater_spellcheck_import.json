@@ -1,0 +1,56 @@
+{
+   "floater": {
+      "@name": "spellcheck_import",
+      "@title": {
+         "string": "Import Dictionary"
+      },
+      "text:import_dict": {
+         "@name": "import_dict",
+         "#text": {
+            "string": "\n   Dictionary:\n  "
+         }
+      },
+      "line_editor:dictionary_path": {
+         "@name": "dictionary_path"
+      },
+      "button:dictionary_path_browse": {
+         "@label": {
+            "string": "Browse"
+         },
+         "@name": "dictionary_path_browse"
+      },
+      "text:import_name": {
+         "@name": "import_name",
+         "#text": {
+            "string": "\n   Name:\n  "
+         }
+      },
+      "line_editor:dictionary_name": {
+         "@name": "dictionary_name"
+      },
+      "text:import_lang": {
+         "@name": "import_lang",
+         "#text": {
+            "string": "\n   Language:\n  "
+         }
+      },
+      "line_editor:dictionary_language": {
+         "@name": "dictionary_language"
+      },
+      "view_border:divisor": {
+         "@name": "divisor"
+      },
+      "button:ok_btn": {
+         "@name": "ok_btn",
+         "@label": {
+            "string": "Import"
+         }
+      },
+      "button:cancel_btn": {
+         "@name": "cancel_btn",
+         "@label": {
+            "string": "Cancel"
+         }
+      }
+   }
+}

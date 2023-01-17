@@ -1,0 +1,243 @@
+{
+   "floater": {
+      "@name": "perms default",
+      "@title": {
+         "string": "Default Creation Permissions"
+      },
+      "panel:default permissions": {
+         "@label": {
+            "string": "Default Permissions"
+         },
+         "@name": "default permissions",
+         "view_border": null,
+         "text:label_1": {
+            "@name": "label_1",
+            "#text": {
+               "string": "\n         Next owner:\n      "
+            }
+         },
+         "text:label_2": {
+            "@name": "label_2",
+            "#text": {
+               "string": "\n          Copy\n      "
+            }
+         },
+         "text:label_3": {
+            "@name": "label_3",
+            "#text": {
+               "string": "\n          Modify\n      "
+            }
+         },
+         "text:label_4": {
+            "@name": "label_4",
+            "#text": {
+               "string": "\n          Transfer\n      "
+            }
+         },
+         "text:label_5": {
+            "@name": "label_5",
+            "#text": {
+               "string": "\n          Share with group\n      "
+            }
+         },
+         "text:label_6": {
+            "@name": "label_6",
+            "#text": {
+               "string": "\n          Allow anyone to copy\n      "
+            }
+         },
+         "text:label_7": {
+            "@name": "label_7",
+            "@tool_tip": {
+               "string": "Set default permissions for when Objects are created"
+            },
+            "#text": {
+               "string": "\n          Objects\n      "
+            }
+         },
+         "icon": null,
+         "check_box:objects_c": {
+            "@name": "objects_c",
+            "check_box.commit_callback": null
+         },
+         "check_box:objects_m": {
+            "@name": "objects_m"
+         },
+         "check_box:objects_t": {
+            "@name": "objects_t"
+         },
+         "check_box:objects_s": {
+            "@name": "objects_s"
+         },
+         "check_box:objects_e": {
+            "@name": "objects_e"
+         },
+         "text:label_8": {
+            "@name": "label_8",
+            "@tool_tip": {
+               "string": "Set default permissions for uploaded items"
+            },
+            "#text": {
+               "string": "\n          Uploads\n      "
+            }
+         },
+         "check_box:uploads_c": {
+            "@name": "uploads_c",
+            "check_box.commit_callback": null
+         },
+         "check_box:uploads_m": {
+            "@name": "uploads_m"
+         },
+         "check_box:uploads_t": {
+            "@name": "uploads_t"
+         },
+         "check_box:uploads_s": {
+            "@name": "uploads_s"
+         },
+         "check_box:uploads_e": {
+            "@name": "uploads_e"
+         },
+         "text:label_9": {
+            "@name": "label_9",
+            "@tool_tip": {
+               "string": "Set default permissions for when Scripts are created"
+            },
+            "#text": {
+               "string": "\n          Scripts\n      "
+            }
+         },
+         "check_box:scripts_c": {
+            "@name": "scripts_c",
+            "check_box.commit_callback": null
+         },
+         "check_box:scripts_m": {
+            "@name": "scripts_m"
+         },
+         "check_box:scripts_t": {
+            "@name": "scripts_t"
+         },
+         "check_box:scripts_s": {
+            "@name": "scripts_s"
+         },
+         "check_box:scripts_e": {
+            "@name": "scripts_e"
+         },
+         "text:label_10": {
+            "@name": "label_10",
+            "@tool_tip": {
+               "string": "Set default permissions for when Notecards are created"
+            },
+            "#text": {
+               "string": "\n        Notecards\n      "
+            }
+         },
+         "check_box:notecards_c": {
+            "@name": "notecards_c",
+            "check_box.commit_callback": null
+         },
+         "check_box:notecards_m": {
+            "@name": "notecards_m"
+         },
+         "check_box:notecards_t": {
+            "@name": "notecards_t"
+         },
+         "check_box:notecards_s": {
+            "@name": "notecards_s"
+         },
+         "check_box:notecards_e": {
+            "@name": "notecards_e"
+         },
+         "text:label_11": {
+            "@name": "label_11",
+            "@tool_tip": {
+               "string": "Set default permissions for when Gestures are created"
+            },
+            "#text": {
+               "string": "\n          Gestures\n      "
+            }
+         },
+         "check_box:gestures_c": {
+            "@name": "gestures_c",
+            "check_box.commit_callback": null
+         },
+         "check_box:gestures_m": {
+            "@name": "gestures_m"
+         },
+         "check_box:gestures_t": {
+            "@name": "gestures_t"
+         },
+         "check_box:gestures_s": {
+            "@name": "gestures_s"
+         },
+         "check_box:gestures_a": {
+            "@name": "gestures_a"
+         },
+         "text:label_12": {
+            "@name": "label_12",
+            "@tool_tip": {
+               "string": "Set default permissions for when Clothing or Body Parts are created"
+            },
+            "#text": {
+               "string": "\n          Wearables\n      "
+            }
+         },
+         "check_box:wearables_c": {
+            "@name": "wearables_c",
+            "check_box.commit_callback": null
+         },
+         "check_box:wearables_m": {
+            "@name": "wearables_m"
+         },
+         "check_box:wearables_t": {
+            "@name": "wearables_t"
+         },
+         "check_box:wearables_s": {
+            "@name": "wearables_s"
+         },
+         "check_box:wearables_e": {
+            "@name": "wearables_e"
+         },
+         "text:label_13": {
+            "@name": "label_13",
+            "@tool_tip": {
+               "string": "Set default permissions for when Environment settings are created"
+            },
+            "#text": {
+               "string": "\n          Settings\n      "
+            }
+         },
+         "check_box:env_settings_c": {
+            "@name": "env_settings_c",
+            "@value": {
+               "string": "true"
+            }
+         },
+         "check_box:env_settings_m": {
+            "@name": "env_settings_m"
+         },
+         "check_box:env_settings_t": {
+            "@name": "env_settings_t"
+         },
+         "check_box:env_settings_s": {
+            "@name": "env_settings_s"
+         },
+         "check_box:env_settings_e": {
+            "@name": "env_settings_e"
+         }
+      },
+      "button:ok": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok",
+         "button.commit_callback": null
+      },
+      "button:cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel",
+         "button.commit_callback": null
+      }
+   }
+}

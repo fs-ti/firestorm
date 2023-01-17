@@ -1,0 +1,29 @@
+{
+   "floater": {
+      "@name": "media_settings",
+      "@title": {
+         "string": "Media Settings"
+      },
+      "button:OK": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "OK"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      },
+      "button:Apply": {
+         "@label": {
+            "string": "Apply"
+         },
+         "@name": "Apply"
+      },
+      "tab_container:tab_container": {
+         "@name": "tab_container"
+      }
+   }
+}

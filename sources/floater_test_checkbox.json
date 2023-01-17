@@ -1,0 +1,46 @@
+{
+   "floater": {
+      "check_box:show_location_checkbox": {
+         "@label": {
+            "string": "Oh look it's a checkbox!"
+         },
+         "@name": "show_location_checkbox"
+      },
+      "check_box:minimal_checkbox": {
+         "@label": {
+            "string": "Minimal Checkbox"
+         },
+         "@name": "minimal_checkbox"
+      },
+      "check_box:disabled_checkbox": {
+         "@label": {
+            "string": "Disabled Checkbox"
+         },
+         "@name": "disabled_checkbox"
+      },
+      "check_box:text_enabled_color_checkbox": {
+         "@label": {
+            "string": "Text Enabled Color"
+         },
+         "@name": "text_enabled_color_checkbox"
+      },
+      "check_box:text_disabled_color_checkbox": {
+         "@label": {
+            "string": "Text Disabled Color"
+         },
+         "@name": "text_disabled_color_checkbox"
+      },
+      "check_box:initial_value_checkbox": {
+         "@label": {
+            "string": "Initial Value Checked"
+         },
+         "@name": "initial_value_checkbox"
+      },
+      "check_box:font_checkbox": {
+         "@label": {
+            "string": "Font Monospace"
+         },
+         "@name": "font_checkbox"
+      }
+   }
+}

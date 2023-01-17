@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "scriptlimits",
+      "@title": {
+         "string": "Script Information"
+      },
+      "tab_container:scriptlimits_panels": {
+         "@name": "scriptlimits_panels"
+      }
+   }
+}

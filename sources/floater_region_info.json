@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "regioninfo",
+      "@title": {
+         "string": "Region / Estate"
+      },
+      "tab_container:region_panels": {
+         "@name": "region_panels"
+      }
+   }
+}

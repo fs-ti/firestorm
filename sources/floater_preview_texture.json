@@ -1,0 +1,119 @@
+{
+   "floater": {
+      "@name": "preview_texture",
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Texture: [NAME]\n    "
+         }
+      },
+      "floater.string:Copy": {
+         "@name": "Copy",
+         "#text": {
+            "string": "\n        Copy To Inventory\n    "
+         }
+      },
+      "floater.string:DateTime": {
+         "@name": "DateTime",
+         "#text": {
+            "string": "\n        [weekday,datetime,slt] [month,datetime,slt] [day,datetime,slt] [hour12,datetime,slt]:[min,datetime,slt]:[second,datetime,slt][ampm,datetime,slt] [timezone,datetime,slt] [year,datetime,slt]\n    "
+         }
+      },
+      "floater.string:UploaderDateTime": {
+         "@name": "UploaderDateTime",
+         "#text": {
+            "string": "\n        Uploaded by [UPLOADER] on [DATE_TIME]\n    "
+         }
+      },
+      "text:desc txt": {
+         "@name": "desc txt",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:desc": {
+         "@name": "desc"
+      },
+      "text_editor:uploader_date_time": {
+         "@name": "uploader_date_time"
+      },
+      "button:openprofile": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "openprofile"
+      },
+      "panel:dimensions_panel": {
+         "@name": "dimensions_panel",
+         "text:dimensions": {
+            "@name": "dimensions",
+            "#text": {
+               "string": "\n      [WIDTH]px x [HEIGHT]px\n    "
+            }
+         },
+         "button:copyuuid": {
+            "@label": {
+               "string": "UUID"
+            },
+            "@name": "copyuuid",
+            "@tool_tip": {
+               "string": "Copy the UUID to the clipboard"
+            }
+         },
+         "text:aspect_ratio": {
+            "@name": "aspect_ratio",
+            "#text": {
+               "string": "\n      Preview aspect ratio\n    "
+            }
+         },
+         "combo_box:combo_aspect_ratio": {
+            "@name": "combo_aspect_ratio",
+            "@tool_tip": {
+               "string": "Preview at a fixed aspect ratio"
+            }
+         }
+      },
+      "panel:button_panel": {
+         "@name": "button_panel",
+         "button:btn_refresh": {
+            "@name": "btn_refresh"
+         },
+         "button:Keep": {
+            "@label": {
+               "string": "OK"
+            },
+            "@name": "Keep"
+         },
+         "button:Discard": {
+            "@label": {
+               "string": "Discard"
+            },
+            "@name": "Discard"
+         },
+         "flyout_button:save_tex_btn": {
+            "@label": {
+               "string": "Save..."
+            },
+            "@name": "save_tex_btn",
+            "flyout_button.item:save_item_tga": {
+               "@label": {
+                  "string": "Save As TGA"
+               },
+               "@name": "save_item_tga",
+               "@value": {
+                  "string": "format_tga"
+               }
+            },
+            "flyout_button.item:save_item_png": {
+               "@label": {
+                  "string": "Save As PNG"
+               },
+               "@name": "save_item_png",
+               "@value": {
+                  "string": "format_png"
+               }
+            }
+         }
+      }
+   }
+}

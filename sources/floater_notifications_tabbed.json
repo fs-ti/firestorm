@@ -1,0 +1,113 @@
+{
+   "floater": {
+      "@name": "floater_notifications_tabbed",
+      "@title": {
+         "string": "Notifications"
+      },
+      "floater.string:system_tab_title": {
+         "@name": "system_tab_title",
+         "#text": {
+            "string": "\n    System ([COUNT])\n  "
+         }
+      },
+      "floater.string:transactions_tab_title": {
+         "@name": "transactions_tab_title",
+         "#text": {
+            "string": "\n    Transactions ([COUNT])\n  "
+         }
+      },
+      "floater.string:group_invitations_tab_title": {
+         "@name": "group_invitations_tab_title",
+         "#text": {
+            "string": "\n    Invitations ([COUNT])\n  "
+         }
+      },
+      "floater.string:group_notices_tab_title": {
+         "@name": "group_notices_tab_title",
+         "#text": {
+            "string": "\n    Group ([COUNT])\n  "
+         }
+      },
+      "string:title_notification_tabbed_window": {
+         "@name": "title_notification_tabbed_window",
+         "#text": {
+            "string": "\n    Notifications\n  "
+         }
+      },
+      "layout_stack:TabButtonsStack": {
+         "@name": "TabButtonsStack",
+         "layout_panel:TabButtonsLayoutPanel": {
+            "@name": "TabButtonsLayoutPanel",
+            "tab_container:notifications_tab_container": {
+               "@name": "notifications_tab_container",
+               "panel:system_notification_list_tab": {
+                  "@label": {
+                     "string": "System (0)"
+                  },
+                  "@name": "system_notification_list_tab",
+                  "notification_list_view:system_notification_list": {
+                     "@name": "system_notification_list"
+                  }
+               },
+               "panel:transaction_notifications_tab": {
+                  "@label": {
+                     "string": "Transactions (0)"
+                  },
+                  "@name": "transaction_notifications_tab",
+                  "notification_list_view:transaction_notification_list": {
+                     "@name": "transaction_notification_list"
+                  }
+               },
+               "panel:group_invite_notifications_tab": {
+                  "@label": {
+                     "string": "Invitations (0)"
+                  },
+                  "@name": "group_invite_notifications_tab",
+                  "notification_list_view:group_invite_notification_list": {
+                     "@name": "group_invite_notification_list"
+                  }
+               },
+               "panel:group_notice_notifications_tab": {
+                  "@label": {
+                     "string": "Group (0)"
+                  },
+                  "@name": "group_notice_notifications_tab",
+                  "notification_list_view:group_notice_notification_list": {
+                     "@name": "group_notice_notification_list"
+                  }
+               }
+            },
+            "layout_stack:ButtonsStack": {
+               "@name": "ButtonsStack",
+               "layout_panel:CondenseAllButtonPanel": {
+                  "@name": "CondenseAllButtonPanel",
+                  "button:collapse_all_button": {
+                     "@label": {
+                        "string": "Collapse all"
+                     },
+                     "@name": "collapse_all_button"
+                  }
+               },
+               "layout_panel:GapLayoutPanel": {
+                  "@name": "GapLayoutPanel",
+                  "panel:GapPanel": {
+                     "@label": {
+                        "string": "Gap Panel"
+                     },
+                     "@name": "GapPanel"
+                  }
+               },
+               "layout_panel:DeleteAllButtonPanel": {
+                  "@name": "DeleteAllButtonPanel",
+                  "button:delete_all_button": {
+                     "@label": {
+                        "string": "Delete all"
+                     },
+                     "@name": "delete_all_button"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

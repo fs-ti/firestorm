@@ -1,0 +1,23 @@
+{
+   "floater": {
+      "@name": "sys_well_window",
+      "@title": {
+         "string": "Notifications"
+      },
+      "string:title_im_well_window": {
+         "@name": "title_im_well_window",
+         "#text": {
+            "string": "\n        Conversations\n    "
+         }
+      },
+      "string:title_notification_well_window": {
+         "@name": "title_notification_well_window",
+         "#text": {
+            "string": "\n        Notifications\n    "
+         }
+      },
+      "flat_list_view:notification_list": {
+         "@name": "notification_list"
+      }
+   }
+}

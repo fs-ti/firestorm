@@ -1,0 +1,56 @@
+{
+   "floater": {
+      "@name": "search replace",
+      "@title": {
+         "string": "Search / Replace"
+      },
+      "check_box:case_text": {
+         "@label": {
+            "string": "Case Insensitive"
+         },
+         "@name": "case_text"
+      },
+      "check_box:find_previous": {
+         "@label": {
+            "string": "Search Up"
+         },
+         "@name": "find_previous"
+      },
+      "button:search_btn": {
+         "@label": {
+            "string": "Search"
+         },
+         "@name": "search_btn"
+      },
+      "button:replace_btn": {
+         "@label": {
+            "string": "Replace"
+         },
+         "@name": "replace_btn"
+      },
+      "button:replace_all_btn": {
+         "@label": {
+            "string": "Replace All"
+         },
+         "@name": "replace_all_btn"
+      },
+      "text:txt": {
+         "@name": "txt",
+         "#text": {
+            "string": "\n        Search\n    "
+         }
+      },
+      "text:txt2": {
+         "@name": "txt2",
+         "#text": {
+            "string": "\n        Replace\n    "
+         }
+      },
+      "line_editor:search_text": {
+         "@name": "search_text"
+      },
+      "line_editor:replace_text": {
+         "@name": "replace_text"
+      }
+   }
+}

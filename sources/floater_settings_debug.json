@@ -1,0 +1,120 @@
+{
+   "floater": {
+      "@name": "settings_debug",
+      "@title": {
+         "string": "Debug Settings"
+      },
+      "panel:debug_settings_search_panel": {
+         "@name": "debug_settings_search_panel",
+         "search_editor:search_settings_input": {
+            "@label": {
+               "string": "Search Here"
+            },
+            "@name": "search_settings_input",
+            "@tool_tip": {
+               "string": "Type the search term you are interested in here. Results will be displayed for partial fulltext matches within the setting's name or comment."
+            },
+            "#comment": " commit callback for clear button clicks ",
+            "search_editor.commit_callback": null,
+            "#comment$5": "keystroke_callback did not work as expected, so wired in postBuild() code :( -Zi\n      <search_editor.keystroke_callback\n        function=\"UpdateFilter\" />\n      ",
+            "search_editor.clear_button": null,
+            "search_editor.search_button": null
+         },
+         "scroll_list:settings_scroll_list": {
+            "@name": "settings_scroll_list",
+            "scroll_list.commit_callback": null
+         }
+      },
+      "panel:debug_settings_values_panel": {
+         "@name": "debug_settings_values_panel",
+         "text_editor:comment_text": {
+            "@name": "comment_text",
+            "@tool_tip": {
+               "string": "Debug setting comment. Often gives helpful information on the setting you have selected."
+            }
+         },
+         "radio_group:boolean_combo": {
+            "@name": "boolean_combo",
+            "radio_item:TRUE": {
+               "@label": {
+                  "string": "TRUE"
+               },
+               "@name": "TRUE"
+            },
+            "radio_item:FALSE": {
+               "@label": {
+                  "string": "FALSE"
+               },
+               "@name": "FALSE"
+            },
+            "commit_callback": null
+         },
+         "line_editor:val_text": {
+            "@name": "val_text",
+            "line_editor.commit_callback": null
+         },
+         "color_swatch:val_color_swatch": {
+            "@name": "val_color_swatch",
+            "@label": {
+               "string": "Color"
+            },
+            "color_swatch.commit_callback": null
+         },
+         "spinner:val_spinner_1": {
+            "@label": {
+               "string": "Spin 1"
+            },
+            "@name": "val_spinner_1",
+            "spinner.commit_callback": null
+         },
+         "spinner:val_spinner_2": {
+            "@label": {
+               "string": "Spin 2"
+            },
+            "@name": "val_spinner_2",
+            "spinner.commit_callback": null
+         },
+         "spinner:val_spinner_3": {
+            "@label": {
+               "string": "Spin 3"
+            },
+            "@name": "val_spinner_3",
+            "spinner.commit_callback": null
+         },
+         "spinner:val_spinner_4": {
+            "@label": {
+               "string": "Spin 4"
+            },
+            "@name": "val_spinner_4",
+            "spinner.commit_callback": null
+         },
+         "button:sanity_warning_btn": {
+            "@name": "sanity_warning_btn",
+            "@tool_tip": {
+               "string": "This debug setting failed the sanity check; its value lies outside the recommended range."
+            },
+            "button.commit_callback": null
+         },
+         "button:copy_btn": {
+            "@label": {
+               "string": "Copy"
+            },
+            "@name": "copy_btn",
+            "@tool_tip": {
+               "string": "Copies the setting's name to the clipboard."
+            },
+            "button.commit_callback": null
+         },
+         "button:default_btn": {
+            "@label": {
+               "string": "Reset to default"
+            },
+            "@name": "default_btn",
+            "@tool_tip": {
+               "string": "Reset this debug setting to its default value."
+            },
+            "button.commit_callback": null
+         }
+      }
+   }
+}

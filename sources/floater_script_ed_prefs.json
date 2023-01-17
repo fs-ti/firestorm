@@ -1,0 +1,293 @@
+{
+   "floater": {
+      "@name": "floater_script_colors",
+      "@title": {
+         "string": "Script Editor Preferences"
+      },
+      "text:color_pickers_label": {
+         "@name": "color_pickers_label",
+         "#text": {
+            "string": "\n  Choose desired colors:\n    "
+         }
+      },
+      "color_swatch:text": {
+         "@name": "text",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:text_label": {
+         "@name": "text_label",
+         "#text": {
+            "string": "\n        Text\n    "
+         }
+      },
+      "color_swatch:cursor": {
+         "@name": "cursor",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:cursor_label": {
+         "@name": "cursor_label",
+         "#text": {
+            "string": "\n        Cursor\n    "
+         }
+      },
+      "color_swatch:background": {
+         "@name": "background",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:background_label": {
+         "@name": "background_label",
+         "#text": {
+            "string": "\n        Background\n    "
+         }
+      },
+      "color_swatch:section": {
+         "@name": "section",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:section_label": {
+         "@name": "section_label",
+         "#text": {
+            "string": "\n        Sections\n    "
+         }
+      },
+      "color_swatch:datatype": {
+         "@name": "datatype",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:datatype_label": {
+         "@name": "datatype_label",
+         "#text": {
+            "string": "\n        Data Types\n    "
+         }
+      },
+      "color_swatch:event": {
+         "@name": "event",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:event_label": {
+         "@name": "event_label",
+         "#text": {
+            "string": "\n        Events\n    "
+         }
+      },
+      "color_swatch:comment": {
+         "@name": "comment",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:comment_label": {
+         "@name": "comment_label",
+         "#text": {
+            "string": "\n        Comment\n    "
+         }
+      },
+      "color_swatch:function": {
+         "@name": "function",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:function_label": {
+         "@name": "function_label",
+         "#text": {
+            "string": "\n        Function\n    "
+         }
+      },
+      "color_swatch:string_literal": {
+         "@name": "string_literal",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:string_literal_label": {
+         "@name": "string_literal_label",
+         "#text": {
+            "string": "\n        String Literals\n    "
+         }
+      },
+      "color_swatch:constant": {
+         "@name": "constant",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:constant_label": {
+         "@name": "constant_label",
+         "#text": {
+            "string": "\n        Constant\n    "
+         }
+      },
+      "color_swatch:i_constant": {
+         "@name": "i_constant",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:i_constant_label": {
+         "@name": "i_constant_label",
+         "#text": {
+            "string": "\n        Integer Const\n    "
+         }
+      },
+      "color_swatch:s_constant": {
+         "@name": "s_constant",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:s_constant_label": {
+         "@name": "s_constant_label",
+         "#text": {
+            "string": "\n        String Const\n    "
+         }
+      },
+      "color_swatch:f_constant": {
+         "@name": "f_constant",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:f_constant_label": {
+         "@name": "f_constant_label",
+         "#text": {
+            "string": "\n        Float Const\n    "
+         }
+      },
+      "color_swatch:c_constant": {
+         "@name": "c_constant",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:c_constant_label": {
+         "@name": "c_constant_label",
+         "#text": {
+            "string": "\n        Compound\n    "
+         }
+      },
+      "color_swatch:flow_control": {
+         "@name": "flow_control",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:flow_control_label": {
+         "@name": "flow_control_label",
+         "#text": {
+            "string": "\n        Flow Control\n    "
+         }
+      },
+      "color_swatch:preprocessor": {
+         "@name": "preprocessor",
+         "color_swatch.init_callback": null,
+         "color_swatch.commit_callback": null
+      },
+      "text:preprocessor_label": {
+         "@name": "preprocessor_label",
+         "#text": {
+            "string": "\n        Preprocessor\n    "
+         }
+      },
+      "script_editor:Script Preview": {
+         "@name": "Script Preview",
+         "#text": {
+            "string": "\n/* A sample script */\ndefault\n{\n    state_entry()\n    {\n        // Comment\n        string greeting = \"Hello\";\n        llSay(PUBLIC_CHANNEL, greeting);\n    }\n}\n    "
+         }
+      },
+      "text:prefs_label": {
+         "@name": "prefs_label",
+         "#text": {
+            "string": "\n    Script Editor Options:\n    "
+         }
+      },
+      "check_box:convert_tabs_to_spaces_checkbox": {
+         "@name": "convert_tabs_to_spaces_checkbox",
+         "@label": {
+            "string": "Convert tabs to spaces"
+         }
+      },
+      "check_box:preproc_checkbox": {
+         "@label": {
+            "string": "Enable LSL preprocessor"
+         },
+         "@tool_tip": {
+            "string": "When checked, the LSL preprocessor is enabled."
+         },
+         "@name": "preproc_checkbox"
+      },
+      "check_box:preprocoptimizer_checkbox": {
+         "@label": {
+            "string": "Script optimizer"
+         },
+         "@tool_tip": {
+            "string": "When checked, the LSL preprocessor will optimize space used by scripts."
+         },
+         "@name": "preprocoptimizer_checkbox"
+      },
+      "check_box:preprocswitch_checkbox": {
+         "@label": {
+            "string": "switch() statement"
+         },
+         "@tool_tip": {
+            "string": "When checked, the LSL preprocessor will allow the use of the switch() statement for script flow control."
+         },
+         "@name": "preprocswitch_checkbox"
+      },
+      "check_box:preproclazy_checkbox": {
+         "@label": {
+            "string": "Lazy lists"
+         },
+         "@tool_tip": {
+            "string": "When checked, the LSL preprocessor will allow the use of syntax extensions for list handling."
+         },
+         "@name": "preproclazy_checkbox"
+      },
+      "check_box:preprocinclude_checkbox": {
+         "@label": {
+            "string": "#includes from local disk"
+         },
+         "@tool_tip": {
+            "string": "When checked, the LSL preprocessor will allow #include statements to reference files on your local disk."
+         },
+         "@name": "preprocinclude_checkbox"
+      },
+      "text:lslpreprocinclude_textbox": {
+         "@name": "lslpreprocinclude_textbox",
+         "#text": {
+            "string": "\n    Preprocessor include path:\n  "
+         }
+      },
+      "line_editor:preprocinclude_location": {
+         "@name": "preprocinclude_location"
+      },
+      "button:SetPreprocInclude": {
+         "@label": {
+            "string": "..."
+         },
+         "@name": "SetPreprocInclude",
+         "button.commit_callback": null
+      },
+      "text:advanced_label": {
+         "@name": "advanced_label",
+         "#text": {
+            "string": "\n    Advanced Options:\n    "
+         }
+      },
+      "check_box:FSllOwnerSayToScriptDebugWindow_checkbox": {
+         "@name": "FSllOwnerSayToScriptDebugWindow_checkbox",
+         "@label": {
+            "string": "Route llOwnerSay to script debug window"
+         }
+      },
+      "check_box:FSScriptEditorRecompileButton_checkbox": {
+         "@name": "FSScriptEditorRecompileButton_checkbox",
+         "@label": {
+            "string": "Enable recompile button (useful for #include scripts)"
+         }
+      },
+      "button:close_btn": {
+         "@name": "close_btn",
+         "@label": {
+            "string": "OK"
+         }
+      }
+   }
+}

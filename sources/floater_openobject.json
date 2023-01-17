@@ -1,0 +1,58 @@
+{
+   "floater": {
+      "@name": "objectcontents",
+      "@title": {
+         "string": "Object Contents"
+      },
+      "text:object_name": {
+         "@name": "object_name",
+         "#text": {
+            "string": "\n        [DESC]:\n    "
+         }
+      },
+      "panel_inventory_object:object_contents": {
+         "@name": "object_contents"
+      },
+      "layout_stack:button_bar_ls": {
+         "@name": "button_bar_ls",
+         "layout_panel:copy_btn_lp": {
+            "@name": "copy_btn_lp",
+            "flyout_button:copy_flyout": {
+               "@label": {
+                  "string": "Copy To Inventory"
+               },
+               "@name": "copy_flyout",
+               "flyout_button.item:replace": {
+                  "@label": {
+                     "string": "Replace outfit with contents"
+                  },
+                  "@name": "replace",
+                  "@value": {
+                     "string": "replace"
+                  }
+               },
+               "flyout_button.item:add": {
+                  "@label": {
+                     "string": "Add contents to outfit"
+                  },
+                  "@name": "add",
+                  "@value": {
+                     "string": "add"
+                  }
+               },
+               "flyout_button.commit_callback": null
+            }
+         },
+         "layout_panel:cancel_btn_lp": {
+            "@name": "cancel_btn_lp",
+            "button:cancel_button": {
+               "@label": {
+                  "string": "Cancel"
+               },
+               "@name": "cancel_button",
+               "button.commit_callback": null
+            }
+         }
+      }
+   }
+}

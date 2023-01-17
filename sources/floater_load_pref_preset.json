@@ -1,0 +1,41 @@
+{
+   "floater": {
+      "@name": "load_pref_preset",
+      "@title": {
+         "string": "Load Pref Preset"
+      },
+      "string:title_graphic": {
+         "@name": "title_graphic",
+         "#text": {
+            "string": "Load Graphic Preset"
+         }
+      },
+      "string:title_camera": {
+         "@name": "title_camera",
+         "#text": {
+            "string": "Load Camera Preset"
+         }
+      },
+      "text:Preset": {
+         "@name": "Preset",
+         "#text": {
+            "string": "\n     Select a preset\n    "
+         }
+      },
+      "combo_box:preset_combo": {
+         "@name": "preset_combo"
+      },
+      "button:ok": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok"
+      },
+      "button:cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel"
+      }
+   }
+}

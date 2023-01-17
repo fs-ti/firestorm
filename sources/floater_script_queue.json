@@ -1,0 +1,89 @@
+{
+   "floater": {
+      "@name": "queue",
+      "@title": {
+         "string": "Reset Progress"
+      },
+      "floater.string:Starting": {
+         "@name": "Starting",
+         "#text": {
+            "string": "\n        Starting [START] of [COUNT] items.\n    "
+         }
+      },
+      "floater.string:Done": {
+         "@name": "Done",
+         "#text": {
+            "string": "\n        Done.\n    "
+         }
+      },
+      "floater.string:Resetting": {
+         "@name": "Resetting",
+         "#text": {
+            "string": "\n        Resetting\n    "
+         }
+      },
+      "floater.string:Running": {
+         "@name": "Running",
+         "#text": {
+            "string": "\n        Running\n    "
+         }
+      },
+      "floater.string:NotRunning": {
+         "@name": "NotRunning",
+         "#text": {
+            "string": "\n        Not running\n    "
+         }
+      },
+      "floater.string:Timeout": {
+         "@name": "Timeout",
+         "#text": {
+            "string": "\n        Timeout: [OBJECT_NAME]\n    "
+         }
+      },
+      "floater.string:LoadingObjInv": {
+         "@name": "LoadingObjInv",
+         "#text": {
+            "string": "\n        Loading inventory for: [OBJECT_NAME]\n    "
+         }
+      },
+      "floater.string:Deleting": {
+         "@name": "Deleting",
+         "#text": {
+            "string": "\n      Deleting\n    "
+         }
+      },
+      "floater.string:SkippingPermissions": {
+         "@name": "SkippingPermissions",
+         "#text": {
+            "string": "\n      Skipping: [OBJECT_NAME] (Permissions)\n    "
+         }
+      },
+      "floater.string:Compiling": {
+         "@name": "Compiling",
+         "#text": {
+            "string": "\n      Compiling \"[OBJECT_NAME]\"...\n    "
+         }
+      },
+      "floater.string:CompileSuccess": {
+         "@name": "CompileSuccess",
+         "#text": {
+            "string": "\n      Compilation of \"[OBJECT_NAME]\" succeeded\n    "
+         }
+      },
+      "floater.string:CompileFailure": {
+         "@name": "CompileFailure",
+         "#text": {
+            "string": "\n      Compilation of \"[OBJECT_NAME]\" failed:\n    "
+         }
+      },
+      "button:close": {
+         "@label": {
+            "string": "Close"
+         },
+         "@name": "close"
+      },
+      "scroll_list:queue output": {
+         "@name": "queue output"
+      }
+   }
+}

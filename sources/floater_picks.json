@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "floater_picks",
+      "@title": {
+         "string": "Picks"
+      },
+      "panel:main_panel": {
+         "@name": "main_panel"
+      }
+   }
+}

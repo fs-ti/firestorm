@@ -1,0 +1,29 @@
+{
+   "floater": {
+      "@name": "save_pref_preset",
+      "@title": {
+         "string": "Save Graphic Preset"
+      },
+      "text:Preset": {
+         "@name": "Preset",
+         "#text": {
+            "string": "\n     Type a name for the preset or choose an existing preset.\n    "
+         }
+      },
+      "combo_box:preset_combo": {
+         "@name": "preset_combo"
+      },
+      "button:save": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save"
+      },
+      "button:cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel"
+      }
+   }
+}

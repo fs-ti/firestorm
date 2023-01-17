@@ -1,0 +1,56 @@
+{
+   "floater": {
+      "@name": "region_restarting",
+      "@title": {
+         "string": "Region Restart"
+      },
+      "string:RegionName": {
+         "@name": "RegionName",
+         "#text": {
+            "string": "\n    The region you are in now ([NAME]) is about to restart.\n\nIf you stay in this region you will be logged out.\n    "
+         }
+      },
+      "string:RestartSeconds": {
+         "@name": "RestartSeconds",
+         "#text": {
+            "string": "\n     Seconds until restart\n[SECONDS]\n    "
+         }
+      },
+      "panel:layout_panel_1": {
+         "@name": "layout_panel_1",
+         "icon:icon": {
+            "@name": "icon"
+         },
+         "text:region_name": {
+            "@name": "region_name",
+            "#text": {
+               "string": "\n    The region you are in now (-The longest region name-) is about to restart.\n\nIf you stay in this region you will be logged out.\n    "
+            }
+         },
+         "text:restart_seconds": {
+            "@name": "restart_seconds",
+            "#text": {
+               "string": "\n     Seconds until restart\n     32767\n    "
+            }
+         },
+         "combo_box:landmark combo": {
+            "@label": {
+               "string": "My Landmarks"
+            },
+            "@name": "landmark combo",
+            "combo_box.item:item1": {
+               "@label": {
+                  "string": "My Landmarks"
+               },
+               "@name": "item1"
+            }
+         },
+         "button:teleport_btn": {
+            "@tool_tip": {
+               "string": "Teleport to Landmark"
+            },
+            "@name": "teleport_btn"
+         }
+      }
+   }
+}

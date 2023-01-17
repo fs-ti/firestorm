@@ -1,0 +1,242 @@
+{
+   "floater": {
+      "@name": "gesture_preview",
+      "floater.string:step_anim": {
+         "@name": "step_anim",
+         "#text": {
+            "string": "\n        Animation to play:\n    "
+         }
+      },
+      "floater.string:step_sound": {
+         "@name": "step_sound",
+         "#text": {
+            "string": "\n        Sound to play:\n    "
+         }
+      },
+      "floater.string:step_chat": {
+         "@name": "step_chat",
+         "#text": {
+            "string": "\n        Chat to say:\n    "
+         }
+      },
+      "floater.string:step_wait": {
+         "@name": "step_wait",
+         "#text": {
+            "string": "\n        Wait:\n    "
+         }
+      },
+      "floater.string:stop_txt": {
+         "@name": "stop_txt",
+         "#text": {
+            "string": "\n        Stop\n    "
+         }
+      },
+      "floater.string:preview_txt": {
+         "@name": "preview_txt",
+         "#text": {
+            "string": "\n        Preview\n    "
+         }
+      },
+      "floater.string:none_text": {
+         "@name": "none_text",
+         "#text": {
+            "string": "\n        -- None --\n    "
+         }
+      },
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Gesture: [NAME]\n    "
+         }
+      },
+      "text:desc_label": {
+         "@name": "desc_label",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:desc": {
+         "@name": "desc"
+      },
+      "text:trigger_label": {
+         "@name": "trigger_label",
+         "#text": {
+            "string": "\n        Trigger:\n    "
+         }
+      },
+      "line_editor:trigger_editor": {
+         "@name": "trigger_editor"
+      },
+      "text:replace_text": {
+         "@name": "replace_text",
+         "@tool_tip": {
+            "string": "Replace the trigger word(s) with these words. For example, trigger 'hello' replace with 'howdy' will turn the chat 'I wanted to say hello' into 'I wanted to say howdy' as well as playing the gesture!"
+         },
+         "#text": {
+            "string": "\n        Replace with:\n    "
+         }
+      },
+      "line_editor:replace_editor": {
+         "@name": "replace_editor",
+         "@tool_tip": {
+            "string": "Replace the trigger word(s) with these words. For example, trigger 'hello' replace with 'howdy' will turn the chat 'I wanted to say hello' into 'I wanted to say howdy' as well as playing the gesture"
+         }
+      },
+      "text:key_label": {
+         "@name": "key_label",
+         "#text": {
+            "string": "\n        Shortcut Key:\n    "
+         }
+      },
+      "combo_box:modifier_combo": {
+         "@label": {
+            "string": "None"
+         },
+         "@name": "modifier_combo"
+      },
+      "combo_box:key_combo": {
+         "@label": {
+            "string": "None"
+         },
+         "@name": "key_combo"
+      },
+      "text:library_label": {
+         "@name": "library_label",
+         "#text": {
+            "string": "\n        Library:\n    "
+         }
+      },
+      "scroll_list:library_list": {
+         "@name": "library_list",
+         "scroll_list.rows:action_animation": {
+            "@name": "action_animation",
+            "@value": {
+               "string": "Animation"
+            }
+         },
+         "scroll_list.rows:action_sound": {
+            "@name": "action_sound",
+            "@value": {
+               "string": "Sound"
+            }
+         },
+         "scroll_list.rows:action_chat": {
+            "@name": "action_chat",
+            "@value": {
+               "string": "Chat"
+            }
+         },
+         "scroll_list.rows:action_wait": {
+            "@name": "action_wait",
+            "@value": {
+               "string": "Wait"
+            }
+         }
+      },
+      "button:add_btn": {
+         "@label": {
+            "string": "Add >>"
+         },
+         "@name": "add_btn"
+      },
+      "text:steps_label": {
+         "@name": "steps_label",
+         "#text": {
+            "string": "\n        Steps:\n    "
+         }
+      },
+      "scroll_list:step_list": {
+         "@name": "step_list"
+      },
+      "button:up_btn": {
+         "@label": {
+            "string": "Up"
+         },
+         "@name": "up_btn"
+      },
+      "button:down_btn": {
+         "@label": {
+            "string": "Down"
+         },
+         "@name": "down_btn"
+      },
+      "button:delete_btn": {
+         "@label": {
+            "string": "Remove"
+         },
+         "@name": "delete_btn"
+      },
+      "text:options_text": {
+         "@name": "options_text",
+         "#text": {
+            "string": "\n   (options)\n   "
+         }
+      },
+      "combo_box:animation_list": {
+         "@name": "animation_list"
+      },
+      "combo_box:sound_list": {
+         "@name": "sound_list"
+      },
+      "line_editor:chat_editor": {
+         "@name": "chat_editor"
+      },
+      "radio_group:animation_trigger_type": {
+         "@name": "animation_trigger_type",
+         "radio_item:start": {
+            "@label": {
+               "string": "Start"
+            },
+            "@name": "start"
+         },
+         "radio_item:stop": {
+            "@label": {
+               "string": "Stop"
+            },
+            "@name": "stop"
+         }
+      },
+      "check_box:wait_anim_check": {
+         "@label": {
+            "string": "until animations are done"
+         },
+         "@name": "wait_anim_check"
+      },
+      "check_box:wait_time_check": {
+         "@label": {
+            "string": "time in seconds:"
+         },
+         "@name": "wait_time_check"
+      },
+      "line_editor:wait_time_editor": {
+         "@name": "wait_time_editor"
+      },
+      "text:help_label": {
+         "@name": "help_label",
+         "#text": {
+            "string": "\n        All steps happen simultaneously, unless you add wait steps.\n    "
+         }
+      },
+      "check_box:active_check": {
+         "@label": {
+            "string": "Active"
+         },
+         "@name": "active_check",
+         "@tool_tip": {
+            "string": "Active gestures can be triggered by chatting their trigger phrases or pressing their hot keys.  Gestures usually become inactive when there is a key binding conflict."
+         }
+      },
+      "button:preview_btn": {
+         "@label": {
+            "string": "Preview"
+         },
+         "@name": "preview_btn"
+      },
+      "button:save_btn": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save_btn"
+      }
+   }
+}

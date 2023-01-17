@@ -1,0 +1,52 @@
+{
+   "floater": {
+      "@name": "preview_anim",
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Animation: [NAME]\n    "
+         }
+      },
+      "text:desc txt": {
+         "@name": "desc txt",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:desc": {
+         "@name": "desc"
+      },
+      "button:Inworld": {
+         "@label": {
+            "string": "Play Inworld"
+         },
+         "@name": "Inworld",
+         "@tool_tip": {
+            "string": "Play this animation so that others can see it"
+         },
+         "button.commit_callback": null
+      },
+      "button:Locally": {
+         "@label": {
+            "string": "Play Locally"
+         },
+         "@name": "Locally",
+         "@tool_tip": {
+            "string": "Play this animation so that only you can see it"
+         },
+         "button.commit_callback": null
+      },
+      "text:AdvancedStatsLeft": {
+         "@name": "AdvancedStatsLeft",
+         "#text": {
+            "string": "\nPriority: [PRIORITY]\nDuration: [DURATION]s\nLoop: [IS_LOOP]\n    "
+         }
+      },
+      "text:AdvancedStatsRight": {
+         "@name": "AdvancedStatsRight",
+         "#text": {
+            "string": "\nEase In: [EASE_IN]s\nEase Out: [EASE_OUT]s\nJoints: [NUM_JOINTS]\n    "
+         }
+      }
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "floater": {
+      "@name": "block by name",
+      "@title": {
+         "string": "Block Object by Name"
+      },
+      "text:message": {
+         "@name": "message",
+         "#text": {
+            "string": "\n        Block an object:\n    "
+         }
+      },
+      "line_editor:object_name": {
+         "@name": "object_name",
+         "#text": {
+            "string": "\n        Object name\n    "
+         }
+      },
+      "text:note": {
+         "@name": "note",
+         "#text": {
+            "string": "\n      * Only blocks object text, not sounds\n    "
+         }
+      },
+      "button:OK": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "OK"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

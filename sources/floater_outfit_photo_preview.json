@@ -1,0 +1,44 @@
+{
+   "floater": {
+      "@name": "outfit_photo_preview",
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Texture: [NAME]\n    "
+         }
+      },
+      "floater.string:exceed_limits": {
+         "@name": "exceed_limits",
+         "#text": {
+            "string": "\n        Max outfit photo size is [MAX_WIDTH]*[MAX_HEIGHT]. Please select another texture.\n    "
+         }
+      },
+      "floater.string:photo_confirmation": {
+         "@name": "photo_confirmation",
+         "#text": {
+            "string": "\n         Set this as Outfit Photo for [OUTFIT]?\n    "
+         }
+      },
+      "text:dimensions": {
+         "@name": "dimensions",
+         "#text": {
+            "string": "\n        [WIDTH]px x [HEIGHT]px\n    "
+         }
+      },
+      "text:notification": {
+         "@name": "notification"
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

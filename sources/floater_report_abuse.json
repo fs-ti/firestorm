@@ -1,0 +1,245 @@
+{
+   "floater": {
+      "@name": "floater_report_abuse",
+      "@title": {
+         "string": "Report Abuse"
+      },
+      "floater.string:Screenshot": {
+         "@name": "Screenshot",
+         "#text": {
+            "string": "\n        Screenshot\n    "
+         }
+      },
+      "texture_picker:screenshot": {
+         "@name": "screenshot"
+      },
+      "button:refresh_screenshot": {
+         "@tool_tip": {
+            "string": "Refresh Screenshot"
+         },
+         "@name": "refresh_screenshot"
+      },
+      "text:reporter_title": {
+         "@name": "reporter_title",
+         "#text": {
+            "string": "\n        Reporter:\n    "
+         }
+      },
+      "text": null,
+      "text:sim_title": {
+         "@name": "sim_title",
+         "#text": {
+            "string": "\n        Region:\n    "
+         }
+      },
+      "text:sim_field": {
+         "@name": "sim_field",
+         "#text": {
+            "string": "\n        Region Name\n    "
+         }
+      },
+      "text:pos_title": {
+         "@name": "pos_title",
+         "#text": {
+            "string": "\n        Position:\n    "
+         }
+      },
+      "text:pos_field": {
+         "@name": "pos_field",
+         "#text": {
+            "string": "\n        {128.1, 128.1, 15.4}\n    "
+         }
+      },
+      "text:select_object_label": {
+         "@name": "select_object_label",
+         "#text": {
+            "string": "\n        Click the button, then the abusive object:\n    "
+         }
+      },
+      "button:pick_btn": {
+         "@name": "pick_btn",
+         "@tool_tip": {
+            "string": "Object Picker - Identify an object as the subject of this report"
+         }
+      },
+      "text:object_name_label": {
+         "@name": "object_name_label",
+         "#text": {
+            "string": "\n        Object:\n    "
+         }
+      },
+      "text:owner_name_label": {
+         "@name": "owner_name_label",
+         "#text": {
+            "string": "\n        Owner:\n    "
+         }
+      },
+      "combo_box:category_combo": {
+         "@name": "category_combo",
+         "@tool_tip": {
+            "string": "Category -- select the category that best describes this report"
+         },
+         "#comment": " Values can be populated from capability ",
+         "combo_box.item:Select_category": {
+            "@label": {
+               "string": "Select category"
+            },
+            "@name": "Select_category"
+         },
+         "combo_box.item:Age__Age_play": {
+            "@label": {
+               "string": "Age > Age play"
+            },
+            "@name": "Age__Age_play"
+         },
+         "combo_box.item:Assault__Safe_area": {
+            "@label": {
+               "string": "Assault > Shooting, pushing, or shoving another Resident in a Safe Area"
+            },
+            "@name": "Assault__Safe_area"
+         },
+         "combo_box.item:Disclosure__Real_world_information": {
+            "@label": {
+               "string": "Disclosure > Real world information"
+            },
+            "@name": "Disclosure__Real_world_information"
+         },
+         "combo_box.item:Disturbing_the_peace__Excessive_scripted_objects": {
+            "@label": {
+               "string": "Disturbing the peace > Excessive scripted objects"
+            },
+            "@name": "Disturbing_the_peace__Excessive_scripted_objects"
+         },
+         "combo_box.item:Disturbing_the_peace__Object_littering": {
+            "@label": {
+               "string": "Disturbing the peace > Object littering"
+            },
+            "@name": "Disturbing_the_peace__Object_littering"
+         },
+         "combo_box.item:Disturbing_the_peace__Repetitive_spam": {
+            "@label": {
+               "string": "Disturbing the peace > Repetitive spam"
+            },
+            "@name": "Disturbing_the_peace__Repetitive_spam"
+         },
+         "combo_box.item:Fraud__US$": {
+            "@label": {
+               "string": "Fraud > L$ or USD $"
+            },
+            "@name": "Fraud__US$"
+         },
+         "combo_box.item:Harassment__Solicting_inciting_others_to_violate_ToS": {
+            "@label": {
+               "string": "Harassment > Targeted behavior intended to disrupt"
+            },
+            "@name": "Harassment__Solicting_inciting_others_to_violate_ToS"
+         },
+         "combo_box.item:Indecency__Broadly_offensive_content_or_conduct": {
+            "@label": {
+               "string": "Indecency > Broadly offensive content or conduct"
+            },
+            "@name": "Indecency__Broadly_offensive_content_or_conduct"
+         },
+         "combo_box.item:Indecency__Inappropriate_avatar_name": {
+            "@label": {
+               "string": "Indecency > Inappropriate avatar name"
+            },
+            "@name": "Indecency__Inappropriate_avatar_name"
+         },
+         "combo_box.item:Indecency__Mature_content_in_PG_region": {
+            "@label": {
+               "string": "Indecency > Inappropriate content or conduct for Region Rating"
+            },
+            "@name": "Indecency__Mature_content_in_PG_region"
+         },
+         "combo_box.item:Intolerance": {
+            "@label": {
+               "string": "Intolerance"
+            },
+            "@name": "Intolerance"
+         },
+         "combo_box.item:Land__Encroachment__Objects_textures": {
+            "@label": {
+               "string": "Land > Encroachment > Objects or textures"
+            },
+            "@name": "Land__Encroachment__Objects_textures"
+         },
+         "combo_box.item:Wagering_gambling": {
+            "@label": {
+               "string": "Skill Gaming Policy Violation"
+            },
+            "@name": "Wagering_gambling"
+         }
+      },
+      "text:abuser_name_title": {
+         "@name": "abuser_name_title",
+         "#text": {
+            "string": "\n        Abuser name:\n    "
+         }
+      },
+      "line_editor:abuser_name_edit": {
+         "@name": "abuser_name_edit"
+      },
+      "button:select_abuser": {
+         "@label": {
+            "string": "Choose"
+         },
+         "@name": "select_abuser",
+         "@tool_tip": {
+            "string": "Select the name of the abuser from a list"
+         }
+      },
+      "#comment": "    <check_box\n     height=\"23\"\n     label=\"Don&apos;t know abuser&apos;s name\"\n     layout=\"topleft\"\n     left=\"10\"\n     name=\"omit_abuser_name\"\n     tool_tip=\"Check this if you are unable to provide the abuser&apos;s name\"\n     top_pad=\"2\"\n     visible=\"false\"\n     width=\"250\" />",
+      "text:abuser_name_title2": {
+         "@name": "abuser_name_title2",
+         "#text": {
+            "string": "\n        Location of Abuse:\n    "
+         }
+      },
+      "line_editor:abuse_location_edit": {
+         "@name": "abuse_location_edit"
+      },
+      "text:sum_title": {
+         "@name": "sum_title",
+         "#text": {
+            "string": "\n        Summary:\n    "
+         }
+      },
+      "line_editor:summary_edit": {
+         "@name": "summary_edit"
+      },
+      "text:dscr_title": {
+         "@name": "dscr_title",
+         "#text": {
+            "string": "\n        Details:\n    "
+         }
+      },
+      "text:bug_aviso": {
+         "@name": "bug_aviso",
+         "#text": {
+            "string": "\n        Please be as specific as possible\n    "
+         }
+      },
+      "text_editor:details_edit": {
+         "@name": "details_edit"
+      },
+      "text:incomplete_title": {
+         "@name": "incomplete_title",
+         "#text": {
+            "string": "\n        * Incomplete reports won't be investigated\n    "
+         }
+      },
+      "button:send_btn": {
+         "@label": {
+            "string": "Report Abuse"
+         },
+         "@name": "send_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

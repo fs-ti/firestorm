@@ -1,0 +1,102 @@
+{
+   "floater": {
+      "@name": "Map",
+      "@title": {
+         "string": ""
+      },
+      "#comment": " RLVa shows the anonymized name on the regular tooltip when @shownames=n restricted (rather than show the avatar inspector) ",
+      "floater.string:ToolTipMsg": {
+         "@name": "ToolTipMsg",
+         "#text": {
+            "string": "\n        [AGENT][REGION](Double-click to open Map, shift-drag to pan)\n    "
+         }
+      },
+      "floater.string:AltToolTipMsg": {
+         "@name": "AltToolTipMsg",
+         "#text": {
+            "string": "\n    [REGION](Double-click to teleport, shift-drag to pan)\n  "
+         }
+      },
+      "floater.string:mini_map_caption": {
+         "@name": "mini_map_caption",
+         "#text": {
+            "string": "\n  Mini-map\n    "
+         }
+      },
+      "net_map:Net Map": {
+         "@name": "Net Map"
+      },
+      "text:floater_map_north": {
+         "@label": {
+            "string": "N"
+         },
+         "@name": "floater_map_north",
+         "#text": {
+            "string": "\n        N\n    "
+         }
+      },
+      "text:floater_map_east": {
+         "@label": {
+            "string": "E"
+         },
+         "@name": "floater_map_east",
+         "#text": {
+            "string": "\n        E\n    "
+         }
+      },
+      "text:floater_map_west": {
+         "@label": {
+            "string": "W"
+         },
+         "@name": "floater_map_west",
+         "#text": {
+            "string": "\n        W\n    "
+         }
+      },
+      "text:floater_map_south": {
+         "@label": {
+            "string": "S"
+         },
+         "@name": "floater_map_south",
+         "#text": {
+            "string": "\n        S\n    "
+         }
+      },
+      "text:floater_map_southeast": {
+         "@label": {
+            "string": "SE"
+         },
+         "@name": "floater_map_southeast",
+         "#text": {
+            "string": "\n        SE\n    "
+         }
+      },
+      "text:floater_map_northeast": {
+         "@label": {
+            "string": "NE"
+         },
+         "@name": "floater_map_northeast",
+         "#text": {
+            "string": "\n        NE\n    "
+         }
+      },
+      "text:floater_map_southwest": {
+         "@label": {
+            "string": "SW"
+         },
+         "@name": "floater_map_southwest",
+         "#text": {
+            "string": "\n        SW\n    "
+         }
+      },
+      "text:floater_map_northwest": {
+         "@label": {
+            "string": "NW"
+         },
+         "@name": "floater_map_northwest",
+         "#text": {
+            "string": "\n        NW\n    "
+         }
+      }
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "multi_floater": {
+      "@name": "script debug floater",
+      "@title": {
+         "string": "Script Warning/Error/Debug"
+      },
+      "tab_container:Preview Tabs": {
+         "@name": "Preview Tabs"
+      }
+   }
+}

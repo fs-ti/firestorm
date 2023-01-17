@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "myscripts",
+      "@title": {
+         "string": "Scripts"
+      },
+      "panel:script_limits_my_avatar_panel": {
+         "@name": "script_limits_my_avatar_panel"
+      }
+   }
+}
