@@ -4,14 +4,14 @@ git:
     file_format: STRUCTURED_JSON
     source_file_extension: json
     source_language: en
-    source_file_dir: /
+    source_file_dir: sources/
     translation_files_expression: 'translations/<lang>/'
 
   - filter_type: dir
     file_format: STRUCTURED_JSON
     source_file_extension: json
     source_language: en
-    source_file_dir: /widgets/
+    source_file_dir: sources/widgets/
     translation_files_expression: 'translations/<lang>/widgets/'
 
   settings:
