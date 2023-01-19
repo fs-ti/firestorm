@@ -1,0 +1,50 @@
+{
+   "panel": {
+      "@name": "Outfits",
+      "accordion:outfits_accordion": {
+         "@name": "outfits_accordion",
+         "no_matched_tabs_text:no_matched_outfits_msg": {
+            "@name": "no_matched_outfits_msg",
+            "@value": {
+               "string": "Didn't find what you're looking for? Try [secondlife:///app/search/all/[SEARCH_TERM] Search]."
+            }
+         },
+         "no_visible_tabs_text:no_outfits_msg": {
+            "@name": "no_outfits_msg",
+            "@value": {
+               "string": "You don't have any outfits yet. Try [secondlife:///app/search/all/ Search]"
+            }
+         }
+      },
+      "panel:bottom_panel": {
+         "@name": "bottom_panel",
+         "menu_button:options_gear_btn": {
+            "@tool_tip": {
+               "string": "Show additional options"
+            },
+            "@name": "options_gear_btn"
+         },
+         "icon:dummy_icon": {
+            "@name": "dummy_icon"
+         },
+         "text:OutfitcountText": {
+            "@name": "OutfitcountText",
+            "#text": {
+               "string": "\n          [COUNT] Outfits\n      "
+            }
+         },
+         "text:avatar_complexity_label": {
+            "@name": "avatar_complexity_label",
+            "#text": {
+               "string": "\n          Complexity: [WEIGHT]\n      "
+            }
+         },
+         "button:trash_btn": {
+            "@name": "trash_btn",
+            "@tool_tip": {
+               "string": "Delete selected outfit"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,95 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Customize"
+      },
+      "@name": "Media settings for controls",
+      "text:controls_label": {
+         "@name": "controls_label",
+         "#text": {
+            "string": "\n    Controls:\n  "
+         }
+      },
+      "combo_box:controls": {
+         "@name": "controls",
+         "combo_item:Standard": {
+            "@name": "Standard",
+            "@value": {
+               "string": "Standard"
+            },
+            "#text": {
+               "string": "\n      Standard\n    "
+            }
+         },
+         "combo_item:Mini": {
+            "@name": "Mini",
+            "@value": {
+               "string": "Mini"
+            },
+            "#text": {
+               "string": "\n      Mini\n    "
+            }
+         }
+      },
+      "text:owner_label": {
+         "@name": "owner_label",
+         "#text": {
+            "string": "\n    Owner\n  "
+         }
+      },
+      "check_box:perms_owner_interact": {
+         "@label": {
+            "string": "Allow Navigation & Interactivity"
+         },
+         "@name": "perms_owner_interact"
+      },
+      "check_box:perms_owner_control": {
+         "@label": {
+            "string": "Show Control Bar"
+         },
+         "@name": "perms_owner_control"
+      },
+      "text:group_label": {
+         "@name": "group_label",
+         "#text": {
+            "string": "\n    Group:\n  "
+         }
+      },
+      "name_box:perms_group_name": {
+         "@name": "perms_group_name",
+         "@value": {
+            "string": ""
+         }
+      },
+      "check_box:perms_group_interact": {
+         "@label": {
+            "string": "Allow Navigation & Interactivity"
+         },
+         "@name": "perms_group_interact"
+      },
+      "check_box:perms_group_control": {
+         "@label": {
+            "string": "Show Control Bar"
+         },
+         "@name": "perms_group_control"
+      },
+      "text:anyone_label": {
+         "@name": "anyone_label",
+         "#text": {
+            "string": "\n    Anyone\n  "
+         }
+      },
+      "check_box:perms_anyone_interact": {
+         "@label": {
+            "string": "Allow Navigation & Interactivity"
+         },
+         "@name": "perms_anyone_interact"
+      },
+      "check_box:perms_anyone_control": {
+         "@label": {
+            "string": "Show Control Bar"
+         },
+         "@name": "perms_anyone_control"
+      }
+   }
+}

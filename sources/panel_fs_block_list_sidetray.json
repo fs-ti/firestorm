@@ -1,0 +1,68 @@
+{
+   "panel": {
+      "@name": "block_list_panel",
+      "panel:blocked_buttons_panel": {
+         "@label": {
+            "string": "bottom_panel"
+         },
+         "@name": "blocked_buttons_panel",
+         "filter_editor:blocked_filter_input": {
+            "@label": {
+               "string": "Filter"
+            },
+            "@name": "blocked_filter_input"
+         },
+         "menu_button:blocked_gear_btn": {
+            "@name": "blocked_gear_btn",
+            "@tool_tip": {
+               "string": "Actions on selected person or object"
+            }
+         },
+         "menu_button:view_btn": {
+            "@name": "view_btn",
+            "@tool_tip": {
+               "string": "Sort options"
+            }
+         },
+         "menu_button:plus_btn": {
+            "@name": "plus_btn",
+            "@tool_tip": {
+               "string": "Pick a Resident or an object to block"
+            }
+         },
+         "button:unblock_btn": {
+            "@name": "unblock_btn",
+            "@tool_tip": {
+               "string": "Remove Resident or object from blocked list"
+            }
+         }
+      },
+      "text:block_limit": {
+         "@name": "block_limit",
+         "#text": {
+            "string": "\n          Blocked entries: [COUNT] ([LIMIT] max.)\n      "
+         }
+      },
+      "fs_scroll_list:block_list": {
+         "@name": "block_list",
+         "fs_scroll_list.columns:item_name": {
+            "@name": "item_name",
+            "@label": {
+               "string": "Name"
+            }
+         },
+         "fs_scroll_list.columns:item_type": {
+            "@name": "item_type",
+            "@label": {
+               "string": "Type"
+            }
+         },
+         "fs_scroll_list.columns:item_mute_type": {
+            "@name": "item_mute_type"
+         },
+         "fs_scroll_list.columns:item_mute_uuid": {
+            "@name": "item_mute_uuid"
+         }
+      }
+   }
+}

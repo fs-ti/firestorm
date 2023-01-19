@@ -1,0 +1,49 @@
+{
+   "panel": {
+      "@name": "panel_flickr_account",
+      "string:flickr_connected": {
+         "@name": "flickr_connected",
+         "@value": {
+            "string": "You are connected to Flickr as:"
+         }
+      },
+      "string:flickr_disconnected": {
+         "@name": "flickr_disconnected",
+         "@value": {
+            "string": "Not connected to Flickr"
+         }
+      },
+      "text:account_caption_label": {
+         "@name": "account_caption_label",
+         "#text": {
+            "string": "\n    Not connected to Flickr.\n  "
+         }
+      },
+      "text:account_name_label": {
+         "@name": "account_name_label"
+      },
+      "panel:panel_buttons": {
+         "@name": "panel_buttons",
+         "button:connect_btn": {
+            "@label": {
+               "string": "Connect..."
+            },
+            "@name": "connect_btn",
+            "commit_callback": null
+         },
+         "button:disconnect_btn": {
+            "@label": {
+               "string": "Disconnect"
+            },
+            "@name": "disconnect_btn",
+            "commit_callback": null
+         },
+         "text:account_learn_more_label": {
+            "@name": "account_learn_more_label",
+            "#text": {
+               "string": "\n      [http://community.secondlife.com/t5/English-Knowledge-Base/Second-Life-Share-Flickr/ta-p/2435609 Learn about posting to Flickr]\n    "
+            }
+         }
+      }
+   }
+}

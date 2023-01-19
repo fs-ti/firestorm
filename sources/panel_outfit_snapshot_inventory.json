@@ -1,0 +1,37 @@
+{
+   "panel": {
+      "@name": "panel_outfit_snapshot_inventory",
+      "icon:title_icon": {
+         "@name": "title_icon"
+      },
+      "text:title": {
+         "@name": "title",
+         "#text": {
+            "string": "\n        Inventory\n    "
+         }
+      },
+      "view_border:hr": {
+         "@name": "hr"
+      },
+      "text:hint_lbl": {
+         "@name": "hint_lbl",
+         "#text": {
+            "string": "\nUploading an image to your inventory costs L$[UPLOAD_COST].\n\nFee is based on your subscription level. Higher levels are charged lower fees.\n    "
+         }
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn",
+         "button.commit_callback": null
+      },
+      "button:save_btn": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save_btn",
+         "button.commit_callback": null
+      }
+   }
+}

@@ -1,0 +1,216 @@
+{
+   "panel": {
+      "@name": "panel_radar",
+      "string:FlagsColumnType": {
+         "@name": "FlagsColumnType",
+         "@value": {
+            "string": "text"
+         }
+      },
+      "string:FlagsColumnValue_0": {
+         "@name": "FlagsColumnValue_0",
+         "@value": {
+            "string": ""
+         }
+      },
+      "string:FlagsColumnValue_1": {
+         "@name": "FlagsColumnValue_1",
+         "@value": {
+            "string": "$"
+         }
+      },
+      "string:FlagsColumnValue_2": {
+         "@name": "FlagsColumnValue_2",
+         "@value": {
+            "string": "$$"
+         }
+      },
+      "string:NotesColumnIcon": {
+         "@name": "NotesColumnIcon",
+         "@value": {
+            "string": "radarbox_n"
+         }
+      },
+      "string:SittingColumnIcon": {
+         "@name": "SittingColumnIcon",
+         "@value": {
+            "string": "radarbox_s"
+         }
+      },
+      "string:TypingColumnIcon": {
+         "@name": "TypingColumnIcon",
+         "@value": {
+            "string": "radarbox_t"
+         }
+      },
+      "string:MiniMapToolTipMsg": {
+         "@name": "MiniMapToolTipMsg",
+         "@value": {
+            "string": "[REGION] (Double-click to open Map, shift-drag to pan)"
+         }
+      },
+      "string:AltMiniMapToolTipMsg": {
+         "@name": "AltMiniMapToolTipMsg",
+         "@value": {
+            "string": "[REGION] (Double-click to teleport, shift-drag to pan)"
+         }
+      },
+      "string:avatar_name_count": {
+         "@name": "avatar_name_count",
+         "@value": {
+            "string": "Name [[TOTAL]/[IN_REGION]/[IN_CHAT_RANGE]]"
+         }
+      },
+      "panel:nearby_panel": {
+         "@name": "nearby_panel",
+         "panel:nearby_buttons_panel": {
+            "@label": {
+               "string": "bottom_panel"
+            },
+            "@name": "nearby_buttons_panel",
+            "filter_editor:nearby_filter_input": {
+               "@label": {
+                  "string": "Filter People"
+               },
+               "@name": "nearby_filter_input"
+            },
+            "button:gear_btn": {
+               "@name": "gear_btn",
+               "@tool_tip": {
+                  "string": "Actions on selected person"
+               }
+            },
+            "menu_button:options_btn": {
+               "@name": "options_btn",
+               "@tool_tip": {
+                  "string": "Radar options"
+               }
+            },
+            "button:add_friend_btn": {
+               "@name": "add_friend_btn",
+               "@tool_tip": {
+                  "string": "Offer friendship to a resident"
+               },
+               "commit_callback": null
+            }
+         },
+         "layout_stack:radar_outer_ls": {
+            "@name": "radar_outer_ls",
+            "layout_panel:radar_upper_layout": {
+               "@name": "radar_upper_layout",
+               "layout_stack:radar_ls": {
+                  "@name": "radar_ls",
+                  "layout_panel:minimaplayout": {
+                     "@name": "minimaplayout",
+                     "net_map:Net Map": {
+                        "@name": "Net Map"
+                     }
+                  },
+                  "layout_panel:radarlayout": {
+                     "@name": "radarlayout",
+                     "radar_list:radar_list": {
+                        "@name": "radar_list",
+                        "radar_list.columns:name": {
+                           "@label": {
+                              "string": "Name"
+                           },
+                           "@name": "name",
+                           "@tool_tip": {
+                              "string": "[TOTAL] avatars, [IN_REGION] in the same region, [IN_CHAT_RANGE] in chat range"
+                           }
+                        },
+                        "radar_list.columns:voice_level": {
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "voice_level",
+                           "@tool_tip": {
+                              "string": "Is talking on voice"
+                           }
+                        },
+                        "radar_list.columns:in_region": {
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "in_region",
+                           "@tool_tip": {
+                              "string": "Is in the same region (green) or on the same parcel (green/yellow)"
+                           }
+                        },
+                        "radar_list.columns:typing_status": {
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "typing_status",
+                           "@tool_tip": {
+                              "string": "Is typing"
+                           }
+                        },
+                        "radar_list.columns:sitting_status": {
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "sitting_status",
+                           "@tool_tip": {
+                              "string": "Is sitting"
+                           }
+                        },
+                        "radar_list.columns:flags": {
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "flags",
+                           "@tool_tip": {
+                              "string": "Payment info status"
+                           }
+                        },
+                        "radar_list.columns:has_notes": {
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "has_notes",
+                           "@tool_tip": {
+                              "string": "Avatar has notes"
+                           }
+                        },
+                        "radar_list.columns:age": {
+                           "@label": {
+                              "string": "Age"
+                           },
+                           "@name": "age"
+                        },
+                        "radar_list.columns:seen": {
+                           "@label": {
+                              "string": "Seen"
+                           },
+                           "@name": "seen"
+                        },
+                        "radar_list.columns:range": {
+                           "@label": {
+                              "string": "Range"
+                           },
+                           "@name": "range"
+                        },
+                        "radar_list.columns:seen_sort": {
+                           "@name": "seen_sort"
+                        }
+                     }
+                  }
+               }
+            },
+            "layout_panel:radar_lower_layout": {
+               "@name": "radar_lower_layout",
+               "icon:nearby_dummy_icon": {
+                  "@name": "nearby_dummy_icon"
+               },
+               "slider:NearMeRange": {
+                  "@label": {
+                     "string": "Range (m):"
+                  },
+                  "@name": "NearMeRange"
+               }
+            }
+         }
+      }
+   }
+}

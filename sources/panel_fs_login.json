@@ -1,0 +1,188 @@
+{
+   "panel": {
+      "@name": "panel_login",
+      "panel.string": null,
+      "string": null,
+      "panel.string:forgot_password_url": {
+         "@name": "forgot_password_url",
+         "#text": {
+            "string": "\n    http://secondlife.com/account/request.php\n  "
+         }
+      },
+      "string:ServerComboTooltip": {
+         "@name": "ServerComboTooltip",
+         "#text": {
+            "string": "\n    An existing grid or a grid URI\n  "
+         }
+      },
+      "web_browser:login_html": {
+         "@name": "login_html"
+      },
+      "layout_stack:login_widgets": {
+         "@name": "login_widgets",
+         "layout_panel:login": {
+            "@name": "login",
+            "text:log_in_text": {
+               "@name": "log_in_text",
+               "#text": {
+                  "string": "\n        LOG IN\n      "
+               }
+            },
+            "text:username_text": {
+               "@name": "username_text",
+               "#text": {
+                  "string": "\n        Username:\n      "
+               }
+            },
+            "button:remove_user_btn": {
+               "@tool_tip": {
+                  "string": "Remove this username"
+               },
+               "@label": {
+                  "string": ""
+               },
+               "@name": "remove_user_btn"
+            },
+            "combo_box:username_combo": "<!-- empirically, displayed width is 150 anyway?!? --><!--<combo_box.combo_button\n            visible =\"false\"/>\n        <combo_box.drop_down_button\n            visible =\"false\"/>-->",
+            "#comment": " left=\"175\" based on actual \"username_combo\" width of 150 vs. 178 ",
+            "text:password_text": {
+               "@name": "password_text",
+               "#text": {
+                  "string": "\n        Password:\n      "
+               }
+            },
+            "#comment$7": " The max length might be changed in FSPanelLogin.cpp for Opensim! ",
+            "line_editor:password_edit": {
+               "@name": "password_edit"
+            }
+         },
+         "layout_panel:start_location_panel": {
+            "@name": "start_location_panel",
+            "text:start_location_text": {
+               "@name": "start_location_text",
+               "#text": {
+                  "string": "\n        Start at:\n      "
+               }
+            },
+            "combo_box:start_location_combo": {
+               "@name": "start_location_combo",
+               "combo_box.item:MyLastLocation": {
+                  "@label": {
+                     "string": "Last location"
+                  },
+                  "@name": "MyLastLocation"
+               },
+               "combo_box.item:MyHome": {
+                  "@label": {
+                     "string": "Home"
+                  },
+                  "@name": "MyHome"
+               },
+               "combo_box.item:Typeregionname": {
+                  "@label": {
+                     "string": "<Type region name>"
+                  },
+                  "@name": "Typeregionname"
+               }
+            }
+         },
+         "layout_panel:grid_panel": {
+            "@name": "grid_panel",
+            "text:grid_login_text": {
+               "@name": "grid_login_text",
+               "#text": {
+                  "string": "\n        Log into Grid:\n      "
+               }
+            },
+            "combo_box:server_combo": {
+               "@name": "server_combo",
+               "combo_box.drop_down_button": null
+            }
+         },
+         "layout_panel:links_login_panel": {
+            "@name": "links_login_panel",
+            "text:create_new_account_text": {
+               "@name": "create_new_account_text",
+               "#text": {
+                  "string": "\n        Create an account\n      "
+               }
+            },
+            "text:forgot_password_text": {
+               "@name": "forgot_password_text",
+               "#text": {
+                  "string": "\n        Forgot your username or password?\n      "
+               }
+            },
+            "button:connect_btn": {
+               "@label": {
+                  "string": "Log In"
+               },
+               "@name": "connect_btn"
+            },
+            "check_box:remember_username_check": {
+               "@label": {
+                  "string": "Remember username"
+               },
+               "@name": "remember_username_check"
+            },
+            "check_box:remember_check": {
+               "@label": {
+                  "string": "Remember password"
+               },
+               "@name": "remember_check"
+            }
+         },
+         "layout_panel:mode_selection": {
+            "@name": "mode_selection",
+            "text:mode_selection_text": {
+               "@name": "mode_selection_text",
+               "#text": {
+                  "string": "\n        SELECT MODE\n      "
+               }
+            },
+            "combo_box:mode_combo": {
+               "@tool_tip": {
+                  "string": "Select which style of viewer you are most familiar with to set your defaults to appropriately."
+               },
+               "@name": "mode_combo",
+               "combo_box.item:Firestorm": {
+                  "@label": {
+                     "string": "Firestorm"
+                  },
+                  "@name": "Firestorm"
+               },
+               "combo_box.item:Phoenix": {
+                  "@label": {
+                     "string": "Phoenix"
+                  },
+                  "@name": "Phoenix"
+               },
+               "combo_box.item:V3": {
+                  "@label": {
+                     "string": "[VIEWER_GENERATION]"
+                  },
+                  "@name": "V3"
+               },
+               "combo_box.item:Hybrid": {
+                  "@label": {
+                     "string": "Hybrid"
+                  },
+                  "@name": "Hybrid"
+               },
+               "combo_box.item:Latency": {
+                  "@label": {
+                     "string": "Latency"
+                  },
+                  "@name": "Latency"
+               },
+               "combo_box.item:Text": {
+                  "@label": {
+                     "string": "Text"
+                  },
+                  "@name": "Text"
+               }
+            }
+         }
+      }
+   }
+}

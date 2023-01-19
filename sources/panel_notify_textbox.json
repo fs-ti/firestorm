@@ -1,0 +1,60 @@
+{
+   "panel": {
+      "@label": {
+         "string": "instant_message"
+      },
+      "@name": "panel_notify_textbox",
+      "string:message_max_lines_count": {
+         "@name": "message_max_lines_count",
+         "@value": {
+            "string": "30"
+         }
+      },
+      "#comment": " THIS PANEL CONTROLS TOAST HEIGHT? ",
+      "panel:info_panel": {
+         "@label": {
+            "string": "info_panel"
+         },
+         "@name": "info_panel",
+         "text_editor:text_editor_box": {
+            "@name": "text_editor_box"
+         }
+      },
+      "panel:textbox_panel": {
+         "@label": {
+            "string": "info_panel"
+         },
+         "@name": "textbox_panel",
+         "text_editor:message": {
+            "@name": "message",
+            "@value": {
+               "string": "message"
+            }
+         }
+      },
+      "panel:control_panel": {
+         "@label": {
+            "string": "control_panel"
+         },
+         "@name": "control_panel",
+         "#comment": " \n   Notes:\n   This panel holds the Ignore button and possibly other buttons of notification.\n      ",
+         "button:btn_submit": {
+            "@label": {
+               "string": "Submit"
+            },
+            "@name": "btn_submit"
+         },
+         "button:ignore_btn": {
+            "@label": {
+               "string": "Ignore"
+            },
+            "@name": "ignore_btn"
+         }
+      },
+      "#comment$7": " <FS:Zi> Dialog Stacking browser ",
+      "button:DialogStackButton": {
+         "@name": "DialogStackButton"
+      },
+      "#comment$9": " <FS:Zi> Dialog Stacking browser "
+   }
+}

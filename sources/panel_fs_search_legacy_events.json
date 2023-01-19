@@ -1,0 +1,215 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Events"
+      },
+      "@name": "panel_ls_events",
+      "panel:panel_ls_input": {
+         "@name": "panel_ls_input",
+         "text:search_text": {
+            "@name": "search_text",
+            "#text": {
+               "string": "\n     Enter search terms:\n    "
+            }
+         },
+         "radio_group:events_search_mode": {
+            "@name": "events_search_mode",
+            "radio_item:current": {
+               "@label": {
+                  "string": "Ongoing and Upcoming"
+               },
+               "@name": "current"
+            },
+            "radio_item:date": {
+               "@label": {
+                  "string": "By Date"
+               },
+               "@name": "date"
+            },
+            "radio_group.commit_callback": null
+         },
+         "text:events_date": {
+            "@name": "events_date",
+            "#text": {
+               "string": "\n      4/20\n    "
+            }
+         },
+         "search_combo_box:events_edit": {
+            "@name": "events_edit"
+         },
+         "combo_box:events_category": {
+            "@name": "events_category",
+            "combo_box.item:any": {
+               "@label": {
+                  "string": "Any Category"
+               },
+               "@name": "any"
+            },
+            "combo_box.item": {
+               "@label": {
+                  "string": ""
+               }
+            },
+            "combo_box.item$3": {
+               "@label": {
+                  "string": "Discussion"
+               },
+               "@name": "discussion"
+            },
+            "combo_box.item$4": {
+               "@label": {
+                  "string": "Sports"
+               },
+               "@name": "sports"
+            },
+            "combo_box.item$5": {
+               "@label": {
+                  "string": "Live Music"
+               },
+               "@name": "music"
+            },
+            "#comment": " <combo_box.item label=\"???\" name=\"mystery_category\" value=\"21\" /> ",
+            "combo_box.item$7": {
+               "@label": {
+                  "string": "Commercial"
+               },
+               "@name": "commercial"
+            },
+            "combo_box.item$8": {
+               "@label": {
+                  "string": "Nightlife/Entertainment"
+               },
+               "@name": "nightlife"
+            },
+            "combo_box.item$9": {
+               "@label": {
+                  "string": "Games/Contests"
+               },
+               "@name": "games"
+            },
+            "combo_box.item$10": {
+               "@label": {
+                  "string": "Pageants"
+               },
+               "@name": "pageants"
+            },
+            "combo_box.item$11": {
+               "@label": {
+                  "string": "Education"
+               },
+               "@name": "education"
+            },
+            "combo_box.item$12": {
+               "@label": {
+                  "string": "Arts and Culture"
+               },
+               "@name": "arts"
+            },
+            "combo_box.item$13": {
+               "@label": {
+                  "string": "Charity/Support Groups"
+               },
+               "@name": "charity"
+            },
+            "combo_box.item$14": {
+               "@label": {
+                  "string": "Miscellaneous"
+               },
+               "@name": "misc"
+            },
+            "combo_box.commit_callback": null
+         },
+         "check_box:pg_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "pg_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_general": {
+            "@name": "rating_icon_general"
+         },
+         "check_box:mature_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "mature_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_moderate": {
+            "@name": "rating_icon_moderate"
+         },
+         "check_box:adult_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "adult_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_adult": {
+            "@name": "rating_icon_adult"
+         }
+      },
+      "#comment": " Search Pane ",
+      "panel:panel_ls_scrolllist": {
+         "@name": "panel_ls_scrolllist",
+         "scroll_list:search_results_events": {
+            "@name": "search_results_events",
+            "columns:icon": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "icon"
+            },
+            "columns:name": {
+               "@label": {
+                  "string": "Event Name"
+               },
+               "@name": "name"
+            },
+            "columns:date": {
+               "@label": {
+                  "string": "Date/Time"
+               },
+               "@name": "date"
+            },
+            "columns:time": {
+               "@label": {
+                  "string": "Time"
+               },
+               "@name": "time"
+            }
+         },
+         "button:events_yesterday": {
+            "@label": {
+               "string": "Yesterday"
+            },
+            "@name": "events_yesterday"
+         },
+         "button:events_today": {
+            "@label": {
+               "string": "Today"
+            },
+            "@name": "events_today"
+         },
+         "button:events_tomorrow": {
+            "@label": {
+               "string": "Tomorrow"
+            },
+            "@name": "events_tomorrow"
+         },
+         "button:events_back": {
+            "@label": {
+               "string": "Back"
+            },
+            "@name": "events_back"
+         },
+         "button:events_next": {
+            "@label": {
+               "string": "Next"
+            },
+            "@name": "events_next"
+         }
+      }
+   }
+}

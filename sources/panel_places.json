@@ -1,0 +1,206 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Places"
+      },
+      "@name": "places panel",
+      "string:landmarks_tab_title": {
+         "@name": "landmarks_tab_title",
+         "@value": {
+            "string": "Landmarks"
+         }
+      },
+      "string:teleport_history_tab_title": {
+         "@name": "teleport_history_tab_title",
+         "@value": {
+            "string": "Teleport History"
+         }
+      },
+      "string:favorites_tab_title": {
+         "@name": "favorites_tab_title",
+         "@value": {
+            "string": "Favorites"
+         }
+      },
+      "string:tooltip_trash_items": {
+         "@name": "tooltip_trash_items",
+         "@value": {
+            "string": "Remove selected landmark or folder"
+         }
+      },
+      "string:tooltip_trash_history": {
+         "@name": "tooltip_trash_history",
+         "@value": {
+            "string": "Delete list of visited places"
+         }
+      },
+      "layout_stack:places_layout_panel": {
+         "@name": "places_layout_panel",
+         "layout_panel:main_panel": {
+            "@name": "main_panel",
+            "layout_stack:top_menu_panel": {
+               "@name": "top_menu_panel",
+               "layout_panel:filter_panel": {
+                  "@name": "filter_panel",
+                  "filter_editor:Filter": {
+                     "@label": {
+                        "string": "Filter My Places"
+                     },
+                     "@name": "Filter"
+                  }
+               },
+               "layout_panel:options_gear_btn_panel": {
+                  "@name": "options_gear_btn_panel",
+                  "menu_button:options_gear_btn": {
+                     "@tool_tip": {
+                        "string": "Show options"
+                     },
+                     "@name": "options_gear_btn"
+                  }
+               },
+               "layout_panel:options_sort_btn_panel": {
+                  "@name": "options_sort_btn_panel",
+                  "menu_button:sorting_menu_btn": {
+                     "@tool_tip": {
+                        "string": "Show sorting options"
+                     },
+                     "@name": "sorting_menu_btn"
+                  }
+               },
+               "layout_panel:add_btn_panel": {
+                  "@name": "add_btn_panel",
+                  "menu_button:add_menu_btn": {
+                     "@name": "add_menu_btn",
+                     "@tool_tip": {
+                        "string": "Add new landmark or folder"
+                     }
+                  }
+               },
+               "layout_panel:trash_btn_panel": {
+                  "@name": "trash_btn_panel",
+                  "@tool_tip": {
+                     "string": "Remove selected landmark or folder"
+                  },
+                  "dnd_button:trash_btn": {
+                     "@name": "trash_btn"
+                  }
+               }
+            },
+            "tab_container:Places Tabs": {
+               "@name": "Places Tabs"
+            },
+            "panel:panel_place_profile": {
+               "@name": "panel_place_profile"
+            },
+            "panel:panel_landmark_info": {
+               "@name": "panel_landmark_info"
+            }
+         },
+         "#comment": "*********************** Button wrappers ***********************",
+         "layout_panel:button_layout_panel": {
+            "@name": "button_layout_panel",
+            "panel:button_panel": {
+               "@name": "button_panel",
+               "layout_stack:bottom_bar_ls0": {
+                  "@name": "bottom_bar_ls0",
+                  "layout_panel:lp1": {
+                     "@name": "lp1",
+                     "#comment": "*********************** Teleport, Map buttons ***********************",
+                     "layout_stack:bottom_bar_ls1": {
+                        "@name": "bottom_bar_ls1",
+                        "layout_panel:teleport_btn_lp": {
+                           "@name": "teleport_btn_lp",
+                           "button:teleport_btn": {
+                              "@label": {
+                                 "string": "Teleport"
+                              },
+                              "@name": "teleport_btn",
+                              "@tool_tip": {
+                                 "string": "Teleport to the selected area"
+                              }
+                           }
+                        },
+                        "layout_panel:chat_btn_lp": {
+                           "@name": "chat_btn_lp",
+                           "button:map_btn": {
+                              "@label": {
+                                 "string": "Map"
+                              },
+                              "@name": "map_btn",
+                              "@tool_tip": {
+                                 "string": "Show the corresponding area on the World Map"
+                              }
+                           }
+                        }
+                     }
+                  },
+                  "#comment": "*********************** Options button ***********************",
+                  "layout_panel:lp_options": {
+                     "@name": "lp_options",
+                     "menu_button:overflow_btn": {
+                        "@name": "overflow_btn",
+                        "@tool_tip": {
+                           "string": "Show additional options"
+                        }
+                     }
+                  },
+                  "layout_panel:lp2": {
+                     "@name": "lp2",
+                     "#comment": "*********************** Profile button ***********************",
+                     "layout_stack:bottom_bar_profile_ls": {
+                        "@name": "bottom_bar_profile_ls",
+                        "layout_panel:profile_btn_lp": {
+                           "@name": "profile_btn_lp",
+                           "button:profile_btn": {
+                              "@label": {
+                                 "string": "Profile"
+                              },
+                              "@name": "profile_btn",
+                              "@tool_tip": {
+                                 "string": "Show place profile"
+                              }
+                           }
+                        }
+                     },
+                     "#comment$3": "*********************** Close button ***********************",
+                     "layout_stack:bottom_bar_close_ls3": {
+                        "@name": "bottom_bar_close_ls3",
+                        "layout_panel:close_btn_lp": {
+                           "@name": "close_btn_lp",
+                           "button:close_btn": {
+                              "@label": {
+                                 "string": "Close"
+                              },
+                              "@name": "close_btn"
+                           }
+                        }
+                     }
+                  }
+               },
+               "#comment": "*********************** Save, Cancel buttons ***********************",
+               "layout_stack:bottom_bar_ls2": {
+                  "@name": "bottom_bar_ls2",
+                  "layout_panel:save_btn_lp": {
+                     "@name": "save_btn_lp",
+                     "button:save_btn": {
+                        "@label": {
+                           "string": "Save"
+                        },
+                        "@name": "save_btn"
+                     }
+                  },
+                  "layout_panel:cancel_btn_lp": {
+                     "@name": "cancel_btn_lp",
+                     "button:cancel_btn": {
+                        "@label": {
+                           "string": "Cancel"
+                        },
+                        "@name": "cancel_btn"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

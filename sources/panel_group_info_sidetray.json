@@ -1,0 +1,152 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Group Profile"
+      },
+      "@name": "GroupInfo",
+      "panel.string:default_needs_apply_text": {
+         "@name": "default_needs_apply_text",
+         "#text": {
+            "string": "\n        There are unsaved changes\n    "
+         }
+      },
+      "panel.string:want_apply_text": {
+         "@name": "want_apply_text",
+         "#text": {
+            "string": "\n        Do you want to save these changes?\n    "
+         }
+      },
+      "panel.string:group_join_btn": {
+         "@name": "group_join_btn",
+         "#text": {
+            "string": "\n        Join (L$[AMOUNT])\n    "
+         }
+      },
+      "panel.string:group_join_free": {
+         "@name": "group_join_free",
+         "#text": {
+            "string": "\n        Free\n    "
+         }
+      },
+      "layout_stack:group_info_sidetray_main": {
+         "@name": "group_info_sidetray_main",
+         "layout_panel:header_container": {
+            "@name": "header_container",
+            "panel:group_info_top": {
+               "@name": "group_info_top",
+               "button:back": {
+                  "@name": "back"
+               },
+               "text_editor:group_name": {
+                  "@name": "group_name",
+                  "@value": {
+                     "string": "(Loading...)"
+                  }
+               },
+               "line_editor:group_name_editor": {
+                  "@label": {
+                     "string": "Type your new group name here"
+                  },
+                  "@name": "group_name_editor"
+               }
+            }
+         },
+         "layout_panel:group_info_content": {
+            "@name": "group_info_content",
+            "layout_stack:layout": {
+               "@name": "layout",
+               "layout_panel:group_accordions": {
+                  "@name": "group_accordions",
+                  "accordion:groups_accordion": {
+                     "@name": "groups_accordion",
+                     "accordion_tab:group_general_tab": {
+                        "@name": "group_general_tab",
+                        "@title": {
+                           "string": "General"
+                        },
+                        "panel:group_general_tab_panel": {
+                           "@name": "group_general_tab_panel"
+                        }
+                     },
+                     "accordion_tab:group_roles_tab": {
+                        "@name": "group_roles_tab",
+                        "@title": {
+                           "string": "Roles & Members"
+                        },
+                        "panel:group_roles_tab_panel": {
+                           "@name": "group_roles_tab_panel"
+                        }
+                     },
+                     "accordion_tab:group_notices_tab": {
+                        "@name": "group_notices_tab",
+                        "@title": {
+                           "string": "Notices"
+                        },
+                        "panel:group_notices_tab_panel": {
+                           "@name": "group_notices_tab_panel"
+                        }
+                     },
+                     "accordion_tab:group_land_tab": {
+                        "@name": "group_land_tab",
+                        "@title": {
+                           "string": "Land/Assets"
+                        },
+                        "panel:group_land_tab_panel": {
+                           "@name": "group_land_tab_panel"
+                        }
+                     },
+                     "accordion_tab:group_experiences_tab": {
+                        "@name": "group_experiences_tab",
+                        "@title": {
+                           "string": "Experiences"
+                        },
+                        "panel:group_experiences_tab_panel": {
+                           "@name": "group_experiences_tab_panel"
+                        }
+                     }
+                  }
+               }
+            },
+            "layout_stack:button_row_ls": {
+               "@name": "button_row_ls",
+               "layout_panel:btn_refresh_lp": {
+                  "@name": "btn_refresh_lp",
+                  "button:btn_refresh": {
+                     "@name": "btn_refresh"
+                  }
+               },
+               "layout_panel:btn_chat_lp": {
+                  "@name": "btn_chat_lp",
+                  "button:btn_chat": {
+                     "@label": {
+                        "string": "Chat"
+                     },
+                     "@name": "btn_chat"
+                  }
+               },
+               "layout_panel:call_btn_lp": {
+                  "@name": "call_btn_lp",
+                  "button:btn_call": {
+                     "@name": "btn_call",
+                     "@label": {
+                        "string": "Group Call"
+                     },
+                     "@tool_tip": {
+                        "string": "Call this group"
+                     }
+                  }
+               },
+               "layout_panel:btn_apply_lp": {
+                  "@name": "btn_apply_lp",
+                  "button:btn_apply": {
+                     "@label": {
+                        "string": "Save"
+                     },
+                     "@name": "btn_apply"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

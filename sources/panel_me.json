@@ -1,0 +1,14 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Profile"
+      },
+      "@name": "panel_me",
+      "panel:panel_picks": {
+         "@label": {
+            "string": "PICKS"
+         },
+         "@name": "panel_picks"
+      }
+   }
+}

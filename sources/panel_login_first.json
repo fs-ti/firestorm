@@ -1,0 +1,128 @@
+{
+   "panel": {
+      "@name": "panel_login",
+      "panel.string:forgot_password_url": {
+         "@name": "forgot_password_url",
+         "#text": {
+            "string": "\n    http://secondlife.com/account/request.php\n  "
+         }
+      },
+      "panel.string:sign_up_url": {
+         "@name": "sign_up_url",
+         "#text": {
+            "string": "\n    https://www.firestormviewer.org/join-secondlife/\n  "
+         }
+      },
+      "layout_stack:logo_stack": {
+         "@name": "logo_stack",
+         "layout_panel:page_top": {
+            "@name": "page_top"
+         },
+         "#comment": " start of logo stack ",
+         "layout_panel:parent_panel": {
+            "@name": "parent_panel",
+            "layout_stack:logo_stack": {
+               "@name": "logo_stack",
+               "layout_panel:logo_left": {
+                  "@name": "logo_left"
+               },
+               "layout_panel:logo_container": {
+                  "@name": "logo_container",
+                  "icon:sl_logo": {
+                     "@name": "sl_logo"
+                  }
+               },
+               "layout_panel:logo_right": {
+                  "@name": "logo_right"
+               }
+            }
+         },
+         "#comment$4": " end of logo stack ",
+         "#comment$5": " start of widget stack ",
+         "layout_panel:parent_panel2": {
+            "@name": "parent_panel2",
+            "layout_stack:widget_stack": {
+               "@name": "widget_stack",
+               "layout_panel:widget_left": {
+                  "@name": "widget_left"
+               },
+               "layout_panel:widget_container": {
+                  "@name": "widget_container",
+                  "combo_box:username_combo": {
+                     "@label": {
+                        "string": "Username"
+                     },
+                     "@tool_tip": {
+                        "string": "The username you chose when you registered, like bobsmith12 or Steller Sunshine"
+                     },
+                     "@name": "username_combo",
+                     "combo_box.combo_editor": null,
+                     "combo_box.combo_button": null,
+                     "combo_box.drop_down_button": null
+                  },
+                  "line_editor:password_edit": {
+                     "@name": "password_edit",
+                     "@label": {
+                        "string": "Password"
+                     }
+                  },
+                  "button:connect_btn": {
+                     "@label": {
+                        "string": "Log In"
+                     },
+                     "@name": "connect_btn"
+                  },
+                  "check_box:remember_check": {
+                     "@label": {
+                        "string": "Remember me"
+                     },
+                     "@name": "remember_check"
+                  },
+                  "text:forgot_password_text": {
+                     "@name": "forgot_password_text",
+                     "#text": {
+                        "string": "\n            Forgotten password\n          "
+                     }
+                  },
+                  "text:sign_up_text": {
+                     "@name": "sign_up_text",
+                     "#text": {
+                        "string": "\n            Sign up\n          "
+                     }
+                  }
+               },
+               "layout_panel:widget_right": {
+                  "@name": "widget_right"
+               }
+            }
+         },
+         "#comment$7": " end of widget stack ",
+         "#comment$8": " start of images stack ",
+         "layout_panel:parent_panel3": {
+            "@name": "parent_panel3",
+            "layout_stack:images_stack": {
+               "@name": "images_stack",
+               "layout_panel:images_left": {
+                  "@name": "images_left"
+               },
+               "layout_panel:images_container": {
+                  "@name": "images_container",
+                  "icon:image_left": {
+                     "@name": "image_left"
+                  },
+                  "icon:image_right": {
+                     "@name": "image_right"
+                  }
+               },
+               "layout_panel:images_right": {
+                  "@name": "images_right"
+               }
+            }
+         },
+         "#comment$10": " end of images stack ",
+         "layout_panel:page_bottom": {
+            "@name": "page_bottom"
+         }
+      }
+   }
+}

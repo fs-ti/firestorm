@@ -1,0 +1,105 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Picks"
+      },
+      "@name": "panel_picks",
+      "string:no_picks": {
+         "@name": "no_picks",
+         "@value": {
+            "string": "No Picks"
+         }
+      },
+      "string:no_classifieds": {
+         "@name": "no_classifieds",
+         "@value": {
+            "string": "No Classifieds"
+         }
+      },
+      "tab_container:accordion": {
+         "@name": "accordion",
+         "panel:tab_picks": {
+            "@name": "tab_picks",
+            "@title": {
+               "string": "Picks"
+            },
+            "flat_list_view:picks_list": {
+               "@name": "picks_list"
+            }
+         },
+         "panel:tab_classifieds": {
+            "@name": "tab_classifieds",
+            "@title": {
+               "string": "Classifieds"
+            },
+            "flat_list_view:classifieds_list": {
+               "@name": "classifieds_list"
+            }
+         }
+      },
+      "panel:edit_panel": {
+         "@label": {
+            "string": "bottom_panel"
+         },
+         "@name": "edit_panel",
+         "#comment": " Replaces LLs button panel as they had not put buttons in ",
+         "button:new_btn": {
+            "@name": "new_btn",
+            "@tool_tip": {
+               "string": "Create a new pick or classified at the current location"
+            }
+         },
+         "icon:dummy_icon": {
+            "@name": "dummy_icon"
+         },
+         "dnd_button:trash_btn": {
+            "@name": "trash_btn"
+         }
+      },
+      "panel:buttons_cucks": {
+         "@name": "buttons_cucks",
+         "layout_stack:buttons_cucks_ls": {
+            "@name": "buttons_cucks_ls",
+            "layout_panel:info_btn_lp": {
+               "@name": "info_btn_lp",
+               "button:info_btn": {
+                  "@label": {
+                     "string": "Info"
+                  },
+                  "@name": "info_btn",
+                  "@tool_tip": {
+                     "string": "Show pick information"
+                  }
+               }
+            },
+            "layout_panel:teleport_btn_lp": {
+               "@name": "teleport_btn_lp",
+               "button:teleport_btn": {
+                  "@label": {
+                     "string": "Teleport"
+                  },
+                  "@name": "teleport_btn",
+                  "@tool_tip": {
+                     "string": "Teleport to the corresponding area"
+                  }
+               }
+            },
+            "layout_panel:show_on_map_btn_lp": {
+               "@name": "show_on_map_btn_lp",
+               "button:show_on_map_btn": {
+                  "@label": {
+                     "string": "Map"
+                  },
+                  "@name": "show_on_map_btn",
+                  "@tool_tip": {
+                     "string": "Show the corresponding area on the World Map"
+                  }
+               }
+            }
+         }
+      },
+      "text:picks_panel_text": {
+         "@name": "picks_panel_text"
+      }
+   }
+}

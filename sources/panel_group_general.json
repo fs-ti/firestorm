@@ -1,0 +1,241 @@
+{
+   "panel": {
+      "@label": {
+         "string": "General"
+      },
+      "@name": "general_tab",
+      "panel.string:help_text": {
+         "@name": "help_text",
+         "#text": {
+            "string": "\n        The General tab contains general information about this group, a list of members, general Group Preferences and member options.\n\nHover your mouse over the options for more help.\n    "
+         }
+      },
+      "panel.string:group_info_unchanged": {
+         "@name": "group_info_unchanged",
+         "#text": {
+            "string": "\n        General group information has changed\n    "
+         }
+      },
+      "panel.string:incomplete_member_data_str": {
+         "@name": "incomplete_member_data_str",
+         "#text": {
+            "string": "\n        Retrieving member data\n    "
+         }
+      },
+      "panel:group_general_panel": {
+         "@name": "group_general_panel",
+         "text:group_key_label": {
+            "@name": "group_key_label",
+            "#text": {
+               "string": "\n    Group Key:\n    "
+            }
+         },
+         "view_border:info_border": {
+            "@name": "info_border"
+         },
+         "text_editor:group_key": {
+            "@name": "group_key",
+            "@label": {
+               "string": "Group Key:"
+            }
+         },
+         "button:copy_uri": {
+            "@name": "copy_uri",
+            "@label": {
+               "string": "Copy URI"
+            }
+         },
+         "text:prepend_founded_by": {
+            "@name": "prepend_founded_by",
+            "#text": {
+               "string": "\n    Founded by:\n    "
+            }
+         },
+         "text:founder_name": {
+            "@name": "founder_name"
+         },
+         "button:copy_name": {
+            "@name": "copy_name",
+            "@label": {
+               "string": "Copy Name"
+            }
+         },
+         "texture_picker:insignia": {
+            "@name": "insignia",
+            "@tool_tip": {
+               "string": "Click to choose a picture"
+            },
+            "@label": {
+               "string": ""
+            }
+         },
+         "text_editor:charter": {
+            "@name": "charter",
+            "#text": {
+               "string": "\n    Group Charter\n    "
+            }
+         },
+         "text:join_cost_text": {
+            "@name": "join_cost_text",
+            "#text": {
+               "string": "\n    Join (L$00000)\n    "
+            }
+         },
+         "button:btn_join": {
+            "@name": "btn_join",
+            "@label": {
+               "string": "Join now!"
+            }
+         },
+         "name_list:visible_members": {
+            "@name": "visible_members",
+            "name_list.columns:name": {
+               "@label": {
+                  "string": "Member"
+               },
+               "@name": "name"
+            },
+            "name_list.columns:title": {
+               "@label": {
+                  "string": "Title"
+               },
+               "@name": "title"
+            },
+            "name_list.columns:status": {
+               "@label": {
+                  "string": "Status"
+               },
+               "@name": "status"
+            }
+         },
+         "layout_stack:group_preferences_layout": {
+            "@name": "group_preferences_layout",
+            "layout_panel:user_preferences_container": {
+               "@name": "user_preferences_container",
+               "text:my_group_settngs_label": {
+                  "@name": "my_group_settngs_label",
+                  "#text": {
+                     "string": "\n        My Group Settings\n        "
+                  }
+               },
+               "check_box:list_groups_in_profile": {
+                  "@label": {
+                     "string": "Show in my profile"
+                  },
+                  "@name": "list_groups_in_profile",
+                  "@tool_tip": {
+                     "string": "Sets whether you want to show this group in your profile"
+                  }
+               },
+               "check_box:receive_notices": {
+                  "@label": {
+                     "string": "Receive group notices"
+                  },
+                  "@name": "receive_notices",
+                  "@tool_tip": {
+                     "string": "Sets whether you want to receive Notices from this group.  Uncheck this box if this group is spamming you."
+                  }
+               },
+               "#comment": " <exodus> ",
+               "check_box:receive_chat": {
+                  "@label": {
+                     "string": "Receive group instant messages"
+                  },
+                  "@name": "receive_chat",
+                  "@tool_tip": {
+                     "string": "Sets whether you want to participate in group chat for this group."
+                  }
+               },
+               "#comment$6": " </exodus> ",
+               "text:active_title_label": {
+                  "@name": "active_title_label",
+                  "#text": {
+                     "string": "\n            Current title:\n        "
+                  }
+               },
+               "combo_box:active_title": {
+                  "@name": "active_title",
+                  "@tool_tip": {
+                     "string": "Sets the title that appears in your avatar's name tag when this group is active."
+                  }
+               }
+            },
+            "layout_panel:preferences_divider": {
+               "@name": "preferences_divider"
+            },
+            "layout_panel:group_preferences_container": {
+               "@name": "group_preferences_container",
+               "text:group_settngs_label": {
+                  "@name": "group_settngs_label",
+                  "#text": {
+                     "string": "\n         Group Setup\n        "
+                  }
+               },
+               "check_box:show_in_group_list": {
+                  "@name": "show_in_group_list",
+                  "@tool_tip": {
+                     "string": "Let people see this group in search results"
+                  },
+                  "@label": {
+                     "string": "Show in search"
+                  }
+               },
+               "check_box:open_enrollement": {
+                  "@name": "open_enrollement",
+                  "@label": {
+                     "string": "Anyone can join"
+                  },
+                  "@tool_tip": {
+                     "string": "Sets whether this group allows new members to join without being invited."
+                  }
+               },
+               "check_box:check_enrollment_fee": {
+                  "@name": "check_enrollment_fee",
+                  "@tool_tip": {
+                     "string": "Sets whether to require an enrollment fee to join the group"
+                  },
+                  "@label": {
+                     "string": "Cost to join"
+                  }
+               },
+               "spinner:spin_enrollment_fee": {
+                  "@name": "spin_enrollment_fee",
+                  "@tool_tip": {
+                     "string": "New members must pay this fee to join the group when Enrollment Fee is checked."
+                  },
+                  "@label": {
+                     "string": "L$"
+                  }
+               },
+               "combo_box:group_mature_check": {
+                  "@name": "group_mature_check",
+                  "@tool_tip": {
+                     "string": "Maturity ratings designate the type of content and behavior allowed in a group"
+                  },
+                  "combo_item:select_mature": {
+                     "@name": "select_mature",
+                     "@value": {
+                        "string": "Select"
+                     },
+                     "#text": {
+                        "string": "\n            - Select maturity rating -\n            "
+                     }
+                  },
+                  "combo_box.item:mature": {
+                     "@label": {
+                        "string": "Moderate Content"
+                     },
+                     "@name": "mature"
+                  },
+                  "combo_box.item:pg": {
+                     "@label": {
+                        "string": "General Content"
+                     },
+                     "@name": "pg"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

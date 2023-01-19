@@ -1,0 +1,53 @@
+{
+   "panel": {
+      "@name": "panel_pick_info",
+      "panel.string:location_notice": {
+         "@name": "location_notice",
+         "#text": {
+            "string": "\n(will update after save)\n    "
+         }
+      },
+      "texture_picker:pick_snapshot": {
+         "@name": "pick_snapshot"
+      },
+      "line_editor:pick_name": {
+         "@name": "pick_name"
+      },
+      "text_editor:pick_desc": {
+         "@name": "pick_desc"
+      },
+      "line_editor:pick_location": {
+         "@name": "pick_location",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "button:teleport_btn": {
+         "@label": {
+            "string": "Teleport"
+         },
+         "@name": "teleport_btn"
+      },
+      "button:show_on_map_btn": {
+         "@label": {
+            "string": "Show on Map"
+         },
+         "@name": "show_on_map_btn"
+      },
+      "button:set_to_curr_location_btn": {
+         "@label": {
+            "string": "Set Location"
+         },
+         "@tool_tip": {
+            "string": "Set to Current Location"
+         },
+         "@name": "set_to_curr_location_btn"
+      },
+      "button:save_changes_btn": {
+         "@label": {
+            "string": "Save Pick"
+         },
+         "@name": "save_changes_btn"
+      }
+   }
+}

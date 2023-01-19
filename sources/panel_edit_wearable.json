@@ -1,0 +1,365 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Wearable"
+      },
+      "@name": "panel_edit_wearable",
+      "string:edit_shape_title": {
+         "@name": "edit_shape_title",
+         "#text": {
+            "string": "\n        Editing Shape\n    "
+         }
+      },
+      "string:edit_skin_title": {
+         "@name": "edit_skin_title",
+         "#text": {
+            "string": "\n        Editing Skin\n    "
+         }
+      },
+      "string:edit_hair_title": {
+         "@name": "edit_hair_title",
+         "#text": {
+            "string": "\n        Editing Hair\n    "
+         }
+      },
+      "string:edit_eyes_title": {
+         "@name": "edit_eyes_title",
+         "#text": {
+            "string": "\n        Editing Eyes\n    "
+         }
+      },
+      "string:edit_shirt_title": {
+         "@name": "edit_shirt_title",
+         "#text": {
+            "string": "\n        Editing Shirt\n    "
+         }
+      },
+      "string:edit_pants_title": {
+         "@name": "edit_pants_title",
+         "#text": {
+            "string": "\n        Editing Pants\n    "
+         }
+      },
+      "string:edit_shoes_title": {
+         "@name": "edit_shoes_title",
+         "#text": {
+            "string": "\n        Editing Shoes\n    "
+         }
+      },
+      "string:edit_socks_title": {
+         "@name": "edit_socks_title",
+         "#text": {
+            "string": "\n        Editing Socks\n    "
+         }
+      },
+      "string:edit_jacket_title": {
+         "@name": "edit_jacket_title",
+         "#text": {
+            "string": "\n        Editing Jacket\n    "
+         }
+      },
+      "string:edit_skirt_title": {
+         "@name": "edit_skirt_title",
+         "#text": {
+            "string": "\n        Editing Skirt\n    "
+         }
+      },
+      "string:edit_gloves_title": {
+         "@name": "edit_gloves_title",
+         "#text": {
+            "string": "\n        Editing Gloves\n    "
+         }
+      },
+      "string:edit_undershirt_title": {
+         "@name": "edit_undershirt_title",
+         "#text": {
+            "string": "\n        Editing Undershirt\n    "
+         }
+      },
+      "string:edit_underpants_title": {
+         "@name": "edit_underpants_title",
+         "#text": {
+            "string": "\n        Editing Underpants\n    "
+         }
+      },
+      "string:edit_alpha_title": {
+         "@name": "edit_alpha_title",
+         "#text": {
+            "string": "\n        Editing Alpha Mask\n    "
+         }
+      },
+      "string:edit_tattoo_title": {
+         "@name": "edit_tattoo_title",
+         "#text": {
+            "string": "\n        Editing Tattoo\n    "
+         }
+      },
+      "string:edit_universal_title": {
+         "@name": "edit_universal_title",
+         "#text": {
+            "string": "\n    Editing Universal\n  "
+         }
+      },
+      "string:edit_physics_title": {
+         "@name": "edit_physics_title",
+         "#text": {
+            "string": "\n        Editing Physics\n    "
+         }
+      },
+      "string:shape_desc_text": {
+         "@name": "shape_desc_text",
+         "#text": {
+            "string": "\n        Shape:\n    "
+         }
+      },
+      "string:skin_desc_text": {
+         "@name": "skin_desc_text",
+         "#text": {
+            "string": "\n        Skin:\n    "
+         }
+      },
+      "string:hair_desc_text": {
+         "@name": "hair_desc_text",
+         "#text": {
+            "string": "\n        Hair:\n    "
+         }
+      },
+      "string:eyes_desc_text": {
+         "@name": "eyes_desc_text",
+         "#text": {
+            "string": "\n        Eyes:\n    "
+         }
+      },
+      "string:shirt_desc_text": {
+         "@name": "shirt_desc_text",
+         "#text": {
+            "string": "\n        Shirt:\n    "
+         }
+      },
+      "string:pants_desc_text": {
+         "@name": "pants_desc_text",
+         "#text": {
+            "string": "\n        Pants:\n    "
+         }
+      },
+      "string:shoes_desc_text": {
+         "@name": "shoes_desc_text",
+         "#text": {
+            "string": "\n        Shoes:\n    "
+         }
+      },
+      "string:socks_desc_text": {
+         "@name": "socks_desc_text",
+         "#text": {
+            "string": "\n        Socks:\n    "
+         }
+      },
+      "string:jacket_desc_text": {
+         "@name": "jacket_desc_text",
+         "#text": {
+            "string": "\n        Jacket:\n    "
+         }
+      },
+      "string:skirt_desc_text": {
+         "@name": "skirt_desc_text",
+         "#text": {
+            "string": "\n        Skirt:\n    "
+         }
+      },
+      "string:gloves_desc_text": {
+         "@name": "gloves_desc_text",
+         "#text": {
+            "string": "\n        Gloves:\n    "
+         }
+      },
+      "string:undershirt_desc_text": {
+         "@name": "undershirt_desc_text",
+         "#text": {
+            "string": "\n        Undershirt:\n    "
+         }
+      },
+      "string:underpants_desc_text": {
+         "@name": "underpants_desc_text",
+         "#text": {
+            "string": "\n        Underpants:\n    "
+         }
+      },
+      "string:alpha_desc_text": {
+         "@name": "alpha_desc_text",
+         "#text": {
+            "string": "\n        Alpha Mask:\n    "
+         }
+      },
+      "string:tattoo_desc_text": {
+         "@name": "tattoo_desc_text",
+         "#text": {
+            "string": "\n        Tattoo:\n    "
+         }
+      },
+      "string:universal_desc_text": {
+         "@name": "universal_desc_text",
+         "#text": {
+            "string": "\n    Universal:\n  "
+         }
+      },
+      "string:physics_desc_text": {
+         "@name": "physics_desc_text",
+         "#text": {
+            "string": "\n        Physics:\n    "
+         }
+      },
+      "#comment": " Default width of the button should be to show it without label.\n     Button will be extedned in code to show whole label when wearable is being changed.\n    ",
+      "labeled_back_button:back_btn": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "back_btn",
+         "@tool_tip": {
+            "string": "Return to Edit Outfit"
+         }
+      },
+      "text:edit_wearable_title": {
+         "@name": "edit_wearable_title",
+         "@value": {
+            "string": "Editing Shape"
+         }
+      },
+      "panel:wearable_type_panel": {
+         "@label": {
+            "string": "Shirt"
+         },
+         "@name": "wearable_type_panel",
+         "text:description_text": {
+            "@name": "description_text",
+            "@value": {
+               "string": "Shape:"
+            }
+         },
+         "radio_group:sex_radio": {
+            "@name": "sex_radio",
+            "radio_item:sex_male": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "sex_male",
+               "@tool_tip": {
+                  "string": "Male"
+               }
+            },
+            "radio_item:sex_female": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "sex_female",
+               "@tool_tip": {
+                  "string": "Female"
+               }
+            }
+         },
+         "#comment": "  graphical labels for the radio buttons above ",
+         "icon:male_icon": {
+            "@name": "male_icon",
+            "@tool_tip": {
+               "string": "Male"
+            }
+         },
+         "icon:female_icon": {
+            "@name": "female_icon",
+            "@tool_tip": {
+               "string": "Female"
+            }
+         },
+         "line_editor:description": {
+            "@name": "description"
+         }
+      },
+      "panel:edit_subpanel_container": {
+         "@name": "edit_subpanel_container",
+         "#comment": " the shape editing panel is taller than the others\n          because it also displays avatar height ",
+         "panel:edit_shape_panel": {
+            "@name": "edit_shape_panel"
+         },
+         "panel:edit_skin_panel": {
+            "@name": "edit_skin_panel"
+         },
+         "panel:edit_hair_panel": {
+            "@name": "edit_hair_panel"
+         },
+         "panel:edit_eyes_panel": {
+            "@name": "edit_eyes_panel"
+         },
+         "panel:edit_shirt_panel": {
+            "@name": "edit_shirt_panel"
+         },
+         "panel:edit_pants_panel": {
+            "@name": "edit_pants_panel"
+         },
+         "panel:edit_shoes_panel": {
+            "@name": "edit_shoes_panel"
+         },
+         "panel:edit_socks_panel": {
+            "@name": "edit_socks_panel"
+         },
+         "panel:edit_jacket_panel": {
+            "@name": "edit_jacket_panel"
+         },
+         "panel:edit_skirt_panel": {
+            "@name": "edit_skirt_panel"
+         },
+         "panel:edit_gloves_panel": {
+            "@name": "edit_gloves_panel"
+         },
+         "panel:edit_undershirt_panel": {
+            "@name": "edit_undershirt_panel"
+         },
+         "panel:edit_underpants_panel": {
+            "@name": "edit_underpants_panel"
+         },
+         "panel:edit_alpha_panel": {
+            "@name": "edit_alpha_panel"
+         },
+         "panel:edit_tattoo_panel": {
+            "@name": "edit_tattoo_panel"
+         },
+         "panel:edit_universal_panel": {
+            "@name": "edit_universal_panel"
+         },
+         "panel:edit_physics_panel": {
+            "@name": "edit_physics_panel"
+         }
+      },
+      "panel:button_panel": {
+         "@name": "button_panel",
+         "layout_stack:button_panel_ls": {
+            "@name": "button_panel_ls",
+            "layout_panel:save_as_btn_lp": {
+               "@name": "save_as_btn_lp",
+               "button:save_as_button": {
+                  "@label": {
+                     "string": "Save As"
+                  },
+                  "@name": "save_as_button"
+               }
+            },
+            "layout_panel:revert_btn_lp": {
+               "@name": "revert_btn_lp",
+               "button:revert_button": {
+                  "@label": {
+                     "string": "Undo Changes"
+                  },
+                  "@name": "revert_button"
+               }
+            },
+            "layout_panel:import_btn_lp": {
+               "@name": "import_btn_lp",
+               "button:import_btn": {
+                  "@label": {
+                     "string": "Import"
+                  },
+                  "@name": "import_btn"
+               }
+            }
+         }
+      }
+   }
+}

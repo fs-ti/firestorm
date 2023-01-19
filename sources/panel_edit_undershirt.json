@@ -1,0 +1,43 @@
+{
+   "panel": {
+      "@name": "edit_undershirt_panel",
+      "panel:avatar_undershirt_color_panel": {
+         "@name": "avatar_undershirt_color_panel",
+         "texture_picker:Fabric": {
+            "@label": {
+               "string": "Fabric"
+            },
+            "@name": "Fabric",
+            "@tool_tip": {
+               "string": "Click to choose a picture"
+            },
+            "texture_picker.commit_callback": null
+         },
+         "color_swatch:Color/Tint": {
+            "@label": {
+               "string": "Color/Tint"
+            },
+            "@name": "Color/Tint",
+            "@tool_tip": {
+               "string": "Click to open Color Picker"
+            },
+            "color_swatch.commit_callback": null
+         }
+      },
+      "panel:accordion_panel": {
+         "@name": "accordion_panel",
+         "accordion:wearable_accordion": {
+            "@name": "wearable_accordion",
+            "accordion_tab:undershirt_main_tab": {
+               "@name": "undershirt_main_tab",
+               "@title": {
+                  "string": "Undershirt"
+               },
+               "scrolling_panel_list:undershirt_main_param_list": {
+                  "@name": "undershirt_main_param_list"
+               }
+            }
+         }
+      }
+   }
+}

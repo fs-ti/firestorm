@@ -1,0 +1,898 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Graphics"
+      },
+      "@name": "Display panel",
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Graphics Prefs"
+         },
+         "@name": "tabs",
+         "#comment": "General",
+         "panel:General": {
+            "@label": {
+               "string": "General"
+            },
+            "@name": "General",
+            "text:preset_label": {
+               "@name": "preset_label",
+               "#text": {
+                  "string": "\n      Preset in use:\n  "
+               }
+            },
+            "text:preset_text": {
+               "@name": "preset_text",
+               "#text": {
+                  "string": "\n      (None)\n  "
+               }
+            },
+            "text:QualitySpeed": {
+               "@name": "QualitySpeed",
+               "#text": {
+                  "string": "\n        Quality and speed:\n      "
+               }
+            },
+            "text:FasterText": {
+               "@name": "FasterText",
+               "#text": {
+                  "string": "\n        Performance\n      "
+               }
+            },
+            "text:BetterText": {
+               "@name": "BetterText",
+               "#text": {
+                  "string": "\n        Quality\n      "
+               }
+            },
+            "icon:LowGraphicsDivet": {
+               "@name": "LowGraphicsDivet"
+            },
+            "icon:LowMidGraphicsDivet": {
+               "@name": "LowMidGraphicsDivet"
+            },
+            "icon:MidGraphicsDivet": {
+               "@name": "MidGraphicsDivet"
+            },
+            "icon:MidHighGraphicsDivet": {
+               "@name": "MidHighGraphicsDivet"
+            },
+            "icon:HighGraphicsDivet": {
+               "@name": "HighGraphicsDivet"
+            },
+            "icon:HighUltraGraphicsDivet": {
+               "@name": "HighUltraGraphicsDivet"
+            },
+            "icon:UltraGraphicsDivet": {
+               "@name": "UltraGraphicsDivet"
+            },
+            "slider:QualityPerformanceSelection": {
+               "@name": "QualityPerformanceSelection",
+               "slider.commit_callback": null
+            },
+            "text:ShadersPrefText": {
+               "@name": "ShadersPrefText",
+               "#text": {
+                  "string": "\n        Low\n      "
+               }
+            },
+            "text:ShadersPrefText2": {
+               "@name": "ShadersPrefText2",
+               "#text": {
+                  "string": "\n        Mid\n      "
+               }
+            },
+            "text:ShadersPrefText3": {
+               "@name": "ShadersPrefText3",
+               "#text": {
+                  "string": "\n        High\n      "
+               }
+            },
+            "text:ShadersPrefText4": {
+               "@name": "ShadersPrefText4",
+               "#text": {
+                  "string": "\n        Ultra\n      "
+               }
+            },
+            "check_box:Fullscreen Mode": {
+               "@label": {
+                  "string": "Fullscreen Mode"
+               },
+               "@name": "Fullscreen Mode",
+               "@tool_tip": {
+                  "string": "Run Firestorm in Fullscreen mode. A restart is required to change mode."
+               }
+            },
+            "text:ShadersText": {
+               "@name": "ShadersText",
+               "#text": {
+                  "string": "\n          Shaders:\n        "
+               }
+            },
+            "check_box:TransparentWater": {
+               "@label": {
+                  "string": "Transparent Water"
+               },
+               "@name": "TransparentWater",
+               "check_box.commit_callback": null
+            },
+            "check_box:BumpShiny": {
+               "@label": {
+                  "string": "Bump mapping and shiny"
+               },
+               "@name": "BumpShiny",
+               "check_box.commit_callback": null
+            },
+            "check_box:LocalLights": {
+               "@label": {
+                  "string": "Local Lights"
+               },
+               "@name": "LocalLights"
+            },
+            "check_box:WindLightUseAtmosShaders": {
+               "@label": {
+                  "string": "Atmospheric shaders"
+               },
+               "@name": "WindLightUseAtmosShaders",
+               "check_box.commit_callback": null
+            },
+            "check_box:UseLightShaders": {
+               "@label": {
+                  "string": "Advanced Lighting Model"
+               },
+               "@tool_tip": {
+                  "string": "Enables advanced light rendering."
+               },
+               "@name": "UseLightShaders",
+               "check_box.commit_callback": null
+            },
+            "check_box:UseSSAO": {
+               "@label": {
+                  "string": "Ambient Occlusion"
+               },
+               "@name": "UseSSAO",
+               "check_box.commit_callback": null
+            },
+            "text:shadows_label": {
+               "@name": "shadows_label",
+               "#text": {
+                  "string": "\n          Shadows:\n        "
+               }
+            },
+            "combo_box:ShadowDetail": {
+               "@name": "ShadowDetail",
+               "combo_box.commit_callback": null,
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "None"
+                  },
+                  "@name": "0"
+               },
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Sun/Moon"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "Sun/Moon + Projectors"
+                  },
+                  "@name": "2"
+               }
+            },
+            "text:reflection_label": {
+               "@name": "reflection_label",
+               "#text": {
+                  "string": "\n          Water Reflections:\n        "
+               }
+            },
+            "combo_box:Reflections": {
+               "@name": "Reflections",
+               "combo_box.item:-2": {
+                  "@label": {
+                     "string": "None (opaque)"
+                  },
+                  "@name": "-2"
+               },
+               "combo_box.item:-1": {
+                  "@label": {
+                     "string": "None (transparent)"
+                  },
+                  "@name": "-1"
+               },
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "Minimal"
+                  },
+                  "@name": "0"
+               },
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Terrain and trees"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "All static objects"
+                  },
+                  "@name": "2"
+               },
+               "combo_box.item:3": {
+                  "@label": {
+                     "string": "All avatars and objects"
+                  },
+                  "@name": "3"
+               },
+               "combo_box.item:4": {
+                  "@label": {
+                     "string": "Everything"
+                  },
+                  "@name": "4"
+               }
+            },
+            "#comment": " FS:TM Avatar Physics was moved down to LOD section",
+            "#comment$32": " FS:TM Point Lighting added instead of above",
+            "text:local lights_label": {
+               "@name": "local lights_label",
+               "@tool_tip": {
+                  "string": "Affects the number of rendered light sources when Advanced Lighting Model is disabled. A restart is required to change mode."
+               },
+               "#text": {
+                  "string": "\n          Point Lighting (restart required)\n        "
+               }
+            },
+            "combo_box:LocalLightsDetail": {
+               "@name": "LocalLightsDetail",
+               "combo_box.item:3": {
+                  "@label": {
+                     "string": "Full (default)"
+                  },
+                  "@name": "3"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "Reduced"
+                  },
+                  "@name": "2"
+               },
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Sun/Moon Only"
+                  },
+                  "@name": "1"
+               }
+            },
+            "#comment$35": "Top of second column in General tab",
+            "slider:DrawDistance": {
+               "@label": {
+                  "string": "Draw distance"
+               },
+               "@name": "DrawDistance"
+            },
+            "text:DrawDistanceMeterText2": {
+               "@name": "DrawDistanceMeterText2",
+               "#text": {
+                  "string": "\n          m\n        "
+               }
+            },
+            "slider:MaxParticleCount": {
+               "@label": {
+                  "string": "Max. particle count"
+               },
+               "@name": "MaxParticleCount"
+            },
+            "slider:IndirectMaxComplexity": {
+               "@tool_tip": {
+                  "string": "Controls at what point a visually complex avatar is drawn as a JellyDoll"
+               },
+               "@label": {
+                  "string": "Maximum complexity"
+               },
+               "@name": "IndirectMaxComplexity",
+               "slider.commit_callback": null
+            },
+            "text:IndirectMaxComplexityText": {
+               "@name": "IndirectMaxComplexityText",
+               "#text": {
+                  "string": "\n          0\n        "
+               }
+            },
+            "slider:IndirectMaxNonImpostors": {
+               "@label": {
+                  "string": "Max. # of non-impostor avatars"
+               },
+               "@name": "IndirectMaxNonImpostors",
+               "slider.commit_callback": null
+            },
+            "text:IndirectMaxNonImpostorsText": {
+               "@name": "IndirectMaxNonImpostorsText",
+               "#text": {
+                  "string": "\n          0\n        "
+               }
+            },
+            "slider:RenderPostProcess": {
+               "@label": {
+                  "string": "Post process quality"
+               },
+               "@name": "RenderPostProcess",
+               "slider.commit_callback": null
+            },
+            "text:PostProcessText": {
+               "@name": "PostProcessText",
+               "#text": {
+                  "string": "\n          Low\n        "
+               }
+            },
+            "slider:AvatarPhysicsDetail": {
+               "@label": {
+                  "string": "Avatar Physics"
+               },
+               "@name": "AvatarPhysicsDetail"
+            },
+            "text:MeshDetailText": {
+               "@name": "MeshDetailText",
+               "#text": {
+                  "string": "\n          Level of Detail (LOD) Distance Factors:\n        "
+               }
+            },
+            "slider:ObjectMeshDetail": {
+               "@tool_tip": {
+                  "string": "Controls when lower-detail objects can be used to reduce rendering cost. Higher values cause lag, use with care."
+               },
+               "@label": {
+                  "string": "  Objects & Sculpts LOD"
+               },
+               "@name": "ObjectMeshDetail"
+            },
+            "slider:FlexibleMeshDetail": {
+               "@label": {
+                  "string": "  Flexiprims"
+               },
+               "@name": "FlexibleMeshDetail"
+            },
+            "slider:TreeMeshDetail": {
+               "@label": {
+                  "string": "  Trees"
+               },
+               "@name": "TreeMeshDetail"
+            },
+            "slider:AvatarMeshDetail": {
+               "@label": {
+                  "string": "  Avatars"
+               },
+               "@name": "AvatarMeshDetail"
+            },
+            "slider:TerrainMeshDetail": {
+               "@label": {
+                  "string": "  Terrain"
+               },
+               "@name": "TerrainMeshDetail"
+            },
+            "slider:SkyMeshDetail": {
+               "@label": {
+                  "string": "  Sky"
+               },
+               "@name": "SkyMeshDetail"
+            },
+            "text:AvatarPhysicsDetailText": {
+               "@name": "AvatarPhysicsDetailText"
+            },
+            "text:AvatarRenderingText": {
+               "@name": "AvatarRenderingText",
+               "#text": {
+                  "string": "\n          Avatar Rendering:\n        "
+               }
+            },
+            "check_box:AvatarVertexProgram": {
+               "@label": {
+                  "string": "Hardware skinning"
+               },
+               "@name": "AvatarVertexProgram",
+               "check_box.commit_callback": null
+            },
+            "check_box:AvatarCloth": {
+               "@label": {
+                  "string": "Avatar cloth"
+               },
+               "@name": "AvatarCloth"
+            },
+            "#comment$57": " <FS:LO> remove orphaned code left over from EEP\n        <text\n         type=\"string\"\n         length=\"1\"\n         follows=\"left|top\"\n         height=\"12\"\n         layout=\"topleft\"\n         left_delta=\"200\"\n         name=\"TerrainDetailText\"\n         top_pad=\"-50\"\n         width=\"155\">\n          Terrain detail:\n        </text>\n        <radio_group\n         control_name=\"RenderTerrainDetail\"\n         height=\"38\"\n         layout=\"topleft\"\n         left_delta=\"5\"\n         name=\"TerrainDetailRadio\"\n         top_pad=\"5\"\n         width=\"70\">\n          <radio_item\n           height=\"16\"\n           label=\"Low\"\n           layout=\"topleft\"\n           name=\"0\"\n           top=\"3\"\n           width=\"50\" />\n          <radio_item\n           height=\"16\"\n           label=\"High\"\n           layout=\"topleft\"\n           name=\"2\"\n           top_delta=\"16\"\n           width=\"50\" />\n        </radio_group>",
+            "text:Presets_Label": {
+               "@name": "Presets_Label",
+               "#text": {
+                  "string": "\n          Presets:\n        "
+               }
+            },
+            "button:PrefSaveButton": {
+               "@label": {
+                  "string": "Save"
+               },
+               "@name": "PrefSaveButton",
+               "button.commit_callback": null
+            },
+            "button:PrefLoadButton": {
+               "@label": {
+                  "string": "Load"
+               },
+               "@name": "PrefLoadButton",
+               "button.commit_callback": null
+            },
+            "button:PrefDeleteButton": {
+               "@label": {
+                  "string": "Delete"
+               },
+               "@name": "PrefDeleteButton",
+               "button.commit_callback": null
+            },
+            "#comment$62": "Reset Button",
+            "button:Defaults": {
+               "@tool_tip": {
+                  "string": "Reload default graphics settings."
+               },
+               "@name": "Defaults",
+               "button.commit_callback": null
+            }
+         },
+         "#comment$4": "Hardware Settings",
+         "panel:Hardware Settings": {
+            "@label": {
+               "string": "Hardware Settings"
+            },
+            "@name": "Hardware Settings",
+            "check_box:ani": {
+               "@label": {
+                  "string": "Anisotropic Filtering (slower when enabled)"
+               },
+               "@name": "ani",
+               "@tool_tip": {
+                  "string": "This checkbox enables anisotropic filtering, which is a method to enhance the quality of textures when they are viewed at relatively large angles in relation to your camera position. Usually makes them look less blurry at greater distances."
+               }
+            },
+            "check_box:vbo": {
+               "@label": {
+                  "string": "Enable OpenGL Vertex Buffer Objects"
+               },
+               "@name": "vbo",
+               "@tool_tip": {
+                  "string": "Enabling this on modern hardware gives a performance gain.  However, older hardware often has poor implementations of VBOs and you may get crashes when this is enabled."
+               }
+            },
+            "check_box:vbo_stream": {
+               "@label": {
+                  "string": "Enable Streamed VBOs"
+               },
+               "@name": "vbo_stream",
+               "@tool_tip": {
+                  "string": "Disabling this may improve performance when VBOs are enabled. Disabling produced observable improvement on various AMD and Intel GPUs."
+               }
+            },
+            "check_box:texture compression": {
+               "@label": {
+                  "string": "Enable Lossy Texture Compression (requires restart)"
+               },
+               "@name": "texture compression",
+               "@tool_tip": {
+                  "string": "Compresses textures in video memory, allowing for higher resolution textures and/or more textures to be loaded at the cost of some color quality."
+               }
+            },
+            "check_box:use HiDPI": {
+               "@label": {
+                  "string": "Enable support for HiDPI displays (Mac OSX only; requires restart)"
+               },
+               "@name": "use HiDPI",
+               "@tool_tip": {
+                  "string": "Enable OpenGL for High-Resolution Drawing."
+               }
+            },
+            "text:Antialiasing:": {
+               "@name": "Antialiasing:",
+               "@tool_tip": {
+                  "string": "Changes to this setting may require a restart on some hardware."
+               },
+               "#text": {
+                  "string": "\n          Antialiasing (restart recommended):\n        "
+               }
+            },
+            "combo_box:fsaa": {
+               "@label": {
+                  "string": "Antialiasing"
+               },
+               "@name": "fsaa",
+               "combo_box.item:FSAADisabled": {
+                  "@label": {
+                     "string": "Disabled"
+                  },
+                  "@name": "FSAADisabled"
+               },
+               "combo_box.item:2x": {
+                  "@label": {
+                     "string": "2x"
+                  },
+                  "@name": "2x"
+               },
+               "combo_box.item:4x": {
+                  "@label": {
+                     "string": "4x"
+                  },
+                  "@name": "4x"
+               },
+               "combo_box.item:8x": {
+                  "@label": {
+                     "string": "8x"
+                  },
+                  "@name": "8x"
+               },
+               "combo_box.item:16x": {
+                  "@label": {
+                     "string": "16x"
+                  },
+                  "@name": "16x"
+               }
+            },
+            "spinner:gamma": {
+               "@label": {
+                  "string": "Gamma:"
+               },
+               "@name": "gamma"
+            },
+            "text:brightness text": {
+               "@name": "brightness text",
+               "#text": {
+                  "string": "\n            (0/1.0 = default brightness, lower = brighter)\n        "
+               }
+            },
+            "slider:GraphicsCardTextureMemory": {
+               "@label": {
+                  "string": "Viewer Texture Memory Buffer (MB):"
+               },
+               "@name": "GraphicsCardTextureMemory",
+               "@tool_tip": {
+                  "string": "Amount of memory to allocate for textures. Defaults to video card memory up to 512MB on 32bit systems and up to 2048MB on 64bit systems, depending on the available dedicated video memory of the video card. Reducing this may improve performance but may also make textures blurry."
+               }
+            },
+            "check_box:FSDynamicTextureMemory": {
+               "@label": {
+                  "string": "Enable Dynamic Texture Memory"
+               },
+               "@name": "FSDynamicTextureMemory",
+               "@tool_tip": {
+                  "string": "Enables dynamic texture memory calculation (only available on 64bit viewers and AMD/NVIDIA GPUs with at least 512MB of video memory)"
+               }
+            },
+            "slider:FSDynamicTextureMemoryMinTextureMemory": {
+               "@label": {
+                  "string": "Minimum Viewer Texture Memory Buffer (MB):"
+               },
+               "@name": "FSDynamicTextureMemoryMinTextureMemory",
+               "@tool_tip": {
+                  "string": "The minimum amount of memory to allocate for textures. This will make sure the specified amount will always be used for textures, even if it exceeds the amount of available video memory. If the specified amount plus the reserves exceed the amount of physical video memory, it will be capped accordingly."
+               }
+            },
+            "slider:FSDynamicTextureMemoryCacheReserve": {
+               "@label": {
+                  "string": "Additional Texture Memory Cache Reserve (%):"
+               },
+               "@name": "FSDynamicTextureMemoryCacheReserve",
+               "@tool_tip": {
+                  "string": "The percentage of physical video memory reserved to cache loaded textures that are currently not being displayed."
+               }
+            },
+            "slider:FSDynamicTextureMemoryGPUReserve": {
+               "@label": {
+                  "string": "Physical Video Memory Reserve (%):"
+               },
+               "@name": "FSDynamicTextureMemoryGPUReserve",
+               "@tool_tip": {
+                  "string": "The percentage of physical video memory reserved for other usage."
+               }
+            },
+            "spinner:fog": {
+               "@label": {
+                  "string": "Fog Distance Ratio:"
+               },
+               "@name": "fog"
+            },
+            "spinner:image_decode_threads": {
+               "@label": {
+                  "string": "Image decode concurrency:"
+               },
+               "@name": "image_decode_threads",
+               "@tool_tip": {
+                  "string": "The number of threads to use for decoding images. 0 = Auto, 1 = Synchronous, 2+ = user specified. (0 or 1 are recommended)"
+               }
+            }
+         },
+         "#comment$6": "Rendering",
+         "panel:Rendering": {
+            "@label": {
+               "string": "Rendering"
+            },
+            "@name": "Rendering",
+            "#comment": " world pauser ",
+            "text:World Updating": {
+               "@name": "World Updating",
+               "#text": {
+                  "string": "\n            World Updating:\n        "
+               }
+            },
+            "check_box:WorldPause": {
+               "@label": {
+                  "string": "Freeze updates to World (pause everything)"
+               },
+               "@tool_tip": {
+                  "string": "Set this to freeze all updates from the server - stops all actions in-world but does not affect chat, IMs or voice"
+               },
+               "@name": "WorldPause"
+            },
+            "text:Texture Rendering": {
+               "@name": "Texture Rendering",
+               "#text": {
+                  "string": "\n            Texture Rendering:\n        "
+               }
+            },
+            "check_box:FSRestrictMaxTextureSize": {
+               "@label": {
+                  "string": "Restrict maximum texture resolution to 512px (64bit only; requires Restart)"
+               },
+               "@tool_tip": {
+                  "string": "Set this restrict the maximum display resolution for inworld textures to 512px. This allows displaying more textures before exceeding the available texture memory and observing blurry textures."
+               },
+               "@name": "FSRestrictMaxTextureSize"
+            },
+            "#comment$7": " New Texture detail 5 is lowest, 0 is highest ",
+            "text:TextureDetailLabel": {
+               "@name": "TextureDetailLabel",
+               "#text": {
+                  "string": "\n            Max Texture Quality Level:\n        "
+               }
+            },
+            "combo_box:TextureDetail": {
+               "@name": "TextureDetail",
+               "@tool_tip": {
+                  "string": "Quality to load textures to, affects the setting TextureDiscardLevel"
+               },
+               "#comment": " To translators, do not try to translate the word TextureDiscardLevel ",
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "Normal (0) quality"
+                  },
+                  "@name": "0"
+               },
+               "combo_box.item:3": {
+                  "@label": {
+                     "string": "Mid (3) quality"
+                  },
+                  "@name": "3"
+               },
+               "combo_box.item:4": {
+                  "@label": {
+                     "string": "Low (4) quality"
+                  },
+                  "@name": "4"
+               },
+               "combo_box.item:5": {
+                  "@label": {
+                     "string": "No (5) textures"
+                  },
+                  "@name": "5"
+               }
+            },
+            "text:Alpha Mask Rendering": {
+               "@name": "Alpha Mask Rendering",
+               "#text": {
+                  "string": "\n            Alpha Mask Rendering:\n        "
+               }
+            },
+            "check_box:RenderAutoMaskAlphaNonDeferred": {
+               "@label": {
+                  "string": "Render alpha masks when 'Advanced Lighting Model' is not enabled"
+               },
+               "@tool_tip": {
+                  "string": "When ticked this makes the Alpha masks (see-thru bits) render correctly when ALM is not selected"
+               },
+               "@name": "RenderAutoMaskAlphaNonDeferred"
+            },
+            "check_box:RenderAutoMaskAlphaDeferred": {
+               "@label": {
+                  "string": "Render alpha masks when 'Advanced Lighting Model' is enabled"
+               },
+               "@tool_tip": {
+                  "string": "When ticked this makes the Alpha masks (see-thru bits) render correctly when ALM is selected"
+               },
+               "@name": "RenderAutoMaskAlphaDeferred"
+            },
+            "text:Miscellaneous Rendering": {
+               "@name": "Miscellaneous Rendering",
+               "#text": {
+                  "string": "\n            Miscellaneous Rendering:\n        "
+               }
+            },
+            "check_box:RenderGlow": {
+               "@label": {
+                  "string": "Render glow"
+               },
+               "@tool_tip": {
+                  "string": "Render glow. Note that strength needs to be set to zero to disable glow when shadows are enabled."
+               },
+               "@name": "RenderGlow"
+            },
+            "slider:glow_strength": {
+               "@label": {
+                  "string": "Strength:"
+               },
+               "@tool_tip": {
+                  "string": "Glow strength. Higher = wider and smoother (default is 2) "
+               },
+               "@name": "glow_strength"
+            },
+            "check_box:RenderUnloadedAvatars": {
+               "@label": {
+                  "string": "Show avatars that haven't finished loading"
+               },
+               "@name": "RenderUnloadedAvatars"
+            },
+            "check_box:FSLimitFramerate": {
+               "@label": {
+                  "string": "Limit Framerate"
+               },
+               "@name": "FSLimitFramerate"
+            },
+            "slider:MaxFPS": {
+               "@label": {
+                  "string": "FPS:"
+               },
+               "@name": "MaxFPS"
+            },
+            "check_box:Wireframe": {
+               "@label": {
+                  "string": "Show the Scene as Wireframe"
+               },
+               "@name": "Wireframe",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Render Attached Lights": {
+               "@label": {
+                  "string": "Enable Attached Lights (Face Lights)"
+               },
+               "@tool_tip": {
+                  "string": "This will enable any lights, such as face lights, avatars have attached to them. Useful for turning off facelights when necessary."
+               },
+               "@name": "Render Attached Lights",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "check_box:Render Attached Particles": {
+               "@label": {
+                  "string": "Render Attached Particles"
+               },
+               "@name": "Render Attached Particles",
+               "check_box.on_check": null,
+               "check_box.check_button.commit_callback": null
+            },
+            "slider:PrecachingDelay": {
+               "@label": {
+                  "string": "Time to delay while pre-caching before showing world"
+               },
+               "@tool_tip": {
+                  "string": "How long to delay before showing world to you after you show as being online to others (default is 6 seconds)"
+               },
+               "@name": "PrecachingDelay"
+            },
+            "text:PrecachingDelayText": {
+               "@name": "PrecachingDelayText",
+               "#text": {
+                  "string": "\n            seconds\n        "
+               }
+            },
+            "slider:ShadowResolution": {
+               "@label": {
+                  "string": "Quality of the Shadows"
+               },
+               "@tool_tip": {
+                  "string": "What is the quality of the Shadows (default is 1)"
+               },
+               "@name": "ShadowResolution"
+            },
+            "slider:RenderTerrainScale": {
+               "@label": {
+                  "string": "Scale of Terrain Texture Rendering (requires restart)"
+               },
+               "@name": "RenderTerrainScale",
+               "@tool_tip": {
+                  "string": "Determines scale of terrain textures - lower is more compressed (requires viewer restart)"
+               }
+            }
+         },
+         "#comment$8": "Depth of Field",
+         "panel:DOF panel": {
+            "@label": {
+               "string": "Depth of Field"
+            },
+            "@name": "DOF panel",
+            "check_box:UseDoF": {
+               "@label": {
+                  "string": "Enable Depth of Field (This will blur the view except where the camera focus is at.)"
+               },
+               "@name": "UseDoF",
+               "check_box.commit_callback": null
+            },
+            "check_box:RenderDepthOfFieldInEditMode": {
+               "@label": {
+                  "string": "Enable while in edit mode"
+               },
+               "@name": "RenderDepthOfFieldInEditMode"
+            },
+            "check_box:FSRenderDoFUnderwater": {
+               "@label": {
+                  "string": "Enable while underwater"
+               },
+               "@name": "FSRenderDoFUnderwater"
+            },
+            "check_box:FSFocusPointFollowsPointer": {
+               "@label": {
+                  "string": "Depth of Field focus follows pointer"
+               },
+               "@name": "FSFocusPointFollowsPointer",
+               "@tool_tip": {
+                  "string": "Depth of Field (DoF) focus will follow your mouse, this behaviour matches that seen when using flycam. Use in conjunction with DoF focus lock"
+               }
+            },
+            "slider:CameraFNum": {
+               "@label": {
+                  "string": "Camera F Number:"
+               },
+               "@name": "CameraFNum",
+               "@tool_tip": {
+                  "string": "Camera f-number value for DoF effect"
+               }
+            },
+            "slider:CameraFocal": {
+               "@label": {
+                  "string": "Camera Focal Length mm:"
+               },
+               "@name": "CameraFocal",
+               "@tool_tip": {
+                  "string": "Camera focal length for DoF effect (in millimeters)"
+               }
+            },
+            "slider:Camera FOV": {
+               "@label": {
+                  "string": "Camera FOV degs:"
+               },
+               "@name": "Camera FOV",
+               "@tool_tip": {
+                  "string": "Vertical camera field of view for DoF effect (in degrees)"
+               }
+            },
+            "slider:CameraFocusTrans": {
+               "@label": {
+                  "string": "DOF Focus Transition Time:"
+               },
+               "@name": "CameraFocusTrans",
+               "@tool_tip": {
+                  "string": "Time taken to alter focus from one place to the next"
+               }
+            },
+            "slider:CameraDoFResScale": {
+               "@label": {
+                  "string": "DOF Rendering Quality:"
+               },
+               "@name": "CameraDoFResScale",
+               "@tool_tip": {
+                  "string": "Affects the quality of the blurring and the performance of rendering.  (higher = better quality, lower = better perforamce)"
+               }
+            }
+         }
+      },
+      "#comment": " These two check boxes are dummies and will never be displayed.  They are here so the control variables\nare saved in a preset file. ",
+      "check_box:RenderAvatarMaxNonImpostors": {
+         "@label": {
+            "string": "RenderAvatarMaxNonImpostors"
+         },
+         "@name": "RenderAvatarMaxNonImpostors"
+      }
+   }
+}

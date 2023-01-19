@@ -1,0 +1,51 @@
+{
+   "panel": {
+      "@name": "panel_picks",
+      "@label": {
+         "string": "Picks"
+      },
+      "string:no_picks": {
+         "@name": "no_picks",
+         "@value": {
+            "string": "No Picks"
+         }
+      },
+      "string:no_classifieds": {
+         "@name": "no_classifieds",
+         "@value": {
+            "string": "No Classifieds"
+         }
+      },
+      "loading_indicator:progress_indicator": {
+         "@name": "progress_indicator"
+      },
+      "text:Tell everyone about your favorite places in Second Life.": {
+         "@name": "Tell everyone about your favorite places in Second Life.",
+         "#text": {
+            "string": "\n        Tell everyone about your favorite places in [GRID].\n    "
+         }
+      },
+      "button:new_btn": {
+         "@name": "new_btn",
+         "@label": {
+            "string": "New..."
+         }
+      },
+      "button:delete_btn": {
+         "@name": "delete_btn",
+         "@label": {
+            "string": "Delete..."
+         }
+      },
+      "#comment": "\n    <button\n     left_pad=\"5\"\n     height=\"20\"\n     width=\"70\"\n     layout=\"topleft\"\n     follows=\"left|top\"\n     name=\"Import...\"\n     label=\"Import...\"\n     label_selected=\"Import...\" />\n    <button\n     left_pad=\"5\"\n     height=\"20\"\n     width=\"70\"\n     layout=\"topleft\"\n     follows=\"left|top\"\n     name=\"Export...\"\n     label=\"Export...\"\n     label_selected=\"Export...\"\n     mouse_opaque=\"true\" />\n",
+      "tab_container:tab_picks": {
+         "@name": "tab_picks"
+      },
+      "text:picks_panel_text": {
+         "@name": "picks_panel_text",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      }
+   }
+}

@@ -1,0 +1,51 @@
+{
+   "panel": {
+      "@name": "edit_tattoo_panel",
+      "scroll_container:avatar_tattoo_scroll": {
+         "@name": "avatar_tattoo_scroll",
+         "panel:avatar_tattoo_color_panel": {
+            "@name": "avatar_tattoo_color_panel",
+            "texture_picker:Head Tattoo": {
+               "@label": {
+                  "string": "Head Tattoo"
+               },
+               "@name": "Head Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Upper Tattoo": {
+               "@label": {
+                  "string": "Upper Tattoo"
+               },
+               "@name": "Upper Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Lower Tattoo": {
+               "@label": {
+                  "string": "Lower Tattoo"
+               },
+               "@name": "Lower Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "color_swatch:Color/Tint": {
+               "@label": {
+                  "string": "Color/Tint"
+               },
+               "@name": "Color/Tint",
+               "@tool_tip": {
+                  "string": "Click to open color picker"
+               },
+               "color_swatch.commit_callback": null
+            }
+         }
+      }
+   }
+}

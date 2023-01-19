@@ -1,0 +1,35 @@
+{
+   "panel": {
+      "@name": "contact_sets_panel",
+      "panel:contact_sets_buttons_panel": {
+         "@label": {
+            "string": "bottom_panel"
+         },
+         "@name": "contact_sets_buttons_panel",
+         "combo_box:combo_sets": {
+            "@name": "combo_sets"
+         },
+         "menu_button:contact_sets_gear_btn": {
+            "@name": "contact_sets_gear_btn",
+            "@tool_tip": {
+               "string": "Actions on selected person or group"
+            }
+         },
+         "menu_button:contact_sets_plus_btn": {
+            "@name": "contact_sets_plus_btn",
+            "@tool_tip": {
+               "string": "Add a group or resident"
+            }
+         },
+         "menu_button:contact_sets_remove_btn": {
+            "@name": "contact_sets_remove_btn",
+            "@tool_tip": {
+               "string": "Remove a group or resident"
+            }
+         }
+      },
+      "avatar_list:contact_list": {
+         "@name": "contact_list"
+      }
+   }
+}

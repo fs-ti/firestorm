@@ -1,0 +1,53 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Marketplace"
+      },
+      "@name": "Marketplace Panel",
+      "panel:tool_panel": {
+         "@name": "tool_panel",
+         "menu_button:sort_btn": {
+            "@name": "sort_btn",
+            "@tool_tip": {
+               "string": "View/sort options"
+            }
+         },
+         "button:add_btn": {
+            "@name": "add_btn",
+            "@tool_tip": {
+               "string": "Create a new listing folder"
+            }
+         },
+         "button:audit_btn": {
+            "@name": "audit_btn",
+            "@label": {
+               "string": "Check for Errors"
+            },
+            "@tool_tip": {
+               "string": "Check your marketplace listings"
+            }
+         }
+      },
+      "panel:tab_container_panel": {
+         "@name": "tab_container_panel",
+         "filter_editor:filter_editor": {
+            "@label": {
+               "string": "Filter Marketplace Listings"
+            },
+            "@name": "filter_editor"
+         },
+         "tab_container:marketplace_filter_tabs": {
+            "@name": "marketplace_filter_tabs"
+         }
+      },
+      "panel:marketplace_drop_zone": {
+         "@name": "marketplace_drop_zone",
+         "text:drop_zone_label": {
+            "@name": "drop_zone_label",
+            "#text": {
+               "string": "\n          Drop folders here to create new listings\n      "
+            }
+         }
+      }
+   }
+}

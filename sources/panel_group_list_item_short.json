@@ -1,0 +1,30 @@
+{
+   "panel": {
+      "@name": "group_list_item",
+      "icon:hovered_icon": {
+         "@name": "hovered_icon"
+      },
+      "icon:selected_icon": {
+         "@name": "selected_icon"
+      },
+      "group_icon:group_icon": {
+         "@name": "group_icon"
+      },
+      "text:group_name": {
+         "@name": "group_name",
+         "@value": {
+            "string": "Unknown"
+         }
+      },
+      "button:info_btn": {
+         "@name": "info_btn"
+      },
+      "#comment": "*TODO: Should only appear on rollover",
+      "button:profile_btn": {
+         "@name": "profile_btn",
+         "@tool_tip": {
+            "string": "View profile"
+         }
+      }
+   }
+}

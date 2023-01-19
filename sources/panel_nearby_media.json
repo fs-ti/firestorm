@@ -1,0 +1,235 @@
+{
+   "panel": {
+      "@name": "nearby_media",
+      "string:media_item_count_format": {
+         "@name": "media_item_count_format",
+         "#text": {
+            "string": "(%ld media items)"
+         }
+      },
+      "string:empty_item_text": {
+         "@name": "empty_item_text",
+         "#text": {
+            "string": "&lt;empty&gt;"
+         }
+      },
+      "string:parcel_media_name": {
+         "@name": "parcel_media_name",
+         "#text": {
+            "string": "Parcel Streaming Media"
+         }
+      },
+      "string:parcel_audio_name": {
+         "@name": "parcel_audio_name",
+         "#text": {
+            "string": "Parcel Streaming Audio"
+         }
+      },
+      "string:playing_suffix": {
+         "@name": "playing_suffix",
+         "#text": {
+            "string": "(playing)"
+         }
+      },
+      "panel:minimized_controls": {
+         "@name": "minimized_controls",
+         "button:all_nearby_media_disable_btn": {
+            "@name": "all_nearby_media_disable_btn",
+            "@tool_tip": {
+               "string": "Turn all nearby media off"
+            },
+            "@label": {
+               "string": "Stop All"
+            },
+            "button.commit_callback": null
+         },
+         "button:all_nearby_media_enable_btn": {
+            "@name": "all_nearby_media_enable_btn",
+            "@tool_tip": {
+               "string": "Turn all nearby media on"
+            },
+            "@label": {
+               "string": "Start All"
+            },
+            "button.commit_callback": null
+         },
+         "button:open_prefs_btn": {
+            "@name": "open_prefs_btn",
+            "@tool_tip": {
+               "string": "Bring up media prefs"
+            },
+            "button.commit_callback": null
+         },
+         "button:more_btn": {
+            "@name": "more_btn",
+            "@tool_tip": {
+               "string": "Advanced Controls"
+            },
+            "@label": {
+               "string": "More >>"
+            },
+            "button.commit_callback": null
+         }
+      },
+      "panel:nearby_media_panel": {
+         "@name": "nearby_media_panel",
+         "text:nearby_media_title": {
+            "@name": "nearby_media_title",
+            "#text": {
+               "string": "\n    Nearby Media\n  "
+            }
+         },
+         "text:show_text": {
+            "@name": "show_text",
+            "#text": {
+               "string": "\n    Show:\n  "
+            }
+         },
+         "combo_box:show_combo": {
+            "@name": "show_combo",
+            "combo_box.item:All": {
+               "@label": {
+                  "string": "All"
+               },
+               "@name": "All"
+            },
+            "combo_box.item:WithinParcel": {
+               "@label": {
+                  "string": "In this Parcel"
+               },
+               "@name": "WithinParcel"
+            },
+            "combo_box.item:OutsideParcel": {
+               "@label": {
+                  "string": "Outside this Parcel"
+               },
+               "@name": "OutsideParcel"
+            },
+            "combo_box.item:OnOthers": {
+               "@label": {
+                  "string": "On other Avatars"
+               },
+               "@name": "OnOthers"
+            }
+         },
+         "scroll_list:media_list": {
+            "@name": "media_list",
+            "scroll_list.columns:media_checkbox_ctrl": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "media_checkbox_ctrl"
+            },
+            "scroll_list.columns:media_proximity": {
+               "@label": {
+                  "string": "Proximity"
+               },
+               "@name": "media_proximity"
+            },
+            "scroll_list.columns:media_visibility": {
+               "@label": {
+                  "string": "Visible"
+               },
+               "@name": "media_visibility"
+            },
+            "scroll_list.columns:media_class": {
+               "@label": {
+                  "string": "Class"
+               },
+               "@name": "media_class"
+            },
+            "scroll_list.columns:media_name": {
+               "@label": {
+                  "string": "Name"
+               },
+               "@name": "media_name"
+            },
+            "scroll_list.columns:media_debug": {
+               "@label": {
+                  "string": "Debug"
+               },
+               "@name": "media_debug"
+            }
+         },
+         "panel:media_controls_panel": {
+            "@name": "media_controls_panel",
+            "layout_stack:media_controls": {
+               "@name": "media_controls",
+               "layout_panel:stop": {
+                  "@name": "stop",
+                  "button:stop_btn": {
+                     "@name": "stop_btn",
+                     "@tool_tip": {
+                        "string": "Stop selected media"
+                     },
+                     "button.commit_callback": null
+                  }
+               },
+               "layout_panel:play": {
+                  "@name": "play",
+                  "button:play_btn": {
+                     "@name": "play_btn",
+                     "@tool_tip": {
+                        "string": "Play selected media"
+                     },
+                     "button.commit_callback": null
+                  }
+               },
+               "layout_panel:pause": {
+                  "@name": "pause",
+                  "button:pause_btn": {
+                     "@name": "pause_btn",
+                     "@tool_tip": {
+                        "string": "Pause selected media"
+                     },
+                     "button.commit_callback": null
+                  }
+               },
+               "layout_panel:volume_slider_ctrl": {
+                  "@name": "volume_slider_ctrl",
+                  "slider_bar:volume_slider": {
+                     "@name": "volume_slider",
+                     "@tool_tip": {
+                        "string": "Audio volume for selected media"
+                     },
+                     "slider_bar.commit_callback": null
+                  }
+               },
+               "layout_panel:mute": {
+                  "@name": "mute",
+                  "button:mute_btn": {
+                     "@name": "mute_btn",
+                     "@tool_tip": {
+                        "string": "Mute audio on selected media"
+                     },
+                     "button.commit_callback": null
+                  }
+               },
+               "layout_panel:zoom": {
+                  "@name": "zoom",
+                  "button:zoom_btn": {
+                     "@name": "zoom_btn",
+                     "@tool_tip": {
+                        "string": "Zoom into selected media"
+                     },
+                     "button.commit_callback": null
+                  }
+               },
+               "layout_panel:unzoom": {
+                  "@name": "unzoom",
+                  "button:unzoom_btn": {
+                     "@name": "unzoom_btn",
+                     "@tool_tip": {
+                        "string": "Zoom back from selected media"
+                     },
+                     "button.commit_callback": null
+                  }
+               },
+               "layout_panel:right_bookend": {
+                  "@name": "right_bookend"
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,65 @@
+{
+   "panel": {
+      "@name": "panel_postcard_settings",
+      "combo_box:postcard_size_combo": {
+         "@label": {
+            "string": "Resolution"
+         },
+         "@name": "postcard_size_combo",
+         "combo_box.item:CurrentWindow": {
+            "@label": {
+               "string": "Current Window"
+            },
+            "@name": "CurrentWindow"
+         },
+         "combo_box.item:640x480": {
+            "@label": {
+               "string": "640x480"
+            },
+            "@name": "640x480"
+         },
+         "combo_box.item:800x600": {
+            "@label": {
+               "string": "800x600"
+            },
+            "@name": "800x600"
+         },
+         "combo_box.item:1024x768": {
+            "@label": {
+               "string": "1024x768"
+            },
+            "@name": "1024x768"
+         },
+         "combo_box.item:Custom": {
+            "@label": {
+               "string": "Custom"
+            },
+            "@name": "Custom"
+         }
+      },
+      "spinner:postcard_snapshot_width": {
+         "@label": {
+            "string": "Width x Height"
+         },
+         "@name": "postcard_snapshot_width"
+      },
+      "spinner:postcard_snapshot_height": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "postcard_snapshot_height"
+      },
+      "check_box:postcard_keep_aspect_check": {
+         "@label": {
+            "string": "Constrain proportions"
+         },
+         "@name": "postcard_keep_aspect_check"
+      },
+      "slider:image_quality_slider": {
+         "@label": {
+            "string": "Quality:"
+         },
+         "@name": "image_quality_slider"
+      }
+   }
+}

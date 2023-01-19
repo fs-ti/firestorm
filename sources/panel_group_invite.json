@@ -1,0 +1,89 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Invite a Member"
+      },
+      "@name": "invite_panel",
+      "panel.string:confirm_invite_owner_str": {
+         "@name": "confirm_invite_owner_str",
+         "#text": {
+            "string": "\n        Are you sure you want to invite new owner(s)? This action is permanent!\n    "
+         }
+      },
+      "panel.string:loading": {
+         "@name": "loading",
+         "#text": {
+            "string": "\n        (loading...)\n    "
+         }
+      },
+      "panel.string:already_in_group": {
+         "@name": "already_in_group",
+         "#text": {
+            "string": "\n        Some Residents you chose are already in the group, and so were not sent an invitation.\n    "
+         }
+      },
+      "panel.string:invite_selection_too_large": {
+         "@name": "invite_selection_too_large",
+         "#text": {
+            "string": "\n    Group Invitations not sent: too many Residents selected. Group Invitations are limited to 100 per request.\n  "
+         }
+      },
+      "text:help_text": {
+         "@name": "help_text",
+         "#text": {
+            "string": "\n        You can select multiple Residents to invite to your group. Click 'Open Resident Chooser' to start.\n    "
+         }
+      },
+      "button:add_button": {
+         "@label": {
+            "string": "Open Resident Chooser"
+         },
+         "@name": "add_button"
+      },
+      "name_list:invitee_list": {
+         "@name": "invitee_list",
+         "@tool_tip": {
+            "string": "Hold the Ctrl key and click Resident names to multi-select"
+         }
+      },
+      "button:remove_button": {
+         "@label": {
+            "string": "Remove Selected from List"
+         },
+         "@name": "remove_button",
+         "@tool_tip": {
+            "string": "Removes the Residents selected above from the invite list"
+         }
+      },
+      "text:role_text": {
+         "@name": "role_text",
+         "#text": {
+            "string": "\n        Choose what Role to assign them to:\n    "
+         }
+      },
+      "combo_box:role_name": {
+         "@name": "role_name",
+         "@tool_tip": {
+            "string": "Choose from the list of Roles you are allowed to assign members to"
+         }
+      },
+      "button:invite_button": {
+         "@label": {
+            "string": "Send Invitations"
+         },
+         "@name": "invite_button"
+      },
+      "button:cancel_button": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_button"
+      },
+      "string:GroupInvitation": {
+         "@name": "GroupInvitation",
+         "#text": {
+            "string": "\n   Group Invitation\n   "
+         }
+      }
+   }
+}

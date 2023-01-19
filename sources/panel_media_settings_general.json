@@ -1,0 +1,117 @@
+{
+   "panel": {
+      "@label": {
+         "string": "General"
+      },
+      "@name": "Media Settings General",
+      "text:home_label": {
+         "@name": "home_label",
+         "#text": {
+            "string": "\n    Home Page:\n  "
+         }
+      },
+      "text:home_fails_whitelist_label": {
+         "@name": "home_fails_whitelist_label",
+         "#text": {
+            "string": "\n    (This page does not pass the specified whitelist)\n  "
+         }
+      },
+      "line_editor:home_url": {
+         "@name": "home_url",
+         "@tool_tip": {
+            "string": "The home page for this media source"
+         },
+         "#comment": "  <line_editor.commit_callback\n       function=\"Media.CommitHomeURL\"/> "
+      },
+      "web_browser:preview_media": {
+         "@name": "preview_media"
+      },
+      "text:preview_label": {
+         "@name": "preview_label",
+         "#text": {
+            "string": "\n    Preview\n  "
+         }
+      },
+      "text:current_url_label": {
+         "@name": "current_url_label",
+         "#text": {
+            "string": "\n    Current Page:\n  "
+         }
+      },
+      "text:current_url": {
+         "@name": "current_url",
+         "@tool_tip": {
+            "string": "The current page for this media source"
+         },
+         "@value": {
+            "string": ""
+         }
+      },
+      "button:current_url_reset_btn": {
+         "@label": {
+            "string": "Reset"
+         },
+         "@name": "current_url_reset_btn"
+      },
+      "check_box:auto_loop": {
+         "@label": {
+            "string": "Auto Loop"
+         },
+         "@name": "auto_loop"
+      },
+      "check_box:first_click_interact": {
+         "@label": {
+            "string": "First Click Interacts"
+         },
+         "@name": "first_click_interact"
+      },
+      "check_box:auto_zoom": {
+         "@label": {
+            "string": "Auto Zoom"
+         },
+         "@name": "auto_zoom"
+      },
+      "check_box:auto_play": {
+         "@label": {
+            "string": "Auto Play Media"
+         },
+         "@name": "auto_play"
+      },
+      "text:media_setting_note": {
+         "@name": "media_setting_note",
+         "#text": {
+            "string": "\n    Note: Residents can override this setting\n  "
+         }
+      },
+      "check_box:auto_scale": {
+         "@label": {
+            "string": "Auto Scale Media on Face of Object"
+         },
+         "@name": "auto_scale"
+      },
+      "text:size_label": {
+         "@name": "size_label",
+         "#text": {
+            "string": "\n    Size:\n  "
+         }
+      },
+      "spinner:width_pixels": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "width_pixels"
+      },
+      "text:X_label": {
+         "@name": "X_label",
+         "#text": {
+            "string": "\n  X\n  "
+         }
+      },
+      "spinner:height_pixels": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "height_pixels"
+      }
+   }
+}

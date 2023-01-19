@@ -1,0 +1,595 @@
+{
+   "panel": {
+      "@name": "place_profile",
+      "string:on": {
+         "@name": "on",
+         "@value": {
+            "string": "On"
+         }
+      },
+      "string:off": {
+         "@name": "off",
+         "@value": {
+            "string": "Off"
+         }
+      },
+      "string:anyone": {
+         "@name": "anyone",
+         "@value": {
+            "string": "Anyone"
+         }
+      },
+      "string:available": {
+         "@name": "available",
+         "@value": {
+            "string": "available"
+         }
+      },
+      "string:allocated": {
+         "@name": "allocated",
+         "@value": {
+            "string": "allocated"
+         }
+      },
+      "string:title_place": {
+         "@name": "title_place",
+         "@value": {
+            "string": "Place Profile"
+         }
+      },
+      "string:title_teleport_history": {
+         "@name": "title_teleport_history",
+         "@value": {
+            "string": "Teleport History"
+         }
+      },
+      "string:not_available": {
+         "@name": "not_available",
+         "@value": {
+            "string": "(N\\A)"
+         }
+      },
+      "string:unknown": {
+         "@name": "unknown",
+         "@value": {
+            "string": "(unknown)"
+         }
+      },
+      "string:public": {
+         "@name": "public",
+         "@value": {
+            "string": "(public)"
+         }
+      },
+      "string:none_text": {
+         "@name": "none_text",
+         "@value": {
+            "string": "(none)"
+         }
+      },
+      "string:sale_pending_text": {
+         "@name": "sale_pending_text",
+         "@value": {
+            "string": "(Sale Pending)"
+         }
+      },
+      "string:group_owned_text": {
+         "@name": "group_owned_text",
+         "@value": {
+            "string": "(Group Owned)"
+         }
+      },
+      "string:price_text": {
+         "@name": "price_text",
+         "@value": {
+            "string": "L$"
+         }
+      },
+      "string:area_text": {
+         "@name": "area_text",
+         "@value": {
+            "string": "m²"
+         }
+      },
+      "string:all_residents_text": {
+         "@name": "all_residents_text",
+         "@value": {
+            "string": "All Residents"
+         }
+      },
+      "string:group_text": {
+         "@name": "group_text",
+         "@value": {
+            "string": "Group"
+         }
+      },
+      "string:can_resell": {
+         "@name": "can_resell",
+         "#text": {
+            "string": "\n        Purchased land in this region may be resold.\n    "
+         }
+      },
+      "string:can_not_resell": {
+         "@name": "can_not_resell",
+         "#text": {
+            "string": "\n        Purchased land in this region may not be resold.\n    "
+         }
+      },
+      "string:can_change": {
+         "@name": "can_change",
+         "#text": {
+            "string": "\n        Purchased land in this region may be joined or subdivided.\n    "
+         }
+      },
+      "string:can_not_change": {
+         "@name": "can_not_change",
+         "#text": {
+            "string": "\n        Purchased land in this region may not be joined or subdivided.\n    "
+         }
+      },
+      "string:server_update_text": {
+         "@name": "server_update_text",
+         "#text": {
+            "string": "\n        Place information not available without server update.\n    "
+         }
+      },
+      "string:server_error_text": {
+         "@name": "server_error_text",
+         "#text": {
+            "string": "\n        Information about this location is unavailable at this time, please try again later.\n    "
+         }
+      },
+      "string:server_forbidden_text": {
+         "@name": "server_forbidden_text",
+         "#text": {
+            "string": "\n        Information about this location is unavailable due to access restrictions.  Please check your permissions with the parcel owner.\n    "
+         }
+      },
+      "string:acquired_date": {
+         "@name": "acquired_date",
+         "#text": {
+            "string": "\n        [wkday,datetime,local] [mth,datetime,local] [day,datetime,local] [hour,datetime,local]:[min,datetime,local]:[second,datetime,local] [year,datetime,local]\n    "
+         }
+      },
+      "#comment": " Texture names for parcel permissions icons ",
+      "string": null,
+      "layout_stack:place_info_sidetray_main": {
+         "@name": "place_info_sidetray_main",
+         "layout_panel:header_container": {
+            "@name": "header_container",
+            "button:back_btn": {
+               "@name": "back_btn",
+               "@tool_tip": {
+                  "string": "Back"
+               }
+            },
+            "text:title": {
+               "@name": "title",
+               "@value": {
+                  "string": "Place Profile"
+               }
+            }
+         },
+         "layout_panel:place_info_content": {
+            "@name": "place_info_content",
+            "texture_picker:logo": {
+               "@name": "logo"
+            },
+            "layout_stack:panel_stack": {
+               "@name": "panel_stack",
+               "layout_panel:here_panel": {
+                  "@name": "here_panel",
+                  "icon:icon_you_are_here": {
+                     "@name": "icon_you_are_here"
+                  }
+               },
+               "layout_panel:for_sale_panel": {
+                  "@name": "for_sale_panel",
+                  "icon:icon_for_sale": {
+                     "@name": "icon_for_sale"
+                  }
+               }
+            },
+            "text:parcel_title": {
+               "@name": "parcel_title",
+               "@value": {
+                  "string": "unknown"
+               }
+            },
+            "text:region_title": {
+               "@name": "region_title",
+               "#text": {
+                  "string": "\n              Region: [REGIONAMEPOS]\n            "
+               }
+            },
+            "expandable_text:description": {
+               "@name": "description",
+               "@value": {
+                  "string": "unknown"
+               }
+            },
+            "text:owner_label": {
+               "@name": "owner_label",
+               "@value": {
+                  "string": "Owner:"
+               }
+            },
+            "#comment": "TODO: HOOK THIS NAME UP WITH AN INSPECTOR  ",
+            "text:parcel_owner": {
+               "@name": "parcel_owner",
+               "@value": {
+                  "string": "unknown"
+               }
+            },
+            "icon:maturity_icon": {
+               "@name": "maturity_icon"
+            },
+            "text:maturity_value": {
+               "@name": "maturity_value",
+               "@value": {
+                  "string": "unknown"
+               }
+            },
+            "accordion:advanced_info_accordion": {
+               "@name": "advanced_info_accordion",
+               "accordion_tab:parcel_characteristics_tab": {
+                  "@name": "parcel_characteristics_tab",
+                  "@title": {
+                     "string": "Parcel"
+                  },
+                  "panel:parcel_characteristics_panel": {
+                     "@name": "parcel_characteristics_panel",
+                     "icon:rating_icon": {
+                        "@name": "rating_icon"
+                     },
+                     "text:rating_label": {
+                        "@name": "rating_label",
+                        "@value": {
+                           "string": "Rating:"
+                        }
+                     },
+                     "text:rating_value": {
+                        "@name": "rating_value",
+                        "@value": {
+                           "string": "unknown"
+                        }
+                     },
+                     "icon:voice_icon": {
+                        "@name": "voice_icon"
+                     },
+                     "text:voice_label": {
+                        "@name": "voice_label",
+                        "@value": {
+                           "string": "Voice:"
+                        }
+                     },
+                     "text:voice_value": {
+                        "@name": "voice_value",
+                        "@value": {
+                           "string": "On"
+                        }
+                     },
+                     "icon:fly_icon": {
+                        "@name": "fly_icon"
+                     },
+                     "text:fly_label": {
+                        "@name": "fly_label",
+                        "@value": {
+                           "string": "Fly:"
+                        }
+                     },
+                     "text:fly_value": {
+                        "@name": "fly_value",
+                        "@value": {
+                           "string": "On"
+                        }
+                     },
+                     "icon:push_icon": {
+                        "@name": "push_icon"
+                     },
+                     "text:push_label": {
+                        "@name": "push_label",
+                        "@value": {
+                           "string": "Push:"
+                        }
+                     },
+                     "text:push_value": {
+                        "@name": "push_value",
+                        "@value": {
+                           "string": "Off"
+                        }
+                     },
+                     "icon:build_icon": {
+                        "@name": "build_icon"
+                     },
+                     "text:build_label": {
+                        "@name": "build_label",
+                        "@value": {
+                           "string": "Build:"
+                        }
+                     },
+                     "text:build_value": {
+                        "@name": "build_value",
+                        "@value": {
+                           "string": "On"
+                        }
+                     },
+                     "icon:scripts_icon": {
+                        "@name": "scripts_icon"
+                     },
+                     "text:scripts_label": {
+                        "@name": "scripts_label",
+                        "@value": {
+                           "string": "Scripts:"
+                        }
+                     },
+                     "text:scripts_value": {
+                        "@name": "scripts_value",
+                        "@value": {
+                           "string": "On"
+                        }
+                     },
+                     "icon:damage_icon": {
+                        "@name": "damage_icon"
+                     },
+                     "text:damage_label": {
+                        "@name": "damage_label",
+                        "@value": {
+                           "string": "Damage:"
+                        }
+                     },
+                     "text:damage_value": {
+                        "@name": "damage_value",
+                        "@value": {
+                           "string": "Off"
+                        }
+                     },
+                     "icon:see_avatars_icon": {
+                        "@name": "see_avatars_icon"
+                     },
+                     "text:see_avatars_label": {
+                        "@name": "see_avatars_label",
+                        "@value": {
+                           "string": "See Avatars:"
+                        }
+                     },
+                     "text:see_avatars_value": {
+                        "@name": "see_avatars_value",
+                        "@value": {
+                           "string": "Off"
+                        }
+                     },
+                     "button:about_land_btn": {
+                        "@label": {
+                           "string": "About Land"
+                        },
+                        "@name": "about_land_btn",
+                        "click_callback": null
+                     }
+                  }
+               },
+               "accordion_tab:region_information_tab": {
+                  "@name": "region_information_tab",
+                  "@title": {
+                     "string": "Region"
+                  },
+                  "panel:region_information_panel": {
+                     "@name": "region_information_panel",
+                     "text:region_name_label": {
+                        "@name": "region_name_label",
+                        "@value": {
+                           "string": "Region:"
+                        }
+                     },
+                     "text:region_name": {
+                        "@name": "region_name",
+                        "@value": {
+                           "string": "Mooseland"
+                        }
+                     },
+                     "text:region_type_label": {
+                        "@name": "region_type_label",
+                        "@value": {
+                           "string": "Type:"
+                        }
+                     },
+                     "text:region_type": {
+                        "@name": "region_type",
+                        "@value": {
+                           "string": "Moose"
+                        }
+                     },
+                     "text:region_rating_label": {
+                        "@name": "region_rating_label",
+                        "@value": {
+                           "string": "Rating:"
+                        }
+                     },
+                     "icon:region_rating_icon": {
+                        "@name": "region_rating_icon"
+                     },
+                     "text:region_rating": {
+                        "@name": "region_rating",
+                        "@value": {
+                           "string": "Adult"
+                        }
+                     },
+                     "text:region_owner_label": {
+                        "@name": "region_owner_label",
+                        "@value": {
+                           "string": "Owner:"
+                        }
+                     },
+                     "text:region_owner": {
+                        "@name": "region_owner",
+                        "@value": {
+                           "string": "moose Van Moose extra long name moose"
+                        }
+                     },
+                     "text:region_group_label": {
+                        "@name": "region_group_label",
+                        "@value": {
+                           "string": "Group:"
+                        }
+                     },
+                     "text:region_group": {
+                        "@name": "region_group",
+                        "#text": {
+                           "string": "\n                            The Mighty Moose of mooseville soundvillemoose\n                        "
+                        }
+                     },
+                     "button:region_info_btn": {
+                        "@label": {
+                           "string": "Region/Estate"
+                        },
+                        "@name": "region_info_btn",
+                        "click_callback": null
+                     }
+                  }
+               },
+               "accordion_tab:estate_information_tab": {
+                  "@name": "estate_information_tab",
+                  "@title": {
+                     "string": "Estate"
+                  },
+                  "panel:estate_information_panel": {
+                     "@name": "estate_information_panel",
+                     "text:estate_name_label": {
+                        "@name": "estate_name_label",
+                        "@value": {
+                           "string": "Estate:"
+                        }
+                     },
+                     "text:estate_name": {
+                        "@name": "estate_name"
+                     },
+                     "text:estate_rating_label": {
+                        "@name": "estate_rating_label",
+                        "@value": {
+                           "string": "Rating:"
+                        }
+                     },
+                     "icon:estate_rating_icon": {
+                        "@name": "estate_rating_icon"
+                     },
+                     "text:estate_rating": {
+                        "@name": "estate_rating"
+                     },
+                     "text:estate_owner_label": {
+                        "@name": "estate_owner_label",
+                        "@value": {
+                           "string": "Owner:"
+                        }
+                     },
+                     "text:estate_owner": {
+                        "@name": "estate_owner",
+                        "@value": {
+                           "string": "Testing owner name length with long name"
+                        }
+                     },
+                     "text:covenant_label": {
+                        "@name": "covenant_label",
+                        "@value": {
+                           "string": "Covenant:"
+                        }
+                     },
+                     "text_editor:covenant": {
+                        "@name": "covenant"
+                     }
+                  }
+               },
+               "accordion_tab:sales_tab": {
+                  "@name": "sales_tab",
+                  "@title": {
+                     "string": "For Sale"
+                  },
+                  "panel:sales_panel": {
+                     "@name": "sales_panel",
+                     "text:sales_price_label": {
+                        "@name": "sales_price_label",
+                        "@value": {
+                           "string": "Price:"
+                        }
+                     },
+                     "text:sales_price": {
+                        "@name": "sales_price"
+                     },
+                     "text:area_label": {
+                        "@name": "area_label",
+                        "@value": {
+                           "string": "Area:"
+                        }
+                     },
+                     "text:area": {
+                        "@name": "area"
+                     },
+                     "text:traffic_label": {
+                        "@name": "traffic_label",
+                        "@value": {
+                           "string": "Traffic:"
+                        }
+                     },
+                     "text:traffic": {
+                        "@name": "traffic"
+                     },
+                     "text:primitives_label": {
+                        "@name": "primitives_label",
+                        "@value": {
+                           "string": "Primitives:"
+                        }
+                     },
+                     "text:primitives": {
+                        "@name": "primitives"
+                     },
+                     "text:parcel_scripts_label": {
+                        "@name": "parcel_scripts_label",
+                        "@value": {
+                           "string": "Scripts:"
+                        }
+                     },
+                     "text:parcel_scripts": {
+                        "@name": "parcel_scripts"
+                     },
+                     "text:terraform_limits_label": {
+                        "@name": "terraform_limits_label",
+                        "@value": {
+                           "string": "Terraform limits:"
+                        }
+                     },
+                     "text:terraform_limits": {
+                        "@name": "terraform_limits"
+                     },
+                     "text:subdivide_label": {
+                        "@name": "subdivide_label",
+                        "@value": {
+                           "string": "Subdivide/Join ability:"
+                        }
+                     },
+                     "text_editor:subdivide": {
+                        "@name": "subdivide"
+                     },
+                     "text:resale_label": {
+                        "@name": "resale_label",
+                        "@value": {
+                           "string": "ReSale ability:"
+                        }
+                     },
+                     "text_editor:resale": {
+                        "@name": "resale"
+                     },
+                     "text:sale_to_label": {
+                        "@name": "sale_to_label",
+                        "@value": {
+                           "string": "For sale to:"
+                        }
+                     },
+                     "text:sale_to": {
+                        "@name": "sale_to"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

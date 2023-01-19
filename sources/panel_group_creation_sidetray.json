@@ -1,0 +1,193 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Group Creation"
+      },
+      "@name": "GroupCreation",
+      "panel.string:current_membership": {
+         "@name": "current_membership",
+         "#text": {
+            "string": "\n(your membership)\n  "
+         }
+      },
+      "panel:group_info_top": {
+         "@name": "group_info_top",
+         "text:group_name_label": {
+            "@name": "group_name_label",
+            "#text": {
+               "string": "\n    Group Name:\n    "
+            }
+         },
+         "line_editor:group_name_editor": {
+            "@label": {
+               "string": "Type your new group name here"
+            },
+            "@name": "group_name_editor"
+         }
+      },
+      "scroll_container:content_scroll_container": {
+         "@name": "content_scroll_container",
+         "panel:content_panel": {
+            "@name": "content_panel",
+            "layout_stack:layout": {
+               "@name": "layout",
+               "layout_panel:group_info": {
+                  "@name": "group_info",
+                  "panel:group_info_top2": {
+                     "@name": "group_info_top2",
+                     "texture_picker:insignia": {
+                        "@name": "insignia",
+                        "@label": {
+                           "string": ""
+                        },
+                        "@tool_tip": {
+                           "string": "Click to choose a picture"
+                        }
+                     },
+                     "text_editor:charter": {
+                        "@name": "charter",
+                        "#text": {
+                           "string": "\n          Group Charter\n        "
+                        }
+                     }
+                  },
+                  "panel:preferences_container": {
+                     "@name": "preferences_container",
+                     "check_box:open_enrollement": {
+                        "@label": {
+                           "string": "Anyone can join"
+                        },
+                        "@name": "open_enrollement",
+                        "@tool_tip": {
+                           "string": "Sets whether this group allows new members to join without being invited."
+                        }
+                     },
+                     "check_box:check_enrollment_fee": {
+                        "@label": {
+                           "string": "Cost to join"
+                        },
+                        "@name": "check_enrollment_fee",
+                        "@tool_tip": {
+                           "string": "Sets whether to require an enrollment fee to join the group"
+                        }
+                     },
+                     "spinner:spin_enrollment_fee": {
+                        "@label": {
+                           "string": "L$"
+                        },
+                        "@name": "spin_enrollment_fee",
+                        "@tool_tip": {
+                           "string": "New members must pay this fee to join the group when Enrollment Fee is checked."
+                        }
+                     },
+                     "combo_box:group_mature_check": {
+                        "@name": "group_mature_check",
+                        "@tool_tip": {
+                           "string": "Maturity ratings designate the type of content and behavior allowed in a group"
+                        },
+                        "combo_item:select_mature": {
+                           "@name": "select_mature",
+                           "@value": {
+                              "string": "Select"
+                           },
+                           "#text": {
+                              "string": "\n            - Select maturity rating -\n          "
+                           }
+                        },
+                        "combo_box.item:mature": {
+                           "@label": {
+                              "string": "Moderate Content"
+                           },
+                           "@name": "mature"
+                        },
+                        "combo_box.item:pg": {
+                           "@label": {
+                              "string": "General Content"
+                           },
+                           "@name": "pg"
+                        }
+                     }
+                  }
+               },
+               "layout_panel:create_info": {
+                  "@name": "create_info",
+                  "text:fee_information": {
+                     "@name": "fee_information",
+                     "#text": {
+                        "string": "\n        The fee to create a group is based on your membership level. [https://secondlife.com/my/account/membership.php More info]\n      "
+                     }
+                  },
+                  "scroll_list:membership_list": {
+                     "@name": "membership_list",
+                     "scroll_list.columns:clmn_name": {
+                        "@name": "clmn_name"
+                     },
+                     "scroll_list.columns:clmn_price": {
+                        "@name": "clmn_price"
+                     },
+                     "scroll_list.rows:basic": {
+                        "@name": "basic",
+                        "@value": {
+                           "string": "Basic (placeholder)"
+                        }
+                     },
+                     "scroll_list.rows:plc2": {
+                        "@name": "plc2",
+                        "@value": {
+                           "string": ""
+                        }
+                     },
+                     "scroll_list.rows:premium": {
+                        "@name": "premium",
+                        "@value": {
+                           "string": "Premium (placeholder)"
+                        }
+                     }
+                  }
+               },
+               "layout_panel:create_actions0": {
+                  "@name": "create_actions0"
+               },
+               "layout_panel:create_actions": {
+                  "@name": "create_actions",
+                  "layout_stack:button_row_ls": {
+                     "@name": "button_row_ls",
+                     "layout_panel:layout_crt0": {
+                        "@name": "layout_crt0",
+                        "#comment": " placeholder to autoadjust buttons (since they are of different sizes)"
+                     },
+                     "layout_panel:layout_crt": {
+                        "@name": "layout_crt",
+                        "button:btn_create": {
+                           "@label": {
+                              "string": "Create group for L$ [COST]"
+                           },
+                           "@name": "btn_create",
+                           "@tool_tip": {
+                              "string": "Create a new Group"
+                           }
+                        },
+                        "button:back": {
+                           "@name": "back",
+                           "@label": {
+                              "string": "Cancel"
+                           }
+                        }
+                     },
+                     "layout_panel:layout_crt1": {
+                        "@name": "layout_crt1",
+                        "#comment": " placeholder to autoadjust buttons"
+                     }
+                  },
+                  "text:info_deletion": {
+                     "@name": "info_deletion",
+                     "#text": {
+                        "string": "\n        Note: After 7 days, a group with no members (other than the creator) is deleted!\n      "
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

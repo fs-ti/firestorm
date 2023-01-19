@@ -1,0 +1,120 @@
+{
+   "panel": {
+      "@name": "panel_experience_info",
+      "text:title": {
+         "@name": "title",
+         "@value": {
+            "string": "Experience Profile"
+         }
+      },
+      "scroll_container:xp_scroll": {
+         "@name": "xp_scroll",
+         "panel:scrolling_panel": {
+            "@name": "scrolling_panel",
+            "layout_stack:ls1": {
+               "@name": "ls1",
+               "layout_panel:image_panel": {
+                  "@name": "image_panel",
+                  "texture_picker:logo": {
+                     "@name": "logo"
+                  }
+               },
+               "layout_panel:title panel": {
+                  "@name": "title panel",
+                  "text:experience_title": {
+                     "@name": "experience_title",
+                     "@value": {
+                        "string": "Kyle's Superhero RPG"
+                     }
+                  }
+               },
+               "layout_panel:description panel": {
+                  "@name": "description panel",
+                  "expandable_text:experience_description": {
+                     "@name": "experience_description",
+                     "@value": {
+                        "string": ""
+                     }
+                  }
+               },
+               "layout_panel:location panel": {
+                  "@name": "location panel",
+                  "text:Location": {
+                     "@name": "Location",
+                     "#text": {
+                        "string": "\n            Location:\n          "
+                     }
+                  },
+                  "text:LocationTextText": {
+                     "@name": "LocationTextText",
+                     "#text": {
+                        "string": "\n            someplace\n          "
+                     }
+                  },
+                  "button:teleport_btn": {
+                     "@label": {
+                        "string": "Teleport"
+                     },
+                     "@name": "teleport_btn"
+                  },
+                  "button:map_btn": {
+                     "@label": {
+                        "string": "Map"
+                     },
+                     "@name": "map_btn"
+                  }
+               },
+               "layout_panel:marketplace panel": {
+                  "@name": "marketplace panel",
+                  "text:Location": {
+                     "@name": "Location",
+                     "#text": {
+                        "string": "\n            Marketplace store:\n          "
+                     }
+                  },
+                  "text:LocationTextText": {
+                     "@name": "LocationTextText",
+                     "#text": {
+                        "string": "\n            someplace\n          "
+                     }
+                  }
+               },
+               "layout_panel:details panel": {
+                  "@name": "details panel",
+                  "text:ContentRating": {
+                     "@name": "ContentRating",
+                     "#text": {
+                        "string": "\n            Rating:\n          "
+                     }
+                  },
+                  "text:ContentRatingText": {
+                     "@name": "ContentRatingText",
+                     "#text": {
+                        "string": "\n            Adult\n          "
+                     }
+                  },
+                  "text:Owner": {
+                     "@name": "Owner",
+                     "#text": {
+                        "string": "\n            Owner:\n          "
+                     }
+                  },
+                  "text:OwnerText": {
+                     "@name": "OwnerText",
+                     "#text": {
+                        "string": "\n            Kyle\n          "
+                     }
+                  },
+                  "button:edit_btn": {
+                     "@label": {
+                        "string": "Edit"
+                     },
+                     "@name": "edit_btn"
+                  },
+                  "#comment": "\n        \n\n          <expandable_text\n            allow_scroll=\"false\"\n            bg_visible=\"false\"\n            follows=\"left|top|right\"\n            h_pad=\"0\"\n            height=\"35\"\n            width=\"280\"\n            layout=\"topleft\"\n            font=\"SansSerifBig\"\n            font.style=\"BOLD\"\n            left=\"10\"\n            top_pad=\"10\"\n            name=\"pick_name\"\n            read_only=\"false\"\n            text_color=\"white\"\n            v_pad=\"0\"\n            use_ellipses=\"true\"\n            value=\"It's an experience\" />\n\n          <text\n            follows=\"left|top\"\n            height=\"16\"\n            layout=\"topleft\"\n            left=\"10\"\n            top_pad=\"10\"\n            value=\"Maturity level:\"\n            width=\"130\" />\n          <icon\n            follows=\"top|left\"\n            height=\"16\"\n            image_name=\"unknown\"\n            layout=\"topleft\"\n            left_pad=\"10\"\n            name=\"maturity_icon\"\n            top_pad=\"-18\"\n            width=\"18\" />\n          <text\n            follows=\"top|left\"\n            height=\"16\"\n            layout=\"topleft\"\n            left_pad=\"5\"\n            name=\"maturity_value\"\n            top_pad=\"-14\"\n            value=\"unknown\"\n            width=\"118\" />\n          <panel\n            follows=\"left|top|right\"\n            name=\"location_panel\"\n            left=\"10\"\n            width=\"280\"\n            visible=\"false\"\n            top_pad=\"10\"\n            height=\"42\">\n            <text\n              follows=\"left|top|right\"\n              height=\"16\"\n              layout=\"topleft\"\n              left=\"00\"\n              top=\"0\"\n              value=\"Location:\"\n              width=\"280\" />\n\n            <text\n              follows=\"left|top|right\"\n              height=\"16\"\n              layout=\"topleft\"\n              left=\"0\"\n              top_pad=\"10\"\n              value=\"Location:\"\n              width=\"280\" />\n          </panel>\n\n          <panel\n            follows=\"left|top|right\"\n            name=\"location_panel\"\n            left=\"10\"\n            width=\"280\"\n            top_pad=\"10\"\n            height=\"42\">\n            <text\n              follows=\"left|top|right\"\n              height=\"16\"\n              layout=\"topleft\"\n              left=\"00\"\n              top=\"0\"\n              value=\"Location:\"\n              width=\"280\" />\n\n            <text\n              follows=\"left|top|right\"\n              height=\"16\"\n              layout=\"topleft\"\n              left=\"0\"\n              top_pad=\"10\"\n              value=\"Location:\"\n              width=\"280\" />\n          </panel>\n\n"
+               }
+            }
+         }
+      }
+   }
+}

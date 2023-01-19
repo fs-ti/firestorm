@@ -1,0 +1,11 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Websearch"
+      },
+      "@name": "panel_ls_web",
+      "web_browser:search_browser": {
+         "@name": "search_browser"
+      }
+   }
+}

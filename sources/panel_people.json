@@ -1,0 +1,341 @@
+{
+   "panel": {
+      "@label": {
+         "string": "People"
+      },
+      "@name": "people_panel",
+      "string:no_recent_people": {
+         "@name": "no_recent_people",
+         "@value": {
+            "string": "No recent people."
+         }
+      },
+      "string:no_filtered_recent_people": {
+         "@name": "no_filtered_recent_people",
+         "@value": {
+            "string": "Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search]."
+         }
+      },
+      "string:no_one_near": {
+         "@name": "no_one_near",
+         "@value": {
+            "string": "No one nearby. Looking for people to hang out with? Try [secondlife:///app/search/people Search] or the [secondlife:///app/worldmap World Map]."
+         }
+      },
+      "string:no_one_filtered_near": {
+         "@name": "no_one_filtered_near",
+         "@value": {
+            "string": "Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search]."
+         }
+      },
+      "string:no_friends_online": {
+         "@name": "no_friends_online",
+         "@value": {
+            "string": "No friends online"
+         }
+      },
+      "string:no_friends": {
+         "@name": "no_friends",
+         "@value": {
+            "string": "No friends"
+         }
+      },
+      "string:no_friends_msg": {
+         "@name": "no_friends_msg",
+         "#text": {
+            "string": "\n      To add someone as a friend, right-click on their avatar or their name.\n\nLooking for places with more people?\n\n[secondlife:///app/floater/destinations Destination Guide] has locations chosen by the grid operator staff.\n\n[secondlife:///app/search/ Search] lets you search all the grid for certain keywords.\n    "
+         }
+      },
+      "string:no_filtered_friends_msg": {
+         "@name": "no_filtered_friends_msg",
+         "#text": {
+            "string": "\n         Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search].\n    "
+         }
+      },
+      "#comment": "\n     *WORKAROUND: for group_list.no_items_msg & group_list.no_filtered_items_msg attributes.\n     They are not defined as translatable in VLT. See EXT-5931\n     ",
+      "string:no_filtered_groups_msg": {
+         "@name": "no_filtered_groups_msg",
+         "@value": {
+            "string": "Didn't find what you're looking for? Try [secondlife:///app/search/groups/[SEARCH_TERM] Search]."
+         }
+      },
+      "string:no_groups_msg": {
+         "@name": "no_groups_msg",
+         "#text": {
+            "string": "\nYou are not a member of any groups.\n\nLearn about [https://community.secondlife.com/knowledgebase/joining-and-participating-in-groups-r51/ groups].\n  "
+         }
+      },
+      "string:MiniMapToolTipMsg": {
+         "@name": "MiniMapToolTipMsg",
+         "@value": {
+            "string": "[REGION] (Double-click to open Map, shift-drag to pan)"
+         }
+      },
+      "string:AltMiniMapToolTipMsg": {
+         "@name": "AltMiniMapToolTipMsg",
+         "@value": {
+            "string": "[REGION] (Double-click to teleport, shift-drag to pan)"
+         }
+      },
+      "string:GroupCountWithInfo": {
+         "@name": "GroupCountWithInfo",
+         "@value": {
+            "string": "You belong to [COUNT] groups, and can join [REMAINING] more.  [secondlife:/// Raise your limit]"
+         }
+      },
+      "panel.string:empty_list": {
+         "@name": "empty_list",
+         "#text": {
+            "string": "\n    This contact set is empty.\n    "
+         }
+      },
+      "panel.string:no_sets": {
+         "@name": "no_sets",
+         "#text": {
+            "string": "\n    No sets\n    "
+         }
+      },
+      "panel.string:all_sets": {
+         "@name": "all_sets",
+         "#text": {
+            "string": "\n    All sets\n    "
+         }
+      },
+      "panel.string:pseudonyms": {
+         "@name": "pseudonyms",
+         "#text": {
+            "string": "\n    Aliases\n    "
+         }
+      },
+      "panel.string:AllFriendsTitle": {
+         "@name": "AllFriendsTitle",
+         "#text": {
+            "string": "\n    All ([ALL])\n    "
+         }
+      },
+      "panel.string:OnlineFriendsTitle": {
+         "@name": "OnlineFriendsTitle",
+         "#text": {
+            "string": "\n    Online ([ONLINE])\n    "
+         }
+      },
+      "tab_container:tabs": {
+         "@name": "tabs",
+         "#comment": " ================================= NEARBY tab =========================== ",
+         "panel:nearby_panel": {
+            "@label": {
+               "string": "Nearby"
+            },
+            "@name": "nearby_panel",
+            "#comment": " FS:Ansariel: Firestorm radar\n            <panel\n             follows=\"left|top|right\"\n             height=\"27\"\n             label=\"bottom_panel\"\n             layout=\"topleft\"\n             left=\"0\"\n             name=\"nearby_buttons_panel\"\n             right=\"-1\"\n             top=\"0\">\n                <filter_editor\n                 follows=\"left|top|right\"\n                 height=\"23\"\n                 layout=\"topleft\"\n                 left=\"6\"\n                 label=\"Filter People\"\n                 max_length_chars=\"300\"\n                 name=\"nearby_filter_input\"\n                 top=\"4\"\n                 right=\"-6\" />\n                <button\n                 commit_callback.function=\"People.Gear\"\n                 follows=\"right\"\n                 height=\"25\"\n                 image_hover_unselected=\"Toolbar_Middle_Over\"\n                 image_overlay=\"OptionsMenu_Off\"\n                 image_selected=\"Toolbar_Middle_Selected\"\n                 image_unselected=\"Toolbar_Middle_Off\"\n                 layout=\"topleft\"\n                 left_pad=\"7\"\n                 name=\"gear_btn\"\n                 tool_tip=\"Actions on selected person\"\n                 top=\"3\"\n                 width=\"31\" />\n                <menu_button\n                 follows=\"right\"\n                 height=\"25\"\n                 image_hover_unselected=\"Toolbar_Middle_Over\"\n                 image_overlay=\"Conv_toolbar_sort\"\n                 image_selected=\"Toolbar_Middle_Selected\"\n                 image_unselected=\"Toolbar_Middle_Off\"\n                 layout=\"topleft\"\n                 left_pad=\"2\"\n                 menu_filename=\"menu_people_nearby_view.xml\"\n                 menu_position=\"bottomleft\"\n                 name=\"nearby_view_btn\"\n                 tool_tip=\"View/sort options\"\n                 top_delta=\"0\"\n                 width=\"31\" />\n                <button\n                 follows=\"right\"\n                 height=\"25\"\n                 image_hover_unselected=\"Toolbar_Middle_Over\"\n                 image_overlay=\"AddItem_Off\"\n                 image_selected=\"Toolbar_Middle_Selected\"\n                 image_unselected=\"Toolbar_Middle_Off\"\n                 layout=\"topleft\"\n                 left_pad=\"2\"\n                 name=\"add_friend_btn\"\n                 tool_tip=\"Offer friendship to a resident\"\n                 top_delta=\"0\"\n                 width=\"31\">\n                    <commit_callback\n                     function=\"People.AddFriend\" />\n                </button>\n                <dnd_button\n                 enabled=\"false\"\n                 follows=\"right\"\n                 height=\"25\"\n                 image_hover_unselected=\"Toolbar_Middle_Over\"\n                 image_overlay=\"TrashItem_Off\"\n                 image_selected=\"Toolbar_Middle_Selected\"\n                 image_unselected=\"Toolbar_Middle_Off\"\n                 left_pad=\"2\"\n                 layout=\"topleft\"\n                 name=\"nearby_del_btn\"\n                 tool_tip=\"Remove selected person as a friend\"\n                 top_delta=\"0\"\n                 width=\"31\">\n                    <commit_callback\n                     function=\"People.DelFriend\" />\n                 </dnd_button>\n            </panel>\n         <layout_stack\n           clip=\"false\"\n           follows=\"all\"\n           height=\"410\"\n           layout=\"topleft\"\n           left=\"0\"\n           mouse_opaque=\"false\"\n           orientation=\"vertical\"\n           right=\"-1\"\n           top_pad=\"0\">\n           <layout_panel\n             height=\"142\"\n             layout=\"topleft\"\n             min_dim=\"100\"\n             mouse_opaque=\"false\"\n             name=\"Net Map Panel\"\n             user_resize=\"true\"\n             visibility_control=\"NearbyListShowMap\"\n             width=\"313\">\n             <net_map\n               bg_color=\"NetMapBackgroundColor\"\n               follows=\"all\"\n               height=\"140\"\n               layout=\"topleft\"\n               left=\"3\"\n               mouse_opaque=\"false\"\n               name=\"Net Map\"\n               right=\"-1\"\n               top=\"4\" />\n           </layout_panel>\n           <layout_panel\n             height=\"213\"\n             layout=\"topleft\"\n             min_dim=\"100\"\n             mouse_opaque=\"false\"\n             right=\"-1\"\n             user_resize=\"true\">\n             <avatar_list\n               allow_select=\"true\"\n               follows=\"all\"\n               height=\"211\"\n               ignore_online_status=\"true\"\n               layout=\"topleft\"\n               left=\"3\"\n               keep_one_selected=\"false\"\n               multi_select=\"true\"\n               name=\"avatar_list\"\n               right=\"-1\"\n               top=\"2\" />\n           </layout_panel>\n         </layout_stack>\n",
+            "panel:panel_radar": {
+               "@name": "panel_radar"
+            }
+         },
+         "#comment$3": " ================================= FRIENDS tab ========================== ",
+         "panel:friends_panel": {
+            "@label": {
+               "string": "Friends"
+            },
+            "@name": "friends_panel",
+            "panel:friends_buttons_panel": {
+               "@label": {
+                  "string": "bottom_panel"
+               },
+               "@name": "friends_buttons_panel",
+               "filter_editor:friends_filter_input": {
+                  "@label": {
+                     "string": "Filter People"
+                  },
+                  "@name": "friends_filter_input"
+               },
+               "button:gear_btn": {
+                  "@name": "gear_btn",
+                  "@tool_tip": {
+                     "string": "Actions on selected person"
+                  }
+               },
+               "menu_button:friends_view_btn": {
+                  "@name": "friends_view_btn",
+                  "@tool_tip": {
+                     "string": "View/sort options"
+                  }
+               },
+               "button:friends_add_btn": {
+                  "@name": "friends_add_btn",
+                  "@tool_tip": {
+                     "string": "Offer friendship to a resident"
+                  },
+                  "commit_callback": null
+               },
+               "button:GlobalOnlineStatusToggle": {
+                  "@name": "GlobalOnlineStatusToggle",
+                  "@tool_tip": {
+                     "string": "Toggle global online status visibility"
+                  }
+               },
+               "dnd_button:friends_del_btn": {
+                  "@name": "friends_del_btn",
+                  "@tool_tip": {
+                     "string": "Remove selected person as a friend"
+                  },
+                  "commit_callback": null
+               }
+            },
+            "tab_container:friends_accordion": {
+               "@name": "friends_accordion",
+               "panel:tab_online": {
+                  "@name": "tab_online",
+                  "@title": {
+                     "string": "Online"
+                  },
+                  "avatar_list:avatars_online": {
+                     "@name": "avatars_online"
+                  }
+               },
+               "panel:tab_all": {
+                  "@name": "tab_all",
+                  "@title": {
+                     "string": "All"
+                  },
+                  "avatar_list:avatars_all": {
+                     "@name": "avatars_all"
+                  }
+               }
+            },
+            "text:no_friends_help_text": {
+               "@name": "no_friends_help_text"
+            }
+         },
+         "#comment$5": " ================================= GROUPS tab =========================== ",
+         "panel:groups_panel": {
+            "@label": {
+               "string": "Groups"
+            },
+            "@name": "groups_panel",
+            "#comment": "\n     *NOTE: no_groups_msg & group_list attributes are not defined as translatable in VLT. See EXT-5931\n     Values are set from appropriate strings at the top of file via LLPeoplePanel::postBuild()\n    ",
+            "panel:groups_buttons_panel": {
+               "@label": {
+                  "string": "bottom_panel"
+               },
+               "@name": "groups_buttons_panel",
+               "filter_editor:groups_filter_input": {
+                  "@label": {
+                     "string": "Filter Groups"
+                  },
+                  "@name": "groups_filter_input"
+               },
+               "menu_button:groups_gear_btn": {
+                  "@name": "groups_gear_btn",
+                  "@tool_tip": {
+                     "string": "Actions on selected group"
+                  }
+               },
+               "menu_button:groups_view_btn": {
+                  "@name": "groups_view_btn",
+                  "@tool_tip": {
+                     "string": "View/sort options"
+                  }
+               },
+               "menu_button:plus_btn": {
+                  "@name": "plus_btn",
+                  "@tool_tip": {
+                     "string": "Join group/Create new group"
+                  },
+                  "validate_callback": null
+               },
+               "dnd_button:minus_btn": {
+                  "@name": "minus_btn",
+                  "@tool_tip": {
+                     "string": "Leave selected group"
+                  },
+                  "commit_callback": null
+               }
+            },
+            "text:groupcount": {
+               "@name": "groupcount",
+               "#text": {
+                  "string": "\n              You belong to [COUNT] groups ([REMAINING] remaining).\n            "
+               }
+            },
+            "group_list:group_list": {
+               "@name": "group_list"
+            }
+         },
+         "#comment$7": " ================================= RECENT tab =========================== ",
+         "panel:recent_panel": {
+            "@label": {
+               "string": "Recent"
+            },
+            "@name": "recent_panel",
+            "panel:recent_buttons_panel": {
+               "@label": {
+                  "string": "bottom_panel"
+               },
+               "@name": "recent_buttons_panel",
+               "filter_editor:recent_filter_input": {
+                  "@label": {
+                     "string": "Filter People"
+                  },
+                  "@name": "recent_filter_input"
+               },
+               "button:gear_btn": {
+                  "@name": "gear_btn",
+                  "@tool_tip": {
+                     "string": "Actions on selected person"
+                  }
+               },
+               "menu_button:recent_view_btn": {
+                  "@name": "recent_view_btn",
+                  "@tool_tip": {
+                     "string": "View/sort options"
+                  }
+               },
+               "button:add_friend_btn": {
+                  "@name": "add_friend_btn",
+                  "@tool_tip": {
+                     "string": "Offer friendship to a resident"
+                  },
+                  "commit_callback": null
+               },
+               "dnd_button:recent_del_btn": {
+                  "@name": "recent_del_btn",
+                  "@tool_tip": {
+                     "string": "Remove selected person as a friend"
+                  },
+                  "commit_callback": null
+               }
+            },
+            "avatar_list:avatar_list": {
+               "@name": "avatar_list"
+            }
+         },
+         "#comment$9": " ================================= BLOCKED tab ========================== ",
+         "panel:blocked_panel": {
+            "@label": {
+               "string": "Blocked"
+            },
+            "@name": "blocked_panel",
+            "panel:panel_block_list_sidetray": {
+               "@name": "panel_block_list_sidetray",
+               "@label": {
+                  "string": "Blocked Residents & Objects"
+               }
+            }
+         },
+         "#comment$11": " ============================== CONTACT SETS tab ======================= ",
+         "panel:contact_sets_panel": {
+            "@label": {
+               "string": "Contact Sets"
+            },
+            "@name": "contact_sets_panel",
+            "panel:panel_people_contacts_sidetray": {
+               "@name": "panel_people_contacts_sidetray",
+               "@label": {
+                  "string": "Contact Sets"
+               }
+            }
+         }
+      }
+   }
+}

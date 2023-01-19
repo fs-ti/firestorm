@@ -1,0 +1,71 @@
+{
+   "panel": {
+      "@name": "experince_list_editor",
+      "panel.string:loading": {
+         "@name": "loading",
+         "#text": {
+            "string": "\n    loading...\n  "
+         }
+      },
+      "panel.string:panel_allowed": {
+         "@name": "panel_allowed",
+         "#text": {
+            "string": "\n      Allowed Experiences:\n   "
+         }
+      },
+      "panel.string:panel_blocked": {
+         "@name": "panel_blocked",
+         "#text": {
+            "string": "\n      Blocked Experiences:\n   "
+         }
+      },
+      "panel.string:panel_trusted": {
+         "@name": "panel_trusted",
+         "#text": {
+            "string": "\n      Key Experiences:\n   "
+         }
+      },
+      "panel.string:no_results": {
+         "@name": "no_results",
+         "#text": {
+            "string": "\n    (empty)\n  "
+         }
+      },
+      "text:text_name": {
+         "@name": "text_name",
+         "#text": {
+            "string": "\n      Experience List\n   "
+         }
+      },
+      "text:text_count": {
+         "@name": "text_count"
+      },
+      "name_list:experience_list": {
+         "@name": "experience_list",
+         "name_list.columns:experience_name": {
+            "@name": "experience_name",
+            "@label": {
+               "string": "Name"
+            }
+         }
+      },
+      "button:btn_add": {
+         "@name": "btn_add",
+         "@label": {
+            "string": "Add..."
+         }
+      },
+      "button:btn_remove": {
+         "@name": "btn_remove",
+         "@label": {
+            "string": "Remove"
+         }
+      },
+      "button:btn_profile": {
+         "@name": "btn_profile",
+         "@label": {
+            "string": "Profile..."
+         }
+      }
+   }
+}

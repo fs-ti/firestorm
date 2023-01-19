@@ -1,0 +1,320 @@
+{
+   "panel": {
+      "@name": "panel_profile",
+      "@label": {
+         "string": "Profile"
+      },
+      "string:status_online": {
+         "@name": "status_online",
+         "#text": {
+            "string": "\nOnline\n    "
+         }
+      },
+      "string:status_offline": {
+         "@name": "status_offline",
+         "#text": {
+            "string": "\nOffline\n    "
+         }
+      },
+      "string:CaptionTextAcctInfo": {
+         "@name": "CaptionTextAcctInfo",
+         "#text": {
+            "string": "\n[ACCTTYPE]\n[PAYMENTINFO]\n[FIRESTORM][FSDEV][FSSUPP][FSQA][FSGW]\n    "
+         }
+      },
+      "#comment": " [AGEVERIFICATION] moved out of the above, since it's not set anyway. See\n    LLPanelAvatarProfile::fillAccountStatus() ...TS ",
+      "string:payment_update_link_url": {
+         "@name": "payment_update_link_url",
+         "#text": {
+            "string": "\nhttp://www.secondlife.com/account/billing.php?lang=en\n    "
+         }
+      },
+      "string:partner_edit_link_url": {
+         "@name": "partner_edit_link_url",
+         "#text": {
+            "string": "\nhttp://www.secondlife.com/account/partners.php?lang=en\n    "
+         }
+      },
+      "string:my_account_link_url": {
+         "@name": "my_account_link_url",
+         "@value": {
+            "string": "http://secondlife.com/account"
+         }
+      },
+      "string:no_partner_text": {
+         "@name": "no_partner_text",
+         "@value": {
+            "string": "None"
+         }
+      },
+      "string:no_group_text": {
+         "@name": "no_group_text",
+         "@value": {
+            "string": "None"
+         }
+      },
+      "string:RegisterDateFormat": {
+         "@name": "RegisterDateFormat",
+         "#text": {
+            "string": "\n[REG_DATE]\n([AGE])\n    "
+         }
+      },
+      "string:name_text_args": {
+         "@name": "name_text_args",
+         "#text": {
+            "string": "\n[NAME]\n    "
+         }
+      },
+      "string:display_name_text_args": {
+         "@name": "display_name_text_args",
+         "#text": {
+            "string": "\n[DISPLAY_NAME]\n    "
+         }
+      },
+      "string:FSDev": {
+         "@name": "FSDev",
+         "@value": {
+            "string": " Developer"
+         }
+      },
+      "string:FSSupp": {
+         "@name": "FSSupp",
+         "@value": {
+            "string": " Support"
+         }
+      },
+      "string:FSQualityAssurance": {
+         "@name": "FSQualityAssurance",
+         "@value": {
+            "string": " Bug Hunter"
+         }
+      },
+      "string:FSGW": {
+         "@name": "FSGW",
+         "@value": {
+            "string": " Gateway"
+         }
+      },
+      "#comment$18": "\n\nKC: Use view_border's around text_editor's due to text render issues with border_visible\n\n",
+      "loading_indicator:progress_indicator": {
+         "@name": "progress_indicator"
+      },
+      "text:Name:": {
+         "@name": "Name:",
+         "@value": {
+            "string": "Name:"
+         }
+      },
+      "view_border:info_border": {
+         "@name": "info_border"
+      },
+      "text_editor:complete_name": {
+         "@name": "complete_name",
+         "@value": {
+            "string": "(loading...)"
+         }
+      },
+      "button:set_name": {
+         "@name": "set_name",
+         "@tool_tip": {
+            "string": "Set Display Name"
+         }
+      },
+      "text:Key:": {
+         "@name": "Key:",
+         "@value": {
+            "string": "Key:"
+         }
+      },
+      "view_border:info_border2": {
+         "@name": "info_border2"
+      },
+      "text_editor:user_key": {
+         "@name": "user_key",
+         "@value": {
+            "string": "(loading...)"
+         }
+      },
+      "text:status": {
+         "@name": "status",
+         "@value": {
+            "string": ""
+         }
+      },
+      "button:copy_own_uri_button": {
+         "@name": "copy_own_uri_button",
+         "@label": {
+            "string": "Copy URI"
+         }
+      },
+      "texture_picker:2nd_life_pic": {
+         "@name": "2nd_life_pic"
+      },
+      "text:label": {
+         "@name": "label",
+         "@value": {
+            "string": "Born:"
+         }
+      },
+      "view_border:info_border3": {
+         "@name": "info_border3"
+      },
+      "text_editor": null,
+      "text:label2": {
+         "@name": "label2",
+         "@value": {
+            "string": "Account:"
+         }
+      },
+      "view_border:acct_border": {
+         "@name": "acct_border"
+      },
+      "text:partner_label": {
+         "@name": "partner_label",
+         "@value": {
+            "string": "Partner:"
+         }
+      },
+      "view_border:info_border4": {
+         "@name": "info_border4"
+      },
+      "text:partner_text": {
+         "@name": "partner_text"
+      },
+      "text:Groups:": {
+         "@name": "Groups:",
+         "@value": {
+            "string": "Groups:"
+         }
+      },
+      "button:group_invite": {
+         "@name": "group_invite",
+         "@label": {
+            "string": "+"
+         },
+         "@tool_tip": {
+            "string": "Invite to Group"
+         }
+      },
+      "group_list:group_list": {
+         "@name": "group_list"
+      },
+      "text:About:": {
+         "@name": "About:",
+         "@value": {
+            "string": "About:"
+         }
+      },
+      "view_border:info_border5": {
+         "@name": "info_border5"
+      },
+      "text_editor:sl_description_edit": {
+         "@name": "sl_description_edit"
+      },
+      "text:Give item:": {
+         "@name": "Give item:",
+         "@value": {
+            "string": "Give item:"
+         }
+      },
+      "view_border:drop_target_rect_vis": {
+         "@name": "drop_target_rect_vis"
+      },
+      "text:Give inventory": {
+         "@name": "Give inventory",
+         "@tool_tip": {
+            "string": "Drop inventory items here to give them to this person."
+         },
+         "#text": {
+            "string": "\n            Drop inventory item here.\n        "
+         }
+      },
+      "layout_stack:buttonstack": {
+         "@name": "buttonstack",
+         "layout_panel:left_buttonstack": {
+            "@name": "left_buttonstack",
+            "button:show_on_map_btn": {
+               "@name": "show_on_map_btn",
+               "@label": {
+                  "string": "Find on Map"
+               },
+               "@tool_tip": {
+                  "string": "Locate the Resident on the map"
+               }
+            },
+            "button:pay": {
+               "@name": "pay",
+               "@label": {
+                  "string": "Pay"
+               },
+               "@tool_tip": {
+                  "string": "Pay money to the Resident"
+               }
+            }
+         },
+         "layout_panel:middle_buttonstack": {
+            "@name": "middle_buttonstack",
+            "button:teleport": {
+               "@name": "teleport",
+               "@label": {
+                  "string": "Offer Teleport"
+               },
+               "@tool_tip": {
+                  "string": "Offer a teleport to the Resident"
+               }
+            },
+            "button:im": {
+               "@name": "im",
+               "@label": {
+                  "string": "Instant Message"
+               },
+               "@tool_tip": {
+                  "string": "Open instant message session"
+               }
+            }
+         },
+         "layout_panel:right_buttonstack": {
+            "@name": "right_buttonstack",
+            "button:add_friend": {
+               "@name": "add_friend",
+               "@label": {
+                  "string": "Add Friend"
+               },
+               "@tool_tip": {
+                  "string": "Offer friendship to the Resident"
+               }
+            },
+            "button:block": {
+               "@name": "block",
+               "@label": {
+                  "string": "Block"
+               },
+               "@tool_tip": {
+                  "string": "Block this Resident"
+               }
+            },
+            "button:unblock": {
+               "@name": "unblock",
+               "@label": {
+                  "string": "Unblock"
+               },
+               "@tool_tip": {
+                  "string": "Unblock this Resident"
+               }
+            },
+            "menu_button:overflow_btn": {
+               "@name": "overflow_btn"
+            }
+         }
+      },
+      "check_box:show_in_search_checkbox": {
+         "@name": "show_in_search_checkbox",
+         "@label": {
+            "string": "Show in search"
+         }
+      },
+      "profile_drop_target:drop_target": {
+         "@name": "drop_target"
+      }
+   }
+}

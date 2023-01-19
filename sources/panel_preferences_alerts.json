@@ -1,0 +1,288 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Popups"
+      },
+      "@name": "popups",
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Alerts"
+         },
+         "@name": "tabs",
+         "#comment": " World ",
+         "panel:tab-world": {
+            "@label": {
+               "string": "World"
+            },
+            "@name": "tab-world",
+            "check_box:notify_money_change_checkbox": {
+               "@label": {
+                  "string": "Notify me when I spend or get L$"
+               },
+               "@name": "notify_money_change_checkbox"
+            },
+            "check_box:FSPaymentInfoInChat": {
+               "@name": "FSPaymentInfoInChat",
+               "@label": {
+                  "string": "Report L$ transactions in nearby chat instead of toasts"
+               }
+            },
+            "check_box:FSShowServerVersionChangeNotice": {
+               "@label": {
+                  "string": "Notify if the simulator version changes while changing the region"
+               },
+               "@name": "FSShowServerVersionChangeNotice",
+               "@tool_tip": {
+                  "string": "Displays a notice if the simulator version changes during a teleport or while crossing a region."
+               }
+            },
+            "check_box:AutoQueryGridStatus": {
+               "@label": {
+                  "string": "Query status.secondlifegrid.net for latest news at login"
+               },
+               "@name": "AutoQueryGridStatus"
+            },
+            "check_box:notify_growl_checkbox": {
+               "@label": {
+                  "string": "Enable Growl Notifications"
+               },
+               "@name": "notify_growl_checkbox"
+            },
+            "check_box:notify_growl_always_checkbox": {
+               "@name": "notify_growl_always_checkbox",
+               "@label": {
+                  "string": "Show Growl Notifications even when Firestorm is active"
+               }
+            },
+            "check_box:FSFilterGrowlKeywordDuplicateIMs": {
+               "@name": "FSFilterGrowlKeywordDuplicateIMs",
+               "@label": {
+                  "string": "Filter duplicate IMs if they have already been shown as part of a keyword alert"
+               }
+            }
+         },
+         "#comment$4": " People ",
+         "panel:tab-people": {
+            "@label": {
+               "string": "People"
+            },
+            "@name": "tab-people",
+            "check_box:FSFlashOnMessage": {
+               "@label": {
+                  "string": "Flash the app icon when receiving a message and [APP_NAME] is not in focus"
+               },
+               "@name": "FSFlashOnMessage"
+            },
+            "check_box:FSFlashOnObjectIM": {
+               "@label": {
+                  "string": "Also flash the app icon when receiving an instant message from an object"
+               },
+               "@name": "FSFlashOnObjectIM"
+            },
+            "check_box:FSShowDisplayNameUpdateNotification": {
+               "@label": {
+                  "string": "Notify me when somebody changes their display name"
+               },
+               "@name": "FSShowDisplayNameUpdateNotification"
+            },
+            "check_box:FSReportBlockToNearbyChat": {
+               "@label": {
+                  "string": "Notify me when I block or unblock somebody"
+               },
+               "@name": "FSReportBlockToNearbyChat"
+            },
+            "text:friends_logon_label": {
+               "@name": "friends_logon_label",
+               "#text": {
+                  "string": "\n        Notify me when my friends log in or out:\n    "
+               }
+            },
+            "check_box:friends_online_notify_checkbox": {
+               "@label": {
+                  "string": "As toasts"
+               },
+               "@name": "friends_online_notify_checkbox"
+            },
+            "check_box:OnlineOfflinetoNearbyChat": {
+               "@name": "OnlineOfflinetoNearbyChat",
+               "@label": {
+                  "string": "In nearby chat and console"
+               },
+               "check_box.commit_callback": null
+            },
+            "check_box:OnlineOfflinetoNearbyChatHistory": {
+               "@label": {
+                  "string": "In nearby chat only"
+               },
+               "@name": "OnlineOfflinetoNearbyChatHistory"
+            }
+         },
+         "#comment$6": " Objects & Scripts ",
+         "panel:tab-objects": {
+            "@label": {
+               "string": "Objects & Scripts"
+            },
+            "@name": "tab-objects",
+            "check_box:FSFlashOnScriptDialog": {
+               "@label": {
+                  "string": "Flash the app icon when receiving a script dialog and [APP_NAME] is not in focus"
+               },
+               "@name": "FSFlashOnScriptDialog"
+            },
+            "check_box:FSCollisionMessagesInChat": {
+               "@label": {
+                  "string": "Report collision notifications to nearby chat"
+               },
+               "@name": "FSCollisionMessagesInChat"
+            },
+            "check_box:show_script_errors": {
+               "@label": {
+                  "string": "Report Script Errors in:"
+               },
+               "@name": "show_script_errors"
+            },
+            "radio_group:show_script_errors_location": {
+               "@name": "show_script_errors_location",
+               "radio_item:script_0": {
+                  "@label": {
+                     "string": "Nearby chat"
+                  },
+                  "@name": "script_0"
+               },
+               "radio_item:script_1": {
+                  "@label": {
+                     "string": "Separate window"
+                  },
+                  "@name": "script_1"
+               }
+            },
+            "check_box:FSReportTotalScriptCountChanges": {
+               "@label": {
+                  "string": "Report region's total script count changes:"
+               },
+               "@name": "FSReportTotalScriptCountChanges"
+            },
+            "spinner:FSReportTotalScriptCountChangesThreshold": {
+               "@name": "FSReportTotalScriptCountChangesThreshold",
+               "@tool_tip": {
+                  "string": "The threshold for total script count changes before reporting [Default: 100]"
+               }
+            },
+            "check_box:FSReportCollisionMessages": {
+               "@label": {
+                  "string": "Report collision notifications to scripts on channel:"
+               },
+               "@name": "FSReportCollisionMessages"
+            },
+            "spinner:FSReportCollisionMessagesChannel": {
+               "@name": "FSReportCollisionMessagesChannel",
+               "@tool_tip": {
+                  "string": "The channel used for reporting collision messages to scripts [Default: -25000]"
+               }
+            }
+         },
+         "#comment$8": " Inventory ",
+         "panel:tab-inventory": {
+            "@label": {
+               "string": "Inventory"
+            },
+            "@name": "tab-inventory",
+            "check_box:FSShowUploadPaymentToast": {
+               "@name": "FSShowUploadPaymentToast",
+               "@label": {
+                  "string": "Notify me when I am charged for an upload"
+               }
+            },
+            "check_box:landmark_created_checkbox": {
+               "@label": {
+                  "string": "Notify me when a landmark has been created"
+               },
+               "@name": "landmark_created_checkbox"
+            },
+            "check_box:FSDisableReturnObjectNotification": {
+               "@label": {
+                  "string": "Disable 'object has been returned to your inventory' notifications"
+               },
+               "@name": "FSDisableReturnObjectNotification"
+            },
+            "check_box:FSLogSnapshotsToLocal": {
+               "@label": {
+                  "string": "Log filename of saved snapshots in to chat history"
+               },
+               "@name": "FSLogSnapshotsToLocal"
+            },
+            "check_box:FSNotifyIncomingObjectSpam": {
+               "@label": {
+                  "string": "Notify about items from objects coming in too fast"
+               },
+               "@name": "FSNotifyIncomingObjectSpam"
+            },
+            "check_box:FSNotifyIncomingObjectSpamFrom": {
+               "@label": {
+                  "string": "Notify about items from other residents coming in too fast"
+               },
+               "@name": "FSNotifyIncomingObjectSpamFrom"
+            },
+            "slider:FSOfferThrottleMaxCount": {
+               "@name": "FSOfferThrottleMaxCount",
+               "@label": {
+                  "string": "Incoming object offers throttle threshold:"
+               },
+               "@tool_tip": {
+                  "string": "Sets the threshold of incoming object offers within 10 seconds before they get throttled. Default 5"
+               }
+            }
+         },
+         "#comment$10": " Alerts ",
+         "panel:tab-alerts": {
+            "@label": {
+               "string": "Alerts"
+            },
+            "@name": "tab-alerts",
+            "text:show_label": {
+               "@name": "show_label",
+               "@tool_tip": {
+                  "string": "List of alerts in the viewer. Check the mark to the left to enable the alert, uncheck it to hide the alert."
+               },
+               "#text": {
+                  "string": "\n       Viewer alerts that can be shown or hidden:\n    "
+               }
+            },
+            "filter_editor:popup_filter": {
+               "@label": {
+                  "string": "Filter Alerts"
+               },
+               "@name": "popup_filter",
+               "@tool_tip": {
+                  "string": "Type the search term you are interested in here. Results will be displayed for partial fulltext matches."
+               },
+               "filter_editor.commit_callback": null
+            },
+            "#comment": " Making scroll lists follow=\"all\" results in all kinds of havoc :( -Zi ",
+            "scroll_list:all_popups": {
+               "@name": "all_popups",
+               "#comment": " using a blank padding column to make things look prettier, since \"halign\" doesn't seem to work for checkboxes -Zi ",
+               "column:make_pretty": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "make_pretty"
+               },
+               "column:alert_enabled_check": {
+                  "@label": {
+                     "string": "Show"
+                  },
+                  "@name": "alert_enabled_check"
+               },
+               "column:alert_label": {
+                  "@label": {
+                     "string": "Alert"
+                  },
+                  "@name": "alert_label"
+               },
+               "scroll_list.commit_callback": null
+            }
+         }
+      }
+   }
+}

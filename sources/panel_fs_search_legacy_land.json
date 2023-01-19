@@ -1,0 +1,199 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Land Sales"
+      },
+      "@name": "panel_ls_land",
+      "panel:panel_ls_input": {
+         "@name": "panel_ls_input",
+         "check_box:pg_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "pg_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_general": {
+            "@name": "rating_icon_general"
+         },
+         "check_box:mature_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "mature_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_moderate": {
+            "@name": "rating_icon_moderate"
+         },
+         "check_box:adult_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "adult_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_adult": {
+            "@name": "rating_icon_adult"
+         },
+         "text:search_text": {
+            "@name": "search_text",
+            "#text": {
+               "string": "\n      Enter search terms:\n    "
+            }
+         },
+         "combo_box:land_category": {
+            "@name": "land_category",
+            "combo_box.item:All": {
+               "@label": {
+                  "string": "All Categories"
+               },
+               "@name": "All"
+            },
+            "combo_box.item:Auction": {
+               "@label": {
+                  "string": "Auction"
+               },
+               "@name": "Auction"
+            },
+            "combo_box.item:Mainland": {
+               "@label": {
+                  "string": "Mainland Sales"
+               },
+               "@name": "Mainland"
+            },
+            "combo_box.item:Estate": {
+               "@label": {
+                  "string": "Estate Sales"
+               },
+               "@name": "Estate"
+            },
+            "combo_box.commit_callback": null
+         },
+         "check_box:price_check": {
+            "@label": {
+               "string": "Price <"
+            },
+            "@name": "price_check",
+            "check_box.commit_callback": null
+         },
+         "line_editor:edit_price": {
+            "@name": "edit_price",
+            "line_editor.commit_callback": null
+         },
+         "check_box:area_check": {
+            "@label": {
+               "string": "Area >"
+            },
+            "@name": "area_check",
+            "check_box.commit_callback": null
+         },
+         "line_editor:edit_area": {
+            "@name": "edit_area",
+            "line_editor.commit_callback": null
+         },
+         "text:sort_text": {
+            "@name": "sort_text",
+            "#text": {
+               "string": "\n         Sort results by:\n    "
+            }
+         },
+         "check_box:ascending_check": {
+            "@label": {
+               "string": "Ascending"
+            },
+            "@name": "ascending_check",
+            "check_box.commit_callback": null
+         },
+         "combo_box:land_sort_combo": {
+            "@name": "land_sort_combo",
+            "combo_box.item:Name_item": {
+               "@label": {
+                  "string": "Name"
+               },
+               "@name": "Name_item"
+            },
+            "combo_box.item:Price_item": {
+               "@label": {
+                  "string": "Price"
+               },
+               "@name": "Price_item"
+            },
+            "combo_box.item:PPM_item": {
+               "@label": {
+                  "string": "Price per meter"
+               },
+               "@name": "PPM_item"
+            },
+            "combo_box.item:Area_item": {
+               "@label": {
+                  "string": "Area"
+               },
+               "@name": "Area_item"
+            },
+            "combo_box.commit_callback": null
+         },
+         "button:land_find": {
+            "@label": {
+               "string": "Search"
+            },
+            "@name": "land_find"
+         }
+      },
+      "#comment": " Search Pane ",
+      "panel:panel_ls_scrolllist": {
+         "@name": "panel_ls_scrolllist",
+         "scroll_list:search_results_land": {
+            "@name": "search_results_land",
+            "columns:icon": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "icon"
+            },
+            "columns:land_name": {
+               "@label": {
+                  "string": "Name"
+               },
+               "@name": "land_name"
+            },
+            "columns:price": {
+               "@label": {
+                  "string": "Price"
+               },
+               "@name": "price"
+            },
+            "columns:area": {
+               "@label": {
+                  "string": "Area"
+               },
+               "@name": "area"
+            },
+            "columns:ppm": {
+               "@label": {
+                  "string": "L$/m"
+               },
+               "@name": "ppm"
+            },
+            "columns:land_type": {
+               "@label": {
+                  "string": "Type"
+               },
+               "@name": "land_type"
+            }
+         },
+         "button:land_back": {
+            "@label": {
+               "string": "Back"
+            },
+            "@name": "land_back"
+         },
+         "button:land_next": {
+            "@label": {
+               "string": "Next"
+            },
+            "@name": "land_next"
+         }
+      }
+   }
+}

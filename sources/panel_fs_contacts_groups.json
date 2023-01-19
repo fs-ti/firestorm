@@ -1,0 +1,71 @@
+{
+   "panel": {
+      "@name": "groups",
+      "filter_editor:group_filter_input": {
+         "@label": {
+            "string": "Filter Groups"
+         },
+         "@name": "group_filter_input"
+      },
+      "view_border:info_border": {
+         "@name": "info_border"
+      },
+      "group_list:group_list": {
+         "@name": "group_list"
+      },
+      "text:groupcount": {
+         "@name": "groupcount"
+      },
+      "button:chat_btn": {
+         "@label": {
+            "string": "IM/Call"
+         },
+         "@name": "chat_btn",
+         "@tool_tip": {
+            "string": "Open Instant Message session"
+         }
+      },
+      "button:info_btn": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "info_btn"
+      },
+      "button:titles_btn": {
+         "@label": {
+            "string": "Group Titles"
+         },
+         "@name": "titles_btn"
+      },
+      "button:activate_btn": {
+         "@label": {
+            "string": "Activate"
+         },
+         "@name": "activate_btn"
+      },
+      "button:leave_btn": {
+         "@label": {
+            "string": "Leave"
+         },
+         "@name": "leave_btn"
+      },
+      "button:create_btn": {
+         "@label": {
+            "string": "Create..."
+         },
+         "@name": "create_btn"
+      },
+      "button:search_btn": {
+         "@label": {
+            "string": "Search..."
+         },
+         "@name": "search_btn"
+      },
+      "button:invite_btn": {
+         "@label": {
+            "string": "Invite..."
+         },
+         "@name": "invite_btn"
+      }
+   }
+}

@@ -1,0 +1,217 @@
+{
+   "panel": {
+      "@name": "panel_login",
+      "panel.string:forgot_password_url": {
+         "@name": "forgot_password_url",
+         "#text": {
+            "string": "\n    http://secondlife.com/account/request.php\n  "
+         }
+      },
+      "string:ServerComboTooltip": {
+         "@name": "ServerComboTooltip",
+         "#text": {
+            "string": "\n    An existing grid or a grid URI\n  "
+         }
+      },
+      "web_browser:login_html": {
+         "@name": "login_html"
+      },
+      "layout_stack:ui_stack": {
+         "@name": "ui_stack",
+         "layout_panel:ui_elastic_pad_left": {
+            "@name": "ui_elastic_pad_left"
+         },
+         "layout_panel:ui_container": {
+            "@name": "ui_container",
+            "icon:sl_logo_small": {
+               "@name": "sl_logo_small"
+            },
+            "layout_stack:vert_stack_left": {
+               "@name": "vert_stack_left",
+               "layout_panel:1st_row": {
+                  "@name": "1st_row",
+                  "layout_stack:1st_row_stack": {
+                     "@name": "1st_row_stack",
+                     "layout_panel:login": {
+                        "@name": "login",
+                        "combo_box:username_combo": {
+                           "@label": {
+                              "string": "Username"
+                           },
+                           "@tool_tip": {
+                              "string": "The username you chose when you registered, like bobsmith12 or Steller Sunshine"
+                           },
+                           "@name": "username_combo",
+                           "combo_box.combo_editor": null
+                        },
+                        "check_box:remember_username_check": {
+                           "@label": {
+                              "string": "Remember username"
+                           },
+                           "@name": "remember_username_check"
+                        }
+                     },
+                     "#comment": " login ",
+                     "layout_panel:delete_container": {
+                        "@name": "delete_container",
+                        "button:remove_user_btn": {
+                           "@tool_tip": {
+                              "string": "Remove this username"
+                           },
+                           "@label": {
+                              "string": ""
+                           },
+                           "@name": "remove_user_btn"
+                        }
+                     },
+                     "#comment$4": " delete_container ",
+                     "layout_panel:password_container": {
+                        "@name": "password_container",
+                        "#comment": " The max length might be changed in FSPanelLogin.cpp for Opensim! ",
+                        "line_editor:password_edit": {
+                           "@name": "password_edit",
+                           "@label": {
+                              "string": "Password"
+                           }
+                        },
+                        "check_box:remember_check": {
+                           "@label": {
+                              "string": "Remember password"
+                           },
+                           "@name": "remember_check"
+                        }
+                     },
+                     "#comment$6": " password_container ",
+                     "layout_panel:start_location_panel": {
+                        "@name": "start_location_panel",
+                        "combo_box:start_location_combo": {
+                           "@label": {
+                              "string": "Start location"
+                           },
+                           "@name": "start_location_combo",
+                           "combo_box.combo_editor": null,
+                           "combo_box.item:MyLastLocation": {
+                              "@label": {
+                                 "string": "Last location"
+                              },
+                              "@name": "MyLastLocation"
+                           },
+                           "combo_box.item:MyHome": {
+                              "@label": {
+                                 "string": "Home"
+                              },
+                              "@name": "MyHome"
+                           },
+                           "combo_box.item:Typeregionname": {
+                              "@label": {
+                                 "string": "<Type region name>"
+                              },
+                              "@name": "Typeregionname"
+                           }
+                        }
+                     },
+                     "#comment$8": " start_location_panel "
+                  },
+                  "#comment": " 1st_row_stack "
+               },
+               "#comment": " 1st_row ",
+               "layout_panel:2nd_row": {
+                  "@name": "2nd_row",
+                  "layout_stack:2nd_row_stack": {
+                     "@name": "2nd_row_stack",
+                     "layout_panel:grid_panel": {
+                        "@name": "grid_panel",
+                        "text:grid_login_text": {
+                           "@name": "grid_login_text",
+                           "#text": {
+                              "string": "\n        Grid:\n    "
+                           }
+                        },
+                        "combo_box:server_combo": {
+                           "@name": "server_combo",
+                           "combo_box.drop_down_button": null
+                        }
+                     },
+                     "layout_panel:mode_selection": {
+                        "@name": "mode_selection",
+                        "text:mode_selection_text": {
+                           "@name": "mode_selection_text",
+                           "#text": {
+                              "string": "\n        Mode:\n    "
+                           }
+                        },
+                        "combo_box:mode_combo": {
+                           "@tool_tip": {
+                              "string": "Select which style of viewer you are most familiar with to set your defaults to appropriately."
+                           },
+                           "@name": "mode_combo",
+                           "combo_box.drop_down_button": null,
+                           "combo_box.item:Firestorm": {
+                              "@label": {
+                                 "string": "Firestorm"
+                              },
+                              "@name": "Firestorm"
+                           },
+                           "combo_box.item:Phoenix": {
+                              "@label": {
+                                 "string": "Phoenix"
+                              },
+                              "@name": "Phoenix"
+                           },
+                           "combo_box.item:V3": {
+                              "@label": {
+                                 "string": "[VIEWER_GENERATION]"
+                              },
+                              "@name": "V3"
+                           },
+                           "combo_box.item:Hybrid": {
+                              "@label": {
+                                 "string": "Hybrid"
+                              },
+                              "@name": "Hybrid"
+                           },
+                           "combo_box.item:Latency": {
+                              "@label": {
+                                 "string": "Latency"
+                              },
+                              "@name": "Latency"
+                           },
+                           "combo_box.item:Text": {
+                              "@label": {
+                                 "string": "Text"
+                              },
+                              "@name": "Text"
+                           }
+                        }
+                     }
+                  },
+                  "#comment": " 2nd_row_stack "
+               },
+               "#comment$4": " 2nd_row "
+            },
+            "#comment": " vert_stack ",
+            "button:connect_btn": {
+               "@label": {
+                  "string": "Log In"
+               },
+               "@name": "connect_btn"
+            },
+            "text:create_new_account_text": {
+               "@name": "create_new_account_text",
+               "#text": {
+                  "string": "\n        Create an account\n    "
+               }
+            },
+            "text:forgot_password_text": {
+               "@name": "forgot_password_text",
+               "#text": {
+                  "string": "\n        Forgot password?\n    "
+               }
+            }
+         },
+         "layout_panel:ui_elastic_pad_right": {
+            "@name": "ui_elastic_pad_right"
+         }
+      }
+   }
+}

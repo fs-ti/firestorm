@@ -1,0 +1,80 @@
+{
+   "panel": {
+      "@name": "Outfits",
+      "@label": {
+         "string": "Things"
+      },
+      "panel.string:wear_outfit_tooltip": {
+         "@name": "wear_outfit_tooltip",
+         "#text": {
+            "string": "\n     Wear selected outfit\n   "
+         }
+      },
+      "panel.string:wear_items_tooltip": {
+         "@name": "wear_items_tooltip",
+         "#text": {
+            "string": "\n     Wear selected items\n   "
+         }
+      },
+      "panel.string:cof_tab_label": {
+         "@name": "cof_tab_label",
+         "#text": {
+            "string": "\n     Wearing ([COUNT]/[MAX] Att.)\n   "
+         }
+      },
+      "tab_container:appearance_tabs": {
+         "@name": "appearance_tabs",
+         "panel:outfit_gallery_tab": {
+            "@name": "outfit_gallery_tab",
+            "@label": {
+               "string": "Outfit Gallery"
+            }
+         },
+         "panel:outfitslist_tab": {
+            "@name": "outfitslist_tab",
+            "@label": {
+               "string": "Outfits"
+            }
+         },
+         "panel:cof_tab": {
+            "@label": {
+               "string": "Wearing"
+            },
+            "@name": "cof_tab"
+         }
+      },
+      "panel:bottom_panel": {
+         "@name": "bottom_panel",
+         "layout_stack:bottom_panel_ls": {
+            "@name": "bottom_panel_ls",
+            "layout_panel:save_btn_lp": {
+               "@name": "save_btn_lp",
+               "button:save_btn": {
+                  "@label": {
+                     "string": "Save"
+                  },
+                  "@name": "save_btn"
+               }
+            },
+            "layout_panel:save_as_btn_lp": {
+               "@name": "save_as_btn_lp",
+               "button:save_as_btn": {
+                  "@label": {
+                     "string": "Save as..."
+                  },
+                  "@name": "save_as_btn"
+               }
+            },
+            "layout_panel:wear_btn_lp": {
+               "@name": "wear_btn_lp",
+               "button:wear_btn": {
+                  "@label": {
+                     "string": "Wear"
+                  },
+                  "@name": "wear_btn"
+               }
+            }
+         }
+      }
+   }
+}

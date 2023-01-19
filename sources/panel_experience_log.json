@@ -1,0 +1,101 @@
+{
+   "panel": {
+      "@name": "panel_experience_log",
+      "@label": {
+         "string": "Events"
+      },
+      "string:no_events": {
+         "@name": "no_events",
+         "@value": {
+            "string": "No events."
+         }
+      },
+      "string:loading": {
+         "@name": "loading",
+         "@value": {
+            "string": "loading..."
+         }
+      },
+      "layout_stack:ls1": {
+         "@name": "ls1",
+         "layout_panel:list panel": {
+            "@name": "list panel",
+            "scroll_list:experience_log_list": {
+               "@name": "experience_log_list",
+               "columns:time": {
+                  "@name": "time",
+                  "@label": {
+                     "string": "Time"
+                  }
+               },
+               "columns:event": {
+                  "@name": "event",
+                  "@label": {
+                     "string": "Event"
+                  }
+               },
+               "columns:experience_name": {
+                  "@name": "experience_name",
+                  "@label": {
+                     "string": "Experience"
+                  }
+               },
+               "columns:object_name": {
+                  "@name": "object_name",
+                  "@label": {
+                     "string": "Object"
+                  }
+               }
+            },
+            "button:btn_notify": {
+               "@name": "btn_notify",
+               "@label": {
+                  "string": "Notify"
+               }
+            },
+            "button:btn_profile_xp": {
+               "@name": "btn_profile_xp",
+               "@label": {
+                  "string": "Profile"
+               }
+            },
+            "button:btn_report_xp": {
+               "@name": "btn_report_xp",
+               "@label": {
+                  "string": "Report"
+               }
+            }
+         },
+         "layout_panel:button_panel": {
+            "@name": "button_panel",
+            "check_box:notify_all": {
+               "@label": {
+                  "string": "Notify All Events   Days"
+               },
+               "@name": "notify_all"
+            },
+            "spinner:logsizespinner": {
+               "@name": "logsizespinner"
+            },
+            "button:btn_clear": {
+               "@name": "btn_clear",
+               "@label": {
+                  "string": "Clear"
+               }
+            },
+            "button:btn_prev": {
+               "@name": "btn_prev",
+               "@label": {
+                  "string": "<"
+               }
+            },
+            "button:btn_next": {
+               "@name": "btn_next",
+               "@label": {
+                  "string": ">"
+               }
+            }
+         }
+      }
+   }
+}

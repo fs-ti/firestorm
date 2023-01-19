@@ -1,0 +1,222 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Land & L$"
+      },
+      "@name": "land_money_tab",
+      "panel.string:help_text": {
+         "@name": "help_text",
+         "#text": {
+            "string": "\n   A warning appears until the Total Land in Use is less than or = to the Total Contribution.\n    "
+         }
+      },
+      "panel.string:cant_view_group_land_text": {
+         "@name": "cant_view_group_land_text",
+         "#text": {
+            "string": "\n        You don't have permission to view group owned land\n    "
+         }
+      },
+      "panel.string:epmty_view_group_land_text": {
+         "@name": "epmty_view_group_land_text",
+         "#text": {
+            "string": "\n        No entries\n    "
+         }
+      },
+      "panel.string:cant_view_group_accounting_text": {
+         "@name": "cant_view_group_accounting_text",
+         "#text": {
+            "string": "\n        You don't have permission to view the group's accounting information.\n    "
+         }
+      },
+      "panel.string:loading_txt": {
+         "@name": "loading_txt",
+         "#text": {
+            "string": "\n        Loading...\n    "
+         }
+      },
+      "panel.string:land_contrib_error": {
+         "@name": "land_contrib_error",
+         "#text": {
+            "string": "\n        Unable to set your land contribution\n    "
+         }
+      },
+      "#comment": " <text\n     type=\"string\"\n     follows=\"left|top\"\n     font=\"SansSerifBig\"\n     height=\"16\"\n     layout=\"topleft\"\n     left=\"10\"\n     name=\"group_land_heading\"\n     top_pad=\"10\"\n     width=\"260\">\n        Group Owned Land\n    </text> ",
+      "scroll_list:group_parcel_list": {
+         "@name": "group_parcel_list",
+         "scroll_list.columns:name": {
+            "@label": {
+               "string": "Parcel"
+            },
+            "@name": "name"
+         },
+         "scroll_list.columns:location": {
+            "@label": {
+               "string": "Region"
+            },
+            "@name": "location"
+         },
+         "scroll_list.columns:type": {
+            "@label": {
+               "string": "Type"
+            },
+            "@name": "type"
+         },
+         "scroll_list.columns:area": {
+            "@label": {
+               "string": "Area"
+            },
+            "@name": "area"
+         },
+         "scroll_list.columns:hidden": {
+            "@label": {
+               "string": "Hidden"
+            },
+            "@name": "hidden"
+         }
+      },
+      "button:map_button": {
+         "@label": {
+            "string": "Map"
+         },
+         "@name": "map_button"
+      },
+      "text:total_land_in_use_label": {
+         "@name": "total_land_in_use_label",
+         "#text": {
+            "string": "\n        Total land in use:\n    "
+         }
+      },
+      "text:total_land_in_use_value": {
+         "@name": "total_land_in_use_value",
+         "#text": {
+            "string": "\n        [AREA] m²\n    "
+         }
+      },
+      "text:land_available_label": {
+         "@name": "land_available_label",
+         "#text": {
+            "string": "\n        Land available:\n    "
+         }
+      },
+      "text:land_available_value": {
+         "@name": "land_available_value",
+         "#text": {
+            "string": "\n        [AREA] m²\n    "
+         }
+      },
+      "text:total_contributed_land_label": {
+         "@name": "total_contributed_land_label",
+         "#text": {
+            "string": "\n        Total contribution:\n    "
+         }
+      },
+      "text:total_contributed_land_value": {
+         "@name": "total_contributed_land_value",
+         "#text": {
+            "string": "\n        [AREA] m²\n    "
+         }
+      },
+      "text:your_contribution_label": {
+         "@name": "your_contribution_label",
+         "#text": {
+            "string": "\n        Your contribution:\n    "
+         }
+      },
+      "line_editor:your_contribution_line_editor": {
+         "@name": "your_contribution_line_editor"
+      },
+      "text:your_contribution_units": {
+         "@name": "your_contribution_units",
+         "#text": {
+            "string": "\n        m²\n    "
+         }
+      },
+      "text:your_contribution_max_value": {
+         "@name": "your_contribution_max_value",
+         "#text": {
+            "string": "\n        ([AMOUNT] max)\n    "
+         }
+      },
+      "text:group_money_heading": {
+         "@name": "group_money_heading",
+         "#text": {
+            "string": "\n        Group L$\n    "
+         }
+      },
+      "icon:group_over_limit_icon": {
+         "@name": "group_over_limit_icon"
+      },
+      "text:group_over_limit_text": {
+         "@name": "group_over_limit_text",
+         "#text": {
+            "string": "\n        More land credits are needed to support land in use\n    "
+         }
+      },
+      "tab_container:group_money_tab_container": {
+         "@name": "group_money_tab_container",
+         "#comment": " PLANNING panel ",
+         "panel:group_money_planning_tab": {
+            "@label": {
+               "string": "Planning"
+            },
+            "@name": "group_money_planning_tab",
+            "text_editor:group_money_planning_text": {
+               "@name": "group_money_planning_text",
+               "#text": {
+                  "string": "\n                Loading...\n            "
+               }
+            }
+         },
+         "#comment$3": " DETAILS panel ",
+         "panel:group_money_details_tab": {
+            "@label": {
+               "string": "Details"
+            },
+            "@name": "group_money_details_tab",
+            "text_editor:group_money_details_text": {
+               "@name": "group_money_details_text",
+               "#text": {
+                  "string": "\n         Loading...\n        "
+               }
+            },
+            "button:earlier_details_button": {
+               "@name": "earlier_details_button",
+               "@tool_tip": {
+                  "string": "Back"
+               }
+            },
+            "button:later_details_button": {
+               "@name": "later_details_button",
+               "@tool_tip": {
+                  "string": "Next"
+               }
+            }
+         },
+         "#comment$5": " SALES panel ",
+         "panel:group_money_sales_tab": {
+            "@label": {
+               "string": "Sales"
+            },
+            "@name": "group_money_sales_tab",
+            "text_editor:group_money_sales_text": {
+               "@name": "group_money_sales_text",
+               "#text": {
+                  "string": "\n         Loading...\n        "
+               }
+            },
+            "button:earlier_sales_button": {
+               "@name": "earlier_sales_button",
+               "@tool_tip": {
+                  "string": "Back"
+               }
+            },
+            "button:later_sales_button": {
+               "@name": "later_sales_button",
+               "@tool_tip": {
+                  "string": "Next"
+               }
+            }
+         }
+      }
+   }
+}

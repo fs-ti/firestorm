@@ -1,0 +1,91 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Places"
+      },
+      "@name": "panel_ls_places",
+      "panel:panel_ls_input": {
+         "@name": "panel_ls_input",
+         "text:search_text": {
+            "@name": "search_text",
+            "#text": {
+               "string": "\n    Enter search terms:\n    "
+            }
+         },
+         "search_combo_box:places_edit": {
+            "@name": "places_edit"
+         },
+         "combo_box:places_category": {
+            "@name": "places_category",
+            "combo_box.commit_callback": null
+         },
+         "check_box:pg_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "pg_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_general": {
+            "@name": "rating_icon_general"
+         },
+         "check_box:mature_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "mature_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_moderate": {
+            "@name": "rating_icon_moderate"
+         },
+         "check_box:adult_all": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "adult_all",
+            "check_box.commit_callback": null
+         },
+         "icon:rating_icon_adult": {
+            "@name": "rating_icon_adult"
+         }
+      },
+      "#comment": " Search Pane ",
+      "panel:panel_ls_scrolllist": {
+         "@name": "panel_ls_scrolllist",
+         "scroll_list:search_results_places": {
+            "@name": "search_results_places",
+            "columns:icon": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "icon"
+            },
+            "columns:place_name": {
+               "@label": {
+                  "string": "Name"
+               },
+               "@name": "place_name"
+            },
+            "columns:dwell": {
+               "@label": {
+                  "string": "Traffic"
+               },
+               "@name": "dwell"
+            }
+         },
+         "button:places_back": {
+            "@label": {
+               "string": "Back"
+            },
+            "@name": "places_back"
+         },
+         "button:places_next": {
+            "@label": {
+               "string": "Next"
+            },
+            "@name": "places_next"
+         }
+      }
+   }
+}

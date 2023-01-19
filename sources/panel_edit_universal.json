@@ -1,0 +1,131 @@
+{
+   "panel": {
+      "@name": "edit_universal_panel",
+      "scroll_container:avatar_universal_scroll": {
+         "@name": "avatar_universal_scroll",
+         "panel:avatar_universal_color_panel": {
+            "@name": "avatar_universal_color_panel",
+            "texture_picker:Head Universal Tattoo": {
+               "@label": {
+                  "string": "Head Tattoo"
+               },
+               "@name": "Head Universal Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Upper Universal Tattoo": {
+               "@label": {
+                  "string": "Upper Tattoo"
+               },
+               "@name": "Upper Universal Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Lower Universal Tattoo": {
+               "@label": {
+                  "string": "Lower Tattoo"
+               },
+               "@name": "Lower Universal Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Skirt Tattoo": {
+               "@label": {
+                  "string": "Skirt Tattoo"
+               },
+               "@name": "Skirt Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Hair Tattoo": {
+               "@label": {
+                  "string": "Hair Tattoo"
+               },
+               "@name": "Hair Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Eyes Tattoo": {
+               "@label": {
+                  "string": "Eyes Tattoo"
+               },
+               "@name": "Eyes Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Left Arm Tattoo": {
+               "@label": {
+                  "string": "Left Arm Tattoo"
+               },
+               "@name": "Left Arm Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Left Leg Tattoo": {
+               "@label": {
+                  "string": "Left Leg Tattoo"
+               },
+               "@name": "Left Leg Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Aux1 Tattoo": {
+               "@label": {
+                  "string": "Aux1 Tattoo"
+               },
+               "@name": "Aux1 Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Aux2 Tattoo": {
+               "@label": {
+                  "string": "Aux2 Tattoo"
+               },
+               "@name": "Aux2 Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "texture_picker:Aux3 Tattoo": {
+               "@label": {
+                  "string": "Aux3 Tattoo"
+               },
+               "@name": "Aux3 Tattoo",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               },
+               "texture_picker.commit_callback": null
+            },
+            "color_swatch:Color/Tint": {
+               "@label": {
+                  "string": "Color/Tint"
+               },
+               "@name": "Color/Tint",
+               "@tool_tip": {
+                  "string": "Click to open color picker"
+               },
+               "color_swatch.commit_callback": null
+            }
+         }
+      }
+   }
+}

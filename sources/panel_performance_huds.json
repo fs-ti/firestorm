@@ -1,0 +1,65 @@
+{
+   "panel": {
+      "@name": "panel_performance_huds",
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:back_lbl": {
+         "@name": "back_lbl",
+         "#text": {
+            "string": "\n    Back\n  "
+         }
+      },
+      "text:huds_title": {
+         "@name": "huds_title",
+         "#text": {
+            "string": "\n    Your active HUDs\n  "
+         }
+      },
+      "text:huds_desc1": {
+         "@name": "huds_desc1",
+         "#text": {
+            "string": "\n    Detaching HUDs you aren't using saves memory and can make the viewer run faster.\n  "
+         }
+      },
+      "text:huds_desc2": {
+         "@name": "huds_desc2",
+         "#text": {
+            "string": "\n    HUDs are often heavily scripted and also contribute to server-side lag.\n  "
+         }
+      },
+      "text:huds_desc3": {
+         "@name": "huds_desc3",
+         "#text": {
+            "string": "\n    Note: Using a HUD's minimize button does not detach it. Use the X to remove it.\n  "
+         }
+      },
+      "name_list:hud_list": {
+         "@name": "hud_list",
+         "name_list.columns:art_visual": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "art_visual"
+         },
+         "name_list.columns:art_value": {
+            "@label": {
+               "string": "Time (μs)"
+            },
+            "@name": "art_value",
+            "@tool_tip": {
+               "string": "Time taken to render this HUD (microseconds)"
+            }
+         },
+         "name_list.columns:name": {
+            "@label": {
+               "string": "Name"
+            },
+            "@tool_tip": {
+               "string": "Click the 'X' to detach"
+            },
+            "@name": "name"
+         }
+      }
+   }
+}

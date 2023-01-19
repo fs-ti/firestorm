@@ -1,0 +1,141 @@
+{
+   "panel": {
+      "@name": "contact_sets_panel",
+      "panel.string:empty_list": {
+         "@name": "empty_list",
+         "#text": {
+            "string": "\n    This contact set is empty.\n    "
+         }
+      },
+      "panel.string:no_sets": {
+         "@name": "no_sets",
+         "#text": {
+            "string": "\n    No sets\n    "
+         }
+      },
+      "panel.string:all_sets": {
+         "@name": "all_sets",
+         "#text": {
+            "string": "\n    All sets\n    "
+         }
+      },
+      "panel.string:pseudonyms": {
+         "@name": "pseudonyms",
+         "#text": {
+            "string": "\n    Aliases\n    "
+         }
+      },
+      "panel.string:non_friends": {
+         "@name": "non_friends",
+         "#text": {
+            "string": "\n    Non-Friends\n    "
+         }
+      },
+      "combo_box:combo_sets": {
+         "@name": "combo_sets"
+      },
+      "button:config_btn": {
+         "@name": "config_btn",
+         "@tool_tip": {
+            "string": "Configure selected contact set"
+         }
+      },
+      "button:add_set_btn": {
+         "@name": "add_set_btn",
+         "@tool_tip": {
+            "string": "Add a new contact set"
+         }
+      },
+      "button:remove_set_btn": {
+         "@name": "remove_set_btn",
+         "@tool_tip": {
+            "string": "Remove selected contact set"
+         }
+      },
+      "view_border:info_border": {
+         "@name": "info_border"
+      },
+      "avatar_list:contact_list": {
+         "@name": "contact_list"
+      },
+      "#comment": " Action buttons ",
+      "button:add_btn": {
+         "@label": {
+            "string": "Add..."
+         },
+         "@name": "add_btn",
+         "@tool_tip": {
+            "string": "Add an avatar to the current contact set"
+         }
+      },
+      "button:remove_btn": {
+         "@label": {
+            "string": "Remove..."
+         },
+         "@name": "remove_btn",
+         "@tool_tip": {
+            "string": "Remove this avatar from the current contact set"
+         }
+      },
+      "button:profile_btn": {
+         "@label": {
+            "string": "Profile..."
+         },
+         "@name": "profile_btn",
+         "@tool_tip": {
+            "string": "Open this avatar's profile"
+         }
+      },
+      "button:start_im_btn": {
+         "@label": {
+            "string": "IM..."
+         },
+         "@name": "start_im_btn",
+         "@tool_tip": {
+            "string": "Begin an instant message conversation"
+         }
+      },
+      "button:offer_teleport_btn": {
+         "@label": {
+            "string": "Teleport..."
+         },
+         "@name": "offer_teleport_btn",
+         "@tool_tip": {
+            "string": "Offer a teleport to your current location"
+         }
+      },
+      "button:set_pseudonym_btn": {
+         "@label": {
+            "string": "Set Alias..."
+         },
+         "@name": "set_pseudonym_btn",
+         "@tool_tip": {
+            "string": "Give this avatar a pseudonym"
+         }
+      },
+      "button:remove_pseudonym_btn": {
+         "@label": {
+            "string": "Rem Alias..."
+         },
+         "@name": "remove_pseudonym_btn",
+         "@tool_tip": {
+            "string": "Remove an avatar's pseudonym"
+         }
+      },
+      "button:remove_displayname_btn": {
+         "@label": {
+            "string": "Rem DN..."
+         },
+         "@name": "remove_displayname_btn",
+         "@tool_tip": {
+            "string": "Remove an avatar's display name"
+         }
+      },
+      "text:member_count": {
+         "@name": "member_count",
+         "#text": {
+            "string": "\n    Members: [COUNT]\n    "
+         }
+      }
+   }
+}

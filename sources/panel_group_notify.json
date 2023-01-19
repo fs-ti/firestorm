@@ -1,0 +1,74 @@
+{
+   "panel": {
+      "@label": {
+         "string": "instant_message"
+      },
+      "@name": "panel_group_notify",
+      "string:message_max_lines_count": {
+         "@name": "message_max_lines_count",
+         "@value": {
+            "string": "10"
+         }
+      },
+      "string:subject_font": {
+         "@name": "subject_font",
+         "@value": {
+            "string": "SANSSERIF_BIG"
+         }
+      },
+      "string:date_font": {
+         "@name": "date_font",
+         "@value": {
+            "string": "SANSSERIF"
+         }
+      },
+      "text:group_notice": {
+         "@name": "group_notice",
+         "@value": {
+            "string": "Group Notice"
+         }
+      },
+      "text:title": {
+         "@name": "title",
+         "@value": {
+            "string": "Sent by Sender Name, Group Name"
+         }
+      },
+      "group_icon:group_icon": {
+         "@name": "group_icon"
+      },
+      "simple_text_editor:message": {
+         "@name": "message",
+         "@value": {
+            "string": "message"
+         }
+      },
+      "icon:attachment_icon": {
+         "@name": "attachment_icon"
+      },
+      "text:attachment": {
+         "@name": "attachment",
+         "@value": {
+            "string": "Attachment"
+         }
+      },
+      "button:btn_ok": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "btn_ok"
+      },
+      "button:btn_notices": {
+         "@label": {
+            "string": "Group Notices"
+         },
+         "@name": "btn_notices"
+      },
+      "button:btn_groupchat": {
+         "@label": {
+            "string": "Group Chat"
+         },
+         "@name": "btn_groupchat"
+      }
+   }
+}

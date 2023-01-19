@@ -1,0 +1,614 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Move"
+      },
+      "@name": "move_panel",
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Move and View"
+         },
+         "@name": "tabs",
+         "#comment": "View",
+         "panel:tab-view": {
+            "@label": {
+               "string": "View"
+            },
+            "@name": "tab-view",
+            "icon:camera_icon": {
+               "@name": "camera_icon"
+            },
+            "slider:camera_fov": {
+               "@label": {
+                  "string": "View angle"
+               },
+               "@name": "camera_fov",
+               "@tool_tip": {
+                  "string": "In real world terms this is a Zoom feature. This will change the field of view in your viewer window. It is the same as hitting Ctrl + 0 or Ctrl+8. NOTE: This will not function if you have flycam enabled (3D SpaceNavigator)."
+               }
+            },
+            "slider:camera_offset_scale": {
+               "@label": {
+                  "string": "Distance"
+               },
+               "@name": "camera_offset_scale"
+            },
+            "slider:camera_transition_time": {
+               "@label": {
+                  "string": "Transition Time"
+               },
+               "@name": "camera_transition_time"
+            },
+            "slider:camera_position_smoothing": {
+               "@label": {
+                  "string": "Smoothing"
+               },
+               "@name": "camera_position_smoothing"
+            },
+            "check_box:DisableCameraConstraints": {
+               "@label": {
+                  "string": "Disable camera constraints"
+               },
+               "@name": "DisableCameraConstraints",
+               "@tool_tip": {
+                  "string": "Set this to move your camera beyond its normal bounds and below land level. If you are not good at moving the camera, more of your shots may be at bad angles."
+               }
+            },
+            "check_box:FSDisableMouseWheelCameraZoom": {
+               "@label": {
+                  "string": "Don't use the mouse wheel to control zoom level of the camera"
+               },
+               "@name": "FSDisableMouseWheelCameraZoom"
+            },
+            "text:heading2": {
+               "@name": "heading2",
+               "#text": {
+                  "string": "\n         Automatically pose avatar during (select one or more):\n        "
+               }
+            },
+            "check_box:edit_camera_movement": {
+               "@label": {
+                  "string": "Build/Edit"
+               },
+               "@name": "edit_camera_movement",
+               "@tool_tip": {
+                  "string": "Use automatic camera positioning when entering and exiting edit mode"
+               }
+            },
+            "check_box:appearance_camera_movement": {
+               "@label": {
+                  "string": "Appearance"
+               },
+               "@name": "appearance_camera_movement",
+               "@tool_tip": {
+                  "string": "Use automatic camera positioning while in edit mode"
+               }
+            },
+            "check_box:FSAppearanceShowHints": {
+               "@label": {
+                  "string": "Show Visual Hints"
+               },
+               "@name": "FSAppearanceShowHints",
+               "@tool_tip": {
+                  "string": "Enable or disable the visual hints showing the avatar parts being modified."
+               }
+            },
+            "check_box:clickonavatarkeepscamera": {
+               "@label": {
+                  "string": "Clicking your avatar keeps camera position"
+               },
+               "@name": "clickonavatarkeepscamera",
+               "@tool_tip": {
+                  "string": "Normally, clicking on your avatar resets the camera position. This option removes this behavior."
+               }
+            },
+            "check_box:FSResetCameraOnTP": {
+               "@label": {
+                  "string": "Reset camera position after teleport (within a region)"
+               },
+               "@name": "FSResetCameraOnTP",
+               "@tool_tip": {
+                  "string": "Normally, the camera position gets reset when teleporting. This option prevents this behavior."
+               }
+            },
+            "check_box:FSResetCameraOnMovement": {
+               "@label": {
+                  "string": "Reset camera position on avatar movement"
+               },
+               "@name": "FSResetCameraOnMovement"
+            },
+            "check_box:disableminzoomdist": {
+               "@label": {
+                  "string": "Disable minimum camera zoom distance"
+               },
+               "@name": "disableminzoomdist",
+               "@tool_tip": {
+                  "string": "Disable the constraint on the closest distance the camera is allowed to get to an object."
+               }
+            },
+            "check_box:resetviewturnsavatar": {
+               "@label": {
+                  "string": "Turn avatar towards camera direction on reset view"
+               },
+               "@name": "resetviewturnsavatar",
+               "@tool_tip": {
+                  "string": "This option keeps the camera direction and turns the avatar when Reset View is selected (hit ESC key)."
+               }
+            },
+            "check_box:ignorecameraconstraints": {
+               "@label": {
+                  "string": "Allow the camera to move without constraints through prims"
+               },
+               "@name": "ignorecameraconstraints",
+               "@tool_tip": {
+                  "string": "Ignores the 'push' the simulator applies to your camera to keep it out of objects."
+               }
+            },
+            "text:ignorecameraconstraints_requires_restart": {
+               "@name": "ignorecameraconstraints_requires_restart",
+               "#text": {
+                  "string": "\n            (requires restart)\n        "
+               }
+            },
+            "check_box:FSTempDerenderUntilTeleport": {
+               "@label": {
+                  "string": "Re-render temporary derendered objects after teleport"
+               },
+               "@name": "FSTempDerenderUntilTeleport",
+               "@tool_tip": {
+                  "string": "If enabled, temporary derendered objects will stay derendered until teleport. If disabled, they stay derendered until the end of the session or get manually re-rendered via the asset blacklist window."
+               }
+            }
+         },
+         "#comment$4": "Mouselook",
+         "panel:tab-mouselook": {
+            "@label": {
+               "string": "Mouselook"
+            },
+            "@name": "tab-mouselook",
+            "icon:avatar_icon": {
+               "@name": "avatar_icon"
+            },
+            "check_box:EnableMouselook": {
+               "@label": {
+                  "string": "Enable Mouselook functionality"
+               },
+               "@name": "EnableMouselook",
+               "@tool_tip": {
+                  "string": "Allow first person perspective and mouse control of camera"
+               }
+            },
+            "check_box:first_person_avatar_visible": {
+               "@label": {
+                  "string": "Show avatar in Mouselook"
+               },
+               "@name": "first_person_avatar_visible"
+            },
+            "check_box:first_person_ui_visible": {
+               "@label": {
+                  "string": "Show user interface in Mouselook"
+               },
+               "@name": "first_person_ui_visible"
+            },
+            "check_box:FSShowConvoAndRadarInML": {
+               "@label": {
+                  "string": "Keep Conversations and Radar windows open when changing into Mouselook"
+               },
+               "@name": "FSShowConvoAndRadarInML"
+            },
+            "check_box:FSEnableRightclickMenuInMouselook": {
+               "@label": {
+                  "string": "Enable context menus in Mouselook"
+               },
+               "@name": "FSEnableRightclickMenuInMouselook",
+               "@tool_tip": {
+                  "string": "Opens pie/context menu in mouselook mode upon ALT + right mouse button"
+               }
+            },
+            "check_box:FSScrollWheelExitsMouselook": {
+               "@label": {
+                  "string": "Leave Mouselook using the scroll wheel"
+               },
+               "@name": "FSScrollWheelExitsMouselook",
+               "@tool_tip": {
+                  "string": "If enabled, turning the scroll wheel on the mouse will exit Mouselook"
+               }
+            },
+            "check_box:mouselook_instructions_visible": {
+               "@label": {
+                  "string": "Show Mouselook instructions"
+               },
+               "@name": "mouselook_instructions_visible",
+               "@tool_tip": {
+                  "string": "Show Mouselook Instructions"
+               }
+            },
+            "check_box:ShowCrosshairs": {
+               "@label": {
+                  "string": "Show Mouselook crosshairs"
+               },
+               "@name": "ShowCrosshairs",
+               "@tool_tip": {
+                  "string": "Display crosshairs when in mouselook mode"
+               }
+            },
+            "check_box:FSMouselookCombatFeatures": {
+               "@label": {
+                  "string": "Enable combat features"
+               },
+               "@name": "FSMouselookCombatFeatures"
+            },
+            "check_box:ExodusMouselookIFF": {
+               "@label": {
+                  "string": "Draw target markers"
+               },
+               "@name": "ExodusMouselookIFF"
+            },
+            "slider:ExodusMouselookIFFRange": {
+               "@label": {
+                  "string": "Range (m):"
+               },
+               "@name": "ExodusMouselookIFFRange"
+            },
+            "text:Mouse Sensitivity": {
+               "@name": "Mouse Sensitivity",
+               "#text": {
+                  "string": "\n         Mouselook mouse sensitivity:\n        "
+               }
+            },
+            "slider:mouse_sensitivity": {
+               "@name": "mouse_sensitivity"
+            },
+            "check_box:invert_mouse": {
+               "@label": {
+                  "string": "Invert"
+               },
+               "@name": "invert_mouse"
+            }
+         },
+         "#comment$6": "Movement",
+         "panel:tab-movement": {
+            "@label": {
+               "string": "Movement"
+            },
+            "@name": "tab-movement",
+            "check_box:arrow_keys_move_avatar_check": {
+               "@label": {
+                  "string": "Arrow keys always move me"
+               },
+               "@name": "arrow_keys_move_avatar_check"
+            },
+            "check_box:LetterKeysAffectsMovementNotFocusChatBar": {
+               "@label": {
+                  "string": "Pressing letter keys affects movement (i.e. WASD) instead of starting nearby chat"
+               },
+               "@name": "LetterKeysAffectsMovementNotFocusChatBar"
+            },
+            "check_box:tap_tap_hold_to_run": {
+               "@label": {
+                  "string": "Tap-tap-hold to run"
+               },
+               "@name": "tap_tap_hold_to_run"
+            },
+            "check_box:automatic_fly": {
+               "@label": {
+                  "string": "Fly / land on holding up (jump) / down (crouch)"
+               },
+               "@name": "automatic_fly"
+            },
+            "check_box:crouch_toggle_mode": {
+               "@label": {
+                  "string": "Enable crouch toggle mode"
+               },
+               "@name": "crouch_toggle_mode"
+            },
+            "check_box:FSIgnoreFinishAnimation": {
+               "@label": {
+                  "string": "Disable waiting for pre-jump and landing animations"
+               },
+               "@name": "FSIgnoreFinishAnimation"
+            },
+            "check_box:FSDisableTurningAroundWhenWalkingBackwards": {
+               "@label": {
+                  "string": "Allow avatars to walk backwards on your screen (SL default, local only)"
+               },
+               "@name": "FSDisableTurningAroundWhenWalkingBackwards",
+               "@tool_tip": {
+                  "string": "When checked, this option allows avatars that are moving backwards to be seen on your screen as walking backwards. This setting only affects what your viewer shows, not what the avatar actually does. This is the default behavior in the Second Life viewer. The avatar's AO may override this behavior and force turning the avatar around instead."
+               }
+            },
+            "check_box:FSTurnAvatarToSelectedObject": {
+               "@label": {
+                  "string": "Turn avatar towards a selected object"
+               },
+               "@name": "FSTurnAvatarToSelectedObject",
+               "@tool_tip": {
+                  "string": "Turns your avatar around to face the object you are currently selecting."
+               }
+            },
+            "slider:av_turn_spd": {
+               "@label": {
+                  "string": "Avatar Rotation Turn Speed:"
+               },
+               "@name": "av_turn_spd",
+               "@tool_tip": {
+                  "string": "Alters the rate at which your avatar responds to turning. 0-100 as estimated percentage of max turn rate. 0 is default. High values will be snappy/jerky"
+               }
+            },
+            "text:Region_Crossing_Movement_Label": {
+               "@name": "Region_Crossing_Movement_Label",
+               "#text": {
+                  "string": "\n            Region crossing movement prediction:\n        "
+               }
+            },
+            "radio_group:Region_Crossing_Movement": {
+               "@name": "Region_Crossing_Movement",
+               "radio_item:move_predict": {
+                  "@label": {
+                     "string": "Unlimited"
+                  },
+                  "@name": "move_predict"
+               },
+               "radio_item:move_stop": {
+                  "@label": {
+                     "string": "Stop when error gets too large"
+                  },
+                  "@name": "move_stop"
+               }
+            },
+            "text:movelock_lbl": {
+               "@name": "movelock_lbl",
+               "#text": {
+                  "string": "\n         If built in LSL Bridge movelock is active...\n        "
+               }
+            },
+            "check_box:RelockMoveLockAfterRegionChange": {
+               "@label": {
+                  "string": "Always re-lock position after region change"
+               },
+               "@name": "RelockMoveLockAfterRegionChange"
+            },
+            "check_box:RelockMoveLockAfterMovement": {
+               "@label": {
+                  "string": "Lock and unlock position after stopping or starting movement"
+               },
+               "@name": "RelockMoveLockAfterMovement"
+            },
+            "text:single_click_action_lbl": {
+               "@name": "single_click_action_lbl",
+               "#text": {
+                  "string": "\n         Single click on land:\n        "
+               }
+            },
+            "combo_box:single_click_action_combo": {
+               "@name": "single_click_action_combo",
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "No action"
+                  },
+                  "@name": "0"
+               },
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Move to clicked point"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.commit_callback": null
+            },
+            "text:double_click_action_lbl": {
+               "@name": "double_click_action_lbl",
+               "#text": {
+                  "string": "\n         Double click on land:\n        "
+               }
+            },
+            "combo_box:double_click_action_combo": {
+               "@name": "double_click_action_combo",
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "No action"
+                  },
+                  "@name": "0"
+               },
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Move to clicked point"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "Teleport to clicked point"
+                  },
+                  "@name": "2"
+               },
+               "combo_box.commit_callback": null
+            },
+            "check_box:FSAllowDoubleClickOnScriptedObjects": {
+               "@label": {
+                  "string": "Allow double-click action on scripted objects"
+               },
+               "@name": "FSAllowDoubleClickOnScriptedObjects"
+            },
+            "button:joystick_setup_button": {
+               "@label": {
+                  "string": "Joystick Configuration"
+               },
+               "@name": "joystick_setup_button",
+               "button.commit_callback": null
+            }
+         },
+         "#comment$8": " Teleports ",
+         "panel:tab-teleports": {
+            "@label": {
+               "string": "Teleports"
+            },
+            "@name": "tab-teleports",
+            "check_box:PlayTeleportSound": {
+               "@label": {
+                  "string": "Play sound effect when teleporting"
+               },
+               "@name": "PlayTeleportSound"
+            },
+            "check_box:FSFlyAfterTeleport": {
+               "@label": {
+                  "string": "Always fly after teleporting"
+               },
+               "@name": "FSFlyAfterTeleport"
+            },
+            "check_box:FSAlwaysShowTPCancel": {
+               "@label": {
+                  "string": "Always show the Teleport cancel button"
+               },
+               "@name": "FSAlwaysShowTPCancel",
+               "@tool_tip": {
+                  "string": "Always show the TP cancel button even if the sim says it can't be canceled. The sim will always know if it can and will ignore cancel requests on death/god TPs anyways. This setting is ignored by RestrainedLoveAPI (i.e. its restrictions can still disable it)."
+               }
+            },
+            "check_box:tp_beam_toggle": {
+               "@label": {
+                  "string": "Disable Teleport Beacons"
+               },
+               "@name": "tp_beam_toggle",
+               "@tool_tip": {
+                  "string": "Disables the teleport destination beacons after teleports."
+               }
+            },
+            "check_box:tp_screen_toggle": {
+               "@label": {
+                  "string": "Disable Teleport Screens"
+               },
+               "@name": "tp_screen_toggle",
+               "@tool_tip": {
+                  "string": "Disables the black teleport screen during all teleports."
+               }
+            },
+            "check_box:FSDoNotHideMapOnTeleport": {
+               "@label": {
+                  "string": "Do not close the map when teleporting"
+               },
+               "@name": "FSDoNotHideMapOnTeleport",
+               "@tool_tip": {
+                  "string": "Disables the automatic closing of the map when teleporting."
+               }
+            },
+            "#comment": " FS:Beq Fire-20977 ",
+            "check_box:FSRenderFriendsOnlyPersistsTP": {
+               "@label": {
+                  "string": "Keep 'Show Friends Only' enabled after teleporting."
+               },
+               "@name": "FSRenderFriendsOnlyPersistsTP",
+               "@tool_tip": {
+                  "string": "Disables the automatic cancelling of the 'Show Friends Only' function (default: off)"
+               }
+            },
+            "check_box:FSShowBackSLURL": {
+               "@label": {
+                  "string": "Report the SLURL of the region you completed a teleport from"
+               },
+               "@name": "FSShowBackSLURL"
+            }
+         },
+         "#comment$10": " Map & Minimap ",
+         "panel:tab-maps": {
+            "@label": {
+               "string": "Map & Minimap"
+            },
+            "@name": "tab-maps",
+            "text:minimap_options_label": {
+               "@name": "minimap_options_label",
+               "#text": {
+                  "string": "\n         Minimap options:\n        "
+               }
+            },
+            "check_box:minimaprotate": {
+               "@label": {
+                  "string": "Enable Minimap rotation"
+               },
+               "@name": "minimaprotate",
+               "@tool_tip": {
+                  "string": "Rotate miniature world map to avatar direction."
+               }
+            },
+            "text:netmap_double_click_action_lbl": {
+               "@name": "netmap_double_click_action_lbl",
+               "#text": {
+                  "string": "\n         Double click on Minimap:\n        "
+               }
+            },
+            "combo_box:netmap_double_click_action_combo": {
+               "@name": "netmap_double_click_action_combo",
+               "combo_box.item:0": {
+                  "@label": {
+                     "string": "No action"
+                  },
+                  "@name": "0"
+               },
+               "combo_box.item:1": {
+                  "@label": {
+                     "string": "Open world map"
+                  },
+                  "@name": "1"
+               },
+               "combo_box.item:2": {
+                  "@label": {
+                     "string": "Teleport to clicked point"
+                  },
+                  "@name": "2"
+               }
+            },
+            "slider:FSMinimapPickScale": {
+               "@label": {
+                  "string": "Pick radius:"
+               },
+               "@name": "FSMinimapPickScale",
+               "@tool_tip": {
+                  "string": "Controls the radius of the pick range on the minimap. The opacity and color of the pick range can be adjusted with the Pick radius color and Opacity settings."
+               }
+            },
+            "text:world_map_options_label": {
+               "@name": "world_map_options_label",
+               "#text": {
+                  "string": "\n         World Map options:\n        "
+               }
+            },
+            "check_box:WorldmapFilterDuplicateLandmarks": {
+               "@label": {
+                  "string": "Filter duplicate Landmarks on World Map"
+               },
+               "@name": "WorldmapFilterDuplicateLandmarks",
+               "@tool_tip": {
+                  "string": "Filters duplicate Landmark entries in the Landmark list on the World Map."
+               }
+            },
+            "check_box:FSAdvancedWorldmapRegionInfo": {
+               "@label": {
+                  "string": "Show additional region information on World Map"
+               },
+               "@name": "FSAdvancedWorldmapRegionInfo",
+               "@tool_tip": {
+                  "string": "Shows additional region infos on the World Map (avatar count and maturity level)."
+               }
+            },
+            "check_box:FSShowRegionGridCoordinates": {
+               "@label": {
+                  "string": "Show grid coordinates on the World Map"
+               },
+               "@name": "FSShowRegionGridCoordinates",
+               "@tool_tip": {
+                  "string": "Shows the grid coordinates (in units of regions) on the World Map."
+               }
+            },
+            "check_box:FSWorldMapDoubleclickTeleport": {
+               "@label": {
+                  "string": "Enable double click teleports on the World Map"
+               },
+               "@name": "FSWorldMapDoubleclickTeleport",
+               "@tool_tip": {
+                  "string": "Enables teleporting via double click to a destination on the World Map."
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,472 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Members & Roles"
+      },
+      "@name": "roles_tab",
+      "panel.string:default_needs_apply_text": {
+         "@name": "default_needs_apply_text",
+         "#text": {
+            "string": "\n        There are unsaved changes\n    "
+         }
+      },
+      "panel.string:want_apply_text": {
+         "@name": "want_apply_text",
+         "#text": {
+            "string": "\n        Do you want to save your changes?\n    "
+         }
+      },
+      "panel.string:help_text": {
+         "@name": "help_text"
+      },
+      "#comment": " separates the tab panel from the options underneath ",
+      "tab_container:roles_tab_container": {
+         "@name": "roles_tab_container",
+         "#comment": " MEMBERS sub tab ",
+         "panel:members_sub_tab": {
+            "@name": "members_sub_tab",
+            "@label": {
+               "string": "Members"
+            },
+            "@tool_tip": {
+               "string": "Members"
+            },
+            "panel.string:help_text": {
+               "@name": "help_text",
+               "#text": {
+                  "string": "\n                You can add or remove Roles assigned to Members.\nSelect multiple Members by holding the Ctrl key and\nclicking on their names.\n            "
+               }
+            },
+            "panel.string:donation_area": {
+               "@name": "donation_area",
+               "#text": {
+                  "string": "\n                [AREA] m²\n            "
+               }
+            },
+            "panel.string": null,
+            "filter_editor:filter_input": {
+               "@label": {
+                  "string": "Filter Members"
+               },
+               "@name": "filter_input"
+            },
+            "name_list:member_list": {
+               "@name": "member_list",
+               "name_list.columns:name": {
+                  "@label": {
+                     "string": "Member"
+                  },
+                  "@name": "name"
+               },
+               "name_list.columns:donated": {
+                  "@label": {
+                     "string": "Donation"
+                  },
+                  "@name": "donated"
+               },
+               "name_list.columns:online": {
+                  "@label": {
+                     "string": "Status"
+                  },
+                  "@name": "online"
+               },
+               "name_list.columns:title": {
+                  "@label": {
+                     "string": "Title"
+                  },
+                  "@name": "title"
+               }
+            },
+            "button:member_invite": {
+               "@name": "member_invite",
+               "@label": {
+                  "string": "Invite"
+               }
+            },
+            "button:member_eject": {
+               "@name": "member_eject",
+               "@label": {
+                  "string": "Eject"
+               }
+            },
+            "button:member_ban": {
+               "@label": {
+                  "string": "Ban Member(s)"
+               },
+               "@name": "member_ban"
+            },
+            "button:export_list": {
+               "@name": "export_list",
+               "@label": {
+                  "string": "Export List"
+               }
+            }
+         },
+         "#comment$3": " ROLES sub tab ",
+         "panel:roles_sub_tab": {
+            "@name": "roles_sub_tab",
+            "@label": {
+               "string": "Roles"
+            },
+            "@tool_tip": {
+               "string": "Roles"
+            },
+            "#comment": " <button\n             enabled=\"false\"\n             height=\"20\"\n             label=\"Show All\"\n             layout=\"topleft\"\n             top=\"-65\"\n             right=\"-5\"\n             name=\"show_all_button\"\n             width=\"100\" />",
+            "panel.string:help_text": {
+               "@name": "help_text",
+               "#text": {
+                  "string": "\n            Roles have a title and an allowed list of Abilities\nthat Members can perform. Members can belong to\none or more Roles. A group can have up to 10 Roles,\nincluding the Everyone and Owner Roles.\n            "
+               }
+            },
+            "panel.string:cant_delete_role": {
+               "@name": "cant_delete_role",
+               "#text": {
+                  "string": "\n            The 'Everyone' and 'Owners' Roles are special and can't be deleted.\n            "
+               }
+            },
+            "panel.string": null,
+            "filter_editor:filter_input": {
+               "@label": {
+                  "string": "Filter Roles"
+               },
+               "@name": "filter_input"
+            },
+            "scroll_list:role_list": {
+               "@name": "role_list",
+               "scroll_list.columns:name": {
+                  "@label": {
+                     "string": "Role"
+                  },
+                  "@name": "name"
+               },
+               "scroll_list.columns:title": {
+                  "@label": {
+                     "string": "Title"
+                  },
+                  "@name": "title"
+               },
+               "scroll_list.columns:members": {
+                  "@label": {
+                     "string": "#"
+                  },
+                  "@name": "members"
+               }
+            },
+            "button:role_create": {
+               "@name": "role_create",
+               "@label": {
+                  "string": "New Role"
+               }
+            },
+            "button:role_copy": {
+               "@label": {
+                  "string": "Copy Role"
+               },
+               "@name": "role_copy"
+            },
+            "button:role_delete": {
+               "@name": "role_delete",
+               "@label": {
+                  "string": "Delete Role"
+               }
+            }
+         },
+         "#comment$5": " ABILITIES sub tab ",
+         "panel:actions_sub_tab": {
+            "@name": "actions_sub_tab",
+            "@label": {
+               "string": "Abilities"
+            },
+            "@tool_tip": {
+               "string": "You can view an Ability's Description and which Roles and Members can execute the Ability."
+            },
+            "panel.string:help_text": {
+               "@name": "help_text",
+               "#text": {
+                  "string": "\n                Abilities allow Members in Roles to do specific\nthings in this group. There's a broad variety of Abilities.\n            "
+               }
+            },
+            "panel.string": null,
+            "filter_editor:filter_input": {
+               "@label": {
+                  "string": "Filter Abilities"
+               },
+               "@name": "filter_input"
+            },
+            "scroll_list:action_list": {
+               "@name": "action_list",
+               "@tool_tip": {
+                  "string": "Select an Ability to view more details"
+               },
+               "scroll_list.columns:icon": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "icon"
+               },
+               "scroll_list.columns:checkbox": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "checkbox"
+               },
+               "scroll_list.columns:action": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "action"
+               }
+            }
+         },
+         "panel:banlist_sub_tab": {
+            "@label": {
+               "string": "Banned Residents"
+            },
+            "@name": "banlist_sub_tab",
+            "@tool_tip": {
+               "string": "View the banned residents from this group."
+            },
+            "panel.string:help_text": {
+               "@name": "help_text",
+               "#text": {
+                  "string": "\n        Any resident on the ban list will be unable to join the group.\n      "
+               }
+            },
+            "panel.string:ban_count_template": {
+               "@name": "ban_count_template",
+               "#text": {
+                  "string": "\n        Ban count: [COUNT]/[LIMIT]\n      "
+               }
+            },
+            "name_list:ban_list": {
+               "@name": "ban_list",
+               "name_list.columns:name": {
+                  "@label": {
+                     "string": "Resident"
+                  },
+                  "@name": "name"
+               },
+               "name_list.columns:ban_date": {
+                  "@label": {
+                     "string": "Date Banned"
+                  },
+                  "@name": "ban_date"
+               }
+            },
+            "button:ban_create": {
+               "@label": {
+                  "string": "Ban Resident(s)"
+               },
+               "@name": "ban_create",
+               "@tool_tip": {
+                  "string": "Ban residents from your group"
+               }
+            },
+            "button:ban_delete": {
+               "@label": {
+                  "string": "Remove Ban(s)"
+               },
+               "@name": "ban_delete",
+               "@tool_tip": {
+                  "string": "Unban selected residents from your group"
+               }
+            },
+            "button:ban_refresh": {
+               "@name": "ban_refresh",
+               "@tool_tip": {
+                  "string": "Refresh the ban list"
+               }
+            },
+            "text:ban_count": {
+               "@name": "ban_count"
+            }
+         }
+      },
+      "#comment$7": "    </layout_panel> ",
+      "#comment$8": " UI elements that get hidden or shown, depending on the currently selected tab ",
+      "#comment$9": " currently commented out due to a bug or misbehavior of <scroll_list> and <name_list> in conjunction with <layout_stack> and follows=\"all\" ",
+      "#comment$10": "\n    <layout_panel\n     height=\"100\"\n     min_height=\"50\"\n     right=\"-1\"\n     name=\"group_members_roles_layout_panel\"\n     user_resize=\"true\"\n     follows=\"all\"\n     layout=\"topleft\">\n",
+      "#comment$11": " MEMBERS footer ",
+      "panel:members_footer": {
+         "@name": "members_footer",
+         "#comment": " currently commented out due to a bug or misbehavior of <scroll_list> and <name_list> in conjunction with <layout_stack> and follows=\"all\" ",
+         "#comment$2": "\n    <layout_stack\n     name=\"group_members_footer_layout_stack\"\n     top_pad=\"4\"\n     right=\"-1\"\n     height=\"100\"\n     orientation=\"horizontal\"\n     follows=\"all\"\n     layout=\"topleft\">\n\n    <layout_panel\n     right=\"-1\"\n     name=\"group_roles_layout_panel\"\n     user_resize=\"true\"\n     follows=\"all\"\n     layout=\"topleft\">\n\n//",
+         "text:assigned_roles_label": {
+            "@name": "assigned_roles_label",
+            "#text": {
+               "string": "\n        Assigned Roles\n        "
+            }
+         },
+         "scroll_list:member_assigned_roles": {
+            "@name": "member_assigned_roles",
+            "scroll_list.columns:checkbox": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "checkbox"
+            },
+            "scroll_list.columns:role": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "role"
+            }
+         },
+         "#comment$5": "\n\n    </layout_panel>\n\n    <layout_panel\n     right=\"-1\"\n     min_height=\"94\"\n     name=\"group_members_tab_layout_panel\"\n     user_resize=\"true\"\n     layout=\"topleft\">\n\n//",
+         "text:static2": {
+            "@name": "static2",
+            "#text": {
+               "string": "\n        Allowed Abilities\n        "
+            }
+         },
+         "scroll_list:member_allowed_actions": {
+            "@tool_tip": {
+               "string": "For details of each allowed ability see the abilities tab"
+            },
+            "@name": "member_allowed_actions",
+            "scroll_list.columns:icon": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "icon"
+            },
+            "scroll_list.columns:checkbox": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "checkbox"
+            },
+            "scroll_list.columns:action": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "action"
+            }
+         },
+         "#comment$8": "\n    </layout_panel>\n    </layout_stack>\n//"
+      },
+      "#comment$13": " ROLES footer ",
+      "panel:roles_footer": {
+         "@name": "roles_footer",
+         "text:role_name_label": {
+            "@name": "role_name_label",
+            "#text": {
+               "string": "\n        Role Name\n        "
+            }
+         },
+         "line_editor:role_name": {
+            "@name": "role_name"
+         },
+         "text:role_title_label": {
+            "@name": "role_title_label",
+            "#text": {
+               "string": "\n        Role Title\n        "
+            }
+         },
+         "line_editor:role_title": {
+            "@name": "role_title"
+         },
+         "check_box:role_visible_in_list": {
+            "@label": {
+               "string": "Reveal members"
+            },
+            "@name": "role_visible_in_list",
+            "@tool_tip": {
+               "string": "Sets whether members of this role are visible in the General tab to people outside of the group."
+            }
+         },
+         "text:description_label": {
+            "@name": "description_label",
+            "#text": {
+               "string": "\n        Description\n        "
+            }
+         },
+         "text_editor:role_description": {
+            "@name": "role_description"
+         },
+         "#comment": "\n    <layout_stack\n     name=\"role_members_abilities_layout_stack\"\n     top_pad=\"4\"\n     right=\"-1\"\n     height=\"55\"\n     orientation=\"horizontal\"\n     follows=\"all\"\n     layout=\"topleft\">\n\n    <layout_panel\n     right=\"-1\"\n     name=\"role_members_layout_panel\"\n     user_resize=\"true\"\n     follows=\"all\"\n     layout=\"topleft\">\n\n     we need to use <panel> for now\n//",
+         "panel:group_roles_layout_panel": {
+            "@name": "group_roles_layout_panel",
+            "text:assigned_members_label": {
+               "@name": "assigned_members_label",
+               "#text": {
+                  "string": "\n        Assigned Members\n        "
+               }
+            },
+            "name_list:role_assigned_members": {
+               "@name": "role_assigned_members"
+            }
+         },
+         "#comment$10": "\n    </layout_panel>\n\n    <layout_panel\n     right=\"-1\"\n     name=\"role_members_layout_panel\"\n     user_resize=\"true\"\n     follows=\"all\"\n     layout=\"topleft\">\n//",
+         "panel:group_roles_layout_panel2": {
+            "@name": "group_roles_layout_panel2",
+            "text:allowed_abilities_label": {
+               "@name": "allowed_abilities_label",
+               "#text": {
+                  "string": "\n        Allowed Abilities\n        "
+               }
+            },
+            "scroll_list:role_allowed_actions": {
+               "@name": "role_allowed_actions",
+               "@tool_tip": {
+                  "string": "For details of each allowed ability see the abilities tab"
+               },
+               "scroll_list.columns:icon": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "icon"
+               },
+               "scroll_list.columns:checkbox": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "checkbox"
+               },
+               "scroll_list.columns:action": {
+                  "@label": {
+                     "string": ""
+                  },
+                  "@name": "action"
+               }
+            },
+            "#comment": "\n    </layout_panel>\n    </layout_stack>\n//"
+         }
+      },
+      "#comment$15": " ABILITIES footer ",
+      "panel:actions_footer": {
+         "@name": "actions_footer",
+         "panel:action_description_panel": {
+            "@name": "action_description_panel",
+            "text_editor:action_description": {
+               "@name": "action_description",
+               "#text": {
+                  "string": "\n        This Ability is 'Eject Members from this Group'. Only an Owner can eject another Owner.\n        "
+               }
+            }
+         },
+         "#comment": "\n        <layout_stack\n         name=\"abilities_members_actions_layout_stack\"\n         top_pad=\"4\"\n         right=\"-1\"\n         height=\"116\"\n         orientation=\"horizontal\"\n         follows=\"top\"\n         layout=\"topleft\">\n\n        <layout_panel\n         right=\"-1\"\n         name=\"abilities_members_layout_panel\"\n         user_resize=\"true\"\n         follows=\"top\"\n         layout=\"topleft\">\n//",
+         "text:action_roles_label": {
+            "@name": "action_roles_label",
+            "#text": {
+               "string": "\n        Roles with this ability\n        "
+            }
+         },
+         "scroll_list:action_roles": {
+            "@name": "action_roles"
+         },
+         "#comment$5": "\n        </layout_panel>\n        <layout_panel\n         right=\"-1\"\n         name=\"abilities_actions_layout_panel\"\n         user_resize=\"true\"\n         follows=\"top\"\n         layout=\"topleft\">\n//",
+         "text:action_members_label": {
+            "@name": "action_members_label",
+            "#text": {
+               "string": "\n        Members with this ability\n        "
+            }
+         },
+         "name_list:action_members": {
+            "@name": "action_members"
+         },
+         "#comment$8": "\n        </layout_panel>\n        </layout_stack>\n//"
+      },
+      "#comment$17": "\n  </layout_panel>\n    </layout_stack>\n//"
+   }
+}

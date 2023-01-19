@@ -1,0 +1,174 @@
+{
+   "panel": {
+      "@name": "panel_experience_search",
+      "@label": {
+         "string": "Search"
+      },
+      "string:not_found": {
+         "@name": "not_found",
+         "#text": {
+            "string": "\n    '[TEXT]' not found\n  "
+         }
+      },
+      "string:no_results": {
+         "@name": "no_results",
+         "#text": {
+            "string": "\n    No results\n  "
+         }
+      },
+      "string:searching": {
+         "@name": "searching",
+         "#text": {
+            "string": "\n    Searching...\n  "
+         }
+      },
+      "string:loading": {
+         "@name": "loading",
+         "#text": {
+            "string": "\n    Loading...\n  "
+         }
+      },
+      "string:maturity_icon_general": {
+         "@name": "maturity_icon_general",
+         "#text": {
+            "string": "\n    \"Parcel_PG_Light\"\n  "
+         }
+      },
+      "string:maturity_icon_moderate": {
+         "@name": "maturity_icon_moderate",
+         "#text": {
+            "string": "\n    \"Parcel_M_Light\"\n  "
+         }
+      },
+      "string:maturity_icon_adult": {
+         "@name": "maturity_icon_adult",
+         "#text": {
+            "string": "\n    \"Parcel_R_Light\"\n  "
+         }
+      },
+      "panel:search_panel": {
+         "@name": "search_panel",
+         "text:lbl name part": {
+            "@name": "lbl name part",
+            "#text": {
+               "string": "\n      Enter part of the name:\n    "
+            }
+         },
+         "line_editor:edit": {
+            "@name": "edit"
+         },
+         "button:find": {
+            "@label": {
+               "string": "Go"
+            },
+            "@name": "find"
+         },
+         "text:lbl max content rating": {
+            "@name": "lbl max content rating",
+            "#text": {
+               "string": "\n      Max Content Rating:\n    "
+            }
+         },
+         "icons_combo_box:maturity": {
+            "@label": {
+               "string": "Moderate"
+            },
+            "@name": "maturity",
+            "icons_combo_box.drop_down_button": null,
+            "icons_combo_box.item:Adult": {
+               "@label": {
+                  "string": "Adult"
+               },
+               "@name": "Adult",
+               "@value": {
+                  "string": "42"
+               },
+               "item.columns": {
+                  "@value": {
+                     "string": "Parcel_R_Light"
+                  }
+               }
+            },
+            "icons_combo_box.item:Mature": {
+               "@label": {
+                  "string": "Moderate"
+               },
+               "@name": "Mature",
+               "@value": {
+                  "string": "21"
+               },
+               "item.columns": {
+                  "@value": {
+                     "string": "Parcel_M_Light"
+                  }
+               }
+            },
+            "icons_combo_box.item:PG": {
+               "@label": {
+                  "string": "General"
+               },
+               "@name": "PG",
+               "@value": {
+                  "string": "13"
+               },
+               "item.columns": {
+                  "@value": {
+                     "string": "Parcel_PG_Light"
+                  }
+               }
+            }
+         },
+         "scroll_list:search_results": {
+            "@name": "search_results",
+            "columns:maturity": {
+               "@name": "maturity",
+               "@label": {
+                  "string": ""
+               }
+            },
+            "columns:experience_name": {
+               "@name": "experience_name",
+               "@label": {
+                  "string": "Name"
+               }
+            },
+            "columns:owner": {
+               "@name": "owner",
+               "@label": {
+                  "string": "Owner"
+               }
+            }
+         },
+         "button:ok_btn": {
+            "@label": {
+               "string": "OK"
+            },
+            "@name": "ok_btn"
+         },
+         "button:cancel_btn": {
+            "@label": {
+               "string": "Cancel"
+            },
+            "@name": "cancel_btn"
+         },
+         "button:profile_btn": {
+            "@label": {
+               "string": "View Profile"
+            },
+            "@name": "profile_btn"
+         },
+         "button:left_btn": {
+            "@label": {
+               "string": "<"
+            },
+            "@name": "left_btn"
+         },
+         "button:right_btn": {
+            "@label": {
+               "string": ">"
+            },
+            "@name": "right_btn"
+         }
+      }
+   }
+}

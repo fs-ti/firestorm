@@ -1,0 +1,51 @@
+{
+   "panel": {
+      "@label": {
+         "string": "People"
+      },
+      "@name": "panel_ls_people",
+      "panel:panel_ls_input": {
+         "@name": "panel_ls_input",
+         "text:search_text": {
+            "@name": "search_text",
+            "#text": {
+               "string": "\n      Enter search terms:\n    "
+            }
+         },
+         "search_combo_box:people_edit": {
+            "@name": "people_edit"
+         }
+      },
+      "#comment": " Search Pane ",
+      "panel:panel_ls_scrolllist": {
+         "@name": "panel_ls_scrolllist",
+         "fs_scroll_list:search_results_people": {
+            "@name": "search_results_people",
+            "columns:icon": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "icon"
+            },
+            "columns:username": {
+               "@label": {
+                  "string": "Name"
+               },
+               "@name": "username"
+            }
+         },
+         "button:people_back": {
+            "@label": {
+               "string": "Back"
+            },
+            "@name": "people_back"
+         },
+         "button:people_next": {
+            "@label": {
+               "string": "Next"
+            },
+            "@name": "people_next"
+         }
+      }
+   }
+}

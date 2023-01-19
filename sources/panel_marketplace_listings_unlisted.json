@@ -1,0 +1,9 @@
+{
+   "inventory_panel": {
+      "@label": {
+         "string": "Unlisted"
+      },
+      "@name": "Inactive Items",
+      "item": null
+   }
+}

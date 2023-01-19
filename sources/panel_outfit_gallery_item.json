@@ -1,0 +1,29 @@
+{
+   "panel": {
+      "@name": "gallery_item_panel",
+      "string:worn_string": {
+         "@name": "worn_string",
+         "#text": {
+            "string": "\n    (worn)\n  "
+         }
+      },
+      "icon:preview_outfit": {
+         "@name": "preview_outfit"
+      },
+      "panel:text_bg_panel": {
+         "@name": "text_bg_panel",
+         "text:outfit_name": {
+            "@name": "outfit_name",
+            "#text": {
+               "string": "\n      Summer hipster, Pierce Pierce Pierce Pierce\n    "
+            }
+         },
+         "text:outfit_worn_text": {
+            "@name": "outfit_worn_text",
+            "#text": {
+               "string": "\n      (worn)\n    "
+            }
+         }
+      }
+   }
+}

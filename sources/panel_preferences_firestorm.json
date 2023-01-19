@@ -1,0 +1,1229 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Firestorm"
+      },
+      "@name": "firestorm",
+      "panel.string:BeamsOffLabel": {
+         "@name": "BeamsOffLabel",
+         "#text": {
+            "string": "\n  === OFF ===\n"
+         }
+      },
+      "string:EmbeddedItemNotSet": {
+         "@name": "EmbeddedItemNotSet",
+         "#text": {
+            "string": "\n    Not set\n  "
+         }
+      },
+      "string:EmbeddedItemNotAvailable": {
+         "@name": "EmbeddedItemNotAvailable",
+         "#text": {
+            "string": "\n    Not available\n  "
+         }
+      },
+      "string:EmbeddedItemNotLoggedIn": {
+         "@name": "EmbeddedItemNotLoggedIn",
+         "#text": {
+            "string": "\n    Not logged in\n  "
+         }
+      },
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Firestorm Prefs"
+         },
+         "@name": "tabs",
+         "#comment": "Extras",
+         "panel:tab-extras": {
+            "@label": {
+               "string": "Extras"
+            },
+            "@name": "tab-extras",
+            "check_box:checkMiscRLVa": {
+               "@name": "checkMiscRLVa",
+               "@label": {
+                  "string": "Allow Remote Scripted Viewer Controls  (RLVa)"
+               }
+            },
+            "text:textMiscRLVaRestart": {
+               "@name": "textMiscRLVaRestart",
+               "#text": {
+                  "string": "\n            (requires restart)\n        "
+               }
+            },
+            "check_box:grouplandrez": {
+               "@label": {
+                  "string": "Always rez objects under the land group if possible"
+               },
+               "@name": "grouplandrez",
+               "@tool_tip": {
+                  "string": "Attempts to rez objects under the land group if you're in the land group regardless of which current group tag you're wearing."
+               }
+            },
+            "check_box:EffectScriptChatParticles": {
+               "@label": {
+                  "string": "Create particle effects when scripts communicate"
+               },
+               "@name": "EffectScriptChatParticles",
+               "@tool_tip": {
+                  "string": "If enabled scripted objects display swirling particle lights when the scripts communicate"
+               }
+            },
+            "check_box:FSDisableAvatarTrackerAtCloseIn": {
+               "@label": {
+                  "string": "Deactivate tracking beacon when reaching the targeted avatar (<= 3m)"
+               },
+               "@name": "FSDisableAvatarTrackerAtCloseIn",
+               "@tool_tip": {
+                  "string": "If enabled, the tracking beacon will be disabled automatically, if the distance to the targeted avatar is less than 3m. (Default)"
+               }
+            },
+            "check_box:play_default_bento_idle_animation_toggle": {
+               "@label": {
+                  "string": "Fix Bento Idle Animation"
+               },
+               "@name": "play_default_bento_idle_animation_toggle",
+               "@tool_tip": {
+                  "string": "If enabled, the viewer will run a default, priority 0 bento animation that poses hands, wings, mouth and tail in a natural position when no other bento animation is running."
+               }
+            },
+            "check_box:login_screen_toggle": {
+               "@label": {
+                  "string": "Disable Login Progress Screen"
+               },
+               "@name": "login_screen_toggle",
+               "@tool_tip": {
+                  "string": "Disables the black login progress Screen"
+               }
+            },
+            "check_box:logout_screen_toggle": {
+               "@label": {
+                  "string": "Disable Logout Progress Screen"
+               },
+               "@name": "logout_screen_toggle",
+               "@tool_tip": {
+                  "string": "Disables the black Logout progress screen."
+               }
+            },
+            "check_box:FSRenderFarClipStepping": {
+               "@label": {
+                  "string": "Enable progressive draw distance stepping"
+               },
+               "@name": "FSRenderFarClipStepping",
+               "@tool_tip": {
+                  "string": "If enabled, Firestorm will use a progressive draw distance stepping after teleporting."
+               }
+            },
+            "slider:progressive_draw_distance_interval": {
+               "@name": "progressive_draw_distance_interval",
+               "@tool_tip": {
+                  "string": "Interval in seconds between each draw distance increment"
+               }
+            },
+            "check_box:UseLSLBridge": {
+               "@name": "UseLSLBridge",
+               "@label": {
+                  "string": "Enable LSL-Client Bridge"
+               },
+               "@tool_tip": {
+                  "string": "Allows the Viewer to use a scripted attachment (Bridge) to extend its features"
+               }
+            },
+            "combo_box:UseLSLFlightAssist": {
+               "@name": "UseLSLFlightAssist",
+               "@tool_tip": {
+                  "string": "Enables the script that assists flying and hovering at extended altitudes"
+               },
+               "combo_box.item:flight_disabled": {
+                  "@label": {
+                     "string": "Flight Assist: Disabled"
+                  },
+                  "@name": "flight_disabled"
+               },
+               "combo_box.item:flight_mild": {
+                  "@label": {
+                     "string": "Flight Assist: Mild boost"
+                  },
+                  "@name": "flight_mild"
+               },
+               "combo_box.item:flight_moderate": {
+                  "@label": {
+                     "string": "Flight Assist: Moderate boost"
+                  },
+                  "@name": "flight_moderate"
+               },
+               "combo_box.item:flight_strong": {
+                  "@label": {
+                     "string": "Flight Assist: Strong boost"
+                  },
+                  "@name": "flight_strong"
+               },
+               "combo_box.item:flight_extreme": {
+                  "@label": {
+                     "string": "Flight Assist: Extreme boost"
+                  },
+                  "@name": "flight_extreme"
+               }
+            },
+            "slider:manual_environment_change_transition_period": {
+               "@name": "manual_environment_change_transition_period",
+               "@label": {
+                  "string": "Environment Transition Time:"
+               },
+               "@tool_tip": {
+                  "string": "Interval in seconds over which manual environment changes will blend. Zero is instant."
+               }
+            },
+            "check_box:EnvironmentPersistAcrossLogin": {
+               "@name": "EnvironmentPersistAcrossLogin",
+               "@label": {
+                  "string": "Persist Environment settings throughout sessions"
+               },
+               "@tool_tip": {
+                  "string": "Restores the current environment settings after next login."
+               }
+            }
+         },
+         "#comment$4": "Protection",
+         "panel:ProtectionTab": {
+            "@label": {
+               "string": "Protection"
+            },
+            "@name": "ProtectionTab",
+            "check_box:FSBlockClickSit": {
+               "@label": {
+                  "string": "Block left-click sitting on objects"
+               },
+               "@name": "FSBlockClickSit"
+            },
+            "check_box:ScriptsCanShowUI": {
+               "@label": {
+                  "string": "Allow scripts to show map UI (llMapDestination)"
+               },
+               "@name": "ScriptsCanShowUI"
+            },
+            "text:revokepermissions_txt": {
+               "@name": "revokepermissions_txt",
+               "#text": {
+                  "string": "\n         Revoke Permissions:\n         "
+               }
+            },
+            "radio_group:FSRevokePerms": {
+               "@name": "FSRevokePerms",
+               "@tool_tip": {
+                  "string": ""
+               },
+               "radio_item:never_radio": {
+                  "@label": {
+                     "string": "Never (Original behaviour)"
+                  },
+                  "@name": "never_radio"
+               },
+               "radio_item:sit_radio": {
+                  "@label": {
+                     "string": "Revoke on SIT"
+                  },
+                  "@name": "sit_radio"
+               },
+               "radio_item:stand_radio": {
+                  "@label": {
+                     "string": "Revoke on STAND"
+                  },
+                  "@name": "stand_radio"
+               },
+               "radio_item:sitnstand_radio": {
+                  "@label": {
+                     "string": "Revoke on SIT and STAND"
+                  },
+                  "@name": "sitnstand_radio"
+               }
+            },
+            "text:SurfaceAreaThreshholdLabel": {
+               "@name": "SurfaceAreaThreshholdLabel",
+               "#text": {
+                  "string": "\n         Texture Lag Protection (may break some objects):\n         "
+               }
+            },
+            "check_box:RenderVolumeSAProtection": {
+               "@label": {
+                  "string": "Automatically hide large objects with high texture area. Threshold: "
+               },
+               "@name": "RenderVolumeSAProtection",
+               "@tool_tip": {
+                  "string": "This protects you from objects with very large textures over large surface areas often designed to crash the viewer. Default is 5000 square meters, but if you find that some objects are not rendering and this option is enabled you may need to increase it."
+               }
+            },
+            "spinner:RenderVolumeSAFrameMax": {
+               "@name": "RenderVolumeSAFrameMax"
+            },
+            "check_box:UseAntiSpam": {
+               "@label": {
+                  "string": "Enable Spam Protection"
+               },
+               "@name": "UseAntiSpam"
+            },
+            "#comment": " FS:TS FIRE-23138: Enable spam protection for user's objects ",
+            "check_box:FSUseAntiSpamMine": {
+               "@label": {
+                  "string": "Enable Spam Protection even for objects owned by you"
+               },
+               "@name": "FSUseAntiSpamMine",
+               "@tool_tip": {
+                  "string": "This will apply antispam protection even to objects you own."
+               }
+            },
+            "#comment$12": " /FS:TS FIRE-23138 ",
+            "text:AntiSpamText1": {
+               "@name": "AntiSpamText1",
+               "#text": {
+                  "string": "\n           Max lines in a single message:\n        "
+               }
+            },
+            "spinner:_NACL_AntiSpamNewlines": {
+               "@name": "_NACL_AntiSpamNewlines",
+               "@tool_tip": {
+                  "string": "Maximum number of lines to accept in a single text message [Default: 70]"
+               }
+            },
+            "text:AntiSpamText2": {
+               "@name": "AntiSpamText2",
+               "#text": {
+                  "string": "\n           Max events from same source:\n        "
+               }
+            },
+            "spinner:_NACL_AntiSpamAmount": {
+               "@name": "_NACL_AntiSpamAmount",
+               "@tool_tip": {
+                  "string": "Maximum number of similar events to accept within 2 seconds from the same source [Default: 10]"
+               }
+            },
+            "text:AntiSpamText3": {
+               "@name": "AntiSpamText3",
+               "#text": {
+                  "string": "\n           Sound play requests multiplier:\n        "
+               }
+            },
+            "spinner:_NACL_AntiSpamSoundMulti": {
+               "@name": "_NACL_AntiSpamSoundMulti",
+               "@tool_tip": {
+                  "string": "Event multiplier for sound play requests [Default: 10]"
+               }
+            },
+            "text:AntiSpamText4": {
+               "@name": "AntiSpamText4",
+               "#text": {
+                  "string": "\n           Sound preload requests multiplier:\n        "
+               }
+            },
+            "spinner:_NACL_AntiSpamSoundPreloadMulti": {
+               "@name": "_NACL_AntiSpamSoundPreloadMulti",
+               "@tool_tip": {
+                  "string": "Event multiplier for sound preload requests [Default: 4]"
+               }
+            },
+            "button:AntiSpamUnblock": {
+               "@name": "AntiSpamUnblock",
+               "@label": {
+                  "string": "Unblock all spam sources"
+               }
+            },
+            "check_box:FSConfirmPayments": {
+               "@label": {
+                  "string": "Confirm before paying. Threshold:"
+               },
+               "@name": "FSConfirmPayments",
+               "@tool_tip": {
+                  "string": "Show a confirmation dialog before paying sums greater than the threshold. To always show a confirmation, set the threshold to 0."
+               }
+            },
+            "spinner:FSPaymentConfirmationThreshold": {
+               "@name": "FSPaymentConfirmationThreshold",
+               "@tool_tip": {
+                  "string": "Show a confirmation dialog before paying sums greater than the threshold. To always show a confirmation, set the threshold to 0."
+               }
+            }
+         },
+         "#comment$6": "Avatar",
+         "panel:firestorm_avatar": {
+            "@label": {
+               "string": "Avatar"
+            },
+            "@name": "firestorm_avatar",
+            "text:HeadMovement": {
+               "@name": "HeadMovement",
+               "#text": {
+                  "string": "\n            Amount that Avatar's head Follows Mouse (set to '0' for no movement):\n        "
+               }
+            },
+            "slider:PitchFromMousePositionSlider": {
+               "@label": {
+                  "string": "Vertical range that avatar's head follows mouse:"
+               },
+               "@tool_tip": {
+                  "string": "Vertical range that avatar's head follows mouse (pitch) in degrees"
+               },
+               "@name": "PitchFromMousePositionSlider"
+            },
+            "text:PitchFromMousePositionText": {
+               "@name": "PitchFromMousePositionText",
+               "#text": {
+                  "string": "\n            degrees\n        "
+               }
+            },
+            "slider:YawFromMousePositionSlider": {
+               "@label": {
+                  "string": "Horizontal range that avatar's head follows mouse:"
+               },
+               "@tool_tip": {
+                  "string": "Horizontal range that avatar's head follows mouse (yaw) in degrees"
+               },
+               "@name": "YawFromMousePositionSlider"
+            },
+            "text:YawFromMousePositionText": {
+               "@name": "YawFromMousePositionText",
+               "#text": {
+                  "string": "\n            degrees\n        "
+               }
+            },
+            "text:note_lookat": {
+               "@name": "note_lookat",
+               "#text": {
+                  "string": "\n             (Avatar look at target settings are on the Privacy tab.)\n        "
+               }
+            },
+            "check_box:FSStaticEyes": {
+               "@label": {
+                  "string": "Disable random avatar eye movements"
+               },
+               "@name": "FSStaticEyes"
+            },
+            "#comment": " LGG Color Beams ",
+            "text:BeamPrefs": {
+               "@name": "BeamPrefs",
+               "#text": {
+                  "string": "\n            Selection beam particle effects\n        "
+               }
+            },
+            "view_border:BeamDivisor": {
+               "@name": "BeamDivisor"
+            },
+            "button:BeamColor_delete": {
+               "@name": "BeamColor_delete",
+               "@label": {
+                  "string": "Delete"
+               },
+               "@tool_tip": {
+                  "string": "Remove this preset"
+               }
+            },
+            "combo_box:BeamColor_combo": {
+               "@name": "BeamColor_combo",
+               "@tool_tip": {
+                  "string": "Select the color preset for the selection beam"
+               }
+            },
+            "button:BeamColor_new": {
+               "@name": "BeamColor_new",
+               "@label": {
+                  "string": "Create New"
+               },
+               "@tool_tip": {
+                  "string": "Create a new color preset"
+               }
+            },
+            "button:BeamColor_refresh": {
+               "@name": "BeamColor_refresh",
+               "@label": {
+                  "string": "Refresh List"
+               },
+               "@tool_tip": {
+                  "string": "Refresh the preset list"
+               }
+            },
+            "button:PhoenixBeamPrev_rainbow": {
+               "@name": "PhoenixBeamPrev_rainbow",
+               "@label": {
+                  "string": ""
+               }
+            },
+            "slider:FSMaxBeamsPerSecond": {
+               "@name": "FSMaxBeamsPerSecond",
+               "@label": {
+                  "string": "Beam updates/sec:"
+               },
+               "@tool_tip": {
+                  "string": "How many beam updates to send in a second. Default 40"
+               }
+            },
+            "check_box:SLPartBeam": {
+               "@label": {
+                  "string": "Enable selection beam"
+               },
+               "@name": "SLPartBeam",
+               "@tool_tip": {
+                  "string": "Disabling this setting will prevent selection beams from being rendered locally. It does not prevent selection beams being sent to other avatars. If you do not wish to show your selection, you can disable that via Preferences -> Privacy -> LookAt -> Don't send my selection target hints."
+               }
+            },
+            "check_box:FSParticleChat": {
+               "@label": {
+                  "string": "Send selection data to chat"
+               },
+               "@name": "FSParticleChat",
+               "@tool_tip": {
+                  "string": "Sends selection data (selection start/stop and global position) to chat channel 9000."
+               }
+            },
+            "view_border:BeamDivisor2": {
+               "@name": "BeamDivisor2"
+            },
+            "combo_box:FSBeamShape_combo": {
+               "@name": "FSBeamShape_combo",
+               "@tool_tip": {
+                  "string": "Select the shape for the particle beam"
+               }
+            },
+            "button:delete_beam": {
+               "@name": "delete_beam",
+               "@label": {
+                  "string": "Delete"
+               },
+               "@tool_tip": {
+                  "string": "Remove this beam"
+               }
+            },
+            "button:custom_beam_btn": {
+               "@name": "custom_beam_btn",
+               "@label": {
+                  "string": "Create New"
+               },
+               "@tool_tip": {
+                  "string": "Customize the beam shape"
+               }
+            },
+            "button:refresh_beams": {
+               "@name": "refresh_beams",
+               "@label": {
+                  "string": "Refresh List"
+               },
+               "@tool_tip": {
+                  "string": "Refresh the beam list"
+               }
+            },
+            "button:PhoenixBeamPrev_Phoenix": {
+               "@name": "PhoenixBeamPrev_Phoenix",
+               "@label": {
+                  "string": ""
+               }
+            },
+            "slider:FSBeamShapeScale": {
+               "@name": "FSBeamShapeScale",
+               "@label": {
+                  "string": "Scale:"
+               },
+               "@tool_tip": {
+                  "string": "Change the scale of the shape used for the Phoenix Shaped Beam"
+               }
+            },
+            "text:BridgeProtocols": {
+               "@name": "BridgeProtocols",
+               "#text": {
+                  "string": "\n            LSL-Client Bridge external protocols integration:\n        "
+               }
+            },
+            "check_box:BridgeIntegrationOC": {
+               "@label": {
+                  "string": "Allow OpenCollar protocol to enable or disable built in AO"
+               },
+               "@name": "BridgeIntegrationOC"
+            },
+            "check_box:BridgeIntegrationLM": {
+               "@label": {
+                  "string": "Allow LockMeister protocol to enable or disable built in AO"
+               },
+               "@name": "BridgeIntegrationLM"
+            }
+         },
+         "#comment$8": "Build 1",
+         "panel:BuildTab": {
+            "@label": {
+               "string": "Build 1"
+            },
+            "@name": "BuildTab",
+            "text:text_box_objprams": {
+               "@name": "text_box_objprams",
+               "#text": {
+                  "string": "\n         Default Object Size\n        "
+               }
+            },
+            "text:text_box_objprams2": {
+               "@name": "text_box_objprams2",
+               "#text": {
+                  "string": "\n         Settings\n        "
+               }
+            },
+            "text:text_box_objprams3": {
+               "@name": "text_box_objprams3",
+               "#text": {
+                  "string": "\n         Texture\n        "
+               }
+            },
+            "view_border:SizeBorder": {
+               "@name": "SizeBorder"
+            },
+            "view_border:SettingBorder": {
+               "@name": "SettingBorder"
+            },
+            "view_border:TextureBorder": {
+               "@name": "TextureBorder"
+            },
+            "spinner:X size": {
+               "@label": {
+                  "string": "X size"
+               },
+               "@name": "X size"
+            },
+            "spinner:Y size": {
+               "@label": {
+                  "string": "Y size"
+               },
+               "@name": "Y size"
+            },
+            "spinner:Z size": {
+               "@label": {
+                  "string": "Z size"
+               },
+               "@name": "Z size"
+            },
+            "check_box:FSBuildPrefs_PhantomToggle": {
+               "@label": {
+                  "string": "Phantom"
+               },
+               "@name": "FSBuildPrefs_PhantomToggle"
+            },
+            "check_box:FSBuildPrefs_PhysicalToggle": {
+               "@label": {
+                  "string": "Physical"
+               },
+               "@name": "FSBuildPrefs_PhysicalToggle"
+            },
+            "check_box:FSBuildPrefs_TemporaryToggle": {
+               "@label": {
+                  "string": "Temporary"
+               },
+               "@name": "FSBuildPrefs_TemporaryToggle"
+            },
+            "combo_box:material": {
+               "@name": "material",
+               "combo_item:Stone": {
+                  "@name": "Stone",
+                  "@value": {
+                     "string": "Stone"
+                  },
+                  "@label": {
+                     "string": "Stone"
+                  }
+               },
+               "combo_item:Metal": {
+                  "@name": "Metal",
+                  "@value": {
+                     "string": "Metal"
+                  },
+                  "@label": {
+                     "string": "Metal"
+                  }
+               },
+               "combo_item:Glass": {
+                  "@name": "Glass",
+                  "@value": {
+                     "string": "Glass"
+                  },
+                  "@label": {
+                     "string": "Glass"
+                  }
+               },
+               "combo_item:Wood": {
+                  "@name": "Wood",
+                  "@value": {
+                     "string": "Wood"
+                  },
+                  "@label": {
+                     "string": "Wood"
+                  }
+               },
+               "combo_item:Flesh": {
+                  "@name": "Flesh",
+                  "@value": {
+                     "string": "Flesh"
+                  },
+                  "@label": {
+                     "string": "Flesh"
+                  }
+               },
+               "combo_item:Plastic": {
+                  "@name": "Plastic",
+                  "@value": {
+                     "string": "Plastic"
+                  },
+                  "@label": {
+                     "string": "Plastic"
+                  }
+               },
+               "combo_item:Rubber": {
+                  "@name": "Rubber",
+                  "@value": {
+                     "string": "Rubber"
+                  },
+                  "@label": {
+                     "string": "Rubber"
+                  }
+               }
+            },
+            "texture_picker:texture control": {
+               "@label": {
+                  "string": "Texture"
+               },
+               "@name": "texture control",
+               "@tool_tip": {
+                  "string": "Click to choose a picture"
+               }
+            },
+            "color_swatch:colorswatch": {
+               "@label": {
+                  "string": "Color"
+               },
+               "@name": "colorswatch",
+               "@tool_tip": {
+                  "string": "Click to open Color Picker"
+               }
+            },
+            "spinner:alpha": {
+               "@label": {
+                  "string": "Alpha"
+               },
+               "@name": "alpha"
+            },
+            "spinner:glow": {
+               "@label": {
+                  "string": "Glow"
+               },
+               "@name": "glow"
+            },
+            "check_box:EmFBToggle": {
+               "@label": {
+                  "string": "Full Bright"
+               },
+               "@name": "EmFBToggle"
+            },
+            "combo_box:combobox shininess": {
+               "@name": "combobox shininess",
+               "@tool_tip": {
+                  "string": "Set the amount of shine for the object"
+               },
+               "combo_item:None": {
+                  "@name": "None",
+                  "@value": {
+                     "string": "None"
+                  },
+                  "@label": {
+                     "string": "None"
+                  }
+               },
+               "combo_item:Low": {
+                  "@name": "Low",
+                  "@value": {
+                     "string": "Low"
+                  },
+                  "@label": {
+                     "string": "Low"
+                  }
+               },
+               "combo_item:Medium": {
+                  "@name": "Medium",
+                  "@value": {
+                     "string": "Medium"
+                  },
+                  "@label": {
+                     "string": "Medium"
+                  }
+               },
+               "combo_item:High": {
+                  "@name": "High",
+                  "@value": {
+                     "string": "High"
+                  },
+                  "@label": {
+                     "string": "High"
+                  }
+               }
+            },
+            "check_box:FSBuildPrefs_EmbedItem": {
+               "@name": "FSBuildPrefs_EmbedItem",
+               "@label": {
+                  "string": "Embed an item into new prims"
+               }
+            },
+            "view_border:embed_item_drop_target_rect": {
+               "@name": "embed_item_drop_target_rect"
+            },
+            "fs_embedded_item_drop_target:embed_item": {
+               "@name": "embed_item",
+               "@tool_tip": {
+                  "string": "Drop an inventory item here."
+               },
+               "#text": {
+                  "string": "\n         Drop an inventory item here.\n        "
+               }
+            },
+            "view_border:build_item_add_disp_rect": {
+               "@name": "build_item_add_disp_rect"
+            },
+            "text:build_item_add_disp_rect_txt": {
+               "@name": "build_item_add_disp_rect_txt",
+               "@tool_tip": {
+                  "string": ""
+               },
+               "#text": {
+                  "string": "\n         Currently set to: [ITEM]\n        "
+               }
+            },
+            "text:text_box_pivotpoint": {
+               "@name": "text_box_pivotpoint",
+               "#text": {
+                  "string": "\n          Pivot Point\n        "
+               }
+            },
+            "view_border:PivotBorder": {
+               "@name": "PivotBorder"
+            },
+            "check_box:FSBuildPrefsActualRoot_toggle": {
+               "@label": {
+                  "string": "Axis on root prim"
+               },
+               "@tool_tip": {
+                  "string": "Default behaviour is to show the axis on the center of mass of a linkset. If enabled, the axis will be shown on the root prim of the linkset instead."
+               },
+               "@name": "FSBuildPrefsActualRoot_toggle"
+            },
+            "spinner:X pos": {
+               "@label": {
+                  "string": "X pos"
+               },
+               "@name": "X pos"
+            },
+            "spinner:Y pos": {
+               "@label": {
+                  "string": "Y pos"
+               },
+               "@name": "Y pos"
+            },
+            "spinner:Z pos": {
+               "@label": {
+                  "string": "Z pos"
+               },
+               "@name": "Z pos"
+            },
+            "check_box:FSPivotPercToggle": {
+               "@label": {
+                  "string": "Values are percent"
+               },
+               "@tool_tip": {
+                  "string": "Default settings are Percentages and every axis set at 50"
+               },
+               "@name": "FSPivotPercToggle"
+            },
+            "button:fs_default_creation_permissions": {
+               "@label": {
+                  "string": "Default Creation Permissions"
+               },
+               "@name": "fs_default_creation_permissions",
+               "button.commit_callback": null
+            },
+            "text:text_box_scripting_font": {
+               "@name": "text_box_scripting_font",
+               "#text": {
+                  "string": "\n          Script Editor Font:\n        "
+               }
+            },
+            "combo_box:FSScriptingFontName": {
+               "@name": "FSScriptingFontName",
+               "@tool_tip": {
+                  "string": "Name of the font used in the LSL script editor"
+               },
+               "combo_item:Monospace": {
+                  "@name": "Monospace",
+                  "@value": {
+                     "string": "Monospace"
+                  },
+                  "@label": {
+                     "string": "Monospace"
+                  }
+               },
+               "combo_item:Scripting": {
+                  "@name": "Scripting",
+                  "@value": {
+                     "string": "Scripting"
+                  },
+                  "@label": {
+                     "string": "Scripting"
+                  }
+               },
+               "combo_item:Cascadia": {
+                  "@name": "Cascadia",
+                  "@value": {
+                     "string": "Cascadia"
+                  },
+                  "@label": {
+                     "string": "Cascadia Code"
+                  }
+               }
+            },
+            "combo_box:FSScriptingFontSize": {
+               "@name": "FSScriptingFontSize",
+               "@tool_tip": {
+                  "string": "Size of the font used in the LSL script editor"
+               },
+               "combo_item:Monospace": {
+                  "@name": "Monospace",
+                  "@value": {
+                     "string": "Monospace"
+                  },
+                  "@label": {
+                     "string": "Monospace"
+                  }
+               },
+               "combo_item:Scripting": {
+                  "@name": "Scripting",
+                  "@value": {
+                     "string": "Scripting"
+                  },
+                  "@label": {
+                     "string": "Scripting"
+                  }
+               },
+               "combo_item:Cascadia": {
+                  "@name": "Cascadia",
+                  "@value": {
+                     "string": "Cascadia"
+                  },
+                  "@label": {
+                     "string": "Cascadia Code"
+                  }
+               },
+               "combo_item:Small": {
+                  "@name": "Small",
+                  "@value": {
+                     "string": "Small"
+                  },
+                  "@label": {
+                     "string": "Small"
+                  }
+               },
+               "combo_item:Medium": {
+                  "@name": "Medium",
+                  "@value": {
+                     "string": "Medium"
+                  },
+                  "@label": {
+                     "string": "Medium"
+                  }
+               },
+               "combo_item:Large": {
+                  "@name": "Large",
+                  "@value": {
+                     "string": "Large"
+                  },
+                  "@label": {
+                     "string": "Large"
+                  }
+               }
+            },
+            "check_box:preproc_checkbox": {
+               "@label": {
+                  "string": "Enable LSL preprocessor"
+               },
+               "@tool_tip": {
+                  "string": "When checked, the LSL preprocessor is enabled."
+               },
+               "@name": "preproc_checkbox"
+            },
+            "check_box:preprocoptimizer_checkbox": {
+               "@label": {
+                  "string": "Script optimizer"
+               },
+               "@tool_tip": {
+                  "string": "When checked, the LSL preprocessor will optimize space used by scripts."
+               },
+               "@name": "preprocoptimizer_checkbox"
+            },
+            "check_box:preprocswitch_checkbox": {
+               "@label": {
+                  "string": "switch() statement"
+               },
+               "@tool_tip": {
+                  "string": "When checked, the LSL preprocessor will allow the use of the switch() statement for script flow control."
+               },
+               "@name": "preprocswitch_checkbox"
+            },
+            "check_box:preproclazy_checkbox": {
+               "@label": {
+                  "string": "Lazy lists"
+               },
+               "@tool_tip": {
+                  "string": "When checked, the LSL preprocessor will allow the use of syntax extensions for list handling."
+               },
+               "@name": "preproclazy_checkbox"
+            },
+            "check_box:preprocinclude_checkbox": {
+               "@label": {
+                  "string": "#includes from local disk"
+               },
+               "@tool_tip": {
+                  "string": "When checked, the LSL preprocessor will allow #include statements to reference files on your local disk."
+               },
+               "@name": "preprocinclude_checkbox"
+            },
+            "text:lslpreprocinclude_textbox": {
+               "@name": "lslpreprocinclude_textbox",
+               "#text": {
+                  "string": "\n          Preprocessor include path:\n        "
+               }
+            },
+            "line_editor:preprocinclude_location": {
+               "@name": "preprocinclude_location"
+            },
+            "button:SetPreprocInclude": {
+               "@label": {
+                  "string": "Browse"
+               },
+               "@name": "SetPreprocInclude",
+               "button.commit_callback": null
+            },
+            "text:externaleditor_textbox": {
+               "@name": "externaleditor_textbox",
+               "#text": {
+                  "string": "\n          External Editor:\n        "
+               }
+            },
+            "line_editor:externaleditor_location": {
+               "@name": "externaleditor_location"
+            },
+            "button:SetExternalEditor": {
+               "@label": {
+                  "string": "Browse"
+               },
+               "@name": "SetExternalEditor",
+               "button.commit_callback": null
+            }
+         },
+         "#comment$10": "Build 2",
+         "panel:BuildTab2": {
+            "@label": {
+               "string": "Build 2"
+            },
+            "@name": "BuildTab2",
+            "check_box:FSBuildPrefsRenderHighlight_toggle": {
+               "@label": {
+                  "string": "Enable highlighting of selected prims"
+               },
+               "@tool_tip": {
+                  "string": "When unchecked, the yellow/blue outline effects are not rendered, improving performance when large numbers of prims are selected."
+               },
+               "@name": "FSBuildPrefsRenderHighlight_toggle"
+            },
+            "check_box:RenderParcelSelection": {
+               "@label": {
+                  "string": "Highlight boundary of currently selected parcel"
+               },
+               "@name": "RenderParcelSelection"
+            },
+            "check_box:FSRenderParcelSelectionToMaxBuildHeight": {
+               "@label": {
+                  "string": "Show boundary up to maximum build height"
+               },
+               "@name": "FSRenderParcelSelectionToMaxBuildHeight"
+            },
+            "check_box:LimitSelectDistance": {
+               "@label": {
+                  "string": "Limit select distance (meters):"
+               },
+               "@name": "LimitSelectDistance"
+            },
+            "spinner:MaxSelectDistance": {
+               "@name": "MaxSelectDistance",
+               "@tool_tip": {
+                  "string": "Maximum allowed selection distance (meters from avatar) [Default: 128.000]"
+               }
+            },
+            "check_box:LimitDragDistance": {
+               "@label": {
+                  "string": "Limit drag distance (meters):"
+               },
+               "@name": "LimitDragDistance"
+            },
+            "spinner:MaxDragDistance": {
+               "@name": "MaxDragDistance",
+               "@tool_tip": {
+                  "string": "Maximum allowed distance in a single operation of move tool (meters from start point) [Default: 48.000]"
+               }
+            },
+            "text:RotationStepText1": {
+               "@name": "RotationStepText1",
+               "#text": {
+                  "string": "\n          Constrain rotations to multiples of\n        "
+               }
+            },
+            "spinner:RotationStep": {
+               "@name": "RotationStep",
+               "@tool_tip": {
+                  "string": "All rotations via rotation tool are constrained to multiples of this unit [Default: 1.0]"
+               }
+            },
+            "text:RotationStepText2": {
+               "@name": "RotationStepText2",
+               "#text": {
+                  "string": "\n          degrees, when not using 'snap to grid'\n        "
+               }
+            },
+            "check_box:FSUnlinkConfirmEnabled": {
+               "@label": {
+                  "string": "Show unlink confirmation dialog if linkset has minimum"
+               },
+               "@name": "FSUnlinkConfirmEnabled"
+            },
+            "spinner:MinObjectsForUnlinkConfirm": {
+               "@name": "MinObjectsForUnlinkConfirm"
+            },
+            "text:MinObjectsForUnlinkConfirmText2": {
+               "@name": "MinObjectsForUnlinkConfirmText2",
+               "#text": {
+                  "string": "\n          objects\n        "
+               }
+            },
+            "check_box:FSCommitForSaleOnChange_toggle": {
+               "@label": {
+                  "string": "Use old \"Set Object For Sale\" behavior"
+               },
+               "@tool_tip": {
+                  "string": "When checked, object for sale info is saved on change instead of requiring a confirm."
+               },
+               "@name": "FSCommitForSaleOnChange_toggle"
+            },
+            "check_box:FSSaveInventoryScriptsAsMono_toggle": {
+               "@label": {
+                  "string": "Save scripts edited from inventory as Mono"
+               },
+               "@tool_tip": {
+                  "string": "When checked, editing a script directly from inventory and then saving it saves as Mono instead of LSL."
+               },
+               "@name": "FSSaveInventoryScriptsAsMono_toggle"
+            },
+            "check_box:FSTextureDefaultSaveAsFormat": {
+               "@label": {
+                  "string": "Save textures from inventory to disk as PNG instead of TGA by default"
+               },
+               "@tool_tip": {
+                  "string": "Used in the texture preview floater and context menu in inventory."
+               },
+               "@name": "FSTextureDefaultSaveAsFormat"
+            },
+            "check_box:FSEnableGrab": {
+               "@label": {
+                  "string": "Use Ctrl+mouse to grab and manipulate objects"
+               },
+               "@tool_tip": {
+                  "string": "When checked, you will be able to grab and move objects with your mouse and CTRL key."
+               },
+               "@name": "FSEnableGrab"
+            },
+            "check_box:FSExperimentalDragTexture": {
+               "@label": {
+                  "string": "Allow click-drag or click-scale (together with caps lock) of a texture face in build mode"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, allows to click-drag or click-scale (together with caps lock) a texture face in build mode. This feature is still experimental and should be used with caution."
+               },
+               "@name": "FSExperimentalDragTexture"
+            },
+            "check_box:FSUploadAnimationOnOwnAvatar": {
+               "@label": {
+                  "string": "Preview animations on own avatar during upload"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, you can preview animations during the upload process on your own avatar"
+               },
+               "@name": "FSUploadAnimationOnOwnAvatar"
+            },
+            "check_box:FSScriptInfoExtended": {
+               "@label": {
+                  "string": "Enable extended script info details"
+               },
+               "@tool_tip": {
+                  "string": "If enabled, extend basic script info feature with various details useful for builders"
+               },
+               "@name": "FSScriptInfoExtended"
+            }
+         },
+         "#comment$12": "Uploads",
+         "panel:UploadsTab": {
+            "@label": {
+               "string": "Uploads"
+            },
+            "@name": "UploadsTab",
+            "text:title": {
+               "@name": "title",
+               "#text": {
+                  "string": "\n        Current destination folders for uploads:\n      "
+               }
+            },
+            "text:title_images": {
+               "@name": "title_images",
+               "#text": {
+                  "string": "\n        Images\n      "
+               }
+            },
+            "text:upload_textures": {
+               "@name": "upload_textures"
+            },
+            "text:title_sounds": {
+               "@name": "title_sounds",
+               "#text": {
+                  "string": "\n        Sounds\n      "
+               }
+            },
+            "text:upload_sounds": {
+               "@name": "upload_sounds"
+            },
+            "text:title_animations": {
+               "@name": "title_animations",
+               "#text": {
+                  "string": "\n        Animations\n      "
+               }
+            },
+            "text:upload_animation": {
+               "@name": "upload_animation"
+            },
+            "text:title_models": {
+               "@name": "title_models",
+               "#text": {
+                  "string": "\n        Models\n      "
+               }
+            },
+            "text:upload_models": {
+               "@name": "upload_models"
+            },
+            "text:upload_help": {
+               "@name": "upload_help",
+               "#text": {
+                  "string": "\n        To change a destination folder, right click on it in inventory and choose\n     \"Use as default for\"\n      "
+               }
+            },
+            "button:reset_default_folders": {
+               "@name": "reset_default_folders",
+               "@label": {
+                  "string": "Reset default folders"
+               }
+            }
+         }
+      }
+   }
+}

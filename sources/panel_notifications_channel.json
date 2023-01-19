@@ -1,0 +1,58 @@
+{
+   "panel": {
+      "layout_stack:stack1": {
+         "@name": "stack1",
+         "layout_panel:notifications_list_panel": {
+            "@name": "notifications_list_panel",
+            "scroll_list:notifications_list": {
+               "@name": "notifications_list",
+               "scroll_list.columns:name": {
+                  "@label": {
+                     "string": "Name"
+                  },
+                  "@name": "name"
+               },
+               "scroll_list.columns:content": {
+                  "@label": {
+                     "string": "Content"
+                  },
+                  "@name": "content"
+               },
+               "scroll_list.columns:date": {
+                  "@label": {
+                     "string": "Date"
+                  },
+                  "@name": "date"
+               }
+            }
+         },
+         "layout_panel:rejects_list_panel": {
+            "@name": "rejects_list_panel",
+            "scroll_list:notification_rejects_list": {
+               "@name": "notification_rejects_list",
+               "scroll_list.columns:name": {
+                  "@label": {
+                     "string": "Name"
+                  },
+                  "@name": "name"
+               },
+               "scroll_list.columns:content": {
+                  "@label": {
+                     "string": "Content"
+                  },
+                  "@name": "content"
+               },
+               "scroll_list.columns:date": {
+                  "@label": {
+                     "string": "Date"
+                  },
+                  "@name": "date"
+               }
+            }
+         }
+      },
+      "button:header": {
+         "@name": "header"
+      }
+   }
+}

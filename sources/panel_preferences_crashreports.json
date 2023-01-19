@@ -1,0 +1,80 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Crash Reports"
+      },
+      "@name": "crash_reports",
+      "panel.string:PrivacyPolicyUrl": {
+         "@name": "PrivacyPolicyUrl",
+         "#text": {
+            "string": "\n        https://www.firestormviewer.org/privacy-policy\n    "
+         }
+      },
+      "check_box:checkSendCrashReports": {
+         "@label": {
+            "string": "Send crash reports to firestormviewer.org"
+         },
+         "@name": "checkSendCrashReports"
+      },
+      "check_box:checkSendCrashReportsAlwaysAsk": {
+         "@label": {
+            "string": "Always ask before sending"
+         },
+         "@name": "checkSendCrashReportsAlwaysAsk"
+      },
+      "check_box:checkSendSettings": {
+         "@label": {
+            "string": "Include settings files"
+         },
+         "@name": "checkSendSettings"
+      },
+      "text:textSendSettings": {
+         "@name": "textSendSettings",
+         "#text": {
+            "string": "\n        (contains username)\n    "
+         }
+      },
+      "check_box:checkSendName": {
+         "@label": {
+            "string": "Include username"
+         },
+         "@name": "checkSendName"
+      },
+      "text:textSendName": {
+         "@name": "textSendName",
+         "#text": {
+            "string": "\n        (used to ask for additional information if needed)\n    "
+         }
+      },
+      "text:textRestartRequired": {
+         "@name": "textRestartRequired",
+         "#text": {
+            "string": "\n        Changes made to any setting require a restart to become effective.\n    "
+         }
+      },
+      "text:textInformation1": {
+         "@name": "textInformation1",
+         "#text": {
+            "string": "\n        Unless checked above crash reports only contain information relevant to the crash.\n    "
+         }
+      },
+      "text:textInformation2": {
+         "@name": "textInformation2",
+         "#text": {
+            "string": "\n        Logs are not sent, please review the contents and email separately\n    "
+         }
+      },
+      "text:textInformation3": {
+         "@name": "textInformation3",
+         "#text": {
+            "string": "\n        if you feel they might contain additional information.\n    "
+         }
+      },
+      "text:textInformation4": {
+         "@name": "textInformation4",
+         "#text": {
+            "string": "\n        Privacy policy: [URL]\n    "
+         }
+      }
+   }
+}

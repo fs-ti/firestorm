@@ -1,0 +1,47 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Controls"
+      },
+      "@name": "controls",
+      "combo_box:key_mode": {
+         "@name": "key_mode",
+         "combo_box.item:third_person": {
+            "@label": {
+               "string": "When in third person"
+            },
+            "@name": "third_person"
+         },
+         "combo_box.item:first_person": {
+            "@label": {
+               "string": "When in first person mode (Mouselook)"
+            },
+            "@name": "first_person"
+         },
+         "combo_box.item:edit_avatar": {
+            "@label": {
+               "string": "When editing avatar"
+            },
+            "@name": "edit_avatar"
+         },
+         "combo_box.item:sitting": {
+            "@label": {
+               "string": "When sitting"
+            },
+            "@name": "sitting"
+         }
+      },
+      "button:restore_defaults": {
+         "@label": {
+            "string": "Restore Defaults"
+         },
+         "@tool_tip": {
+            "string": "Restores default values for all control modes."
+         },
+         "@name": "restore_defaults"
+      },
+      "scroll_list:controls_list": {
+         "@name": "controls_list"
+      }
+   }
+}

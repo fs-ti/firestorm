@@ -1,0 +1,46 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Security"
+      },
+      "@name": "Media Settings Security",
+      "check_box:whitelist_enable": {
+         "@label": {
+            "string": "Only Allow Access to Specified URL patterns"
+         },
+         "@name": "whitelist_enable"
+      },
+      "scroll_list:whitelist": {
+         "@name": "whitelist"
+      },
+      "icon:Parcel_Exp_Color": {
+         "@name": "Parcel_Exp_Color"
+      },
+      "text:home_url_fails_some_items_in_whitelist": {
+         "@name": "home_url_fails_some_items_in_whitelist",
+         "#text": {
+            "string": "\n    Entries that the home page fails against are marked:\n  "
+         }
+      },
+      "button:whitelist_add": {
+         "@label": {
+            "string": "Add"
+         },
+         "@name": "whitelist_add",
+         "button.commit_callback": null
+      },
+      "button:whitelist_del": {
+         "@label": {
+            "string": "Delete"
+         },
+         "@name": "whitelist_del",
+         "button.commit_callback": null
+      },
+      "text:home_url_fails_whitelist": {
+         "@name": "home_url_fails_whitelist",
+         "#text": {
+            "string": "\nWarning: the home page specified in the General tab fails to pass this whitelist. It has been disabled until a valid entry has been added.\n  "
+         }
+      }
+   }
+}

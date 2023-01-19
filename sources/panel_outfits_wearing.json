@@ -1,0 +1,60 @@
+{
+   "panel": {
+      "@name": "Wearing",
+      "panel.string:no_attachments": {
+         "@name": "no_attachments",
+         "#text": {
+            "string": "\n    No attachments worn.\n   "
+         }
+      },
+      "accordion:wearables_accordion": {
+         "@name": "wearables_accordion",
+         "accordion_tab:tab_wearables": {
+            "@name": "tab_wearables",
+            "@title": {
+               "string": "Wearables"
+            },
+            "wearable_items_list:cof_items_list": {
+               "@name": "cof_items_list"
+            }
+         },
+         "accordion_tab:tab_temp_attachments": {
+            "@name": "tab_temp_attachments",
+            "@title": {
+               "string": "Temporary attachments"
+            },
+            "scroll_list:temp_attachments_list": {
+               "@name": "temp_attachments_list",
+               "scroll_list.columns:icon": {
+                  "@name": "icon"
+               },
+               "scroll_list.columns:text": {
+                  "@name": "text"
+               },
+               "scroll_list.columns:weight": {
+                  "@name": "weight"
+               }
+            }
+         }
+      },
+      "panel:bottom_panel": {
+         "@name": "bottom_panel",
+         "menu_button:options_gear_btn": {
+            "@name": "options_gear_btn",
+            "@tool_tip": {
+               "string": "Show additional options"
+            }
+         },
+         "#comment": "<button\n         follows=\"bottom|left|right\"\n         height=\"25\"\n         layout=\"topleft\"\n         left_pad=\"1\"\n         name=\"copy_to_clipboard\"\n         label=\"Send to clipboard\"\n         tool_tip=\"Send current outfit names to clipboard\"\n         width=\"150\" />",
+         "icon:dummy_icon": {
+            "@name": "dummy_icon"
+         },
+         "text:avatar_complexity_label": {
+            "@name": "avatar_complexity_label",
+            "#text": {
+               "string": "\n            Complexity: [WEIGHT]\n        "
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,129 @@
+{
+   "panel": {
+      "@name": "navigation_bar",
+      "#comment": " Navigation and Favorites Bar visibility stack ",
+      "layout_stack:navigation_favorites_bar_visibility_stack": {
+         "@name": "navigation_favorites_bar_visibility_stack",
+         "#comment": " Navigation Bar visibility panel ",
+         "layout_panel:navigation_bar_visibility_panel": {
+            "@name": "navigation_bar_visibility_panel",
+            "#comment": " This panel takes up the right click menu, so it only shows when clicking\n  inactive parts. Will be bound to right click in code, so keep the name intact. ",
+            "panel:navigation_bar_context_menu_panel": {
+               "@name": "navigation_bar_context_menu_panel"
+            },
+            "#comment$3": " Layout stack for buttons, location input and search field ",
+            "layout_stack:location_search_layout": {
+               "@name": "location_search_layout",
+               "#comment": " Contains the navigation buttons ",
+               "layout_panel:navigation_buttons_visibility_panel": {
+                  "@name": "navigation_buttons_visibility_panel",
+                  "pull_button:back_btn": {
+                     "@name": "back_btn",
+                     "@tool_tip": {
+                        "string": "Go back to previous location"
+                     }
+                  },
+                  "pull_button:forward_btn": {
+                     "@name": "forward_btn",
+                     "@tool_tip": {
+                        "string": "Go forward one location"
+                     }
+                  },
+                  "button:home_btn": {
+                     "@name": "home_btn",
+                     "@tool_tip": {
+                        "string": "Teleport to home location"
+                     }
+                  },
+                  "#comment": " About Land Button here ",
+                  "button:About_Land": {
+                     "@name": "About_Land",
+                     "@label": {
+                        "string": "Land"
+                     },
+                     "@tool_tip": {
+                        "string": "Opens Land Information window"
+                     },
+                     "button.init_callback": null
+                  },
+                  "#comment$6": " end of About Land Button ",
+                  "#comment$7": " Windlight Button here ",
+                  "button:PersonalLighting": {
+                     "@name": "PersonalLighting",
+                     "@label": {
+                        "string": "Lighting"
+                     },
+                     "@tool_tip": {
+                        "string": "Opens the Personal Lighting window"
+                     }
+                  },
+                  "#comment$9": " end of Windlight Button "
+               },
+               "#comment$3": " Contains the navigation buttons ",
+               "#comment$4": " Contains the location bar ",
+               "layout_panel:location_bar_visibility_panel": {
+                  "@name": "location_bar_visibility_panel",
+                  "location_input:location_combo": {
+                     "@label": {
+                        "string": "Location"
+                     },
+                     "@name": "location_combo",
+                     "combo_list": null
+                  }
+               },
+               "#comment$6": " Contains the location bar ",
+               "#comment$7": " Contains the search bar, can be hidden by control values ",
+               "layout_panel:search_bar_visibility_panel": {
+                  "@name": "search_bar_visibility_panel",
+                  "search_combo_box:search_combo_box": {
+                     "@label": {
+                        "string": "Search"
+                     },
+                     "@name": "search_combo_box",
+                     "@tool_tip": {
+                        "string": "Search"
+                     },
+                     "combo_editor:search_combo_editor": {
+                        "@label": {
+                           "string": "Search Metaverse"
+                        },
+                        "@name": "search_combo_editor"
+                     },
+                     "combo_list": null
+                  }
+               },
+               "#comment$9": " Contains the search bar, can be hidden by control values "
+            },
+            "#comment$5": " Layout stack for buttons, location input and search field "
+         },
+         "#comment$3": " Navigation Bar visibility panel ",
+         "#comment$4": " Favorites Bar visibility panel ",
+         "layout_panel:favorites_bar_visibility_panel": {
+            "@name": "favorites_bar_visibility_panel",
+            "favorites_bar:favorite": {
+               "@name": "favorite",
+               "@tool_tip": {
+                  "string": "Drag Landmarks here for quick access to your favorite places!"
+               },
+               "label:favorites_bar_label": {
+                  "@name": "favorites_bar_label",
+                  "@tool_tip": {
+                     "string": "Drag Landmarks here for quick access to your favorite places!"
+                  },
+                  "#text": {
+                     "string": "\n          Favorites Bar\n        "
+                  }
+               },
+               "chevron_button:more_btn": {
+                  "@name": "more_btn",
+                  "@tool_tip": {
+                     "string": "Show more of My Favorites"
+                  }
+               }
+            }
+         },
+         "#comment$6": " Favorites Bar visibility panel "
+      },
+      "#comment$3": " Navigation and Favorites Bar visibility stack "
+   }
+}

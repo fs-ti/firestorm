@@ -1,0 +1,123 @@
+{
+   "panel": {
+      "@name": "panel_profile_interests",
+      "@label": {
+         "string": "Interests"
+      },
+      "loading_indicator:progress_indicator": {
+         "@name": "progress_indicator"
+      },
+      "text:I Want To:": {
+         "@name": "I Want To:",
+         "#text": {
+            "string": "\n        I Want To:\n    "
+         }
+      },
+      "check_box:chk0": {
+         "@name": "chk0",
+         "@label": {
+            "string": "Build"
+         }
+      },
+      "check_box:chk1": {
+         "@name": "chk1",
+         "@label": {
+            "string": "Explore"
+         }
+      },
+      "check_box:chk2": {
+         "@name": "chk2",
+         "@label": {
+            "string": "Meet"
+         }
+      },
+      "check_box:chk6": {
+         "@name": "chk6",
+         "@label": {
+            "string": "Be Hired"
+         }
+      },
+      "check_box:chk3": {
+         "@name": "chk3",
+         "@label": {
+            "string": "Group"
+         }
+      },
+      "check_box:chk4": {
+         "@name": "chk4",
+         "@label": {
+            "string": "Buy"
+         }
+      },
+      "check_box:chk5": {
+         "@name": "chk5",
+         "@label": {
+            "string": "Sell"
+         }
+      },
+      "check_box:chk7": {
+         "@name": "chk7",
+         "@label": {
+            "string": "Hire"
+         }
+      },
+      "line_editor:want_to_edit": {
+         "@name": "want_to_edit"
+      },
+      "text:Skills:": {
+         "@name": "Skills:",
+         "#text": {
+            "string": "\n        Skills:\n    "
+         }
+      },
+      "check_box:schk0": {
+         "@name": "schk0",
+         "@label": {
+            "string": "Textures"
+         }
+      },
+      "check_box:schk1": {
+         "@name": "schk1",
+         "@label": {
+            "string": "Architecture"
+         }
+      },
+      "#comment": " The next two are out of order on purpose due to the odd layout used in v1.x ",
+      "check_box:schk3": {
+         "@name": "schk3",
+         "@label": {
+            "string": "Modeling"
+         }
+      },
+      "check_box:schk2": {
+         "@name": "schk2",
+         "@label": {
+            "string": "Event Planning"
+         }
+      },
+      "check_box:schk4": {
+         "@name": "schk4",
+         "@label": {
+            "string": "Scripting"
+         }
+      },
+      "check_box:schk5": {
+         "@name": "schk5",
+         "@label": {
+            "string": "Custom Characters"
+         }
+      },
+      "line_editor:skills_edit": {
+         "@name": "skills_edit"
+      },
+      "text:Languages:": {
+         "@name": "Languages:",
+         "#text": {
+            "string": "\n    Languages:\n    "
+         }
+      },
+      "line_editor:languages_edit": {
+         "@name": "languages_edit"
+      }
+   }
+}

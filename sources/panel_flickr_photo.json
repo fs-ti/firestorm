@@ -1,0 +1,198 @@
+{
+   "panel": {
+      "@name": "panel_flickr_photo",
+      "combo_box:resolution_combobox": {
+         "@name": "resolution_combobox",
+         "@tool_tip": {
+            "string": "Image resolution"
+         },
+         "combo_box.item:CurrentWindow": {
+            "@label": {
+               "string": "Current Window"
+            },
+            "@name": "CurrentWindow"
+         },
+         "combo_box.item:320x240": {
+            "@label": {
+               "string": "320x240"
+            },
+            "@name": "320x240"
+         },
+         "combo_box.item:640x480": {
+            "@label": {
+               "string": "640x480"
+            },
+            "@name": "640x480"
+         },
+         "combo_box.item:800x600": {
+            "@label": {
+               "string": "800x600"
+            },
+            "@name": "800x600"
+         },
+         "combo_box.item:1024x768": {
+            "@label": {
+               "string": "1024x768"
+            },
+            "@name": "1024x768"
+         },
+         "combo_box.item:1280x1024": {
+            "@label": {
+               "string": "1280x1024"
+            },
+            "@name": "1280x1024"
+         },
+         "combo_box.item:1600x1200": {
+            "@label": {
+               "string": "1600x1200"
+            },
+            "@name": "1600x1200"
+         },
+         "combo_box.item:Custom": {
+            "@label": {
+               "string": "Custom"
+            },
+            "@name": "Custom"
+         }
+      },
+      "combo_box:filters_combobox": {
+         "@name": "filters_combobox",
+         "@tool_tip": {
+            "string": "Image filters"
+         },
+         "combo_box.item:NoFilter": {
+            "@label": {
+               "string": "No Filter"
+            },
+            "@name": "NoFilter"
+         }
+      },
+      "spinner:custom_snapshot_width": {
+         "@name": "custom_snapshot_width"
+      },
+      "text:spinner_x_lbl": {
+         "@name": "spinner_x_lbl",
+         "#text": {
+            "string": "\n              x\n            "
+         }
+      },
+      "spinner:custom_snapshot_height": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "custom_snapshot_height"
+      },
+      "check_box:keep_aspect_ratio": {
+         "@label": {
+            "string": "Keep Aspect ratio"
+         },
+         "@name": "keep_aspect_ratio"
+      },
+      "panel:thumbnail_placeholder": {
+         "@name": "thumbnail_placeholder"
+      },
+      "text:working_lbl": {
+         "@name": "working_lbl",
+         "#text": {
+            "string": "\n                Refreshing...\n            "
+         }
+      },
+      "view_border:refresh_border": {
+         "@name": "refresh_border"
+      },
+      "button:new_snapshot_btn": {
+         "@label": {
+            "string": "Refresh"
+         },
+         "@name": "new_snapshot_btn",
+         "@tool_tip": {
+            "string": "Click to refresh"
+         },
+         "button.commit_callback": null
+      },
+      "button:big_preview_btn": {
+         "@label": {
+            "string": "Preview"
+         },
+         "@name": "big_preview_btn",
+         "@tool_tip": {
+            "string": "Click to toggle preview"
+         },
+         "button.commit_callback": null
+      },
+      "text:title_label": {
+         "@name": "title_label",
+         "#text": {
+            "string": "\n              Title:\n            "
+         }
+      },
+      "line_editor:photo_title": {
+         "@name": "photo_title"
+      },
+      "text:description_label": {
+         "@name": "description_label",
+         "#text": {
+            "string": "\n              Description:\n            "
+         }
+      },
+      "text_editor:photo_description": {
+         "@name": "photo_description"
+      },
+      "check_box:add_location_cb": {
+         "@label": {
+            "string": "Include location at end of description"
+         },
+         "@name": "add_location_cb"
+      },
+      "text:tags_label": {
+         "@name": "tags_label",
+         "@tool_tip": {
+            "string": "Separate tags with spaces. Use \"\" for multi-word tags"
+         },
+         "#text": {
+            "string": "\n              Tags:\n            "
+         }
+      },
+      "text_editor:photo_tags": {
+         "@name": "photo_tags"
+      },
+      "combo_box:rating_combobox": {
+         "@name": "rating_combobox",
+         "@tool_tip": {
+            "string": "Flickr content rating"
+         },
+         "combo_box.item:SafeRating": {
+            "@label": {
+               "string": "Safe Flickr rating"
+            },
+            "@name": "SafeRating"
+         },
+         "combo_box.item:ModerateRating": {
+            "@label": {
+               "string": "Moderate Flickr rating"
+            },
+            "@name": "ModerateRating"
+         },
+         "combo_box.item:RestrictedRating": {
+            "@label": {
+               "string": "Restricted Flickr rating"
+            },
+            "@name": "RestrictedRating"
+         }
+      },
+      "button:post_photo_btn": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "post_photo_btn",
+         "button.commit_callback": null
+      },
+      "button:cancel_photo_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_photo_btn",
+         "button.commit_callback": null
+      }
+   }
+}

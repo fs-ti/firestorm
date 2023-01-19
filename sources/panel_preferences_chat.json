@@ -1,0 +1,1547 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Text Chat"
+      },
+      "@name": "chat",
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Firestorm Prefs"
+         },
+         "@name": "tabs",
+         "#comment": " Chat: Visuals ",
+         "panel:ChatVisuals": {
+            "@label": {
+               "string": "Visuals"
+            },
+            "@name": "ChatVisuals",
+            "text:console_font_size": {
+               "@name": "console_font_size",
+               "#text": {
+                  "string": "\n                Onscreen console font size:\n            "
+               }
+            },
+            "radio_group:chat_console_font_size": {
+               "@name": "chat_console_font_size",
+               "radio_item:consradio": {
+                  "@label": {
+                     "string": "Small"
+                  },
+                  "@name": "consradio"
+               },
+               "radio_item:consradio2": {
+                  "@label": {
+                     "string": "Medium"
+                  },
+                  "@name": "consradio2"
+               },
+               "radio_item:consradio3": {
+                  "@label": {
+                     "string": "Large"
+                  },
+                  "@name": "consradio3"
+               },
+               "radio_item:consradio4": {
+                  "@label": {
+                     "string": "Huge"
+                  },
+                  "@name": "consradio4"
+               }
+            },
+            "check_box:play_avatar_animations": {
+               "@label": {
+                  "string": "Play avatar animations (such as shouting)"
+               },
+               "@name": "play_avatar_animations"
+            },
+            "check_box:FSIMSystemMessageBrackets": {
+               "@name": "FSIMSystemMessageBrackets",
+               "@label": {
+                  "string": "Wrap system chat messages in brackets (V1 style chat headers only)"
+               }
+            },
+            "check_box:FSChatHistoryShowYou": {
+               "@name": "FSChatHistoryShowYou",
+               "@label": {
+                  "string": "Show \"You\" in chat transcript instead of your name"
+               }
+            },
+            "check_box:EmotesUseItalic": {
+               "@name": "EmotesUseItalic",
+               "@label": {
+                  "string": "Emotes use italic font"
+               }
+            },
+            "check_box:FSEmphasizeShoutWhisper": {
+               "@name": "FSEmphasizeShoutWhisper",
+               "@label": {
+                  "string": "Bold shouting, Italicize whispering"
+               }
+            },
+            "check_box:FSMarkObjects": {
+               "@name": "FSMarkObjects",
+               "@label": {
+                  "string": "Mark objects with (no name) when they speak to avoid spoofing"
+               }
+            },
+            "check_box:FSllOwnerSayToScriptDebugWindow_checkbox": {
+               "@label": {
+                  "string": "Route llOwnerSay to script debug window"
+               },
+               "@name": "FSllOwnerSayToScriptDebugWindow_checkbox"
+            },
+            "check_box:bubble_text_chat": {
+               "@label": {
+                  "string": "Show chat in bubbles above avatars"
+               },
+               "@name": "bubble_text_chat"
+            },
+            "check_box:FSBubblesHideConsoleAndToasts": {
+               "@label": {
+                  "string": "Don't show chat in Nearby Chat console and toasts"
+               },
+               "@name": "FSBubblesHideConsoleAndToasts"
+            },
+            "check_box:bubble_text_typing": {
+               "@label": {
+                  "string": "Show typing indicator in bubbles above avatars"
+               },
+               "@name": "bubble_text_typing"
+            },
+            "check_box:FSShowTypingStateInNameTag": {
+               "@label": {
+                  "string": "Show typing indicator in nametag above avatars"
+               },
+               "@name": "FSShowTypingStateInNameTag"
+            },
+            "check_box:FSSecondsinChatTimestamps": {
+               "@name": "FSSecondsinChatTimestamps",
+               "@label": {
+                  "string": "Show seconds in timestamps [HH:MM:SS]"
+               }
+            },
+            "text:show_timestamps_label": {
+               "@name": "show_timestamps_label",
+               "#text": {
+                  "string": "\n             Show timestamps in:\n            "
+               }
+            },
+            "check_box:show_timestamps_nearby_chat": {
+               "@label": {
+                  "string": "Nearby Chat"
+               },
+               "@name": "show_timestamps_nearby_chat"
+            },
+            "check_box:show_timestamps_im": {
+               "@label": {
+                  "string": "IMs"
+               },
+               "@name": "show_timestamps_im"
+            },
+            "check_box:show_timestamps_transcripts": {
+               "@label": {
+                  "string": "Transcript"
+               },
+               "@name": "show_timestamps_transcripts"
+            },
+            "check_box:FSConsoleClassicDrawMode": {
+               "@name": "FSConsoleClassicDrawMode",
+               "@label": {
+                  "string": "Use classic draw mode for console"
+               },
+               "@tool_tip": {
+                  "string": "Classic draw mode renders the console background as single block over all lines with width of the longest line."
+               }
+            },
+            "check_box:ChatFullWidth": {
+               "@name": "ChatFullWidth",
+               "@label": {
+                  "string": "Use full width of screen for console"
+               }
+            },
+            "spinner:fade_chat_time": {
+               "@label": {
+                  "string": "Fade chat after:"
+               },
+               "@name": "fade_chat_time"
+            },
+            "text:text_box4": {
+               "@name": "text_box4",
+               "#text": {
+                  "string": "\n                (seconds)\n            "
+               }
+            },
+            "spinner:max_chat_count": {
+               "@name": "max_chat_count"
+            },
+            "text:text_box5": {
+               "@name": "text_box5",
+               "#text": {
+                  "string": "\n                (# lines)\n            "
+               }
+            }
+         },
+         "#comment$4": " Chat: Chat Windows ",
+         "panel:ChatWindows": {
+            "@label": {
+               "string": "Chat Windows"
+            },
+            "@name": "ChatWindows",
+            "text:font_size": {
+               "@name": "font_size",
+               "#text": {
+                  "string": "\n                Chat window font size:\n            "
+               }
+            },
+            "radio_group:chat_font_size": {
+               "@name": "chat_font_size",
+               "radio_item:radio": {
+                  "@label": {
+                     "string": "Small"
+                  },
+                  "@name": "radio"
+               },
+               "radio_item:radio2": {
+                  "@label": {
+                     "string": "Medium"
+                  },
+                  "@name": "radio2"
+               },
+               "radio_item:radio3": {
+                  "@label": {
+                     "string": "Large"
+                  },
+                  "@name": "radio3"
+               },
+               "radio_item:radio4": {
+                  "@label": {
+                     "string": "Huge"
+                  },
+                  "@name": "radio4"
+               }
+            },
+            "check_box:IMShowNamesForP2PConv": {
+               "@name": "IMShowNamesForP2PConv",
+               "@label": {
+                  "string": "Show names in direct IMs"
+               }
+            },
+            "check_box:plain_text_chat_history": {
+               "@label": {
+                  "string": "Use V1 style chat headers"
+               },
+               "@name": "plain_text_chat_history"
+            },
+            "check_box:ShowChatMiniIcons": {
+               "@label": {
+                  "string": "When using [SHORT_VIEWER_GENERATION] style chat headers, show mini icons"
+               },
+               "@name": "ShowChatMiniIcons"
+            },
+            "check_box:LogShowHistory": {
+               "@label": {
+                  "string": "Show the end of last conversation"
+               },
+               "@name": "LogShowHistory"
+            },
+            "check_box:FSTypingChevronPrefix": {
+               "@name": "FSTypingChevronPrefix",
+               "@label": {
+                  "string": "Add additional chevron (>) as typing indicator to IM sessions"
+               }
+            },
+            "text:show_unread_messages_label": {
+               "@name": "show_unread_messages_label",
+               "#text": {
+                  "string": "\n                 Show new message notification for:\n            "
+               }
+            },
+            "check_box:FSNotifyUnreadChatMessages": {
+               "@name": "FSNotifyUnreadChatMessages",
+               "@label": {
+                  "string": "Nearby chat"
+               },
+               "@tool_tip": {
+                  "string": "Shows a notification with the number of new unread messages in the nearby chat window if new messages arrive while the view is scrolled back to read the chat history."
+               }
+            },
+            "check_box:FSNotifyUnreadIMMessages": {
+               "@name": "FSNotifyUnreadIMMessages",
+               "@label": {
+                  "string": "Instant and group messages"
+               },
+               "@tool_tip": {
+                  "string": "Shows a notification with the number of new unread messages in the instant/group message window if new messages arrive while the view is scrolled back to read the chat history."
+               }
+            },
+            "text:show_ims_in_label": {
+               "@name": "show_ims_in_label",
+               "#text": {
+                  "string": "\n                 Show IMs in:\n            "
+               }
+            },
+            "radio_group:chat_window": {
+               "@name": "chat_window",
+               "@tool_tip": {
+                  "string": "Show your Instant Messages in separate floaters, or in one floater with many tabs (Requires restart)"
+               },
+               "radio_item:radio": {
+                  "@label": {
+                     "string": "Separate windows"
+                  },
+                  "@name": "radio"
+               },
+               "radio_item:radio2": {
+                  "@label": {
+                     "string": "Tabs"
+                  },
+                  "@name": "radio2"
+               }
+            },
+            "text:req_restart_ims": {
+               "@name": "req_restart_ims",
+               "#text": {
+                  "string": "\n                 (requires restart)\n            "
+               }
+            },
+            "text:tab_direction_label": {
+               "@name": "tab_direction_label",
+               "#text": {
+                  "string": "\n              Chat Tab Mode Orientation:\n            "
+               }
+            },
+            "radio_group:chat_tab_direction": {
+               "@name": "chat_tab_direction",
+               "@tool_tip": {
+                  "string": "Change flow of the chat/IM tabs between horizontal and vertical when consolidated tab mode is active. (Requires restart)"
+               },
+               "radio_item:radio_horizontal": {
+                  "@label": {
+                     "string": "Horizontal"
+                  },
+                  "@name": "radio_horizontal"
+               },
+               "radio_item:radio_vertical": {
+                  "@label": {
+                     "string": "Vertical"
+                  },
+                  "@name": "radio_vertical"
+               }
+            },
+            "text:req_restart_chattabs": {
+               "@name": "req_restart_chattabs",
+               "#text": {
+                  "string": "\n                 (requires restart)\n            "
+               }
+            },
+            "text:FSIMTabNameFormat_label": {
+               "@name": "FSIMTabNameFormat_label",
+               "#text": {
+                  "string": "\n        Name format for IM tabs:\n      "
+               }
+            },
+            "combo_box:FSIMTabNameFormat": {
+               "@name": "FSIMTabNameFormat",
+               "combo_box.item:display_name": {
+                  "@label": {
+                     "string": "Display Name"
+                  },
+                  "@name": "display_name"
+               },
+               "combo_box.item:user_name": {
+                  "@label": {
+                     "string": "Username"
+                  },
+                  "@name": "user_name"
+               },
+               "combo_box.item:display_user_name": {
+                  "@label": {
+                     "string": "Display Name (Username)"
+                  },
+                  "@name": "display_user_name"
+               },
+               "combo_box.item:user_display_name": {
+                  "@label": {
+                     "string": "Username (Display Name)"
+                  },
+                  "@name": "user_display_name"
+               }
+            },
+            "#comment": "<FS:HG> FS-1734 seperate name and text styles for moderator",
+            "check_box:FSHighlightGroupMods": {
+               "@name": "FSHighlightGroupMods",
+               "@label": {
+                  "string": "Enable group moderator message highlighting"
+               }
+            },
+            "text:Moderator Name Style": {
+               "@name": "Moderator Name Style",
+               "#text": {
+                  "string": "\n              Names:\n            "
+               }
+            },
+            "combo_box:mod_name_style": {
+               "@name": "mod_name_style",
+               "combo_box.item:normal": {
+                  "@label": {
+                     "string": "Normal"
+                  },
+                  "@name": "normal"
+               },
+               "combo_box.item:BOLD": {
+                  "@label": {
+                     "string": "Bold"
+                  },
+                  "@name": "BOLD"
+               },
+               "combo_box.item:ITALIC": {
+                  "@label": {
+                     "string": "Italic"
+                  },
+                  "@name": "ITALIC"
+               },
+               "combo_box.item:BOLDITALIC": {
+                  "@label": {
+                     "string": "Bold & Italic"
+                  },
+                  "@name": "BOLDITALIC"
+               },
+               "combo_box.item:UNDERLINE": {
+                  "@label": {
+                     "string": "Underline"
+                  },
+                  "@name": "UNDERLINE"
+               },
+               "combo_box.item:BOLDUNDERLINE": {
+                  "@label": {
+                     "string": "Bold & Underline"
+                  },
+                  "@name": "BOLDUNDERLINE"
+               },
+               "combo_box.item:ITALICUNDERLINE": {
+                  "@label": {
+                     "string": "Italic & Underline"
+                  },
+                  "@name": "ITALICUNDERLINE"
+               },
+               "combo_box.item:BOLDITALICUNDERLINE": {
+                  "@label": {
+                     "string": "Bold, Italic & Underline"
+                  },
+                  "@name": "BOLDITALICUNDERLINE"
+               }
+            },
+            "text:Moderator Text Style": {
+               "@name": "Moderator Text Style",
+               "#text": {
+                  "string": "\n              Text:\n            "
+               }
+            },
+            "combo_box:mod_text_style": {
+               "@name": "mod_text_style",
+               "combo_box.item:normal": {
+                  "@label": {
+                     "string": "Normal"
+                  },
+                  "@name": "normal"
+               },
+               "combo_box.item:BOLD": {
+                  "@label": {
+                     "string": "Bold"
+                  },
+                  "@name": "BOLD"
+               },
+               "combo_box.item:ITALIC": {
+                  "@label": {
+                     "string": "Italic"
+                  },
+                  "@name": "ITALIC"
+               },
+               "combo_box.item:BOLDITALIC": {
+                  "@label": {
+                     "string": "Bold & Italic"
+                  },
+                  "@name": "BOLDITALIC"
+               },
+               "combo_box.item:UNDERLINE": {
+                  "@label": {
+                     "string": "Underline"
+                  },
+                  "@name": "UNDERLINE"
+               },
+               "combo_box.item:BOLDUNDERLINE": {
+                  "@label": {
+                     "string": "Bold & Underline"
+                  },
+                  "@name": "BOLDUNDERLINE"
+               },
+               "combo_box.item:ITALICUNDERLINE": {
+                  "@label": {
+                     "string": "Italic & Underline"
+                  },
+                  "@name": "ITALICUNDERLINE"
+               },
+               "combo_box.item:BOLDITALICUNDERLINE": {
+                  "@label": {
+                     "string": "Bold, Italic & Underline"
+                  },
+                  "@name": "BOLDITALICUNDERLINE"
+               }
+            },
+            "#comment$26": "</FS:HG> FS-1734 seperate name and text styles for moderator",
+            "check_box:FSMuteAllGroups": {
+               "@name": "FSMuteAllGroups",
+               "@label": {
+                  "string": "Disable ALL group chats"
+               }
+            },
+            "check_box:FSMuteGroupWhenNoticesDisabled": {
+               "@name": "FSMuteGroupWhenNoticesDisabled",
+               "@label": {
+                  "string": "When 'Receive group notices' is disabled, disable group chat as well"
+               }
+            },
+            "check_box:FSIgnoreAdHocSessions": {
+               "@name": "FSIgnoreAdHocSessions",
+               "@label": {
+                  "string": "Automatically ignore and leave all conference (ad-hoc) chats"
+               }
+            },
+            "check_box:FSReportIgnoredAdHocSession": {
+               "@name": "FSReportIgnoredAdHocSession",
+               "@label": {
+                  "string": "Report ignored conference chats in nearby chat"
+               }
+            },
+            "check_box:FSDontIgnoreAdHocFromFriends": {
+               "@name": "FSDontIgnoreAdHocFromFriends",
+               "@label": {
+                  "string": "Don't ignore conference chats invitations from my friends"
+               }
+            },
+            "text:group_snooze_time_label": {
+               "@name": "group_snooze_time_label",
+               "@tool_tip": {
+                  "string": "Amount of time a group chat will be muted when pressing the \"Snooze\" button. Setting a value of 0 will effectively just close the window until the next group message arrives."
+               },
+               "#text": {
+                  "string": "\n              Group Chat Snooze Duration:\n            "
+               }
+            },
+            "spinner:GroupSnoozeTime": {
+               "@name": "GroupSnoozeTime",
+               "@tool_tip": {
+                  "string": "Amount of time a group chat will be muted when pressing the \"Snooze\" button. Setting a value of 0 will effectively just close the window until the next group message arrives."
+               }
+            },
+            "text:group_snooze_time_seconds_label": {
+               "@name": "group_snooze_time_seconds_label",
+               "@tool_tip": {
+                  "string": "Amount of time a group chat will be muted when pressing the \"Snooze\" button. Setting a value of 0 will effectively just close the window until the next group message arrives."
+               },
+               "#text": {
+                  "string": "\n                seconds\n            "
+               }
+            },
+            "check_box:FSEnablePerGroupSnoozeDuration": {
+               "@name": "FSEnablePerGroupSnoozeDuration",
+               "@label": {
+                  "string": "Set group chat snooze duration individually per group"
+               }
+            }
+         },
+         "#comment$6": " Chat: Typing ",
+         "panel:ChatTyping": {
+            "@label": {
+               "string": "Typing"
+            },
+            "@name": "ChatTyping",
+            "button:autoreplace_showgui": {
+               "@name": "autoreplace_showgui",
+               "@label": {
+                  "string": "Auto-Replace..."
+               }
+            },
+            "button:spellcheck_showgui": {
+               "@name": "spellcheck_showgui",
+               "@label": {
+                  "string": "Spell Checking..."
+               }
+            },
+            "button:translation_settings_btn": {
+               "@name": "translation_settings_btn",
+               "@label": {
+                  "string": "Translation..."
+               }
+            },
+            "check_box:play_typing_animation": {
+               "@label": {
+                  "string": "Play typing animation when chatting"
+               },
+               "@name": "play_typing_animation"
+            },
+            "check_box:play_typing_animation_emote": {
+               "@label": {
+                  "string": "Play typing animation also when emoting"
+               },
+               "@name": "play_typing_animation_emote"
+            },
+            "check_box:play_typing_sound": {
+               "@label": {
+                  "string": "Hear typing sound when people type in nearby chat"
+               },
+               "@name": "play_typing_sound"
+            },
+            "check_box:FSSendTypingState": {
+               "@label": {
+                  "string": "Send typing notifications to other avatars during IM sessions"
+               },
+               "@name": "FSSendTypingState"
+            },
+            "check_box:FSChatbarGestureAutoCompleteEnable": {
+               "@name": "FSChatbarGestureAutoCompleteEnable",
+               "@label": {
+                  "string": "Enable auto-completion of gestures in nearby chat bar"
+               }
+            },
+            "check_box:FSChatbarNamePrediction": {
+               "@name": "FSChatbarNamePrediction",
+               "@label": {
+                  "string": "Enable automatic name prediction in nearby chat bar"
+               }
+            },
+            "check_box:AllowMUpose": {
+               "@name": "AllowMUpose",
+               "@label": {
+                  "string": "\":\" as a synonym for \"/me\""
+               }
+            },
+            "check_box:AutoCloseOOC": {
+               "@name": "AutoCloseOOC",
+               "@label": {
+                  "string": "Auto-close ((OOC)) parentheses"
+               }
+            },
+            "check_box:FSShowIMSendButton": {
+               "@name": "FSShowIMSendButton",
+               "@label": {
+                  "string": "Show send chat button in chat bar for IM sessions"
+               }
+            },
+            "check_box:FSNearbyChatbar": {
+               "@name": "FSNearbyChatbar",
+               "@label": {
+                  "string": "Add a chat bar in the Nearby Chat window"
+               }
+            },
+            "check_box:FSShowChatChannel": {
+               "@name": "FSShowChatChannel",
+               "@label": {
+                  "string": "Show channel selection in chat bar"
+               }
+            },
+            "check_box:FSShowChatType": {
+               "@name": "FSShowChatType",
+               "@label": {
+                  "string": "Show chat type / send chat button in chat bar"
+               }
+            },
+            "check_box:AutohideChatBar": {
+               "@label": {
+                  "string": "Autohide main chatbar"
+               },
+               "@name": "AutohideChatBar",
+               "@tool_tip": {
+                  "string": "Hide the chat bar from the bottom button bar and only show it as an overlay when needed."
+               }
+            },
+            "check_box:CloseChatOnReturn": {
+               "@label": {
+                  "string": "Deselect chat after sending a message"
+               },
+               "@name": "CloseChatOnReturn"
+            },
+            "check_box:FSUnfocusChatHistoryOnReturn": {
+               "@label": {
+                  "string": "De-focus chat history as well"
+               },
+               "@name": "FSUnfocusChatHistoryOnReturn"
+            },
+            "text:textUseKeyboardShortcuts": {
+               "@name": "textUseKeyboardShortcuts",
+               "#text": {
+                  "string": "\n        Use Keyboard Shortcuts:\n    "
+               }
+            },
+            "check_box:FSUseCtrlShout": {
+               "@name": "FSUseCtrlShout",
+               "@label": {
+                  "string": "Ctrl+Enter (Shout)"
+               },
+               "@tool_tip": {
+                  "string": "Enable this if you would like to use the keyboard shortcut Ctrl+Enter to Shout in Nearby Chat."
+               }
+            },
+            "check_box:FSUseShiftWhisper": {
+               "@name": "FSUseShiftWhisper",
+               "@label": {
+                  "string": "Shift+Enter (Whisper)"
+               },
+               "@tool_tip": {
+                  "string": "Enable this if you would like to use the keyboard shortcut Shift+Enter to Whisper in Nearby Chat"
+               }
+            },
+            "check_box:FSUseAltOOC": {
+               "@name": "FSUseAltOOC",
+               "@label": {
+                  "string": "Alt+Enter ((OOC))"
+               },
+               "@tool_tip": {
+                  "string": "Enable this if you would like to use the keyboard shortcut Alt+Enter to send ((OOC)) messages to Nearby Chat."
+               }
+            }
+         },
+         "#comment$8": " Chat: Notices ",
+         "#comment$9": " This tab is only for notifications related directly to chat and not for notification options that simply use nearby chat ",
+         "panel:ChatNotices": {
+            "@label": {
+               "string": "Notices"
+            },
+            "@name": "ChatNotices",
+            "text:disable_toast_label": {
+               "@name": "disable_toast_label",
+               "#text": {
+                  "string": "\n       Enable incoming chat popups:\n    "
+               }
+            },
+            "check_box:EnableGroupChatPopups": {
+               "@name": "EnableGroupChatPopups",
+               "@label": {
+                  "string": "Group Chats"
+               },
+               "@tool_tip": {
+                  "string": "Check to see popups when a Group Chat message arrives"
+               }
+            },
+            "check_box:EnableIMChatPopups": {
+               "@name": "EnableIMChatPopups",
+               "@label": {
+                  "string": "IM Chats"
+               },
+               "@tool_tip": {
+                  "string": "Check to see popups when an instant message arrives"
+               }
+            },
+            "check_box:FSUseNearbyChatConsole": {
+               "@name": "FSUseNearbyChatConsole",
+               "@label": {
+                  "string": "Use console for chat popups instead of floating toasts (Viewer 1.x style)"
+               }
+            },
+            "check_box:FSLogImToChatConsole": {
+               "@name": "FSLogImToChatConsole",
+               "@label": {
+                  "string": "Show IMs in chat console"
+               }
+            },
+            "check_box:FSLogGroupImToChatConsole": {
+               "@name": "FSLogGroupImToChatConsole",
+               "@label": {
+                  "string": "Show group chat in chat console"
+               }
+            },
+            "text:FSShowGroupNameLength_label": {
+               "@name": "FSShowGroupNameLength_label",
+               "#text": {
+                  "string": "\n      Length of group name to be printed in chat transcript\n    "
+               }
+            },
+            "spinner:FSShowGroupNameLength": {
+               "@tool_tip": {
+                  "string": "-1 for full group name, 0 for disabled"
+               },
+               "@name": "FSShowGroupNameLength"
+            },
+            "check_box:FSOpenIMContainerOnOfflineMessage": {
+               "@name": "FSOpenIMContainerOnOfflineMessage",
+               "@label": {
+                  "string": "Open Conversations when an offline message has been received"
+               }
+            },
+            "check_box:send_im_to_email": {
+               "@label": {
+                  "string": "Email me IMs when I'm offline ([EMAIL])"
+               },
+               "@name": "send_im_to_email"
+            },
+            "text:email_settings": {
+               "@name": "email_settings",
+               "#text": {
+                  "string": "\n     [https://accounts.secondlife.com/change_email Open email notification settings for offline IMs]\n    "
+               }
+            },
+            "text:email_settings_login_to_change": {
+               "@name": "email_settings_login_to_change",
+               "#text": {
+                  "string": "\n     Login to change offline IMs to Email settings\n    "
+               }
+            },
+            "check_box:FSShowIMInChatHistory": {
+               "@name": "FSShowIMInChatHistory",
+               "@label": {
+                  "string": "Show IMs and Group Chat in Nearby Chat Window"
+               }
+            },
+            "check_box:FSLogIMInChatHistory": {
+               "@name": "FSLogIMInChatHistory",
+               "@label": {
+                  "string": "Save IMs and Group Chat in Nearby Chat"
+               }
+            },
+            "text:FSIMChatHistoryFade_label": {
+               "@name": "FSIMChatHistoryFade_label",
+               "#text": {
+                  "string": "\n      Fade IM text into the background of the chat transcript window\n    "
+               }
+            },
+            "spinner:FSIMChatHistoryFade": {
+               "@tool_tip": {
+                  "string": "0.25-1.0, 0.25 for a lot of fade, 1 for no fade"
+               },
+               "@name": "FSIMChatHistoryFade"
+            },
+            "check_box:FSShowMessageCountInWindowTitle": {
+               "@name": "FSShowMessageCountInWindowTitle",
+               "@label": {
+                  "string": "Show number of unread IMs in Firestorm's window title"
+               }
+            },
+            "check_box:FSAnnounceIncomingIM": {
+               "@name": "FSAnnounceIncomingIM",
+               "@label": {
+                  "string": "Announce incoming IMs as soon as the sender starts typing"
+               }
+            },
+            "check_box:FSIMChatFlashOnFriendStatusChange": {
+               "@name": "FSIMChatFlashOnFriendStatusChange",
+               "@label": {
+                  "string": "Flash IM tabs when friends come online or go offline"
+               }
+            },
+            "check_box:FSNotifyNearbyChatFlash": {
+               "@name": "FSNotifyNearbyChatFlash",
+               "@label": {
+                  "string": "Flash chat toolbar button if new nearby chat arrives"
+               },
+               "@tool_tip": {
+                  "string": "Flashes the chat toolbar button if a new nearby chat arrives. The nearby chat window must be docked to the conversations window and the conversations window must be closed for the button to flash."
+               }
+            },
+            "check_box:FSNotifyIMFlash": {
+               "@name": "FSNotifyIMFlash",
+               "@label": {
+                  "string": "Flash chat toolbar button if a new IM arrives"
+               },
+               "@tool_tip": {
+                  "string": "Flashes the chat toolbar button if a new (group) IM arrives. The IM window must be docked to the conversations window and the conversations window must be closed for the button to flash. This option is only available if IMs will be shown in tabs instead of separate windows (see \"General\" tab)."
+               }
+            },
+            "check_box:FSReportMutedGroupChat": {
+               "@name": "FSReportMutedGroupChat",
+               "@label": {
+                  "string": "Report muted group chat in nearby chat"
+               }
+            },
+            "check_box:FSGroupNoticesToIMLog": {
+               "@name": "FSGroupNoticesToIMLog",
+               "@label": {
+                  "string": "Show group notices in group chats, in addition to toasts"
+               }
+            },
+            "check_box:FSBetterGroupNoticesToIMLog": {
+               "@name": "FSBetterGroupNoticesToIMLog",
+               "@label": {
+                  "string": "Show their subjects and authors as well"
+               }
+            }
+         },
+         "#comment$11": " Chat: Radar ",
+         "panel:ChatRadar": {
+            "@label": {
+               "string": "Radar"
+            },
+            "@name": "ChatRadar",
+            "check_box:reportChatRangeEnter": {
+               "@name": "reportChatRangeEnter",
+               "@label": {
+                  "string": "Radar reports when avatars enter chat range"
+               }
+            },
+            "check_box:PlayModeUISndRadarChatEnter": {
+               "@name": "PlayModeUISndRadarChatEnter",
+               "@label": {
+                  "string": "Play sound UUID:"
+               }
+            },
+            "line_editor:UISndRadarChatEnter": {
+               "@name": "UISndRadarChatEnter"
+            },
+            "button:Prev_UISndRadarChatEnter": {
+               "@name": "Prev_UISndRadarChatEnter",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRadarChatEnter": {
+               "@name": "Def_UISndRadarChatEnter",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:reportChatRangeLeave": {
+               "@name": "reportChatRangeLeave",
+               "@label": {
+                  "string": "Radar reports when avatars leave chat range"
+               }
+            },
+            "check_box:PlayModeUISndRadarChatLeave": {
+               "@name": "PlayModeUISndRadarChatLeave",
+               "@label": {
+                  "string": "Play sound UUID:"
+               }
+            },
+            "line_editor:UISndRadarChatLeave": {
+               "@name": "UISndRadarChatLeave"
+            },
+            "button:Prev_UISndRadarChatLeave": {
+               "@name": "Prev_UISndRadarChatLeave",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRadarChatLeave": {
+               "@name": "Def_UISndRadarChatLeave",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:reportDrawRangeEnter": {
+               "@name": "reportDrawRangeEnter",
+               "@label": {
+                  "string": "Radar reports when avatars enter draw distance"
+               }
+            },
+            "check_box:PlayModeUISndRadarDrawEnter": {
+               "@name": "PlayModeUISndRadarDrawEnter",
+               "@label": {
+                  "string": "Play sound UUID:"
+               }
+            },
+            "line_editor:UISndRadarDrawEnter": {
+               "@name": "UISndRadarDrawEnter"
+            },
+            "button:Prev_UISndRadarDrawEnter": {
+               "@name": "Prev_UISndRadarDrawEnter",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRadarDrawEnter": {
+               "@name": "Def_UISndRadarDrawEnter",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:reportDrawRangeLeaave": {
+               "@name": "reportDrawRangeLeaave",
+               "@label": {
+                  "string": "Radar reports when avatars leave draw distance"
+               }
+            },
+            "check_box:PlayModeUISndRadarDrawLeave": {
+               "@name": "PlayModeUISndRadarDrawLeave",
+               "@label": {
+                  "string": "Play sound UUID:"
+               }
+            },
+            "line_editor:UISndRadarDrawLeave": {
+               "@name": "UISndRadarDrawLeave"
+            },
+            "button:Prev_UISndRadarDrawLeave": {
+               "@name": "Prev_UISndRadarDrawLeave",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRadarDrawLeave": {
+               "@name": "Def_UISndRadarDrawLeave",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:RadarReportSimRangeEnter": {
+               "@name": "RadarReportSimRangeEnter",
+               "@label": {
+                  "string": "Radar reports when avatars enter the region"
+               }
+            },
+            "check_box:PlayModeUISndRadarSimEnter": {
+               "@name": "PlayModeUISndRadarSimEnter",
+               "@label": {
+                  "string": "Play sound UUID:"
+               }
+            },
+            "line_editor:UISndRadarSimEnter": {
+               "@name": "UISndRadarSimEnter"
+            },
+            "button:Prev_UISndRadarSimEnter": {
+               "@name": "Prev_UISndRadarSimEnter",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRadarSimEnter": {
+               "@name": "Def_UISndRadarSimEnter",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:RadarReportSimRangeLeave": {
+               "@name": "RadarReportSimRangeLeave",
+               "@label": {
+                  "string": "Radar reports when avatars leave the region"
+               }
+            },
+            "check_box:PlayModeUISndRadarSimLeave": {
+               "@name": "PlayModeUISndRadarSimLeave",
+               "@label": {
+                  "string": "Play sound UUID:"
+               }
+            },
+            "line_editor:UISndRadarSimLeave": {
+               "@name": "UISndRadarSimLeave"
+            },
+            "button:Prev_UISndRadarSimLeave": {
+               "@name": "Prev_UISndRadarSimLeave",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRadarSimLeave": {
+               "@name": "Def_UISndRadarSimLeave",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            },
+            "check_box:RadarEnterChannelAlert": {
+               "@name": "RadarEnterChannelAlert",
+               "@label": {
+                  "string": "Report enter alerts to scripts"
+               }
+            },
+            "check_box:RadarLeaveChannelAlert": {
+               "@name": "RadarLeaveChannelAlert",
+               "@label": {
+                  "string": "Report exit alerts to scripts"
+               }
+            },
+            "check_box:FSRadarEnhanceByBridge": {
+               "@name": "FSRadarEnhanceByBridge",
+               "@label": {
+                  "string": "Enhance Radar with LSL-Client Bridge"
+               },
+               "@tool_tip": {
+                  "string": "If this is enabled, radar functions responsible for determining avatar locations at high altitudes are assisted by the LSL-Client Bridge, particularly when they're beyond draw distance."
+               }
+            },
+            "text:AgeAlertLabel": {
+               "@name": "AgeAlertLabel",
+               "#text": {
+                  "string": "\n    Age Alert:\n    "
+               }
+            },
+            "text:RadarAvatarAgeAlertValueLabel": {
+               "@name": "RadarAvatarAgeAlertValueLabel",
+               "#text": {
+                  "string": "\n      Threshold:\n    "
+               }
+            },
+            "spinner:RadarAvatarAgeAlertValue": {
+               "@name": "RadarAvatarAgeAlertValue",
+               "@tool_tip": {
+                  "string": "Also colors the age column in the radar. Set to -1 to disable."
+               }
+            },
+            "text:RadarAvatarAgeAlertValueLabelSuffix": {
+               "@name": "RadarAvatarAgeAlertValueLabelSuffix",
+               "#text": {
+                  "string": "\n      Days\n    "
+               }
+            },
+            "check_box:RadarAvatarAgeAlert": {
+               "@name": "RadarAvatarAgeAlert",
+               "@label": {
+                  "string": "Radar reports avatars younger than the specified age"
+               }
+            },
+            "check_box:PlayModeUISndRadarAgeAlert": {
+               "@name": "PlayModeUISndRadarAgeAlert",
+               "@label": {
+                  "string": "Play sound UUID:"
+               }
+            },
+            "line_editor:UISndRadarAgeAlert": {
+               "@name": "UISndRadarAgeAlert"
+            },
+            "button:Prev_UISndRadarAgeAlert": {
+               "@name": "Prev_UISndRadarAgeAlert",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndRadarAgeAlert": {
+               "@name": "Def_UISndRadarAgeAlert",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            }
+         },
+         "#comment$13": " Chat: Keyword Alerts ",
+         "panel:ChatKeywordAlerts": {
+            "@label": {
+               "string": "Keyword Alerts"
+            },
+            "@name": "ChatKeywordAlerts",
+            "check_box:FSKeywordOn": {
+               "@name": "FSKeywordOn",
+               "@label": {
+                  "string": "Enable Keyword Alerts"
+               }
+            },
+            "check_box:FSKeywordInChat": {
+               "@name": "FSKeywordInChat",
+               "@label": {
+                  "string": "Look for Keywords In Nearby Chat"
+               }
+            },
+            "check_box:FSKeywordInIM": {
+               "@name": "FSKeywordInIM",
+               "@label": {
+                  "string": "Look for Keywords In IMs and Group Chat"
+               }
+            },
+            "check_box:FSKeywordSpeakersName": {
+               "@name": "FSKeywordSpeakersName",
+               "@label": {
+                  "string": "Check sender's name for keywords"
+               }
+            },
+            "check_box:FSKeywordCaseSensitive": {
+               "@name": "FSKeywordCaseSensitive",
+               "@label": {
+                  "string": "All Keywords are case-sensitive"
+               }
+            },
+            "check_box:FSKeywordMatchWholeWords": {
+               "@name": "FSKeywordMatchWholeWords",
+               "@label": {
+                  "string": "Only match whole words"
+               }
+            },
+            "text:textFSKeywords": {
+               "@name": "textFSKeywords",
+               "#text": {
+                  "string": "\n      Keywords (separated by commas):\n    "
+               }
+            },
+            "text_editor:FSKeywords": {
+               "@name": "FSKeywords"
+            },
+            "check_box:FSKeywordChangeColor": {
+               "@name": "FSKeywordChangeColor",
+               "@label": {
+                  "string": "Enable Color Alert"
+               }
+            },
+            "color_swatch:colorswatch": {
+               "@name": "colorswatch",
+               "@tool_tip": {
+                  "string": "Click to open color picker"
+               }
+            },
+            "check_box:FSKeywordPlaySound": {
+               "@name": "FSKeywordPlaySound",
+               "@label": {
+                  "string": "Play alert sound"
+               }
+            },
+            "text:textFSKeywordSound": {
+               "@name": "textFSKeywordSound",
+               "#text": {
+                  "string": "\n      Alert Sound UUID:\n    "
+               }
+            },
+            "line_editor:FSKeywordSound": {
+               "@name": "FSKeywordSound"
+            },
+            "button:Prev_UISndFSKeywordSound": {
+               "@name": "Prev_UISndFSKeywordSound",
+               "@label": {
+                  "string": "P"
+               },
+               "@tool_tip": {
+                  "string": "Preview this sound."
+               },
+               "button.commit_callback": null
+            },
+            "button:Def_UISndFSKeywordSound": {
+               "@name": "Def_UISndFSKeywordSound",
+               "@label": {
+                  "string": "D"
+               },
+               "@tool_tip": {
+                  "string": "Reset to the default UUID."
+               },
+               "button.commit_callback": null
+            }
+         },
+         "#comment$15": " Chat: CmdLine ",
+         "panel:tab-CmdLine": {
+            "@label": {
+               "string": "CmdLine"
+            },
+            "@name": "tab-CmdLine",
+            "check_box:chat_cmd_toggle": {
+               "@label": {
+                  "string": "Enable usage of chat bar as a command line"
+               },
+               "@name": "chat_cmd_toggle"
+            },
+            "#text": {
+               "string": ".\n  "
+            },
+            "#comment": "calc",
+            "text:FSCmdLineCalc_txt": {
+               "@name": "FSCmdLineCalc_txt",
+               "#text": {
+                  "string": "\n    Calc. expressions (usage: cmd SIN(2+2))\n  "
+               }
+            },
+            "line_editor:FSCmdLineCalc": {
+               "@name": "FSCmdLineCalc",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$7": "drawdistance",
+            "text:FSCmdLineDrawDistance_txt": {
+               "@name": "FSCmdLineDrawDistance_txt",
+               "#text": {
+                  "string": "\n    Change Draw Dist (usage: cmd meters)\n  "
+               }
+            },
+            "line_editor:FSCmdLineDrawDistance": {
+               "@name": "FSCmdLineDrawDistance",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$10": "bandwidth",
+            "text:FSCmdLineBandWidth_txt": {
+               "@name": "FSCmdLineBandWidth_txt",
+               "#text": {
+                  "string": "\n    Max. Bandwidth (usage: cmd kbps)\n  "
+               }
+            },
+            "line_editor:FSCmdLineBandWidth": {
+               "@name": "FSCmdLineBandWidth",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$13": "cpcampos",
+            "text:FSCmdLineCopyCam_txt": {
+               "@name": "FSCmdLineCopyCam_txt",
+               "#text": {
+                  "string": "\n    Copy camera position to clipboard\n  "
+               }
+            },
+            "line_editor:FSCmdLineCopyCam": {
+               "@name": "FSCmdLineCopyCam",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$16": "cao",
+            "text:FSCmdLineAO_txt": {
+               "@name": "FSCmdLineAO_txt",
+               "#text": {
+                  "string": "\n    Turn AO on/off (usage: cmd on/off)\n  "
+               }
+            },
+            "line_editor:FSCmdLineAO": {
+               "@name": "FSCmdLineAO",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$19": "clrchat",
+            "text:FSCmdLineClearChat_txt": {
+               "@name": "FSCmdLineClearChat_txt",
+               "#text": {
+                  "string": "\n    Clear the chat transcript (usage: cmd)\n  "
+               }
+            },
+            "line_editor:FSCmdLineClearChat": {
+               "@tool_tip": {
+                  "string": "Clears the Chat Transcript to prevent lag effects from chat spammers."
+               },
+               "@name": "FSCmdLineClearChat"
+            },
+            "#comment$22": "media",
+            "text:FSCmdLineMedia_txt": {
+               "@name": "FSCmdLineMedia_txt",
+               "#text": {
+                  "string": "\n    Set the media url (usage: cmd url type)\n  "
+               }
+            },
+            "line_editor:FSCmdLineMedia": {
+               "@tool_tip": {
+                  "string": "Sets and plays your media stream to the entered url"
+               },
+               "@name": "FSCmdLineMedia"
+            },
+            "#comment$25": "music",
+            "text:FSCmdLineMusic_txt": {
+               "@name": "FSCmdLineMusic_txt",
+               "#text": {
+                  "string": "\n    Set the music stream url (usage: cmd url)\n  "
+               }
+            },
+            "line_editor:FSCmdLineMusic": {
+               "@tool_tip": {
+                  "string": "sets and plays your music stream to the entered url"
+               },
+               "@name": "FSCmdLineMusic"
+            },
+            "#comment$28": "rezplat",
+            "text:FSCmdLineRezPlatform_txt": {
+               "@name": "FSCmdLineRezPlatform_txt",
+               "#text": {
+                  "string": "\n    Rez a platform (usage: cmd 0 - 64)\n  "
+               }
+            },
+            "line_editor:FSCmdLineRezPlatform": {
+               "@name": "FSCmdLineRezPlatform",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "slider:FSCmdLinePlatformSize": {
+               "@name": "FSCmdLinePlatformSize",
+               "@label": {
+                  "string": "Width"
+               },
+               "@tool_tip": {
+                  "string": "How big do you want the platform to appear to be?"
+               }
+            },
+            "view_border:EmDivisor": {
+               "@name": "EmDivisor"
+            },
+            "#comment$33": "key2name",
+            "text:FSCmdLineKeyToName_txt": {
+               "@name": "FSCmdLineKeyToName_txt",
+               "#text": {
+                  "string": "\n    Get avatar name from key (usage: cmd key)\n  "
+               }
+            },
+            "line_editor:FSCmdLineKeyToName": {
+               "@name": "FSCmdLineKeyToName",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$36": "dice",
+            "text:FSCmdLineRollDice_txt": {
+               "@name": "FSCmdLineRollDice_txt",
+               "#text": {
+                  "string": "\n    Roll dice (usage: cmd dice faces mt mv)\n  "
+               }
+            },
+            "line_editor:FSCmdLineRollDice": {
+               "@tool_tip": {
+                  "string": "Rolls dice - cmd [number of dice] [number of faces] [modifier type (optional)] [modifier value (optional)]. Example: cmd 1 20, cmd 2 40 + 5. Lack of parameters is equal to cmd 1 6 (standard die)."
+               },
+               "@name": "FSCmdLineRollDice"
+            },
+            "#comment$39": "gtp",
+            "text:FSCmdLinePos_txt": {
+               "@name": "FSCmdLinePos_txt",
+               "#text": {
+                  "string": "\n    Teleport within region (usage: cmd x y z)\n  "
+               }
+            },
+            "line_editor:FSCmdLinePos": {
+               "@name": "FSCmdLinePos",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$42": "flr",
+            "text:FSCmdLineGround_txt": {
+               "@name": "FSCmdLineGround_txt",
+               "#text": {
+                  "string": "\n    Teleport to ground (usage: cmd)\n  "
+               }
+            },
+            "line_editor:FSCmdLineGround": {
+               "@name": "FSCmdLineGround",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$45": "gth",
+            "text:FSCmdLineHeight_txt": {
+               "@name": "FSCmdLineHeight_txt",
+               "#text": {
+                  "string": "\n    Teleport to altitude (usage: cmd z)\n  "
+               }
+            },
+            "line_editor:FSCmdLineHeight": {
+               "@name": "FSCmdLineHeight",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$48": "tp2cam",
+            "text:FSCmdTeleportToCam_txt": {
+               "@name": "FSCmdTeleportToCam_txt",
+               "#text": {
+                  "string": "\n    Teleport to cam position (usage: cmd)\n  "
+               }
+            },
+            "line_editor:FSCmdTeleportToCam": {
+               "@name": "FSCmdTeleportToCam",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$51": "offertp",
+            "text:FSCmdLineOfferTp_txt": {
+               "@name": "FSCmdLineOfferTp_txt",
+               "#text": {
+                  "string": "\n    Offer teleport to avatar (usage: cmd key)\n  "
+               }
+            },
+            "line_editor:FSCmdLineOfferTp": {
+               "@name": "FSCmdLineOfferTp",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$54": "tp2",
+            "text:FSCmdLineTP2_txt": {
+               "@name": "FSCmdLineTP2_txt",
+               "#text": {
+                  "string": "\n    Teleport to avatar (usage: cmd name)\n  "
+               }
+            },
+            "line_editor:FSCmdLineTP2": {
+               "@tool_tip": {
+                  "string": "The syntax of this command allows partial names and is not case sensitive. Better results if used while the Radar is open."
+               },
+               "@name": "FSCmdLineTP2"
+            },
+            "#comment$57": "tphome",
+            "text:FSCmdLineTeleportHome_txt": {
+               "@name": "FSCmdLineTeleportHome_txt",
+               "#text": {
+                  "string": "\n    Teleport home (usage: cmd)\n  "
+               }
+            },
+            "line_editor:FSCmdLineTeleportHome": {
+               "@name": "FSCmdLineTeleportHome",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "#comment$60": "mapto",
+            "text:FSCmdLineMapTo_txt": {
+               "@name": "FSCmdLineMapTo_txt",
+               "#text": {
+                  "string": "\n    Teleport to region (usage: cmd regionname | x y z)\n  "
+               }
+            },
+            "line_editor:FSCmdLineMapTo": {
+               "@name": "FSCmdLineMapTo",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "check_box:toggle": {
+               "@label": {
+                  "string": "Use same position between regions"
+               },
+               "@name": "toggle"
+            }
+         }
+      }
+   }
+}

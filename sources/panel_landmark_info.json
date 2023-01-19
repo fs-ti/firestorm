@@ -1,0 +1,220 @@
+{
+   "panel": {
+      "@name": "landmark_info",
+      "string:title_create_landmark": {
+         "@name": "title_create_landmark",
+         "@value": {
+            "string": "Create Landmark"
+         }
+      },
+      "string:title_edit_landmark": {
+         "@name": "title_edit_landmark",
+         "@value": {
+            "string": "Edit Landmark"
+         }
+      },
+      "string:title_landmark": {
+         "@name": "title_landmark",
+         "@value": {
+            "string": "Landmark"
+         }
+      },
+      "string:not_available": {
+         "@name": "not_available",
+         "@value": {
+            "string": "(N\\A)"
+         }
+      },
+      "string:unknown": {
+         "@name": "unknown",
+         "@value": {
+            "string": "(unknown)"
+         }
+      },
+      "string:public": {
+         "@name": "public",
+         "@value": {
+            "string": "(public)"
+         }
+      },
+      "string:server_update_text": {
+         "@name": "server_update_text",
+         "#text": {
+            "string": "\n        Place information not available without server update.\n    "
+         }
+      },
+      "string:server_error_text": {
+         "@name": "server_error_text",
+         "#text": {
+            "string": "\n        Information about this location is unavailable at this time, please try again later.\n    "
+         }
+      },
+      "string:server_forbidden_text": {
+         "@name": "server_forbidden_text",
+         "#text": {
+            "string": "\n        Information about this location is unavailable due to access restrictions.  Please check your permissions with the parcel owner.\n    "
+         }
+      },
+      "string:acquired_date": {
+         "@name": "acquired_date",
+         "#text": {
+            "string": "\n        [wkday,datetime,slt] [mth,datetime,slt] [day,datetime,slt] [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt] [year,datetime,slt]\n    "
+         }
+      },
+      "string:information_text": {
+         "@name": "information_text",
+         "#text": {
+            "string": "\n        Traffic: [TRAFFIC] Area: [AREA] m²\n    "
+         }
+      },
+      "#comment": " Texture names for rating icons ",
+      "string": null,
+      "layout_stack:place_info_sidetray_main": {
+         "@name": "place_info_sidetray_main",
+         "layout_panel:header_container": {
+            "@name": "header_container",
+            "button:back_btn": {
+               "@name": "back_btn",
+               "@tool_tip": {
+                  "string": "Back"
+               }
+            },
+            "text:title": {
+               "@name": "title",
+               "@value": {
+                  "string": "Place Profile"
+               }
+            }
+         },
+         "layout_panel:place_info_content": {
+            "@name": "place_info_content",
+            "texture_picker:logo": {
+               "@name": "logo"
+            },
+            "text:parcel_title": {
+               "@name": "parcel_title",
+               "@value": {
+                  "string": "SampleParcel, Name Long"
+               }
+            },
+            "text:region_title": {
+               "@name": "region_title",
+               "#text": {
+                  "string": "\n      Region: [REGIONAMEPOS]\n    "
+               }
+            },
+            "icon:maturity_icon": {
+               "@name": "maturity_icon"
+            },
+            "text:maturity_value": {
+               "@name": "maturity_value",
+               "@value": {
+                  "string": "unknown"
+               }
+            },
+            "text:parcel_owner_label": {
+               "@name": "parcel_owner_label",
+               "@value": {
+                  "string": "Owner:"
+               }
+            },
+            "text:parcel_owner": {
+               "@name": "parcel_owner",
+               "@value": {
+                  "string": "unknown"
+               }
+            },
+            "panel:description_panel": {
+               "@name": "description_panel",
+               "expandable_text:description": {
+                  "@name": "description",
+                  "@value": {
+                     "string": "(loading ...)"
+                  }
+               }
+            },
+            "panel:landmark_info_panel": {
+               "@name": "landmark_info_panel",
+               "text:owner_label": {
+                  "@name": "owner_label",
+                  "@value": {
+                     "string": "Owner:"
+                  }
+               },
+               "text:owner": {
+                  "@name": "owner"
+               },
+               "text:creator_label": {
+                  "@name": "creator_label",
+                  "@value": {
+                     "string": "Creator:"
+                  }
+               },
+               "text:creator": {
+                  "@name": "creator"
+               },
+               "text:created_label": {
+                  "@name": "created_label",
+                  "@value": {
+                     "string": "Created:"
+                  }
+               },
+               "text:created": {
+                  "@name": "created"
+               },
+               "text:information_label": {
+                  "@name": "information_label",
+                  "@value": {
+                     "string": "Info:"
+                  }
+               },
+               "text:information": {
+                  "@name": "information"
+               }
+            },
+            "panel:landmark_edit_panel": {
+               "@name": "landmark_edit_panel",
+               "text:title_label": {
+                  "@name": "title_label",
+                  "@value": {
+                     "string": "Title:"
+                  }
+               },
+               "line_editor:title_value": {
+                  "@name": "title_value"
+               },
+               "line_editor:title_editor": {
+                  "@name": "title_editor"
+               },
+               "text:notes_label": {
+                  "@name": "notes_label",
+                  "@value": {
+                     "string": "My notes:"
+                  }
+               },
+               "text_editor:notes_editor": {
+                  "@name": "notes_editor"
+               },
+               "text:folder_label": {
+                  "@name": "folder_label",
+                  "@value": {
+                     "string": "Landmark location:"
+                  }
+               },
+               "combo_box:folder_combo": {
+                  "@name": "folder_combo"
+               },
+               "button:edit_btn": {
+                  "@label": {
+                     "string": "Edit"
+                  },
+                  "@name": "edit_btn",
+                  "@tool_tip": {
+                     "string": "Edit landmark information"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

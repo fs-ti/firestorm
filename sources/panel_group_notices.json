@@ -1,0 +1,206 @@
+{
+   "panel": {
+      "@name": "notices_tab",
+      "@label": {
+         "string": "Notices"
+      },
+      "panel.string:help_text": {
+         "@name": "help_text",
+         "#text": {
+            "string": "\n        Notices let you send a message and an optionally attached item.\nNotices only go to group members in Roles with the ability to receive Notices.\nYou can turn off Notices on the General tab.\n    "
+         }
+      },
+      "panel.string:no_notices_text": {
+         "@name": "no_notices_text",
+         "#text": {
+            "string": "\n        There are no past notices\n    "
+         }
+      },
+      "text:lbl2": {
+         "@name": "lbl2",
+         "#text": {
+            "string": "\n     Notices are kept for 14 days.\nMaximum 200 per group daily\n    "
+         }
+      },
+      "scroll_list:notice_list": {
+         "@name": "notice_list",
+         "scroll_list.columns:icon": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "icon"
+         },
+         "scroll_list.columns:subject": {
+            "@label": {
+               "string": "Subject"
+            },
+            "@name": "subject"
+         },
+         "scroll_list.columns:from": {
+            "@label": {
+               "string": "From"
+            },
+            "@name": "from"
+         },
+         "scroll_list.columns:date": {
+            "@label": {
+               "string": "Date"
+            },
+            "@name": "date"
+         },
+         "scroll_list.columns:sort": {
+            "@name": "sort"
+         }
+      },
+      "button:create_new_notice": {
+         "@name": "create_new_notice",
+         "@label": {
+            "string": "New Notice"
+         },
+         "@tool_tip": {
+            "string": "Create a new notice"
+         }
+      },
+      "button:refresh_notices": {
+         "@name": "refresh_notices",
+         "@tool_tip": {
+            "string": "Refresh list of notices"
+         }
+      },
+      "text:notice_list_none_found": {
+         "@name": "notice_list_none_found",
+         "#text": {
+            "string": "\n    None found\n    "
+         }
+      },
+      "#comment": " Create New Notice ",
+      "panel:panel_create_new_notice": {
+         "@name": "panel_create_new_notice",
+         "@label": {
+            "string": "Create New Notice"
+         },
+         "text:lbl": {
+            "@name": "lbl",
+            "#text": {
+               "string": "\n        Create a Notice\n        "
+            }
+         },
+         "text:lbl3": {
+            "@name": "lbl3",
+            "#text": {
+               "string": "\n        Subject:\n        "
+            }
+         },
+         "line_editor:create_subject": {
+            "@name": "create_subject"
+         },
+         "text:lbl4": {
+            "@name": "lbl4",
+            "#text": {
+               "string": "\n        Message:\n        "
+            }
+         },
+         "text_editor:create_message": {
+            "@name": "create_message"
+         },
+         "text:lbl5": {
+            "@name": "lbl5",
+            "#text": {
+               "string": "\n        Attach:\n        "
+            }
+         },
+         "line_editor:create_inventory_name": {
+            "@name": "create_inventory_name"
+         },
+         "text:drag_and_drop_help": {
+            "@name": "drag_and_drop_help",
+            "#text": {
+               "string": "\n        Drag and drop item here to attach it:\n        "
+            }
+         },
+         "icon:drop_icon": {
+            "@name": "drop_icon"
+         },
+         "button:remove_attachment": {
+            "@name": "remove_attachment",
+            "@tool_tip": {
+               "string": "Remove attachment from your notification"
+            }
+         },
+         "button:open_inventory": {
+            "@name": "open_inventory",
+            "@label": {
+               "string": "Inventory"
+            },
+            "@tool_tip": {
+               "string": "Open Inventory"
+            },
+            "button.init_callback": null
+         },
+         "button:send_notice": {
+            "@name": "send_notice",
+            "@label": {
+               "string": "Send"
+            }
+         },
+         "group_drop_target:drop_target": {
+            "@name": "drop_target",
+            "@tool_tip": {
+               "string": "Drag an inventory item onto this target box to send it with this notice. You must have permission to copy and transfer the item in order to attach it."
+            }
+         }
+      },
+      "#comment$11": " View Past Notices ",
+      "panel:panel_view_past_notice": {
+         "@label": {
+            "string": "View Past Notice"
+         },
+         "@name": "panel_view_past_notice",
+         "text:lbl6": {
+            "@name": "lbl6",
+            "#text": {
+               "string": "\n        Archived Notice\n        "
+            }
+         },
+         "text:lbl7": {
+            "@name": "lbl7",
+            "#text": {
+               "string": "\n        To send a new notice, click the + button\n        "
+            }
+         },
+         "text:lbl8": {
+            "@name": "lbl8",
+            "#text": {
+               "string": "\n        Subject:\n        "
+            }
+         },
+         "line_editor:view_subject": {
+            "@name": "view_subject"
+         },
+         "text:lbl9": {
+            "@name": "lbl9",
+            "#text": {
+               "string": "\n        Message:\n        "
+            }
+         },
+         "text_editor:view_message": {
+            "@name": "view_message"
+         },
+         "text:lbl10": {
+            "@name": "lbl10",
+            "#text": {
+               "string": "\n        Attachment:\n        "
+            }
+         },
+         "line_editor:view_inventory_name": {
+            "@name": "view_inventory_name"
+         },
+         "button:open_attachment": {
+            "@label": {
+               "string": "Open Attachment"
+            },
+            "@name": "open_attachment"
+         }
+      }
+   }
+}

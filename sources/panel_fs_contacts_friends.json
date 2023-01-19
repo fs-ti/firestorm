@@ -1,0 +1,164 @@
+{
+   "panel": {
+      "@name": "friends",
+      "panel.string:FontName": {
+         "@name": "FontName",
+         "@value": {
+            "string": "SANSSERIF"
+         }
+      },
+      "layout_stack:ls_friend_list": {
+         "@name": "ls_friend_list",
+         "layout_panel:lp_search": {
+            "@name": "lp_search",
+            "filter_editor:friend_filter_input": {
+               "@label": {
+                  "string": "Filter Friends"
+               },
+               "@name": "friend_filter_input"
+            }
+         },
+         "layout_panel:lp_friend_list": {
+            "@name": "lp_friend_list",
+            "fs_scroll_list:friend_list": {
+               "@name": "friend_list",
+               "fs_scroll_list.column:icon_online_status": {
+                  "@name": "icon_online_status",
+                  "@tool_tip": {
+                     "string": "Online status"
+                  }
+               },
+               "fs_scroll_list.column:user_name": {
+                  "@label": {
+                     "string": "Username"
+                  },
+                  "@name": "user_name",
+                  "@tool_tip": {
+                     "string": "This contact's username."
+                  }
+               },
+               "fs_scroll_list.column:display_name": {
+                  "@label": {
+                     "string": "Display name"
+                  },
+                  "@name": "display_name",
+                  "@tool_tip": {
+                     "string": "This contact's display name."
+                  }
+               },
+               "fs_scroll_list.column:full_name": {
+                  "@label": {
+                     "string": "Name"
+                  },
+                  "@name": "full_name",
+                  "@tool_tip": {
+                     "string": "This contact's chosen name."
+                  }
+               },
+               "fs_scroll_list.column:icon_visible_online": {
+                  "@name": "icon_visible_online",
+                  "@tool_tip": {
+                     "string": "Friend can see when you're online"
+                  }
+               },
+               "fs_scroll_list.column:icon_visible_map": {
+                  "@name": "icon_visible_map",
+                  "@tool_tip": {
+                     "string": "Friend can locate you on the map"
+                  }
+               },
+               "fs_scroll_list.column:icon_edit_mine": {
+                  "@name": "icon_edit_mine",
+                  "@tool_tip": {
+                     "string": "Friend can edit, delete or take objects"
+                  }
+               },
+               "fs_scroll_list.column:icon_visible_map_theirs": {
+                  "@name": "icon_visible_map_theirs",
+                  "@tool_tip": {
+                     "string": "You can locate them on the map"
+                  }
+               },
+               "fs_scroll_list.column:icon_edit_theirs": {
+                  "@name": "icon_edit_theirs",
+                  "@tool_tip": {
+                     "string": "You can edit this friend's objects"
+                  }
+               },
+               "fs_scroll_list.column:friend_last_update_generation": {
+                  "@name": "friend_last_update_generation"
+               }
+            }
+         }
+      },
+      "button:im_btn": {
+         "@label": {
+            "string": "IM/Call"
+         },
+         "@name": "im_btn",
+         "@tool_tip": {
+            "string": "Open Instant Message session"
+         }
+      },
+      "button:profile_btn": {
+         "@label": {
+            "string": "Profile"
+         },
+         "@name": "profile_btn",
+         "@tool_tip": {
+            "string": "Show picture, groups, and other information"
+         }
+      },
+      "button:offer_teleport_btn": {
+         "@label": {
+            "string": "Teleport..."
+         },
+         "@name": "offer_teleport_btn",
+         "@tool_tip": {
+            "string": "Offer this friend a teleport to your current location"
+         }
+      },
+      "button:map_btn": {
+         "@label": {
+            "string": "Map..."
+         },
+         "@name": "map_btn",
+         "@tool_tip": {
+            "string": "Show current location of friend on the map"
+         }
+      },
+      "button:pay_btn": {
+         "@label": {
+            "string": "Pay..."
+         },
+         "@name": "pay_btn",
+         "@tool_tip": {
+            "string": "Give Linden dollars (L$) to this friend"
+         }
+      },
+      "button:remove_btn": {
+         "@label": {
+            "string": "Remove..."
+         },
+         "@name": "remove_btn",
+         "@tool_tip": {
+            "string": "Remove this person from your friends list"
+         }
+      },
+      "button:add_btn": {
+         "@label": {
+            "string": "Add..."
+         },
+         "@name": "add_btn",
+         "@tool_tip": {
+            "string": "Offer friendship to a resident"
+         }
+      },
+      "text:friend_count": {
+         "@name": "friend_count",
+         "#text": {
+            "string": "\n   Friends: [COUNT]\n  "
+         }
+      }
+   }
+}

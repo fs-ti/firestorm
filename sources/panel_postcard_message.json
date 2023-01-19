@@ -1,0 +1,38 @@
+{
+   "panel": {
+      "@name": "panel_postcard_message",
+      "text:to_label": {
+         "@name": "to_label",
+         "#text": {
+            "string": "\n        To:\n    "
+         }
+      },
+      "line_editor:to_form": {
+         "@name": "to_form"
+      },
+      "text:name_label": {
+         "@name": "name_label",
+         "#text": {
+            "string": "\n        From:\n    "
+         }
+      },
+      "line_editor:name_form": {
+         "@name": "name_form"
+      },
+      "text:subject_label": {
+         "@name": "subject_label",
+         "#text": {
+            "string": "\n        Subject:\n    "
+         }
+      },
+      "line_editor:subject_form": {
+         "@name": "subject_form"
+      },
+      "text_editor:msg_form": {
+         "@name": "msg_form",
+         "#text": {
+            "string": "\n        Type your message here.\n    "
+         }
+      }
+   }
+}

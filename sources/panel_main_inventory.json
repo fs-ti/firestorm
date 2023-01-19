@@ -1,0 +1,226 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Things"
+      },
+      "@name": "main inventory panel",
+      "panel.string:Itemcount": {
+         "@name": "Itemcount"
+      },
+      "panel.string:ItemcountFetching": {
+         "@name": "ItemcountFetching",
+         "#text": {
+            "string": "\n    Fetching [ITEM_COUNT] Elements... [FILTER]\n  "
+         }
+      },
+      "panel.string:ItemcountCompleted": {
+         "@name": "ItemcountCompleted",
+         "#text": {
+            "string": "\n    [ITEM_COUNT] Elements [FILTER]\n  "
+         }
+      },
+      "panel.string:ItemcountUnknown": {
+         "@name": "ItemcountUnknown",
+         "#text": {
+            "string": "\n    Fetched [ITEM_COUNT] Elements [FILTER]\n  "
+         }
+      },
+      "filter_editor:inventory search editor": {
+         "@label": {
+            "string": "Filter Inventory"
+         },
+         "@name": "inventory search editor",
+         "@tool_tip": {
+            "string": "Type in one or more words to search for, separated by '+' "
+         }
+      },
+      "button:collapse_btn": {
+         "@name": "collapse_btn",
+         "@label": {
+            "string": "Collapse"
+         }
+      },
+      "button:expand_btn": {
+         "@name": "expand_btn",
+         "@label": {
+            "string": "Expand"
+         }
+      },
+      "text:filter_label": {
+         "@name": "filter_label",
+         "@value": {
+            "string": "Filter:"
+         }
+      },
+      "combo_box:filter_combo_box": {
+         "@name": "filter_combo_box",
+         "combo_box.item": {
+            "@label": {
+               "string": "All Types"
+            }
+         },
+         "combo_box.item$2": {
+            "@label": {
+               "string": "------------"
+            }
+         },
+         "combo_box.item$3": {
+            "@label": {
+               "string": "Animations"
+            }
+         },
+         "combo_box.item$4": {
+            "@label": {
+               "string": "Calling Cards"
+            }
+         },
+         "combo_box.item$5": {
+            "@label": {
+               "string": "Clothing / Body Parts"
+            }
+         },
+         "combo_box.item$6": {
+            "@label": {
+               "string": "Gestures"
+            }
+         },
+         "combo_box.item$7": {
+            "@label": {
+               "string": "Landmarks"
+            }
+         },
+         "combo_box.item$8": {
+            "@label": {
+               "string": "Notecards"
+            }
+         },
+         "combo_box.item$9": {
+            "@label": {
+               "string": "Objects"
+            }
+         },
+         "combo_box.item$10": {
+            "@label": {
+               "string": "Scripts"
+            }
+         },
+         "combo_box.item$11": {
+            "@label": {
+               "string": "Sounds"
+            }
+         },
+         "combo_box.item$12": {
+            "@label": {
+               "string": "Textures"
+            }
+         },
+         "combo_box.item$13": {
+            "@label": {
+               "string": "Snapshots"
+            }
+         },
+         "combo_box.item$14": {
+            "@label": {
+               "string": "Meshes"
+            }
+         },
+         "combo_box.item$15": {
+            "@label": {
+               "string": "Settings"
+            }
+         },
+         "combo_box.item$16": {
+            "@label": {
+               "string": "------------"
+            }
+         },
+         "combo_box.item$17": {
+            "@label": {
+               "string": "Custom..."
+            }
+         }
+      },
+      "menu_button:options_visibility_btn": {
+         "@tool_tip": {
+            "string": "Show search visibility options"
+         },
+         "@name": "options_visibility_btn"
+      },
+      "tab_container:inventory filter tabs": {
+         "@name": "inventory filter tabs",
+         "inventory_panel:All Items": {
+            "@label": {
+               "string": "Inventory"
+            },
+            "@name": "All Items"
+         },
+         "recent_inventory_panel:Recent Items": {
+            "@label": {
+               "string": "Recent"
+            },
+            "@name": "Recent Items"
+         },
+         "worn_inventory_panel:Worn Items": {
+            "@label": {
+               "string": "Worn"
+            },
+            "@name": "Worn Items"
+         }
+      },
+      "panel:bottom_panel": {
+         "@name": "bottom_panel",
+         "panel:options_gear_btn_panel": {
+            "@name": "options_gear_btn_panel",
+            "menu_button:options_gear_btn": {
+               "@tool_tip": {
+                  "string": "Show additional options"
+               },
+               "@name": "options_gear_btn"
+            }
+         },
+         "panel:add_btn_panel": {
+            "@name": "add_btn_panel",
+            "button:add_btn": {
+               "@name": "add_btn",
+               "@tool_tip": {
+                  "string": "Add new item"
+               }
+            }
+         },
+         "panel:new_inventory_panel": {
+            "@name": "new_inventory_panel",
+            "button:new_inv_btn": {
+               "@name": "new_inv_btn",
+               "@tool_tip": {
+                  "string": "Additional Inventory Window"
+               },
+               "button.init_callback": null
+            }
+         },
+         "panel:dummy_panel": {
+            "@name": "dummy_panel",
+            "text:ItemcountText": {
+               "@name": "ItemcountText",
+               "@tool_tip": {
+                  "string": "[ITEMS] Items, [CATEGORIES] Folders"
+               },
+               "#text": {
+                  "string": "\n          Elements\n          "
+               }
+            },
+            "icon:dummy_icon": {
+               "@name": "dummy_icon"
+            }
+         },
+         "panel:trash_btn_panel": {
+            "@name": "trash_btn_panel",
+            "dnd_button:trash_btn": {
+               "@name": "trash_btn",
+               "@tool_tip": {
+                  "string": "Remove selected item"
+               }
+            }
+         }
+      }
+   }
+}

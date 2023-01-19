@@ -1,0 +1,39 @@
+{
+   "panel": {
+      "@name": "panel_experiences",
+      "@label": {
+         "string": "Experiences"
+      },
+      "string:loading_experiences": {
+         "@name": "loading_experiences",
+         "@value": {
+            "string": "Loading experiences..."
+         }
+      },
+      "string:no_experiences": {
+         "@name": "no_experiences",
+         "@value": {
+            "string": "No experiences."
+         }
+      },
+      "string:acquire": {
+         "@name": "acquire",
+         "@value": {
+            "string": "Acquire an Experience"
+         }
+      },
+      "layout_stack": {
+         "layout_panel": {
+            "flat_list_view:experiences_list": {
+               "@name": "experiences_list"
+            }
+         },
+         "layout_panel$1": {
+            "@name": "button_panel",
+            "button:btn_action": {
+               "@name": "btn_action"
+            }
+         }
+      }
+   }
+}

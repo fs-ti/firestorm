@@ -1,0 +1,60 @@
+{
+   "panel": {
+      "@name": "Outfit Gallery",
+      "string:outfit_photo_string": {
+         "@name": "outfit_photo_string",
+         "#text": {
+            "string": "\n    Photo of \"[OUTFIT_NAME]\" outfit\n  "
+         }
+      },
+      "string:no_outfits_msg": {
+         "@name": "no_outfits_msg",
+         "#text": {
+            "string": "\n    You don't have any outfits yet. Try [secondlife:///app/search/all/ Search]\n  "
+         }
+      },
+      "string:no_matched_outfits_msg": {
+         "@name": "no_matched_outfits_msg",
+         "#text": {
+            "string": "\n    Didn't find what you're looking for? Try [secondlife:///app/search/all/[SEARCH_TERM] Search].\n  "
+         }
+      },
+      "text:no_outfits_txt": {
+         "@name": "no_outfits_txt",
+         "#text": {
+            "string": "\n    Searching...\n  "
+         }
+      },
+      "scroll_container:gallery_scroll_panel": "<!--outfit_gallery_item\n    layout=\"topleft\"\n    left=\"10\"\n    name=\"preview_outfit1\"\n    height=\"175\"\n    width=\"150\"\n    follows=\"left|top\"/--><!--layout_stack follows=\"left|right\" height=\"180\" width=\"498\" layout=\"topleft\" left=\"0\" animate=\"false\" top=\"0\" name=\"top_gallery_stack\" orientation=\"horizontal\">\n      <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top_gallery_panel\">\n        <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit1\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n      </layout_panel>\n      <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top panel\">\n        <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit2\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n      </layout_panel>\n      <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top panel\">\n        <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit2\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n      </layout_panel>\n    </layout_stack>\n    <layout_stack follows=\"left|right\" height=\"180\" width=\"498\" layout=\"topleft\" left=\"0\" animate=\"false\" top=\"190\" name=\"top_gallery_stack\" orientation=\"horizontal\">\n      <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top_gallery_panel\">\n        <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit1\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n      </layout_panel>\n      <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top panel\">\n        <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit2\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n      </layout_panel>\n      <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top panel\">\n        <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit2\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n      </layout_panel>\n    </layout_stack>\n     <layout_stack follows=\"left|right\" height=\"180\" width=\"498\" layout=\"topleft\" left=\"0\" animate=\"false\" top=\"380\" name=\"top_gallery_stack\" orientation=\"horizontal\">\n       <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top_gallery_panel\">\n         <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit1\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n       </layout_panel>\n       <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top panel\">\n         <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit2\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n       </layout_panel>\n       <layout_panel follows=\"left|top\" height=\"175\" width=\"166\" layout=\"topleft\" left=\"0\" top=\"0\" auto_resize=\"false\" visible=\"true\" name=\"top panel\">\n         <outfit_gallery_item layout=\"topleft\" left=\"10\" name=\"preview_outfit2\" height=\"175\" width=\"150\" follows=\"left|top\"/>\n       </layout_panel>\n     </layout_stack--><!--</panel>-->",
+      "panel:bottom_panel": {
+         "@name": "bottom_panel",
+         "menu_button:options_gear_btn": {
+            "@tool_tip": {
+               "string": "Show additional options"
+            },
+            "@name": "options_gear_btn"
+         },
+         "icon:dummy_icon": {
+            "@name": "dummy_icon"
+         },
+         "text:OutfitcountText": {
+            "@name": "OutfitcountText",
+            "#text": {
+               "string": "\n          [COUNT] Outfits\n      "
+            }
+         },
+         "text:avatar_complexity_label": {
+            "@name": "avatar_complexity_label",
+            "#text": {
+               "string": "\n          Complexity: [WEIGHT]\n      "
+            }
+         },
+         "button:trash_btn": {
+            "@name": "trash_btn",
+            "@tool_tip": {
+               "string": "Delete selected outfit"
+            }
+         }
+      }
+   }
+}

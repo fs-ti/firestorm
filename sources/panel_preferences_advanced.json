@@ -1,0 +1,67 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Advanced"
+      },
+      "@name": "advanced",
+      "panel.string:aspect_ratio_text": {
+         "@name": "aspect_ratio_text",
+         "#text": {
+            "string": "\n        [NUM]:[DEN]\n    "
+         }
+      },
+      "panel.string:middle_mouse": {
+         "@name": "middle_mouse",
+         "#text": {
+            "string": "\n        Middle Mouse\n    "
+         }
+      },
+      "check_box:allow_multiple_viewer_check": {
+         "@label": {
+            "string": "Allow Multiple Viewers (May reduce stability and performance)"
+         },
+         "@name": "allow_multiple_viewer_check"
+      },
+      "check_box:show_grid_selection_check": {
+         "@label": {
+            "string": "Allow login to other grids (Not all grids will support Firestorm)"
+         },
+         "@name": "show_grid_selection_check"
+      },
+      "check_box:show_advanced_menu_check": {
+         "@label": {
+            "string": "Show Advanced Menu (Use at own risk!)"
+         },
+         "@name": "show_advanced_menu_check"
+      },
+      "check_box:show_develop_menu_check": {
+         "@label": {
+            "string": "Show Developer Menu (Use at own risk!)"
+         },
+         "@name": "show_develop_menu_check"
+      },
+      "check_box:FSDisableWMIProbing": {
+         "@label": {
+            "string": "Disable VRAM detection via WMI probing on Windows systems"
+         },
+         "@name": "FSDisableWMIProbing"
+      },
+      "#comment": " Ansa: Timesteps are currently disabled in the viewer\n    <check_box\n     control_name=\"UseAnimationTimeSteps\"\n     tool_tip=\"This setting may reduce render load for distant avatars but, may also cause their animations to play at incorrect speeds\"\n     follows=\"top|left\"\n     height=\"15\"\n     label=\"Enable the use of animation timesteps (experimental)\"\n     layout=\"topleft\"\n     left=\"30\"\n     name=\"UseAnimationTimeSteps\"\n     top_pad=\"5\"\n     width=\"237\"/>\n    ",
+      "text:BackgroundYieldTimeText": {
+         "@name": "BackgroundYieldTimeText",
+         "#text": {
+            "string": "\n        Amount of time, in milliseconds, to yield every frame to other applications when [APP_NAME] is not the foreground window (default: 40; 1 second = 1000 milliseconds):\n    "
+         }
+      },
+      "slider:BackgroundYieldTime": {
+         "@name": "BackgroundYieldTime"
+      },
+      "button:clear_settings": {
+         "@label": {
+            "string": "Reset All Settings"
+         },
+         "@name": "clear_settings",
+         "button.commit_callback": null
+      }
+   }
+}

@@ -1,0 +1,107 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Ban Residents"
+      },
+      "@name": "bulk_ban_panel",
+      "panel.string:loading": {
+         "@name": "loading",
+         "#text": {
+            "string": "\n    (loading...)\n  "
+         }
+      },
+      "panel.string:ban_selection_too_large": {
+         "@name": "ban_selection_too_large",
+         "#text": {
+            "string": "\n    Group bans not sent: too many Residents selected. Group bans are limited to 100 per request.\n  "
+         }
+      },
+      "panel.string:ban_not_permitted": {
+         "@name": "ban_not_permitted",
+         "#text": {
+            "string": "\n    Group ban not sent: you do not have 'Manage ban list' ability.\n  "
+         }
+      },
+      "panel.string:ban_limit_fail": {
+         "@name": "ban_limit_fail",
+         "#text": {
+            "string": "\n    Group ban not sent: your group have reached limit of allowed ban records.\n  "
+         }
+      },
+      "panel.string:partial_ban": {
+         "@name": "partial_ban",
+         "#text": {
+            "string": "\n    Some group bans were not sent:\n[REASONS]\n  "
+         }
+      },
+      "panel.string:ban_failed": {
+         "@name": "ban_failed",
+         "#text": {
+            "string": "\n    Group bans were not sent:\n[REASONS]\n  "
+         }
+      },
+      "panel.string:residents_already_banned": {
+         "@name": "residents_already_banned",
+         "#text": {
+            "string": "\n    - The following resident(s) are already banned: [RESIDENTS].\n  "
+         }
+      },
+      "panel.string:ban_limit_reached": {
+         "@name": "ban_limit_reached",
+         "#text": {
+            "string": "\n    - Ban limit reached, following agents not banned: [RESIDENTS].\n  "
+         }
+      },
+      "panel.string:cant_ban_yourself": {
+         "@name": "cant_ban_yourself",
+         "#text": {
+            "string": "\n    - You cannot ban yourself from a group.\n  "
+         }
+      },
+      "text:help_text": {
+         "@name": "help_text",
+         "#text": {
+            "string": "\n    You can select multiple Residents to ban from your group. Click 'Open Resident Chooser' to start.\n  "
+         }
+      },
+      "button:add_button": {
+         "@label": {
+            "string": "Open Resident Chooser"
+         },
+         "@name": "add_button"
+      },
+      "name_list:banned_agent_list": {
+         "@name": "banned_agent_list",
+         "@tool_tip": {
+            "string": "Hold the Ctrl key and click Resident names to multi-select"
+         }
+      },
+      "button:remove_button": {
+         "@label": {
+            "string": "Remove Selected from List"
+         },
+         "@name": "remove_button",
+         "@tool_tip": {
+            "string": "Removes the Residents selected above from the ban list"
+         }
+      },
+      "button:ban_button": {
+         "@label": {
+            "string": "Ban Residents"
+         },
+         "@name": "ban_button"
+      },
+      "button:cancel_button": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_button"
+      },
+      "string:GroupBulkBan": {
+         "@name": "GroupBulkBan",
+         "#text": {
+            "string": "\n    Group Ban\n  "
+         }
+      }
+   }
+}

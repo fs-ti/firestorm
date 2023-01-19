@@ -1,0 +1,24 @@
+{
+   "panel": {
+      "@name": "nearby_chat",
+      "line_editor:chat_box": {
+         "@label": {
+            "string": "Click here to chat."
+         },
+         "@name": "chat_box",
+         "@tool_tip": {
+            "string": "Press Enter to say, Ctrl+Enter to shout"
+         }
+      },
+      "output_monitor:chat_zone_indicator": {
+         "@name": "chat_zone_indicator"
+      },
+      "button:show_nearby_chat": {
+         "@name": "show_nearby_chat",
+         "@tool_tip": {
+            "string": "Shows/hides nearby chat log"
+         },
+         "button.init_callback": null
+      }
+   }
+}

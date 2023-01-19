@@ -1,0 +1,12 @@
+{
+   "inventory_panel": {
+      "@label": {
+         "string": "All"
+      },
+      "@name": "All Items",
+      "@tool_tip": {
+         "string": "Drag and drop items here to list them"
+      },
+      "item": null
+   }
+}

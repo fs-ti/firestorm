@@ -1,0 +1,77 @@
+{
+   "panel": {
+      "@name": "panel_profile_web",
+      "@label": {
+         "string": "Web"
+      },
+      "panel.string:LoadTime": {
+         "@name": "LoadTime",
+         "@value": {
+            "string": "Load Time: [TIME] seconds"
+         }
+      },
+      "line_editor:url_edit": {
+         "@name": "url_edit"
+      },
+      "flyout_button:load": {
+         "@name": "load",
+         "@label": {
+            "string": "Load"
+         },
+         "@tool_tip": {
+            "string": "Load this profile page with embedded web browser."
+         },
+         "flyout_button.item:open_item": {
+            "@label": {
+               "string": "Open in-viewer browser"
+            },
+            "@value": {
+               "string": "popout"
+            },
+            "@name": "open_item"
+         },
+         "flyout_button.item:home_item": {
+            "@label": {
+               "string": "Open external browser"
+            },
+            "@value": {
+               "string": "external"
+            },
+            "@name": "home_item"
+         }
+      },
+      "loading_indicator:progress_indicator": {
+         "@name": "progress_indicator"
+      },
+      "flyout_button:web_profile": {
+         "@name": "web_profile",
+         "@label": {
+            "string": "Profile"
+         },
+         "flyout_button.item:builtin_item": {
+            "@label": {
+               "string": "Popout"
+            },
+            "@value": {
+               "string": "popout"
+            },
+            "@name": "builtin_item"
+         },
+         "flyout_button.item:open_item": {
+            "@label": {
+               "string": "Open external browser"
+            },
+            "@value": {
+               "string": "external"
+            },
+            "@name": "open_item"
+         }
+      },
+      "web_browser:profile_html": {
+         "@name": "profile_html"
+      },
+      "text:status_text": {
+         "@name": "status_text"
+      }
+   }
+}

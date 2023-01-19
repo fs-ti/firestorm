@@ -1,0 +1,109 @@
+{
+   "panel": {
+      "@name": "panel_login",
+      "panel.string:forgot_password_url": {
+         "@name": "forgot_password_url",
+         "#text": {
+            "string": "\n    http://secondlife.com/account/request.php\n  "
+         }
+      },
+      "panel.string:sign_up_url": {
+         "@name": "sign_up_url",
+         "#text": {
+            "string": "\n    https://www.firestormviewer.org/join-secondlife/\n  "
+         }
+      },
+      "layout_stack:ui_stack": {
+         "@name": "ui_stack",
+         "layout_panel:ui_elastic_pad_left": {
+            "@name": "ui_elastic_pad_left"
+         },
+         "layout_panel:ui_container": {
+            "@name": "ui_container",
+            "icon:sl_logo_small": {
+               "@name": "sl_logo_small"
+            },
+            "combo_box:username_combo": {
+               "@label": {
+                  "string": "Username"
+               },
+               "@tool_tip": {
+                  "string": "The username you chose when you registered, like bobsmith12 or Steller Sunshine"
+               },
+               "@name": "username_combo",
+               "combo_box.combo_editor": null
+            },
+            "line_editor:password_edit": {
+               "@name": "password_edit",
+               "@label": {
+                  "string": "Password"
+               }
+            },
+            "combo_box:start_location_combo": {
+               "@label": {
+                  "string": "My favorite places"
+               },
+               "@name": "start_location_combo",
+               "combo_box.combo_editor": null,
+               "combo_box.item:MyLastLocation": {
+                  "@label": {
+                     "string": "My last location"
+                  },
+                  "@name": "MyLastLocation"
+               },
+               "combo_box.item:MyHome": {
+                  "@label": {
+                     "string": "My home"
+                  },
+                  "@name": "MyHome"
+               }
+            },
+            "button:connect_btn": {
+               "@label": {
+                  "string": "Log In"
+               },
+               "@name": "connect_btn"
+            },
+            "text:sign_up_text": {
+               "@name": "sign_up_text",
+               "#text": {
+                  "string": "\n    Sign up\n  "
+               }
+            },
+            "check_box:remember_name": {
+               "@label": {
+                  "string": "Remember me"
+               },
+               "@name": "remember_name",
+               "@tool_tip": {
+                  "string": "Already remembered user can be forgotten from Me > Preferences > Advanced > Remembered Usernames."
+               }
+            },
+            "check_box:remember_password": {
+               "@label": {
+                  "string": "Remember password"
+               },
+               "@name": "remember_password"
+            },
+            "combo_box:server_combo": {
+               "@label": {
+                  "string": "Select grid"
+               },
+               "@name": "server_combo"
+            },
+            "text:forgot_password_text": {
+               "@name": "forgot_password_text",
+               "#text": {
+                  "string": "\n    Password help\n  "
+               }
+            }
+         },
+         "layout_panel:ui_elastic_pad_right": {
+            "@name": "ui_elastic_pad_right"
+         }
+      },
+      "web_browser:login_html": {
+         "@name": "login_html"
+      }
+   }
+}

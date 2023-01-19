@@ -1,0 +1,48 @@
+{
+   "menu": {
+      "@name": "menu_gear_default",
+      "menu_item_call:wear": {
+         "@label": {
+            "string": "Replace Current Outfit"
+         },
+         "@name": "wear",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:remove": {
+         "@label": {
+            "string": "Remove From Current Outfit"
+         },
+         "@name": "remove",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_separator:Outfits Gear Separator": {
+         "@name": "Outfits Gear Separator"
+      },
+      "menu_item_call:rename": {
+         "@label": {
+            "string": "Rename"
+         },
+         "@name": "rename",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:remove_link": {
+         "@label": {
+            "string": "Remove Link"
+         },
+         "@name": "remove_link",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:delete": {
+         "@label": {
+            "string": "Delete Outfit"
+         },
+         "@name": "delete",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

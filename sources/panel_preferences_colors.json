@@ -1,0 +1,856 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Colors"
+      },
+      "@name": "colors_panel",
+      "tab_container:tabs": {
+         "@label": {
+            "string": "Color Prefs"
+         },
+         "@name": "tabs",
+         "panel:tab-chat": {
+            "@label": {
+               "string": "Chat Color"
+            },
+            "@name": "tab-chat",
+            "text:font_colors": {
+               "@name": "font_colors",
+               "#text": {
+                  "string": "\n       Chat Message Colors:\n     "
+               }
+            },
+            "color_swatch:user": {
+               "@name": "user",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:user_label": {
+               "@name": "user_label",
+               "#text": {
+                  "string": "\n       My text\n     "
+               }
+            },
+            "color_swatch:agent": {
+               "@name": "agent",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:others_label": {
+               "@name": "others_label",
+               "#text": {
+                  "string": "\n       Others\n     "
+               }
+            },
+            "color_swatch:objects": {
+               "@name": "objects",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:text_box3": {
+               "@name": "text_box3",
+               "#text": {
+                  "string": "\n       Objects\n     "
+               }
+            },
+            "color_swatch:friends": {
+               "@name": "friends",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:friends_label": {
+               "@name": "friends_label",
+               "#text": {
+                  "string": "\n       Friends\n     "
+               }
+            },
+            "color_swatch:lindens": {
+               "@name": "lindens",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:linden_label": {
+               "@name": "linden_label",
+               "#text": {
+                  "string": "\n       Linden\n     "
+               }
+            },
+            "color_swatch:muted": {
+               "@name": "muted",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:muted_label": {
+               "@name": "muted_label",
+               "#text": {
+                  "string": "\n       Muted\n     "
+               }
+            },
+            "color_swatch:system": {
+               "@name": "system",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:system_label": {
+               "@name": "system_label",
+               "#text": {
+                  "string": "\n       System\n     "
+               }
+            },
+            "color_swatch:script_error": {
+               "@name": "script_error",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:script_error_label": {
+               "@name": "script_error_label",
+               "#text": {
+                  "string": "\n       Errors\n     "
+               }
+            },
+            "color_swatch:ObjectIMColor": {
+               "@name": "ObjectIMColor",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:object_im_label": {
+               "@name": "object_im_label",
+               "#text": {
+                  "string": "\n       Object IMs\n     "
+               }
+            },
+            "color_swatch:owner": {
+               "@name": "owner",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:llownersay_label": {
+               "@name": "llownersay_label",
+               "#text": {
+                  "string": "\n       Owner\n     "
+               }
+            },
+            "color_swatch:links": {
+               "@name": "links",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:htmllink_label": {
+               "@name": "htmllink_label",
+               "#text": {
+                  "string": "\n       URLs\n     "
+               }
+            },
+            "color_swatch:UriQueryPartColor": {
+               "@name": "UriQueryPartColor",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:uriquerypart_label": {
+               "@name": "uriquerypart_label",
+               "#text": {
+                  "string": "\n       URL Query Part\n     "
+               }
+            },
+            "color_swatch:direct": {
+               "@name": "direct",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:direct_label": {
+               "@name": "direct_label",
+               "#text": {
+                  "string": "\n       Direct\n     "
+               }
+            },
+            "text:header_colors": {
+               "@name": "header_colors",
+               "#text": {
+                  "string": "\n     Chat headers:\n    "
+               }
+            },
+            "color_swatch:chat_header": {
+               "@name": "chat_header",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:chat_name_label": {
+               "@name": "chat_name_label",
+               "#text": {
+                  "string": "\n     Avatars\n    "
+               }
+            },
+            "color_swatch:object_name_header": {
+               "@name": "object_name_header",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:object_name_header_label": {
+               "@name": "object_name_header_label",
+               "#text": {
+                  "string": "\n     Objects\n    "
+               }
+            },
+            "slider:FSBeyondNearbyChatColorDiminishFactor": {
+               "@label": {
+                  "string": "Beyond chat range diminish factor:"
+               },
+               "@name": "FSBeyondNearbyChatColorDiminishFactor",
+               "@tool_tip": {
+                  "string": "The factor used to diminish the actual chat color if the sender is beyond normal chat range (0 = dim, 1 = bright)"
+               }
+            },
+            "check_box:FSColorIMsDistinctly": {
+               "@name": "FSColorIMsDistinctly",
+               "@label": {
+                  "string": "Color IM/Group chat distinctly in console:"
+               }
+            },
+            "panel:im_color_panel": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "im_color_panel",
+               "color_swatch:console_im": {
+                  "@name": "console_im",
+                  "color_swatch.init_callback": null,
+                  "color_swatch.commit_callback": null
+               },
+               "text:console_im_label": {
+                  "@name": "console_im_label",
+                  "#text": {
+                     "string": "\n         IMs/Group\n       "
+                  }
+               }
+            }
+         },
+         "panel:tab-nametag": {
+            "@label": {
+               "string": "Name Tags"
+            },
+            "@name": "tab-nametag",
+            "text:nametag_colors": {
+               "@name": "nametag_colors",
+               "#text": {
+                  "string": "\n       Name tag Colors:\n     "
+               }
+            },
+            "color_swatch:self_tag": {
+               "@name": "self_tag",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:self_tag_label": {
+               "@name": "self_tag_label",
+               "#text": {
+                  "string": "\n       My tag\n     "
+               }
+            },
+            "color_swatch:friend_tag": {
+               "@name": "friend_tag",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:friend_tag_label": {
+               "@name": "friend_tag_label",
+               "#text": {
+                  "string": "\n       Friends\n     "
+               }
+            },
+            "color_swatch:muted_tag": {
+               "@name": "muted_tag",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:muted_tag_label": {
+               "@name": "muted_tag_label",
+               "#text": {
+                  "string": "\n       Muted\n     "
+               }
+            },
+            "color_swatch:linden_tag": {
+               "@name": "linden_tag",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:linden_tag_label": {
+               "@name": "linden_tag_label",
+               "#text": {
+                  "string": "\n       Linden Lab\n     "
+               }
+            },
+            "color_swatch:match_tag": {
+               "@name": "match_tag",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:match_tag_label": {
+               "@name": "match_tag_label",
+               "#text": {
+                  "string": "\n       Match\n     "
+               }
+            },
+            "color_swatch:mismatch_tag": {
+               "@name": "mismatch_tag",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:mismatch_tag_label": {
+               "@name": "mismatch_tag_label",
+               "#text": {
+                  "string": "\n       Mismatch\n     "
+               }
+            },
+            "check_box:FSColorUsername": {
+               "@name": "FSColorUsername",
+               "@label": {
+                  "string": "Color usernames distinctly"
+               },
+               "@tool_tip": {
+                  "string": "Displays usernames in a different color"
+               }
+            },
+            "check_box:NameTagShowFriends": {
+               "@name": "NameTagShowFriends",
+               "@label": {
+                  "string": "Color friend name tags distinctly"
+               },
+               "@tool_tip": {
+                  "string": "Displays friend name tags in a different color"
+               }
+            },
+            "color_swatch:username_tag": {
+               "@name": "username_tag",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:username_tag_label": {
+               "@name": "username_tag_label",
+               "#text": {
+                  "string": "\n       Username\n     "
+               }
+            },
+            "text:bubble_chat": {
+               "@name": "bubble_chat",
+               "#text": {
+                  "string": "\n       Name Tag / Bubble Chat:\n     "
+               }
+            },
+            "color_swatch:background": {
+               "@name": "background",
+               "@tool_tip": {
+                  "string": "Choose name tag color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "slider:bubble_chat_opacity": {
+               "@label": {
+                  "string": "Name Tag Opacity:"
+               },
+               "@name": "bubble_chat_opacity",
+               "@tool_tip": {
+                  "string": "Choose name tag opacity"
+               }
+            },
+            "slider:FSNameTagZOffsetCorrection": {
+               "@label": {
+                  "string": "Name tag Z-Offset:"
+               },
+               "@name": "FSNameTagZOffsetCorrection",
+               "@tool_tip": {
+                  "string": "Changes the Z-offset for avatar name tags. Default 0"
+               }
+            },
+            "check_box:FSTagShowDistance": {
+               "@name": "FSTagShowDistance",
+               "@label": {
+                  "string": "Show distance in name tag"
+               },
+               "@tool_tip": {
+                  "string": "Show distance from an avatar in their name tag"
+               }
+            },
+            "check_box:FSTagShowDistanceColors": {
+               "@name": "FSTagShowDistanceColors",
+               "@label": {
+                  "string": "Color name tags based on distance:"
+               }
+            },
+            "panel:distance_panel": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "distance_panel",
+               "color_swatch:chat_distance_tag": {
+                  "@name": "chat_distance_tag",
+                  "color_swatch.init_callback": null,
+                  "color_swatch.commit_callback": null
+               },
+               "text:chat_distance_tag_label": {
+                  "@name": "chat_distance_tag_label",
+                  "#text": {
+                     "string": "\n       Chat range\n     "
+                  }
+               },
+               "color_swatch:whisper_distance_tag": {
+                  "@name": "whisper_distance_tag",
+                  "color_swatch.init_callback": null,
+                  "color_swatch.commit_callback": null
+               },
+               "text:whisper_distance_tag_label": {
+                  "@name": "whisper_distance_tag_label",
+                  "#text": {
+                     "string": "\n       Whisper Range\n     "
+                  }
+               },
+               "color_swatch:shout_range_tag": {
+                  "@name": "shout_range_tag",
+                  "color_swatch.init_callback": null,
+                  "color_swatch.commit_callback": null
+               },
+               "text:shout_tag_label": {
+                  "@name": "shout_tag_label",
+                  "#text": {
+                     "string": "\n       Shout\n     "
+                  }
+               },
+               "color_swatch:beyond_shout_distance_tag": {
+                  "@name": "beyond_shout_distance_tag",
+                  "color_swatch.init_callback": null,
+                  "color_swatch.commit_callback": null
+               },
+               "text:beyond_shout_distance_tag_label": {
+                  "@name": "beyond_shout_distance_tag_label",
+                  "#text": {
+                     "string": "\n         Beyond Shout Range\n       "
+                  }
+               }
+            },
+            "#comment": " Client tag settings ",
+            "panel:client_tags_panel": {
+               "@name": "client_tags_panel",
+               "text:client_tags_colors": {
+                  "@name": "client_tags_colors",
+                  "#text": {
+                     "string": "\n        Client tag Colors: (OpenSim/AuroraSim only)\n      "
+                  }
+               },
+               "text:whattagstoshow": {
+                  "@name": "whattagstoshow",
+                  "#text": {
+                     "string": "\n        What tags would you want to see?\n      "
+                  }
+               },
+               "combo_box:ClientTagsVisibility": {
+                  "@name": "ClientTagsVisibility",
+                  "combo_box.item:No Viewertags": {
+                     "@name": "No Viewertags",
+                     "@label": {
+                        "string": "No Viewertags"
+                     }
+                  },
+                  "combo_box.item:TPVD Viewer": {
+                     "@name": "TPVD Viewer",
+                     "@label": {
+                        "string": "TPVD Viewers (using a list)"
+                     }
+                  },
+                  "combo_box.item:All known Viewers": {
+                     "@name": "All known Viewers",
+                     "@label": {
+                        "string": "All known Viewers (using a list)"
+                     }
+                  },
+                  "combo_box.item:All Viewers": {
+                     "@name": "All Viewers",
+                     "@label": {
+                        "string": "All Viewers"
+                     }
+                  }
+               },
+               "text:colorbasedonviewer": {
+                  "@name": "colorbasedonviewer",
+                  "#text": {
+                     "string": "\n        Tag Color based on Viewer?\n      "
+                  }
+               },
+               "combo_box:ColorClienttags": {
+                  "@name": "ColorClienttags",
+                  "combo_box.item:Color not based on Viewer": {
+                     "@name": "Color not based on Viewer",
+                     "@label": {
+                        "string": "Color not based on Viewer"
+                     }
+                  },
+                  "combo_box.item:Single color per Viewer": {
+                     "@name": "Single color per Viewer",
+                     "@label": {
+                        "string": "Single color per Viewer"
+                     }
+                  },
+                  "combo_box.item:Multiple colors per Viewer": {
+                     "@name": "Multiple colors per Viewer",
+                     "@label": {
+                        "string": "Multiple colors per Viewer"
+                     }
+                  },
+                  "combo_box.item:Userdefined color": {
+                     "@name": "Userdefined color",
+                     "@label": {
+                        "string": "Userdefined Color"
+                     }
+                  }
+               },
+               "text:listtodisplayviewertags_txt": {
+                  "@name": "listtodisplayviewertags_txt",
+                  "#text": {
+                     "string": "\n        Use a list to display Viewertags?\n      "
+                  }
+               },
+               "combo_box:UseLegacyClienttags": {
+                  "@name": "UseLegacyClienttags",
+                  "combo_box.item:Don't use a list": {
+                     "@name": "Don't use a list",
+                     "@label": {
+                        "string": "Don't use a list"
+                     }
+                  },
+                  "combo_box.item:Local Clienttags": {
+                     "@name": "Local Clienttags",
+                     "@label": {
+                        "string": "Local Tag List"
+                     }
+                  },
+                  "combo_box.item:Download Clienttags": {
+                     "@name": "Download Clienttags",
+                     "@label": {
+                        "string": "Download Tag List at Viewer Start"
+                     }
+                  }
+               }
+            }
+         },
+         "panel:tab-minimap": {
+            "@label": {
+               "string": "Minimap"
+            },
+            "@name": "tab-minimap",
+            "slider:FSMiniMapOpacity": {
+               "@label": {
+                  "string": "Background opacity:"
+               },
+               "@name": "FSMiniMapOpacity"
+            },
+            "text:netmap_pickradius_color_textbox": {
+               "@name": "netmap_pickradius_color_textbox",
+               "#text": {
+                  "string": "\n       Pick radius color:\n     "
+               }
+            },
+            "color_swatch:MapPickRadiusColor": {
+               "@name": "MapPickRadiusColor",
+               "@tool_tip": {
+                  "string": "Controls the color of the pick range on the minimap. The size of the pick range can be adjusted with the Pick radius setting."
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:netmap_pickradius_opacity_textbox": {
+               "@name": "netmap_pickradius_opacity_textbox",
+               "#text": {
+                  "string": "\n       Opacity:\n     "
+               }
+            },
+            "slider:MapPickRadiusTransparency": {
+               "@name": "MapPickRadiusTransparency",
+               "@tool_tip": {
+                  "string": "Controls the opacity of the pick range on the minimap. The size of the pick range can be adjusted with the Pick radius setting."
+               }
+            },
+            "text:netmap_dots_textbox": {
+               "@name": "netmap_dots_textbox",
+               "#text": {
+                  "string": "\n       Minimap dots:\n     "
+               }
+            },
+            "color_swatch:MapAvatarSelfColor": {
+               "@name": "MapAvatarSelfColor",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:MapAvatarSelfColor_label": {
+               "@name": "MapAvatarSelfColor_label",
+               "#text": {
+                  "string": "\n       Me\n     "
+               }
+            },
+            "color_swatch:agent": {
+               "@name": "agent",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:MapAvatarColor_label": {
+               "@name": "MapAvatarColor_label",
+               "#text": {
+                  "string": "\n       Others\n     "
+               }
+            },
+            "color_swatch:objects": {
+               "@name": "objects",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:MapAvatarFriendColor_label": {
+               "@name": "MapAvatarFriendColor_label",
+               "#text": {
+                  "string": "\n       Friends\n     "
+               }
+            },
+            "color_swatch:MapAvatarLindenColor": {
+               "@name": "MapAvatarLindenColor",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:MapAvatarLindenColor_label": {
+               "@name": "MapAvatarLindenColor_label",
+               "#text": {
+                  "string": "\n       Linden Lab\n     "
+               }
+            },
+            "color_swatch:MapAvatarMutedColor": {
+               "@name": "MapAvatarMutedColor",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:MapAvatarMutedColor_label": {
+               "@name": "MapAvatarMutedColor_label",
+               "#text": {
+                  "string": "\n       Muted\n     "
+               }
+            },
+            "check_box:MiniMapChatRing": {
+               "@name": "MiniMapChatRing",
+               "@label": {
+                  "string": "Display rings on the mini map indicating the whisper, say and shout chat ranges:"
+               }
+            },
+            "check_box:FSMiniMapWhisperRing": {
+               "@name": "FSMiniMapWhisperRing"
+            },
+            "color_swatch:netmap_whisperring_color_swatch": {
+               "@name": "netmap_whisperring_color_swatch",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null,
+               "color_swatch.caption_text": null
+            },
+            "text:netmap_whisperring_color_label": {
+               "@name": "netmap_whisperring_color_label",
+               "#text": {
+                  "string": "\n       Whisper range\n     "
+               }
+            },
+            "check_box:FSMiniMapChatRing": {
+               "@name": "FSMiniMapChatRing"
+            },
+            "color_swatch:netmap_chatring_color_swatch": {
+               "@name": "netmap_chatring_color_swatch",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null,
+               "color_swatch.caption_text": null
+            },
+            "text:netmap_chatring_color_label": {
+               "@name": "netmap_chatring_color_label",
+               "#text": {
+                  "string": "\n       Chat range\n     "
+               }
+            },
+            "check_box:FSMiniMapShoutRing": {
+               "@name": "FSMiniMapShoutRing"
+            },
+            "color_swatch:netmap_shoutring_color_swatch": {
+               "@name": "netmap_shoutring_color_swatch",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null,
+               "color_swatch.caption_text": null
+            },
+            "text:netmap_shoutring_color_label": {
+               "@name": "netmap_shoutring_color_label",
+               "#text": {
+                  "string": "\n       Shout range\n     "
+               }
+            }
+         },
+         "#comment": " Misc Panel ",
+         "panel:tab-misc": {
+            "@label": {
+               "string": "Miscellaneous"
+            },
+            "@name": "tab-misc",
+            "text:effects_color_textbox": {
+               "@name": "effects_color_textbox",
+               "#text": {
+                  "string": "\n       Selection Effects (Particle Beam):\n     "
+               }
+            },
+            "text:ScriptDialogFgLabel": {
+               "@name": "ScriptDialogFgLabel",
+               "#text": {
+                  "string": "\n       Script Dialog F/B:\n     "
+               }
+            },
+            "color_swatch:effect_color_swatch": {
+               "@name": "effect_color_swatch",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null,
+               "color_swatch.caption_text": null
+            },
+            "color_swatch:ScriptDialogFb": {
+               "@name": "ScriptDialogFb",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "color_swatch:ScriptDialog": {
+               "@name": "ScriptDialog",
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:floater_opacity": {
+               "@name": "floater_opacity",
+               "#text": {
+                  "string": "\n       Floating Window Opacity:\n     "
+               }
+            },
+            "slider:active": {
+               "@label": {
+                  "string": "Active:"
+               },
+               "@name": "active"
+            },
+            "slider:inactive": {
+               "@label": {
+                  "string": "Inactive:"
+               },
+               "@name": "inactive"
+            },
+            "slider:camera_movement": {
+               "@label": {
+                  "string": "Camera / Movement:"
+               },
+               "@name": "camera_movement"
+            },
+            "text:console_opacity": {
+               "@name": "console_opacity",
+               "#text": {
+                  "string": "\n       Console Opacity:\n     "
+               }
+            },
+            "color_swatch:console_background": {
+               "@name": "console_background",
+               "@tool_tip": {
+                  "string": "Choose console color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "slider:console_background_opacity": {
+               "@label": {
+                  "string": "Opacity:"
+               },
+               "@name": "console_background_opacity",
+               "@tool_tip": {
+                  "string": "Choose console background opacity"
+               }
+            },
+            "text:preferences_search_label": {
+               "@name": "preferences_search_label",
+               "#text": {
+                  "string": "\n       Preferences Search Highlight Color:\n     "
+               }
+            },
+            "color_swatch:preferences_search_color": {
+               "@name": "preferences_search_color",
+               "@tool_tip": {
+                  "string": "Choose preferences search highlight Color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:area_search_beacon_color_label": {
+               "@name": "area_search_beacon_color_label",
+               "#text": {
+                  "string": "\n       Area search beacon Color:\n     "
+               }
+            },
+            "color_swatch:area_search_beacon_color": {
+               "@name": "area_search_beacon_color",
+               "@tool_tip": {
+                  "string": "Choose area search beacon color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "check_box:FSScriptDialogNoTransparency": {
+               "@name": "FSScriptDialogNoTransparency",
+               "@label": {
+                  "string": "Always show script dialogs on an opaque background"
+               }
+            },
+            "check_box:FSGroupNotifyNoTransparency": {
+               "@name": "FSGroupNotifyNoTransparency",
+               "@label": {
+                  "string": "Always show group notices on an opaque background"
+               }
+            },
+            "#comment": " ## Zi: Pie menu ",
+            "check_box:override_pie_color_checkbox": {
+               "@name": "override_pie_color_checkbox",
+               "@label": {
+                  "string": "Override pie menu background color and opacity:"
+               }
+            },
+            "panel:tab-colorize": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "tab-colorize",
+               "color_swatch:pie_bg_color_override": {
+                  "@name": "pie_bg_color_override",
+                  "@tool_tip": {
+                     "string": "Choose pie menu background color"
+                  },
+                  "color_swatch.init_callback": null,
+                  "color_swatch.commit_callback": null
+               },
+               "color_swatch:pie_selected_color_override": {
+                  "@name": "pie_selected_color_override",
+                  "@tool_tip": {
+                     "string": "Choose pie menu selection color"
+                  },
+                  "color_swatch.init_callback": null,
+                  "color_swatch.commit_callback": null
+               },
+               "slider:pie_menu_opacity": {
+                  "@label": {
+                     "string": "Opacity:"
+                  },
+                  "@name": "pie_menu_opacity",
+                  "@tool_tip": {
+                     "string": "Choose pie menu opacity"
+                  }
+               },
+               "slider:pie_menu_fade_out": {
+                  "@label": {
+                     "string": "Fade out:"
+                  },
+                  "@name": "pie_menu_fade_out",
+                  "@tool_tip": {
+                     "string": "Choose the amount of fade out to the pie edges"
+                  }
+               }
+            },
+            "#comment$23": " ## Zi: Pie menu "
+         }
+      }
+   }
+}

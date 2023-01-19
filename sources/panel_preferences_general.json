@@ -1,0 +1,418 @@
+{
+   "panel": {
+      "@name": "general_panel",
+      "@label": {
+         "string": "General"
+      },
+      "#comment": "language",
+      "text:language_textbox": {
+         "@name": "language_textbox",
+         "#text": {
+            "string": "\n        Language:\n    "
+         }
+      },
+      "combo_box:language_combobox": {
+         "@name": "language_combobox",
+         "combo_box.item:English": {
+            "@label": {
+               "string": "English"
+            },
+            "@name": "English"
+         },
+         "#comment": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Dansk (Danish) - Beta\"\n         name=\"Danish\"\n         value=\"da\" />\n        ",
+         "combo_box.item:Deutsch(German)": {
+            "@label": {
+               "string": "Deutsch (German)"
+            },
+            "@name": "Deutsch(German)"
+         },
+         "combo_box.item:Spanish": {
+            "@label": {
+               "string": "Español (Spanish) - Beta"
+            },
+            "@name": "Spanish"
+         },
+         "combo_box.item:French": {
+            "@label": {
+               "string": "Français (French) - Beta"
+            },
+            "@name": "French"
+         },
+         "combo_box.item:Italian": {
+            "@label": {
+               "string": "Italiano (Italian) - Beta"
+            },
+            "@name": "Italian"
+         },
+         "combo_box.item:Polish": {
+            "@label": {
+               "string": "Polski (Polish)"
+            },
+            "@name": "Polish"
+         },
+         "#comment$8": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Português (Portuguese) - Beta\"\n         name=\"Portugese\"\n         value=\"pt\" />\n        ",
+         "combo_box.item:Russian": {
+            "@label": {
+               "string": "Русский (Russian) - Beta"
+            },
+            "@name": "Russian"
+         },
+         "#comment$10": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Türkçe (Turkish) - Beta\"\n         name=\"Turkish\"\n         value=\"tr\" />\n        ",
+         "combo_box.item:(Japanese)": {
+            "@label": {
+               "string": "日本語 (Japanese) - Beta"
+            },
+            "@name": "(Japanese)"
+         },
+         "#comment$12": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"正體中文 (Traditional Chinese) - Beta\"\n         name=\"Traditional Chinese\"\n         value=\"zh\" />\n        "
+      },
+      "text:language_textbox2": {
+         "@name": "language_textbox2",
+         "#text": {
+            "string": "\n        (Requires restart)\n    "
+         }
+      },
+      "#comment$6": "maturity",
+      "text:maturity_desired_prompt": {
+         "@name": "maturity_desired_prompt",
+         "#text": {
+            "string": "\n        I want to access content rated:\n    "
+         }
+      },
+      "combo_box:maturity_desired_combobox": {
+         "@name": "maturity_desired_combobox",
+         "combo_box.item:Desired_Adult": {
+            "@label": {
+               "string": "General, Moderate, Adult"
+            },
+            "@name": "Desired_Adult"
+         },
+         "combo_box.item:Desired_Mature": {
+            "@label": {
+               "string": "General and Moderate"
+            },
+            "@name": "Desired_Mature"
+         },
+         "combo_box.item:Desired_PG": {
+            "@label": {
+               "string": "General"
+            },
+            "@name": "Desired_PG"
+         },
+         "combo_box.commit_callback": null
+      },
+      "#comment$9": " this text will never show at the same time as the above combo, they can overlap ",
+      "text:maturity_desired_textbox": {
+         "@name": "maturity_desired_textbox"
+      },
+      "icon:rating_icon_general": {
+         "@name": "rating_icon_general"
+      },
+      "icon:rating_icon_moderate": {
+         "@name": "rating_icon_moderate"
+      },
+      "icon:rating_icon_adult": {
+         "@name": "rating_icon_adult"
+      },
+      "#comment$14": "start location",
+      "text:start_location_textbox": {
+         "@name": "start_location_textbox",
+         "#text": {
+            "string": "\n        Start location:\n    "
+         }
+      },
+      "combo_box:start_location_combo": {
+         "@name": "start_location_combo",
+         "combo_box.item:MyLastLocation": {
+            "@label": {
+               "string": "My Last Location"
+            },
+            "@name": "MyLastLocation"
+         },
+         "combo_box.item:MyHome": {
+            "@label": {
+               "string": "My Home"
+            },
+            "@name": "MyHome"
+         }
+      },
+      "check_box:show_location_checkbox": {
+         "@label": {
+            "string": "Show on login"
+         },
+         "@name": "show_location_checkbox",
+         "@tool_tip": {
+            "string": ""
+         }
+      },
+      "#comment$18": "name tags",
+      "text:name_tags_textbox": {
+         "@name": "name_tags_textbox",
+         "#text": {
+            "string": "\n       Name tags:\n    "
+         }
+      },
+      "radio_group:Name_Tag_Preference": {
+         "@name": "Name_Tag_Preference",
+         "radio_item:radio": {
+            "@label": {
+               "string": "Off"
+            },
+            "@name": "radio"
+         },
+         "radio_item:radio2": {
+            "@label": {
+               "string": "On"
+            },
+            "@name": "radio2"
+         },
+         "radio_item:radio3": {
+            "@label": {
+               "string": "Show briefly"
+            },
+            "@name": "radio3"
+         }
+      },
+      "text:RenderNameShowTime_LabelPrefix": {
+         "@name": "RenderNameShowTime_LabelPrefix",
+         "#text": {
+            "string": "\n       (\n    "
+         }
+      },
+      "spinner:RenderNameShowTime": {
+         "@name": "RenderNameShowTime"
+      },
+      "text:RenderNameShowTime_LabelSuffix": {
+         "@name": "RenderNameShowTime_LabelSuffix",
+         "#text": {
+            "string": "\n       seconds)\n    "
+         }
+      },
+      "check_box:show_my_name_checkbox1": {
+         "@label": {
+            "string": "My name"
+         },
+         "@name": "show_my_name_checkbox1",
+         "@tool_tip": {
+            "string": ""
+         }
+      },
+      "check_box:show_slids": {
+         "@label": {
+            "string": "Usernames"
+         },
+         "@name": "show_slids",
+         "@tool_tip": {
+            "string": "Show username, like bobsmith123"
+         }
+      },
+      "check_box:show_all_title_checkbox1": {
+         "@label": {
+            "string": "Group titles"
+         },
+         "@name": "show_all_title_checkbox1",
+         "@tool_tip": {
+            "string": "Show group titles, like Officer or Member"
+         }
+      },
+      "check_box:RenderHideGroupTitle": {
+         "@label": {
+            "string": "Hide own group title"
+         },
+         "@name": "RenderHideGroupTitle",
+         "@tool_tip": {
+            "string": "Shows or hides your own group title for yourself and everyone else."
+         }
+      },
+      "check_box:display_names_check": {
+         "@label": {
+            "string": "View Display Names"
+         },
+         "@name": "display_names_check",
+         "@tool_tip": {
+            "string": "Check to use display names in chat, IM, name tags, etc."
+         }
+      },
+      "check_box:FSshow_legacyun": {
+         "@label": {
+            "string": "Legacy names instead of usernames"
+         },
+         "@name": "FSshow_legacyun",
+         "@tool_tip": {
+            "string": "Show legacy name (Firstname Lastname) instead of username (firstname.lastname)"
+         }
+      },
+      "check_box:show_friends": {
+         "@label": {
+            "string": "Highlight friends"
+         },
+         "@name": "show_friends",
+         "@tool_tip": {
+            "string": "Highlight the name tags of your friends."
+         }
+      },
+      "check_box:legacy_trim_check": {
+         "@label": {
+            "string": "Trim 'Resident' from legacy names"
+         },
+         "@name": "legacy_trim_check",
+         "@tool_tip": {
+            "string": "Trim 'Resident' from legacy names"
+         }
+      },
+      "check_box:FSLegacyNametagPosition": {
+         "@label": {
+            "string": "Legacy nametag positioning"
+         },
+         "@name": "FSLegacyNametagPosition",
+         "@tool_tip": {
+            "string": "If enabled, the nametag will stay fixed at the avatar position and not follow the avatar head if it moves because of animations."
+         }
+      },
+      "check_box:FSShowAutorespondInNameTag": {
+         "@label": {
+            "string": "Show autorespond mode in nametag"
+         },
+         "@name": "FSShowAutorespondInNameTag",
+         "@tool_tip": {
+            "string": "This will show whether you have autoresponse enabled in your own nametag."
+         }
+      },
+      "check_box:FSTagShowARW": {
+         "@label": {
+            "string": "Show avatar complexity"
+         },
+         "@name": "FSTagShowARW",
+         "@tool_tip": {
+            "string": "If enabled, the nametag will show the current avatar complexity."
+         }
+      },
+      "check_box:FSTagShowTooComplexOnlyARW": {
+         "@label": {
+            "string": "Only if too complex"
+         },
+         "@name": "FSTagShowTooComplexOnlyARW",
+         "@tool_tip": {
+            "string": "If enabled, the nametag will show the current avatar complexity only if the avatar is too complex and shown as a JellyDoll."
+         }
+      },
+      "check_box:FSTagShowOwnARW": {
+         "@label": {
+            "string": "Show own complexity"
+         },
+         "@name": "FSTagShowOwnARW",
+         "@tool_tip": {
+            "string": "If enabled, your own nametag will your current avatar complexity."
+         }
+      },
+      "#comment$37": "away/logout",
+      "text:title_afk_text": {
+         "@name": "title_afk_text",
+         "#text": {
+            "string": "\n        Away timeout:\n    "
+         }
+      },
+      "text:title_afk_quit_text": {
+         "@name": "title_afk_quit_text",
+         "#text": {
+            "string": "\n        Log out after being marked away:\n    "
+         }
+      },
+      "combo_box:afk": {
+         "@label": {
+            "string": "Away timeout:"
+         },
+         "@name": "afk",
+         "@tool_tip": {
+            "string": ""
+         },
+         "combo_box.item:item0": {
+            "@label": {
+               "string": "2 minutes"
+            },
+            "@name": "item0"
+         },
+         "combo_box.item:item1": {
+            "@label": {
+               "string": "5 minutes"
+            },
+            "@name": "item1"
+         },
+         "combo_box.item:item2": {
+            "@label": {
+               "string": "10 minutes"
+            },
+            "@name": "item2"
+         },
+         "combo_box.item:item3": {
+            "@label": {
+               "string": "30 minutes"
+            },
+            "@name": "item3"
+         },
+         "combo_box.item:item4": {
+            "@label": {
+               "string": "60 minutes"
+            },
+            "@name": "item4"
+         },
+         "combo_box.item:item5": {
+            "@label": {
+               "string": "never"
+            },
+            "@name": "item5"
+         }
+      },
+      "check_box:AvatarSitOnAway": {
+         "@name": "AvatarSitOnAway",
+         "@label": {
+            "string": "Sit when away"
+         },
+         "@tool_tip": {
+            "string": ""
+         }
+      },
+      "combo_box:quitafk": {
+         "@name": "quitafk",
+         "@tool_tip": {
+            "string": ""
+         },
+         "combo_box.item:item0": {
+            "@label": {
+               "string": "2 minutes"
+            },
+            "@name": "item0"
+         },
+         "combo_box.item:item1": {
+            "@label": {
+               "string": "5 minutes"
+            },
+            "@name": "item1"
+         },
+         "combo_box.item:item2": {
+            "@label": {
+               "string": "10 minutes"
+            },
+            "@name": "item2"
+         },
+         "combo_box.item:item3": {
+            "@label": {
+               "string": "30 minutes"
+            },
+            "@name": "item3"
+         },
+         "combo_box.item:item4": {
+            "@label": {
+               "string": "never"
+            },
+            "@name": "item4"
+         }
+      },
+      "text:text_box3": {
+         "@name": "text_box3",
+         "#text": {
+            "string": "\n       Unavailable and Autoresponse messages can be found under Privacy / Autoresponse\n    "
+         }
+      }
+   }
+}

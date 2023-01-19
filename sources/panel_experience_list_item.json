@@ -1,0 +1,14 @@
+{
+   "panel": {
+      "@name": "panel_experience_list_item",
+      "@label": {
+         "string": "Experiences"
+      },
+      "text:experience_name": {
+         "@name": "experience_name",
+         "#text": {
+            "string": "\n    Dummy Name\n  "
+         }
+      }
+   }
+}

@@ -1,0 +1,259 @@
+{
+   "panel": {
+      "@name": "outfit_edit",
+      "string:No Outfit": {
+         "@name": "No Outfit",
+         "@value": {
+            "string": "No Outfit"
+         }
+      },
+      "string:unsaved_changes": {
+         "@name": "unsaved_changes",
+         "@value": {
+            "string": "Unsaved Changes"
+         }
+      },
+      "string:now_editing": {
+         "@name": "now_editing",
+         "@value": {
+            "string": "Now Editing"
+         }
+      },
+      "string": null,
+      "panel.string:not_available": {
+         "@name": "not_available",
+         "#text": {
+            "string": "\n        (N\\A)\n    "
+         }
+      },
+      "panel.string:unknown": {
+         "@name": "unknown",
+         "#text": {
+            "string": "\n        (unknown)\n    "
+         }
+      },
+      "#comment": " Wearables filtering strings ",
+      "string:Filter.All": {
+         "@name": "Filter.All",
+         "@value": {
+            "string": "All"
+         }
+      },
+      "string:Filter.Clothes/Body": {
+         "@name": "Filter.Clothes/Body",
+         "@value": {
+            "string": "Clothes/Body"
+         }
+      },
+      "string:Filter.Objects": {
+         "@name": "Filter.Objects",
+         "@value": {
+            "string": "Objects"
+         }
+      },
+      "string:Filter.Clothing": {
+         "@name": "Filter.Clothing",
+         "@value": {
+            "string": "Clothing"
+         }
+      },
+      "string:Filter.Bodyparts": {
+         "@name": "Filter.Bodyparts",
+         "@value": {
+            "string": "Body parts"
+         }
+      },
+      "string:replace_body_part": {
+         "@name": "replace_body_part",
+         "@value": {
+            "string": "Click to replace your existing shape"
+         }
+      },
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:title": {
+         "@name": "title",
+         "@value": {
+            "string": "Edit Outfit Parts"
+         }
+      },
+      "#comment$16": " \"HEADER WITH ICON, STATUS TEXT AND OUTFIT NAME\" ",
+      "panel:header_panel": {
+         "@name": "header_panel",
+         "icon:outfit_icon": {
+            "@name": "outfit_icon"
+         },
+         "panel:outfit_name_and_status": {
+            "@name": "outfit_name_and_status",
+            "text:status": {
+               "@name": "status",
+               "@value": {
+                  "string": "Now editing..."
+               }
+            },
+            "text:curr_outfit_name": {
+               "@name": "curr_outfit_name",
+               "@value": {
+                  "string": "[Current Outfit]"
+               }
+            },
+            "loading_indicator:edit_outfit_loading_indicator": {
+               "@name": "edit_outfit_loading_indicator"
+            }
+         }
+      },
+      "#comment$18": " LIST OF WEARABLES (CURRENT OUTFIT/ WEARABLES TO ADD) ",
+      "#comment$19": " *NOTE: border_size is used to calculate space between layout panels and also to calculate resize bar's height.\nRequired height for dragbar (icon in spec) is 10, so resizebar height should be 10 px.\nIt is calculated as border_size + 2*UIResizeBarOverlap\n",
+      "layout_stack:im_panels": {
+         "@name": "im_panels",
+         "layout_panel:outfit_wearables_panel": {
+            "@name": "outfit_wearables_panel",
+            "layout_stack:filter_panels": {
+               "@name": "filter_panels",
+               "layout_panel:add_button_and_combobox": {
+                  "@name": "add_button_and_combobox",
+                  "#comment": " List containing items from the COF and Base outfit ",
+                  "panel:cof_wearables_list": {
+                     "@name": "cof_wearables_list"
+                  },
+                  "button:show_add_wearables_btn": {
+                     "@label": {
+                        "string": "Add More..."
+                     },
+                     "@name": "show_add_wearables_btn",
+                     "@tool_tip": {
+                        "string": "Open/Close"
+                     }
+                  },
+                  "combo_box:list_view_filter_combobox": {
+                     "@name": "list_view_filter_combobox"
+                  },
+                  "combo_box:folder_view_filter_combobox": {
+                     "@name": "folder_view_filter_combobox"
+                  },
+                  "button:filter_button": {
+                     "@name": "filter_button"
+                  }
+               },
+               "layout_panel:filter_panel": {
+                  "@name": "filter_panel",
+                  "filter_editor:look_item_filter": {
+                     "@label": {
+                        "string": "Filter Inventory Wearables"
+                     },
+                     "@name": "look_item_filter"
+                  }
+               }
+            }
+         },
+         "layout_panel:add_wearables_panel": {
+            "@name": "add_wearables_panel",
+            "#comment": " this icon represent dragbar between layout panels.\n             This is a workaround implemented in EXT-7255 becouse of an issue with layout stack (EXT-7471) ",
+            "icon": null,
+            "inventory_panel:folder_view": {
+               "@name": "folder_view"
+            },
+            "panel:filtered_wearables_panel": {
+               "@name": "filtered_wearables_panel",
+               "wearable_items_list:list_view": {
+                  "@name": "list_view"
+               }
+            },
+            "button:plus_btn": {
+               "@label": {
+                  "string": "Wear Item"
+               },
+               "@name": "plus_btn"
+            }
+         }
+      },
+      "#comment$21": " BUTTON BAR ",
+      "panel:no_add_wearables_button_bar": {
+         "@name": "no_add_wearables_button_bar",
+         "menu_button:gear_menu_btn": {
+            "@name": "gear_menu_btn"
+         },
+         "icon:dummy_right_icon": {
+            "@name": "dummy_right_icon"
+         },
+         "text:avatar_complexity_label": {
+            "@name": "avatar_complexity_label",
+            "#text": {
+               "string": "\n                    Complexity: [WEIGHT]\n        "
+            }
+         },
+         "button:shop_btn_1": {
+            "@name": "shop_btn_1",
+            "@tool_tip": {
+               "string": "Visit the SL Marketplace. You can also select something you are wearing, then click here to see more things like it"
+            }
+         }
+      },
+      "#comment$23": " BUTTON BAR - WEARABLES ADDING MODE ",
+      "panel:add_wearables_button_bar": {
+         "@name": "add_wearables_button_bar",
+         "menu_button:wearables_gear_menu_btn": {
+            "@name": "wearables_gear_menu_btn"
+         },
+         "button:folder_view_btn": {
+            "@name": "folder_view_btn"
+         },
+         "button:list_view_btn": {
+            "@name": "list_view_btn"
+         },
+         "icon:dummy_right_icon": {
+            "@name": "dummy_right_icon"
+         },
+         "text:avatar_complexity_adding_label": {
+            "@name": "avatar_complexity_adding_label",
+            "#text": {
+               "string": "\n                    Complexity: [WEIGHT]\n        "
+            }
+         },
+         "button:shop_btn_2": {
+            "@name": "shop_btn_2",
+            "@tool_tip": {
+               "string": "Visit the SL Marketplace. You can also select something you are wearing, then click here to see more things like it"
+            }
+         }
+      },
+      "#comment$25": " SAVE AND REVERT BUTTONS ",
+      "panel:save_revert_button_bar": {
+         "@name": "save_revert_button_bar",
+         "layout_stack:button_bar_ls": {
+            "@name": "button_bar_ls",
+            "layout_panel:save_btn_lp": {
+               "@name": "save_btn_lp",
+               "button:save_btn": {
+                  "@label": {
+                     "string": "Save"
+                  },
+                  "@name": "save_btn"
+               }
+            },
+            "layout_panel:save_as_btn_lp": {
+               "@name": "save_as_btn_lp",
+               "button:save_as_btn": {
+                  "@label": {
+                     "string": "Save as..."
+                  },
+                  "@name": "save_as_btn"
+               }
+            },
+            "layout_panel:revert_btn_lp": {
+               "@name": "revert_btn_lp",
+               "button:revert_btn": {
+                  "@label": {
+                     "string": "Undo Changes"
+                  },
+                  "@name": "revert_btn",
+                  "@tool_tip": {
+                     "string": "Revert to last saved version"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

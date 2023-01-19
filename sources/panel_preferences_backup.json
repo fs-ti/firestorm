@@ -1,0 +1,734 @@
+{
+   "panel": {
+      "@label": {
+         "string": "Backup"
+      },
+      "@name": "backup",
+      "text:backup_path_label": {
+         "@name": "backup_path_label",
+         "#text": {
+            "string": "\nBackup Path:\n    "
+         }
+      },
+      "line_editor:settings_backup_path": {
+         "@name": "settings_backup_path"
+      },
+      "button:set_backup_settings_path": {
+         "@label": {
+            "string": "Set"
+         },
+         "@name": "set_backup_settings_path",
+         "button.commit_callback": null
+      },
+      "layout_stack:ls_account_specific_label": {
+         "@name": "ls_account_specific_label",
+         "layout_panel:lp_account_specific_label": {
+            "@name": "lp_account_specific_label",
+            "text:account_specific_label": {
+               "@name": "account_specific_label",
+               "#text": {
+                  "string": "\nYou are currently logged out. Be aware that your account specific settings can only be backed up and restored when you are logged in. However, settings that apply to all user accounts can be backed up without being logged in.\n    "
+               }
+            }
+         },
+         "layout_panel:lp_buttons": {
+            "@name": "lp_buttons",
+            "text:settings_restored_label": {
+               "@name": "settings_restored_label",
+               "#text": {
+                  "string": "\nSettings groups to be restored (backup will always save all):\n    "
+               }
+            },
+            "layout_stack:ls_list_view_stack": {
+               "@name": "ls_list_view_stack",
+               "layout_panel:lp_restore_global_files": {
+                  "@name": "lp_restore_global_files",
+                  "scroll_list:restore_global_files_list": {
+                     "@name": "restore_global_files_list",
+                     "column:restore_global_files_check": {
+                        "@label": {
+                           "string": ""
+                        },
+                        "@name": "restore_global_files_check"
+                     },
+                     "column:restore_global_files_label": {
+                        "@label": {
+                           "string": "Global Files:"
+                        },
+                        "@name": "restore_global_files_label"
+                     },
+                     "column:value": {
+                        "@label": {
+                           "string": "Value"
+                        },
+                        "@name": "value"
+                     },
+                     "row:restore_global_row_login": {
+                        "@name": "restore_global_row_login",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "Login Credentials"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "bin_conf.dat"
+                           }
+                        }
+                     },
+                     "row:restore_global_row_colors": {
+                        "@name": "restore_global_row_colors",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "Colors"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "colors.xml"
+                           }
+                        }
+                     },
+                     "row:restore_global_row_dialogs": {
+                        "@name": "restore_global_row_dialogs",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "Ignorable Dialogs"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "ignorable_dialogs.xml"
+                           }
+                        }
+                     },
+                     "row:restore_global_row_grids": {
+                        "@name": "restore_global_row_grids",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "User-Defined Grids"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "grids.user.xml"
+                           }
+                        }
+                     },
+                     "row:restore_global_row_autoreplace": {
+                        "@name": "restore_global_row_autoreplace",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "Autoreplace"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "autoreplace.xml"
+                           }
+                        }
+                     },
+                     "row:restore_global_row_quickprefs": {
+                        "@name": "restore_global_row_quickprefs",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "Quick Preferences"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "quick_preferences.xml"
+                           }
+                        }
+                     },
+                     "row:restore_global_row_favorites": {
+                        "@name": "restore_global_row_favorites",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "Favorites"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "stored_favorites.xml"
+                           }
+                        }
+                     },
+                     "row:restore_global_row_controls": {
+                        "@name": "restore_global_row_controls",
+                        "column:restore_global_files_check": {
+                           "@name": "restore_global_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_files_label": {
+                           "@name": "restore_global_files_label",
+                           "#text": {
+                              "string": "Controls"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "key_bindings.xml"
+                           }
+                        }
+                     }
+                  }
+               },
+               "layout_panel:lp_restore_per_account_files": {
+                  "@name": "lp_restore_per_account_files",
+                  "scroll_list:restore_per_account_files_list": {
+                     "@name": "restore_per_account_files_list",
+                     "column:restore_per_account_files_check": {
+                        "@label": {
+                           "string": ""
+                        },
+                        "@name": "restore_per_account_files_check"
+                     },
+                     "column:restore_per_account_files_label": {
+                        "@label": {
+                           "string": "Per Account Files:"
+                        },
+                        "@name": "restore_per_account_files_label"
+                     },
+                     "column:value": {
+                        "@label": {
+                           "string": "Value"
+                        },
+                        "@name": "value"
+                     },
+                     "row:restore_per_account_row_blacklist": {
+                        "@name": "restore_per_account_row_blacklist",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Asset Blacklist"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "asset_blacklist.xml"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_contactsets": {
+                        "@name": "restore_per_account_row_contactsets",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Contact Sets"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "settings_friends_groups.xml"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_invfilters": {
+                        "@name": "restore_per_account_row_invfilters",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Inventory Filters"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "filters.xml"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_medialists": {
+                        "@name": "restore_per_account_row_medialists",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Media Black/Whitelist"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "medialist.xml"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_toolbars": {
+                        "@name": "restore_per_account_row_toolbars",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Toolbars"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "toolbars.xml"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_volumes": {
+                        "@name": "restore_per_account_row_volumes",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Voice Chat Volumes"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "volume_settings.xml"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_tphistory": {
+                        "@name": "restore_per_account_row_tphistory",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Teleport History"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "teleport_history.txt"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_regiontracker": {
+                        "@name": "restore_per_account_row_regiontracker",
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Region Tracker"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "tracked_regions.json"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_groupmutes": {
+                        "@name": "restore_per_account_row_groupmutes",
+                        "@value": {
+                           "string": "groupmutes"
+                        },
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Disabled Group Chats"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "muted_groups.xml"
+                           }
+                        }
+                     },
+                     "row:restore_per_account_row_avatar_render_settings": {
+                        "@name": "restore_per_account_row_avatar_render_settings",
+                        "@value": {
+                           "string": "avatar_render_settings"
+                        },
+                        "column:restore_per_account_files_check": {
+                           "@name": "restore_per_account_files_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_per_account_files_label": {
+                           "@name": "restore_per_account_files_label",
+                           "#text": {
+                              "string": "Avatar Render Settings"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "avatar_render_settings.xml"
+                           }
+                        }
+                     }
+                  },
+                  "#comment": " since enabled_control does not work properly on scroll list items and\n         enabling/disabling in code did not show any visual difference, we just use\n         an overlay panel when the control is disabled ",
+                  "panel:restore_per_account_disable_cover": {
+                     "@name": "restore_per_account_disable_cover"
+                  }
+               },
+               "layout_panel:lp_restore_folders": {
+                  "@name": "lp_restore_folders",
+                  "scroll_list:restore_global_folders_list": {
+                     "@name": "restore_global_folders_list",
+                     "column:restore_global_folders_check": {
+                        "@label": {
+                           "string": ""
+                        },
+                        "@name": "restore_global_folders_check"
+                     },
+                     "column:restore_global_folders_label": {
+                        "@label": {
+                           "string": "Folders:"
+                        },
+                        "@name": "restore_global_folders_label"
+                     },
+                     "column:value": {
+                        "@label": {
+                           "string": "Value"
+                        },
+                        "@name": "value"
+                     },
+                     "row:restore_folders_row_beams": {
+                        "@name": "restore_folders_row_beams",
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Selection Beams"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "beams"
+                           }
+                        }
+                     },
+                     "row:restore_folders_row_beamcolors": {
+                        "@name": "restore_folders_row_beamcolors",
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Selection Beam Colors"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "beamsColors"
+                           }
+                        }
+                     },
+                     "row:restore_folders_row_spellcheck": {
+                        "@name": "restore_folders_row_spellcheck",
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Custom Spell Check"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "dictionaries"
+                           }
+                        }
+                     },
+                     "#comment": " We must have this entry before the other windlight entries to have the\n             windlight/ base folder created. Since we can't hide rows make it so the\n             user can't deselect it at least ",
+                     "row:restore_folders_row_windlight": {
+                        "@name": "restore_folders_row_windlight",
+                        "@value": {
+                           "string": "windlight"
+                        },
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Windlight (Mandatory)"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "windlight"
+                           }
+                        }
+                     },
+                     "row:restore_folders_row_daycycles": {
+                        "@name": "restore_folders_row_daycycles",
+                        "@value": {
+                           "string": "windlight_daycycles"
+                        },
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Windlight Day Cycles"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "windlight/days"
+                           }
+                        }
+                     },
+                     "row:restore_folders_row_skies": {
+                        "@name": "restore_folders_row_skies",
+                        "@value": {
+                           "string": "windlight_skies"
+                        },
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Windlight Skies"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "windlight/skies"
+                           }
+                        }
+                     },
+                     "row:restore_folders_row_waters": {
+                        "@name": "restore_folders_row_waters",
+                        "@value": {
+                           "string": "windlight_water"
+                        },
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Windlight Waters"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "windlight/water"
+                           }
+                        }
+                     },
+                     "row:restore_folders_row_presets": {
+                        "@name": "restore_folders_row_presets",
+                        "@value": {
+                           "string": "presets"
+                        },
+                        "column:restore_global_folders_check": {
+                           "@name": "restore_global_folders_check",
+                           "@value": {
+                              "string": "true"
+                           }
+                        },
+                        "column:restore_global_folders_label": {
+                           "@name": "restore_global_folders_label",
+                           "#text": {
+                              "string": "Presets"
+                           }
+                        },
+                        "column:value": {
+                           "@name": "value",
+                           "#text": {
+                              "string": "presets"
+                           }
+                        }
+                     }
+                  }
+               }
+            },
+            "button:select_all_button": {
+               "@label": {
+                  "string": "Select all"
+               },
+               "@name": "select_all_button",
+               "button.commit_callback": null
+            },
+            "button:deselect_all_button": {
+               "@label": {
+                  "string": "Deselect All"
+               },
+               "@name": "deselect_all_button",
+               "button.commit_callback": null
+            },
+            "check_box:restore_global_settings_checkbox": {
+               "@label": {
+                  "string": "Restore global settings"
+               },
+               "@name": "restore_global_settings_checkbox"
+            },
+            "check_box:restore_per_account_settings_checkbox": {
+               "@label": {
+                  "string": "Restore per account settings"
+               },
+               "@name": "restore_per_account_settings_checkbox"
+            },
+            "button:backup_settings": {
+               "@label": {
+                  "string": "Backup Settings"
+               },
+               "@name": "backup_settings",
+               "button.commit_callback": null
+            },
+            "button:restore_settings": {
+               "@label": {
+                  "string": "Restore Settings"
+               },
+               "@name": "restore_settings",
+               "button.commit_callback": null
+            }
+         }
+      },
+      "#comment": " Enable only for debugging of show/hide warning text ",
+      "#comment$7": "\n    <check_box\n     label=\"Hide Warning\"\n     layout=\"topleft\"\n     follows=\"bottom|left\"\n     top=\"-20\"\n     width=\"100\"\n     height=\"16\"\n     name=\"Debug Show/Hide - Don't use in production\"\n     control_name=\"PerAccountSettingsFile\" />\n    "
+   }
+}
