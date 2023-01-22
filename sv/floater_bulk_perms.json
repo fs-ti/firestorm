@@ -1,0 +1,230 @@
+{
+   "floater": {
+      "@name": "floaterbulkperms",
+      "@title": {
+         "string": "Justera innehållsrättigheter"
+      },
+      "floater.string:nothing_to_modify_text": {
+         "@name": "nothing_to_modify_text",
+         "#text": {
+            "string": "\n        Selection contains no editable contents.\n    "
+         }
+      },
+      "floater.string:status_text": {
+         "@name": "status_text",
+         "#text": {
+            "string": "\n        Setting permissions on [NAME]\n    "
+         }
+      },
+      "floater.string:start_text": {
+         "@name": "start_text",
+         "#text": {
+            "string": "\n        Starting permission change requests...\n    "
+         }
+      },
+      "floater.string:done_text": {
+         "@name": "done_text",
+         "#text": {
+            "string": "\n        Finished permission change requests.\n    "
+         }
+      },
+      "check_box:check_animation": {
+         "@name": "check_animation"
+      },
+      "icon:icon_animation": {
+         "@name": "icon_animation",
+         "@tool_tip": {
+            "string": "Animation"
+         }
+      },
+      "check_box:check_bodypart": {
+         "@name": "check_bodypart"
+      },
+      "icon:icon_bodypart": {
+         "@tool_tip": {
+            "string": "Kroppsdelar"
+         },
+         "@name": "icon_bodypart"
+      },
+      "check_box:check_clothing": {
+         "@name": "check_clothing"
+      },
+      "icon:icon_clothing": {
+         "@name": "icon_clothing",
+         "@tool_tip": {
+            "string": "Klädsel"
+         }
+      },
+      "check_box:check_gesture": {
+         "@name": "check_gesture"
+      },
+      "icon:icon_gesture": {
+         "@name": "icon_gesture",
+         "@tool_tip": {
+            "string": "Gester"
+         }
+      },
+      "check_box:check_notecard": {
+         "@name": "check_notecard"
+      },
+      "icon:icon_notecard": {
+         "@name": "icon_notecard",
+         "@tool_tip": {
+            "string": "Anteckningskort"
+         }
+      },
+      "check_box:check_object": {
+         "@name": "check_object"
+      },
+      "icon:icon_object": {
+         "@name": "icon_object",
+         "@tool_tip": {
+            "string": "Objects"
+         }
+      },
+      "check_box:check_script": {
+         "@name": "check_script"
+      },
+      "icon:icon_script": {
+         "@name": "icon_script",
+         "@tool_tip": {
+            "string": "Scripts"
+         }
+      },
+      "check_box:check_sound": {
+         "@name": "check_sound"
+      },
+      "icon:icon_sound": {
+         "@name": "icon_sound",
+         "@tool_tip": {
+            "string": "Ljud"
+         }
+      },
+      "check_box:check_texture": {
+         "@name": "check_texture"
+      },
+      "icon:icon_texture": {
+         "@name": "icon_texture",
+         "@tool_tip": {
+            "string": "Textures"
+         }
+      },
+      "check_box:check_settings": {
+         "@name": "check_settings"
+      },
+      "icon:icon_setting": {
+         "@name": "icon_setting",
+         "@tool_tip": {
+            "string": "Miljöinställningar"
+         }
+      },
+      "button:check_all": {
+         "@name": "check_all",
+         "@label": {
+            "string": "√ All"
+         },
+         "button.commit_callback": null
+      },
+      "button:check_none": {
+         "@label": {
+            "string": "Rensa"
+         },
+         "@name": "check_none",
+         "button.commit_callback": null
+      },
+      "text:newperms": {
+         "@name": "newperms",
+         "#text": {
+            "string": "\n        Adjust Content Permissions To\n    "
+         }
+      },
+      "text:GroupLabel": {
+         "@name": "GroupLabel",
+         "#text": {
+            "string": "\n       Group:\n    "
+         }
+      },
+      "check_box:share_with_group": {
+         "@label": {
+            "string": "Dela"
+         },
+         "@name": "share_with_group",
+         "@tool_tip": {
+            "string": "Allow all members of the set group to share your modify permissions for this object. You must Deed to enable role restrictions."
+         }
+      },
+      "text:AnyoneLabel": {
+         "@name": "AnyoneLabel",
+         "#text": {
+            "string": "\n        Anyone:\n    "
+         }
+      },
+      "check_box:everyone_copy": {
+         "@label": {
+            "string": "Kopiera"
+         },
+         "@name": "everyone_copy",
+         "@tool_tip": {
+            "string": "Anyone can take a copy of the object. Object and all of its contents must be copy and transfer permissive"
+         }
+      },
+      "text:NextOwnerLabel": {
+         "@name": "NextOwnerLabel",
+         "#text": {
+            "string": "\n        Next owner:\n    "
+         }
+      },
+      "check_box:next_owner_modify": {
+         "@label": {
+            "string": "Modify"
+         },
+         "@name": "next_owner_modify",
+         "@tool_tip": {
+            "string": "Next owner can edit properties like item name or scale of this object."
+         }
+      },
+      "check_box:next_owner_copy": {
+         "@label": {
+            "string": "Kopiera"
+         },
+         "@name": "next_owner_copy",
+         "@tool_tip": {
+            "string": "Next owner can make unlimited copies of this object. Copies maintain creator information, and can never be more permissive than the item being copied."
+         },
+         "check_box.commit_callback": null
+      },
+      "check_box:next_owner_transfer": {
+         "@label": {
+            "string": "Överför"
+         },
+         "@name": "next_owner_transfer",
+         "@tool_tip": {
+            "string": "Next owner can give away or resell this object."
+         }
+      },
+      "scroll_list:queue output": {
+         "@name": "queue output"
+      },
+      "button:ok": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok",
+         "button.commit_callback": null
+      },
+      "button:apply": {
+         "@label": {
+            "string": "Verkställ"
+         },
+         "@name": "apply",
+         "button.commit_callback": null
+      },
+      "button:close": {
+         "@label": {
+            "string": "Avbryt"
+         },
+         "@name": "close",
+         "button.commit_callback": null
+      }
+   }
+}
