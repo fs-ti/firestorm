@@ -1,0 +1,12 @@
+{
+   "floater": {
+      "@name": "floater_buy_currency_html",
+      "@title": {
+         "string": "Köp valuta"
+      },
+      "floater.string": null,
+      "web_browser:browser": {
+         "@name": "browser"
+      }
+   }
+}
