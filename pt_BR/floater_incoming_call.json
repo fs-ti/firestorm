@@ -1,0 +1,82 @@
+{
+   "floater": {
+      "@name": "incoming call",
+      "floater.string:lifetime": {
+         "@name": "lifetime",
+         "#text": {
+            "string": "\n        5\n    "
+         }
+      },
+      "floater.string:localchat": {
+         "@name": "localchat",
+         "#text": {
+            "string": "\n        Nearby Voice Chat\n    "
+         }
+      },
+      "floater.string:anonymous": {
+         "@name": "anonymous",
+         "#text": {
+            "string": "\n        anonymous\n    "
+         }
+      },
+      "floater.string:VoiceInviteP2P": {
+         "@name": "VoiceInviteP2P",
+         "#text": {
+            "string": "\n        is calling you.\n    "
+         }
+      },
+      "floater.string:VoiceInviteAdHoc": {
+         "@name": "VoiceInviteAdHoc",
+         "#text": {
+            "string": "\n        has joined a Voice Chat call with a conference chat.\n    "
+         }
+      },
+      "floater.string:VoiceInviteGroup": {
+         "@name": "VoiceInviteGroup",
+         "#text": {
+            "string": "\n      just joined '[GROUP]' voice channel.\n    "
+         }
+      },
+      "floater.string:VoiceInviteQuestionGroup": {
+         "@name": "VoiceInviteQuestionGroup",
+         "#text": {
+            "string": "\n      Would you like to leave [CURRENT_CHAT] and join the call with '[GROUP]'?\n    "
+         }
+      },
+      "floater.string:VoiceInviteQuestionDefault": {
+         "@name": "VoiceInviteQuestionDefault",
+         "#text": {
+            "string": "\n      Do you want to leave [CURRENT_CHAT] and join this voice chat?\n    "
+         }
+      },
+      "avatar_icon": null,
+      "group_icon": null,
+      "text:caller name": {
+         "@name": "caller name"
+      },
+      "button:Accept": {
+         "@label": {
+            "string": "Answer"
+         },
+         "@name": "Accept"
+      },
+      "button:Reject": {
+         "@label": {
+            "string": "Ignore"
+         },
+         "@name": "Reject"
+      },
+      "button:Start IM": {
+         "@label": {
+            "string": "Open IM instead"
+         },
+         "@name": "Start IM"
+      },
+      "text:question": {
+         "@name": "question",
+         "#text": {
+            "string": "\n     If you answer, you will be disconnected from your current voice conversation.\n    "
+         }
+      }
+   }
+}
