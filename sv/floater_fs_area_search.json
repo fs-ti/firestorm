@@ -1,0 +1,538 @@
+{
+   "floater": {
+      "@name": "area_search",
+      "@title": {
+         "string": "Områdessökning för objekt"
+      },
+      "tab_container:area_searchtab": {
+         "@name": "area_searchtab",
+         "panel:area_search_list_panel": {
+            "@label": {
+               "string": "List"
+            },
+            "@name": "area_search_list_panel",
+            "panel.string:ListedPendingTotalBlank": {
+               "@name": "ListedPendingTotalBlank",
+               "#text": {
+                  "string": "\n        Listed | Pending | Total\n      "
+               }
+            },
+            "panel.string:ListedPendingTotalFilled": {
+               "@name": "ListedPendingTotalFilled",
+               "#text": {
+                  "string": "\n        [LISTED] Listed | [PENDING] Pending | [TOTAL] Total\n      "
+               }
+            },
+            "fs_scroll_list:result_list": {
+               "@name": "result_list",
+               "fs_scroll_list.columns:distance": {
+                  "@name": "distance",
+                  "@label": {
+                     "string": "Dist"
+                  },
+                  "@tool_tip": {
+                     "string": "Distance from your avatar to the object."
+                  }
+               },
+               "fs_scroll_list.columns:name": {
+                  "@name": "name",
+                  "@label": {
+                     "string": "Name"
+                  }
+               },
+               "fs_scroll_list.columns:description": {
+                  "@name": "description",
+                  "@label": {
+                     "string": "Description"
+                  }
+               },
+               "fs_scroll_list.columns:price": {
+                  "@name": "price",
+                  "@label": {
+                     "string": "Price"
+                  },
+                  "@tool_tip": {
+                     "string": "If the object is for sale, what you'd pay to purchase it."
+                  }
+               },
+               "fs_scroll_list.columns:land_impact": {
+                  "@name": "land_impact",
+                  "@label": {
+                     "string": "LI"
+                  },
+                  "@tool_tip": {
+                     "string": "The number that is counted against your parcel's maximum."
+                  }
+               },
+               "fs_scroll_list.columns:prim_count": {
+                  "@name": "prim_count",
+                  "@label": {
+                     "string": "Prims"
+                  },
+                  "@tool_tip": {
+                     "string": "Count of prims that make up each object."
+                  }
+               },
+               "fs_scroll_list.columns:owner": {
+                  "@name": "owner",
+                  "@label": {
+                     "string": "Owner"
+                  }
+               },
+               "fs_scroll_list.columns:group": {
+                  "@name": "group",
+                  "@label": {
+                     "string": "Group"
+                  },
+                  "@tool_tip": {
+                     "string": "What group the object is set to."
+                  }
+               },
+               "fs_scroll_list.columns:creator": {
+                  "@name": "creator",
+                  "@label": {
+                     "string": "Creator"
+                  }
+               },
+               "fs_scroll_list.columns:last_owner": {
+                  "@name": "last_owner",
+                  "@label": {
+                     "string": "Last Owner"
+                  },
+                  "@tool_tip": {
+                     "string": "Who owned it last."
+                  }
+               }
+            },
+            "button:Refresh": {
+               "@name": "Refresh",
+               "@label": {
+                  "string": "Refresh"
+               }
+            },
+            "text:counter": {
+               "@name": "counter",
+               "#text": {
+                  "string": "\n        Listed | Pending | Total\n      "
+               }
+            },
+            "check_box:beacons": {
+               "@name": "beacons",
+               "@label": {
+                  "string": "Show beacons"
+               }
+            }
+         },
+         "panel:area_search_find_panel": {
+            "@label": {
+               "string": "Find"
+            },
+            "@name": "area_search_find_panel",
+            "text:name_label": {
+               "@name": "name_label",
+               "#text": {
+                  "string": "\n        Name:\n      "
+               }
+            },
+            "text:desc_label": {
+               "@name": "desc_label",
+               "#text": {
+                  "string": "\n        Description:\n      "
+               }
+            },
+            "line_editor:name_search": {
+               "@name": "name_search"
+            },
+            "line_editor:description_search": {
+               "@name": "description_search"
+            },
+            "text:owner_label": {
+               "@name": "owner_label",
+               "#text": {
+                  "string": "\n        Owner:\n      "
+               }
+            },
+            "text:group_label": {
+               "@name": "group_label",
+               "#text": {
+                  "string": "\n        Group:\n      "
+               }
+            },
+            "line_editor:owner_search": {
+               "@name": "owner_search"
+            },
+            "line_editor:group_search": {
+               "@name": "group_search"
+            },
+            "text:creator_label": {
+               "@name": "creator_label",
+               "#text": {
+                  "string": "\n        Creator:\n      "
+               }
+            },
+            "text:last_owner_label": {
+               "@name": "last_owner_label",
+               "#text": {
+                  "string": "\n        Last owner:\n      "
+               }
+            },
+            "line_editor:creator_search": {
+               "@name": "creator_search"
+            },
+            "line_editor:last_owner_search": {
+               "@name": "last_owner_search"
+            },
+            "check_box:regular_expression": {
+               "@name": "regular_expression",
+               "@label": {
+                  "string": "Use regular expression"
+               }
+            },
+            "button:search": {
+               "@name": "search",
+               "@label": {
+                  "string": "Search"
+               }
+            },
+            "button:clear": {
+               "@name": "clear",
+               "@label": {
+                  "string": "Clear"
+               }
+            }
+         },
+         "panel:area_search_filter_panel": {
+            "@label": {
+               "string": "Filter"
+            },
+            "@name": "area_search_filter_panel",
+            "text:only_list": {
+               "@name": "only_list",
+               "#text": {
+                  "string": "\n        Exclude objects that are:\n      "
+               }
+            },
+            "check_box:filter_locked": {
+               "@name": "filter_locked",
+               "@label": {
+                  "string": "Locked"
+               }
+            },
+            "check_box:filter_physical": {
+               "@name": "filter_physical",
+               "@label": {
+                  "string": "Physical"
+               }
+            },
+            "check_box:filter_phantom": {
+               "@name": "filter_phantom",
+               "@label": {
+                  "string": "Phantom"
+               }
+            },
+            "check_box:filter_temporary": {
+               "@name": "filter_temporary",
+               "@label": {
+                  "string": "Temporary"
+               }
+            },
+            "check_box:filter_attachment": {
+               "@name": "filter_attachment",
+               "@label": {
+                  "string": "Attachment"
+               }
+            },
+            "check_box:filter_moap": {
+               "@name": "filter_moap",
+               "@label": {
+                  "string": "Shared Media"
+               }
+            },
+            "check_box:filter_perm_copy": {
+               "@name": "filter_perm_copy",
+               "@label": {
+                  "string": "Copy"
+               }
+            },
+            "check_box:filter_perm_modify": {
+               "@name": "filter_perm_modify",
+               "@label": {
+                  "string": "Modify"
+               }
+            },
+            "check_box:filter_perm_transfer": {
+               "@name": "filter_perm_transfer",
+               "@label": {
+                  "string": "Transfer"
+               }
+            },
+            "check_box:filter_for_sale": {
+               "@name": "filter_for_sale",
+               "@label": {
+                  "string": "For Sale between"
+               }
+            },
+            "spinner:min_price": {
+               "@name": "min_price"
+            },
+            "text:and": {
+               "@name": "and",
+               "#text": {
+                  "string": "\n        and\n      "
+               }
+            },
+            "spinner:max_price": {
+               "@name": "max_price"
+            },
+            "text:mouse_text": {
+               "@name": "mouse_text",
+               "#text": {
+                  "string": "\n        Mouse click action\n      "
+               }
+            },
+            "combo_box:click_action": {
+               "@name": "click_action",
+               "@tool_tip": {
+                  "string": "Action that is performed when clicking on an object."
+               },
+               "combo_box.item:click_blank": {
+                  "@label": {
+                     "string": " "
+                  },
+                  "@name": "click_blank"
+               },
+               "combo_box.item:click_any": {
+                  "@label": {
+                     "string": "Any"
+                  },
+                  "@name": "click_any"
+               },
+               "combo_box.item:click_touch": {
+                  "@label": {
+                     "string": "Touch"
+                  },
+                  "@name": "click_touch"
+               },
+               "combo_box.item:click_sit": {
+                  "@label": {
+                     "string": "Sit"
+                  },
+                  "@name": "click_sit"
+               },
+               "combo_box.item:click_buy": {
+                  "@label": {
+                     "string": "Buy"
+                  },
+                  "@name": "click_buy"
+               },
+               "combo_box.item:click_pay": {
+                  "@label": {
+                     "string": "Pay"
+                  },
+                  "@name": "click_pay"
+               },
+               "combo_box.item:click_open": {
+                  "@label": {
+                     "string": "Open"
+                  },
+                  "@name": "click_open"
+               },
+               "combo_box.item:click_play": {
+                  "@label": {
+                     "string": "Play"
+                  },
+                  "@name": "click_play"
+               },
+               "combo_box.item:click_open_media": {
+                  "@label": {
+                     "string": "Open Media"
+                  },
+                  "@name": "click_open_media"
+               },
+               "combo_box.item:click_zoom": {
+                  "@label": {
+                     "string": "Zoom"
+                  },
+                  "@name": "click_zoom"
+               }
+            },
+            "check_box:filter_distance": {
+               "@name": "filter_distance",
+               "@label": {
+                  "string": "Distance between"
+               }
+            },
+            "spinner:min_distance": {
+               "@name": "min_distance"
+            },
+            "text:and2": {
+               "@name": "and2",
+               "#text": {
+                  "string": "\n        and\n      "
+               }
+            },
+            "spinner:max_distance": {
+               "@name": "max_distance"
+            },
+            "check_box:filter_agent_parcel_only": {
+               "@name": "filter_agent_parcel_only",
+               "@label": {
+                  "string": "Current Parcel only"
+               }
+            },
+            "check_box:exclude_attachment": {
+               "@name": "exclude_attachment",
+               "@label": {
+                  "string": "Attachment"
+               }
+            },
+            "check_box:exclude_physical": {
+               "@name": "exclude_physical",
+               "@label": {
+                  "string": "Physical"
+               }
+            },
+            "check_box:exclude_temporary": {
+               "@name": "exclude_temporary",
+               "@label": {
+                  "string": "Temporary"
+               }
+            },
+            "check_box:exclude_childprim": {
+               "@name": "exclude_childprim",
+               "@label": {
+                  "string": "Child Prim"
+               }
+            },
+            "check_box:exclude_neighbor_region": {
+               "@name": "exclude_neighbor_region",
+               "@label": {
+                  "string": "Neighboring Regions"
+               }
+            },
+            "button:apply": {
+               "@name": "apply",
+               "@label": {
+                  "string": "Apply"
+               }
+            }
+         },
+         "panel:area_search_options_panel": {
+            "@label": {
+               "string": "Options"
+            },
+            "@name": "area_search_options_panel",
+            "text:display_column": {
+               "@name": "display_column",
+               "#text": {
+                  "string": "\n        Display column:\n      "
+               }
+            },
+            "check_box:show_distance": {
+               "@name": "show_distance",
+               "@label": {
+                  "string": "Distance"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_name": {
+               "@name": "show_name",
+               "@label": {
+                  "string": "Name"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_description": {
+               "@name": "show_description",
+               "@label": {
+                  "string": "Description"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_price": {
+               "@name": "show_price",
+               "@label": {
+                  "string": "Price"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_land_impact": {
+               "@name": "show_land_impact",
+               "@label": {
+                  "string": "Land Impact"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_prim_count": {
+               "@name": "show_prim_count",
+               "@label": {
+                  "string": "Prim Count"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_owner": {
+               "@name": "show_owner",
+               "@label": {
+                  "string": "Owner"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_group": {
+               "@name": "show_group",
+               "@label": {
+                  "string": "Group"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_creator": {
+               "@name": "show_creator",
+               "@label": {
+                  "string": "Creator"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            },
+            "check_box:show_last_owner": {
+               "@name": "show_last_owner",
+               "@label": {
+                  "string": "Last owner"
+               },
+               "check_box.commit_callback": null,
+               "check_box.on_check": null
+            }
+         },
+         "panel:area_search_advanced_panel": {
+            "@label": {
+               "string": "Advanced"
+            },
+            "@name": "area_search_advanced_panel",
+            "check_box:double_click_touch": {
+               "@name": "double_click_touch",
+               "@label": {
+                  "string": "Double click touch object"
+               }
+            },
+            "check_box:double_click_buy": {
+               "@name": "double_click_buy",
+               "@label": {
+                  "string": "Double click buy object"
+               }
+            },
+            "check_box:double_click_sit": {
+               "@name": "double_click_sit",
+               "@label": {
+                  "string": "Double click sit on object"
+               }
+            }
+         }
+      }
+   }
+}
