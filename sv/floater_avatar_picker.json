@@ -1,0 +1,211 @@
+{
+   "floater": {
+      "@name": "avatarpicker",
+      "@title": {
+         "string": "Choose Resident"
+      },
+      "floater.string:not_found": {
+         "@name": "not_found",
+         "#text": {
+            "string": "\n        '[TEXT]' not found\n    "
+         }
+      },
+      "floater.string:not_found_text": {
+         "@name": "not_found_text",
+         "#text": {
+            "string": "\n        Resident wasn't found.\n    "
+         }
+      },
+      "floater.string:no_one_near": {
+         "@name": "no_one_near",
+         "#text": {
+            "string": "\n        No one near\n    "
+         }
+      },
+      "floater.string:no_results": {
+         "@name": "no_results",
+         "#text": {
+            "string": "\n        No results\n    "
+         }
+      },
+      "floater.string:searching": {
+         "@name": "searching",
+         "#text": {
+            "string": "\n        Searching...\n    "
+         }
+      },
+      "#comment": " For multiple person selection, use \"Select\" and \"Close\" \n      instead of \"OK\" and \"Cancel\" because \"Cancel\" still keeps the ones \n      you have already selected.  The code will show the appropriate\n      set of buttons. ",
+      "string:Select": {
+         "@name": "Select",
+         "#text": {
+            "string": "Välj"
+         }
+      },
+      "string:Close": {
+         "@name": "Close",
+         "#text": {
+            "string": "Stäng"
+         }
+      },
+      "tab_container:ResidentChooserTabs": {
+         "@name": "ResidentChooserTabs",
+         "panel:SearchPanel": {
+            "@label": {
+               "string": "Sök"
+            },
+            "@name": "SearchPanel",
+            "text:InstructSearchResidentName": {
+               "@name": "InstructSearchResidentName",
+               "#text": {
+                  "string": "\n                Type part of a person's name:\n            "
+               }
+            },
+            "line_editor:Edit": {
+               "@name": "Edit"
+            },
+            "button:Find": {
+               "@label": {
+                  "string": "Gå"
+               },
+               "@name": "Find"
+            },
+            "fs_scroll_list:SearchResults": {
+               "@name": "SearchResults",
+               "columns:name": {
+                  "@label": {
+                     "string": "Namn"
+                  },
+                  "@name": "name"
+               },
+               "columns:username": {
+                  "@label": {
+                     "string": "Användarnamn"
+                  },
+                  "@name": "username"
+               }
+            }
+         },
+         "panel:FriendsPanel": {
+            "@label": {
+               "string": "Vänner"
+            },
+            "@name": "FriendsPanel",
+            "text:InstructSelectFriend": {
+               "@name": "InstructSelectFriend",
+               "#text": {
+                  "string": "\n                Select a person:\n            "
+               }
+            },
+            "button:RefreshFriends": {
+               "@name": "RefreshFriends",
+               "button.commit_callback": null
+            },
+            "fs_scroll_list:Friends": {
+               "@name": "Friends",
+               "columns:name": {
+                  "@label": {
+                     "string": "Namn"
+                  },
+                  "@name": "name"
+               },
+               "columns:username": {
+                  "@label": {
+                     "string": "Användarnamn"
+                  },
+                  "@name": "username"
+               }
+            }
+         },
+         "panel:NearMePanel": {
+            "@label": {
+               "string": "Nära mig"
+            },
+            "@name": "NearMePanel",
+            "text:InstructSelectResident": {
+               "@name": "InstructSelectResident",
+               "#text": {
+                  "string": "\n                Select a person nearby:\n            "
+               }
+            },
+            "slider:near_me_range": {
+               "@label": {
+                  "string": "Avstånd"
+               },
+               "@name": "near_me_range"
+            },
+            "text:meters": {
+               "@name": "meters",
+               "#text": {
+                  "string": "\n                Meters\n            "
+               }
+            },
+            "button:Refresh": {
+               "@name": "Refresh"
+            },
+            "fs_scroll_list:NearMe": {
+               "@name": "NearMe",
+               "columns:name": {
+                  "@label": {
+                     "string": "Namn"
+                  },
+                  "@name": "name"
+               },
+               "columns:username": {
+                  "@label": {
+                     "string": "Användarnamn"
+                  },
+                  "@name": "username"
+               }
+            }
+         },
+         "panel:SearchPanelUUID": {
+            "@label": {
+               "string": "Search by UUID"
+            },
+            "@name": "SearchPanelUUID",
+            "text:SearchByUUIDLabel": {
+               "@name": "SearchByUUIDLabel",
+               "#text": {
+                  "string": "\n                Enter a person's UUID:\n            "
+               }
+            },
+            "line_editor:EditUUID": {
+               "@name": "EditUUID"
+            },
+            "button:FindUUID": {
+               "@label": {
+                  "string": "Gå"
+               },
+               "@name": "FindUUID"
+            },
+            "fs_scroll_list:SearchResultsUUID": {
+               "@name": "SearchResultsUUID",
+               "columns:nameUUID": {
+                  "@label": {
+                     "string": "Namn"
+                  },
+                  "@name": "nameUUID"
+               },
+               "columns:usernameUUID": {
+                  "@label": {
+                     "string": "Användarnamn"
+                  },
+                  "@name": "usernameUUID"
+               }
+            }
+         }
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Avbryt"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

@@ -1,0 +1,86 @@
+{
+   "floater": {
+      "@name": "360capture",
+      "@title": {
+         "string": "360° ögonblicksbild"
+      },
+      "panel:ui_panel_left": {
+         "@name": "ui_panel_left",
+         "text:quality_level_label": {
+            "@name": "quality_level_label",
+            "#text": {
+               "string": "\n      Quality level\n    "
+            }
+         },
+         "radio_group:360_quality_selection": {
+            "@name": "360_quality_selection",
+            "radio_item:preview_quality": {
+               "@label": {
+                  "string": "Förhandsgranskning (snabb)"
+               },
+               "@name": "preview_quality",
+               "@tool_tip": {
+                  "string": "Förhandsgranskningskvalitet"
+               }
+            },
+            "radio_item:medium_quality": {
+               "@label": {
+                  "string": "Mellan"
+               },
+               "@name": "medium_quality",
+               "@tool_tip": {
+                  "string": "Medium quality"
+               }
+            },
+            "radio_item:high_quality": {
+               "@label": {
+                  "string": "Hög"
+               },
+               "@name": "high_quality",
+               "@tool_tip": {
+                  "string": "Hög kvalitet"
+               }
+            },
+            "radio_item:maximum_quality": {
+               "@label": {
+                  "string": "Maximalt"
+               },
+               "@name": "maximum_quality",
+               "@tool_tip": {
+                  "string": "Maximal kvalité"
+               }
+            }
+         },
+         "check_box:360_hide_avatar": {
+            "@label": {
+               "string": "Göm alla avatarer"
+            },
+            "@name": "360_hide_avatar"
+         },
+         "button:capture_button": {
+            "@label": {
+               "string": "Skapa 360-bild"
+            },
+            "@name": "capture_button"
+         },
+         "button:save_local_button": {
+            "@label": {
+               "string": "Spara som..."
+            },
+            "@name": "save_local_button"
+         }
+      },
+      "panel:ui_panel_right": {
+         "@name": "ui_panel_right",
+         "web_browser:360capture_contents": {
+            "@name": "360capture_contents"
+         },
+         "text:statusbar": {
+            "@name": "statusbar",
+            "#text": {
+               "string": "\n      Click and drag on the image to pan\n    "
+            }
+         }
+      }
+   }
+}

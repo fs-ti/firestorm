@@ -1,0 +1,32 @@
+{
+   "floater": {
+      "@name": "associate listing",
+      "@title": {
+         "string": "Associate Listing"
+      },
+      "text:message": {
+         "@name": "message",
+         "#text": {
+            "string": "\n        Listing ID:\n    "
+         }
+      },
+      "line_editor:listing_id": {
+         "@name": "listing_id",
+         "#text": {
+            "string": "\n        Type ID here\n    "
+         }
+      },
+      "button:OK": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "OK"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Avbryt"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

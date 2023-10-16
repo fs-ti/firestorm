@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "Avatar",
+      "@title": {
+         "string": "Välj en avatar"
+      },
+      "web_browser:avatar_picker_contents": {
+         "@name": "avatar_picker_contents"
+      }
+   }
+}

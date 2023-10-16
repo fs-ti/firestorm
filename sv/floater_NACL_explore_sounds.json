@@ -1,0 +1,137 @@
+{
+   "floater": {
+      "@name": "sound_explorer",
+      "@title": {
+         "string": "Ljud"
+      },
+      "floater.string:Playing": {
+         "@name": "Playing",
+         "#text": {
+            "string": "\n  Spelar"
+         }
+      },
+      "floater.string:NotPlaying": {
+         "@name": "NotPlaying",
+         "#text": {
+            "string": "\n[TIME] min sedan"
+         }
+      },
+      "floater.string:Type_UI": {
+         "@name": "Type_UI",
+         "#text": {
+            "string": "\nGränssnitt"
+         }
+      },
+      "floater.string:Type_Avatar": {
+         "@name": "Type_Avatar",
+         "#text": {
+            "string": "\n  Avatar"
+         }
+      },
+      "floater.string:Type_llTriggerSound": {
+         "@name": "Type_llTriggerSound",
+         "#text": {
+            "string": "\n    llTriggerSound\n  "
+         }
+      },
+      "floater.string:Type_llLoopSound": {
+         "@name": "Type_llLoopSound",
+         "#text": {
+            "string": "\n    llLoopSound\n  "
+         }
+      },
+      "floater.string:Type_llPlaySound": {
+         "@name": "Type_llPlaySound",
+         "#text": {
+            "string": "\n    llPlaySound\n  "
+         }
+      },
+      "check_box:avatars_chk": {
+         "@name": "avatars_chk",
+         "@label": {
+            "string": "Avatarer"
+         }
+      },
+      "check_box:objects_chk": {
+         "@name": "objects_chk",
+         "@label": {
+            "string": "Objekt"
+         }
+      },
+      "check_box:collision_chk": {
+         "@name": "collision_chk",
+         "@label": {
+            "string": "Standardljud för kollision"
+         }
+      },
+      "check_box:repeated_asset_chk": {
+         "@name": "repeated_asset_chk",
+         "@label": {
+            "string": "Repeated Asset"
+         }
+      },
+      "check_box:pause_chk": {
+         "@name": "pause_chk",
+         "@label": {
+            "string": "Pause Log"
+         }
+      },
+      "scroll_list:sound_list": {
+         "@name": "sound_list",
+         "columns:playing": {
+            "@label": {
+               "string": "Spelar"
+            },
+            "@name": "playing"
+         },
+         "columns:type": {
+            "@label": {
+               "string": "Typ"
+            },
+            "@name": "type"
+         },
+         "columns:owner": {
+            "@label": {
+               "string": "Ägare"
+            },
+            "@name": "owner"
+         },
+         "columns:sound": {
+            "@label": {
+               "string": "Ljud"
+            },
+            "@name": "sound"
+         }
+      },
+      "button:play_locally_btn": {
+         "@label": {
+            "string": "Spela lokalt"
+         },
+         "@name": "play_locally_btn"
+      },
+      "button:stop_locally_btn": {
+         "@label": {
+            "string": "Stoppa lokalt"
+         },
+         "@name": "stop_locally_btn"
+      },
+      "button:look_at_btn": {
+         "@label": {
+            "string": "Titta på"
+         },
+         "@name": "look_at_btn"
+      },
+      "button:stop_btn": {
+         "@label": {
+            "string": "Stopp"
+         },
+         "@name": "stop_btn"
+      },
+      "button:bl_btn": {
+         "@label": {
+            "string": "Svartlista"
+         },
+         "@name": "bl_btn"
+      }
+   }
+}

@@ -1,0 +1,226 @@
+{
+   "contents": {
+      "rows:camera_actions": {
+         "@name": "camera_actions",
+         "columns:lst_action": {
+            "@label": {
+               "string": "Kamera"
+            },
+            "@name": "lst_action",
+            "@value": {
+               "string": "Cam_FreeCam_Off"
+            }
+         }
+      },
+      "rows:look_up": {
+         "@name": "look_up",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Titta upp"
+            }
+         }
+      },
+      "rows:look_down": {
+         "@name": "look_down",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Titta ner"
+            }
+         }
+      },
+      "rows:move_forward": {
+         "@name": "move_forward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Främre kamera"
+            }
+         }
+      },
+      "rows:move_backward": {
+         "@name": "move_backward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Bakre kamera"
+            }
+         }
+      },
+      "rows:move_forward_fast": {
+         "@name": "move_forward_fast",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Forward Fast"
+            }
+         }
+      },
+      "rows:move_backward_fast": {
+         "@name": "move_backward_fast",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Backward Fast"
+            }
+         }
+      },
+      "rows:spin_over": {
+         "@name": "spin_over",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Spin Over"
+            }
+         }
+      },
+      "rows:spin_under": {
+         "@name": "spin_under",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Spin Under"
+            }
+         }
+      },
+      "rows:pan_up": {
+         "@name": "pan_up",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Panorera kameran uppåt"
+            }
+         }
+      },
+      "rows:pan_down": {
+         "@name": "pan_down",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Panorera kameran nedåt"
+            }
+         }
+      },
+      "rows:pan_left": {
+         "@name": "pan_left",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Pan Left"
+            }
+         }
+      },
+      "rows:pan_right": {
+         "@name": "pan_right",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Panera kameran till höger"
+            }
+         }
+      },
+      "rows:pan_in": {
+         "@name": "pan_in",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Pan In"
+            }
+         }
+      },
+      "rows:pan_out": {
+         "@name": "pan_out",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Pan Out"
+            }
+         }
+      },
+      "rows:spin_around_ccw": {
+         "@name": "spin_around_ccw",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin around counterclockwise"
+            },
+            "@value": {
+               "string": "Moturs"
+            }
+         }
+      },
+      "rows:spin_around_cw": {
+         "@name": "spin_around_cw",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin around clockwise"
+            },
+            "@value": {
+               "string": "Medurs"
+            }
+         }
+      },
+      "rows:move_forward_sitting": {
+         "@name": "move_forward_sitting",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Forward Sitting"
+            }
+         }
+      },
+      "rows:move_backward_sitting": {
+         "@name": "move_backward_sitting",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Backward Sitting"
+            }
+         }
+      },
+      "rows:spin_over_sitting": {
+         "@name": "spin_over_sitting",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Spin Over Sitting"
+            }
+         }
+      },
+      "rows:spin_under_sitting": {
+         "@name": "spin_under_sitting",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Spin Under Sitting"
+            }
+         }
+      },
+      "rows:spin_around_ccw_sitting": {
+         "@name": "spin_around_ccw_sitting",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin around counterclockwise sitting"
+            },
+            "@value": {
+               "string": "Counterclockwise Sitting"
+            }
+         }
+      },
+      "rows:spin_around_cw_sitting": {
+         "@name": "spin_around_cw_sitting",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin around clockwise sitting"
+            },
+            "@value": {
+               "string": "Clockwise Sitting"
+            }
+         }
+      }
+   }
+}

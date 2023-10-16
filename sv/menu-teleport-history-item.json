@@ -1,0 +1,37 @@
+{
+   "toggleable_menu": {
+      "@name": "Teleport History Item Menu",
+      "menu_item_call:Teleport": {
+         "@label": {
+            "string": "Teleportera"
+         },
+         "@name": "Teleport",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:More Information": {
+         "@label": {
+            "string": "Visa"
+         },
+         "@name": "More Information",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:show_on_map": {
+         "@label": {
+            "string": "Visa på karta"
+         },
+         "@name": "show_on_map",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:CopyToClipboard": {
+         "@label": {
+            "string": "Kopiera SLurl"
+         },
+         "@name": "CopyToClipboard",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

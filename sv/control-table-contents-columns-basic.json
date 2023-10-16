@@ -1,0 +1,28 @@
+{
+   "contents": {
+      "columns:lst_action": {
+         "@label": {
+            "string": "Åtgärd"
+         },
+         "@name": "lst_action"
+      },
+      "columns:lst_ctrl1": {
+         "@label": {
+            "string": "Huvudsaklig kontroll"
+         },
+         "@name": "lst_ctrl1"
+      },
+      "columns:lst_ctrl2": {
+         "@label": {
+            "string": "Alternativ 1"
+         },
+         "@name": "lst_ctrl2"
+      },
+      "columns:lst_ctrl3": {
+         "@label": {
+            "string": "Alternativ 2"
+         },
+         "@name": "lst_ctrl3"
+      }
+   }
+}

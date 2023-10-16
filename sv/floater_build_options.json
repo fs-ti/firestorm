@@ -1,0 +1,59 @@
+{
+   "floater": {
+      "@name": "build options floater",
+      "@title": {
+         "string": "Alternativ för rutnät"
+      },
+      "spinner:GridResolution": {
+         "@label": {
+            "string": "Enheter (metrar)"
+         },
+         "@name": "GridResolution"
+      },
+      "spinner:GridDrawSize": {
+         "@label": {
+            "string": "Extents (meters)"
+         },
+         "@name": "GridDrawSize"
+      },
+      "spinner:DecimalPrecision": {
+         "@label": {
+            "string": "Decimal Precision"
+         },
+         "@name": "DecimalPrecision"
+      },
+      "spinner:RotationStep": {
+         "@label": {
+            "string": "Vinkel (grader)"
+         },
+         "@name": "RotationStep",
+         "@tool_tip": {
+            "string": "All rotations via rotation tool are constrained to multiples of this unit [Default: 1.0]"
+         }
+      },
+      "check_box:GridSubUnit": {
+         "@label": {
+            "string": "Snap to sub-units"
+         },
+         "@name": "GridSubUnit"
+      },
+      "check_box:GridCrossSection": {
+         "@label": {
+            "string": "View cross-sections"
+         },
+         "@name": "GridCrossSection"
+      },
+      "text:grid_opacity_label": {
+         "@tool_tip": {
+            "string": "Grid opacity"
+         },
+         "@name": "grid_opacity_label",
+         "#text": {
+            "string": "\n            Opacity:\n   "
+         }
+      },
+      "slider:GridOpacity": {
+         "@name": "GridOpacity"
+      }
+   }
+}

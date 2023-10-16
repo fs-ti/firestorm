@@ -1,0 +1,29 @@
+{
+   "menu": {
+      "@name": "Popup",
+      "menu_item_separator:Landmark Separator": {
+         "@name": "Landmark Separator"
+      },
+      "menu_item_call:about_url": {
+         "@label": {
+            "string": "About URL"
+         },
+         "@name": "about_url",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:teleport_to_url": {
+         "@label": {
+            "string": "Teleportera till URL"
+         },
+         "@name": "teleport_to_url",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:show_on_map": {
+         "@label": {
+            "string": "Karta"
+         },
+         "@name": "show_on_map",
+         "menu_item_call.on_click": null
+      }
+   }
+}

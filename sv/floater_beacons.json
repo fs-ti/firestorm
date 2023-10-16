@@ -1,0 +1,122 @@
+{
+   "floater": {
+      "@name": "beacons",
+      "@title": {
+         "string": "Beacons"
+      },
+      "panel:beacons_panel": {
+         "@name": "beacons_panel",
+         "text:label_show": {
+            "@name": "label_show",
+            "#text": {
+               "string": "\n            Show :\n         "
+            }
+         },
+         "check_box:lights_bounding_boxes": {
+            "@label": {
+               "string": "Bounding boxes for lights in scene"
+            },
+            "@name": "lights_bounding_boxes",
+            "check_box.on_check": null,
+            "check_box.check_button.commit_callback": null
+         },
+         "check_box:beacons": {
+            "@label": {
+               "string": "Beacons"
+            },
+            "@name": "beacons",
+            "check_box.commit_callback": null
+         },
+         "check_box:highlights": {
+            "@label": {
+               "string": "Höjdpunkter"
+            },
+            "@name": "highlights",
+            "check_box.commit_callback": null
+         },
+         "check_box:FSRenderBeaconText": {
+            "@label": {
+               "string": "Beacon info text in viewer window"
+            },
+            "@name": "FSRenderBeaconText"
+         },
+         "text:beacon_width_label": {
+            "@tool_tip": {
+               "string": "Beacon width"
+            },
+            "@name": "beacon_width_label",
+            "#text": {
+               "string": "\n            Width:\n        "
+            }
+         },
+         "slider:beacon_width": {
+            "@name": "beacon_width"
+         },
+         "text:label_objects": {
+            "@name": "label_objects",
+            "#text": {
+               "string": "\n           Show direction to:\n         "
+            }
+         },
+         "check_box:physical": {
+            "@label": {
+               "string": "Fysiskt"
+            },
+            "@name": "physical",
+            "check_box.commit_callback": null
+         },
+         "check_box:scripted": {
+            "@label": {
+               "string": "Skriptat"
+            },
+            "@name": "scripted",
+            "check_box.commit_callback": null
+         },
+         "check_box:touch_only": {
+            "@label": {
+               "string": "Touch only"
+            },
+            "@name": "touch_only",
+            "check_box.commit_callback": null
+         },
+         "check_box:sounds": {
+            "@label": {
+               "string": "Ljudkällor"
+            },
+            "@name": "sounds",
+            "check_box.commit_callback": null
+         },
+         "check_box:particles": {
+            "@label": {
+               "string": "Partikelkällor"
+            },
+            "@name": "particles",
+            "check_box.commit_callback": null
+         },
+         "check_box:moapbeacon": {
+            "@label": {
+               "string": "Mediakällor"
+            },
+            "@name": "moapbeacon",
+            "check_box.commit_callback": null
+         },
+         "view_border:cost_text_border": {
+            "@name": "cost_text_border"
+         },
+         "check_box:sun": {
+            "@label": {
+               "string": "Sol"
+            },
+            "@name": "sun",
+            "check_box.commit_callback": null
+         },
+         "check_box:moon": {
+            "@label": {
+               "string": "Måne"
+            },
+            "@name": "moon",
+            "check_box.commit_callback": null
+         }
+      }
+   }
+}

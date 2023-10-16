@@ -1,0 +1,82 @@
+{
+   "contents": {
+      "rows:editing_actions": {
+         "@name": "editing_actions",
+         "columns:lst_action": {
+            "@label": {
+               "string": "Redigerar"
+            },
+            "@name": "lst_action",
+            "@value": {
+               "string": "Tool_Dozer"
+            }
+         }
+      },
+      "rows:edit_avatar_spin_ccw": {
+         "@name": "edit_avatar_spin_ccw",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin around avatar counterclockwise"
+            },
+            "@value": {
+               "string": "Moturs"
+            }
+         }
+      },
+      "rows:edit_avatar_spin_cw": {
+         "@name": "edit_avatar_spin_cw",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin around avatar clockwise"
+            },
+            "@value": {
+               "string": "Medurs"
+            }
+         }
+      },
+      "rows:edit_avatar_spin_over": {
+         "@name": "edit_avatar_spin_over",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin over avatar"
+            },
+            "@value": {
+               "string": "Camera Spin Over"
+            }
+         }
+      },
+      "rows:edit_avatar_spin_under": {
+         "@name": "edit_avatar_spin_under",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Camera spin under avatar"
+            },
+            "@value": {
+               "string": "Camera Spin Under"
+            }
+         }
+      },
+      "rows:edit_avatar_move_forward": {
+         "@name": "edit_avatar_move_forward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Forward"
+            }
+         }
+      },
+      "rows:edit_avatar_move_backward": {
+         "@name": "edit_avatar_move_backward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Camera Backward"
+            }
+         }
+      }
+   }
+}

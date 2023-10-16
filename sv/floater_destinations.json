@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "Destinations",
+      "@title": {
+         "string": "Destinationer"
+      },
+      "web_browser:destination_guide_contents": {
+         "@name": "destination_guide_contents"
+      }
+   }
+}

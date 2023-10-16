@@ -1,0 +1,14 @@
+{
+   "floater": {
+      "@name": "floater_blocklist",
+      "@title": {
+         "string": "Blockerade innevånare & objekt"
+      },
+      "panel:panel_block_list_sidetray": {
+         "@name": "panel_block_list_sidetray",
+         "@label": {
+            "string": "Blocked Residents & Objects"
+         }
+      }
+   }
+}

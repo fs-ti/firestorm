@@ -1,0 +1,62 @@
+{
+   "floater": {
+      "@name": "Display Name",
+      "@title": {
+         "string": "Ändra visningsnamn"
+      },
+      "text:info_text": {
+         "@name": "info_text",
+         "#text": {
+            "string": "\n      The name you give your avatar is called your Display Name. You can change it once a week.\n    "
+         }
+      },
+      "text:lockout_text": {
+         "@name": "lockout_text",
+         "#text": {
+            "string": "\n    You cannot change your Display Name until: [TIME].\n  "
+         }
+      },
+      "text:set_name_label": {
+         "@name": "set_name_label",
+         "#text": {
+            "string": "\n      New Display Name:\n    "
+         }
+      },
+      "line_editor:display_name_editor": {
+         "@name": "display_name_editor"
+      },
+      "text:name_confirm_label": {
+         "@name": "name_confirm_label",
+         "#text": {
+            "string": "\n      Type your new name again to confirm:\n    "
+         }
+      },
+      "line_editor:display_name_confirm": {
+         "@name": "display_name_confirm"
+      },
+      "button:save_btn": {
+         "@label": {
+            "string": "Save"
+         },
+         "@name": "save_btn",
+         "@tool_tip": {
+            "string": "Save your new Display Name"
+         }
+      },
+      "button:reset_btn": {
+         "@label": {
+            "string": "Reset"
+         },
+         "@name": "reset_btn",
+         "@tool_tip": {
+            "string": "Make Display Name the same as Username"
+         }
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

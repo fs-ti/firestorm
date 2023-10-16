@@ -1,0 +1,129 @@
+{
+   "floater": {
+      "@name": "floater_export_collada",
+      "@title": {
+         "string": "Spara som Collada..."
+      },
+      "floater.string:texture_progress": {
+         "@name": "texture_progress",
+         "#text": {
+            "string": "\n  Save [OBJECT] Collada: Saving textures ([COUNT] remaining)\n  "
+         }
+      },
+      "floater.string:floater_title": {
+         "@name": "floater_title",
+         "#text": {
+            "string": "\n  Save [OBJECT] as Collada...\n  "
+         }
+      },
+      "layout_stack:resizing_stack": {
+         "@name": "resizing_stack",
+         "layout_panel:control_panel": {
+            "@name": "control_panel",
+            "text:ObjectInfoText": {
+               "@name": "ObjectInfoText",
+               "#text": {
+                  "string": "\n    Object Info\n  "
+               }
+            },
+            "text:NameText": {
+               "@name": "NameText",
+               "#text": {
+                  "string": "\n    Name: [NAME]\n  "
+               }
+            },
+            "text:exportable_prims": {
+               "@name": "exportable_prims",
+               "#text": {
+                  "string": "\n    Exportable prims: [COUNT]/[TOTAL]\n  "
+               }
+            },
+            "text:exportable_textures": {
+               "@name": "exportable_textures",
+               "#text": {
+                  "string": "\n    Exportable textures: [COUNT]/[TOTAL]\n  "
+               }
+            },
+            "text:OptionsText": {
+               "@name": "OptionsText",
+               "#text": {
+                  "string": "\n    Options:\n  "
+               }
+            },
+            "check_box:export_textures_check": {
+               "@label": {
+                  "string": "Save textures"
+               },
+               "@name": "export_textures_check",
+               "check_box.commit_callback": null
+            },
+            "check_box:consolidate_check": {
+               "@label": {
+                  "string": "Consolidate textures"
+               },
+               "@name": "consolidate_check"
+            },
+            "check_box:skip_transparent_check": {
+               "@label": {
+                  "string": "Skip transparent"
+               },
+               "@name": "skip_transparent_check"
+            },
+            "check_box:texture_params_check": {
+               "@label": {
+                  "string": "Apply texture params"
+               },
+               "@name": "texture_params_check"
+            },
+            "check_box:single_uv_map_check": {
+               "@label": {
+                  "string": "Single UV Map"
+               },
+               "@name": "single_uv_map_check"
+            },
+            "text:TextureFormatText": {
+               "@name": "TextureFormatText",
+               "#text": {
+                  "string": "\n    Texture Format:\n  "
+               }
+            },
+            "combo_box:texture_type_combo": {
+               "@name": "texture_type_combo",
+               "combo_box.item:tga": {
+                  "@label": {
+                     "string": "TARGA"
+                  },
+                  "@name": "tga"
+               },
+               "combo_box.item:png": {
+                  "@label": {
+                     "string": "PNG"
+                  },
+                  "@name": "png"
+               },
+               "combo_box.item:j2c": {
+                  "@label": {
+                     "string": "JPEG2000"
+                  },
+                  "@name": "j2c"
+               }
+            },
+            "button:export_btn": {
+               "@label": {
+                  "string": "Save as..."
+               },
+               "@name": "export_btn"
+            }
+         },
+         "layout_panel:tex_layout_panel": {
+            "@name": "tex_layout_panel",
+            "scroll_container:textures_scroll": {
+               "@name": "textures_scroll",
+               "panel:textures_panel": {
+                  "@name": "textures_panel"
+               }
+            }
+         }
+      }
+   }
+}

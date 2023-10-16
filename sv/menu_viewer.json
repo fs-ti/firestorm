@@ -1,0 +1,4591 @@
+{
+   "menu_bar": {
+      "@name": "Main Menu",
+      "menu:Me": {
+         "@label": {
+            "string": "Avatar"
+         },
+         "@name": "Me",
+         "menu_item_call:Manage Account": {
+            "@label": {
+               "string": "Konto"
+            },
+            "@name": "Manage Account",
+            "menu_item_call.on_click:ManageMyAccount_url": {
+               "@name": "ManageMyAccount_url"
+            },
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:MarketplaceListings": {
+            "@label": {
+               "string": "Marketplace listings..."
+            },
+            "@name": "MarketplaceListings",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Buy and Sell L$": {
+            "@label": {
+               "string": "Köp L$"
+            },
+            "@name": "Buy and Sell L$",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Membership": {
+            "@label": {
+               "string": "[Membership]"
+            },
+            "@name": "Membership",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_separator": null,
+         "menu_item_check:Inventory": {
+            "@label": {
+               "string": "Inventarie"
+            },
+            "@name": "Inventory",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:NewInventoryWindow": {
+            "@label": {
+               "string": "New Inventory Window"
+            },
+            "@name": "NewInventoryWindow",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Protected Folders": {
+            "@label": {
+               "string": "Skyddade mappar"
+            },
+            "@name": "Protected Folders",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:WearableFavorites": {
+            "@label": {
+               "string": "Favorite Wearables"
+            },
+            "@name": "WearableFavorites",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         },
+         "menu_item_call:Picks": {
+            "@label": {
+               "string": "Picks"
+            },
+            "@name": "Picks",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Experiences": {
+            "@label": {
+               "string": "Erfarenheter"
+            },
+            "@name": "Experiences",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Profile": {
+            "@label": {
+               "string": "Profile"
+            },
+            "@name": "Profile",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:NowWearing": {
+            "@label": {
+               "string": "Now wearing..."
+            },
+            "@name": "NowWearing",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_check:ChangeOutfit": {
+            "@label": {
+               "string": "Utstyrslar"
+            },
+            "@name": "ChangeOutfit",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu:Take Off >": {
+            "@label": {
+               "string": "Take off"
+            },
+            "@name": "Take Off >",
+            "menu:Clothes >": {
+               "@label": {
+                  "string": "Kläder"
+               },
+               "@name": "Clothes >",
+               "menu_item_call:Shirt": {
+                  "@label": {
+                     "string": "Tröja"
+                  },
+                  "@name": "Shirt",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Pants": {
+                  "@label": {
+                     "string": "Byxor"
+                  },
+                  "@name": "Pants",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Skirt": {
+                  "@label": {
+                     "string": "Kjol"
+                  },
+                  "@name": "Skirt",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Shoes": {
+                  "@label": {
+                     "string": "Skor"
+                  },
+                  "@name": "Shoes",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Socks": {
+                  "@label": {
+                     "string": "Sockar"
+                  },
+                  "@name": "Socks",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Jacket": {
+                  "@label": {
+                     "string": "Jacka"
+                  },
+                  "@name": "Jacket",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Gloves": {
+                  "@label": {
+                     "string": "Handskar"
+                  },
+                  "@name": "Gloves",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Self Undershirt": {
+                  "@label": {
+                     "string": "Undertröja"
+                  },
+                  "@name": "Self Undershirt",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Self Underpants": {
+                  "@label": {
+                     "string": "Underbyxor"
+                  },
+                  "@name": "Self Underpants",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Self Tattoo": {
+                  "@label": {
+                     "string": "Tatuering"
+                  },
+                  "@name": "Self Tattoo",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Self Physics": {
+                  "@label": {
+                     "string": "Physics"
+                  },
+                  "@name": "Self Physics",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Self Alpha": {
+                  "@label": {
+                     "string": "Alfa"
+                  },
+                  "@name": "Self Alpha",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_separator": null,
+               "menu_item_call:All Clothes": {
+                  "@label": {
+                     "string": "Alla kläder"
+                  },
+                  "@name": "All Clothes",
+                  "menu_item_call.on_click": null
+               }
+            },
+            "menu:Avatar Detach HUD": {
+               "@label": {
+                  "string": "HUD"
+               },
+               "@name": "Avatar Detach HUD"
+            },
+            "menu:Avatar Detach": {
+               "@label": {
+                  "string": "Detach"
+               },
+               "@name": "Avatar Detach"
+            },
+            "menu_item_call:Detach All": {
+               "@label": {
+                  "string": "Detach All"
+               },
+               "@name": "Detach All",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            }
+         },
+         "menu_item_call:Avatar Picker": {
+            "@label": {
+               "string": "Välj en avatar"
+            },
+            "@name": "Avatar Picker",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:HoverHeight": {
+            "@label": {
+               "string": "Hover Height"
+            },
+            "@name": "HoverHeight",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu:Movement": {
+            "@label": {
+               "string": "Rörelse"
+            },
+            "@name": "Movement",
+            "menu_item_call:Sit Down Here": {
+               "@label": {
+                  "string": "Sitt ner"
+               },
+               "@name": "Sit Down Here",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Stand up": {
+               "@label": {
+                  "string": "Stå upp"
+               },
+               "@name": "Stand up",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_check:Fly": {
+               "@label": {
+                  "string": "Flyg"
+               },
+               "@name": "Fly",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_call:Stop flying": {
+               "@label": {
+                  "string": "Sluta flyga"
+               },
+               "@name": "Stop flying",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_check:Always Run": {
+               "@label": {
+                  "string": "Kör alltid"
+               },
+               "@name": "Always Run",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Force Toggle Sitting": {
+               "@label": {
+                  "string": "Force Ground Sit"
+               },
+               "@name": "Force Toggle Sitting",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Move Lock": {
+               "@label": {
+                  "string": "Movelock"
+               },
+               "@name": "Move Lock",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Avatar Ignore Prejump": {
+               "@label": {
+                  "string": "Hoppa snabbt"
+               },
+               "@name": "Avatar Ignore Prejump",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu_item_check:Movement Controls": {
+            "@label": {
+               "string": "Move Controls"
+            },
+            "@name": "Movement Controls",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Camera Controls": {
+            "@label": {
+               "string": "Camera Controls"
+            },
+            "@name": "Camera Controls",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu:avhealth": {
+            "@label": {
+               "string": "Avatarens hälsa"
+            },
+            "@name": "avhealth",
+            "menu_item_call:Stop Animating My Avatar": {
+               "@label": {
+                  "string": "Stop Avatar Animations"
+               },
+               "@name": "Stop Animating My Avatar",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Stop Animating My Avatar With Revoke": {
+               "@label": {
+                  "string": "Stop Avatar Animations & Revoke Permissions"
+               },
+               "@name": "Stop Animating My Avatar With Revoke",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:undeform_avatar": {
+               "@label": {
+                  "string": "Undeform Avatar"
+               },
+               "@name": "undeform_avatar",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Rebake Texture": {
+               "@label": {
+                  "string": "Force Appearance Update (Rebake)"
+               },
+               "@name": "Rebake Texture",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Refresh Attachments": {
+               "@label": {
+                  "string": "Refresh Attachments"
+               },
+               "@name": "Refresh Attachments",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_call:ResetDefaultAvM": {
+               "@label": {
+                  "string": "Reset Default Male Avatar (Character Test)"
+               },
+               "@name": "ResetDefaultAvM",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:ResetDefaultAvF": {
+               "@label": {
+                  "string": "Reset Default Female Avatar (Character Test)"
+               },
+               "@name": "ResetDefaultAvF",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Avatar Draw Info": {
+               "@label": {
+                  "string": "Show Avatar Complexity Information"
+               },
+               "@name": "Avatar Draw Info",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:MyScripts": {
+               "@label": {
+                  "string": "Skript"
+               },
+               "@name": "MyScripts",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Lag Meter": {
+               "@label": {
+                  "string": "Lagg-mätare"
+               },
+               "@name": "Lag Meter",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Recreate LSL Bridge": {
+               "@label": {
+                  "string": "Recreate LSL Bridge"
+               },
+               "@name": "Recreate LSL Bridge",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu_item_call:Take Snapshot": {
+            "@label": {
+               "string": "Ögonblicksbild"
+            },
+            "@name": "Take Snapshot",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Capture 360": {
+            "@label": {
+               "string": "360° Snapshot"
+            },
+            "@name": "Capture 360",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:money_tracker": {
+            "@label": {
+               "string": "Money Tracker"
+            },
+            "@name": "money_tracker",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:pose_stand": {
+            "@label": {
+               "string": "Pose Stand..."
+            },
+            "@name": "pose_stand",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Preferences": {
+            "@label": {
+               "string": "Egenskaper"
+            },
+            "@name": "Preferences",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Toolbar Buttons": {
+            "@label": {
+               "string": "Toolbar Buttons"
+            },
+            "@name": "Toolbar Buttons",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Show HUD Attachments": {
+            "@label": {
+               "string": "Show HUD Attachments"
+            },
+            "@name": "Show HUD Attachments",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu_item_check:Show User Interface": {
+            "@label": {
+               "string": "Visa användargränssnitt"
+            },
+            "@name": "Show User Interface",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Request Admin Options": {
+            "@label": {
+               "string": "Request Admin Status"
+            },
+            "@name": "Request Admin Options",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Leave Admin Options": {
+            "@label": {
+               "string": "Leave Admin Status"
+            },
+            "@name": "Leave Admin Options",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Quit": {
+            "@label": {
+               "string": "Avsluta [APP_NAME]"
+            },
+            "@name": "Quit",
+            "menu_item_call.on_click": null
+         }
+      },
+      "#comment": " Comm Menu ",
+      "menu:Communicate": {
+         "@label": {
+            "string": "Comm"
+         },
+         "@name": "Communicate",
+         "menu:Status": {
+            "@label": {
+               "string": "Online Status"
+            },
+            "@name": "Status",
+            "menu_item_check:Away": {
+               "@name": "Away",
+               "@label": {
+                  "string": "Borta"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Do Not Disturb": {
+               "@name": "Do Not Disturb",
+               "@label": {
+                  "string": "Otillgänglig"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Set Autorespond": {
+               "@label": {
+                  "string": "Automatiskt svar"
+               },
+               "@name": "Set Autorespond",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Set Autorespond to non-friends": {
+               "@label": {
+                  "string": "Autosvar till icke-vänner"
+               },
+               "@name": "Set Autorespond to non-friends",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Automatically reject teleport offers": {
+               "@label": {
+                  "string": "Reject teleport offers and requests"
+               },
+               "@name": "Automatically reject teleport offers",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Reject all group invites": {
+               "@label": {
+                  "string": "Reject all group invites"
+               },
+               "@name": "Reject all group invites",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Reject all friendship requests": {
+               "@label": {
+                  "string": "Reject all friendship requests"
+               },
+               "@name": "Reject all friendship requests",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu_item_separator": null,
+         "menu_item_call:My Friends": {
+            "@label": {
+               "string": "Vänner"
+            },
+            "@name": "My Friends",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Contacts": {
+            "@label": {
+               "string": "Kontakter"
+            },
+            "@name": "Contacts",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Contact Sets": {
+            "@label": {
+               "string": "Contact Sets"
+            },
+            "@name": "Contact Sets",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:My Groups": {
+            "@label": {
+               "string": "Grupper"
+            },
+            "@name": "My Groups",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Nearby Chat": {
+            "@label": {
+               "string": "Chatt..."
+            },
+            "@name": "Nearby Chat",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:People": {
+            "@label": {
+               "string": "Personer"
+            },
+            "@name": "People",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Conversations": {
+            "@label": {
+               "string": "Konversationer"
+            },
+            "@name": "Conversations",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Gestures": {
+            "@label": {
+               "string": "Gester"
+            },
+            "@name": "Gestures",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Flickr": {
+            "@label": {
+               "string": "Flickr..."
+            },
+            "@name": "Flickr",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Discord": {
+            "@label": {
+               "string": "Discord..."
+            },
+            "@name": "Discord",
+            "menu_item_call.on_click": null
+         },
+         "menu:VoiceMorphing": {
+            "@label": {
+               "string": "Voice morphing"
+            },
+            "@name": "VoiceMorphing",
+            "menu_item_check:NoVoiceMorphing": {
+               "@label": {
+                  "string": "No voice morphing"
+               },
+               "@name": "NoVoiceMorphing",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Preview": {
+               "@label": {
+                  "string": "Förhandsgranska..."
+               },
+               "@name": "Preview",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Subscribe": {
+               "@label": {
+                  "string": "Prenumerera..."
+               },
+               "@name": "Subscribe",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:PremiumPerk": {
+               "@label": {
+                  "string": "Premium perk..."
+               },
+               "@name": "PremiumPerk",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu_item_check:Conversation Log...": {
+            "@name": "Conversation Log...",
+            "@label": {
+               "string": "Konversationslogg..."
+            },
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_enable": null,
+            "menu_item_check.on_click": null
+         },
+         "#comment": "\n        <menu_item_separator/>\n        <menu_item_check\n         label=\"Friends\"\n         name=\"My Friends\"\n         shortcut=\"control|shift|F\">\n            <menu_item_check.on_check\n             function=\"SideTray.CheckPanelPeopleTab\"\n             parameter=\"friends_panel\" />\n            <menu_item_check.on_click\n             function=\"SideTray.PanelPeopleTab\"\n             parameter=\"friends_panel\" />\n            </menu_item_check>\n        <menu_item_check\n         label=\"Groups\"\n         name=\"My Groups\"\n         shortcut=\"control|shift|G\">\n           <menu_item_check.on_check\n             function=\"SideTray.CheckPanelPeopleTab\"\n             parameter=\"groups_panel\" />\n            <menu_item_check.on_click\n             function=\"SideTray.PanelPeopleTab\"\n             parameter=\"groups_panel\" />\n        </menu_item_check>\n        <menu_item_check\n         label=\"Nearby people\"\n         name=\"Active Speakers\"\n         shortcut=\"control|shift|A\">\n           <menu_item_check.on_check\n             function=\"SideTray.CheckPanelPeopleTab\"\n             parameter=\"nearby_panel\" />\n            <menu_item_check.on_click\n              function=\"SideTray.PanelPeopleTab\"\n              parameter=\"nearby_panel\" />\n        </menu_item_check>\n        ",
+         "menu_item_check:Nearby Voice": {
+            "@label": {
+               "string": "Nearby Voice"
+            },
+            "@name": "Nearby Voice",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Block List": {
+            "@label": {
+               "string": "Block List"
+            },
+            "@name": "Block List",
+            "menu_item_call.on_click": null
+         }
+      },
+      "#comment$4": " World Menu ",
+      "menu:World": {
+         "@label": {
+            "string": "Världen"
+         },
+         "@name": "World",
+         "menu_item_call:Resync Animations": {
+            "@label": {
+               "string": "Omsynkronisera animationer"
+            },
+            "@name": "Resync Animations",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Active Speakers": {
+            "@label": {
+               "string": "Nearby Avatars"
+            },
+            "@name": "Active Speakers",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Radar": {
+            "@label": {
+               "string": "Radar"
+            },
+            "@name": "Radar",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Teleport History": {
+            "@label": {
+               "string": "Teleport History"
+            },
+            "@name": "Teleport History",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Places": {
+            "@label": {
+               "string": "Platser"
+            },
+            "@name": "Places",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Destinations": {
+            "@label": {
+               "string": "Destinationer"
+            },
+            "@name": "Destinations",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:Events": {
+            "@label": {
+               "string": "Händelser"
+            },
+            "@name": "Events",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_check:Mini-Map": {
+            "@label": {
+               "string": "Minikarta"
+            },
+            "@name": "Mini-Map",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:World Map": {
+            "@label": {
+               "string": "Världskarta"
+            },
+            "@name": "World Map",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Region Tracker": {
+            "@label": {
+               "string": "Region Tracker"
+            },
+            "@name": "Region Tracker",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Create Landmark Here": {
+            "@label": {
+               "string": "Landmärk den här platsen"
+            },
+            "@name": "Create Landmark Here",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Place Profile": {
+            "@label": {
+               "string": "Location Profile"
+            },
+            "@name": "Place Profile",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:About Land": {
+            "@label": {
+               "string": "Parcel Details"
+            },
+            "@name": "About Land",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:RegionEstate": {
+            "@label": {
+               "string": "Region Details"
+            },
+            "@name": "RegionEstate",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Set Home to Here": {
+            "@label": {
+               "string": "Set Home to Here"
+            },
+            "@name": "Set Home to Here",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Buy Land": {
+            "@label": {
+               "string": "Köp det här landet"
+            },
+            "@name": "Buy Land",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:My Land": {
+            "@label": {
+               "string": "Show Owned Land"
+            },
+            "@name": "My Land",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Linden Home": {
+            "@label": {
+               "string": "Mitt Linden-hem..."
+            },
+            "@name": "Linden Home",
+            "menu_item_call.on_visible": null,
+            "menu_item_call.on_click": null
+         },
+         "menu:LandShow": {
+            "@label": {
+               "string": "Visa mer"
+            },
+            "@name": "LandShow",
+            "menu_item_check:Ban Lines": {
+               "@label": {
+                  "string": "Ban Lines"
+               },
+               "@name": "Ban Lines",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:beacons": {
+               "@label": {
+                  "string": "Beacons"
+               },
+               "@name": "beacons",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Property Lines": {
+               "@label": {
+                  "string": "Property Lines"
+               },
+               "@name": "Property Lines",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Land Owners": {
+               "@label": {
+                  "string": "Land Owners"
+               },
+               "@name": "Land Owners",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Coordinates": {
+               "@label": {
+                  "string": "Koordinater"
+               },
+               "@name": "Coordinates",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null
+            },
+            "menu_item_check:Parcel Properties": {
+               "@label": {
+                  "string": "Parcel Permissions"
+               },
+               "@name": "Parcel Properties",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Show Advanced Menu": {
+               "@label": {
+                  "string": "Avancerad meny"
+               },
+               "@name": "Show Advanced Menu",
+               "on_check": null,
+               "on_click": null
+            }
+         },
+         "menu_item_check:Performance": {
+            "@label": {
+               "string": "Improve graphics speed..."
+            },
+            "@name": "Performance",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         },
+         "menu_item_call:Teleport Home": {
+            "@label": {
+               "string": "Teleportera Hem"
+            },
+            "@name": "Teleport Home",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "#comment": "    <menu_item_check\n         label=\"Show Navigation Bar\"\n         name=\"ShowNavbarNavigationPanel\">\n           <menu_item_check.on_click\n             function=\"ToggleControl\"\n             parameter=\"ShowNavbarNavigationPanel\" />\n             <menu_item_check.on_check\n             function=\"CheckControl\"\n             parameter=\"ShowNavbarNavigationPanel\" />\n        </menu_item_check>\n       <menu_item_check\n         label=\"Show Favorites Bar\"\n         name=\"ShowNavbarFavoritesPanel\">\n           <menu_item_check.on_click\n             function=\"ToggleControl\"\n             parameter=\"ShowNavbarFavoritesPanel\" />\n             <menu_item_check.on_check\n             function=\"CheckControl\"\n             parameter=\"ShowNavbarFavoritesPanel\" />\n        </menu_item_check>\n        <menu_item_separator/>",
+         "menu:Environment": {
+            "@label": {
+               "string": "Miljö"
+            },
+            "@name": "Environment",
+            "menu_item_check:Sunrise": {
+               "@label": {
+                  "string": "Soluppgång"
+               },
+               "@name": "Sunrise",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Noon": {
+               "@label": {
+                  "string": "Mitt på dagen"
+               },
+               "@name": "Noon",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Sunset": {
+               "@label": {
+                  "string": "Solnedgång"
+               },
+               "@name": "Sunset",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Midnight": {
+               "@label": {
+                  "string": "Midnatt"
+               },
+               "@name": "Midnight",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Use Shared Environment": {
+               "@label": {
+                  "string": "Use Shared Environment"
+               },
+               "@name": "Use Shared Environment",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_separator": null,
+            "menu_item_call:my_environs": {
+               "@label": {
+                  "string": "Mina miljöer..."
+               },
+               "@name": "my_environs",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:adjustment_tool": {
+               "@label": {
+                  "string": "Personal Lighting..."
+               },
+               "@name": "adjustment_tool",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_check:pause_clouds": {
+               "@label": {
+                  "string": "Pause Clouds"
+               },
+               "@name": "pause_clouds",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu:WL Bulk Import": {
+               "@label": {
+                  "string": "Bulk Import"
+               },
+               "@name": "WL Bulk Import",
+               "menu_item_call:WL Bulk Import Days": {
+                  "@label": {
+                     "string": "Dagar..."
+                  },
+                  "@name": "WL Bulk Import Days",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:WL Bulk Import Skies": {
+                  "@label": {
+                     "string": "Skyar..."
+                  },
+                  "@name": "WL Bulk Import Skies",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:WL Bulk Import Water": {
+                  "@label": {
+                     "string": "Vatten..."
+                  },
+                  "@name": "WL Bulk Import Water",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               }
+            }
+         },
+         "#comment$26": "   \n      <menu\n       create_jump_keys=\"true\"\n       label=\"Environment Editor\"\n       name=\"Environment Editor\"\n       tear_off=\"true\">\n         \n         <menu_item_call\n          label=\"Environment Settings...\"\n          name=\"Environment Settings\">\n            <menu_item_call.on_click\n             function=\"World.EnvSettings\"\n                 parameter=\"editor\"/>\n          <menu_item_call.on_enable\n           function=\"RLV.EnableIfNot\"\n           parameter=\"setenv\" />\n         </menu_item_call>\n         \n         <menu_item_separator/>\n\n         <menu\n          name=\"Water Presets\"\n          label=\"Water Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_water_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_water\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n            </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_water_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_water\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n\n         <menu\n          name=\"Sky Presets\"\n          label=\"Sky Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_sky_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_sky\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_sky_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_sky\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n         \n         <menu\n          name=\"Day Presets\"\n          label=\"Day Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_day_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_day_cycle\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_day_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_day_cycle\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n      </menu>\n",
+         "menu:photo_and_video": {
+            "@name": "photo_and_video",
+            "@label": {
+               "string": "Foto och Video"
+            },
+            "menu_item_call:phototools_item_call": {
+               "@label": {
+                  "string": "Phototools"
+               },
+               "@name": "phototools_item_call",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:cameratools_item_call": {
+               "@label": {
+                  "string": "Kameraverktyg"
+               },
+               "@name": "cameratools_item_call",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:lock_focus_point": {
+               "@label": {
+                  "string": "Depth of Field Focus lock"
+               },
+               "@name": "lock_focus_point",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu_item_call:area_search": {
+            "@label": {
+               "string": "Områdessökning"
+            },
+            "@name": "area_search",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Sound Explorer": {
+            "@label": {
+               "string": "Sound Explorer"
+            },
+            "@name": "Sound Explorer",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Animation Explorer": {
+            "@label": {
+               "string": "Animation Explorer"
+            },
+            "@name": "Animation Explorer",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:asset_blacklist": {
+            "@label": {
+               "string": "Asset Blacklist"
+            },
+            "@name": "asset_blacklist",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Avatar Render Settings": {
+            "@label": {
+               "string": "Avatar Render Settings"
+            },
+            "@name": "Avatar Render Settings",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Always show Friends normally": {
+            "@label": {
+               "string": "Always show Friends fully"
+            },
+            "@name": "Always show Friends normally",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         },
+         "menu_item_check:Render Friends Only": {
+            "@label": {
+               "string": "Visa endast vänner"
+            },
+            "@name": "Render Friends Only",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         }
+      },
+      "menu:BuildTools": {
+         "@label": {
+            "string": "Bygg"
+         },
+         "@name": "BuildTools",
+         "menu_item_check:Show Build Tools": {
+            "@label": {
+               "string": "Bygg"
+            },
+            "@name": "Show Build Tools",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu:Select Tool": {
+            "@label": {
+               "string": "Välj byggverktyg"
+            },
+            "@name": "Select Tool",
+            "menu_item_call:Focus": {
+               "@label": {
+                  "string": "Focus Tool"
+               },
+               "@name": "Focus",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Move": {
+               "@label": {
+                  "string": "Move Tool"
+               },
+               "@name": "Move",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Edit": {
+               "@label": {
+                  "string": "Edit Tool"
+               },
+               "@name": "Edit",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Create": {
+               "@label": {
+                  "string": "Create Tool"
+               },
+               "@name": "Create",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Land": {
+               "@label": {
+                  "string": "Land Tool"
+               },
+               "@name": "Land",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu_item_call:Link": {
+            "@label": {
+               "string": "Länka"
+            },
+            "@name": "Link",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Unlink": {
+            "@label": {
+               "string": "Unlink"
+            },
+            "@name": "Unlink",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_check:Edit Linked Parts": {
+            "@label": {
+               "string": "Edit Linked Parts"
+            },
+            "@name": "Edit Linked Parts",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_enable": null
+         },
+         "menu:Select Elements": {
+            "@label": {
+               "string": "Välj element"
+            },
+            "@name": "Select Elements",
+            "menu_item_call:Select Next Part or Face": {
+               "@label": {
+                  "string": "Select Next Part or Face"
+               },
+               "@name": "Select Next Part or Face",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Select Previous Part or Face": {
+               "@label": {
+                  "string": "Select Previous Part or Face"
+               },
+               "@name": "Select Previous Part or Face",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Include Next Part or Face": {
+               "@label": {
+                  "string": "Include Next Part or Face"
+               },
+               "@name": "Include Next Part or Face",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Include Previous Part or Face": {
+               "@label": {
+                  "string": "Include Previous Part or Face"
+               },
+               "@name": "Include Previous Part or Face",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            }
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Focus on Selection": {
+            "@label": {
+               "string": "Focus on Selection"
+            },
+            "@name": "Focus on Selection",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Zoom to Selection": {
+            "@label": {
+               "string": "Zoom to Selection"
+            },
+            "@name": "Zoom to Selection",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu:Object": {
+            "@label": {
+               "string": "Objekt"
+            },
+            "@name": "Object",
+            "menu_item_call:Menu Object Buy": {
+               "@label": {
+                  "string": "Köp"
+               },
+               "@name": "Menu Object Buy",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Menu Object Take": {
+               "@label": {
+                  "string": "Ta"
+               },
+               "@name": "Menu Object Take",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Take Copy": {
+               "@label": {
+                  "string": "Take Copy"
+               },
+               "@name": "Take Copy",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Duplicate": {
+               "@label": {
+                  "string": "Duplicate"
+               },
+               "@name": "Duplicate",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Menu Object Edit Particles": {
+               "@label": {
+                  "string": "Redigera partiklar"
+               },
+               "@name": "Menu Object Edit Particles",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Save Object Back to Object Contents": {
+               "@label": {
+                  "string": "Save Back to Object Contents"
+               },
+               "@name": "Save Object Back to Object Contents",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Return Object back to Owner": {
+               "@label": {
+                  "string": "Return Object"
+               },
+               "@name": "Return Object back to Owner",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu:Export Menu": {
+               "@label": {
+                  "string": "Spara som"
+               },
+               "@name": "Export Menu",
+               "menu_item_call:Backup": {
+                  "@label": {
+                     "string": "Säkerhetskopiera"
+                  },
+                  "@name": "Backup",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Collada": {
+                  "@label": {
+                     "string": "Collada"
+                  },
+                  "@name": "Collada",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               }
+            }
+         },
+         "menu:Scripts": {
+            "@label": {
+               "string": "Skript"
+            },
+            "@name": "Scripts",
+            "menu_item_call:Script Debug": {
+               "@label": {
+                  "string": "Show Script Warnings/Errors"
+               },
+               "@name": "Script Debug",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Script Info": {
+               "@label": {
+                  "string": "Script Info (Counter)"
+               },
+               "@name": "Script Info",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Mono": {
+               "@label": {
+                  "string": "Recompile Scripts (Mono)"
+               },
+               "@name": "Mono",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:LSL": {
+               "@label": {
+                  "string": "Recompile Scripts (LSL)"
+               },
+               "@name": "LSL",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Reset Scripts": {
+               "@label": {
+                  "string": "Reset Scripts"
+               },
+               "@name": "Reset Scripts",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Set Scripts to Running": {
+               "@label": {
+                  "string": "Set Scripts to Running"
+               },
+               "@name": "Set Scripts to Running",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Set Scripts to Not Running": {
+               "@label": {
+                  "string": "Set Scripts to Not Running"
+               },
+               "@name": "Set Scripts to Not Running",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Remove Scripts From Selection": {
+               "@label": {
+                  "string": "Remove Scripts From Selection"
+               },
+               "@name": "Remove Scripts From Selection",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            }
+         },
+         "menu:Pathfinding": {
+            "@label": {
+               "string": "Pathfinding"
+            },
+            "@name": "Pathfinding",
+            "menu_item_call:pathfinding_linksets_menu_item": {
+               "@label": {
+                  "string": "Region Objects"
+               },
+               "@name": "pathfinding_linksets_menu_item",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:pathfinding_characters_menu_item": {
+               "@label": {
+                  "string": "Characters..."
+               },
+               "@name": "pathfinding_characters_menu_item",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:pathfinding_console_menu_item": {
+               "@label": {
+                  "string": "Visa / testa..."
+               },
+               "@name": "pathfinding_console_menu_item",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:pathfinding_rebake_navmesh_item": {
+               "@label": {
+                  "string": "Rebake region"
+               },
+               "@name": "pathfinding_rebake_navmesh_item",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            }
+         },
+         "menu:Options": {
+            "@label": {
+               "string": "Alternativ"
+            },
+            "@name": "Options",
+            "menu_item_check:DebugPermissions": {
+               "@label": {
+                  "string": "Show Advanced Permissions"
+               },
+               "@name": "DebugPermissions",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Select Only My Objects": {
+               "@label": {
+                  "string": "Select Only My Objects"
+               },
+               "@name": "Select Only My Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Select Only Movable Objects": {
+               "@label": {
+                  "string": "Select Only Movable Objects"
+               },
+               "@name": "Select Only Movable Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Select Only Locked Objects": {
+               "@label": {
+                  "string": "Select Only Locked Objects"
+               },
+               "@name": "Select Only Locked Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Select Only Copyable Objects": {
+               "@label": {
+                  "string": "Select Only Copyable Objects"
+               },
+               "@name": "Select Only Copyable Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Select By Surrounding": {
+               "@label": {
+                  "string": "Select By Surrounding"
+               },
+               "@name": "Select By Surrounding",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Include Group-Owned Objects": {
+               "@label": {
+                  "string": "Include Group-Owned Objects"
+               },
+               "@name": "Include Group-Owned Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Physics Shape": {
+               "@label": {
+                  "string": "Show Physics Shape When Editing"
+               },
+               "@name": "Show Physics Shape",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Selection Outlines": {
+               "@label": {
+                  "string": "Show Selection Outlines"
+               },
+               "@name": "Show Selection Outlines",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Hidden Selection": {
+               "@label": {
+                  "string": "Show Hidden Selection"
+               },
+               "@name": "Show Hidden Selection",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Light Radius for Selection": {
+               "@label": {
+                  "string": "Show Light Radius for Selection"
+               },
+               "@name": "Show Light Radius for Selection",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Selection Beam": {
+               "@label": {
+                  "string": "Show Selection Beam"
+               },
+               "@name": "Show Selection Beam",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Snap to Grid": {
+               "@label": {
+                  "string": "Snap to Grid"
+               },
+               "@name": "Snap to Grid",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_call:Snap Object XY to Grid": {
+               "@label": {
+                  "string": "Snap Object XY to Grid"
+               },
+               "@name": "Snap Object XY to Grid",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Use Selection for Grid": {
+               "@label": {
+                  "string": "Use Selection for Grid"
+               },
+               "@name": "Use Selection for Grid",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Grid Options": {
+               "@label": {
+                  "string": "Grid Options..."
+               },
+               "@name": "Grid Options",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Set default permissions": {
+               "@label": {
+                  "string": "Set Default Permissions..."
+               },
+               "@name": "Set default permissions",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu:Upload": {
+            "@label": {
+               "string": "Ladda upp"
+            },
+            "@name": "Upload",
+            "menu_item_call:Upload Image": {
+               "@label": {
+                  "string": "Bild (L$[COST])..."
+               },
+               "@name": "Upload Image",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null,
+               "menu_item_call.on_visible": null
+            },
+            "menu_item_call:Upload Sound": {
+               "@label": {
+                  "string": "Ljud (L$[COST])..."
+               },
+               "@name": "Upload Sound",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null,
+               "menu_item_call.on_visible": null
+            },
+            "menu_item_call:Upload Animation": {
+               "@label": {
+                  "string": "Animation (L$[COST])..."
+               },
+               "@name": "Upload Animation",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null,
+               "menu_item_call.on_visible": null
+            },
+            "menu_item_call:Upload Model": {
+               "@label": {
+                  "string": "Mesh Model..."
+               },
+               "@name": "Upload Model",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null,
+               "menu_item_call.on_visible": null
+            },
+            "menu_item_call:Bulk Upload": {
+               "@label": {
+                  "string": "Bulk..."
+               },
+               "@name": "Bulk Upload",
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:import linkset": {
+               "@label": {
+                  "string": "Import Linkset..."
+               },
+               "@name": "import linkset",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu_item_call:Undo": {
+            "@label": {
+               "string": "Ångra"
+            },
+            "@name": "Undo",
+            "on_click": null,
+            "on_enable": null
+         },
+         "menu_item_call:Redo": {
+            "@label": {
+               "string": "Gör om"
+            },
+            "@name": "Redo",
+            "on_click": null,
+            "on_enable": null
+         }
+      },
+      "#comment$7": " Content Menu ",
+      "menu:Content": {
+         "@label": {
+            "string": "Innehåll"
+         },
+         "@name": "Content",
+         "#comment": "\n        <menu_item_call\n             label=\"Search\"\n             name=\"Search\">\n             <menu_item_call.on_click\n                 function=\"Floater.Show\"\n                 parameter=\"search\"/>\n       </menu_item_call>\n",
+         "menu_item_check:Search": {
+            "@label": {
+               "string": "Sök"
+            },
+            "@name": "Search",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:SL Marketplace": {
+            "@label": {
+               "string": "Marknadsplats för SL"
+            },
+            "@name": "SL Marketplace",
+            "menu_item_call.on_click:Xstreet_url": {
+               "@name": "Xstreet_url"
+            },
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:LindenXchange": {
+            "@label": {
+               "string": "L$ Market Data"
+            },
+            "@name": "LindenXchange",
+            "menu_item_call.on_click:lindenxchange_url": {
+               "@name": "lindenxchange_url"
+            },
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:Script Library": {
+            "@label": {
+               "string": "Skriptbibliotek"
+            },
+            "@name": "Script Library",
+            "menu_item_call.on_click:script_library_url": {
+               "@name": "script_library_url"
+            }
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Firestorm Blog": {
+            "@label": {
+               "string": "Firestorm Blogg"
+            },
+            "@name": "Firestorm Blog",
+            "menu_item_call.on_click:firestorm_blog_url": {
+               "@name": "firestorm_blog_url"
+            }
+         },
+         "menu_item_call:Firestorm Flickr": {
+            "@label": {
+               "string": "Firestorm Flickr"
+            },
+            "@name": "Firestorm Flickr",
+            "menu_item_call.on_click:firestorm_flickr_url": {
+               "@name": "firestorm_flickr_url"
+            }
+         },
+         "menu_item_call:Firestorm YouTube": {
+            "@label": {
+               "string": "Firestorm YouTube"
+            },
+            "@name": "Firestorm YouTube",
+            "menu_item_call.on_click:firestorm_youtube_url": {
+               "@name": "firestorm_youtube_url"
+            }
+         },
+         "menu_item_call:Firestorm Twitter": {
+            "@label": {
+               "string": "Firestorm Twitter"
+            },
+            "@name": "Firestorm Twitter",
+            "menu_item_call.on_click:firestorm_twitter_url": {
+               "@name": "firestorm_twitter_url"
+            }
+         },
+         "menu_item_call:Firestorm Plurk": {
+            "@label": {
+               "string": "Firestorm Plurk"
+            },
+            "@name": "Firestorm Plurk",
+            "menu_item_call.on_click:firestorm_plurk_url": {
+               "@name": "firestorm_plurk_url"
+            }
+         },
+         "menu_item_call:Firestorm MoTD": {
+            "@label": {
+               "string": "Dagens meddelande"
+            },
+            "@name": "Firestorm MoTD",
+            "menu_item_call.on_click": null
+         }
+      },
+      "#comment$9": " Help Menu ",
+      "menu:Help": {
+         "@label": {
+            "string": "Hjälp"
+         },
+         "@name": "Help",
+         "menu_item_check:Enable Hints": {
+            "@label": {
+               "string": "Enable Viewer UI Hints"
+            },
+            "@name": "Enable Hints",
+            "on_check": null,
+            "on_click": null
+         },
+         "menu_item_call:Firestorm Wiki": {
+            "@label": {
+               "string": "Firestorm Wiki"
+            },
+            "@name": "Firestorm Wiki",
+            "menu_item_call.on_click:script_library_url": {
+               "@name": "script_library_url"
+            }
+         },
+         "menu_item_call:Troubleshooting": {
+            "@label": {
+               "string": "Felsökning"
+            },
+            "@name": "Troubleshooting",
+            "menu_item_call.on_click:wiki_troubleshooting_url": {
+               "@name": "wiki_troubleshooting_url"
+            }
+         },
+         "menu_item_call:firestorm_support_group": {
+            "@label": {
+               "string": "Join Firestorm Support Group"
+            },
+            "@name": "firestorm_support_group",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_visible": null
+         },
+         "menu_item_call:Firestorm Classes Schedule": {
+            "@label": {
+               "string": "Firestorm Classes Schedule"
+            },
+            "@name": "Firestorm Classes Schedule",
+            "menu_item_call.on_click:wiki_classes_url": {
+               "@name": "wiki_classes_url"
+            }
+         },
+         "menu_item_call:Firestorm Events Calendar": {
+            "@label": {
+               "string": "Firestorm Events Calendar"
+            },
+            "@name": "Firestorm Events Calendar",
+            "menu_item_call.on_click:events_calendar_url": {
+               "@name": "events_calendar_url"
+            }
+         },
+         "menu_item_check:How To": {
+            "@label": {
+               "string": "Guidebok"
+            },
+            "@name": "How To",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null
+         },
+         "#comment": "       <menu_item_call\n         label=\"Second Life Help\"\n         name=\"Second Life Help\">\n             <menu_item_call.on_click\n             function=\"PromptShowURL\"\n             name=\"script_library_url\"\n             parameter=\"WebLaunchExternalTarget,https://support.secondlife.com/\" />\n        </menu_item_call>",
+         "menu_item_separator:grid_help_seperator": {
+            "@name": "grid_help_seperator"
+         },
+         "menu_item_call:current_grid_help": {
+            "@label": {
+               "string": "[CURRENT_GRID] Hjälp"
+            },
+            "@name": "current_grid_help",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:current_grid_about": {
+            "@label": {
+               "string": "Om [CURRENT_GRID]"
+            },
+            "@name": "current_grid_about",
+            "menu_item_call.on_click": null
+         },
+         "#comment$13": "        <menu_item_call\n         label=\"Tutorial\"\n         name=\"Tutorial\">\n            <menu_item_call.on_click\n             function=\"Floater.Show\"\n             parameter=\"hud\" />\n        </menu_item_call>\n    <menu_item_separator/>\n        <menu_item_call\n             label=\"Knowledge Base\"\n             name=\"Knowledge Base\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n            parameter=\"http://community.secondlife.com/t5/English-Knowledge-Base/Second-Life-User-s-Guide/ta-p/1244857\"/>\n        </menu_item_call>\n        <menu_item_call\n             label=\"Wiki\"\n             name=\"Wiki\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://wiki.secondlife.com\"/>\n        </menu_item_call>\n        <menu_item_call\n             label=\"Community Forums\"\n             name=\"Community Forums\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Forums/ct-p/Forums\"/>\n        </menu_item_call>         \n        <menu_item_call\n             label=\"Support portal\"\n             name=\"Support portal\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"https://support.secondlife.com/\"/>         \n        </menu_item_call>\n        <menu_item_separator/>\n        <menu_item_call\n             label=\"[SECOND_LIFE] News\"\n             name=\"Second Life News\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Featured-News/bg-p/blog_feature_news\"/>  \n        </menu_item_call>\n        <menu_item_call\n             label=\"[SECOND_LIFE] Blogs\"\n             name=\"Second Life Blogs\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Blogs/ct-p/Blogs\"/>\n        </menu_item_call>",
+         "menu_item_separator": null,
+         "menu_item_check:Grid Status": {
+            "@label": {
+               "string": "Check Grid status"
+            },
+            "@name": "Grid Status",
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_visible": null
+         },
+         "menu_item_call:Report Abuse": {
+            "@label": {
+               "string": "Rapportera missbruk"
+            },
+            "@name": "Report Abuse",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Report Bug": {
+            "@label": {
+               "string": "Rapportera bugg"
+            },
+            "@name": "Report Bug",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Bumps, Pushes &amp; Hits": {
+            "@label": {
+               "string": "Bumps, Pushes & Hits"
+            },
+            "@name": "Bumps, Pushes &amp; Hits",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Enable Sysinfo Button": {
+            "@label": {
+               "string": "Enable Sysinfo Button"
+            },
+            "@name": "Enable Sysinfo Button",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:About Second Life": {
+            "@label": {
+               "string": "Om [APP_NAME]"
+            },
+            "@name": "About Second Life",
+            "menu_item_call.on_click": null
+         }
+      },
+      "menu:RLVa Main": {
+         "@label": {
+            "string": "RLVa"
+         },
+         "@name": "RLVa Main",
+         "menu:Debug": {
+            "@label": {
+               "string": "Avlusa"
+            },
+            "@name": "Debug",
+            "menu_item_check:Show Top-level RLVa Menu": {
+               "@label": {
+                  "string": "Show Top-level RLVa Menu"
+               },
+               "@name": "Show Top-level RLVa Menu",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Show Debug Messages": {
+               "@label": {
+                  "string": "Visa avlusningsmeddelanden"
+               },
+               "@name": "Show Debug Messages",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Hide Unset or Duplicate Messages": {
+               "@label": {
+                  "string": "Hide Unset or Duplicate Messages"
+               },
+               "@name": "Hide Unset or Duplicate Messages",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Assertion Failures": {
+               "@label": {
+                  "string": "Show Assertion Failures"
+               },
+               "@name": "Show Assertion Failures",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Hide Locked Layers": {
+               "@label": {
+                  "string": "Hide Locked Layers"
+               },
+               "@name": "Hide Locked Layers",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Hide Locked Attachments": {
+               "@label": {
+                  "string": "Hide Locked Attachments"
+               },
+               "@name": "Hide Locked Attachments",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Enable Legacy Naming": {
+               "@label": {
+                  "string": "Enable Legacy Naming"
+               },
+               "@name": "Enable Legacy Naming",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Enable Shared Wear": {
+               "@label": {
+                  "string": "Enable Shared Wear"
+               },
+               "@name": "Enable Shared Wear",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rename Shared Items on Wear": {
+               "@label": {
+                  "string": "Rename Shared Items on Wear"
+               },
+               "@name": "Rename Shared Items on Wear",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Locks": {
+               "@label": {
+                  "string": "Locks..."
+               },
+               "@name": "Locks",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu_item_separator": null,
+         "menu_item_check:Allow OOC Chat": {
+            "@label": {
+               "string": "Tillåt OOC-chatt"
+            },
+            "@name": "Allow OOC Chat",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Show Filtered Chat": {
+            "@label": {
+               "string": "Visa filtrerad chatt"
+            },
+            "@name": "Show Filtered Chat",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Show Redirected Chat Typing": {
+            "@label": {
+               "string": "Show Redirected Chat Typing"
+            },
+            "@name": "Show Redirected Chat Typing",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Split Long Redirected Chat": {
+            "@label": {
+               "string": "Split Long Redirected Chat"
+            },
+            "@name": "Split Long Redirected Chat",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Allow Temporary Attachments": {
+            "@label": {
+               "string": "Allow Temporary Attachments"
+            },
+            "@name": "Allow Temporary Attachments",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Forbid Give to #RLV": {
+            "@label": {
+               "string": "Forbid Give to #RLV"
+            },
+            "@name": "Forbid Give to #RLV",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Wear Replaces Unlocked": {
+            "@label": {
+               "string": "Wear Replaces Unlocked"
+            },
+            "@name": "Wear Replaces Unlocked",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Console": {
+            "@label": {
+               "string": "Konsol..."
+            },
+            "@name": "Console",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Restrictions": {
+            "@label": {
+               "string": "Begränsningar..."
+            },
+            "@name": "Restrictions",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Strings": {
+            "@label": {
+               "string": "Strängar..."
+            },
+            "@name": "Strings",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         }
+      },
+      "#comment$12": " Advanced Menu ",
+      "menu:Advanced": {
+         "@label": {
+            "string": "Avancerat"
+         },
+         "@name": "Advanced",
+         "menu_item_call:Rebake Texture": {
+            "@label": {
+               "string": "Rebake Textures"
+            },
+            "@name": "Rebake Texture",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Refresh Attachments": {
+            "@label": {
+               "string": "Refresh Attachments"
+            },
+            "@name": "Refresh Attachments",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Set UI Size to Default": {
+            "@label": {
+               "string": "Set UI Size to Default"
+            },
+            "@name": "Set UI Size to Default",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Set Window Size...": {
+            "@label": {
+               "string": "Set Window Size..."
+            },
+            "@name": "Set Window Size...",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_separator": null,
+         "menu_item_check:Limit Select Distance": {
+            "@label": {
+               "string": "Limit Select Distance"
+            },
+            "@name": "Limit Select Distance",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Disable Camera Distance": {
+            "@label": {
+               "string": "Disable Camera Constraints"
+            },
+            "@name": "Disable Camera Distance",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:HighResSnapshot": {
+            "@label": {
+               "string": "High-res Snapshot"
+            },
+            "@name": "HighResSnapshot",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:QuietSnapshotsToDisk": {
+            "@label": {
+               "string": "Quiet Snapshots"
+            },
+            "@name": "QuietSnapshotsToDisk",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu:Performance Tools": {
+            "@label": {
+               "string": "Performance Tools"
+            },
+            "@name": "Performance Tools",
+            "menu_item_call:Lag Meter": {
+               "@label": {
+                  "string": "Lagg-mätare"
+               },
+               "@name": "Lag Meter",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Statistics Bar": {
+               "@label": {
+                  "string": "Statistikfält"
+               },
+               "@name": "Statistics Bar",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Scene Load Statistics": {
+               "@label": {
+                  "string": "Scene Load Statistics"
+               },
+               "@name": "Scene Load Statistics",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Performance": {
+               "@label": {
+                  "string": "Improve graphics speed..."
+               },
+               "@name": "Performance",
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_check": null
+            },
+            "menu_item_check:Avatar Draw Info": {
+               "@label": {
+                  "string": "Show avatar complexity information"
+               },
+               "@name": "Avatar Draw Info",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu:Highlighting and Visibility": {
+            "@label": {
+               "string": "Highlighting and Visibility"
+            },
+            "@name": "Highlighting and Visibility",
+            "menu_item_check:Cheesy Beacon": {
+               "@label": {
+                  "string": "Cheesy Beacon"
+               },
+               "@name": "Cheesy Beacon",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Hide Particles": {
+               "@label": {
+                  "string": "Hide Particles"
+               },
+               "@name": "Hide Particles",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Hide Selected": {
+               "@label": {
+                  "string": "Hide Selected"
+               },
+               "@name": "Hide Selected",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Highlight Transparent": {
+               "@label": {
+                  "string": "Highlight Transparent"
+               },
+               "@name": "Highlight Transparent",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:ShowCrosshairs": {
+               "@label": {
+                  "string": "Show Mouselook Crosshairs"
+               },
+               "@name": "ShowCrosshairs",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu:Hover Tips": {
+               "@label": {
+                  "string": "Hover Tips"
+               },
+               "@name": "Hover Tips",
+               "menu_item_check:Show Tips": {
+                  "@label": {
+                     "string": "Show Tips"
+                  },
+                  "@name": "Show Tips",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null
+               },
+               "menu_item_separator": null,
+               "menu_item_check:Land Tips": {
+                  "@label": {
+                     "string": "Show Land Tooltips"
+                  },
+                  "@name": "Land Tips",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null,
+                  "menu_item_check.on_enable": null
+               },
+               "menu_item_check:Tips On All Objects": {
+                  "@label": {
+                     "string": "Show Tips On All Objects"
+                  },
+                  "@name": "Tips On All Objects",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null,
+                  "menu_item_check.on_enable": null
+               }
+            }
+         },
+         "menu:Rendering Types": {
+            "@label": {
+               "string": "Rendering Types"
+            },
+            "@name": "Rendering Types",
+            "menu_item_check:Rendering Type Simple": {
+               "@label": {
+                  "string": "Simple"
+               },
+               "@name": "Rendering Type Simple",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Alpha": {
+               "@label": {
+                  "string": "Alpha"
+               },
+               "@name": "Rendering Type Alpha",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Tree": {
+               "@label": {
+                  "string": "Tree"
+               },
+               "@name": "Rendering Type Tree",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Character": {
+               "@label": {
+                  "string": "Avatars"
+               },
+               "@name": "Rendering Type Character",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Control Avatar": {
+               "@label": {
+                  "string": "Animeshes"
+               },
+               "@name": "Rendering Type Control Avatar",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Surface Patch": {
+               "@label": {
+                  "string": "Surface Patch"
+               },
+               "@name": "Rendering Type Surface Patch",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Sky": {
+               "@label": {
+                  "string": "Sky"
+               },
+               "@name": "Rendering Type Sky",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Water": {
+               "@label": {
+                  "string": "Water"
+               },
+               "@name": "Rendering Type Water",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Ground": {
+               "@label": {
+                  "string": "Ground"
+               },
+               "@name": "Rendering Type Ground",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Volume": {
+               "@label": {
+                  "string": "Volume"
+               },
+               "@name": "Rendering Type Volume",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Grass": {
+               "@label": {
+                  "string": "Grass"
+               },
+               "@name": "Rendering Type Grass",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Clouds": {
+               "@label": {
+                  "string": "Clouds"
+               },
+               "@name": "Rendering Type Clouds",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Particles": {
+               "@label": {
+                  "string": "Particles"
+               },
+               "@name": "Rendering Type Particles",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Rendering Type Bump": {
+               "@label": {
+                  "string": "Bump"
+               },
+               "@name": "Rendering Type Bump",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu:Rendering Features": {
+            "@label": {
+               "string": "Rendering Features"
+            },
+            "@name": "Rendering Features",
+            "menu_item_check:ToggleUI": {
+               "@label": {
+                  "string": "UI"
+               },
+               "@name": "ToggleUI",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Selected": {
+               "@label": {
+                  "string": "Selected"
+               },
+               "@name": "Selected",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Highlighted": {
+               "@label": {
+                  "string": "Highlighted"
+               },
+               "@name": "Highlighted",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Dynamic Textures": {
+               "@label": {
+                  "string": "Dynamic Textures"
+               },
+               "@name": "Dynamic Textures",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Foot Shadows": {
+               "@label": {
+                  "string": "Foot Shadows"
+               },
+               "@name": "Foot Shadows",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Fog": {
+               "@label": {
+                  "string": "Fog"
+               },
+               "@name": "Fog",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Test FRInfo": {
+               "@label": {
+                  "string": "Test FRInfo"
+               },
+               "@name": "Test FRInfo",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Flexible Objects": {
+               "@label": {
+                  "string": "Flexible Objects"
+               },
+               "@name": "Flexible Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu:RLVa Embedded": {
+            "@label": {
+               "string": "RLVa"
+            },
+            "@name": "RLVa Embedded"
+         },
+         "menu:media_stream_import_export": {
+            "@label": {
+               "string": "Media Streams Backup"
+            },
+            "@name": "media_stream_import_export",
+            "menu_item_call:media_stream_import": {
+               "@label": {
+                  "string": "Import Stream List XML..."
+               },
+               "@name": "media_stream_import",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:media_stream_export": {
+               "@label": {
+                  "string": "Export Stream List XML..."
+               },
+               "@name": "media_stream_export",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu_item_check:Use Plugin Read Thread": {
+            "@label": {
+               "string": "Use Plugin Read Thread"
+            },
+            "@name": "Use Plugin Read Thread",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:ClearGroupCache": {
+            "@label": {
+               "string": "Clear Group Cache"
+            },
+            "@name": "ClearGroupCache",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Mouse Smoothing": {
+            "@label": {
+               "string": "Mouse Smoothing"
+            },
+            "@name": "Mouse Smoothing",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Release Keys": {
+            "@label": {
+               "string": "Release Keys"
+            },
+            "@name": "Release Keys",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu:Shortcuts": {
+            "@label": {
+               "string": "Shortcuts"
+            },
+            "@name": "Shortcuts",
+            "menu_item_check:Search": {
+               "@label": {
+                  "string": "Search"
+               },
+               "@name": "Search",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "#comment": "     //[FIX FIRE-1927 - enable DoubleClickTeleport shortcut : SJ] ",
+            "menu_item_check:DoubleClick Teleport": {
+               "@label": {
+                  "string": "DoubleClick Teleport"
+               },
+               "@name": "DoubleClick Teleport",
+               "on_check": null,
+               "on_click": null
+            },
+            "#comment$5": "     //[FIX FIRE-1927 - enable DoubleClickTeleport shortcut : SJ] ",
+            "menu_item_separator": null,
+            "menu_item_check:Always Run": {
+               "@label": {
+                  "string": "Always Run"
+               },
+               "@name": "Always Run",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Fly": {
+               "@label": {
+                  "string": "Fly"
+               },
+               "@name": "Fly",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_call:Close Window": {
+               "@label": {
+                  "string": "Close Window"
+               },
+               "@name": "Close Window",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Close Window Group": {
+               "@label": {
+                  "string": "Close Window Group"
+               },
+               "@name": "Close Window Group",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Close All Windows": {
+               "@label": {
+                  "string": "Close All Windows"
+               },
+               "@name": "Close All Windows",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Snapshot to Disk": {
+               "@label": {
+                  "string": "Snapshot to Disk"
+               },
+               "@name": "Snapshot to Disk",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Mouselook": {
+               "@label": {
+                  "string": "Mouselook"
+               },
+               "@name": "Mouselook",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_check:Joystick Flycam": {
+               "@label": {
+                  "string": "Joystick Flycam"
+               },
+               "@name": "Joystick Flycam",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_call:Reset View": {
+               "@label": {
+                  "string": "Reset View"
+               },
+               "@name": "Reset View",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Reset Camera Angles": {
+               "@label": {
+                  "string": "Reset Camera Angles"
+               },
+               "@name": "Reset Camera Angles",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Look at Last Chatter": {
+               "@label": {
+                  "string": "Look at Last Chatter"
+               },
+               "@name": "Look at Last Chatter",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Zoom In": {
+               "@label": {
+                  "string": "Zoom In"
+               },
+               "@name": "Zoom In",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Zoom Default": {
+               "@label": {
+                  "string": "Zoom Default"
+               },
+               "@name": "Zoom Default",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Zoom Out": {
+               "@label": {
+                  "string": "Zoom Out"
+               },
+               "@name": "Zoom Out",
+               "menu_item_call.on_click": null
+            }
+         },
+         "#comment": "Shortcuts",
+         "menu_item_check:Fly Override": {
+            "@label": {
+               "string": "Fly Override"
+            },
+            "@name": "Fly Override",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:RLV API": {
+            "@label": {
+               "string": "RestrainedLove API"
+            },
+            "@name": "RLV API",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null,
+            "menu_item_check.on_visible": null
+         },
+         "menu_item_call:Debug Settings": {
+            "@label": {
+               "string": "Show Debug Settings"
+            },
+            "@name": "Debug Settings",
+            "menu_item_call.on_click": null
+         },
+         "#comment$26": " <FS:TS> FIRE-17589: Use control-alt-Q on OS X too ",
+         "menu_item_check:Debug Mode": {
+            "@label": {
+               "string": "Show Developer Menu"
+            },
+            "@name": "Debug Mode",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "#comment$28": " </FS:TS> FIRE-17589 "
+      },
+      "menu:Develop": {
+         "@label": {
+            "string": "Developer"
+         },
+         "@name": "Develop",
+         "menu:Consoles": {
+            "@label": {
+               "string": "Consoles"
+            },
+            "@name": "Consoles",
+            "menu_item_check:Texture Console": {
+               "@label": {
+                  "string": "Texture Console"
+               },
+               "@name": "Texture Console",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Console": {
+               "@label": {
+                  "string": "Debug Console"
+               },
+               "@name": "Debug Console",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Notifications": {
+               "@label": {
+                  "string": "Notifications Console"
+               },
+               "@name": "Notifications",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Fast Timers": {
+               "@label": {
+                  "string": "Fast Timers"
+               },
+               "@name": "Fast Timers",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Memory": {
+               "@label": {
+                  "string": "Memory"
+               },
+               "@name": "Memory",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Scene Statistics": {
+               "@label": {
+                  "string": "Scene Statistics"
+               },
+               "@name": "Scene Statistics",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Scene Loading Monitor": {
+               "@label": {
+                  "string": "Scene Loading Monitor"
+               },
+               "@name": "Scene Loading Monitor",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Texture Fetch Debug Console": {
+               "@label": {
+                  "string": "Texture Fetch Debug Console"
+               },
+               "@name": "Texture Fetch Debug Console",
+               "menu_item_call.on_click": null,
+               "on_enable": null,
+               "on_visible": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Region Debug Console": {
+               "@label": {
+                  "string": "Region Debug Console"
+               },
+               "@name": "Region Debug Console",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Region Info to Debug Console": {
+               "@label": {
+                  "string": "Region Info to Debug Console"
+               },
+               "@name": "Region Info to Debug Console",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Group Info to Debug Console": {
+               "@label": {
+                  "string": "Group Info to Debug Console"
+               },
+               "@name": "Group Info to Debug Console",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Capabilities Info to Debug Console": {
+               "@label": {
+                  "string": "Capabilities Info to Debug Console"
+               },
+               "@name": "Capabilities Info to Debug Console",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Camera": {
+               "@label": {
+                  "string": "Camera"
+               },
+               "@name": "Camera",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Wind": {
+               "@label": {
+                  "string": "Wind"
+               },
+               "@name": "Wind",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:FOV": {
+               "@label": {
+                  "string": "FOV"
+               },
+               "@name": "FOV",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Badge": {
+               "@label": {
+                  "string": "Badge"
+               },
+               "@name": "Badge",
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Cookies": {
+               "@label": {
+                  "string": "Cookies"
+               },
+               "@name": "Cookies",
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu:Display Info": {
+            "@label": {
+               "string": "Show Info"
+            },
+            "@name": "Display Info",
+            "menu_item_check:Show Time": {
+               "@label": {
+                  "string": "Show Time"
+               },
+               "@name": "Show Time",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Upload Transaction": {
+               "@label": {
+                  "string": "Show Upload Transaction"
+               },
+               "@name": "Show Upload Transaction",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Texture Info": {
+               "@label": {
+                  "string": "Show Texture Info"
+               },
+               "@name": "Show Texture Info",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:VRAM usage per object": {
+               "@label": {
+                  "string": "VRAM usage per object"
+               },
+               "@name": "VRAM usage per object",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Show Avatar Render Info": {
+               "@label": {
+                  "string": "Show Avatar Render Info"
+               },
+               "@name": "Show Avatar Render Info",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Render Info": {
+               "@label": {
+                  "string": "Show Render Info"
+               },
+               "@name": "Show Render Info",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Matrices": {
+               "@label": {
+                  "string": "Show Matrices"
+               },
+               "@name": "Show Matrices",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Color Under Cursor": {
+               "@label": {
+                  "string": "Show Color Under Cursor"
+               },
+               "@name": "Show Color Under Cursor",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Memory": {
+               "@label": {
+                  "string": "Show Memory"
+               },
+               "@name": "Show Memory",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Show Updates": {
+               "@label": {
+                  "string": "Show Updates to Objects"
+               },
+               "@name": "Show Updates",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu:Enable / Disable telemetry capture": {
+            "@label": {
+               "string": "Profiling/Telemetry"
+            },
+            "@name": "Enable / Disable telemetry capture",
+            "menu_item_check:Profiling": {
+               "@label": {
+                  "string": "Profiling"
+               },
+               "@name": "Profiling",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Start when telemetry client connects": {
+               "@label": {
+                  "string": "Start when connected"
+               },
+               "@name": "Start when telemetry client connects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu_item_separator": null,
+         "menu:Force Errors": {
+            "@label": {
+               "string": "Force an Error"
+            },
+            "@name": "Force Errors",
+            "menu_item_call:Force Breakpoint": {
+               "@label": {
+                  "string": "Force Breakpoint"
+               },
+               "@name": "Force Breakpoint",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force LLError And Crash": {
+               "@label": {
+                  "string": "Force LLError And Crash"
+               },
+               "@name": "Force LLError And Crash",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force Bad Memory Access": {
+               "@label": {
+                  "string": "Force Bad Memory Access"
+               },
+               "@name": "Force Bad Memory Access",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force Infinite Loop": {
+               "@label": {
+                  "string": "Force Infinite Loop"
+               },
+               "@name": "Force Infinite Loop",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force Driver Carsh": {
+               "@label": {
+                  "string": "Force Driver Crash"
+               },
+               "@name": "Force Driver Carsh",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force Software Exception": {
+               "@label": {
+                  "string": "Force Software Exception"
+               },
+               "@name": "Force Software Exception",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force a Crash in a Coroutine": {
+               "@label": {
+                  "string": "Force a Crash in a Coroutine"
+               },
+               "@name": "Force a Crash in a Coroutine",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force a Crash in a Thread": {
+               "@label": {
+                  "string": "Force a Crash in a Thread"
+               },
+               "@name": "Force a Crash in a Thread",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Force Disconnect Viewer": {
+               "@label": {
+                  "string": "Force Disconnect Viewer"
+               },
+               "@name": "Force Disconnect Viewer",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Memory Leaking Simulation": {
+               "@label": {
+                  "string": "Simulate a Memory Leak"
+               },
+               "@name": "Memory Leaking Simulation",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu:Render Tests": {
+            "@label": {
+               "string": "Render Tests"
+            },
+            "@name": "Render Tests",
+            "menu_item_check:Camera Offset": {
+               "@label": {
+                  "string": "Camera Offset"
+               },
+               "@name": "Camera Offset",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Randomize Framerate": {
+               "@label": {
+                  "string": "Randomize Framerate"
+               },
+               "@name": "Randomize Framerate",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Periodic Slow Frame": {
+               "@label": {
+                  "string": "Periodic Slow Frame"
+               },
+               "@name": "Periodic Slow Frame",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Frame Test": {
+               "@label": {
+                  "string": "Frame Test"
+               },
+               "@name": "Frame Test",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Frame Profile": {
+               "@label": {
+                  "string": "Frame Profile"
+               },
+               "@name": "Frame Profile",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Benchmark": {
+               "@label": {
+                  "string": "Benchmark"
+               },
+               "@name": "Benchmark",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu:Render Metadata": {
+            "@label": {
+               "string": "Render Metadata"
+            },
+            "@name": "Render Metadata",
+            "menu_item_check:Bounding Boxes": {
+               "@label": {
+                  "string": "Bounding Boxes"
+               },
+               "@name": "Bounding Boxes",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "#comment": " <FS:Zi> Add avatar hitbox debug ",
+            "menu_item_check:Avatar Hitboxes": {
+               "@label": {
+                  "string": "Avatar Hitboxes"
+               },
+               "@name": "Avatar Hitboxes",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "#comment$5": " </FS:Zi> Add avatar hitbox debug ",
+            "menu_item_check:Normals": {
+               "@label": {
+                  "string": "Normals"
+               },
+               "@name": "Normals",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Octree": {
+               "@label": {
+                  "string": "Octree"
+               },
+               "@name": "Octree",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Shadow Frusta": {
+               "@label": {
+                  "string": "Shadow Frusta"
+               },
+               "@name": "Shadow Frusta",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Physics Shapes": {
+               "@label": {
+                  "string": "Physics Shapes"
+               },
+               "@name": "Physics Shapes",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Occlusion": {
+               "@label": {
+                  "string": "Occlusion"
+               },
+               "@name": "Occlusion",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Render Batches": {
+               "@label": {
+                  "string": "Render Batches"
+               },
+               "@name": "Render Batches",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Update Type": {
+               "@label": {
+                  "string": "Update Type"
+               },
+               "@name": "Update Type",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Texture Anim": {
+               "@label": {
+                  "string": "Texture Anim"
+               },
+               "@name": "Texture Anim",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Texture Priority": {
+               "@label": {
+                  "string": "Texture Priority"
+               },
+               "@name": "Texture Priority",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Texture Area": {
+               "@label": {
+                  "string": "Texture Area"
+               },
+               "@name": "Texture Area",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Face Area": {
+               "@label": {
+                  "string": "Face Area"
+               },
+               "@name": "Face Area",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:LOD Info": {
+               "@label": {
+                  "string": "LOD Info"
+               },
+               "@name": "LOD Info",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Triangle Count": {
+               "@label": {
+                  "string": "Triangle Count"
+               },
+               "@name": "Triangle Count",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Build Queue": {
+               "@label": {
+                  "string": "Build Queue"
+               },
+               "@name": "Build Queue",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Lights": {
+               "@label": {
+                  "string": "Lights"
+               },
+               "@name": "Lights",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Particles": {
+               "@label": {
+                  "string": "Particles"
+               },
+               "@name": "Particles",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Collision Skeleton": {
+               "@label": {
+                  "string": "Collision Skeleton"
+               },
+               "@name": "Collision Skeleton",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Joints": {
+               "@label": {
+                  "string": "Joints"
+               },
+               "@name": "Joints",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Raycast": {
+               "@label": {
+                  "string": "Raycast"
+               },
+               "@name": "Raycast",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Wind Vectors": {
+               "@label": {
+                  "string": "Wind Vectors"
+               },
+               "@name": "Wind Vectors",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Sculpt": {
+               "@label": {
+                  "string": "Sculpt"
+               },
+               "@name": "Sculpt",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Texture Size": {
+               "@label": {
+                  "string": "Texture Size"
+               },
+               "@name": "Texture Size",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu:Texture Density": {
+               "@label": {
+                  "string": "Texture Density"
+               },
+               "@name": "Texture Density",
+               "menu_item_check:None": {
+                  "@label": {
+                     "string": "None"
+                  },
+                  "@name": "None",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null
+               },
+               "menu_item_check:Current": {
+                  "@label": {
+                     "string": "Current"
+                  },
+                  "@name": "Current",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null
+               },
+               "menu_item_check:Desired": {
+                  "@label": {
+                     "string": "Desired"
+                  },
+                  "@name": "Desired",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null
+               },
+               "menu_item_check:Full": {
+                  "@label": {
+                     "string": "Full"
+                  },
+                  "@name": "Full",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null
+               }
+            }
+         },
+         "menu:Rendering": {
+            "@label": {
+               "string": "Rendering"
+            },
+            "@name": "Rendering",
+            "menu_item_check:Axes": {
+               "@label": {
+                  "string": "Axes"
+               },
+               "@name": "Axes",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Tangent Basis": {
+               "@label": {
+                  "string": "Tangent Basis"
+               },
+               "@name": "Tangent Basis",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Selected Texture Info Basis": {
+               "@label": {
+                  "string": "Selected Texture Info Basis"
+               },
+               "@name": "Selected Texture Info Basis",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Selected Material Info": {
+               "@label": {
+                  "string": "Selected Material Info"
+               },
+               "@name": "Selected Material Info",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Wireframe": {
+               "@label": {
+                  "string": "Wireframe"
+               },
+               "@name": "Wireframe",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Object-Object Occlusion": {
+               "@label": {
+                  "string": "Object-Object Occlusion"
+               },
+               "@name": "Object-Object Occlusion",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Advanced Lighting Model": {
+               "@label": {
+                  "string": "Advanced Lighting Model"
+               },
+               "@name": "Advanced Lighting Model",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Shadows from Sun/Moon/Projectors": {
+               "@label": {
+                  "string": "   Shadows from Sun/Moon/Projectors"
+               },
+               "@name": "Shadows from Sun/Moon/Projectors",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:SSAO and Shadow Smoothing": {
+               "@label": {
+                  "string": "   SSAO and Shadow Smoothing"
+               },
+               "@name": "SSAO and Shadow Smoothing",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
+            },
+            "menu_item_check:Debug GL": {
+               "@label": {
+                  "string": "Debug GL"
+               },
+               "@name": "Debug GL",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Pipeline": {
+               "@label": {
+                  "string": "Debug Pipeline"
+               },
+               "@name": "Debug Pipeline",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Automatic Alpha Masks (deferred)": {
+               "@label": {
+                  "string": "Automatic Alpha Masks (deferred)"
+               },
+               "@name": "Automatic Alpha Masks (deferred)",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Automatic Alpha Masks (non-deferred)": {
+               "@label": {
+                  "string": "Automatic Alpha Masks (non-deferred)"
+               },
+               "@name": "Automatic Alpha Masks (non-deferred)",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Animation Textures": {
+               "@label": {
+                  "string": "Animation Textures"
+               },
+               "@name": "Animation Textures",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Disable Textures": {
+               "@label": {
+                  "string": "Disable Textures"
+               },
+               "@name": "Disable Textures",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Derender Animesh": {
+               "@label": {
+                  "string": "Derender all animesh"
+               },
+               "@name": "Derender Animesh",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Disable Ambient": {
+               "@label": {
+                  "string": "Disable Ambient"
+               },
+               "@name": "Disable Ambient",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Disable Sunlight": {
+               "@label": {
+                  "string": "Disable Sunlight"
+               },
+               "@name": "Disable Sunlight",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Disable Local Lights": {
+               "@label": {
+                  "string": "Disable Local Lights"
+               },
+               "@name": "Disable Local Lights",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Full Res Textures": {
+               "@label": {
+                  "string": "Full Res Textures (dangerous)"
+               },
+               "@name": "Full Res Textures",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Render Attached Lights": {
+               "@label": {
+                  "string": "Render Attached Lights"
+               },
+               "@name": "Render Attached Lights",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Render Attached Particles": {
+               "@label": {
+                  "string": "Render Attached Particles"
+               },
+               "@name": "Render Attached Particles",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Hover Glow Objects": {
+               "@label": {
+                  "string": "Hover Glow Objects"
+               },
+               "@name": "Hover Glow Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu:Network": {
+            "@label": {
+               "string": "Network"
+            },
+            "@name": "Network",
+            "menu_item_check:AgentPause": {
+               "@label": {
+                  "string": "Pause Agent"
+               },
+               "@name": "AgentPause",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_call:Enable Message Log": {
+               "@label": {
+                  "string": "Enable Message Log"
+               },
+               "@name": "Enable Message Log",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Disable Message Log": {
+               "@label": {
+                  "string": "Disable Message Log"
+               },
+               "@name": "Disable Message Log",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Velocity Interpolate Objects": {
+               "@label": {
+                  "string": "Velocity Interpolate Objects"
+               },
+               "@name": "Velocity Interpolate Objects",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Ping Interpolate Object Positions": {
+               "@label": {
+                  "string": "Ping Interpolate Object Positions"
+               },
+               "@name": "Ping Interpolate Object Positions",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Drop a Packet": {
+               "@label": {
+                  "string": "Drop a Packet"
+               },
+               "@name": "Drop a Packet",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu_item_call:Dump Scripted Camera": {
+            "@label": {
+               "string": "Dump Scripted Camera"
+            },
+            "@name": "Dump Scripted Camera",
+            "menu_item_call.on_click": null
+         },
+         "menu:Recorder": {
+            "@label": {
+               "string": "Recorder"
+            },
+            "@name": "Recorder",
+            "menu_item_call:Start event recording": {
+               "@label": {
+                  "string": "Start event recording"
+               },
+               "@name": "Start event recording",
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Stop event recording": {
+               "@label": {
+                  "string": "Stop event recording"
+               },
+               "@name": "Stop event recording",
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Playback event recording": {
+               "@label": {
+                  "string": "Playback event recording"
+               },
+               "@name": "Playback event recording",
+               "menu_item_call.on_visible": null,
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Start Playback": {
+               "@label": {
+                  "string": "Start Playback"
+               },
+               "@name": "Start Playback",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Stop Playback": {
+               "@label": {
+                  "string": "Stop Playback"
+               },
+               "@name": "Stop Playback",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Loop Playback": {
+               "@label": {
+                  "string": "Loop Playback"
+               },
+               "@name": "Loop Playback",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Start Record": {
+               "@label": {
+                  "string": "Start Record"
+               },
+               "@name": "Start Record",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Stop Record": {
+               "@label": {
+                  "string": "Stop Record"
+               },
+               "@name": "Stop Record",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu:DevelopWorld": {
+            "@label": {
+               "string": "World"
+            },
+            "@name": "DevelopWorld",
+            "menu_item_check:Sim Sun Override": {
+               "@label": {
+                  "string": "Sim Sun Override"
+               },
+               "@name": "Sim Sun Override",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Fixed Weather": {
+               "@label": {
+                  "string": "Fixed Weather"
+               },
+               "@name": "Fixed Weather",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Dump Region Object Cache": {
+               "@label": {
+                  "string": "Dump Region Object Cache"
+               },
+               "@name": "Dump Region Object Cache",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Interest List: Full Update": {
+               "@label": {
+                  "string": "Interest List: Full Update"
+               },
+               "@name": "Interest List: Full Update",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:DumpSimFeaturesToChat": {
+               "@label": {
+                  "string": "Dump Simulator Features to Nearby Chat"
+               },
+               "@name": "DumpSimFeaturesToChat",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu:UI": {
+            "@label": {
+               "string": "UI"
+            },
+            "@name": "UI",
+            "menu_item_call:Web Browser Test": {
+               "@label": {
+                  "string": "Media Browser Test"
+               },
+               "@name": "Web Browser Test",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Region Restart Test": {
+               "@label": {
+                  "string": "Region Restart Test..."
+               },
+               "@name": "Region Restart Test",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:Web Content Browser": {
+               "@label": {
+                  "string": "Web Content Browser"
+               },
+               "@name": "Web Content Browser",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:FB Connect Test": {
+               "@label": {
+                  "string": "FB Connect Test"
+               },
+               "@name": "FB Connect Test",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Dump SelectMgr": {
+               "@label": {
+                  "string": "Dump SelectMgr"
+               },
+               "@name": "Dump SelectMgr",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Dump Inventory": {
+               "@label": {
+                  "string": "Dump Inventory"
+               },
+               "@name": "Dump Inventory",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Dump Timers": {
+               "@label": {
+                  "string": "Dump Timers"
+               },
+               "@name": "Dump Timers",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Dump Focus Holder": {
+               "@label": {
+                  "string": "Dump Focus Holder"
+               },
+               "@name": "Dump Focus Holder",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Print Selected Object Info": {
+               "@label": {
+                  "string": "Print Selected Object Info"
+               },
+               "@name": "Print Selected Object Info",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Print Agent Info": {
+               "@label": {
+                  "string": "Print Agent Info"
+               },
+               "@name": "Print Agent Info",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Double-ClickAuto-Pilot": {
+               "@label": {
+                  "string": "Double-Click Auto-Pilot"
+               },
+               "@name": "Double-ClickAuto-Pilot",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:DoubleClick Teleport": {
+               "@label": {
+                  "string": "Double-Click Teleport"
+               },
+               "@name": "DoubleClick Teleport",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_separator": null,
+            "menu_item_check:Debug SelectMgr": {
+               "@label": {
+                  "string": "Debug SelectMgr"
+               },
+               "@name": "Debug SelectMgr",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Clicks": {
+               "@label": {
+                  "string": "Debug Clicks"
+               },
+               "@name": "Debug Clicks",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Views": {
+               "@label": {
+                  "string": "Debug Views"
+               },
+               "@name": "Debug Views",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Name Tooltips": {
+               "@label": {
+                  "string": "Debug Name Tooltips"
+               },
+               "@name": "Debug Name Tooltips",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Mouse Events": {
+               "@label": {
+                  "string": "Debug Mouse Events"
+               },
+               "@name": "Debug Mouse Events",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Keys": {
+               "@label": {
+                  "string": "Debug Keys"
+               },
+               "@name": "Debug Keys",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug WindowProc": {
+               "@label": {
+                  "string": "Debug Window Process"
+               },
+               "@name": "Debug WindowProc",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu:XUI": {
+            "@label": {
+               "string": "XUI"
+            },
+            "@name": "XUI",
+            "menu_item_call:Reload Color Settings": {
+               "@label": {
+                  "string": "Reload Color Settings"
+               },
+               "@name": "Reload Color Settings",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Show Font Test": {
+               "@label": {
+                  "string": "Show Font Test"
+               },
+               "@name": "Show Font Test",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Load from XML": {
+               "@label": {
+                  "string": "Load from XML"
+               },
+               "@name": "Load from XML",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Save to XML": {
+               "@label": {
+                  "string": "Save to XML"
+               },
+               "@name": "Save to XML",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Show XUI Names": {
+               "@label": {
+                  "string": "Show XUI Names"
+               },
+               "@name": "Show XUI Names",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:DebugViews": {
+               "@label": {
+                  "string": "Show debugging info for views"
+               },
+               "@name": "DebugViews",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_call:UI Preview Tool": {
+               "@label": {
+                  "string": "XUI Preview Tool"
+               },
+               "@name": "UI Preview Tool",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Send Test IMs": {
+               "@label": {
+                  "string": "Send Test IMs"
+               },
+               "@name": "Send Test IMs",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Flush Names Caches": {
+               "@label": {
+                  "string": "Flush Names Caches"
+               },
+               "@name": "Flush Names Caches",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu:Character": {
+            "@label": {
+               "string": "Avatar"
+            },
+            "@name": "Character",
+            "menu:Grab Baked Texture": {
+               "@label": {
+                  "string": "Grab Baked Texture"
+               },
+               "@name": "Grab Baked Texture",
+               "menu_item_call:Grab Iris": {
+                  "@label": {
+                     "string": "Iris"
+                  },
+                  "@name": "Grab Iris",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Grab Head": {
+                  "@label": {
+                     "string": "Head"
+                  },
+                  "@name": "Grab Head",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Grab Upper Body": {
+                  "@label": {
+                     "string": "Upper Body"
+                  },
+                  "@name": "Grab Upper Body",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Grab Lower Body": {
+                  "@label": {
+                     "string": "Lower Body"
+                  },
+                  "@name": "Grab Lower Body",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Grab Skirt": {
+                  "@label": {
+                     "string": "Skirt"
+                  },
+                  "@name": "Grab Skirt",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               }
+            },
+            "menu:Character Tests": {
+               "@label": {
+                  "string": "Character Tests"
+               },
+               "@name": "Character Tests",
+               "menu_item_call:Appearance To XML": {
+                  "@label": {
+                     "string": "Appearance To XML"
+                  },
+                  "@name": "Appearance To XML",
+                  "menu_item_call.on_click": null
+               },
+               "menu_item_call:Toggle Character Geometry": {
+                  "@label": {
+                     "string": "Toggle Character Geometry"
+                  },
+                  "@name": "Toggle Character Geometry",
+                  "menu_item_call.on_click": null,
+                  "menu_item_call.on_enable": null
+               },
+               "menu_item_call:Test Male": {
+                  "@label": {
+                     "string": "Test Male"
+                  },
+                  "@name": "Test Male",
+                  "menu_item_call.on_click": null
+               },
+               "menu_item_call:Test Female": {
+                  "@label": {
+                     "string": "Test Female"
+                  },
+                  "@name": "Test Female",
+                  "menu_item_call.on_click": null
+               },
+               "menu_item_check:Allow Select Avatar": {
+                  "@label": {
+                     "string": "Allow Select Avatar"
+                  },
+                  "@name": "Allow Select Avatar",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null
+               }
+            },
+            "menu:Animation Speed": {
+               "@label": {
+                  "string": "Animation Speed"
+               },
+               "@name": "Animation Speed",
+               "menu_item_call:All Animations 10 Faster": {
+                  "@label": {
+                     "string": "All Animations 10% Faster"
+                  },
+                  "@name": "All Animations 10 Faster",
+                  "menu_item_call.on_click": null
+               },
+               "menu_item_call:All Animations 10 Slower": {
+                  "@label": {
+                     "string": "All Animations 10% Slower"
+                  },
+                  "@name": "All Animations 10 Slower",
+                  "menu_item_call.on_click": null
+               },
+               "menu_item_call:Reset All Animation Speed": {
+                  "@label": {
+                     "string": "Reset All Animation Speed"
+                  },
+                  "@name": "Reset All Animation Speed",
+                  "menu_item_call.on_click": null
+               },
+               "menu_item_check:Slow Motion Animations": {
+                  "@label": {
+                     "string": "Slow Motion Animations"
+                  },
+                  "@name": "Slow Motion Animations",
+                  "menu_item_check.on_check": null,
+                  "menu_item_check.on_click": null
+               }
+            },
+            "menu_item_call:Force Params to Default": {
+               "@label": {
+                  "string": "Force Params to Default"
+               },
+               "@name": "Force Params to Default",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_check:Animation Info": {
+               "@label": {
+                  "string": "Animation Info"
+               },
+               "@name": "Animation Info",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Look At": {
+               "@label": {
+                  "string": "Show Look At"
+               },
+               "@name": "Show Look At",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Point At": {
+               "@label": {
+                  "string": "Show Point At"
+               },
+               "@name": "Show Point At",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Joint Updates": {
+               "@label": {
+                  "string": "Debug Joint Updates"
+               },
+               "@name": "Debug Joint Updates",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Disable LOD": {
+               "@label": {
+                  "string": "Disable LOD"
+               },
+               "@name": "Disable LOD",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Debug Character Vis": {
+               "@label": {
+                  "string": "Debug Character Vis"
+               },
+               "@name": "Debug Character Vis",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Collision Skeleton": {
+               "@label": {
+                  "string": "Show Collision Skeleton"
+               },
+               "@name": "Show Collision Skeleton",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Bones": {
+               "@label": {
+                  "string": "Show Bones"
+               },
+               "@name": "Show Bones",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Display Agent Target": {
+               "@label": {
+                  "string": "Display Agent Target"
+               },
+               "@name": "Display Agent Target",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Show Impostor Extents": {
+               "@label": {
+                  "string": "Show Impostor Extents"
+               },
+               "@name": "Show Impostor Extents",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "#comment": " Appears not to exist anymore\n            <menu_item_check\n             label=\"Debug Rotation\"\n             name=\"Debug Rotation\">\n                <menu_item_check.on_check\n                 function=\"CheckControl\"\n                 parameter=\"DebugAvatarRotation\" />\n                <menu_item_check.on_click\n                 function=\"ToggleControl\"\n                 parameter=\"DebugAvatarRotation\" />\n            </menu_item_check> ",
+            "menu_item_call:Dump Attachments": {
+               "@label": {
+                  "string": "Dump Attachments"
+               },
+               "@name": "Dump Attachments",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Debug Avatar Textures": {
+               "@label": {
+                  "string": "Debug Avatar Textures"
+               },
+               "@name": "Debug Avatar Textures",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Dump Local Textures": {
+               "@label": {
+                  "string": "Dump Local Textures"
+               },
+               "@name": "Dump Local Textures",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Reload Avatar Cloud Particle": {
+               "@label": {
+                  "string": "Reload Avatar Cloud Particle"
+               },
+               "@name": "Reload Avatar Cloud Particle",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu_item_check:HTTP Textures": {
+            "@label": {
+               "string": "HTTP Textures"
+            },
+            "@name": "HTTP Textures",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:HTTP Inventory": {
+            "@label": {
+               "string": "HTTP Inventory"
+            },
+            "@name": "HTTP Inventory",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_call:Compress Images": {
+            "@label": {
+               "string": "Compress Images"
+            },
+            "@name": "Compress Images",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Enable Visual Leak Detector": {
+            "@label": {
+               "string": "Enable Visual Leak Detector"
+            },
+            "@name": "Enable Visual Leak Detector",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:Output Debug Minidump": {
+            "@label": {
+               "string": "Output Debug Minidump"
+            },
+            "@name": "Output Debug Minidump",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Console Window": {
+            "@label": {
+               "string": "Console Window on next Run"
+            },
+            "@name": "Console Window",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu:Set Logging Level": {
+            "@label": {
+               "string": "Set Logging Level"
+            },
+            "@name": "Set Logging Level",
+            "menu_item_check:Debug": {
+               "@name": "Debug",
+               "@label": {
+                  "string": "Debug"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Info": {
+               "@name": "Info",
+               "@label": {
+                  "string": "Info"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Warning": {
+               "@name": "Warning",
+               "@label": {
+                  "string": "Warning"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Error": {
+               "@name": "Error",
+               "@label": {
+                  "string": "Error"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:None": {
+               "@name": "None",
+               "@label": {
+                  "string": "None"
+               },
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            }
+         },
+         "menu_item_call:Request Admin Options": {
+            "@label": {
+               "string": "Request Admin Status"
+            },
+            "@name": "Request Admin Options",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Leave Admin Options": {
+            "@label": {
+               "string": "Leave Admin Status"
+            },
+            "@name": "Leave Admin Options",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_check:View Admin Options": {
+            "@label": {
+               "string": "Show Admin Menu"
+            },
+            "@name": "View Admin Options",
+            "menu_item_check.on_enable": null,
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         }
+      },
+      "menu:Admin": {
+         "@label": {
+            "string": "Admin"
+         },
+         "@name": "Admin",
+         "menu:AdminObject": {
+            "@label": {
+               "string": "Object"
+            },
+            "@name": "AdminObject",
+            "menu_item_call:Admin Take Copy": {
+               "@label": {
+                  "string": "Take Copy"
+               },
+               "@name": "Admin Take Copy",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Force Owner To Me": {
+               "@label": {
+                  "string": "Force Owner To Me"
+               },
+               "@name": "Force Owner To Me",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Force Owner Permissive": {
+               "@label": {
+                  "string": "Force Owner Permissive"
+               },
+               "@name": "Force Owner Permissive",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Delete": {
+               "@label": {
+                  "string": "Delete"
+               },
+               "@name": "Delete",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Lock": {
+               "@label": {
+                  "string": "Lock"
+               },
+               "@name": "Lock",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Get Assets IDs": {
+               "@label": {
+                  "string": "Get Assets IDs"
+               },
+               "@name": "Get Assets IDs",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            }
+         },
+         "menu:Parcel": {
+            "@label": {
+               "string": "Parcel"
+            },
+            "@name": "Parcel",
+            "menu_item_call:Owner To Me": {
+               "@label": {
+                  "string": "Force Owner To Me"
+               },
+               "@name": "Owner To Me",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Set to Linden Content": {
+               "@label": {
+                  "string": "Set to Linden Content"
+               },
+               "@name": "Set to Linden Content",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Claim Public Land": {
+               "@label": {
+                  "string": "Claim Public Land"
+               },
+               "@name": "Claim Public Land",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            }
+         },
+         "menu:Region": {
+            "@label": {
+               "string": "Region"
+            },
+            "@name": "Region",
+            "menu_item_call:Dump Temp Asset Data": {
+               "@label": {
+                  "string": "Dump Temp Asset Data"
+               },
+               "@name": "Dump Temp Asset Data",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Save Region State": {
+               "@label": {
+                  "string": "Save Region State"
+               },
+               "@name": "Save Region State",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            }
+         },
+         "menu_item_call:God Tools": {
+            "@label": {
+               "string": "God Tools"
+            },
+            "@name": "God Tools",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         }
+      },
+      "#comment$16": " God Menu ",
+      "menu:Deprecated": {
+         "@label": {
+            "string": "Admin"
+         },
+         "@name": "Deprecated",
+         "menu:Attach Object": {
+            "@label": {
+               "string": "Attach Object"
+            },
+            "@name": "Attach Object"
+         },
+         "menu:Detach Object": {
+            "@label": {
+               "string": "Detach Object"
+            },
+            "@name": "Detach Object"
+         },
+         "menu:Take Off Clothing": {
+            "@label": {
+               "string": "Take Off Clothing"
+            },
+            "@name": "Take Off Clothing",
+            "menu_item_call:Shirt": {
+               "@label": {
+                  "string": "Shirt"
+               },
+               "@name": "Shirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Pants": {
+               "@label": {
+                  "string": "Pants"
+               },
+               "@name": "Pants",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Shoes": {
+               "@label": {
+                  "string": "Shoes"
+               },
+               "@name": "Shoes",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Socks": {
+               "@label": {
+                  "string": "Socks"
+               },
+               "@name": "Socks",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Jacket": {
+               "@label": {
+                  "string": "Jacket"
+               },
+               "@name": "Jacket",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Gloves": {
+               "@label": {
+                  "string": "Gloves"
+               },
+               "@name": "Gloves",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Menu Undershirt": {
+               "@label": {
+                  "string": "Undershirt"
+               },
+               "@name": "Menu Undershirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Menu Underpants": {
+               "@label": {
+                  "string": "Underpants"
+               },
+               "@name": "Menu Underpants",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Skirt": {
+               "@label": {
+                  "string": "Skirt"
+               },
+               "@name": "Skirt",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Alpha": {
+               "@label": {
+                  "string": "Alpha"
+               },
+               "@name": "Alpha",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Tattoo": {
+               "@label": {
+                  "string": "Tattoo"
+               },
+               "@name": "Tattoo",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Universal": {
+               "@label": {
+                  "string": "Universal"
+               },
+               "@name": "Universal",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:Physics": {
+               "@label": {
+                  "string": "Physics"
+               },
+               "@name": "Physics",
+               "menu_item_call.on_click": null,
+               "menu_item_call.on_enable": null
+            },
+            "menu_item_call:All Clothes": {
+               "@label": {
+                  "string": "All Clothes"
+               },
+               "@name": "All Clothes",
+               "menu_item_call.on_click": null
+            }
+         },
+         "menu:DeprecatedHelp": {
+            "@label": {
+               "string": "Help"
+            },
+            "@name": "DeprecatedHelp",
+            "menu_item_call:Official Linden Blog": {
+               "@label": {
+                  "string": "Official Linden Blog"
+               },
+               "@name": "Official Linden Blog",
+               "menu_item_call.on_click:OfficialLindenBlog_url": {
+                  "@name": "OfficialLindenBlog_url"
+               }
+            },
+            "menu_item_call:Scripting Portal": {
+               "@label": {
+                  "string": "Scripting Portal"
+               },
+               "@name": "Scripting Portal",
+               "menu_item_call.on_click:ScriptingPortal_url": {
+                  "@name": "ScriptingPortal_url"
+               }
+            },
+            "menu:Bug Reporting": {
+               "@label": {
+                  "string": "Bug Reporting"
+               },
+               "@name": "Bug Reporting",
+               "menu_item_call:Public Issue Tracker": {
+                  "@label": {
+                     "string": "Public Issue Tracker"
+                  },
+                  "@name": "Public Issue Tracker",
+                  "menu_item_call.on_click:PublicIssueTracker_url": {
+                     "@name": "PublicIssueTracker_url"
+                  }
+               },
+               "menu_item_call:Publc Issue Tracker Help": {
+                  "@label": {
+                     "string": "Public Issue Tracker Help"
+                  },
+                  "@name": "Publc Issue Tracker Help",
+                  "menu_item_call.on_click:PublicIssueTrackerHelp_url": {
+                     "@name": "PublicIssueTrackerHelp_url"
+                  }
+               },
+               "menu_item_separator": null,
+               "menu_item_call:Bug Reporing 101": {
+                  "@label": {
+                     "string": "Bug Reporting 101"
+                  },
+                  "@name": "Bug Reporing 101",
+                  "menu_item_call.on_click:BugReporting101_url": {
+                     "@name": "BugReporting101_url"
+                  }
+               },
+               "menu_item_call:Security Issues": {
+                  "@label": {
+                     "string": "Security Issues"
+                  },
+                  "@name": "Security Issues",
+                  "menu_item_call.on_click:SecurityIssues_url": {
+                     "@name": "SecurityIssues_url"
+                  }
+               },
+               "menu_item_call:QA Wiki": {
+                  "@label": {
+                     "string": "QA Wiki"
+                  },
+                  "@name": "QA Wiki",
+                  "menu_item_call.on_click:QAWiki_url": {
+                     "@name": "QAWiki_url"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

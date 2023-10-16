@@ -1,0 +1,20 @@
+{
+   "context_menu": {
+      "@name": "Url Popup",
+      "menu_item_call:run_slapp": {
+         "@label": {
+            "string": "Kör det här kommandot"
+         },
+         "@name": "run_slapp",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:url_copy": {
+         "@label": {
+            "string": "Copy SLurl to clipboard"
+         },
+         "@name": "url_copy",
+         "menu_item_call.on_click": null
+      }
+   }
+}
