@@ -1,0 +1,91 @@
+{
+   "context_menu": {
+      "@name": "Outfit Wearable Context Menu",
+      "menu_item_call:wear_replace": {
+         "@label": {
+            "string": "Replace"
+         },
+         "@name": "wear_replace",
+         "on_click": null
+      },
+      "menu_item_call:wear_wear": {
+         "@label": {
+            "string": "Wear"
+         },
+         "@name": "wear_wear",
+         "on_click": null
+      },
+      "menu_item_call:wear_add": {
+         "@label": {
+            "string": "Add"
+         },
+         "@name": "wear_add",
+         "on_click": null
+      },
+      "context_menu:wearable_attach_to": {
+         "@label": {
+            "string": "Attach to"
+         },
+         "@name": "wearable_attach_to"
+      },
+      "context_menu:wearable_attach_to_hud": {
+         "@label": {
+            "string": "Attach to HUD"
+         },
+         "@name": "wearable_attach_to_hud"
+      },
+      "menu_item_call:touch": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "touch"
+      },
+      "menu_item_call:edit": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit"
+      },
+      "menu_item_call:take_off_or_detach": {
+         "@label": {
+            "string": "Take Off / Detach"
+         },
+         "@name": "take_off_or_detach",
+         "on_click": null
+      },
+      "menu_item_call:detach": {
+         "@label": {
+            "string": "Detach"
+         },
+         "@name": "detach",
+         "on_click": null
+      },
+      "menu_item_call:take_off": {
+         "@label": {
+            "string": "Take Off"
+         },
+         "@name": "take_off",
+         "on_click": null
+      },
+      "menu_item_call:object_profile": {
+         "@label": {
+            "string": "Item Profile"
+         },
+         "@name": "object_profile",
+         "on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:show_original": {
+         "@label": {
+            "string": "Show Original"
+         },
+         "@name": "show_original",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call": {
+         "on_click": null
+      },
+      "menu_item_call$15": null
+   }
+}

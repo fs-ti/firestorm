@@ -1,0 +1,41 @@
+{
+   "floater": {
+      "@name": "preview_conversation",
+      "@title": {
+         "string": "Conversation:"
+      },
+      "floater.string:Title": {
+         "@name": "Title",
+         "#text": {
+            "string": "\n        Conversation: [NAME]\n    "
+         }
+      },
+      "fs_chat_history:chat_history": {
+         "@name": "chat_history"
+      },
+      "text:page_label": {
+         "@name": "page_label",
+         "@value": {
+            "string": "Page"
+         }
+      },
+      "spinner:history_page_spin": {
+         "@name": "history_page_spin"
+      },
+      "text:page_num_label": {
+         "@name": "page_num_label"
+      },
+      "button:open_external_btn": {
+         "@tool_tip": {
+            "string": "Open chat transcript externally"
+         },
+         "@name": "open_external_btn"
+      },
+      "button:search_btn": {
+         "@tool_tip": {
+            "string": "Search this transcript"
+         },
+         "@name": "search_btn"
+      }
+   }
+}

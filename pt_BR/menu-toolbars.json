@@ -1,0 +1,44 @@
+{
+   "context_menu": {
+      "@name": "Toolbars Popup",
+      "menu_item_call:Remove button": {
+         "@label": {
+            "string": "Remove this button"
+         },
+         "@name": "Remove button",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Choose Buttons": {
+         "@label": {
+            "string": "Toolbar buttons..."
+         },
+         "@name": "Choose Buttons",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_check:icons_with_text": {
+         "@label": {
+            "string": "Icons and labels"
+         },
+         "@name": "icons_with_text",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:icons_only": {
+         "@label": {
+            "string": "Icons only"
+         },
+         "@name": "icons_only",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:toolbars_locked": {
+         "@label": {
+            "string": "Locked"
+         },
+         "@name": "toolbars_locked",
+         "on_check": null,
+         "on_click": null
+      }
+   }
+}

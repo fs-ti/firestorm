@@ -1,0 +1,215 @@
+{
+   "floater": {
+      "@name": "panel_im",
+      "floater.string:call_btn_start": {
+         "@name": "call_btn_start",
+         "#text": {
+            "string": "Conv_toolbar_open_call"
+         }
+      },
+      "floater.string:call_btn_stop": {
+         "@name": "call_btn_stop",
+         "#text": {
+            "string": "Conv_toolbar_hang_up"
+         }
+      },
+      "floater.string:collapseline_icon": {
+         "@name": "collapseline_icon",
+         "@value": {
+            "string": "Conv_collapse_to_one_line"
+         }
+      },
+      "floater.string:expandline_icon": {
+         "@name": "expandline_icon",
+         "@value": {
+            "string": "Conv_expand_one_line"
+         }
+      },
+      "floater.string:collapse_icon": {
+         "@name": "collapse_icon",
+         "@value": {
+            "string": "Conv_toolbar_collapse"
+         }
+      },
+      "floater.string:expand_icon": {
+         "@name": "expand_icon",
+         "@value": {
+            "string": "Conv_toolbar_expand"
+         }
+      },
+      "floater.string:tear_off_icon": {
+         "@name": "tear_off_icon",
+         "@value": {
+            "string": "Conv_toolbar_arrow_ne"
+         }
+      },
+      "floater.string:return_icon": {
+         "@name": "return_icon",
+         "@value": {
+            "string": "Conv_toolbar_arrow_sw"
+         }
+      },
+      "floater.string:participant_added": {
+         "@name": "participant_added",
+         "@value": {
+            "string": "[NAME] was invited to the conversation."
+         }
+      },
+      "floater.string:multiple_participants_added": {
+         "@name": "multiple_participants_added",
+         "@value": {
+            "string": "[NAME] were invited to the conversation."
+         }
+      },
+      "floater.string:tooltip_to_separate_window": {
+         "@name": "tooltip_to_separate_window",
+         "@value": {
+            "string": "Move this conversation to a separate window"
+         }
+      },
+      "floater.string:tooltip_to_main_window": {
+         "@name": "tooltip_to_main_window",
+         "@value": {
+            "string": "Move this conversation back to main window"
+         }
+      },
+      "floater.string:start_call_button_tooltip": {
+         "@name": "start_call_button_tooltip",
+         "@value": {
+            "string": "Open voice connection"
+         }
+      },
+      "floater.string:end_call_button_tooltip": {
+         "@name": "end_call_button_tooltip",
+         "@value": {
+            "string": "Close voice connection"
+         }
+      },
+      "floater.string:expcol_button_not_tearoff_tooltip": {
+         "@name": "expcol_button_not_tearoff_tooltip",
+         "@value": {
+            "string": "Collapse this pane"
+         }
+      },
+      "floater.string:expcol_button_tearoff_and_expanded_tooltip": {
+         "@name": "expcol_button_tearoff_and_expanded_tooltip",
+         "@value": {
+            "string": "Collapse participant list"
+         }
+      },
+      "floater.string:expcol_button_tearoff_and_collapsed_tooltip": {
+         "@name": "expcol_button_tearoff_and_collapsed_tooltip",
+         "@value": {
+            "string": "Expand participant list"
+         }
+      },
+      "view:contents_view": {
+         "@name": "contents_view",
+         "layout_stack:main_stack": {
+            "@name": "main_stack",
+            "layout_panel:toolbar_panel": {
+               "@name": "toolbar_panel",
+               "menu_button:view_options_btn": {
+                  "@name": "view_options_btn",
+                  "@tool_tip": {
+                     "string": "View/sort options"
+                  }
+               },
+               "menu_button:gear_btn": {
+                  "@name": "gear_btn",
+                  "@tool_tip": {
+                     "string": "Actions on selected person"
+                  }
+               },
+               "button:add_btn": {
+                  "@name": "add_btn",
+                  "@tool_tip": {
+                     "string": "Add someone to this conversation"
+                  }
+               },
+               "button:voice_call_btn": {
+                  "@name": "voice_call_btn",
+                  "@tool_tip": {
+                     "string": "Open voice connection"
+                  }
+               },
+               "button:close_btn": {
+                  "@name": "close_btn",
+                  "@tool_tip": {
+                     "string": "End this conversation"
+                  }
+               },
+               "button:expand_collapse_btn": {
+                  "@name": "expand_collapse_btn",
+                  "@tool_tip": {
+                     "string": "Collapse/Expand this pane"
+                  }
+               },
+               "button:tear_off_btn": {
+                  "@name": "tear_off_btn"
+               }
+            },
+            "layout_panel:body_panel": {
+               "@name": "body_panel",
+               "layout_stack:im_panels": {
+                  "@name": "im_panels",
+                  "layout_panel:speakers_list_panel": {
+                     "@name": "speakers_list_panel"
+                  },
+                  "layout_panel:right_part_holder": {
+                     "@name": "right_part_holder",
+                     "layout_stack:translate_and_chat_stack": {
+                        "@name": "translate_and_chat_stack",
+                        "layout_panel:translate_chat_checkbox_lp": {
+                           "@name": "translate_chat_checkbox_lp",
+                           "check_box:translate_chat_checkbox": {
+                              "@label": {
+                                 "string": "Translate chat"
+                              },
+                              "@name": "translate_chat_checkbox"
+                           }
+                        },
+                        "layout_panel:chat_holder": {
+                           "@name": "chat_holder",
+                           "chat_history:chat_history": {
+                              "@name": "chat_history"
+                           }
+                        }
+                     }
+                  }
+               }
+            },
+            "layout_panel:chat_layout_panel": {
+               "@name": "chat_layout_panel",
+               "layout_stack:input_panels": {
+                  "@name": "input_panels",
+                  "layout_panel:input_editor_layout_panel": {
+                     "@name": "input_editor_layout_panel",
+                     "avatar_icon:avatar_icon": {
+                        "@name": "avatar_icon"
+                     },
+                     "group_icon:group_chat_icon": {
+                        "@name": "group_chat_icon"
+                     },
+                     "icon:nearby_chat_icon": {
+                        "@name": "nearby_chat_icon"
+                     },
+                     "chat_editor:chat_editor": {
+                        "@name": "chat_editor"
+                     }
+                  },
+                  "layout_panel:input_button_layout_panel": {
+                     "@name": "input_button_layout_panel",
+                     "button:minz_btn": {
+                        "@name": "minz_btn",
+                        "@tool_tip": {
+                           "string": "Shows/hides message panel"
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,84 @@
+{
+   "toggleable_menu": {
+      "@name": "Teleport History Gear Context Menu",
+      "menu_item_call:Expand all folders": {
+         "@label": {
+            "string": "Expand all folders"
+         },
+         "@name": "Expand all folders",
+         "menu_item_call.on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:Collapse all folders": {
+         "@label": {
+            "string": "Collapse all folders"
+         },
+         "@name": "Collapse all folders",
+         "menu_item_call.on_click": null,
+         "on_enable": null
+      },
+      "#comment": " FS:Beq [timezone support for teleport history] ",
+      "menu:TPHistoryTimeZone": {
+         "@name": "TPHistoryTimeZone",
+         "@label": {
+            "string": "Select Timezone..."
+         },
+         "menu_item_check:teleport_history_tz_utc": {
+            "@name": "teleport_history_tz_utc",
+            "@label": {
+               "string": "UTC"
+            },
+            "on_click": null,
+            "on_check": null
+         },
+         "menu_item_check:teleport_history_tz_slt": {
+            "@name": "teleport_history_tz_slt",
+            "@label": {
+               "string": "SLT"
+            },
+            "on_click": null,
+            "on_check": null
+         },
+         "menu_item_check:teleport_history_tz_local": {
+            "@name": "teleport_history_tz_local",
+            "@label": {
+               "string": "Local"
+            },
+            "on_click": null,
+            "on_check": null
+         }
+      },
+      "#comment$5": " /FS:Beq [timezone support for teleport history] ",
+      "menu:Show Menu": {
+         "@name": "Show Menu",
+         "@label": {
+            "string": "Show..."
+         },
+         "menu_item_check:Show Position": {
+            "@name": "Show Position",
+            "@label": {
+               "string": "Position"
+            },
+            "on_click": null,
+            "on_check": null
+         },
+         "menu_item_check:Show Date": {
+            "@name": "Show Date",
+            "@label": {
+               "string": "Date"
+            },
+            "on_click": null,
+            "on_check": null
+         }
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Clear Teleport History": {
+         "@label": {
+            "string": "Clear Teleport History"
+         },
+         "@name": "Clear Teleport History",
+         "menu_item_call.on_click": null,
+         "on_enable": null
+      }
+   }
+}

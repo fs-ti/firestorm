@@ -1,0 +1,27 @@
+{
+   "context_menu": {
+      "@name": "Url Popup",
+      "menu_item_call:show_item": {
+         "@label": {
+            "string": "Show Inventory Item"
+         },
+         "@name": "show_item",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:url_copy_label": {
+         "@label": {
+            "string": "Copy Name to clipboard"
+         },
+         "@name": "url_copy_label",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:url_copy": {
+         "@label": {
+            "string": "Copy SLurl to clipboard"
+         },
+         "@name": "url_copy",
+         "menu_item_call.on_click": null
+      }
+   }
+}

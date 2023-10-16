@@ -1,0 +1,58 @@
+{
+   "context_menu": {
+      "@name": "Wearing",
+      "menu_item_call:touch_attach": {
+         "@label": {
+            "string": "Touch"
+         },
+         "@name": "touch_attach",
+         "on_click": null
+      },
+      "menu_item_call:edit_item": {
+         "@label": {
+            "string": "Edit"
+         },
+         "@name": "edit_item",
+         "on_click": null
+      },
+      "menu_item_call:take_off": {
+         "@label": {
+            "string": "Take Off"
+         },
+         "@name": "take_off",
+         "on_click": null
+      },
+      "menu_item_call:detach": {
+         "@label": {
+            "string": "Detach"
+         },
+         "@name": "detach",
+         "on_click": null
+      },
+      "menu_item_call:take_off_or_detach": {
+         "@label": {
+            "string": "Take Off / Detach"
+         },
+         "@name": "take_off_or_detach",
+         "on_click": null
+      },
+      "menu_item_separator:edit_outfit_separator": {
+         "@name": "edit_outfit_separator"
+      },
+      "menu_item_call:show_original": {
+         "@label": {
+            "string": "Show Original"
+         },
+         "@name": "show_original",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:edit_outfit": {
+         "@label": {
+            "string": "Edit Outfit"
+         },
+         "@name": "edit_outfit",
+         "on_click": null
+      }
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "context_menu": {
+      "@name": "Teleport History Item Context Menu",
+      "menu_item_call:TabOpen": {
+         "@label": {
+            "string": "Open"
+         },
+         "@name": "TabOpen",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:TabClose": {
+         "@label": {
+            "string": "Close"
+         },
+         "@name": "TabClose",
+         "menu_item_call.on_click": null
+      }
+   }
+}
