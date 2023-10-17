@@ -2,46 +2,46 @@
    "floater": {
       "@name": "avatarpicker",
       "@title": {
-         "string": "Choose Resident"
+         "string": ""
       },
       "floater.string:not_found": {
          "@name": "not_found",
          "#text": {
-            "string": "\n        '[TEXT]' not found\n    "
+            "string": ""
          }
       },
       "floater.string:not_found_text": {
          "@name": "not_found_text",
          "#text": {
-            "string": "\n        Resident wasn't found.\n    "
+            "string": ""
          }
       },
       "floater.string:no_one_near": {
          "@name": "no_one_near",
          "#text": {
-            "string": "\n        No one near\n    "
+            "string": ""
          }
       },
       "floater.string:no_results": {
          "@name": "no_results",
          "#text": {
-            "string": "\n        No results\n    "
+            "string": ""
          }
       },
       "floater.string:searching": {
          "@name": "searching",
          "#text": {
-            "string": "\n        Searching...\n    "
+            "string": ""
          }
       },
       "#comment": " For multiple person selection, use \"Select\" and \"Close\" \n      instead of \"OK\" and \"Cancel\" because \"Cancel\" still keeps the ones \n      you have already selected.  The code will show the appropriate\n      set of buttons. ",
-      "string:Select": {
+      "str_ing:Select": {
          "@name": "Select",
          "#text": {
             "string": "Välj"
          }
       },
-      "string:Close": {
+      "str_ing:Close": {
          "@name": "Close",
          "#text": {
             "string": "Stäng"
@@ -57,7 +57,7 @@
             "text:InstructSearchResidentName": {
                "@name": "InstructSearchResidentName",
                "#text": {
-                  "string": "\n                Type part of a person's name:\n            "
+                  "string": ""
                }
             },
             "line_editor:Edit": {
@@ -93,7 +93,7 @@
             "text:InstructSelectFriend": {
                "@name": "InstructSelectFriend",
                "#text": {
-                  "string": "\n                Select a person:\n            "
+                  "string": ""
                }
             },
             "button:RefreshFriends": {
@@ -124,7 +124,7 @@
             "text:InstructSelectResident": {
                "@name": "InstructSelectResident",
                "#text": {
-                  "string": "\n                Select a person nearby:\n            "
+                  "string": ""
                }
             },
             "slider:near_me_range": {
@@ -136,7 +136,7 @@
             "text:meters": {
                "@name": "meters",
                "#text": {
-                  "string": "\n                Meters\n            "
+                  "string": ""
                }
             },
             "button:Refresh": {
@@ -160,13 +160,13 @@
          },
          "panel:SearchPanelUUID": {
             "@label": {
-               "string": "Search by UUID"
+               "string": ""
             },
             "@name": "SearchPanelUUID",
             "text:SearchByUUIDLabel": {
                "@name": "SearchByUUIDLabel",
                "#text": {
-                  "string": "\n                Enter a person's UUID:\n            "
+                  "string": ""
                }
             },
             "line_editor:EditUUID": {

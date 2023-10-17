@@ -1,0 +1,29 @@
+{
+   "toggleable_menu": {
+      "@name": "Avatar Profile Image Actions",
+      "menu_item_call:upload_photo": {
+         "@label": {
+            "string": "Upload Photo"
+         },
+         "@name": "upload_photo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:change_photo": {
+         "@label": {
+            "string": "Change Photo"
+         },
+         "@name": "change_photo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:remove_photo": {
+         "@label": {
+            "string": "Remove Photo"
+         },
+         "@name": "remove_photo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      }
+   }
+}

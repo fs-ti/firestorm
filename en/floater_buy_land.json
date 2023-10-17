@@ -238,7 +238,18 @@
             "string": "\n        (no parcel selected)\n    "
          }
       },
-      "floater.string": null,
+      "floater.string:icon_PG": {
+         "@name": "icon_PG",
+         "@translate": "false"
+      },
+      "floater.string:icon_M": {
+         "@name": "icon_M",
+         "@translate": "false"
+      },
+      "floater.string:icon_R": {
+         "@name": "icon_R",
+         "@translate": "false"
+      },
       "text:region_name_label": {
          "@name": "region_name_label",
          "#text": {
@@ -339,10 +350,7 @@
          }
       },
       "text:info_parcel": {
-         "@name": "info_parcel",
-         "#text": {
-            "string": "\n        Scotopteryx 138,204\n    "
-         }
+         "@name": "info_parcel"
       },
       "text:info_size_label": {
          "@name": "info_size_label",
@@ -351,10 +359,7 @@
          }
       },
       "text:info_size": {
-         "@name": "info_size",
-         "#text": {
-            "string": "\n        1024 m²\n    "
-         }
+         "@name": "info_size"
       },
       "text:info_price_label": {
          "@name": "info_price_label",
@@ -363,10 +368,7 @@
          }
       },
       "text:info_price": {
-         "@name": "info_price",
-         "#text": {
-            "string": "\n        L$ 1500\n(L$ 1.1/m²)\nsold with objects\n    "
-         }
+         "@name": "info_price"
       },
       "text:info_action": {
          "@name": "info_action",
@@ -436,25 +438,16 @@
          }
       },
       "text:land_use_reason": {
-         "@name": "land_use_reason",
-         "#text": {
-            "string": "\n        You hold 1309 m² of land.\nThis parcel is 512 m² of land.\n    "
-         }
+         "@name": "land_use_reason"
       },
       "icon:step_3": {
          "@name": "step_3"
       },
       "text:purchase_action": {
-         "@name": "purchase_action",
-         "#text": {
-            "string": "\n        Pay Joe Resident L$ 4000 for the land\n    "
-         }
+         "@name": "purchase_action"
       },
       "text:currency_reason": {
-         "@name": "currency_reason",
-         "#text": {
-            "string": "\n        You have L$ 2,100.\n    "
-         }
+         "@name": "currency_reason"
       },
       "text:currency_action": {
          "@name": "currency_action",
@@ -463,10 +456,7 @@
          }
       },
       "line_editor:currency_amt": {
-         "@name": "currency_amt",
-         "#text": {
-            "string": "\n        1000\n    "
-         }
+         "@name": "currency_amt"
       },
       "text:currency_est": {
          "@name": "currency_est",
@@ -475,10 +465,7 @@
          }
       },
       "text:currency_balance": {
-         "@name": "currency_balance",
-         "#text": {
-            "string": "\n        You have L$ 2,100.\n    "
-         }
+         "@name": "currency_balance"
       },
       "button:buy_btn": {
          "@label": {

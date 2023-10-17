@@ -1,0 +1,44 @@
+{
+   "floater": {
+      "@name": "profile_texture",
+      "layout_stack:preview_stack": {
+         "@name": "preview_stack",
+         "layout_panel:texture_panel": {
+            "@name": "texture_panel",
+            "icon:profile_pic": {
+               "@name": "profile_pic"
+            }
+         },
+         "layout_panel:buttons_panel": {
+            "@name": "buttons_panel",
+            "layout_stack:buttons_stack": {
+               "@name": "buttons_stack",
+               "layout_panel:refresh_panel": {
+                  "@name": "refresh_panel",
+                  "button:btn_refresh": {
+                     "@name": "btn_refresh"
+                  }
+               },
+               "layout_panel:resizer_left": {
+                  "@name": "resizer_left"
+               },
+               "layout_panel:close_panel": {
+                  "@name": "close_panel",
+                  "button:close_btn": {
+                     "@label": {
+                        "string": "Close"
+                     },
+                     "@name": "close_btn"
+                  }
+               },
+               "layout_panel:resizer_right": {
+                  "@name": "resizer_right"
+               },
+               "layout_panel:refresh_counter_panel": {
+                  "@name": "refresh_counter_panel"
+               }
+            }
+         }
+      }
+   }
+}

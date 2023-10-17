@@ -1,0 +1,377 @@
+{
+   "panel": {
+      "@name": "panel_profile_classified",
+      "panel.string:type_mature": {
+         "@name": "type_mature",
+         "#text": {
+            "string": "\n        Moderate\n    "
+         }
+      },
+      "panel.string:type_pg": {
+         "@name": "type_pg",
+         "#text": {
+            "string": "\n        General Content\n    "
+         }
+      },
+      "panel.string:l$_price": {
+         "@name": "l$_price",
+         "#text": {
+            "string": "\n        L$[PRICE]\n    "
+         }
+      },
+      "panel.string:click_through_text_fmt": {
+         "@name": "click_through_text_fmt",
+         "#text": {
+            "string": "\n        [TELEPORT] teleport, [MAP] map, [PROFILE] profile\n    "
+         }
+      },
+      "panel.string:date_fmt": {
+         "@name": "date_fmt",
+         "#text": {
+            "string": "\n        [mthnum,datetime,slt]/[day,datetime,slt]/[year,datetime,slt]\n    "
+         }
+      },
+      "panel.string:auto_renew_on": {
+         "@name": "auto_renew_on",
+         "#text": {
+            "string": "\n        Enabled\n    "
+         }
+      },
+      "panel.string:auto_renew_off": {
+         "@name": "auto_renew_off",
+         "#text": {
+            "string": "\n        Disabled\n    "
+         }
+      },
+      "panel.string:location_notice": {
+         "@name": "location_notice",
+         "#text": {
+            "string": "\n        (will update after save)\n    "
+         }
+      },
+      "str_ing:publish_label": {
+         "@name": "publish_label",
+         "#text": {
+            "string": "\n        Publish\n    "
+         }
+      },
+      "str_ing:save_label": {
+         "@name": "save_label",
+         "#text": {
+            "string": "\n        Save\n    "
+         }
+      },
+      "layout_stack:main_classifieds_stack": {
+         "@name": "main_classifieds_stack",
+         "layout_panel:scroll_layout_panel": {
+            "@name": "scroll_layout_panel",
+            "scroll_container:profile_scroll": {
+               "@name": "profile_scroll",
+               "panel:info_scroll_content_panel": {
+                  "@name": "info_scroll_content_panel",
+                  "texture_picker:classified_snapshot": {
+                     "@name": "classified_snapshot"
+                  },
+                  "icon:edit_icon": {
+                     "@name": "edit_icon",
+                     "@label": {
+                        "string": ""
+                     },
+                     "@tool_tip": {
+                        "string": "Click to select an image"
+                     }
+                  },
+                  "layout_stack:info_panel": {
+                     "@name": "info_panel",
+                     "layout_panel:main_info_panel": {
+                        "@name": "main_info_panel",
+                        "text_editor:classified_name": {
+                           "@name": "classified_name",
+                           "#text": {
+                              "string": "\n                        [name]\n                    "
+                           }
+                        },
+                        "text:classified_location_label": {
+                           "@name": "classified_location_label",
+                           "@value": {
+                              "string": "Location:"
+                           }
+                        },
+                        "text_editor:classified_location": {
+                           "@name": "classified_location",
+                           "@value": {
+                              "string": "[loading...]"
+                           }
+                        },
+                        "text:content_type_label": {
+                           "@name": "content_type_label",
+                           "@value": {
+                              "string": "Content Type:"
+                           }
+                        },
+                        "icon:content_type_moderate": {
+                           "@name": "content_type_moderate"
+                        },
+                        "icon:content_type_general": {
+                           "@name": "content_type_general"
+                        },
+                        "text_editor:content_type": {
+                           "@name": "content_type",
+                           "@value": {
+                              "string": "[content type]"
+                           }
+                        },
+                        "text:category_label": {
+                           "@name": "category_label",
+                           "@value": {
+                              "string": "Category:"
+                           }
+                        },
+                        "text_editor:category": {
+                           "@name": "category",
+                           "@value": {
+                              "string": "[category]"
+                           }
+                        },
+                        "text:creation_date_label": {
+                           "@name": "creation_date_label",
+                           "@value": {
+                              "string": "Creation date:"
+                           }
+                        },
+                        "text_editor:creation_date": {
+                           "@name": "creation_date",
+                           "@value": {
+                              "string": "[date]"
+                           },
+                           "@tool_tip": {
+                              "string": "Creation date"
+                           }
+                        },
+                        "text:price_for_listing_label": {
+                           "@name": "price_for_listing_label",
+                           "@value": {
+                              "string": "Price for listing:"
+                           }
+                        },
+                        "text_editor:price_for_listing": {
+                           "@name": "price_for_listing",
+                           "@tool_tip": {
+                              "string": "Price for listing."
+                           },
+                           "#text": {
+                              "string": "\n                     [PRICE]\n                    "
+                           }
+                        }
+                     },
+                     "layout_panel:clickthrough_layout_panel": {
+                        "@name": "clickthrough_layout_panel",
+                        "text:click_through_label": {
+                           "@name": "click_through_label",
+                           "@value": {
+                              "string": "Clicks:"
+                           }
+                        },
+                        "text_editor:click_through_text": {
+                           "@name": "click_through_text",
+                           "@value": {
+                              "string": "[clicks]"
+                           },
+                           "@tool_tip": {
+                              "string": "Click through data"
+                           }
+                        }
+                     },
+                     "layout_panel:auto_renew_layout_panel": {
+                        "@name": "auto_renew_layout_panel",
+                        "text:auto_renew_label": {
+                           "@name": "auto_renew_label",
+                           "@value": {
+                              "string": "Auto renew:"
+                           }
+                        },
+                        "text:auto_renew": {
+                           "@name": "auto_renew",
+                           "@value": {
+                              "string": "Enabled"
+                           }
+                        }
+                     },
+                     "layout_panel:descr_layout_panel": {
+                        "@name": "descr_layout_panel",
+                        "text:classified_desc_label": {
+                           "@name": "classified_desc_label",
+                           "@value": {
+                              "string": "Description:"
+                           }
+                        },
+                        "text_editor:classified_desc": {
+                           "@name": "classified_desc",
+                           "@value": {
+                              "string": "[description]"
+                           }
+                        }
+                     }
+                  },
+                  "panel:edit_panel": {
+                     "@name": "edit_panel",
+                     "text:Name:": {
+                        "@name": "Name:",
+                        "#text": {
+                           "string": "\n                    Title:\n                "
+                        }
+                     },
+                     "line_editor:classified_name_edit": {
+                        "@name": "classified_name_edit"
+                     },
+                     "text:description_label": {
+                        "@name": "description_label",
+                        "#text": {
+                           "string": "\n                    Description:\n                "
+                        }
+                     },
+                     "text_editor:classified_desc_edit": {
+                        "@name": "classified_desc_edit"
+                     },
+                     "text:location_label": {
+                        "@name": "location_label",
+                        "#text": {
+                           "string": "\n                    Location:\n                "
+                        }
+                     },
+                     "text:classified_location_edit": {
+                        "@name": "classified_location_edit",
+                        "#text": {
+                           "string": "\n                    loading...\n                "
+                        }
+                     },
+                     "button:set_to_curr_location_btn": {
+                        "@name": "set_to_curr_location_btn",
+                        "@label": {
+                           "string": "Set to Current Location"
+                        }
+                     },
+                     "text:category_label": {
+                        "@name": "category_label",
+                        "@value": {
+                           "string": "Category:"
+                        }
+                     },
+                     "combo_box:category_edit": {
+                        "@name": "category_edit",
+                        "@label": {
+                           "string": ""
+                        }
+                     },
+                     "text:content_type_label": {
+                        "@name": "content_type_label",
+                        "@value": {
+                           "string": "Content type:"
+                        }
+                     },
+                     "icons_combo_box:content_type_edit": {
+                        "@name": "content_type_edit",
+                        "@label": {
+                           "string": "General Content"
+                        },
+                        "icons_combo_box.drop_down_button": null,
+                        "icons_combo_box.item:mature_ci": {
+                           "@name": "mature_ci",
+                           "@label": {
+                              "string": "Moderate Content"
+                           },
+                           "item.columns": null
+                        },
+                        "icons_combo_box.item:pg_ci": {
+                           "@name": "pg_ci",
+                           "@label": {
+                              "string": "General Content"
+                           },
+                           "item.columns": null
+                        }
+                     },
+                     "check_box:auto_renew_edit": {
+                        "@name": "auto_renew_edit",
+                        "@label": {
+                           "string": "Auto renew each week"
+                        }
+                     }
+                  }
+               }
+            }
+         },
+         "layout_panel:util_buttons_lp": {
+            "@name": "util_buttons_lp",
+            "layout_stack:util_buttons_stack": {
+               "@name": "util_buttons_stack",
+               "layout_panel:util_resizer_left": {
+                  "@name": "util_resizer_left"
+               },
+               "layout_panel:teleport_btn_lp": {
+                  "@name": "teleport_btn_lp",
+                  "button:teleport_btn": {
+                     "@name": "teleport_btn",
+                     "@label": {
+                        "string": "Teleport"
+                     }
+                  }
+               },
+               "layout_panel:map_btn_lp": {
+                  "@name": "map_btn_lp",
+                  "button:show_on_map_btn": {
+                     "@name": "show_on_map_btn",
+                     "@label": {
+                        "string": "Map"
+                     }
+                  }
+               },
+               "layout_panel:edit_btn_lp": {
+                  "@name": "edit_btn_lp",
+                  "button:edit_btn": {
+                     "@name": "edit_btn",
+                     "@label": {
+                        "string": "Edit"
+                     }
+                  }
+               },
+               "layout_panel:util_resizer_right": {
+                  "@name": "util_resizer_right"
+               }
+            }
+         },
+         "layout_panel:publish_layout_panel": {
+            "@name": "publish_layout_panel",
+            "view_border:publish_emphasis_border": {
+               "@name": "publish_emphasis_border"
+            },
+            "layout_stack:publish_stack": {
+               "@name": "publish_stack",
+               "layout_panel:pbl_resizer_left": {
+                  "@name": "pbl_resizer_left"
+               },
+               "layout_panel:save_btn_lp": {
+                  "@name": "save_btn_lp",
+                  "button:save_changes_btn": {
+                     "@name": "save_changes_btn",
+                     "@label": {
+                        "string": "[LABEL]"
+                     }
+                  }
+               },
+               "layout_panel:cancel_btn_lp": {
+                  "@name": "cancel_btn_lp",
+                  "button:cancel_btn": {
+                     "@name": "cancel_btn",
+                     "@label": {
+                        "string": "Cancel"
+                     }
+                  }
+               },
+               "layout_panel:pbl_resizer_right": {
+                  "@name": "pbl_resizer_right"
+               }
+            }
+         }
+      }
+   }
+}

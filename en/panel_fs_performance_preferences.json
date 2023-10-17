@@ -1,0 +1,261 @@
+{
+   "panel": {
+      "@name": "panel_performance_preferences",
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:back_lbl": {
+         "@name": "back_lbl",
+         "#text": {
+            "string": "\n    Back\n  "
+         }
+      },
+      "text:settings_title": {
+         "@name": "settings_title",
+         "#text": {
+            "string": "\n   Graphics settings\n  "
+         }
+      },
+      "view_border:border1": {
+         "@name": "border1"
+      },
+      "text:quality_lbl": {
+         "@name": "quality_lbl",
+         "#text": {
+            "string": "\n  Quality vs speed\n"
+         }
+      },
+      "text:FasterText": {
+         "@name": "FasterText",
+         "#text": {
+            "string": "\nFaster\n"
+         }
+      },
+      "icon:LowGraphicsDivet": {
+         "@name": "LowGraphicsDivet"
+      },
+      "icon:LowMidGraphicsDivet": {
+         "@name": "LowMidGraphicsDivet"
+      },
+      "icon:MidGraphicsDivet": {
+         "@name": "MidGraphicsDivet"
+      },
+      "icon:MidHighGraphicsDivet": {
+         "@name": "MidHighGraphicsDivet"
+      },
+      "icon:HighGraphicsDivet": {
+         "@name": "HighGraphicsDivet"
+      },
+      "icon:HighUltraGraphicsDivet": {
+         "@name": "HighUltraGraphicsDivet"
+      },
+      "icon:UltraGraphicsDivet": {
+         "@name": "UltraGraphicsDivet"
+      },
+      "text:BetterText": {
+         "@name": "BetterText",
+         "#text": {
+            "string": "\n   Better Quality\n "
+         }
+      },
+      "slider:quality_vs_perf_selection": {
+         "@name": "quality_vs_perf_selection"
+      },
+      "text:ShadersPrefText": {
+         "@name": "ShadersPrefText",
+         "#text": {
+            "string": "\n   Low\n "
+         }
+      },
+      "text:ShadersPrefText2": {
+         "@name": "ShadersPrefText2",
+         "#text": {
+            "string": "\n   Mid\n "
+         }
+      },
+      "text:ShadersPrefText3": {
+         "@name": "ShadersPrefText3",
+         "#text": {
+            "string": "\n   High\n "
+         }
+      },
+      "text:ShadersPrefText4": {
+         "@name": "ShadersPrefText4",
+         "#text": {
+            "string": "\n   Ultra\n "
+         }
+      },
+      "text:quality_desc": {
+         "@name": "quality_desc",
+         "#text": {
+            "string": "\n    Choosing a preset will reset all manual changes you have made.\n  "
+         }
+      },
+      "view_border:border2": {
+         "@name": "border2"
+      },
+      "text:distance_lbl": {
+         "@name": "distance_lbl",
+         "#text": {
+            "string": "\n    Visibility distance\n  "
+         }
+      },
+      "text:faster_lbl": {
+         "@name": "faster_lbl",
+         "#text": {
+            "string": "\n    Faster\n  "
+         }
+      },
+      "slider:draw_distance": {
+         "@name": "draw_distance"
+      },
+      "text:draw_distance_m": {
+         "@name": "draw_distance_m",
+         "#text": {
+            "string": "\n    m\n  "
+         }
+      },
+      "text:farther_lbl": {
+         "@name": "farther_lbl",
+         "#text": {
+            "string": "\n    Farther\n  "
+         }
+      },
+      "text:distance_desc1": {
+         "@name": "distance_desc1",
+         "#text": {
+            "string": "\n     Keep this low for better performance, increase it to see further afield.\n  "
+         }
+      },
+      "view_border:border3": {
+         "@name": "border3"
+      },
+      "text:environment_lbl": {
+         "@name": "environment_lbl",
+         "#text": {
+            "string": "\n    Environment\n  "
+         }
+      },
+      "text:enhancements_desc": {
+         "@name": "enhancements_desc",
+         "#text": {
+            "string": "\nReducing / eliminating shadows can be a boost to FPS but impacts\nthe ambience and appearance of the scene.\n  "
+         }
+      },
+      "text:RenderShadowDetailText": {
+         "@name": "RenderShadowDetailText",
+         "#text": {
+            "string": "\n    Shadow sources:\n  "
+         }
+      },
+      "combo_box:ShadowDetail": {
+         "@name": "ShadowDetail",
+         "combo_box.item:0": {
+            "@label": {
+               "string": "None"
+            },
+            "@name": "0"
+         },
+         "combo_box.item:1": {
+            "@label": {
+               "string": "Sun/Moon"
+            },
+            "@name": "1"
+         },
+         "combo_box.item:2": {
+            "@label": {
+               "string": "Sun/Moon + Projectors"
+            },
+            "@name": "2"
+         }
+      },
+      "text:water_lbl": {
+         "@name": "water_lbl",
+         "#text": {
+            "string": "\n    Water\n  "
+         }
+      },
+      "text:water_desc": {
+         "@name": "water_desc",
+         "#text": {
+            "string": "\n    Reducing water effects quality can greatly improve frame rate.\n  "
+         }
+      },
+      "text:ReflectionsText": {
+         "@name": "ReflectionsText",
+         "#text": {
+            "string": "\n    Water Reflections:\n  "
+         }
+      },
+      "combo_box:Reflections": {
+         "@name": "Reflections",
+         "combo_box.item:-2": {
+            "@label": {
+               "string": "None; opaque"
+            },
+            "@name": "-2"
+         },
+         "combo_box.item:-1": {
+            "@label": {
+               "string": "None; transparent"
+            },
+            "@name": "-1"
+         },
+         "combo_box.item:0": {
+            "@label": {
+               "string": "Minimal"
+            },
+            "@name": "0"
+         },
+         "combo_box.item:1": {
+            "@label": {
+               "string": "Terrain and trees"
+            },
+            "@name": "1"
+         },
+         "combo_box.item:2": {
+            "@label": {
+               "string": "All static objects"
+            },
+            "@name": "2"
+         },
+         "combo_box.item:3": {
+            "@label": {
+               "string": "All avatars and objects"
+            },
+            "@name": "3"
+         },
+         "combo_box.item:4": {
+            "@label": {
+               "string": "Everything"
+            },
+            "@name": "4"
+         }
+      },
+      "view_border:border4": {
+         "@name": "border4"
+      },
+      "text:photo_lbl": {
+         "@name": "photo_lbl",
+         "#text": {
+            "string": "\n    Photography\n  "
+         }
+      },
+      "text:photo_desc": {
+         "@name": "photo_desc",
+         "#text": {
+            "string": "\nPhotographers need high quality, but this is often\nat the cost of frame rate. [APP_NAME] phototools can\nhelp you find the right balance.\n  "
+         }
+      },
+      "button:open_phototools": {
+         "@name": "open_phototools",
+         "@label": {
+            "string": "Phototools"
+         },
+         "@tool_tip": {
+            "string": "Open the dedicated photo tools for advanced photo settings."
+         },
+         "button.init_callback": null
+      }
+   }
+}

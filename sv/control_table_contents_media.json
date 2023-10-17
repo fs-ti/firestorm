@@ -6,10 +6,7 @@
             "@label": {
                "string": "Ljud och Media"
             },
-            "@name": "lst_action",
-            "@value": {
-               "string": "Audio_Press"
-            }
+            "@name": "lst_action"
          }
       },
       "rows:toggle_pause_media": {
@@ -44,7 +41,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": "Toggle Voice"
+               "string": ""
             }
          }
       },
@@ -63,6 +60,15 @@
             "@name": "lst_action",
             "@value": {
                "string": "Starta gest"
+            }
+         }
+      },
+      "rows:script_trigger_lbutton": {
+         "@name": "script_trigger_lbutton",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": ""
             }
          }
       }

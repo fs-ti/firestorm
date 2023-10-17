@@ -10,73 +10,73 @@
             "string": "\n        unknown\n    "
          }
       },
-      "string:postcard_progress_str": {
+      "str_ing:postcard_progress_str": {
          "@name": "postcard_progress_str",
          "#text": {
             "string": "\n        Sending Email\n    "
          }
       },
-      "string:profile_progress_str": {
+      "str_ing:profile_progress_str": {
          "@name": "profile_progress_str",
          "#text": {
             "string": "\n        Posting\n    "
          }
       },
-      "string:inventory_progress_str": {
+      "str_ing:inventory_progress_str": {
          "@name": "inventory_progress_str",
          "#text": {
             "string": "\n        Saving to Inventory\n    "
          }
       },
-      "string:local_progress_str": {
+      "str_ing:local_progress_str": {
          "@name": "local_progress_str",
          "#text": {
             "string": "\n        Saving to Computer\n    "
          }
       },
-      "string:profile_succeeded_str": {
+      "str_ing:profile_succeeded_str": {
          "@name": "profile_succeeded_str",
          "#text": {
             "string": "\n       Image uploaded\n   "
          }
       },
-      "string:postcard_succeeded_str": {
+      "str_ing:postcard_succeeded_str": {
          "@name": "postcard_succeeded_str",
          "#text": {
             "string": "\n       Email Sent!\n   "
          }
       },
-      "string:inventory_succeeded_str": {
+      "str_ing:inventory_succeeded_str": {
          "@name": "inventory_succeeded_str",
          "#text": {
             "string": "\n       Saved to Inventory!\n   "
          }
       },
-      "string:local_succeeded_str": {
+      "str_ing:local_succeeded_str": {
          "@name": "local_succeeded_str",
          "#text": {
             "string": "\n       Saved to Computer!\n   "
          }
       },
-      "string:profile_failed_str": {
+      "str_ing:profile_failed_str": {
          "@name": "profile_failed_str",
          "#text": {
             "string": "\n       Failed to upload image to your Profile Feed.\n   "
          }
       },
-      "string:postcard_failed_str": {
+      "str_ing:postcard_failed_str": {
          "@name": "postcard_failed_str",
          "#text": {
             "string": "\n       Failed to send email.\n   "
          }
       },
-      "string:inventory_failed_str": {
+      "str_ing:inventory_failed_str": {
          "@name": "inventory_failed_str",
          "#text": {
             "string": "\n       Failed to save to inventory.\n   "
          }
       },
-      "string:local_failed_str": {
+      "str_ing:local_failed_str": {
          "@name": "local_failed_str",
          "#text": {
             "string": "\n       Failed to save to computer.\n   "

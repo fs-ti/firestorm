@@ -34,19 +34,19 @@
             "string": "OK"
          }
       },
-      "string:status_idle": {
+      "str_ing:status_idle": {
          "@name": "status_idle",
          "#text": {
             "string": "Idle"
          }
       },
-      "string:status_uploading": {
+      "str_ing:status_uploading": {
          "@name": "status_uploading",
          "#text": {
             "string": "Uploading [NAME]"
          }
       },
-      "string:status_creating": {
+      "str_ing:status_creating": {
          "@name": "status_creating",
          "#text": {
             "string": "Creating object [NAME]"

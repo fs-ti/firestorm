@@ -6,10 +6,7 @@
             "@label": {
                "string": "Camera"
             },
-            "@name": "lst_action",
-            "@value": {
-               "string": "Cam_FreeCam_Off"
-            }
+            "@name": "lst_action"
          }
       },
       "rows:look_up": {

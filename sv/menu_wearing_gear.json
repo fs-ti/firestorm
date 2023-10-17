@@ -3,7 +3,7 @@
       "@name": "Gear Wearing",
       "menu_item_call:touch": {
          "@label": {
-            "string": "Touch"
+            "string": ""
          },
          "@name": "touch",
          "on_click": null,
@@ -19,7 +19,7 @@
       },
       "menu_item_call:takeoff": {
          "@label": {
-            "string": "Take Off"
+            "string": ""
          },
          "@name": "takeoff",
          "on_click": null,
@@ -28,14 +28,14 @@
       "menu_item_separator": null,
       "menu_item_call:edit_outfit": {
          "@label": {
-            "string": "Edit Outfit"
+            "string": ""
          },
          "@name": "edit_outfit",
          "on_click": null
       },
       "menu_item_call:copy": {
          "@label": {
-            "string": "Copy outfit list to clipboard"
+            "string": ""
          },
          "@name": "copy",
          "on_click": null

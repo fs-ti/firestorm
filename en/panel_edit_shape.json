@@ -1,25 +1,30 @@
 {
    "panel": {
       "@name": "edit_shape_panel",
-      "string:meters": {
+      "str_ing:meters": {
          "@name": "meters",
          "#text": {
             "string": "Meters"
          }
       },
-      "string:feet": {
+      "str_ing:feet": {
          "@name": "feet",
          "#text": {
             "string": "Feet"
          }
       },
-      "string:height": {
+      "str_ing:height": {
          "@name": "height",
          "#text": {
             "string": "Height:"
          }
       },
-      "string": null,
+      "string:heigth_label_color": {
+         "@name": "heigth_label_color"
+      },
+      "string:heigth_value_label_color": {
+         "@name": "heigth_value_label_color"
+      },
       "text:avatar_height": {
          "@name": "avatar_height"
       },

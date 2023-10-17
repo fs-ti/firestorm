@@ -1,0 +1,477 @@
+{
+   "panel": {
+      "@name": "panel_profile",
+      "@label": {
+         "string": "Profile"
+      },
+      "str_ing:status_online": {
+         "@name": "status_online",
+         "#text": {
+            "string": "\n        Online\n    "
+         }
+      },
+      "str_ing:status_offline": {
+         "@name": "status_offline",
+         "#text": {
+            "string": "\n        Offline\n    "
+         }
+      },
+      "str_ing:status_unknown": {
+         "@name": "status_unknown",
+         "#text": {
+            "string": "\n        Unknown\n    "
+         }
+      },
+      "str_ing:CaptionTextAcctInfo": {
+         "@name": "CaptionTextAcctInfo",
+         "#text": {
+            "string": "\n       [ACCTTYPE]\n[PAYMENTINFO]\n[FIRESTORM][FSDEV][FSSUPP][FSQA][FSGW]\n    "
+         }
+      },
+      "#comment": "Badges",
+      "str_ing:BadgeBeta": {
+         "@name": "BadgeBeta",
+         "@value": {
+            "string": "Original Beta Tester"
+         }
+      },
+      "str_ing:BadgeBetaLifetime": {
+         "@name": "BadgeBetaLifetime",
+         "@value": {
+            "string": "Beta Lifetime member"
+         }
+      },
+      "str_ing:BadgeLifetime": {
+         "@name": "BadgeLifetime",
+         "@value": {
+            "string": "Lifetime member"
+         }
+      },
+      "str_ing:BadgeLinden": {
+         "@name": "BadgeLinden",
+         "@value": {
+            "string": "Linden Lab employee"
+         }
+      },
+      "str_ing:BadgePremiumLifetime": {
+         "@name": "BadgePremiumLifetime",
+         "@value": {
+            "string": "Premium lifetime"
+         }
+      },
+      "str_ing:BadgePremiumPlusLifetime": {
+         "@name": "BadgePremiumPlusLifetime",
+         "@value": {
+            "string": "Premium Plus lifetime"
+         }
+      },
+      "str_ing:BadgeTeam": {
+         "@name": "BadgeTeam",
+         "@value": {
+            "string": "[APP_NAME] member"
+         }
+      },
+      "str_ing:payment_update_link_url": {
+         "@name": "payment_update_link_url",
+         "#text": {
+            "string": "\n        http://www.secondlife.com/account/billing.php?lang=en\n    "
+         }
+      },
+      "str_ing:partner_edit_link_url": {
+         "@name": "partner_edit_link_url",
+         "#text": {
+            "string": "\n        http://www.secondlife.com/account/partners.php?lang=en\n    "
+         }
+      },
+      "str_ing:my_account_link_url": {
+         "@name": "my_account_link_url",
+         "@value": {
+            "string": "http://secondlife.com/account"
+         }
+      },
+      "str_ing:no_partner_text": {
+         "@name": "no_partner_text",
+         "@value": {
+            "string": "None"
+         }
+      },
+      "str_ing:no_group_text": {
+         "@name": "no_group_text",
+         "@value": {
+            "string": "None"
+         }
+      },
+      "str_ing:age_format": {
+         "@name": "age_format",
+         "#text": {
+            "string": "\n        [REG_DATE]\n([AGE])\n    "
+         }
+      },
+      "str_ing:name_text_args": {
+         "@name": "name_text_args",
+         "#text": {
+            "string": "\n        [NAME]\n    "
+         }
+      },
+      "str_ing:display_name_text_args": {
+         "@name": "display_name_text_args",
+         "#text": {
+            "string": "\n        [DISPLAY_NAME]\n    "
+         }
+      },
+      "str_ing:FSDev": {
+         "@name": "FSDev",
+         "@value": {
+            "string": " Developer"
+         }
+      },
+      "str_ing:FSSupp": {
+         "@name": "FSSupp",
+         "@value": {
+            "string": " Support"
+         }
+      },
+      "str_ing:FSQualityAssurance": {
+         "@name": "FSQualityAssurance",
+         "@value": {
+            "string": " Bug Hunter"
+         }
+      },
+      "str_ing:FSGW": {
+         "@name": "FSGW",
+         "@value": {
+            "string": " Gateway"
+         }
+      },
+      "str_ing:texture_picker_label": {
+         "@name": "texture_picker_label",
+         "@value": {
+            "string": "Profile Picture"
+         }
+      },
+      "text:name_label": {
+         "@name": "name_label",
+         "@value": {
+            "string": "Name:"
+         }
+      },
+      "panel:name_holder": {
+         "@name": "name_holder",
+         "view_border:info_border": {
+            "@name": "info_border"
+         },
+         "text_editor:complete_name": {
+            "@name": "complete_name",
+            "@value": {
+               "string": "(loading...)"
+            }
+         },
+         "menu_button:copy_btn": {
+            "@name": "copy_btn",
+            "@tool_tip": {
+               "string": "Copy options"
+            }
+         }
+      },
+      "button:set_name": {
+         "@name": "set_name",
+         "@tool_tip": {
+            "string": "Set Display Name"
+         }
+      },
+      "icon:can_see_online": {
+         "@tool_tip": {
+            "string": "Friend can see my online status"
+         },
+         "@name": "can_see_online"
+      },
+      "icon:cant_see_online": {
+         "@tool_tip": {
+            "string": "Friend can not see my online status"
+         },
+         "@name": "cant_see_online"
+      },
+      "icon:can_see_on_map": {
+         "@tool_tip": {
+            "string": "Friend can see me on map"
+         },
+         "@name": "can_see_on_map"
+      },
+      "icon:cant_see_on_map": {
+         "@tool_tip": {
+            "string": "Friend can not see me on map"
+         },
+         "@name": "cant_see_on_map"
+      },
+      "icon:can_edit_objects": {
+         "@tool_tip": {
+            "string": "Friend can edit my objects"
+         },
+         "@name": "can_edit_objects"
+      },
+      "icon:cant_edit_objects": {
+         "@tool_tip": {
+            "string": "Friend can not edit my objects"
+         },
+         "@name": "cant_edit_objects"
+      },
+      "text:Key:": {
+         "@name": "Key:",
+         "@value": {
+            "string": "Key:"
+         }
+      },
+      "view_border:info_border2": {
+         "@name": "info_border2"
+      },
+      "text_editor:user_key": {
+         "@name": "user_key",
+         "@value": {
+            "string": "(loading...)"
+         }
+      },
+      "text:status": {
+         "@name": "status"
+      },
+      "panel:indicator_stack": {
+         "@name": "indicator_stack",
+         "loading_indicator:progress_indicator": {
+            "@name": "progress_indicator"
+         }
+      },
+      "layout_stack:imagepositioner": {
+         "@name": "imagepositioner",
+         "layout_panel:image_action_panel": {
+            "@name": "image_action_panel",
+            "menu_button:image_action_btn": {
+               "@name": "image_action_btn",
+               "@tool_tip": {
+                  "string": "Perform profile picture related actions"
+               }
+            }
+         },
+         "layout_panel:image_panel": {
+            "@name": "image_panel",
+            "texture_picker:2nd_life_pic": {
+               "@name": "2nd_life_pic"
+            },
+            "loading_indicator:image_upload_indicator": {
+               "@name": "image_upload_indicator"
+            }
+         },
+         "layout_panel:label_stack": {
+            "@name": "label_stack",
+            "text:label": {
+               "@name": "label",
+               "@value": {
+                  "string": "Birthdate:"
+               }
+            },
+            "view_border:info_border_register_date": {
+               "@name": "info_border_register_date"
+            },
+            "text_editor:user_age": {
+               "@name": "user_age"
+            },
+            "text:label2": {
+               "@name": "label2",
+               "@value": {
+                  "string": "Account:"
+               }
+            },
+            "view_border:info_border_acc_status_text": {
+               "@name": "info_border_acc_status_text"
+            },
+            "layout_stack:badgepositioner": {
+               "@name": "badgepositioner",
+               "layout_panel:badge_layout": {
+                  "@name": "badge_layout",
+                  "icon:badge_icon": {
+                     "@name": "badge_icon",
+                     "@tool_tip": {
+                        "string": "Linden Lab Employee"
+                     }
+                  }
+               },
+               "layout_panel:accountinfo_layout": {
+                  "@name": "accountinfo_layout",
+                  "text_editor:account_info": {
+                     "@name": "account_info"
+                  }
+               }
+            },
+            "text:partner_label": {
+               "@name": "partner_label",
+               "@value": {
+                  "string": "Partner:"
+               }
+            },
+            "view_border:info_border_partner_text": {
+               "@name": "info_border_partner_text"
+            },
+            "text_editor:partner_link": {
+               "@name": "partner_link"
+            }
+         }
+      },
+      "text:About:": {
+         "@name": "About:",
+         "@value": {
+            "string": "About:"
+         }
+      },
+      "view_border:info_border_sl_description_edit": {
+         "@name": "info_border_sl_description_edit"
+      },
+      "text_editor:sl_description_edit": {
+         "@name": "sl_description_edit"
+      },
+      "text:Groups:": {
+         "@name": "Groups:",
+         "@value": {
+            "string": "Groups:"
+         }
+      },
+      "button:group_invite": {
+         "@name": "group_invite",
+         "@label": {
+            "string": "+"
+         },
+         "@tool_tip": {
+            "string": "Invite to Group"
+         }
+      },
+      "group_list:group_list": {
+         "@name": "group_list"
+      },
+      "text:Give item:": {
+         "@name": "Give item:",
+         "@value": {
+            "string": "Share:"
+         }
+      },
+      "view_border:drop_target_rect_vis": {
+         "@name": "drop_target_rect_vis"
+      },
+      "text:Give inventory": {
+         "@name": "Give inventory",
+         "@tool_tip": {
+            "string": "Drop inventory items here to give them to this person."
+         },
+         "#text": {
+            "string": "\n      Drop inventory item here.\n    "
+         }
+      },
+      "layout_stack:buttonstack": {
+         "@name": "buttonstack",
+         "layout_panel:left_buttonstack": {
+            "@name": "left_buttonstack",
+            "button:show_on_map_btn": {
+               "@name": "show_on_map_btn",
+               "@label": {
+                  "string": "Find on Map"
+               },
+               "@tool_tip": {
+                  "string": "Locate the Resident on the map"
+               }
+            },
+            "button:pay": {
+               "@name": "pay",
+               "@label": {
+                  "string": "Pay"
+               },
+               "@tool_tip": {
+                  "string": "Pay money to the Resident"
+               }
+            }
+         },
+         "layout_panel:middle_buttonstack": {
+            "@name": "middle_buttonstack",
+            "button:teleport": {
+               "@name": "teleport",
+               "@label": {
+                  "string": "Offer Teleport"
+               },
+               "@tool_tip": {
+                  "string": "Offer a teleport to the Resident"
+               }
+            },
+            "button:im": {
+               "@name": "im",
+               "@label": {
+                  "string": "Instant Message"
+               },
+               "@tool_tip": {
+                  "string": "Open instant message session"
+               }
+            }
+         },
+         "layout_panel:right_buttonstack": {
+            "@name": "right_buttonstack",
+            "button:add_friend": {
+               "@name": "add_friend",
+               "@label": {
+                  "string": "Add Friend"
+               },
+               "@tool_tip": {
+                  "string": "Offer friendship to the Resident"
+               }
+            },
+            "button:remove_friend": {
+               "@name": "remove_friend",
+               "@label": {
+                  "string": "Remove Friend"
+               },
+               "@tool_tip": {
+                  "string": "Terminate friendship with the Resident"
+               }
+            },
+            "button:block": {
+               "@name": "block",
+               "@label": {
+                  "string": "Block"
+               },
+               "@tool_tip": {
+                  "string": "Block this Resident"
+               }
+            },
+            "button:unblock": {
+               "@name": "unblock",
+               "@label": {
+                  "string": "Unblock"
+               },
+               "@tool_tip": {
+                  "string": "Unblock this Resident"
+               }
+            },
+            "menu_button:overflow_btn": {
+               "@name": "overflow_btn"
+            }
+         }
+      },
+      "check_box:show_in_search": {
+         "@name": "show_in_search",
+         "@label": {
+            "string": "Show in search"
+         },
+         "@tool_tip": {
+            "string": "Let people see you in search results"
+         }
+      },
+      "button:save_description_changes": {
+         "@name": "save_description_changes",
+         "@label": {
+            "string": "Save"
+         }
+      },
+      "button:discard_description_changes": {
+         "@name": "discard_description_changes",
+         "@label": {
+            "string": "Discard"
+         }
+      },
+      "profile_drop_target:drop_target": {
+         "@name": "drop_target"
+      }
+   }
+}

@@ -65,7 +65,16 @@
          },
          "@name": "limit_payment",
          "@tool_tip": {
-            "string": "Residents must have payment information on file to access this estate.  See the [SUPPORT_SITE] for more information."
+            "string": "Residents must have payment information on file to access this estate. See the [SUPPORT_SITE] for more information."
+         }
+      },
+      "check_box:limit_bots": {
+         "@label": {
+            "string": "Must not be a scripted agent"
+         },
+         "@name": "limit_bots",
+         "@tool_tip": {
+            "string": "Residents must not be a scripted agents (bots) to access this estate. See the [SUPPORT_SITE] for more information."
          }
       },
       "check_box:parcel_access_override": {

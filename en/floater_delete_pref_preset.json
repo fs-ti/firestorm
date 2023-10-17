@@ -4,13 +4,13 @@
       "@title": {
          "string": "Delete Pref Preset"
       },
-      "string:title_graphic": {
+      "str_ing:title_graphic": {
          "@name": "title_graphic",
          "#text": {
             "string": "Delete Graphic Preset"
          }
       },
-      "string:title_camera": {
+      "str_ing:title_camera": {
          "@name": "title_camera",
          "#text": {
             "string": "Delete Camera Preset"

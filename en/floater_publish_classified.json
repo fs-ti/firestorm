@@ -14,9 +14,6 @@
          "@label": {
             "string": "Price: L$ "
          },
-         "@value": {
-            "string": "50"
-         },
          "@name": "price_for_listing",
          "@tool_tip": {
             "string": "Price for listing."

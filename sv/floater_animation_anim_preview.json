@@ -1,13 +1,10 @@
 {
    "floater": {
       "@name": "Anim Preview",
-      "@title": {
-         "string": "Animation.Anim"
-      },
       "text:name_label": {
          "@name": "name_label",
          "#text": {
-            "string": "\n        Name:\n    "
+            "string": ""
          }
       },
       "line_editor:name_form": {
@@ -16,7 +13,7 @@
       "text:description_label": {
          "@name": "description_label",
          "#text": {
-            "string": "\n        Description:\n    "
+            "string": ""
          }
       },
       "line_editor:description_form": {

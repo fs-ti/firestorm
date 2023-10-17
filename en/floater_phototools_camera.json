@@ -28,7 +28,7 @@
             "string": "\n    View Object\n  "
          }
       },
-      "string:inactive_combo_text": {
+      "str_ing:inactive_combo_text": {
          "@name": "inactive_combo_text",
          "#text": {
             "string": "Use preset"

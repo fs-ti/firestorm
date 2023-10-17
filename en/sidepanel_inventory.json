@@ -27,13 +27,13 @@
                   "@label": {
                      "string": ""
                   },
-                  "string:InboxLabelWithArg": {
+                  "str_ing:InboxLabelWithArg": {
                      "@name": "InboxLabelWithArg",
                      "#text": {
                         "string": "Received items ([NUM])"
                      }
                   },
-                  "string:InboxLabelNoArg": {
+                  "str_ing:InboxLabelNoArg": {
                      "@name": "InboxLabelNoArg",
                      "#text": {
                         "string": "Received items"
@@ -44,6 +44,12 @@
                         "string": "Received items"
                      },
                      "@name": "inbox_btn"
+                  },
+                  "button:reload_received_items_btn": {
+                     "@name": "reload_received_items_btn",
+                     "@tool_tip": {
+                        "string": "Reload the received items list."
+                     }
                   },
                   "text:inbox_fresh_new_count": {
                      "@name": "inbox_fresh_new_count",

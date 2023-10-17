@@ -1,0 +1,139 @@
+{
+   "toggleable_menu": {
+      "@name": "Avatar Profile Menu",
+      "menu_item_call:im": {
+         "@label": {
+            "string": "IM"
+         },
+         "@name": "im",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:offer_teleport": {
+         "@label": {
+            "string": "Offer Teleport"
+         },
+         "@name": "offer_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:request_teleport": {
+         "@label": {
+            "string": "Request Teleport"
+         },
+         "@name": "request_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:voice_call": {
+         "@label": {
+            "string": "Voice call"
+         },
+         "@name": "voice_call",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:chat_history": {
+         "@label": {
+            "string": "View chat history..."
+         },
+         "@name": "chat_history",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:separator_chat_history": {
+         "@name": "separator_chat_history"
+      },
+      "menu_item_call:add_friend": {
+         "@label": {
+            "string": "Add Friend"
+         },
+         "@name": "add_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:remove_friend": {
+         "@label": {
+            "string": "Remove Friend"
+         },
+         "@name": "remove_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:invite_to_group": {
+         "@label": {
+            "string": "Invite to group..."
+         },
+         "@name": "invite_to_group",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:separator_invite_to_group": {
+         "@name": "separator_invite_to_group"
+      },
+      "menu_item_call:agent_permissions": {
+         "@label": {
+            "string": "Permissions"
+         },
+         "@name": "agent_permissions",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_visible": null
+      },
+      "menu_item_call:map": {
+         "@label": {
+            "string": "Map"
+         },
+         "@name": "map",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:share": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "share",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:pay": {
+         "@label": {
+            "string": "Pay"
+         },
+         "@name": "pay",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_check:block_unblock": {
+         "@label": {
+            "string": "Block/Unblock"
+         },
+         "@name": "block_unblock",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      },
+      "menu_item_separator:separator_copy_options": {
+         "@name": "separator_copy_options"
+      },
+      "menu_item_call:copy_display_name": {
+         "@label": {
+            "string": "Copy Display Name"
+         },
+         "@name": "copy_display_name",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:copy_name": {
+         "@label": {
+            "string": "Copy Agent Name"
+         },
+         "@name": "copy_name",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:copy_id": {
+         "@label": {
+            "string": "Copy Agent Id"
+         },
+         "@name": "copy_id",
+         "menu_item_call.on_click": null
+      }
+   }
+}

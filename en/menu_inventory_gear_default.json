@@ -234,6 +234,16 @@
          "on_check": null
       },
       "#comment$31": " </FS:Zi> ",
+      "#comment$32": " <FS:Zi> FIRE-31369: Add inventory filter for coalesced objects ",
+      "menu_item_check:inventory_filter_coalesced_objects_only": {
+         "@name": "inventory_filter_coalesced_objects_only",
+         "@label": {
+            "string": "Only Coalesced"
+         },
+         "on_click": null,
+         "on_check": null
+      },
+      "#comment$34": " </FS:Zi> ",
       "menu_item_call:empty_trash": {
          "@label": {
             "string": "Empty Trash"

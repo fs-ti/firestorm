@@ -19,6 +19,24 @@
                      "string": "FPS"
                   }
                },
+               "stat_bar:frame_mean": {
+                  "@name": "frame_mean",
+                  "@label": {
+                     "string": "frame (mean)"
+                  }
+               },
+               "stat_bar:frame_median": {
+                  "@name": "frame_median",
+                  "@label": {
+                     "string": "frame (median)"
+                  }
+               },
+               "stat_bar:framet_jitter": {
+                  "@name": "framet_jitter",
+                  "@label": {
+                     "string": "jitter"
+                  }
+               },
                "stat_bar:bandwidth": {
                   "@name": "bandwidth",
                   "@label": {

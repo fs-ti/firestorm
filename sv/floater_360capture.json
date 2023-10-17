@@ -9,7 +9,7 @@
          "text:quality_level_label": {
             "@name": "quality_level_label",
             "#text": {
-               "string": "\n      Quality level\n    "
+               "string": ""
             }
          },
          "radio_group:360_quality_selection": {
@@ -29,7 +29,7 @@
                },
                "@name": "medium_quality",
                "@tool_tip": {
-                  "string": "Medium quality"
+                  "string": ""
                }
             },
             "radio_item:high_quality": {
@@ -78,7 +78,7 @@
          "text:statusbar": {
             "@name": "statusbar",
             "#text": {
-               "string": "\n      Click and drag on the image to pan\n    "
+               "string": ""
             }
          }
       }

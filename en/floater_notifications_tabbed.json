@@ -28,7 +28,7 @@
             "string": "\n    Group ([COUNT])\n  "
          }
       },
-      "string:title_notification_tabbed_window": {
+      "str_ing:title_notification_tabbed_window": {
          "@name": "title_notification_tabbed_window",
          "#text": {
             "string": "\n    Notifications\n  "

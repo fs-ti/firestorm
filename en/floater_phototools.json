@@ -1817,7 +1817,7 @@
                      "stat_bar:fps": {
                         "@name": "fps",
                         "@label": {
-                           "string": "Frames Per Seccond"
+                           "string": "Frames Per Second"
                         },
                         "@tool_tip": {
                            "string": "FPS: The number of times per second your computer is redrawing (or refreshing) what's on the screen. Higher numbers are better. A framerate between 12 to 15 is common for animations, 24 is the standard for motion pictures, and 25 (PAL)/30 (NTSC) frames per second (FPS) is the rate for broadcast television."

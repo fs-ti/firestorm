@@ -1,0 +1,80 @@
+{
+   "panel": {
+      "@name": "panel_performance_complexity",
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:back_lbl": {
+         "@name": "back_lbl",
+         "#text": {
+            "string": "\n    Back\n  "
+         }
+      },
+      "text:attachments_title": {
+         "@name": "attachments_title",
+         "#text": {
+            "string": "\n    Avatar attachment complexity \n  "
+         }
+      },
+      "text:tot_att_count": {
+         "@name": "tot_att_count",
+         "#text": {
+            "string": "\n   Total: 50 (120000.10μs)\n  "
+         }
+      },
+      "text:attachments_desc1": {
+         "@name": "attachments_desc1",
+         "#text": {
+            "string": "\n  Attachments make your avatar more complex and slower to render. \n  "
+         }
+      },
+      "text:attachments_desc2": {
+         "@name": "attachments_desc2",
+         "#text": {
+            "string": "\nThis screen allows you to view the attachments of your own avatar.\n  "
+         }
+      },
+      "text:attachments_desc3": {
+         "@name": "attachments_desc3",
+         "#text": {
+            "string": "\nYou may remove your own attachments quickly and easily by hitting the 'X'.\n  "
+         }
+      },
+      "name_list:obj_list": {
+         "@name": "obj_list",
+         "name_list.columns:art_visual": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "art_visual"
+         },
+         "name_list.columns:art_value": {
+            "@label": {
+               "string": "Time (μs)"
+            },
+            "@name": "art_value",
+            "@tool_tip": {
+               "string": "Time taken to render this attachment (microseconds)"
+            }
+         },
+         "name_list.columns:complex_value": {
+            "@label": {
+               "string": "ARC"
+            },
+            "@name": "complex_value",
+            "@tool_tip": {
+               "string": "Item complexity (ARC)"
+            }
+         },
+         "name_list.columns:name": {
+            "@label": {
+               "string": "Attachment name"
+            },
+            "@tool_tip": {
+               "string": "Click the 'X' to detach"
+            },
+            "@name": "name"
+         }
+      }
+   }
+}

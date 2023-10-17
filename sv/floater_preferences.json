@@ -26,7 +26,7 @@
             },
             "@name": "search_prefs_edit",
             "@tool_tip": {
-               "string": "Type the search term you are interested in here. Results will be displayed for partial fulltext matches within the setting's name or comment."
+               "string": ""
             },
             "search_editor.commit_callback": null,
             "search_editor.clear_button": null,
@@ -35,7 +35,7 @@
          "button:copy_search_slurl_btn": {
             "@name": "copy_search_slurl_btn",
             "@tool_tip": {
-               "string": "Copy search query as SLURL"
+               "string": ""
             },
             "button.commit_callback": null
          }
@@ -116,7 +116,7 @@
          },
          "panel:skins": {
             "@label": {
-               "string": "Skins"
+               "string": ""
             },
             "@name": "skins"
          },

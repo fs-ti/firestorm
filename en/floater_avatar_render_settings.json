@@ -4,13 +4,13 @@
       "@title": {
          "string": "Avatar Display Exceptions"
       },
-      "string:av_never_render": {
+      "str_ing:av_never_render": {
          "@name": "av_never_render",
          "@value": {
             "string": "Never"
          }
       },
-      "string:av_always_render": {
+      "str_ing:av_always_render": {
          "@name": "av_always_render",
          "@value": {
             "string": "Always"

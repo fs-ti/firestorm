@@ -1,31 +1,31 @@
 {
    "panel": {
       "@name": "nearby_media",
-      "string:media_item_count_format": {
+      "str_ing:media_item_count_format": {
          "@name": "media_item_count_format",
          "#text": {
             "string": "(%ld media items)"
          }
       },
-      "string:empty_item_text": {
+      "str_ing:empty_item_text": {
          "@name": "empty_item_text",
          "#text": {
             "string": "&lt;empty&gt;"
          }
       },
-      "string:parcel_media_name": {
+      "str_ing:parcel_media_name": {
          "@name": "parcel_media_name",
          "#text": {
             "string": "Parcel Streaming Media"
          }
       },
-      "string:parcel_audio_name": {
+      "str_ing:parcel_audio_name": {
          "@name": "parcel_audio_name",
          "#text": {
             "string": "Parcel Streaming Audio"
          }
       },
-      "string:playing_suffix": {
+      "str_ing:playing_suffix": {
          "@name": "playing_suffix",
          "#text": {
             "string": "(playing)"

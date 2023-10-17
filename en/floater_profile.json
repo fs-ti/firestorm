@@ -1,0 +1,50 @@
+{
+   "floater": {
+      "@name": "avatarinfo",
+      "@title": {
+         "string": "Profile"
+      },
+      "panel:panel_profile_view": {
+         "@name": "panel_profile_view",
+         "tab_container:panel_profile_tabs": {
+            "@name": "panel_profile_tabs",
+            "panel:panel_profile_secondlife": {
+               "@name": "panel_profile_secondlife",
+               "@label": {
+                  "string": "2nd Life"
+               }
+            },
+            "panel:panel_profile_web": {
+               "@name": "panel_profile_web",
+               "@label": {
+                  "string": "Feed"
+               }
+            },
+            "panel:panel_profile_picks": {
+               "@name": "panel_profile_picks",
+               "@label": {
+                  "string": "Picks"
+               }
+            },
+            "panel:panel_profile_classifieds": {
+               "@name": "panel_profile_classifieds",
+               "@label": {
+                  "string": "Classifieds"
+               }
+            },
+            "panel:panel_profile_firstlife": {
+               "@name": "panel_profile_firstlife",
+               "@label": {
+                  "string": "1st Life"
+               }
+            },
+            "panel:panel_profile_notes": {
+               "@name": "panel_profile_notes",
+               "@label": {
+                  "string": "Notes"
+               }
+            }
+         }
+      }
+   }
+}

@@ -43,7 +43,15 @@
                   "string": "\n                [AREA] m²\n            "
                }
             },
-            "panel.string": null,
+            "panel.string:power_folder_icon": {
+               "@name": "power_folder_icon"
+            },
+            "panel.string:power_all_have_icon": {
+               "@name": "power_all_have_icon"
+            },
+            "panel.string:power_partial_icon": {
+               "@name": "power_partial_icon"
+            },
             "filter_editor:filter_input": {
                "@label": {
                   "string": "Filter Members"
@@ -124,7 +132,15 @@
                   "string": "\n            The 'Everyone' and 'Owners' Roles are special and can't be deleted.\n            "
                }
             },
-            "panel.string": null,
+            "panel.string:power_folder_icon": {
+               "@name": "power_folder_icon"
+            },
+            "panel.string:power_all_have_icon": {
+               "@name": "power_all_have_icon"
+            },
+            "panel.string:power_partial_icon": {
+               "@name": "power_partial_icon"
+            },
             "filter_editor:filter_input": {
                "@label": {
                   "string": "Filter Roles"
@@ -186,7 +202,15 @@
                   "string": "\n                Abilities allow Members in Roles to do specific\nthings in this group. There's a broad variety of Abilities.\n            "
                }
             },
-            "panel.string": null,
+            "panel.string:power_folder_icon": {
+               "@name": "power_folder_icon"
+            },
+            "panel.string:power_all_have_icon": {
+               "@name": "power_all_have_icon"
+            },
+            "panel.string:power_partial_icon": {
+               "@name": "power_partial_icon"
+            },
             "filter_editor:filter_input": {
                "@label": {
                   "string": "Filter Abilities"
@@ -237,6 +261,12 @@
                "#text": {
                   "string": "\n        Ban count: [COUNT]/[LIMIT]\n      "
                }
+            },
+            "filter_editor:filter_input": {
+               "@label": {
+                  "string": "Filter Ban List"
+               },
+               "@name": "filter_input"
             },
             "name_list:ban_list": {
                "@name": "ban_list",

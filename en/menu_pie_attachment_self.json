@@ -91,7 +91,14 @@
                "pie_slice.on_enable": null
             }
          },
-         "pie_separator": null,
+         "pie_slice:Show original": {
+            "@label": {
+               "string": "Show in Inv."
+            },
+            "@name": "Show original",
+            "pie_slice.on_click": null,
+            "pie_slice.on_enable": null
+         },
          "pie_slice:Avatar Inspect": {
             "@label": {
                "string": "Inspect"

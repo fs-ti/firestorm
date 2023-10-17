@@ -1,61 +1,61 @@
 {
    "panel": {
       "@name": "panel_radar",
-      "string:FlagsColumnType": {
+      "str_ing:FlagsColumnType": {
          "@name": "FlagsColumnType",
          "@value": {
             "string": "text"
          }
       },
-      "string:FlagsColumnValue_0": {
+      "str_ing:FlagsColumnValue_0": {
          "@name": "FlagsColumnValue_0",
          "@value": {
             "string": ""
          }
       },
-      "string:FlagsColumnValue_1": {
+      "str_ing:FlagsColumnValue_1": {
          "@name": "FlagsColumnValue_1",
          "@value": {
             "string": "$"
          }
       },
-      "string:FlagsColumnValue_2": {
+      "str_ing:FlagsColumnValue_2": {
          "@name": "FlagsColumnValue_2",
          "@value": {
             "string": "$$"
          }
       },
-      "string:NotesColumnIcon": {
+      "str_ing:NotesColumnIcon": {
          "@name": "NotesColumnIcon",
          "@value": {
             "string": "radarbox_n"
          }
       },
-      "string:SittingColumnIcon": {
+      "str_ing:SittingColumnIcon": {
          "@name": "SittingColumnIcon",
          "@value": {
             "string": "radarbox_s"
          }
       },
-      "string:TypingColumnIcon": {
+      "str_ing:TypingColumnIcon": {
          "@name": "TypingColumnIcon",
          "@value": {
             "string": "radarbox_t"
          }
       },
-      "string:MiniMapToolTipMsg": {
+      "str_ing:MiniMapToolTipMsg": {
          "@name": "MiniMapToolTipMsg",
          "@value": {
             "string": "[REGION] (Double-click to open Map, shift-drag to pan)"
          }
       },
-      "string:AltMiniMapToolTipMsg": {
+      "str_ing:AltMiniMapToolTipMsg": {
          "@name": "AltMiniMapToolTipMsg",
          "@value": {
             "string": "[REGION] (Double-click to teleport, shift-drag to pan)"
          }
       },
-      "string:avatar_name_count": {
+      "str_ing:avatar_name_count": {
          "@name": "avatar_name_count",
          "@value": {
             "string": "Name [[TOTAL]/[IN_REGION]/[IN_CHAT_RANGE]]"

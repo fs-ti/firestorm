@@ -5,22 +5,13 @@
          "string": "About Land"
       },
       "floater.string:maturity_icon_general": {
-         "@name": "maturity_icon_general",
-         "#text": {
-            "string": "\n      \"Parcel_PG_Dark\"\n    "
-         }
+         "@name": "maturity_icon_general"
       },
       "floater.string:maturity_icon_moderate": {
-         "@name": "maturity_icon_moderate",
-         "#text": {
-            "string": "\n      \"Parcel_M_Dark\"\n    "
-         }
+         "@name": "maturity_icon_moderate"
       },
       "floater.string:maturity_icon_adult": {
-         "@name": "maturity_icon_adult",
-         "#text": {
-            "string": "\n      \"Parcel_R_Dark\"\n    "
-         }
+         "@name": "maturity_icon_adult"
       },
       "floater.string:Hours": {
          "@name": "Hours",
@@ -218,7 +209,9 @@
                   "string": "\n                Owner:\n            "
                }
             },
-            "text": null,
+            "text:OwnerText": {
+               "@name": "OwnerText"
+            },
             "button:info_btn": {
                "@name": "info_btn"
             },
@@ -228,6 +221,9 @@
                "#text": {
                   "string": "\n                Group:\n            "
                }
+            },
+            "text:GroupText": {
+               "@name": "GroupText"
             },
             "button:Set...": {
                "@label": {
@@ -320,10 +316,7 @@
                }
             },
             "text:DateClaimText": {
-               "@name": "DateClaimText",
-               "#text": {
-                  "string": "\n                Tue Aug 15 13:47:25 2006\n            "
-               }
+               "@name": "DateClaimText"
             },
             "text:PriceLabel": {
                "@name": "PriceLabel",
@@ -332,10 +325,7 @@
                }
             },
             "text:PriceText": {
-               "@name": "PriceText",
-               "#text": {
-                  "string": "\n                4048 m²\n            "
-               }
+               "@name": "PriceText"
             },
             "text:Traffic:": {
                "@name": "Traffic:",
@@ -458,10 +448,7 @@
                }
             },
             "text:covenant_timestamp_text": {
-               "@name": "covenant_timestamp_text",
-               "#text": {
-                  "string": "\n                Last Modified Wed Dec 31 16:00:00 1969\n            "
-               }
+               "@name": "covenant_timestamp_text"
             },
             "text:region_section_lbl": {
                "@name": "region_section_lbl",
@@ -1335,6 +1322,21 @@
                   "string": "Restrict Voice to this parcel"
                },
                "@name": "parcel_enable_voice_channel_local"
+            },
+            "text:media": {
+               "@name": "media",
+               "#text": {
+                  "string": "\n                Media:\n            "
+               }
+            },
+            "check_box:obscure_moap": {
+               "@label": {
+                  "string": "Restrict MOAP to this parcel"
+               },
+               "@name": "obscure_moap",
+               "@tool_tip": {
+                  "string": "Media on a prim located outside the parcel should not play automatically for an agent within this parcel and vice versa."
+               }
             }
          },
          "panel:land_access_panel": {

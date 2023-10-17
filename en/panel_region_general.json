@@ -44,10 +44,16 @@
          }
       },
       "line_editor:grid_position_x": {
-         "@name": "grid_position_x"
+         "@name": "grid_position_x",
+         "@default_text": {
+            "string": "n/a"
+         }
       },
       "line_editor:grid_position_y": {
-         "@name": "grid_position_y"
+         "@name": "grid_position_y",
+         "@default_text": {
+            "string": "n/a"
+         }
       },
       "text:version_channel_text_lbl": {
          "@name": "version_channel_text_lbl",
@@ -147,42 +153,21 @@
                "string": "Adult"
             },
             "@name": "Adult",
-            "@value": {
-               "string": "42"
-            },
-            "item.columns": {
-               "@value": {
-                  "string": "Parcel_R_Light"
-               }
-            }
+            "item.columns": null
          },
          "icons_combo_box.item:Mature": {
             "@label": {
                "string": "Moderate"
             },
             "@name": "Mature",
-            "@value": {
-               "string": "21"
-            },
-            "item.columns": {
-               "@value": {
-                  "string": "Parcel_M_Light"
-               }
-            }
+            "item.columns": null
          },
          "icons_combo_box.item:PG": {
             "@label": {
                "string": "General"
             },
             "@name": "PG",
-            "@value": {
-               "string": "13"
-            },
-            "item.columns": {
-               "@value": {
-                  "string": "Parcel_PG_Light"
-               }
-            }
+            "item.columns": null
          }
       },
       "button:apply_btn": {

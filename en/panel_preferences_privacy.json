@@ -4,19 +4,19 @@
          "string": "Communication"
       },
       "@name": "im",
-      "string:AutoresponseItemNotSet": {
+      "str_ing:AutoresponseItemNotSet": {
          "@name": "AutoresponseItemNotSet",
          "#text": {
             "string": "\n    No item set\n  "
          }
       },
-      "string:AutoresponseItemNotAvailable": {
+      "str_ing:AutoresponseItemNotAvailable": {
          "@name": "AutoresponseItemNotAvailable",
          "#text": {
             "string": "\n    Item not available\n  "
          }
       },
-      "string:AutoresponseItemNotLoggedIn": {
+      "str_ing:AutoresponseItemNotLoggedIn": {
          "@name": "AutoresponseItemNotLoggedIn",
          "#text": {
             "string": "\n    Not logged in\n  "
@@ -44,7 +44,7 @@
                   "string": "Clear History"
                },
                "@tool_tip": {
-                  "string": "Clear login image, last location, teleport history, web and texture cache"
+                  "string": "Clear search and teleport history, web and texture cache"
                },
                "@name": "clear_webcache",
                "button.commit_callback": null

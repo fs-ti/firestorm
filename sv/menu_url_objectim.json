@@ -3,7 +3,7 @@
       "@name": "Url Popup",
       "menu_item_call:show_object": {
          "@label": {
-            "string": "Object Profile..."
+            "string": ""
          },
          "@name": "show_object",
          "menu_item_call.on_click": null
@@ -32,14 +32,14 @@
       },
       "menu_item_call:teleport_to_object": {
          "@label": {
-            "string": "Teleport to Object Location"
+            "string": ""
          },
          "@name": "teleport_to_object",
          "menu_item_call.on_click": null
       },
       "menu_item_call:url_copy_label": {
          "@label": {
-            "string": "Copy Object Name to clipboard"
+            "string": ""
          },
          "@name": "url_copy_label",
          "menu_item_call.on_click": null

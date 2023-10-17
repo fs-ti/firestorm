@@ -4,31 +4,31 @@
       "@title": {
          "string": "Discord"
       },
-      "string:discord_connected": {
+      "str_ing:discord_connected": {
          "@name": "discord_connected",
          "#text": {
             "string": "You are connected to Discord as:"
          }
       },
-      "string:discord_disconnected": {
+      "str_ing:discord_disconnected": {
          "@name": "discord_disconnected",
          "#text": {
             "string": "Not connected to Discord."
          }
       },
-      "string:SocialDiscordConnecting": {
+      "str_ing:SocialDiscordConnecting": {
          "@name": "SocialDiscordConnecting",
          "#text": {
             "string": "Connecting to Discord..."
          }
       },
-      "string:SocialDiscordErrorConnecting": {
+      "str_ing:SocialDiscordErrorConnecting": {
          "@name": "SocialDiscordErrorConnecting",
          "#text": {
             "string": "Problem connecting to Discord"
          }
       },
-      "string:SocialDiscordDisconnecting": {
+      "str_ing:SocialDiscordDisconnecting": {
          "@name": "SocialDiscordDisconnecting",
          "#text": {
             "string": "Disconnecting from Discord..."

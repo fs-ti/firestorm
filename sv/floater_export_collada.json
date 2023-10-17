@@ -7,13 +7,13 @@
       "floater.string:texture_progress": {
          "@name": "texture_progress",
          "#text": {
-            "string": "\n  Save [OBJECT] Collada: Saving textures ([COUNT] remaining)\n  "
+            "string": ""
          }
       },
       "floater.string:floater_title": {
          "@name": "floater_title",
          "#text": {
-            "string": "\n  Save [OBJECT] as Collada...\n  "
+            "string": ""
          }
       },
       "layout_stack:resizing_stack": {
@@ -23,68 +23,68 @@
             "text:ObjectInfoText": {
                "@name": "ObjectInfoText",
                "#text": {
-                  "string": "\n    Object Info\n  "
+                  "string": ""
                }
             },
             "text:NameText": {
                "@name": "NameText",
                "#text": {
-                  "string": "\n    Name: [NAME]\n  "
+                  "string": ""
                }
             },
             "text:exportable_prims": {
                "@name": "exportable_prims",
                "#text": {
-                  "string": "\n    Exportable prims: [COUNT]/[TOTAL]\n  "
+                  "string": ""
                }
             },
             "text:exportable_textures": {
                "@name": "exportable_textures",
                "#text": {
-                  "string": "\n    Exportable textures: [COUNT]/[TOTAL]\n  "
+                  "string": ""
                }
             },
             "text:OptionsText": {
                "@name": "OptionsText",
                "#text": {
-                  "string": "\n    Options:\n  "
+                  "string": ""
                }
             },
             "check_box:export_textures_check": {
                "@label": {
-                  "string": "Save textures"
+                  "string": ""
                },
                "@name": "export_textures_check",
                "check_box.commit_callback": null
             },
             "check_box:consolidate_check": {
                "@label": {
-                  "string": "Consolidate textures"
+                  "string": ""
                },
                "@name": "consolidate_check"
             },
             "check_box:skip_transparent_check": {
                "@label": {
-                  "string": "Skip transparent"
+                  "string": ""
                },
                "@name": "skip_transparent_check"
             },
             "check_box:texture_params_check": {
                "@label": {
-                  "string": "Apply texture params"
+                  "string": ""
                },
                "@name": "texture_params_check"
             },
             "check_box:single_uv_map_check": {
                "@label": {
-                  "string": "Single UV Map"
+                  "string": ""
                },
                "@name": "single_uv_map_check"
             },
             "text:TextureFormatText": {
                "@name": "TextureFormatText",
                "#text": {
-                  "string": "\n    Texture Format:\n  "
+                  "string": ""
                }
             },
             "combo_box:texture_type_combo": {
@@ -110,7 +110,7 @@
             },
             "button:export_btn": {
                "@label": {
-                  "string": "Save as..."
+                  "string": ""
                },
                "@name": "export_btn"
             }

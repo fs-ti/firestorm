@@ -1,54 +1,6 @@
 {
    "floater": {
       "@name": "panel_im",
-      "floater.string:call_btn_start": {
-         "@name": "call_btn_start",
-         "#text": {
-            "string": "Conv_toolbar_open_call"
-         }
-      },
-      "floater.string:call_btn_stop": {
-         "@name": "call_btn_stop",
-         "#text": {
-            "string": "Conv_toolbar_hang_up"
-         }
-      },
-      "floater.string:collapseline_icon": {
-         "@name": "collapseline_icon",
-         "@value": {
-            "string": "Conv_collapse_to_one_line"
-         }
-      },
-      "floater.string:expandline_icon": {
-         "@name": "expandline_icon",
-         "@value": {
-            "string": "Conv_expand_one_line"
-         }
-      },
-      "floater.string:collapse_icon": {
-         "@name": "collapse_icon",
-         "@value": {
-            "string": "Conv_toolbar_collapse"
-         }
-      },
-      "floater.string:expand_icon": {
-         "@name": "expand_icon",
-         "@value": {
-            "string": "Conv_toolbar_expand"
-         }
-      },
-      "floater.string:tear_off_icon": {
-         "@name": "tear_off_icon",
-         "@value": {
-            "string": "Conv_toolbar_arrow_ne"
-         }
-      },
-      "floater.string:return_icon": {
-         "@name": "return_icon",
-         "@value": {
-            "string": "Conv_toolbar_arrow_sw"
-         }
-      },
       "floater.string:participant_added": {
          "@name": "participant_added",
          "@value": {
@@ -160,15 +112,6 @@
                      "@name": "right_part_holder",
                      "layout_stack:translate_and_chat_stack": {
                         "@name": "translate_and_chat_stack",
-                        "layout_panel:translate_chat_checkbox_lp": {
-                           "@name": "translate_chat_checkbox_lp",
-                           "check_box:translate_chat_checkbox": {
-                              "@label": {
-                                 "string": "Translate chat"
-                              },
-                              "@name": "translate_chat_checkbox"
-                           }
-                        },
                         "layout_panel:chat_holder": {
                            "@name": "chat_holder",
                            "chat_history:chat_history": {

@@ -4,31 +4,31 @@
          "string": "Places"
       },
       "@name": "places panel",
-      "string:landmarks_tab_title": {
+      "str_ing:landmarks_tab_title": {
          "@name": "landmarks_tab_title",
          "@value": {
             "string": "Landmarks"
          }
       },
-      "string:teleport_history_tab_title": {
+      "str_ing:teleport_history_tab_title": {
          "@name": "teleport_history_tab_title",
          "@value": {
             "string": "Teleport History"
          }
       },
-      "string:favorites_tab_title": {
+      "str_ing:favorites_tab_title": {
          "@name": "favorites_tab_title",
          "@value": {
             "string": "Favorites"
          }
       },
-      "string:tooltip_trash_items": {
+      "str_ing:tooltip_trash_items": {
          "@name": "tooltip_trash_items",
          "@value": {
             "string": "Remove selected landmark or folder"
          }
       },
-      "string:tooltip_trash_history": {
+      "str_ing:tooltip_trash_history": {
          "@name": "tooltip_trash_history",
          "@value": {
             "string": "Delete list of visited places"

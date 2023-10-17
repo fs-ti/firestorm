@@ -7,7 +7,7 @@
       "floater.string:NoGroupTitle": {
          "@name": "NoGroupTitle",
          "@value": {
-            "string": "&lt;No group title&gt;"
+            "string": "<No group title>"
          }
       },
       "filter_editor:filter_input": {

@@ -16,8 +16,23 @@
             "string": "Unknown"
          }
       },
+      "button:visibility_hide_btn": {
+         "@name": "visibility_hide_btn",
+         "@tool_tip": {
+            "string": "Hide group on my profile"
+         }
+      },
+      "button:visibility_show_btn": {
+         "@name": "visibility_show_btn",
+         "@tool_tip": {
+            "string": "Show group on my profile"
+         }
+      },
       "button:info_btn": {
-         "@name": "info_btn"
+         "@name": "info_btn",
+         "@tool_tip": {
+            "string": "More info"
+         }
       },
       "#comment": "*TODO: Should only appear on rollover",
       "button:profile_btn": {

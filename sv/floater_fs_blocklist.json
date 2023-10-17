@@ -7,7 +7,7 @@
       "panel:panel_block_list_sidetray": {
          "@name": "panel_block_list_sidetray",
          "@label": {
-            "string": "Blocked Residents & Objects"
+            "string": ""
          }
       }
    }

@@ -1,0 +1,20 @@
+{
+   "toggleable_menu": {
+      "@name": "Copy Paste Light Menu",
+      "menu_item_call:params_copy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "params_copy",
+         "on_click": null
+      },
+      "menu_item_call:params_paste": {
+         "@label": {
+            "string": "Paste"
+         },
+         "@name": "params_paste",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

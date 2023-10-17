@@ -2,18 +2,18 @@
    "floater": {
       "@name": "BeamColor",
       "@title": {
-         "string": "Beam Color rotate"
+         "string": ""
       },
       "floater.string:start_hue": {
          "@name": "start_hue",
          "#text": {
-            "string": "\n    Start Hue\n  "
+            "string": ""
          }
       },
       "floater.string:end_hue": {
          "@name": "end_hue",
          "#text": {
-            "string": "\n    End Hue\n  "
+            "string": ""
          }
       },
       "panel:BeamColor_Picker": {
@@ -22,7 +22,7 @@
       "text:beamcolor_text": {
          "@name": "beamcolor_text",
          "#text": {
-            "string": "\nPlease use the mouse to select the colors for which\nyou wish your beam color to start and stop on.\nLeft click changes start position.\nRight click changes end position.\n  "
+            "string": ""
          }
       },
       "color_swatch:BeamColor_Preview": {
@@ -31,13 +31,13 @@
          },
          "@name": "BeamColor_Preview",
          "@tool_tip": {
-            "string": "Click to open Color Picker"
+            "string": ""
          }
       },
       "text:beamcolor_text2": {
          "@name": "beamcolor_text2",
          "#text": {
-            "string": "\n    Preview\n  "
+            "string": ""
          }
       },
       "slider:BeamColor_Speed": {
@@ -46,7 +46,7 @@
             "string": "Rotationshastighet:"
          },
          "@tool_tip": {
-            "string": "Controls the speed of the color cycle"
+            "string": ""
          }
       },
       "button:BeamColor_Save": {

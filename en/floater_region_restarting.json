@@ -4,13 +4,13 @@
       "@title": {
          "string": "Region Restart"
       },
-      "string:RegionName": {
+      "str_ing:RegionName": {
          "@name": "RegionName",
          "#text": {
             "string": "\n    The region you are in now ([NAME]) is about to restart.\n\nIf you stay in this region you will be logged out.\n    "
          }
       },
-      "string:RestartSeconds": {
+      "str_ing:RestartSeconds": {
          "@name": "RestartSeconds",
          "#text": {
             "string": "\n     Seconds until restart\n[SECONDS]\n    "

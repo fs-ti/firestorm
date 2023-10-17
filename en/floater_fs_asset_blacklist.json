@@ -22,6 +22,12 @@
             "string": "\n    Sound\n  "
          }
       },
+      "floater.string:asset_animation": {
+         "@name": "asset_animation",
+         "#text": {
+            "string": "\n    Animation\n  "
+         }
+      },
       "floater.string:asset_resident": {
          "@name": "asset_resident",
          "#text": {

@@ -2,7 +2,7 @@
    "floater": {
       "@name": "region_tracker",
       "@title": {
-         "string": "Region Tracker"
+         "string": ""
       },
       "icon:dummy_icon": {
          "@name": "dummy_icon"
@@ -34,7 +34,7 @@
       "scroll_list:region_list": {
          "@name": "region_list",
          "@tool_tip": {
-            "string": "Double click an entry to open it on the world map."
+            "string": ""
          },
          "scroll_list.columns:region_label": {
             "@name": "region_label",
@@ -48,7 +48,7 @@
          "scroll_list.columns:region_name": {
             "@name": "region_name",
             "@label": {
-               "string": "Region"
+               "string": ""
             }
          },
          "scroll_list.columns:region_agent_count": {

@@ -1,0 +1,44 @@
+{
+   "context_menu": {
+      "@name": "Toolbars Popup",
+      "menu_item_call:Remove button": {
+         "@label": {
+            "string": "Ta bort den här knappen"
+         },
+         "@name": "Remove button",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:Choose Buttons": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "Choose Buttons",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_check:icons_with_text": {
+         "@label": {
+            "string": "Ikoner och ettiketter"
+         },
+         "@name": "icons_with_text",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:icons_only": {
+         "@label": {
+            "string": "Endast ikoner"
+         },
+         "@name": "icons_only",
+         "on_click": null,
+         "on_check": null
+      },
+      "menu_item_check:toolbars_locked": {
+         "@label": {
+            "string": "Låst"
+         },
+         "@name": "toolbars_locked",
+         "on_check": null,
+         "on_click": null
+      }
+   }
+}

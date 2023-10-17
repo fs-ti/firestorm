@@ -14,14 +14,14 @@
       "menu_item_separator": null,
       "menu_item_call:Choose Buttons": {
          "@label": {
-            "string": "Toolbar buttons..."
+            "string": ""
          },
          "@name": "Choose Buttons",
          "menu_item_call.on_click": null
       },
       "menu_item_check:top_aligned": {
          "@label": {
-            "string": "Top Aligned"
+            "string": ""
          },
          "@name": "top_aligned",
          "on_click": null,
@@ -29,7 +29,7 @@
       },
       "menu_item_check:center_aligned": {
          "@label": {
-            "string": "Center Aligned"
+            "string": ""
          },
          "@name": "center_aligned",
          "on_click": null,
@@ -37,7 +37,7 @@
       },
       "menu_item_check:bottom_aligned": {
          "@label": {
-            "string": "Bottom Aligned"
+            "string": ""
          },
          "@name": "bottom_aligned",
          "on_click": null,

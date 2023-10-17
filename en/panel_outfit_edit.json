@@ -1,25 +1,36 @@
 {
    "panel": {
       "@name": "outfit_edit",
-      "string:No Outfit": {
+      "str_ing:No Outfit": {
          "@name": "No Outfit",
          "@value": {
             "string": "No Outfit"
          }
       },
-      "string:unsaved_changes": {
+      "str_ing:unsaved_changes": {
          "@name": "unsaved_changes",
          "@value": {
             "string": "Unsaved Changes"
          }
       },
-      "string:now_editing": {
+      "str_ing:now_editing": {
          "@name": "now_editing",
          "@value": {
             "string": "Now Editing"
          }
       },
-      "string": null,
+      "string:folder_view_off": {
+         "@name": "folder_view_off"
+      },
+      "string:folder_view_on": {
+         "@name": "folder_view_on"
+      },
+      "string:list_view_off": {
+         "@name": "list_view_off"
+      },
+      "string:list_view_on": {
+         "@name": "list_view_on"
+      },
       "panel.string:not_available": {
          "@name": "not_available",
          "#text": {
@@ -33,37 +44,37 @@
          }
       },
       "#comment": " Wearables filtering strings ",
-      "string:Filter.All": {
+      "str_ing:Filter.All": {
          "@name": "Filter.All",
          "@value": {
             "string": "All"
          }
       },
-      "string:Filter.Clothes/Body": {
+      "str_ing:Filter.Clothes/Body": {
          "@name": "Filter.Clothes/Body",
          "@value": {
             "string": "Clothes/Body"
          }
       },
-      "string:Filter.Objects": {
+      "str_ing:Filter.Objects": {
          "@name": "Filter.Objects",
          "@value": {
             "string": "Objects"
          }
       },
-      "string:Filter.Clothing": {
+      "str_ing:Filter.Clothing": {
          "@name": "Filter.Clothing",
          "@value": {
             "string": "Clothing"
          }
       },
-      "string:Filter.Bodyparts": {
+      "str_ing:Filter.Bodyparts": {
          "@name": "Filter.Bodyparts",
          "@value": {
             "string": "Body parts"
          }
       },
-      "string:replace_body_part": {
+      "str_ing:replace_body_part": {
          "@name": "replace_body_part",
          "@value": {
             "string": "Click to replace your existing shape"
@@ -78,7 +89,7 @@
             "string": "Edit Outfit Parts"
          }
       },
-      "#comment$16": " \"HEADER WITH ICON, STATUS TEXT AND OUTFIT NAME\" ",
+      "#comment$19": " \"HEADER WITH ICON, STATUS TEXT AND OUTFIT NAME\" ",
       "panel:header_panel": {
          "@name": "header_panel",
          "icon:outfit_icon": {
@@ -103,8 +114,8 @@
             }
          }
       },
-      "#comment$18": " LIST OF WEARABLES (CURRENT OUTFIT/ WEARABLES TO ADD) ",
-      "#comment$19": " *NOTE: border_size is used to calculate space between layout panels and also to calculate resize bar's height.\nRequired height for dragbar (icon in spec) is 10, so resizebar height should be 10 px.\nIt is calculated as border_size + 2*UIResizeBarOverlap\n",
+      "#comment$21": " LIST OF WEARABLES (CURRENT OUTFIT/ WEARABLES TO ADD) ",
+      "#comment$22": " *NOTE: border_size is used to calculate space between layout panels and also to calculate resize bar's height.\nRequired height for dragbar (icon in spec) is 10, so resizebar height should be 10 px.\nIt is calculated as border_size + 2*UIResizeBarOverlap\n",
       "layout_stack:im_panels": {
          "@name": "im_panels",
          "layout_panel:outfit_wearables_panel": {
@@ -168,7 +179,7 @@
             }
          }
       },
-      "#comment$21": " BUTTON BAR ",
+      "#comment$24": " BUTTON BAR ",
       "panel:no_add_wearables_button_bar": {
          "@name": "no_add_wearables_button_bar",
          "menu_button:gear_menu_btn": {
@@ -190,7 +201,7 @@
             }
          }
       },
-      "#comment$23": " BUTTON BAR - WEARABLES ADDING MODE ",
+      "#comment$26": " BUTTON BAR - WEARABLES ADDING MODE ",
       "panel:add_wearables_button_bar": {
          "@name": "add_wearables_button_bar",
          "menu_button:wearables_gear_menu_btn": {
@@ -218,7 +229,7 @@
             }
          }
       },
-      "#comment$25": " SAVE AND REVERT BUTTONS ",
+      "#comment$28": " SAVE AND REVERT BUTTONS ",
       "panel:save_revert_button_bar": {
          "@name": "save_revert_button_bar",
          "layout_stack:button_bar_ls": {

@@ -1,0 +1,158 @@
+{
+   "panel": {
+      "@name": "panel_performance_autoadjustments",
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:back_lbl": {
+         "@name": "back_lbl",
+         "#text": {
+            "string": "\n    Back\n  "
+         }
+      },
+      "text:settings_title": {
+         "@name": "settings_title",
+         "#text": {
+            "string": "\n    Preferred frame rate\n  "
+         }
+      },
+      "view_border:border0": {
+         "@name": "border0"
+      },
+      "text:targetfps_desc": {
+         "@name": "targetfps_desc",
+         "#text": {
+            "string": "\n    Desired frame rate\n  "
+         }
+      },
+      "spinner:target_fps": {
+         "@name": "target_fps",
+         "@tool_tip": {
+            "string": "The viewer will attempt to achieve this by adjusting your graphics settings."
+         }
+      },
+      "button:AutoTuneFPS": {
+         "@label": {
+            "string": "Start"
+         },
+         "@name": "AutoTuneFPS",
+         "@tool_tip": {
+            "string": "The viewer will attempt to adjust settings to meet the target FPS."
+         }
+      },
+      "check_box:AutoTuneContinuous": {
+         "@label": {
+            "string": "Continuous"
+         },
+         "@name": "AutoTuneContinuous",
+         "@tool_tip": {
+            "string": "The viewer will continually adapt the settings to meet the target FPS until stopped even with the floater closed. When disabled clicking the Start button will adjust for the current settings then stop."
+         }
+      },
+      "text:settings_desc": {
+         "@name": "settings_desc",
+         "#text": {
+            "string": "\n    Settings affect\n  "
+         }
+      },
+      "combo_box:TuningFPSStrategy": {
+         "@name": "TuningFPSStrategy",
+         "combo_box.item:av_only": {
+            "@label": {
+               "string": "Avatars Only"
+            },
+            "@name": "av_only"
+         },
+         "combo_box.item:av_and_scene": {
+            "@label": {
+               "string": "Avatars and Scene"
+            },
+            "@name": "av_and_scene"
+         },
+         "combo_box.item:scene_only": {
+            "@label": {
+               "string": "World Only"
+            },
+            "@name": "scene_only"
+         }
+      },
+      "view_border:border_vsync": {
+         "@name": "border_vsync"
+      },
+      "text:vsync_desc": {
+         "@name": "vsync_desc",
+         "#text": {
+            "string": "\n    Synchronize the refresh rate and frame rate of a monitor,\n  "
+         }
+      },
+      "text:vsync_desc2": {
+         "@name": "vsync_desc2",
+         "#text": {
+            "string": "\n    which can result in smoother performance.\n  "
+         }
+      },
+      "check_box:vsync": {
+         "@label": {
+            "string": "Enable VSync"
+         },
+         "@name": "vsync",
+         "@tool_tip": {
+            "string": "Enable Vertical synchronization to reduce screen tearing and stuttering."
+         }
+      },
+      "view_border:border1": {
+         "@name": "border1"
+      },
+      "text:simplify_dist_desc": {
+         "@name": "simplify_dist_desc",
+         "#text": {
+            "string": "\n    Reducing detail shown on avatars that are far away will improve graphics speed.\n  "
+         }
+      },
+      "check_box:AutoTuneImpostorByDistEnabled": {
+         "@label": {
+            "string": "Simplify avatars beyond"
+         },
+         "@name": "AutoTuneImpostorByDistEnabled",
+         "@tool_tip": {
+            "string": "When enabled the viewer will adjust the MaxNonImpostors setting to limit fully rendered avatars to those within the defined radius."
+         }
+      },
+      "spinner:ffa_autotune": {
+         "@name": "ffa_autotune"
+      },
+      "text:dist_meters": {
+         "@name": "dist_meters",
+         "#text": {
+            "string": "\n    meters\n  "
+         }
+      },
+      "view_border:border2": {
+         "@name": "border2"
+      },
+      "text:dist_limits_desc": {
+         "@name": "dist_limits_desc",
+         "#text": {
+            "string": "\n    Choose the distance range that automatic settings will affect.\n  "
+         }
+      },
+      "text:min_dist_lbl": {
+         "@name": "min_dist_lbl",
+         "#text": {
+            "string": "\n    Minimum distance\n  "
+         }
+      },
+      "spinner:min_dd_autotune": {
+         "@name": "min_dd_autotune"
+      },
+      "text:pref_dist_lbl": {
+         "@name": "pref_dist_lbl",
+         "#text": {
+            "string": "\n    Maximum distance\n  "
+         }
+      },
+      "spinner:pref_dd_autotune": {
+         "@name": "pref_dd_autotune"
+      }
+   }
+}

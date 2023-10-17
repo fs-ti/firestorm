@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "floater_classified",
+      "@title": {
+         "string": "Classified"
+      },
+      "panel:main_panel": {
+         "@name": "main_panel"
+      }
+   }
+}

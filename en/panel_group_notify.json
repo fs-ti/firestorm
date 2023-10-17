@@ -4,19 +4,19 @@
          "string": "instant_message"
       },
       "@name": "panel_group_notify",
-      "string:message_max_lines_count": {
+      "str_ing:message_max_lines_count": {
          "@name": "message_max_lines_count",
          "@value": {
             "string": "10"
          }
       },
-      "string:subject_font": {
+      "str_ing:subject_font": {
          "@name": "subject_font",
          "@value": {
             "string": "SANSSERIF_BIG"
          }
       },
-      "string:date_font": {
+      "str_ing:date_font": {
          "@name": "date_font",
          "@value": {
             "string": "SANSSERIF"

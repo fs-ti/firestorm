@@ -170,12 +170,12 @@
                },
                "@name": "media_popup_enabled"
             },
-            "#comment": "\n    <button\n     label=\"Adjust proxy settings\"\n     follows=\"left|top\"\n     height=\"23\"\n     width=\"220\"\n     label_selected=\"Adjust proxy settings\"\n     layout=\"topleft\"\n     left=\"15\"\n     top_pad=\"5\"\n     name=\"set_proxy\">\n      <button.commit_callback\n        function=\"Pref.Proxy\" />\n    </button>\n    ",
-            "text:proxy_settings_label": {
-               "@name": "proxy_settings_label",
-               "#text": {
-                  "string": "\n       Your system's existing proxy settings will be used.\n    "
-               }
+            "button:set_proxy": {
+               "@label": {
+                  "string": "Adjust proxy settings"
+               },
+               "@name": "set_proxy",
+               "button.commit_callback": null
             },
             "text:home_page_label_l": {
                "@name": "home_page_label_l",

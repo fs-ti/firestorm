@@ -4,6 +4,30 @@
          "string": "Texture"
       },
       "@name": "Texture",
+      "panel.string:paste_error_face_selection_mismatch": {
+         "@name": "paste_error_face_selection_mismatch",
+         "#text": {
+            "string": "\n              When multiple faces are copied, the target object must have the same number of faces selected.\n            "
+         }
+      },
+      "panel.string:paste_error_object_face_count_mismatch": {
+         "@name": "paste_error_object_face_count_mismatch",
+         "#text": {
+            "string": "\n              When all faces of an object are copied, the target object must have the same number of faces.\n            "
+         }
+      },
+      "panel.string:paste_error_inventory_not_found": {
+         "@name": "paste_error_inventory_not_found",
+         "#text": {
+            "string": "\n              One or more textures not found in inventory.\n            "
+         }
+      },
+      "panel.string:paste_options": {
+         "@name": "paste_options",
+         "#text": {
+            "string": "\n              Copy Texture Parameters to Clipboard\n            "
+         }
+      },
       "text:color label": {
          "@name": "color label",
          "#text": {
@@ -44,6 +68,18 @@
          },
          "@name": "checkbox fullbright"
       },
+      "button:copy_face_btn": {
+         "@name": "copy_face_btn",
+         "@tool_tip": {
+            "string": "Copy Texture Parameters to Clipboard"
+         }
+      },
+      "button:paste_face_btn": {
+         "@name": "paste_face_btn",
+         "@tool_tip": {
+            "string": "Paste Texture Parameters from Clipboard"
+         }
+      },
       "combo_box:combobox matmedia": {
          "@name": "combobox matmedia",
          "combo_box.item:Materials": {
@@ -80,7 +116,7 @@
             "@name": "Shininess (specular)"
          }
       },
-      "#comment$12": " Removed (again) to prefer the name and location of the FS control\n            <check_box\n             control_name=\"SyncMaterialSettings\"\n             follows=\"top|left\"\n             height=\"20\"\n             initial_value=\"false\"\n             label=\"Lock repeat\"\n             layout=\"topleft\"\n             left=\"8\"\n             name=\"checkbox_sync_settings\"\n             tool_tip=\"Adjust all maps repeats simultaneously\"\n             top_pad=\"-16\"\n             width=\"160\" />\n             ",
+      "#comment$18": " Removed (again) to prefer the name and location of the FS control\n            <check_box\n             control_name=\"SyncMaterialSettings\"\n             follows=\"top|left\"\n             height=\"20\"\n             initial_value=\"false\"\n             label=\"Lock repeat\"\n             layout=\"topleft\"\n             left=\"8\"\n             name=\"checkbox_sync_settings\"\n             tool_tip=\"Adjust all maps repeats simultaneously\"\n             top_pad=\"-16\"\n             width=\"160\" />\n             ",
       "texture_picker:texture control": {
          "@label": {
             "string": "Texture"
@@ -326,7 +362,7 @@
             "string": "\n                Color\n            "
          }
       },
-      "#comment$29": " label is blank because control places it below the box ",
+      "#comment$35": " label is blank because control places it below the box ",
       "color_swatch:shinycolorswatch": {
          "@label": {
             "string": ""
@@ -349,8 +385,7 @@
          },
          "@label": {
             "string": "Choose..."
-         },
-         "button.commit_callback": null
+         }
       },
       "button:delete_media": {
          "@name": "delete_media",
@@ -359,8 +394,7 @@
          },
          "@label": {
             "string": "Remove"
-         },
-         "button.commit_callback": null
+         }
       },
       "button:button align": {
          "@label": {
@@ -400,9 +434,6 @@
       },
       "button:flipTextureScaleU": {
          "@name": "flipTextureScaleU",
-         "@label": {
-            "string": ""
-         },
          "@tool_tip": {
             "string": "Flip"
          },
@@ -416,9 +447,6 @@
       },
       "button:flipTextureScaleV": {
          "@name": "flipTextureScaleV",
-         "@label": {
-            "string": ""
-         },
          "@tool_tip": {
             "string": "Flip"
          },
@@ -517,7 +545,7 @@
             "string": "Align textures on all selected faces with the last selected face. Requires Planar texture mapping."
          }
       },
-      "#comment$56": " FS:Beq use Linden Lab control_name with FS control definition (also removes the typo in \"syncronize\" yay )",
+      "#comment$62": " FS:Beq use Linden Lab control_name with FS control definition (also removes the typo in \"syncronize\" yay )",
       "check_box:checkbox_sync_settings": {
          "@label": {
             "string": "Synchronize materials"
@@ -536,20 +564,40 @@
             "string": "Align current texture layers"
          }
       },
-      "button:copytextures": {
-         "@label": {
-            "string": "Copy"
-         },
-         "@name": "copytextures"
-      },
-      "button:pastetextures": {
-         "@label": {
-            "string": "Paste"
-         },
-         "@name": "pastetextures"
-      },
       "web_browser:title_media": {
          "@name": "title_media"
-      }
+      },
+      "#comment$66": " <FS:Zi> Find all faces with same texture ",
+      "button:btn_select_same_diff": {
+         "@label": {
+            "string": "Find All"
+         },
+         "@name": "btn_select_same_diff",
+         "@tool_tip": {
+            "string": "Select all faces with the same diffuse texture as this one"
+         },
+         "button.commit_callback": null
+      },
+      "button:btn_select_same_norm": {
+         "@label": {
+            "string": "Find All"
+         },
+         "@name": "btn_select_same_norm",
+         "@tool_tip": {
+            "string": "Select all faces with the same normal map as this one"
+         },
+         "button.commit_callback": null
+      },
+      "button:btn_select_same_spec": {
+         "@label": {
+            "string": "Find All"
+         },
+         "@name": "btn_select_same_spec",
+         "@tool_tip": {
+            "string": "Select all faces with the same specular map as this one"
+         },
+         "button.commit_callback": null
+      },
+      "#comment$70": " </FS:Zi> "
    }
 }

@@ -28,8 +28,8 @@
             "string": "\nCombination [KEYSTR] is reserved by menu.\n  "
          }
       },
-      "text:descritption": {
-         "@name": "descritption",
+      "text:description": {
+         "@name": "description",
          "#text": {
             "string": "\nPress a key or mouse button to set your trigger.\nAllowed input: [INPUT].\n    "
          }

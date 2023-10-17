@@ -1,0 +1,69 @@
+{
+   "toggleable_menu": {
+      "@name": "Avatar Profile Menu Self",
+      "menu_item_call:edit_display_name": {
+         "@label": {
+            "string": "Edit Display Name"
+         },
+         "@name": "edit_display_name",
+         "on_click": null
+      },
+      "menu_item_call:edit_partner": {
+         "@label": {
+            "string": "Edit Partner"
+         },
+         "@name": "edit_partner",
+         "on_click": null
+      },
+      "menu_item_call:upload_photo": {
+         "@label": {
+            "string": "Upload Photo"
+         },
+         "@name": "upload_photo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:change_photo": {
+         "@label": {
+            "string": "Change Photo"
+         },
+         "@name": "change_photo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:remove_photo": {
+         "@label": {
+            "string": "Remove Photo"
+         },
+         "@name": "remove_photo",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator:separator_copy_options": {
+         "@name": "separator_copy_options"
+      },
+      "menu_item_call:copy_display_name": {
+         "@label": {
+            "string": "Copy Display Name"
+         },
+         "@name": "copy_display_name",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:copy_name": {
+         "@label": {
+            "string": "Copy Agent Name"
+         },
+         "@name": "copy_name",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:copy_id": {
+         "@label": {
+            "string": "Copy Agent Id"
+         },
+         "@name": "copy_id",
+         "menu_item_call.on_click": null
+      }
+   }
+}

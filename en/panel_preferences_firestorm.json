@@ -10,19 +10,19 @@
             "string": "\n  === OFF ===\n"
          }
       },
-      "string:EmbeddedItemNotSet": {
+      "str_ing:EmbeddedItemNotSet": {
          "@name": "EmbeddedItemNotSet",
          "#text": {
             "string": "\n    Not set\n  "
          }
       },
-      "string:EmbeddedItemNotAvailable": {
+      "str_ing:EmbeddedItemNotAvailable": {
          "@name": "EmbeddedItemNotAvailable",
          "#text": {
             "string": "\n    Not available\n  "
          }
       },
-      "string:EmbeddedItemNotLoggedIn": {
+      "str_ing:EmbeddedItemNotLoggedIn": {
          "@name": "EmbeddedItemNotLoggedIn",
          "#text": {
             "string": "\n    Not logged in\n  "
@@ -1152,6 +1152,15 @@
                   "string": "If enabled, you can preview animations during the upload process on your own avatar"
                },
                "@name": "FSUploadAnimationOnOwnAvatar"
+            },
+            "check_box:FSAnimationPreviewExpanded": {
+               "@label": {
+                  "string": "Always expand animation preview advanced information"
+               },
+               "@tool_tip": {
+                  "string": "Expand the advanced animation information in the animation preview floater by default"
+               },
+               "@name": "FSAnimationPreviewExpanded"
             },
             "check_box:FSScriptInfoExtended": {
                "@label": {

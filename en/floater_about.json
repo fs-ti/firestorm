@@ -39,10 +39,7 @@
                }
             },
             "text_editor:contrib_names": {
-               "@name": "contrib_names",
-               "#text": {
-                  "string": "\nDummy Name replaced at run time\n      "
-               }
+               "@name": "contrib_names"
             }
          },
          "panel:fs_credits_panel": {
@@ -61,10 +58,7 @@
                      }
                   },
                   "text:firestorm_names": {
-                     "@name": "firestorm_names",
-                     "#text": {
-                        "string": "\nAnsariel Hiller, ArminWeatherHax, Arrehn Oberlander, Beq Janus, Cinder Roxley, Holy Gavenkrantz, Jessica Lyon, Kadah Coba, Kitty Barnett, Liny Odell, LordGregGreg Back, Mobius Ryba, Nicky Dasmijn, PanteraPolnocy, Selo Jacobus, Tankmaster Finesmith, Techwolf Lupindo, Tonya Souther, Tozh Taurog, Vortex Saito, WoLf Loonie, Wolfspirit Magic and Zi Ree.\n                "
-                     }
+                     "@name": "firestorm_names"
                   },
                   "text:fs_contrib_intro": {
                      "@name": "fs_contrib_intro",
@@ -73,10 +67,7 @@
                      }
                   },
                   "text:fs_contrib_names": {
-                     "@name": "fs_contrib_names",
-                     "#text": {
-                        "string": "\nAlbatroz Hird, Alexie Birman, Andromeda Rage, Angeldark Raymaker, Angus Boyd, Animats, Armin Weatherwax, Beq Janus, Casper Warden, Chalice Yao, Chaser Zaks, Chorazin Allen, Cron Stardust, Damian Zhaoying, Dan Threebeards, Dawa Gurbux, Denver Maksim, Drake Arconis, Felyza Wishbringer, f0rbidden, Fractured Crystal, Geenz Spad, Gibson Firehawk, Hitomi Tiponi, Inusaito Sayori, Jean Severine, Katharine Berry, Kittin Ninetails, Kool Koolhoven, Lance Corrimal, Lassie, Latif Khalifa, Laurent Bechir, Magne Metaverse LLC, Magus Freston, Manami Hokkigai, MartinRJ Fayray, McCabe Maxstead, Melancholy Lemon, Melysmile, Mimika Oh, Mister Acacia, MorganMegan, mygoditsfullofstars, Mysty Saunders, Nagi Michinaga, Name Short, nhede Core, NiranV Dean, Nogardrevlis Lectar, Oren Hurvitz, Paladin Forzane, paperwork, Penny Patton, Peyton Menges, programmtest, Qwerty Venom, Rebecca Ashbourne, Revolution Smythe, Romka Swallowtail, Sahkolihaa Contepomi, sal Kaligawa, Samm Florian, Satomi Ahn, Sei Lisa, Sempervirens Oddfellow, Shin Wasp, Shyotl Kuhr, Sione Lomu, Skills Hak, StarlightShining, Sunset Faulkes, Testicular Slingshot, Thickbrick Sleaford, Ubit Umarov, Vaalith Jinn, Vincent Sylvester, Whirly Fizzle, Xenhat Liamano, Zwagoth Klaar and others.\n                "
-                     }
+                     "@name": "fs_contrib_names"
                   },
                   "text:fs_support_intro": {
                      "@name": "fs_support_intro",
@@ -97,10 +88,7 @@
                      }
                   },
                   "text:fs_artists_names": {
-                     "@name": "fs_artists_names",
-                     "#text": {
-                        "string": "\nAdam Frisby, Alexandrea Fride, DarkAgent Baphomet, David Rowe, Digital Scribe, Hitomi Tiponi, Hugh Helendale, KirstenLee Cinquetti, Mobius Ryba, Nadin, Naomah Beaumont, Paladin Forzane, psi Merlin, samm florian, Sammie Benoir, Tommi Waydelich and Vincent Nacon.\n                "
-                     }
+                     "@name": "fs_artists_names"
                   }
                }
             }
@@ -113,7 +101,7 @@
             "text_editor:licenses_editor": {
                "@name": "licenses_editor",
                "#text": {
-                  "string": "\n3Dconnexion SDK Copyright (C) 1992-2009 3Dconnexion\nAPR Copyright (C) 2011 The Apache Software Foundation\nCollada DOM Copyright 2006 Sony Computer Entertainment Inc.\ncURL Copyright (C) 1996-2010, Daniel Stenberg, (daniel@haxx.se)\nDBus/dbus-glib Copyright (C) 2002, 2003 CodeFactory AB / Copyright (C) 2003, 2004 Red Hat, Inc.\nexpat Copyright (C) 1998, 1999, 2000 Thai Open Source Software Center Ltd.\nFMOD Sound System, Copyright (C) Firelight Technologies Pty, Ltd., 1994-2020\nFreeType Copyright (C) 1996-2002, 2006 David Turner, Robert Wilhelm, and Werner Lemberg.\nGL Copyright (C) 1999-2004 Brian Paul.\nGLOD Copyright (C) 2003-04 Jonathan Cohen, Nat Duca, Chris Niski, Johns Hopkins University and David Luebke, Brenden Schubert, University of Virginia.\nHavok.com(TM) Copyright (C) 1999-2001, Telekinesys Research Limited.\nHACD Copyright (C) 2011, Khaled Mamou (kmamou@gmail.com)\njpeg2000 Copyright (C) 2001, David Taubman, The University of New South Wales (UNSW)\njpeglib Copyright (C) 1991-1998, Thomas G. Lane.\nogg/vorbis Copyright (C) 2002, Xiphophorus\nOpenSSL Copyright (C) 1998-2008 The OpenSSL Project.\nPCRE Copyright (c) 1997-2012 University of Cambridge\nSDL Copyright (C) 1997, 1998, 1999, 2000, 2001, 2002 Sam Lantinga\nSSLeay Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)\nxmlrpc-epi Copyright (C) 2000 Epinions, Inc.\nzlib Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler.\nSome icons by Joseph Wain / glyphish.com\n\nSecond Life Viewer uses Havok (TM) Physics. (c)Copyright 1999-2010 Havok.com Inc. (and its Licensors). All Rights Reserved. See www.havok.com for details.\n\nThis software contains source code provided by NVIDIA Corporation.\n\nAll rights reserved. See licenses.txt for details.\n\nVoice chat Audio coding: Polycom(R) Siren14(TM) (ITU-T Rec. G.722.1 Annex C)\n      "
+                  "string": "\n3Dconnexion SDK Copyright (C) 1992-2009 3Dconnexion\nAPR Copyright (C) 2011 The Apache Software Foundation\nCollada DOM Copyright 2006 Sony Computer Entertainment Inc.\ncURL Copyright (C) 1996-2010, Daniel Stenberg, (daniel@haxx.se)\nDBus/dbus-glib Copyright (C) 2002, 2003 CodeFactory AB / Copyright (C) 2003, 2004 Red Hat, Inc.\nexpat Copyright (C) 1998, 1999, 2000 Thai Open Source Software Center Ltd.\nFMOD Sound System, Copyright (C) Firelight Technologies Pty, Ltd., 1994-2020\nFreeType Copyright (C) 1996-2002, 2006 David Turner, Robert Wilhelm, and Werner Lemberg.\nGL Copyright (C) 1999-2004 Brian Paul.\nGLOD Copyright (C) 2003-04 Jonathan Cohen, Nat Duca, Chris Niski, Johns Hopkins University and David Luebke, Brenden Schubert, University of Virginia.\nHavok.com(TM) Copyright (C) 1999-2001, Telekinesys Research Limited.\nHACD Copyright (C) 2011, Khaled Mamou (kmamou@gmail.com)\njpeg2000 Copyright (C) 2001, David Taubman, The University of New South Wales (UNSW)\njpeglib Copyright (C) 1991-1998, Thomas G. Lane.\nmeshoptimizer Copyright (c) 2016-2021 Arseny Kapoulkine\nogg/vorbis Copyright (C) 2002, Xiphophorus\nOpenSSL Copyright (C) 1998-2008 The OpenSSL Project.\nPCRE Copyright (c) 1997-2012 University of Cambridge\nSDL Copyright (C) 1997, 1998, 1999, 2000, 2001, 2002 Sam Lantinga\nSSLeay Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)\nxmlrpc-epi Copyright (C) 2000 Epinions, Inc.\nxxHash Copyright (C) 2012-2020 Yann Collet.\nzlib Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler.\nSome icons by Joseph Wain / glyphish.com\n\nSecond Life Viewer uses Havok (TM) Physics. (c)Copyright 1999-2010 Havok.com Inc. (and its Licensors). All Rights Reserved. See www.havok.com for details.\n\nThis software contains source code provided by NVIDIA Corporation.\n\nAll rights reserved. See licenses.txt for details.\n\nVoice chat Audio coding: Polycom(R) Siren14(TM) (ITU-T Rec. G.722.1 Annex C)\n      "
                }
             }
          }

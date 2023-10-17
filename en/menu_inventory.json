@@ -568,6 +568,20 @@
          "@name": "Show in Main Panel",
          "menu_item_call.on_click": null
       },
+      "menu_item_call:Show in new Window": {
+         "@label": {
+            "string": "Show in new Window"
+         },
+         "@name": "Show in new Window",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:ReloadFolder": {
+         "@label": {
+            "string": "Reload Folder"
+         },
+         "@name": "ReloadFolder",
+         "menu_item_call.on_click": null
+      },
       "menu_item_call:Restore to Last Position": {
          "@label": {
             "string": "Restore to Last Position"
@@ -656,6 +670,23 @@
             "string": "Delete System Folder"
          },
          "@name": "Delete System Folder",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_separator:Subfolder Separator": {
+         "@name": "Subfolder Separator"
+      },
+      "menu_item_call:New folder from selected": {
+         "@label": {
+            "string": "Create Folder From Selected"
+         },
+         "@name": "New folder from selected",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:Ungroup folder items": {
+         "@label": {
+            "string": "Ungroup Folder Items"
+         },
+         "@name": "Ungroup folder items",
          "menu_item_call.on_click": null
       },
       "menu_item_separator": null,

@@ -4,28 +4,40 @@
       "@title": {
          "string": "Chat Translation Settings"
       },
-      "string:bing_api_key_not_verified": {
-         "@name": "bing_api_key_not_verified",
+      "str_ing:azure_api_key_not_verified": {
+         "@name": "azure_api_key_not_verified",
          "#text": {
-            "string": "Bing appID not verified. Please try again."
+            "string": "Azure service identifier not verified. Status: [STATUS]. Please check your settings and try again."
          }
       },
-      "string:google_api_key_not_verified": {
+      "str_ing:google_api_key_not_verified": {
          "@name": "google_api_key_not_verified",
          "#text": {
-            "string": "Google API key not verified. Please try again."
+            "string": "Google API key not verified. Status: [STATUS]. Please check your key and try again."
          }
       },
-      "string:bing_api_key_verified": {
-         "@name": "bing_api_key_verified",
+      "str_ing:deepl_api_key_not_verified": {
+         "@name": "deepl_api_key_not_verified",
          "#text": {
-            "string": "Bing appID verified."
+            "string": "DeepL Auth Key key not verified. Status: [STATUS]. Please check your key and try again."
          }
       },
-      "string:google_api_key_verified": {
+      "str_ing:azure_api_key_verified": {
+         "@name": "azure_api_key_verified",
+         "#text": {
+            "string": "Azure service identifier verified."
+         }
+      },
+      "str_ing:google_api_key_verified": {
          "@name": "google_api_key_verified",
          "#text": {
             "string": "Google API key verified."
+         }
+      },
+      "str_ing:deepl_api_key_verified": {
+         "@name": "deepl_api_key_verified",
+         "#text": {
+            "string": "DeepL API key verified."
          }
       },
       "check_box:translate_chat_checkbox": {
@@ -154,36 +166,96 @@
       },
       "radio_group:translation_service_rg": {
          "@name": "translation_service_rg",
-         "radio_item:bing": {
+         "radio_item:azure": {
             "@label": {
-               "string": "Bing Translator"
+               "string": "Azure Translator"
             },
-            "@name": "bing"
+            "@name": "azure"
          },
          "radio_item:google": {
             "@label": {
                "string": "Google Translate"
             },
             "@name": "google"
-         }
-      },
-      "text:bing_api_key_label": {
-         "@name": "bing_api_key_label",
-         "#text": {
-            "string": "\n  Bing [http://www.bing.com/developers/createapp.aspx AppID]:\n  "
-         }
-      },
-      "line_editor:bing_api_key": {
-         "@default_text": {
-            "string": "Enter Bing AppID and click \"Verify\""
          },
-         "@name": "bing_api_key"
+         "radio_item:deepl": {
+            "@label": {
+               "string": "DeepL Translator"
+            },
+            "@name": "deepl"
+         }
       },
-      "button:verify_bing_api_key_btn": {
+      "text:google_links_text": {
+         "@name": "google_links_text",
+         "#text": {
+            "string": "\n  [http://code.google.com/apis/language/translate/v2/pricing.html Pricing] | [https://code.google.com/apis/console Stats] \n "
+         }
+      },
+      "text:azure_api_endoint_label": {
+         "@name": "azure_api_endoint_label",
+         "#text": {
+            "string": "\n    Endpoint:\n  "
+         }
+      },
+      "combo_box:azure_api_endpoint_combo": {
+         "@name": "azure_api_endpoint_combo",
+         "@value": {
+            "string": "https://api.cognitive.microsofttranslator.com"
+         },
+         "combo_box.item:global": {
+            "@label": {
+               "string": "https://api.cognitive.microsofttranslator.com"
+            },
+            "@name": "global"
+         },
+         "combo_box.item:api-apc": {
+            "@label": {
+               "string": "https://api-apc.cognitive.microsofttranslator.com"
+            },
+            "@name": "api-apc"
+         },
+         "combo_box.item:api-eur": {
+            "@label": {
+               "string": "https://api-eur.cognitive.microsofttranslator.com"
+            },
+            "@name": "api-eur"
+         },
+         "combo_box.item:api-nam": {
+            "@label": {
+               "string": "https://api-nam.cognitive.microsofttranslator.com"
+            },
+            "@name": "api-nam"
+         }
+      },
+      "text:azure_api_key_label": {
+         "@name": "azure_api_key_label",
+         "#text": {
+            "string": "\n  Azure Key:\n  "
+         }
+      },
+      "line_editor:azure_api_key": {
+         "@default_text": {
+            "string": "Enter Translator Key and click \"Verify\""
+         },
+         "@name": "azure_api_key"
+      },
+      "text:azure_api_region_label": {
+         "@name": "azure_api_region_label",
+         "#text": {
+            "string": "\n    Region:\n  "
+         }
+      },
+      "line_editor:azure_api_region": {
+         "@default_text": {
+            "string": "Can be left empty for global services"
+         },
+         "@name": "azure_api_region"
+      },
+      "button:verify_azure_api_key_btn": {
          "@label": {
             "string": "Verify"
          },
-         "@name": "verify_bing_api_key_btn"
+         "@name": "verify_azure_api_key_btn"
       },
       "text:google_api_key_label": {
          "@name": "google_api_key_label",
@@ -203,10 +275,52 @@
          },
          "@name": "verify_google_api_key_btn"
       },
-      "text:google_links_text": {
-         "@name": "google_links_text",
+      "text:deepl_api_domain_label": {
+         "@name": "deepl_api_domain_label",
          "#text": {
-            "string": "\n  [http://code.google.com/apis/language/translate/v2/pricing.html Pricing] | [https://code.google.com/apis/console Stats] \n "
+            "string": "\n        Endpoint:\n    "
+         }
+      },
+      "combo_box:deepl_api_domain_combo": {
+         "@name": "deepl_api_domain_combo",
+         "@value": {
+            "string": "https://api-free.deepl.com"
+         },
+         "combo_box.item:global": {
+            "@label": {
+               "string": "DeepL Free"
+            },
+            "@name": "global"
+         },
+         "combo_box.item:api-apc": {
+            "@label": {
+               "string": "DeepL Pro"
+            },
+            "@name": "api-apc"
+         }
+      },
+      "text:deepl_api_key_label": {
+         "@name": "deepl_api_key_label",
+         "#text": {
+            "string": "\n      DeepL API key:\n    "
+         }
+      },
+      "line_editor:deepl_api_key": {
+         "@default_text": {
+            "string": "Enter DeepL API key and click \"Verify\""
+         },
+         "@name": "deepl_api_key"
+      },
+      "button:verify_deepl_api_key_btn": {
+         "@label": {
+            "string": "Verify"
+         },
+         "@name": "verify_deepl_api_key_btn"
+      },
+      "text:deepl_links_text": {
+         "@name": "deepl_links_text",
+         "#text": {
+            "string": "\n        [https://www.deepl.com/pro/select-country?cta=header-prices Pricing]\n    "
          }
       },
       "button:ok_btn": {

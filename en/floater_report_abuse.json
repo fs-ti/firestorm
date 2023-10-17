@@ -10,6 +10,12 @@
             "string": "\n        Screenshot\n    "
          }
       },
+      "floater.string:chat_report_format": {
+         "@name": "chat_report_format",
+         "#text": {
+            "string": "\nTime: [MSG_TIME]\nText: [MSG_DESCRIPTION]\n    "
+         }
+      },
       "texture_picker:screenshot": {
          "@name": "screenshot"
       },
@@ -25,7 +31,9 @@
             "string": "\n        Reporter:\n    "
          }
       },
-      "text": null,
+      "text:reporter_field": {
+         "@name": "reporter_field"
+      },
       "text:sim_title": {
          "@name": "sim_title",
          "#text": {
@@ -68,11 +76,17 @@
             "string": "\n        Object:\n    "
          }
       },
+      "text:object_name": {
+         "@name": "object_name"
+      },
       "text:owner_name_label": {
          "@name": "owner_name_label",
          "#text": {
             "string": "\n        Owner:\n    "
          }
+      },
+      "text:owner_name": {
+         "@name": "owner_name"
       },
       "combo_box:category_combo": {
          "@name": "category_combo",

@@ -6,10 +6,7 @@
             "@label": {
                "string": "Redigerar"
             },
-            "@name": "lst_action",
-            "@value": {
-               "string": "Tool_Dozer"
-            }
+            "@name": "lst_action"
          }
       },
       "rows:edit_avatar_spin_ccw": {
@@ -17,7 +14,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": "Camera spin around avatar counterclockwise"
+               "string": ""
             },
             "@value": {
                "string": "Moturs"
@@ -29,7 +26,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": "Camera spin around avatar clockwise"
+               "string": ""
             },
             "@value": {
                "string": "Medurs"
@@ -41,10 +38,10 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": "Camera spin over avatar"
+               "string": ""
             },
             "@value": {
-               "string": "Camera Spin Over"
+               "string": ""
             }
          }
       },
@@ -53,10 +50,10 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": "Camera spin under avatar"
+               "string": ""
             },
             "@value": {
-               "string": "Camera Spin Under"
+               "string": ""
             }
          }
       },
@@ -65,7 +62,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": "Camera Forward"
+               "string": ""
             }
          }
       },
@@ -74,7 +71,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": "Camera Backward"
+               "string": ""
             }
          }
       }

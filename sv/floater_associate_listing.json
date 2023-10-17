@@ -2,18 +2,19 @@
    "floater": {
       "@name": "associate listing",
       "@title": {
-         "string": "Associate Listing"
+         "string": ""
       },
       "text:message": {
          "@name": "message",
          "#text": {
-            "string": "\n        Listing ID:\n    "
+            "string": ""
          }
       },
+      "#comment": "listing_id is a positive S32",
       "line_editor:listing_id": {
          "@name": "listing_id",
          "#text": {
-            "string": "\n        Type ID here\n    "
+            "string": ""
          }
       },
       "button:OK": {

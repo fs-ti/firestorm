@@ -8,20 +8,20 @@
          "@name": "buttons_panel",
          "filter_editor:people_filter_input": {
             "@label": {
-               "string": "Filter People"
+               "string": ""
             },
             "@name": "people_filter_input"
          },
          "menu_button:conversations_gear_btn": {
             "@name": "conversations_gear_btn",
             "@tool_tip": {
-               "string": "Actions on selected person or group"
+               "string": ""
             }
          },
          "menu_button:conversation_view_btn": {
             "@name": "conversation_view_btn",
             "@tool_tip": {
-               "string": "View/sort options"
+               "string": ""
             }
          }
       },

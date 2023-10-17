@@ -7,25 +7,25 @@
       "floater.string:no_copy_text": {
          "@name": "no_copy_text",
          "#text": {
-            "string": "\n        (no copy)\n    "
+            "string": ""
          }
       },
       "floater.string:no_modify_text": {
          "@name": "no_modify_text",
          "#text": {
-            "string": "\n        (no modify)\n    "
+            "string": ""
          }
       },
       "floater.string:no_transfer_text": {
          "@name": "no_transfer_text",
          "#text": {
-            "string": "\n        (no transfer)\n    "
+            "string": ""
          }
       },
       "text:contains_text": {
          "@name": "contains_text",
          "#text": {
-            "string": "\n        &lt;nolink&gt;[NAME]&lt;/nolink&gt; contains:\n    "
+            "string": ""
          }
       },
       "scroll_list:item_list": {
@@ -40,12 +40,12 @@
       "text:buy_text": {
          "@name": "buy_text",
          "#text": {
-            "string": "\n        Buy for L$[AMOUNT] from [NAME]?\n    "
+            "string": ""
          }
       },
       "check_box:wear_check": {
          "@label": {
-            "string": "Wear clothing now"
+            "string": ""
          },
          "@name": "wear_check"
       },

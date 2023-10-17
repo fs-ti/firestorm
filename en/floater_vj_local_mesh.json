@@ -1,0 +1,222 @@
+{
+   "floater": {
+      "@name": "Local Mesh",
+      "@title": {
+         "string": "Local Mesh"
+      },
+      "tab_container:local_mesh_tabs": {
+         "@name": "local_mesh_tabs",
+         "last_tab": null,
+         "panel:local_mesh_assets_panel": {
+            "@name": "local_mesh_assets_panel",
+            "@label": {
+               "string": "Local Mesh Assets"
+            },
+            "@title": {
+               "string": "Local Mesh Assets"
+            },
+            "fs_scroll_list:l_name_list": {
+               "@name": "l_name_list",
+               "column:unit_status": {
+                  "@name": "unit_status",
+                  "@label": {
+                     "string": "Status"
+                  }
+               },
+               "column:unit_name": {
+                  "@name": "unit_name",
+                  "@label": {
+                     "string": "Name"
+                  }
+               },
+               "column:unit_lods": {
+                  "@name": "unit_lods",
+                  "@label": {
+                     "string": "LODs"
+                  }
+               },
+               "column:unit_objects": {
+                  "@name": "unit_objects",
+                  "@label": {
+                     "string": "Objects"
+                  }
+               },
+               "column:unit_id_HIDDEN": {
+                  "@name": "unit_id_HIDDEN",
+                  "@label": {
+                     "string": "ID"
+                  }
+               }
+            }
+         },
+         "panel:logs_panel": {
+            "@name": "logs_panel",
+            "@label": {
+               "string": "Log"
+            },
+            "view_border:local_mesh_log_tab_border": {
+               "@name": "local_mesh_log_tab_border"
+            },
+            "text_editor:local_mesh_log": {
+               "@name": "local_mesh_log"
+            }
+         },
+         "panel:local_mesh_settings_panel": {
+            "@name": "local_mesh_settings_panel",
+            "@label": {
+               "string": "Settings"
+            },
+            "view_border:local_mesh_settings_tab_border": {
+               "@name": "local_mesh_settings_tab_border"
+            },
+            "check_box:local_mesh_scale_use_meters": {
+               "@name": "local_mesh_scale_use_meters",
+               "@label": {
+                  "string": "Assume scale is in meters."
+               },
+               "@tool_tip": {
+                  "string": "Ignore the cm scale units used by tools such as Maya"
+               }
+            },
+            "text:lod_suffix_label": {
+               "@name": "lod_suffix_label",
+               "#text": {
+                  "string": "\n          LOD Suffixes:\n      "
+               }
+            },
+            "combo_box:lod_suffix_combo": {
+               "@name": "lod_suffix_combo",
+               "@tool_tip": {
+                  "string": "Choose a standard or manually edit... || SL default - (Lowest is LOD0, High has no suffix). || Game Engine - Unity/UE5, etc. (Lowest=LOD3, High=LOD0). || LOD Names - English LOD names, (Lowest='LOWEST', High='HIGH')."
+               },
+               "combo_item:choose_one": {
+                  "@name": "choose_one",
+                  "#text": {
+                     "string": "Current"
+                  }
+               },
+               "combo_item:suff_sl": {
+                  "@name": "suff_sl",
+                  "#text": {
+                     "string": "SL Standard"
+                  }
+               },
+               "combo_item:suff_unity": {
+                  "@name": "suff_unity",
+                  "#text": {
+                     "string": "Games Engine Standard"
+                  }
+               },
+               "combo_item:suff_descriptive": {
+                  "@name": "suff_descriptive",
+                  "#text": {
+                     "string": "LOD Names"
+                  }
+               }
+            },
+            "text:suf_lowest_lab": {
+               "@name": "suf_lowest_lab",
+               "#text": {
+                  "string": "\n          Lowest:\n      "
+               }
+            },
+            "line_editor:suf_lowest": {
+               "@name": "suf_lowest",
+               "@tool_tip": {
+                  "string": "The Suffix used to identify the Lowest LOD file on disk and models within a file."
+               }
+            },
+            "text:suf_low_lab": {
+               "@name": "suf_low_lab",
+               "#text": {
+                  "string": "\n        Low:\n      "
+               }
+            },
+            "line_editor:suf_low": {
+               "@name": "suf_low",
+               "@tool_tip": {
+                  "string": "The Suffix used to identify the Low LOD file on disk and models within a file."
+               }
+            },
+            "text:suf_medium_lab": {
+               "@name": "suf_medium_lab",
+               "#text": {
+                  "string": "\n        Medium:\n      "
+               }
+            },
+            "line_editor:suf_medium": {
+               "@name": "suf_medium",
+               "@tool_tip": {
+                  "string": "The Suffix used to identify the Medium LOD file on disk and models within a file."
+               }
+            },
+            "text:suf_high_lab": {
+               "@name": "suf_high_lab",
+               "#text": {
+                  "string": "\n      High:\n      "
+               }
+            },
+            "line_editor:suf_high": {
+               "@name": "suf_high",
+               "@tool_tip": {
+                  "string": "The Suffix used to identify the High LOD file on disk and models within a file."
+               }
+            },
+            "text:suf_physics_lab": {
+               "@name": "suf_physics_lab",
+               "#text": {
+                  "string": "\n        Physics:\n      "
+               }
+            },
+            "line_editor:suf_physics": {
+               "@name": "suf_physics",
+               "@tool_tip": {
+                  "string": "The Suffix used to identify the Physics file on disk and models within a file."
+               }
+            }
+         }
+      },
+      "button:btn_apply": {
+         "@name": "btn_apply",
+         "@label": {
+            "string": "Apply"
+         }
+      },
+      "combo_box:object_apply_list": {
+         "@name": "object_apply_list"
+      },
+      "button:btn_add": {
+         "@name": "btn_add",
+         "@label": {
+            "string": "Add"
+         }
+      },
+      "button:btn_remove": {
+         "@name": "btn_remove",
+         "@label": {
+            "string": "Remove"
+         }
+      },
+      "button:btn_reload": {
+         "@name": "btn_reload",
+         "@label": {
+            "string": "Reload"
+         }
+      },
+      "button:btn_clear": {
+         "@name": "btn_clear",
+         "@label": {
+            "string": "Clear"
+         }
+      },
+      "button:btn_rez": {
+         "@name": "btn_rez",
+         "@label": {
+            "string": "Rez Selected"
+         },
+         "@tool_tip": {
+            "string": "Create a donor mesh inworld and populate with selected local mesh. This creates an empty object in-world."
+         }
+      }
+   }
+}

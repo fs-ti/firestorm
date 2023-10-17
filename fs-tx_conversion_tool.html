@@ -1,0 +1,549 @@
+<html>
+<head>
+   <title>Firestorm XML - Transifex JSON language file format conversion tool</title>
+   <style>
+      * {color-scheme: dark light; font-family: Arial, Helvetica, sans-serif; font-size: 0.85rem;} :root {color-scheme: dark light;}
+      h1 {font-size: initial;} small {font-size: 0.7rem; font-style: italic;}
+      .col1 {grid-column: 1;} .col2 {grid-column: 2;} .col3 {grid-column: 3;}
+      #fset {border: 1px outset gray; max-width: 400px; display: grid; gap: 5px; grid-template-columns: min-content auto; align-items: baseline;}
+      #result {width: max-content; max-width: 700px; min-width: 420px;} #result>button {margin-bottom: 5px; margin-right: 5px;}
+      #result div {display: grid; padding: 5px; border: 0.5px solid darkgray; grid-template-columns: auto max-content 70px; gap: 5px; align-items: baseline;}
+      .error {background-color: #ffffc8; border: 1px solid brown; padding: 5px;}
+      @media (prefers-color-scheme: dark) {.error {background-color: #383800; } }
+   </style>
+</head>
+<body>
+   <h1>Firestorm XML - Transifex JSON language file format conversion tool</h1>
+   <div id="tool">
+      <div class="error">An unknown error ocurred or Javascript may be disabled/blocked.
+         <noscript><br><strong>Error:</strong> This Tool requires javascript to work.</noscript>
+      </div>
+   </div>
+</body>
+<script type="module">//<![CDATA[
+/*	This work is licensed under Creative Commons GNU LGPL License.
+	License: http://creativecommons.org/licenses/LGPL/2.1/
+	Version: 0.3
+	Author:  ajwsert/2023
+*/
+const w = window;
+w.addEventListener('load', (evt) => {
+   const d = document, c = console;
+   /** @param {HTMLElementTagNameMap} t @param {ElementCreationOptions} o @returns {HTMLElementTagNameMap[]} */
+   const cr = (t, o) => d.createElement.call(d, t, o);
+   /** @param {string} i @returns {HTMLElement} */
+   const gEl = (i) => d.getElementById.call(d, i);
+   /** @param {HTMLElementTagNameMap} q @returns {HTMLCollection} */
+   const gTag = (q) => d.getElementsByTagName.call(d, q);
+
+   /** @type {HTMLTemplateElement} */var skel = gEl('skel');
+   gEl('tool').replaceChildren(skel.content.cloneNode(true));
+
+   /** @param {Event} e */  //TODO clean Blobs
+   const setType = (e) => {gEl('file').value=null; gEl('result').replaceChildren(); gEl('file').setAttribute('accept',e.target.getAttribute('data-accept'))};
+   gEl('xml').addEventListener("change", setType); gEl('json').addEventListener("change", setType);
+   gEl('file').addEventListener('input', (e) => {gEl('result').replaceChildren();});
+   gEl('form').addEventListener('submit', (e) => {
+      /** @type {HTMLInputElement} */
+      var fset = gEl('fset'); fset.disabled = true;
+      /** @type {HTMLDivElement} */
+      var status = gEl('status'); status.innerText = 'Processing...';
+
+      /** @type {HTMLDivElement} */let fileList = gEl('result');
+      fileList.replaceChildren();
+      /** @type {HTMLInputElement} */let filei = gEl('file'); let fileSet = filei.files;
+      /** @type {HTMLTemplateElement} */let fitem = gEl('fitem');
+      let itemt = fitem.content.querySelector("div");
+
+      /** @type {HTMLButtonElement} */let cAll = cr('button');
+      cAll.innerText='Convert All';
+      cAll.addEventListener('click', (e) => {
+         let l = d.querySelectorAll('[id^=fname]');
+         for (let i = 0; i < l.length; i++) l[i].click();
+      });
+      fileList.appendChild(cAll);
+
+      /** @type {HTMLButtonElement} */let sAll = cr('button');
+      sAll.innerText='Save All';
+      sAll.addEventListener('click', (e) => {
+         if (confirm('This action requires no save prompt in order to work. Proceed?')) {
+            e.target.disabled = true;
+            let l = d.querySelectorAll('[id^=fstatus]>a');
+            if (l.length > 0) {
+               let i=0;
+               let to = setInterval(()=>{
+                  if (i >= l.length) {clearInterval(to);e.target.disabled = false;e.target.innerText='Save All';return}
+                  l[i].click(); i++; e.target.innerText=`Saving... (${Math.round(i/l.length*100)}%)`;
+               }, 500);
+            } else alert('Nothing to save yet.');
+         }
+      });
+      fileList.appendChild(sAll);
+
+      for (let i = 0; i < fileSet.length; i++) {
+         const file = fileSet[i];
+         let item = d.importNode(itemt, true);
+         let name = item.querySelector('#fname');
+         name.textContent = file.name; name.removeAttribute('id');
+         let action = item.querySelector('button');
+         action.id = 'fname'+(i+1); action.setAttribute('data-id',i);
+         action.addEventListener('click', procItem);
+         let status = item.querySelector('#fstatus'); status.id='fstatus'+(i+1);
+         status.textContent = 'Ready to convert';
+         fileList.appendChild(item);
+      }
+
+      fset.disabled = false;
+      status.innerText = '';
+
+      e.preventDefault(); return false;
+   });
+
+   const procItem = /** @param {MouseEvent} e*/(e) => {
+      /** @type {HTMLButtonElement} */let tg = e.target;
+      let fid = Number(tg.getAttribute('data-id'));
+      /** @type {HTMLInputElement} */let filei = gEl('file');
+      /** @type {File} */let file = filei.files[fid];
+      /** @type {HTMLSpanElement} */let status = tg.parentElement.querySelector('#fstatus'+(fid+1));
+      let mode = document.querySelector('input[name="convtype"]:checked').value;
+
+      var URL = (w.URL || w.webkitURL);
+
+      let a;
+      if (a = status.querySelector('a')) URL.revokeObjectURL(a.href);
+
+      status.innerText = 'Preparing...';
+      let state ='reading';
+
+     // let getInput = new Promise(/** @param {(v:string)=>} rs @param {(r:string)=>} rj*/function(rs,rj) {
+       /*  let rd = new FileReader();
+         rd.onload = (e) => {rs(rd.result);};
+         //rd.onerror = /** @param {ProgressEvent} e*(e) => {rj('Error loading')};
+         /*rd.readAsText(file);
+      });*/
+      let getInput = file.text();
+
+      let process = /** @param {string} fileCont*/(fileCont) => {
+         status.innerText = 'Processing...';
+         state = 'processing';
+
+         let fs2ts = {
+            clearXML: /** @param {Document} xmlDoc*/(xmlDoc) => {
+               var xsltProcessor = new XSLTProcessor();
+               xsltProcessor.importStylesheet(xmlParse(`<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+	<xsl:output method="xml" indent="yes"/>
+	<xsl:strip-space elements="*"/>
+	<xsl:template match="node()|@*">
+		<xsl:copy><xsl:apply-templates select="node()|@name|@title|@tool_tip|@value|@label|@translate|
+		@notext|@yestext|@canceltext|@ignoretext|@text|@description|@longdescription|@comment|@default_text"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="string">
+		<xsl:element name="str_ing">
+			<!--xsl:copy-of select="@*"/><xsl:apply-templates/-->
+         <xsl:copy-of select="@name"/><xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	<xsl:template match="combo_box.item|radio_item|combo_box/item|item.columns|columns[contains(@value,'_')]|slider">
+		<xsl:copy><xsl:apply-templates select="node()|@name|@label|@tool_tip"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="icons_combo_box.item|spinner|combo_item">
+		<xsl:copy><xsl:apply-templates select="node()|@name|@label|@tool_tip"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="rows">
+		<xsl:copy><xsl:apply-templates select="node()|@name"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="notification/tag|notification/unique/context">
+      <xsl:copy><xsl:apply-templates select="text()"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="action_set/action">
+      <xsl:copy><xsl:apply-templates select="@description|@longdescription|@name|text()"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="template/form/button|template/form/ignore">
+      <xsl:copy><xsl:apply-templates select="@name"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="text_editor[@name='contrib_names']|text[@name='firestorm_names']|text[@name='fs_contrib_names']|
+	text[@name='fs_artists_names']">
+		<xsl:copy><xsl:apply-templates select="@name"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="string[starts-with(@name,'maturity_icon_')]|
+	floater.string[starts-with(@name,'maturity_icon_')]|panel/text[@name='DateClaimText']|
+	panel/text[@name='PriceText']|panel/text[@name='covenant_timestamp_text']|floater/text[@name='info_parcel']|
+   floater/text[@name='info_size']|floater/text[@name='info_price']|floater/text[@name='land_use_reason']|
+   floater/text[@name='purchase_action']|floater/text[@name='currency_reason']|floater/line_editor[@name='currency_amt']|
+   floater/text[@name='currency_balance']|text[@name='LabelAcquiredDate']">
+		<xsl:copy><xsl:apply-templates select="@name"/></xsl:copy>
+	</xsl:template>
+   <xsl:template match="panel[@name='general_panel']/combo_box[@name='language_combobox']">
+      <xsl:copy><xsl:apply-templates select="node()|@name|@label"/>
+         <combo_box.item enabled="true" label="((Insert your language name here if not on list))" name="dummy_lang" value="((Insert your language code here if not on list))"/>
+      </xsl:copy>
+   </xsl:template>
+	<xsl:template match="floater.string[contains(@value,'_')]"/>
+	<xsl:template match="*[@translate]">
+		<xsl:copy><xsl:apply-templates select="@name"/><xsl:attribute name="translate">false</xsl:attribute></xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>`));
+               return xsltProcessor.transformToDocument(xmlDoc);
+/*
+<!--xsl:template match="panel[@name='fs_credits_scroll_container_content_panel']/text[ends-with(@name,'_names')]">
+		<xsl:copy><xsl:apply-templates select="@name"/></xsl:copy>
+	</xsl:template-->
+*/
+            },
+            prepStr: /** @param {{}} jsonobj*/(jsonobj) => {
+               for (let key in jsonobj) {
+                  try {
+                     if (jsonobj[key] instanceof Object)
+                           jsonobj[key] = fs2ts.prepStr(jsonobj[key]);
+                     else {
+                           if (key !== null) {
+                              if (((key.startsWith('@')) && (key !== '@name')) && (key !== '@translate') ||
+                                 (key == '#text') ||
+                                 (key.startsWith('str_ing:')) ||
+                                 (key.startsWith('text_editor:')) ||
+                                 (key.startsWith('text:'))
+                              )
+                              jsonobj[key] = {string: jsonobj[key].toString()};
+                           }
+                     }
+                  } catch (e) {
+                     jsonobj[key] = 'ERROR HERE: '+ e;
+                  }
+               }
+               return jsonobj;
+            },
+            proc: /** @param {string} xmlStr*/(xmlStr) => {
+               return JSON.stringify(
+                  fs2ts.prepStr(
+                     JSON.parse(
+                        xml2json(fs2ts.clearXML(xmlParse(xmlStr)), "  ")
+                              )), null, 3);
+            }
+         }
+
+         let ts2fs = {
+            revertString: /** @param {{}} jsonobj*/(jsonobj) => {
+               for (let key in jsonobj) {
+                  if ((jsonobj[key] instanceof Object) && !jsonobj[key].hasOwnProperty('string'))
+                     ts2fs.revertString(jsonobj[key]);
+                  else {
+                        if ((jsonobj[key] instanceof Object) && jsonobj[key].hasOwnProperty('string')) {
+                           if ((typeof jsonobj[key]['string'] == 'string'))
+                              jsonobj[key] = jsonobj[key]['string'];
+                           else ts2fs.revertString(jsonobj[key]);
+                  }}
+               }
+               return jsonobj;
+            },
+            prettifyXml: /** @param {string} sourceXml*/(sourceXml) => {
+               var xsltProcessor = new XSLTProcessor();
+               xsltProcessor.importStylesheet(xmlParse(
+// describes how we want to modify the XML - indent everything
+`<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+	<xsl:output version="1.0" method="xml" omit-xml-declaration="no" encoding="UTF-8" standalone="yes" indent="yes"/>
+	<xsl:strip-space elements="*" disable-output-escaping="yes"/>
+	<xsl:template match="node()|@*">
+		<xsl:copy><xsl:apply-templates select="node()|@*"/></xsl:copy>
+	</xsl:template>
+	<xsl:template match="para[content-style][not(text())]"><!--change to just text() to strip space in text nodes-->
+		<xsl:value-of select="normalize-space(.)"/>
+	</xsl:template>
+	<xsl:template match="str_ing"> <!-- switch the element name -->
+		<xsl:element name="string">
+			<xsl:copy-of select="@*"/>
+			<xsl:apply-templates />
+		</xsl:element>
+	</xsl:template>
+</xsl:stylesheet>`));
+               return `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+${new XMLSerializer().serializeToString(xsltProcessor.transformToDocument(xmlParse(sourceXml)))}`;
+            },
+            proc: /** @param {string} jsonStr*/(jsonStr) => {
+               return ts2fs.prettifyXml(
+                  json2xml(
+                     ts2fs.revertString(JSON.parse(jsonStr))
+                        ).replace(/▼/g,'\n'));
+            }
+         };
+
+         switch (mode) {
+            case 'xml':  return fs2ts.proc(fileCont);
+            case 'json': return ts2fs.proc(fileCont);
+         }
+         return fileCont;
+      };
+
+      let setOutput = /** @param {string} resStr*/(resStr) => {
+         state = 'writing';
+         /** @type {HTMLAnchorElement} */let a;
+         if (a = status.querySelector('a')) URL.revokeObjectURL(a.href);
+         else a = cr('a');
+
+         let type, name, ext;
+         switch (mode) {
+            case 'xml':  type = 'application/json'; ext = 'json'; break;
+            case 'json': type = 'application/xml';  ext = 'xml'; break;
+         }
+
+         name = file.name;
+         name = `${name.substr(0,name.lastIndexOf('.'))}.${ext}`;
+         a.download = name;
+         a.href = URL.createObjectURL(new Blob([resStr], {type: type}));
+         a.innerText = `Save file`;
+         status.replaceChildren(a);
+         tg.disabled = false;
+      };
+
+      tg.disabled = true;
+      getInput.then(process).then(setOutput)
+              .catch((r)=>{status.innerText=`Error ${state}`;console.error(file.name,'\n',r);});
+   };
+})
+
+// ## Libaries ##
+/** @param {string} xmlStr @returns {Document} */
+function xmlParse(xmlStr) {
+    /** @type {Document} */var dom = null;
+    if (w.DOMParser) {
+        dom = (new DOMParser()).parseFromString(xmlStr, "text/xml");
+        if (dom.querySelector("parsererror")) {
+         let msg = dom.querySelector("parsererror").querySelector('div');
+         dom = null; throw new Error(`Error parsing xml: ${msg.innerText}`);
+        }
+    } else
+        throw new Error("No XML parser found, deprecated browser or error occured");
+
+    return dom;
+};
+
+/*	This work is licensed under Creative Commons GNU LGPL License.
+
+	License: http://creativecommons.org/licenses/LGPL/2.1/
+   Version: 0.9
+	Author:  Stefan Goessner/2006
+	Web:     http://goessner.net/ 
+*/
+/** @param {Document} xml @param {string} tab @returns {string} */
+function xml2json(xml, tab) {
+   var X = {
+      toObj: /** @param {Element} xml */function(xml) {
+         var o = {};
+         if (xml.nodeType==xml.ELEMENT_NODE) {
+            if (xml.attributes.length)   // element with attributes  ..
+               for (var i=0; i<xml.attributes.length; i++) {
+                  o["@"+xml.attributes[i].nodeName] = (X.escape(xml.attributes[i].nodeValue)||"").toString(); }
+            if (xml.firstChild) { // element has child nodes ..
+               var textChild=0, cdataChild=0, hasElementChild=false, commentChild=0;
+               for (var n=xml.firstChild; n; n=n.nextSibling) {
+                  if (n.nodeType==1) hasElementChild = true;
+                  else if (n.nodeType==n.TEXT_NODE && n.nodeValue.match(/[^ \f\n\r\t\v]/)) textChild++; // non-whitespace text
+                  else if (n.nodeType==n.CDATA_SECTION_NODE) cdataChild++;
+                  else if (n.nodeType==n.COMMENT_NODE) commentChild++;
+               }
+               if (hasElementChild) {
+                  if (textChild < 2 && cdataChild < 2) { // structured element with evtl. a single text or/and cdata node ..
+                    /*xml =*/X.removeWhite(xml); let count = 0;
+                     for (var n=xml.firstChild; n; n=n.nextSibling) {
+                        if (n.nodeType == n.TEXT_NODE)               o["#text"] = X.escape(n.nodeValue);
+                        else if (n.nodeType == n.CDATA_SECTION_NODE) o["#cdata"] = X.escape(n.nodeValue);
+                        else if (n.nodeType == n.COMMENT_NODE) {
+                           if (o["#comment"]) {
+                              count = Object.keys(o).length;
+                              o[`#comment$${count}`] = X.escape(n.data);
+                           } else o["#comment"] = X.escape(n.data);
+                        } else if (o[n.nodeName]) { // multiple occurence of element ..
+                           /*if (o[n.nodeName] instanceof Array)
+                              o[n.nodeName][o[n.nodeName].length] = X.toObj(n);
+                           else
+                              o[n.nodeName] = [o[n.nodeName], X.toObj(n)];*/
+                           /*if (!o[n.nodeName]['#0']) {
+                              o[n.nodeName] = {'#0': o[n.nodeName]};
+                           }
+                           count = Object.keys(o[n.nodeName]).length;
+                           o[n.nodeName]['#'+count] = X.toObj(n);*/
+                           count = Object.keys(o).length;
+                           o[`${n.nodeName}$${count}`] = X.toObj(n);
+                        }
+                        else { // first occurence of element..
+                           if (n.attributes['name']) o[n.nodeName+':'+X.escape(n.attributes['name'].nodeValue)] = X.toObj(n);
+                           else o[n.nodeName] = X.toObj(n);
+                        }
+                     }
+                  }
+                  else { // mixed content
+                     if (!xml.attributes.length) o = X.escape(X.innerXml(xml));
+                     else o["#text"] = X.escape(X.innerXml(xml));
+                  }
+               }
+               else if (textChild) {
+                  if (!xml.attributes.length) o = X.escape(X.innerXml(xml));
+                  else o["#text"] = X.escape(X.innerXml(xml));
+               }
+               else if (cdataChild) {
+                  if (cdataChild > 1) o = X.escape(X.innerXml(xml));
+                  else
+                     for (var n=xml.firstChild; n; n=n.nextSibling)
+                        o["#cdata"] = X.escape(n.nodeValue);
+               }
+               else if (commentChild) {
+                  if (commentChild > 1) o = X.escape(X.innerXml(xml));
+                  else
+                     for (var n=xml.firstChild; n; n=n.nextSibling)
+                        o["#comment"] = X.escape(n.nodeValue);
+               }
+            }
+            if (!xml.attributes.length && !xml.firstChild) o = null;
+         }
+         else if (xml.nodeType==xml.DOCUMENT_NODE) o = X.toObj(xml.documentElement);
+         else if (xml.nodeType==xml.COMMENT_NODE) o["#comment"] = X.escape(xml.data);
+         else console.error(`unhandled node type: ${xml.nodeType}\n${xml.nodeName}: ${xml.nodeValue}`);
+         return o;
+      },
+      toJson: /** @param {string[]|{}|string|null} o @param {string} name @param {string} ind */function(o, name, ind) {
+         var json = name ? (`"${name}"`) : "";
+         if (o instanceof Array) {
+            for (var i=0,n=o.length; i<n; i++)
+               o[i] = X.toJson(o[i], "", `${ind}\t`);
+            json += (name?":[":"[") + (o.length > 1 ? (`\n${ind}\t`+o.join(`,\n${ind}\t`)+`\n${ind}`) : o.join("")) + "]";
+         }
+         else if (o == null)
+            json += (name&&":") + "null";
+         else if (typeof(o) == "object") {
+            var arr = [];
+            for (var m in o)
+               arr[arr.length] = X.toJson(o[m], m, `${ind}\t`);
+            json += (name?":{":"{") + (arr.length > 1 ? (`\n${ind}\t`+arr.join(",\n"+ind+"\t")+`\n${ind}`) : arr.join("")) + "}";
+         }
+         else if (typeof(o) == "string")
+            json += (name&&":") + `"${o.toString()}"`;
+         else
+            json += (name&&":") + o.toString();
+         return json;
+      },
+      innerXml: /** @param {Element} node*/function(node) {
+         var s = ""
+         if ("innerHTML" in node) s = node.innerHTML;
+         else {
+            var asXml = /** @param {Element} n*/function(n) {
+               var s = "";
+               if (n.nodeType == n.ELEMENT_NODE) {
+                  s += "<" + n.nodeName;
+                  for (var i=0; i<n.attributes.length;i++)
+                     s += " " + n.attributes[i].nodeName + "=\"" + (n.attributes[i].nodeValue||"").toString() + "\"";
+                  if (n.firstChild) {
+                     s += ">";
+                     for (var c=n.firstChild; c; c=c.nextSibling)
+                        s += asXml(c);
+                     s += "</"+n.nodeName+">";
+                  }
+                  else s += "/>";
+               }
+               else if (n.nodeType == n.TEXT_NODE) s += n.nodeValue;
+               else if (n.nodeType == n.CDATA_SECTION_NODE) s += "<![CDATA[" + n.nodeValue + "]]>";
+               return s;
+            };
+            for (var c=node.firstChild; c; c=c.nextSibling)
+               s += asXml(c);
+         }
+         return s;
+      },
+      escape: /** @param {string} txt*/function(txt) {
+         return txt.replace(/\\|\"|\n|\r/g, (t) => ({'\\': '\\\\','\"':'\\"','\n':'\\n','\r':'\\r'}[t]));
+      },
+      removeWhite: /** @param {Element} e */function(e) {
+         e.normalize();
+         for (var n = e.firstChild; n; ) {
+            if (n.nodeType == n.TEXT_NODE) {
+               if (!n.nodeValue.match(/[^ \f\n\r\t\v]/)) { // pure whitespace text node
+                  var nxt = n.nextSibling;
+                  e.removeChild(n);
+                  n = nxt;
+               }
+               else n = n.nextSibling;
+            }
+            else if (n.nodeType == n.ELEMENT_NODE) {
+               X.removeWhite(n);
+               n = n.nextSibling;
+            }
+            else n = n.nextSibling; // any other node
+         }
+         return e;
+      }
+   };
+   if (xml.nodeType == xml.DOCUMENT_NODE) xml = xml.documentElement;
+   var json = X.toJson(X.toObj(X.removeWhite(xml)), xml.nodeName, "\t");
+   return "{\n" + tab + (tab ? json.replace(/\t/g, tab) : json.replace(/\t|\n/g, "")) + "\n}";
+}
+
+/* ###################################### */
+
+/*	This work is licensed under Creative Commons GNU LGPL License.
+
+	License: http://creativecommons.org/licenses/LGPL/2.1/
+	Version: 0.9
+	Author:  Stefan Goessner/2006
+	Web:     http://goessner.net/ 
+*/
+/** @param {{}} o @param {string} tab */
+function json2xml(o, tab) {
+    /** @param {string[]|{}|string} v @param {string} name @param {string} ind */
+    var toXml = function(v, name, ind) {
+       name = (name.indexOf('$') > 0) ? name.substring(0, name.indexOf('$')) : name;
+       name = (name.indexOf(':') > 0) ? name.substring(0, name.indexOf(':')) : name;
+ 
+       var xml = "";
+       if (v instanceof Array) {
+          for (var i=0, n=v.length; i<n; i++) xml += ind + toXml(v[i], name, `${ind}\t`) + "\n";
+       }
+       else if (typeof(v) == "object") {
+          var hasChild = false;
+          xml += ind + "<" + name;
+          for (var m in v) {
+             if (m.charAt(0) == "@")
+                xml += ` ${m.substring(1)}="` + v[m].toString().replace(/&|<|>|"|'|\n/gi, (t) => ({'&': '&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;','\n':'▼'}[t])) + '"';
+             else
+                hasChild = true;
+          }
+          xml += hasChild ? ">" : "/>";
+          if (hasChild) {
+             for (var m in v) {
+                if (m == "#text") xml += v[m].replace(/&|<|>|"|'|\n/gi, (t) => ({'&': '&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;','\n':'▼'}[t]));
+               else if (m == "#cdata")      xml += `<![CDATA[${v[m]}]]>`;
+               else if (m == "#comment")    xml += `${ind}<!--${v[m]}-->`;
+               else if (m.charAt(0) != "@") xml += toXml(v[m], m, `${ind}\t`);
+            }
+            xml += (xml.charAt(xml.length-1)=="\n"?ind:"") + `</${name}>`;
+         }
+      }
+      else {
+         if (name == "#comment") xml += `${ind}<!--${v.toString()}-->`;
+         else xml += `${ind}<${name}>${v.toString()}</${name}>`;
+      }
+      return xml;
+   }, xml="";
+   for (var m in o)
+      xml += toXml(o[m], m, "");
+   return tab ? xml.replace(/\t/g, tab) : xml.replace(/\t|\n/g, "");
+}
+
+//]]></script>
+<div style="display:none;"><template id="skel">
+      <form id="form" method="dialog">
+         <fieldset id="fset">
+            <label class="col1">Convert:</label><div class="col2">
+               <input type="radio" name="convtype" id="xml" value="xml" data-accept="application/xml" checked><label for="xml">Firestorm to Transifex</label>
+               <input type="radio" name="convtype" id="json" data-accept="application/json" value="json"><label for="json">Transifex to Firestorm</label>
+               <br><small>(Will clean the file selection)</small>
+            </div>
+            <label class="col1" for="file">File:</label><input class="col2" accesskey="f" name="file" id="file" type="file" accept="application/xml" required multiple>
+            <input class="col2" type="submit" value="Load files">
+         </fieldset>
+      </form>
+      <div id="status" style="padding-bottom: 10px;"></div>
+      <div id="result"></div>
+   </template>
+<template id="fitem"><div><span class="col1" id="fname">[name]</span><span class="col2" id="fstatus">[status]</span><button class="col3">Convert</button></div></template>
+</div>
+</html>

@@ -7,19 +7,19 @@
       "floater.string:buy_currency": {
          "@name": "buy_currency",
          "#text": {
-            "string": "\n        Buy L$ [LINDENS] for approx. [LOCALAMOUNT]\n    "
+            "string": ""
          }
       },
       "floater.string:info_cannot_buy": {
          "@name": "info_cannot_buy",
          "#text": {
-            "string": "\n        Unable to Buy\n    "
+            "string": ""
          }
       },
       "floater.string:estimated_zero": {
          "@name": "estimated_zero",
          "#text": {
-            "string": "\n        US$ 0.00\n    "
+            "string": ""
          }
       },
       "icon:normal_background": {
@@ -32,13 +32,13 @@
             "text:info_need_more": {
                "@name": "info_need_more",
                "#text": {
-                  "string": "\n          You need more L$\n      "
+                  "string": ""
                }
             },
             "text:info_buying": {
                "@name": "info_buying",
                "#text": {
-                  "string": "\n          Buy L$\n      "
+                  "string": ""
                }
             },
             "view_border:text_border": {
@@ -50,7 +50,7 @@
             "text:target_price_label": {
                "@name": "target_price_label",
                "#text": {
-                  "string": "\n          You need\n      "
+                  "string": ""
                }
             },
             "text:target_price": {
@@ -65,7 +65,7 @@
             "text:balance_label": {
                "@name": "balance_label",
                "#text": {
-                  "string": "\n        You now have\n      "
+                  "string": ""
                }
             },
             "text:balance_amount": {
@@ -80,7 +80,7 @@
             "text:required_label": {
                "@name": "required_label",
                "#text": {
-                  "string": "\n        You should buy at least\n      "
+                  "string": ""
                }
             },
             "text:required_amount": {
@@ -98,7 +98,7 @@
             "text:currency_action": {
                "@name": "currency_action",
                "#text": {
-                  "string": "\n          Choose amount to buy\n      "
+                  "string": ""
                }
             },
             "text:currency_label": {
@@ -119,19 +119,19 @@
             "text:currency_est": {
                "@name": "currency_est",
                "#text": {
-                  "string": "\n       Approx. [LOCALAMOUNT]\n      "
+                  "string": ""
                }
             },
             "text:getting_data": {
                "@name": "getting_data",
                "#text": {
-                  "string": "\n          Estimating...\n      "
+                  "string": ""
                }
             },
             "text:total_label": {
                "@name": "total_label",
                "#text": {
-                  "string": "\n          Your new balance will be\n      "
+                  "string": ""
                }
             },
             "text:total_amount": {
@@ -149,19 +149,19 @@
             "text:currency_links": {
                "@name": "currency_links",
                "#text": {
-                  "string": "\n        [http://www.secondlife.com/my/account/payment_method_management.php payment method] | [http://www.secondlife.com/my/account/currency.php currency]\n      "
+                  "string": ""
                }
             },
             "text:exchange_rate_note": {
                "@name": "exchange_rate_note",
                "#text": {
-                  "string": "\nRe-enter amount to see the latest exchange rate.\n      "
+                  "string": ""
                }
             },
             "text:purchase_warning_repurchase": {
                "@name": "purchase_warning_repurchase",
                "#text": {
-                  "string": "\nAfter you receive your L$, you should try your\npurchase again.\n      "
+                  "string": ""
                }
             }
          },
@@ -170,7 +170,7 @@
             "text:contacting": {
                "@name": "contacting",
                "#text": {
-                  "string": "\n          Contacting LindeX...\n        "
+                  "string": ""
                }
             },
             "button:buy_btn": {

@@ -1,0 +1,23 @@
+{
+   "floater": {
+      "@name": "fs_partial_inventory",
+      "@title": {
+         "string": "Inventory"
+      },
+      "floater.string:title": {
+         "@name": "title",
+         "#text": {
+            "string": "Inventory: [FOLDERNAME]"
+         }
+      },
+      "filter_editor:flt_search": {
+         "@label": {
+            "string": "Filter inventory folder"
+         },
+         "@name": "flt_search"
+      },
+      "panel:pnl_inv_wrap": {
+         "@name": "pnl_inv_wrap"
+      }
+   }
+}

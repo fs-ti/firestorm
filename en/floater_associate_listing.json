@@ -10,6 +10,7 @@
             "string": "\n        Listing ID:\n    "
          }
       },
+      "#comment": "listing_id is a positive S32",
       "line_editor:listing_id": {
          "@name": "listing_id",
          "#text": {

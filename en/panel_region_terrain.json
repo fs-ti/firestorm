@@ -38,7 +38,7 @@
       "text:detail_texture_text": {
          "@name": "detail_texture_text",
          "#text": {
-            "string": "\n        Terrain Textures (requires 512x512 / 1024x1024, 24 bit .tga files)\n    "
+            "string": "\n        Terrain Textures (1024x1024, 24 bit .tga files)\n    "
          }
       },
       "texture_picker:texture_detail_0": {

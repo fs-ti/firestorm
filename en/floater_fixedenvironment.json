@@ -4,13 +4,13 @@
       "@title": {
          "string": "Fixed Environment"
       },
-      "string:edit_sky": {
+      "str_ing:edit_sky": {
          "@name": "edit_sky",
          "#text": {
             "string": "Edit Sky:"
          }
       },
-      "string:edit_water": {
+      "str_ing:edit_water": {
          "@name": "edit_water",
          "#text": {
             "string": "Edit Water:"

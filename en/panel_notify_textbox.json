@@ -4,7 +4,7 @@
          "string": "instant_message"
       },
       "@name": "panel_notify_textbox",
-      "string:message_max_lines_count": {
+      "str_ing:message_max_lines_count": {
          "@name": "message_max_lines_count",
          "@value": {
             "string": "30"

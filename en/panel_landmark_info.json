@@ -1,74 +1,82 @@
 {
    "panel": {
       "@name": "landmark_info",
-      "string:title_create_landmark": {
+      "str_ing:title_create_landmark": {
          "@name": "title_create_landmark",
          "@value": {
             "string": "Create Landmark"
          }
       },
-      "string:title_edit_landmark": {
+      "str_ing:title_edit_landmark": {
          "@name": "title_edit_landmark",
          "@value": {
             "string": "Edit Landmark"
          }
       },
-      "string:title_landmark": {
+      "str_ing:title_landmark": {
          "@name": "title_landmark",
          "@value": {
             "string": "Landmark"
          }
       },
-      "string:not_available": {
+      "str_ing:not_available": {
          "@name": "not_available",
          "@value": {
             "string": "(N\\A)"
          }
       },
-      "string:unknown": {
+      "str_ing:unknown": {
          "@name": "unknown",
          "@value": {
             "string": "(unknown)"
          }
       },
-      "string:public": {
+      "str_ing:public": {
          "@name": "public",
          "@value": {
             "string": "(public)"
          }
       },
-      "string:server_update_text": {
+      "str_ing:server_update_text": {
          "@name": "server_update_text",
          "#text": {
             "string": "\n        Place information not available without server update.\n    "
          }
       },
-      "string:server_error_text": {
+      "str_ing:server_error_text": {
          "@name": "server_error_text",
          "#text": {
             "string": "\n        Information about this location is unavailable at this time, please try again later.\n    "
          }
       },
-      "string:server_forbidden_text": {
+      "str_ing:server_forbidden_text": {
          "@name": "server_forbidden_text",
          "#text": {
             "string": "\n        Information about this location is unavailable due to access restrictions.  Please check your permissions with the parcel owner.\n    "
          }
       },
-      "string:acquired_date": {
+      "str_ing:acquired_date": {
          "@name": "acquired_date",
          "#text": {
             "string": "\n        [wkday,datetime,slt] [mth,datetime,slt] [day,datetime,slt] [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt] [year,datetime,slt]\n    "
          }
       },
-      "string:information_text": {
+      "str_ing:information_text": {
          "@name": "information_text",
          "#text": {
             "string": "\n        Traffic: [TRAFFIC] Area: [AREA] m²\n    "
          }
       },
       "#comment": " Texture names for rating icons ",
-      "string": null,
+      "string:icon_PG": {
+         "@name": "icon_PG"
+      },
+      "string:icon_M": {
+         "@name": "icon_M"
+      },
+      "string:icon_R": {
+         "@name": "icon_R"
+      },
       "layout_stack:place_info_sidetray_main": {
          "@name": "place_info_sidetray_main",
          "layout_panel:header_container": {

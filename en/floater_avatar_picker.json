@@ -35,13 +35,13 @@
          }
       },
       "#comment": " For multiple person selection, use \"Select\" and \"Close\" \n      instead of \"OK\" and \"Cancel\" because \"Cancel\" still keeps the ones \n      you have already selected.  The code will show the appropriate\n      set of buttons. ",
-      "string:Select": {
+      "str_ing:Select": {
          "@name": "Select",
          "#text": {
             "string": "Select"
          }
       },
-      "string:Close": {
+      "str_ing:Close": {
          "@name": "Close",
          "#text": {
             "string": "Close"

@@ -1,0 +1,36 @@
+{
+   "toggleable_menu": {
+      "@name": "Copy Paste Rotation Menu",
+      "menu_item_call:psr_copy": {
+         "@label": {
+            "string": "Copy all"
+         },
+         "@name": "psr_copy",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:rot_copy": {
+         "@label": {
+            "string": "Copy rotation"
+         },
+         "@name": "rot_copy",
+         "on_click": null
+      },
+      "menu_item_call:psr_paste": {
+         "@label": {
+            "string": "Paste all"
+         },
+         "@name": "psr_paste",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:rot_paste": {
+         "@label": {
+            "string": "Paste rotation"
+         },
+         "@name": "rot_paste",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

@@ -4,80 +4,80 @@
          "string": "People"
       },
       "@name": "people_panel",
-      "string:no_recent_people": {
+      "str_ing:no_recent_people": {
          "@name": "no_recent_people",
          "@value": {
             "string": "No recent people."
          }
       },
-      "string:no_filtered_recent_people": {
+      "str_ing:no_filtered_recent_people": {
          "@name": "no_filtered_recent_people",
          "@value": {
             "string": "Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search]."
          }
       },
-      "string:no_one_near": {
+      "str_ing:no_one_near": {
          "@name": "no_one_near",
          "@value": {
             "string": "No one nearby. Looking for people to hang out with? Try [secondlife:///app/search/people Search] or the [secondlife:///app/worldmap World Map]."
          }
       },
-      "string:no_one_filtered_near": {
+      "str_ing:no_one_filtered_near": {
          "@name": "no_one_filtered_near",
          "@value": {
             "string": "Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search]."
          }
       },
-      "string:no_friends_online": {
+      "str_ing:no_friends_online": {
          "@name": "no_friends_online",
          "@value": {
             "string": "No friends online"
          }
       },
-      "string:no_friends": {
+      "str_ing:no_friends": {
          "@name": "no_friends",
          "@value": {
             "string": "No friends"
          }
       },
-      "string:no_friends_msg": {
+      "str_ing:no_friends_msg": {
          "@name": "no_friends_msg",
          "#text": {
             "string": "\n      To add someone as a friend, right-click on their avatar or their name.\n\nLooking for places with more people?\n\n[secondlife:///app/floater/destinations Destination Guide] has locations chosen by the grid operator staff.\n\n[secondlife:///app/search/ Search] lets you search all the grid for certain keywords.\n    "
          }
       },
-      "string:no_filtered_friends_msg": {
+      "str_ing:no_filtered_friends_msg": {
          "@name": "no_filtered_friends_msg",
          "#text": {
             "string": "\n         Didn't find what you're looking for? Try [secondlife:///app/search/people/[SEARCH_TERM] Search].\n    "
          }
       },
       "#comment": "\n     *WORKAROUND: for group_list.no_items_msg & group_list.no_filtered_items_msg attributes.\n     They are not defined as translatable in VLT. See EXT-5931\n     ",
-      "string:no_filtered_groups_msg": {
+      "str_ing:no_filtered_groups_msg": {
          "@name": "no_filtered_groups_msg",
          "@value": {
             "string": "Didn't find what you're looking for? Try [secondlife:///app/search/groups/[SEARCH_TERM] Search]."
          }
       },
-      "string:no_groups_msg": {
+      "str_ing:no_groups_msg": {
          "@name": "no_groups_msg",
          "#text": {
             "string": "\nYou are not a member of any groups.\n\nLearn about [https://community.secondlife.com/knowledgebase/joining-and-participating-in-groups-r51/ groups].\n  "
          }
       },
-      "string:MiniMapToolTipMsg": {
+      "str_ing:MiniMapToolTipMsg": {
          "@name": "MiniMapToolTipMsg",
          "@value": {
             "string": "[REGION] (Double-click to open Map, shift-drag to pan)"
          }
       },
-      "string:AltMiniMapToolTipMsg": {
+      "str_ing:AltMiniMapToolTipMsg": {
          "@name": "AltMiniMapToolTipMsg",
          "@value": {
             "string": "[REGION] (Double-click to teleport, shift-drag to pan)"
          }
       },
-      "string:GroupCountWithInfo": {
+      "str_ing:GroupCountWithInfo": {
          "@name": "GroupCountWithInfo",
          "@value": {
             "string": "You belong to [COUNT] groups, and can join [REMAINING] more.  [secondlife:/// Raise your limit]"

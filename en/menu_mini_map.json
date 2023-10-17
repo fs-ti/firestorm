@@ -288,34 +288,37 @@
             "string": "Zoom"
          },
          "@name": "Minimap Zoom",
-         "menu_item_call:Zoom Close": {
+         "menu_item_check:Zoom very close": {
+            "@label": {
+               "string": "Very close"
+            },
+            "@name": "Zoom very close",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
+         "menu_item_check:Zoom close": {
             "@label": {
                "string": "Close"
             },
-            "@name": "Zoom Close",
-            "menu_item_call.on_click": null
+            "@name": "Zoom close",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
          },
-         "menu_item_call:Zoom Medium": {
+         "menu_item_check:Zoom medium": {
             "@label": {
-               "string": "Medium"
+               "string": "Medium (Default)"
             },
-            "@name": "Zoom Medium",
-            "menu_item_call.on_click": null
+            "@name": "Zoom medium",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
          },
-         "menu_item_call:Zoom Far": {
+         "menu_item_check:Zoom far": {
             "@label": {
                "string": "Far"
             },
-            "@name": "Zoom Far",
-            "menu_item_call.on_click": null
-         },
-         "menu_item_separator": null,
-         "menu_item_call:Zoom Default": {
-            "@label": {
-               "string": "Default"
-            },
-            "@name": "Zoom Default",
-            "menu_item_call.on_click": null
+            "@name": "Zoom far",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
          }
       },
       "menu:Minimap Show": {
@@ -393,21 +396,36 @@
             "menu_item_check.on_check": null
          }
       },
-      "menu_item_check:Rotate Map": {
+      "menu_item_check:North at top": {
          "@label": {
-            "string": "Rotate Map"
+            "string": "North at top"
          },
-         "@name": "Rotate Map",
+         "@name": "North at top",
          "menu_item_check.on_check": null,
          "menu_item_check.on_click": null
       },
-      "menu_item_check:Auto Center": {
+      "menu_item_check:Camera at top": {
          "@label": {
-            "string": "Auto Center"
+            "string": "Camera at top"
          },
-         "@name": "Auto Center",
+         "@name": "Camera at top",
          "menu_item_check.on_check": null,
          "menu_item_check.on_click": null
+      },
+      "menu_item_check:Auto-center map": {
+         "@label": {
+            "string": "Auto-center map"
+         },
+         "@name": "Auto-center map",
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_click": null
+      },
+      "menu_item_call:Re-center map": {
+         "@label": {
+            "string": "Re-center map"
+         },
+         "@name": "Re-center map",
+         "menu_item_call.on_click": null
       },
       "menu:Chat Distance Rings Menu": {
          "@label": {
@@ -449,6 +467,13 @@
          }
       },
       "menu_item_separator": null,
+      "menu_item_call:About Land": {
+         "@label": {
+            "string": "About Land"
+         },
+         "@name": "About Land",
+         "menu_item_call.on_click": null
+      },
       "menu_item_call:Place Profile": {
          "@label": {
             "string": "Place Profile"

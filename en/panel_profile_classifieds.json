@@ -1,0 +1,65 @@
+{
+   "panel": {
+      "@name": "panel_profile_classifieds",
+      "@label": {
+         "string": "Classified"
+      },
+      "str_ing:no_classifieds": {
+         "@name": "no_classifieds",
+         "@value": {
+            "string": "No Classifieds"
+         }
+      },
+      "layout_stack:main_stack": {
+         "@name": "main_stack",
+         "layout_panel:buttons_header": {
+            "@name": "buttons_header",
+            "button:new_btn": {
+               "@name": "new_btn",
+               "@label": {
+                  "string": "New..."
+               },
+               "@tool_tip": {
+                  "string": "Create a new classified at the current location"
+               }
+            },
+            "button:delete_btn": {
+               "@name": "delete_btn",
+               "@label": {
+                  "string": "Delete..."
+               },
+               "@tool_tip": {
+                  "string": "Delete currently selected classified"
+               }
+            }
+         },
+         "layout_panel:main_body": {
+            "@name": "main_body",
+            "tab_container:tab_classifieds": {
+               "@name": "tab_classifieds"
+            },
+            "layout_stack:indicator_stack": {
+               "@name": "indicator_stack",
+               "layout_panel:indicator_spacer_left": {
+                  "@name": "indicator_spacer_left"
+               },
+               "layout_panel:buttons_header": {
+                  "@name": "buttons_header",
+                  "loading_indicator:progress_indicator": {
+                     "@name": "progress_indicator"
+                  }
+               },
+               "layout_panel:indicator_spacer_right": {
+                  "@name": "indicator_spacer_right"
+               }
+            },
+            "text:classifieds_panel_text": {
+               "@name": "classifieds_panel_text",
+               "#text": {
+                  "string": "\n          Loading...\n      "
+               }
+            }
+         }
+      }
+   }
+}

@@ -11,7 +11,14 @@
             "@name": "EnableTouch"
          }
       },
-      "#comment": "menu_item_call\n     label=\"Stand Up\"\n     layout=\"topleft\"\n     name=\"Stand Up\">\n        <menu_item_call.on_click\n         function=\"Self.StandUp\"\n         parameter=\"\" />\n        <menu_item_call.on_enable\n         function=\"Self.EnableStandUp\" />\n    </menu_item_call",
+      "menu_item_call:Show original": {
+         "@label": {
+            "string": "Show in inventory"
+         },
+         "@name": "Show original",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
       "menu_item_call:Edit...": {
          "@label": {
             "string": "Edit"
@@ -67,45 +74,73 @@
          "menu_item_call.on_click": null,
          "menu_item_call.on_enable": null
       },
-      "menu_item_call:NowWearing": {
+      "context_menu:AppearanceSubmenu": {
          "@label": {
-            "string": "Now wearing..."
+            "string": "Appearance"
          },
-         "@name": "NowWearing",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Change Outfit": {
-         "@label": {
-            "string": "Change Outfit"
+         "@name": "AppearanceSubmenu",
+         "menu_item_call:NowWearing": {
+            "@label": {
+               "string": "Now wearing..."
+            },
+            "@name": "NowWearing",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
          },
-         "@name": "Change Outfit",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Edit Shape": {
-         "@label": {
-            "string": "Edit Shape"
+         "menu_item_call:Change Outfit": {
+            "@label": {
+               "string": "Change Outfit"
+            },
+            "@name": "Change Outfit",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
          },
-         "@name": "Edit Shape",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Edit Outfit Parts": {
-         "@label": {
-            "string": "Edit Outfit"
+         "menu_item_call:Edit Shape": {
+            "@label": {
+               "string": "Edit Shape"
+            },
+            "@name": "Edit Shape",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
          },
-         "@name": "Edit Outfit Parts",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Hover Height": {
-         "@label": {
-            "string": "Hover Height"
+         "menu_item_call:Edit Outfit Parts": {
+            "@label": {
+               "string": "Edit Outfit"
+            },
+            "@name": "Edit Outfit Parts",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
          },
-         "@name": "Hover Height",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
+         "menu_item_call:Hover Height": {
+            "@label": {
+               "string": "Hover Height"
+            },
+            "@name": "Hover Height",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Reset Skeleton": {
+            "@label": {
+               "string": "Reset Skeleton"
+            },
+            "@name": "Reset Skeleton",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Reset Skeleton And Animations": {
+            "@label": {
+               "string": "Reset Skeleton And Animations"
+            },
+            "@name": "Reset Skeleton And Animations",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Reset Mesh LOD": {
+            "@label": {
+               "string": "Reset Mesh LOD"
+            },
+            "@name": "Reset Mesh LOD",
+            "menu_item_call.on_click": null
+         }
       },
       "context_menu:Take Off >": {
          "@label": {
@@ -266,47 +301,32 @@
          "@name": "Stop Animating My Avatar",
          "menu_item_call.on_click": null
       },
-      "menu_item_call:Reset Skeleton": {
+      "context_menu:CommunitySubmenu": {
          "@label": {
-            "string": "Reset Skeleton"
+            "string": "Community"
          },
-         "@name": "Reset Skeleton",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Reset Skeleton And Animations": {
-         "@label": {
-            "string": "Reset Skeleton And Animations"
+         "@name": "CommunitySubmenu",
+         "menu_item_call:Friends...": {
+            "@label": {
+               "string": "Friends"
+            },
+            "@name": "Friends...",
+            "menu_item_call.on_click": null
          },
-         "@name": "Reset Skeleton And Animations",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Reset Mesh LOD": {
-         "@label": {
-            "string": "Reset Mesh LOD"
+         "menu_item_call:Groups...": {
+            "@label": {
+               "string": "Groups"
+            },
+            "@name": "Groups...",
+            "menu_item_call.on_click": null
          },
-         "@name": "Reset Mesh LOD",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Friends...": {
-         "@label": {
-            "string": "Friends"
-         },
-         "@name": "Friends...",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Groups...": {
-         "@label": {
-            "string": "Groups"
-         },
-         "@name": "Groups...",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Profile...": {
-         "@label": {
-            "string": "Profile"
-         },
-         "@name": "Profile...",
-         "menu_item_call.on_click": null
+         "menu_item_call:Profile...": {
+            "@label": {
+               "string": "Profile"
+            },
+            "@name": "Profile...",
+            "menu_item_call.on_click": null
+         }
       },
       "menu_item_call:Dump XML": {
          "@label": {

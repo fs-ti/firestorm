@@ -1,0 +1,185 @@
+{
+   "panel": {
+      "@name": "panel_performance_nearby",
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:back_lbl": {
+         "@name": "back_lbl",
+         "#text": {
+            "string": "\n    Back\n  "
+         }
+      },
+      "text:av_nearby_title": {
+         "@name": "av_nearby_title",
+         "#text": {
+            "string": "\n    Avatars nearby"
+         }
+      },
+      "text:tot_av_count": {
+         "@name": "tot_av_count",
+         "#text": {
+            "string": "\n   Total: 50 (120000.10μs)\n  "
+         }
+      },
+      "text:av_nearby_desc": {
+         "@name": "av_nearby_desc",
+         "#text": {
+            "string": "\n    Hide the most complex avatars to boost speed.\n  "
+         }
+      },
+      "slider:IndirectMaxComplexity": {
+         "@tool_tip": {
+            "string": "Controls at what point a visually complex avatar is drawn as a Impostor"
+         },
+         "@label": {
+            "string": "Maximum complexity (K)"
+         },
+         "@name": "IndirectMaxComplexity"
+      },
+      "text:IndirectMaxComplexityText": {
+         "@name": "IndirectMaxComplexityText",
+         "#text": {
+            "string": "\n    0\n  "
+         }
+      },
+      "slider:FSRenderAvatarMaxART": {
+         "@tool_tip": {
+            "string": "Controls when a visually complex avatar is considered to be taking too long to render (unit: microseconds)"
+         },
+         "@label": {
+            "string": "Maximum render time (μs)"
+         },
+         "@name": "FSRenderAvatarMaxART"
+      },
+      "text:FSRenderAvatarMaxARTText": {
+         "@name": "FSRenderAvatarMaxARTText",
+         "#text": {
+            "string": "\n    no limit\n  "
+         }
+      },
+      "name_list:nearby_list": {
+         "@name": "nearby_list",
+         "name_list.columns:art_visual": {
+            "@label": {
+               "string": ""
+            },
+            "@tool_tip": {
+               "string": "Bar graph showing current render time (includes auto-tuning) as % of slowest."
+            },
+            "@name": "art_visual"
+         },
+         "name_list.columns:art_value": {
+            "@label": {
+               "string": "Time (μs)"
+            },
+            "@tool_tip": {
+               "string": "Avatar Render Time. Actual time taken to render this avatar before any auto-tuning (in microseconds)."
+            },
+            "@name": "art_value"
+         },
+         "name_list.columns:adj_art_value": {
+            "@label": {
+               "string": "Adj. Time (μs)"
+            },
+            "@tool_tip": {
+               "string": "Avatar Render Time. Actual time taken to render this avatar after adjustments (in microseconds)."
+            },
+            "@name": "adj_art_value"
+         },
+         "name_list.columns:complex_value": {
+            "@label": {
+               "string": "ARC"
+            },
+            "@tool_tip": {
+               "string": "Complexity (ARC) based on standard rules."
+            },
+            "@name": "complex_value"
+         },
+         "name_list.columns:state": {
+            "@label": {
+               "string": ""
+            },
+            "@tool_tip": {
+               "string": "Shows any tuning. I=Impostor, S=no shadow."
+            },
+            "@name": "state"
+         },
+         "name_list.columns:name": {
+            "@label": {
+               "string": "Name"
+            },
+            "@name": "name"
+         },
+         "name_list.columns:breakdown": {
+            "@label": {
+               "string": "Breakdown"
+            },
+            "@tool_tip": {
+               "string": "Where the rendering time is spent (Geom/Shad/Other)"
+            },
+            "@name": "breakdown"
+         }
+      },
+      "text:av_nearby_desc2": {
+         "@name": "av_nearby_desc2",
+         "#text": {
+            "string": "\n     You can also right-click on an avatar in-world to control display.\n  "
+         }
+      },
+      "text:av_nearby_desc3": {
+         "@name": "av_nearby_desc3",
+         "#text": {
+            "string": "\n     Note: Your own avatar includes viewer overheads. Use the attachment tab to see how you affect others.\n  "
+         }
+      },
+      "check_box:display_friends": {
+         "@label": {
+            "string": "Always display friends in full detail"
+         },
+         "@name": "display_friends"
+      },
+      "button:exceptions_btn": {
+         "@label": {
+            "string": "Exceptions..."
+         },
+         "@name": "exceptions_btn"
+      },
+      "view_border:border": {
+         "@name": "border"
+      },
+      "check_box:hide_avatars": {
+         "@label": {
+            "string": "Hide avatars completely."
+         },
+         "@name": "hide_avatars"
+      },
+      "text:name_tags_textbox": {
+         "@name": "name_tags_textbox",
+         "#text": {
+            "string": "\n    Name tags:\n  "
+         }
+      },
+      "radio_group:name_tag_mode": {
+         "@name": "name_tag_mode",
+         "radio_item:radio": {
+            "@label": {
+               "string": "Off"
+            },
+            "@name": "radio"
+         },
+         "radio_item:radio2": {
+            "@label": {
+               "string": "On"
+            },
+            "@name": "radio2"
+         },
+         "radio_item:radio3": {
+            "@label": {
+               "string": "Show briefly"
+            },
+            "@name": "radio3"
+         }
+      }
+   }
+}

@@ -4,14 +4,13 @@
       "@title": {
          "string": "Voice Volume"
       },
-      "text": null,
+      "text:avatar_name": {
+         "@name": "avatar_name"
+      },
       "slider:volume_slider": {
          "@name": "volume_slider",
          "@tool_tip": {
             "string": "Voice volume"
-         },
-         "@value": {
-            "string": "0.5"
          }
       },
       "button:mute_btn": {

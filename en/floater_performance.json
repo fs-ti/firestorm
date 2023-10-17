@@ -288,6 +288,24 @@
             "icon:icon_arrow4": {
                "@name": "icon_arrow4"
             }
+         },
+         "panel:autoadjustments_subpanel": {
+            "@name": "autoadjustments_subpanel",
+            "text:auto_adj_lbl": {
+               "@name": "auto_adj_lbl",
+               "#text": {
+                  "string": "\n        Preferred frame rate\n      "
+               }
+            },
+            "text:auto_adj_desc": {
+               "@name": "auto_adj_desc",
+               "#text": {
+                  "string": "\n        Allow automatic adjustments to reach your preferred frame rate (advanced).\n      "
+               }
+            },
+            "icon:icon_arrow4": {
+               "@name": "icon_arrow4"
+            }
          }
       },
       "panel:panel_performance_nearby": {
@@ -302,8 +320,8 @@
       "panel:panel_performance_huds": {
          "@name": "panel_performance_huds"
       },
-      "panel:panel_performance_autotune": {
-         "@name": "panel_performance_autotune"
+      "panel:panel_performance_autoadjustments": {
+         "@name": "panel_performance_autoadjustments"
       }
    }
 }

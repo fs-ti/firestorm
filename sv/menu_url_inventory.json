@@ -3,7 +3,7 @@
       "@name": "Url Popup",
       "menu_item_call:show_item": {
          "@label": {
-            "string": "Show Inventory Item"
+            "string": ""
          },
          "@name": "show_item",
          "menu_item_call.on_click": null

@@ -83,9 +83,11 @@
          "on_click": null,
          "on_enable": null
       },
-      "menu_item_call": {
-         "on_click": null
+      "menu_item_call:create_new": {
+         "@name": "create_new"
       },
-      "menu_item_call$15": null
+      "menu_item_call:--no options--": {
+         "@name": "--no options--"
+      }
    }
 }

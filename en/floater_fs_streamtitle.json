@@ -1,0 +1,23 @@
+{
+   "floater": {
+      "@name": "stream_info",
+      "@title": {
+         "string": "Now playing:"
+      },
+      "floater.string:NoStream": {
+         "@name": "NoStream",
+         "#text": {
+            "string": "\n  No stream playing\n"
+         }
+      },
+      "text:streamtitle": {
+         "@name": "streamtitle"
+      },
+      "button:btn_history": {
+         "@name": "btn_history",
+         "@label": {
+            "string": "History"
+         }
+      }
+   }
+}

@@ -71,7 +71,7 @@
          "#comment": "\n    <menu_item_separator/>\n        <menu_item_call\n             label=\"Knowledge Base\"\n             name=\"Knowledge Base\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n            parameter=\"http://community.secondlife.com/t5/English-Knowledge-Base/Second-Life-User-s-Guide/ta-p/1244857\"/>\n        </menu_item_call>\n        <menu_item_call\n             label=\"Wiki\"\n             name=\"Wiki\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://wiki.secondlife.com\"/>\n        </menu_item_call>\n        <menu_item_call\n             label=\"Community Forums\"\n             name=\"Community Forums\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Forums/ct-p/Forums\"/>\n        </menu_item_call>         \n        <menu_item_call\n             label=\"Support portal\"\n             name=\"Support portal\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"https://support.secondlife.com/\"/>         \n        </menu_item_call>\n        <menu_item_separator/>\n        <menu_item_call\n             label=\"[SECOND_LIFE] News\"\n             name=\"Second Life News\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Featured-News/bg-p/blog_feature_news\"/>  \n        </menu_item_call>\n        <menu_item_call\n             label=\"[SECOND_LIFE] Blogs\"\n             name=\"Second Life Blogs\">\n             <menu_item_call.on_click\n                 function=\"Advanced.ShowURL\"\n                 parameter=\"http://community.secondlife.com/t5/Blogs/ct-p/Blogs\"/>\n        </menu_item_call>\n        <menu_item_separator/>       \n",
          "menu_item_call:Report Bug": {
             "@label": {
-               "string": "Report Bug"
+               "string": "Report Problem"
             },
             "@name": "Report Bug",
             "menu_item_call.on_click": null
@@ -135,17 +135,17 @@
                "string": "UI Tests"
             },
             "@name": "UI Tests",
-            "menu_item_call": {
-               "menu_item_call.on_click": null
+            "menu_item_call:Textbox": {
+               "@name": "Textbox"
             },
-            "menu_item_call$3": {
-               "menu_item_call.on_click": null
+            "menu_item_call:Text Editor": {
+               "@name": "Text Editor"
             },
-            "menu_item_call$4": {
-               "menu_item_call.on_click": null
+            "menu_item_call:Widgets": {
+               "@name": "Widgets"
             },
-            "menu_item_call$5": {
-               "menu_item_call.on_click": null
+            "menu_item_call:Inspectors": {
+               "@name": "Inspectors"
             }
          },
          "#comment": "\n      <menu_item_check\n         label=\"Reg In Client Test (restart)\"\n         name=\"Reg In Client Test (restart)\">\n            <menu_item_check.on_check\n               control=\"RegInClient\" />\n            <menu_item_check.on_click\n               function=\"ToggleControl\"\n               parameter=\"RegInClient\" />\n      </menu_item_check>\n",

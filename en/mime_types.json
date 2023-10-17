@@ -313,6 +313,17 @@
          "widgettype": "\n      image\n    ",
          "impl": "\n      media_plugin_cef\n    "
       },
+      "mimetype:application/octet-stream": {
+         "@name": "application/octet-stream",
+         "label:video/octet-stream": {
+            "@name": "video/octet-stream",
+            "#text": {
+               "string": "\n      Movie\n    "
+            }
+         },
+         "widgettype": "\n      movie\n    ",
+         "impl": "\n      media_plugin_libvlc\n    "
+      },
       "mimetype:audio/mid": {
          "@name": "audio/mid",
          "label:audio/mid_label": {
@@ -478,16 +489,16 @@
          "widgettype": "\n      movie\n    ",
          "impl": "\n      media_plugin_libvlc\n    "
       },
-      "mimetype:application/octet-stream": {
-         "@name": "application/octet-stream",
-         "label:video/octet-stream": {
-            "@name": "video/octet-stream",
+      "mimetype:video/x-flv": {
+         "@name": "video/x-flv",
+         "label:video/x-flv_label": {
+            "@name": "video/x-flv_label",
             "#text": {
-               "string": "\n      Movie\n    "
+               "string": "\n            Movie (flv)\n        "
             }
          },
-         "widgettype": "\n      movie\n    ",
-         "impl": "\n      media_plugin_libvlc\n    "
+         "widgettype": "\n            movie\n        ",
+         "impl": "\n            media_plugin_libvlc\n        "
       },
       "mimetype:video/quicktime": {
          "@name": "video/quicktime",

@@ -12,13 +12,13 @@
       },
       "spinner:GridDrawSize": {
          "@label": {
-            "string": "Extents (meters)"
+            "string": ""
          },
          "@name": "GridDrawSize"
       },
       "spinner:DecimalPrecision": {
          "@label": {
-            "string": "Decimal Precision"
+            "string": ""
          },
          "@name": "DecimalPrecision"
       },
@@ -28,28 +28,28 @@
          },
          "@name": "RotationStep",
          "@tool_tip": {
-            "string": "All rotations via rotation tool are constrained to multiples of this unit [Default: 1.0]"
+            "string": ""
          }
       },
       "check_box:GridSubUnit": {
          "@label": {
-            "string": "Snap to sub-units"
+            "string": ""
          },
          "@name": "GridSubUnit"
       },
       "check_box:GridCrossSection": {
          "@label": {
-            "string": "View cross-sections"
+            "string": ""
          },
          "@name": "GridCrossSection"
       },
       "text:grid_opacity_label": {
          "@tool_tip": {
-            "string": "Grid opacity"
+            "string": ""
          },
          "@name": "grid_opacity_label",
          "#text": {
-            "string": "\n            Opacity:\n   "
+            "string": ""
          }
       },
       "slider:GridOpacity": {

@@ -1,6 +1,18 @@
 {
    "floater": {
       "@name": "Image Preview",
+      "str_ing:with_alpha": {
+         "@name": "with_alpha",
+         "@value": {
+            "string": "with alpha"
+         }
+      },
+      "str_ing:no_alpha": {
+         "@name": "no_alpha",
+         "@value": {
+            "string": "no alpha"
+         }
+      },
       "text:name_label": {
          "@name": "name_label",
          "#text": {
@@ -34,16 +46,10 @@
             "@label": {
                "string": "Image"
             },
-            "@value": {
-               "string": "Image"
-            },
             "@name": "Image"
          },
          "item:Hair": {
             "@label": {
-               "string": "Hair"
-            },
-            "@value": {
                "string": "Hair"
             },
             "@name": "Hair"
@@ -52,16 +58,10 @@
             "@label": {
                "string": "Female Head"
             },
-            "@value": {
-               "string": "Female Head"
-            },
             "@name": "FemaleHead"
          },
          "item:FemaleUpperBody": {
             "@label": {
-               "string": "Female Upper Body"
-            },
-            "@value": {
                "string": "Female Upper Body"
             },
             "@name": "FemaleUpperBody"
@@ -70,16 +70,10 @@
             "@label": {
                "string": "Female Lower Body"
             },
-            "@value": {
-               "string": "Female Lower Body"
-            },
             "@name": "FemaleLowerBody"
          },
          "item:MaleHead": {
             "@label": {
-               "string": "Male Head"
-            },
-            "@value": {
                "string": "Male Head"
             },
             "@name": "MaleHead"
@@ -88,16 +82,10 @@
             "@label": {
                "string": "Male Upper Body"
             },
-            "@value": {
-               "string": "Male Upper Body"
-            },
             "@name": "MaleUpperBody"
          },
          "item:MaleLowerBody": {
             "@label": {
-               "string": "Male Lower Body"
-            },
-            "@value": {
                "string": "Male Lower Body"
             },
             "@name": "MaleLowerBody"
@@ -106,25 +94,38 @@
             "@label": {
                "string": "Skirt"
             },
-            "@value": {
-               "string": "Skirt"
-            },
             "@name": "Skirt"
          },
          "item:SculptedPrim": {
             "@label": {
                "string": "Sculpted Prim"
             },
-            "@value": {
-               "string": "Sculpted Prim"
-            },
             "@name": "SculptedPrim"
          }
+      },
+      "panel:image_alpha_warning": {
+         "@name": "image_alpha_warning",
+         "icon": null,
+         "check_box:strip_alpha_check": {
+            "@label": {
+               "string": "Empty alpha channel will be removed"
+            },
+            "@name": "strip_alpha_check"
+         }
+      },
+      "panel:preview_area": {
+         "@name": "preview_area"
       },
       "text:bad_image_text": {
          "@name": "bad_image_text",
          "#text": {
             "string": "\n        Unable to read image.\n\nTry saving image as 24 bit Targa (.tga).\n    "
+         }
+      },
+      "text:uploaded_size_text": {
+         "@name": "uploaded_size_text",
+         "#text": {
+            "string": "\nUploaded Size: [X_RES]x[Y_RES], [ALPHA]\n    "
          }
       },
       "check_box:lossless_check": {
@@ -142,20 +143,23 @@
             "string": "Sets the asset to be temporary, meaning its free, but in return, only good for a short time before it ceases to exist."
          }
       },
-      "button:cancel_btn": {
-         "@label": {
-            "string": "Cancel"
-         },
-         "@name": "cancel_btn"
-      },
       "button:ok_btn": {
          "@label": {
             "string": "Upload (L$[AMOUNT])"
          },
          "@name": "ok_btn"
       },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      },
       "text:info_text": {
-         "@name": "info_text"
+         "@name": "info_text",
+         "@value": {
+            "string": "= upload fee information text goes here ="
+         }
       }
    }
 }

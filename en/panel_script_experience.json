@@ -19,16 +19,44 @@
       },
       "layout_stack:xp_details": {
          "@name": "xp_details",
-         "layout_panel": {
-            "text": "\n        Script:\n      ",
-            "text$1": "\n        Associated with:\n      ",
-            "text$2": "\n        You can contribute:\n      ",
-            "text$3": "\n        Associate with:\n      "
+         "layout_panel:xp_layout_panel": {
+            "@name": "xp_layout_panel",
+            "text:lbl_script": {
+               "@name": "lbl_script",
+               "#text": {
+                  "string": "\n        Script:\n      "
+               }
+            },
+            "text:lbl_associated": {
+               "@name": "lbl_associated",
+               "#text": {
+                  "string": "\n        Associated with:\n      "
+               }
+            },
+            "text:lbl_contribute": {
+               "@name": "lbl_contribute",
+               "#text": {
+                  "string": "\n        You can contribute:\n      "
+               }
+            },
+            "text:lbl_associate": {
+               "@name": "lbl_associate",
+               "#text": {
+                  "string": "\n        Associate with:\n      "
+               }
+            }
          },
-         "layout_panel$2": {
-            "text": "\n        EasySit Animator 1.2.4\n      ",
-            "text$1": "\n        Kyle's Superhero RPG\n      ",
-            "text$2": "\n        Yes\n      ",
+         "layout_panel:xp_choose_panel": {
+            "@name": "xp_choose_panel",
+            "text": {
+               "string": "\n        EasySit Animator 1.2.4\n      "
+            },
+            "text$2": {
+               "string": "\n        Kyle's Superhero RPG\n      "
+            },
+            "text$3": {
+               "string": "\n        Yes\n      "
+            },
             "combo_box:Experiences...": {
                "@label": {
                   "string": "Choose Experience..."

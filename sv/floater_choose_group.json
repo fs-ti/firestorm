@@ -7,7 +7,7 @@
       "text:groupdesc": {
          "@name": "groupdesc",
          "#text": {
-            "string": "\n        Choose a group:\n    "
+            "string": ""
          }
       },
       "scroll_list:group list": {
@@ -24,7 +24,7 @@
       },
       "button:Cancel": {
          "@label": {
-            "string": "Cancel"
+            "string": ""
          },
          "@name": "Cancel"
       }

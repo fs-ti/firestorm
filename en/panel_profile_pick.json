@@ -1,0 +1,134 @@
+{
+   "panel": {
+      "@name": "panel_pick_info",
+      "panel.string:location_notice": {
+         "@name": "location_notice",
+         "#text": {
+            "string": "\n        (will update after save)\n    "
+         }
+      },
+      "layout_stack:main_pick_stack": {
+         "@name": "main_pick_stack",
+         "layout_panel:main_pick_lp": {
+            "@name": "main_pick_lp",
+            "texture_picker:pick_snapshot": {
+               "@name": "pick_snapshot"
+            },
+            "text:title_label": {
+               "@name": "title_label",
+               "#text": {
+                  "string": "\n        Title:\n      "
+               }
+            },
+            "line_editor:pick_name": {
+               "@name": "pick_name"
+            },
+            "text:description_label": {
+               "@name": "description_label",
+               "#text": {
+                  "string": "\n        Description:\n      "
+               }
+            },
+            "text_editor:pick_desc": {
+               "@name": "pick_desc"
+            },
+            "text:location_label": {
+               "@name": "location_label",
+               "#text": {
+                  "string": "\n        Location:\n      "
+               }
+            },
+            "line_editor:pick_location": {
+               "@name": "pick_location",
+               "#text": {
+                  "string": "\n          Loading...\n      "
+               }
+            }
+         },
+         "layout_panel:actions_lp": {
+            "@name": "actions_lp",
+            "layout_stack:actions_stack": {
+               "@name": "actions_stack",
+               "layout_panel:util_resizer_left": {
+                  "@name": "util_resizer_left"
+               },
+               "layout_panel:map_btn_lp": {
+                  "@name": "map_btn_lp",
+                  "button:show_on_map_btn": {
+                     "@name": "show_on_map_btn",
+                     "@label": {
+                        "string": "Show on Map"
+                     }
+                  }
+               },
+               "layout_panel:tp_btn_lp": {
+                  "@name": "tp_btn_lp",
+                  "button:teleport_btn": {
+                     "@name": "teleport_btn",
+                     "@label": {
+                        "string": "Teleport"
+                     }
+                  }
+               },
+               "layout_panel:set_to_curr_location_btn_lp": {
+                  "@name": "set_to_curr_location_btn_lp",
+                  "button:set_to_curr_location_btn": {
+                     "@name": "set_to_curr_location_btn",
+                     "@label": {
+                        "string": "Set Location"
+                     },
+                     "@tool_tip": {
+                        "string": "Set to Current Location"
+                     }
+                  }
+               },
+               "layout_panel:util_resizer_right": {
+                  "@name": "util_resizer_right"
+               }
+            }
+         },
+         "layout_panel:save_changes_lp": {
+            "@name": "save_changes_lp",
+            "view_border:save_emphasis_border": {
+               "@name": "save_emphasis_border"
+            },
+            "layout_stack:save_changes_stack": {
+               "@name": "save_changes_stack",
+               "layout_panel:save_resizer_left": {
+                  "@name": "save_resizer_left"
+               },
+               "layout_panel:create_btn_lp": {
+                  "@name": "create_btn_lp",
+                  "button:create_changes_btn": {
+                     "@name": "create_changes_btn",
+                     "@label": {
+                        "string": "Create Pick"
+                     }
+                  }
+               },
+               "layout_panel:save_btn_lp": {
+                  "@name": "save_btn_lp",
+                  "button:save_changes_btn": {
+                     "@name": "save_changes_btn",
+                     "@label": {
+                        "string": "Save Pick"
+                     }
+                  }
+               },
+               "layout_panel:cancel_btn_lp": {
+                  "@name": "cancel_btn_lp",
+                  "button:cancel_changes_btn": {
+                     "@name": "cancel_changes_btn",
+                     "@label": {
+                        "string": "Cancel"
+                     }
+                  }
+               },
+               "layout_panel:save_resizer_right": {
+                  "@name": "save_resizer_right"
+               }
+            }
+         }
+      }
+   }
+}

@@ -7,7 +7,7 @@
       "floater.string:already for sale": {
          "@name": "already for sale",
          "#text": {
-            "string": "\n        You cannot auction parcels which are already for sale.\n    "
+            "string": ""
          }
       },
       "icon:snapshot_icon": {
@@ -18,13 +18,13 @@
       },
       "check_box:fence_check": {
          "@label": {
-            "string": "Include yellow selection fence"
+            "string": ""
          },
          "@name": "fence_check"
       },
       "button:snapshot_btn": {
          "@label": {
-            "string": "Snapshot"
+            "string": ""
          },
          "@name": "snapshot_btn",
          "button.commit_callback": null
@@ -45,7 +45,7 @@
       },
       "button:start_auction_btn": {
          "@label": {
-            "string": "Start Auction"
+            "string": ""
          },
          "@name": "start_auction_btn",
          "button.commit_callback": null

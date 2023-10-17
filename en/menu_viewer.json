@@ -377,6 +377,20 @@
                "@name": "undeform_avatar",
                "menu_item_call.on_click": null
             },
+            "menu_item_call:Reset Skeleton": {
+               "@label": {
+                  "string": "Reset skeleton"
+               },
+               "@name": "Reset Skeleton",
+               "menu_item_call.on_click": null
+            },
+            "menu_item_call:Reset Skeleton And Animations": {
+               "@label": {
+                  "string": "Reset skeleton and animations"
+               },
+               "@name": "Reset Skeleton And Animations",
+               "menu_item_call.on_click": null
+            },
             "menu_item_call:Rebake Texture": {
                "@label": {
                   "string": "Force Appearance Update (Rebake)"
@@ -810,6 +824,14 @@
             "menu_item_check.on_check": null,
             "menu_item_check.on_click": null
          },
+         "menu_item_check:Stream Title": {
+            "@label": {
+               "string": "Stream Title"
+            },
+            "@name": "Stream Title",
+            "menu_item_check.on_check": null,
+            "menu_item_check.on_click": null
+         },
          "menu_item_call:Create Landmark Here": {
             "@label": {
                "string": "Landmark this Place"
@@ -1060,7 +1082,7 @@
                }
             }
          },
-         "#comment$26": "   \n      <menu\n       create_jump_keys=\"true\"\n       label=\"Environment Editor\"\n       name=\"Environment Editor\"\n       tear_off=\"true\">\n         \n         <menu_item_call\n          label=\"Environment Settings...\"\n          name=\"Environment Settings\">\n            <menu_item_call.on_click\n             function=\"World.EnvSettings\"\n                 parameter=\"editor\"/>\n          <menu_item_call.on_enable\n           function=\"RLV.EnableIfNot\"\n           parameter=\"setenv\" />\n         </menu_item_call>\n         \n         <menu_item_separator/>\n\n         <menu\n          name=\"Water Presets\"\n          label=\"Water Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_water_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_water\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n            </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_water_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_water\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n\n         <menu\n          name=\"Sky Presets\"\n          label=\"Sky Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_sky_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_sky\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_sky_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_sky\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n         \n         <menu\n          name=\"Day Presets\"\n          label=\"Day Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_day_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_day_cycle\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_day_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_day_cycle\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n      </menu>\n",
+         "#comment$27": "   \n      <menu\n       create_jump_keys=\"true\"\n       label=\"Environment Editor\"\n       name=\"Environment Editor\"\n       tear_off=\"true\">\n         \n         <menu_item_call\n          label=\"Environment Settings...\"\n          name=\"Environment Settings\">\n            <menu_item_call.on_click\n             function=\"World.EnvSettings\"\n                 parameter=\"editor\"/>\n          <menu_item_call.on_enable\n           function=\"RLV.EnableIfNot\"\n           parameter=\"setenv\" />\n         </menu_item_call>\n         \n         <menu_item_separator/>\n\n         <menu\n          name=\"Water Presets\"\n          label=\"Water Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_water_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_water\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n            </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_water_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_water\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n\n         <menu\n          name=\"Sky Presets\"\n          label=\"Sky Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_sky_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_sky\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_sky_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_sky\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n         \n         <menu\n          name=\"Day Presets\"\n          label=\"Day Presets\">\n            <menu_item_call\n             label=\"New preset...\"\n             name=\"new_day_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"new_day_cycle\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n            <menu_item_call\n             label=\"Edit preset...\"\n             name=\"edit_day_preset\">\n               <menu_item_call.on_click\n               function=\"World.EnvPreset\"\n               parameter=\"edit_day_cycle\"/>\n            <menu_item_call.on_enable\n            function=\"RLV.EnableIfNot\"\n            parameter=\"setenv\" />\n          </menu_item_call>\n         </menu>\n      </menu>\n",
          "menu:photo_and_video": {
             "@name": "photo_and_video",
             "@label": {
@@ -1668,6 +1690,15 @@
                "menu_item_call.on_click": null
             }
          },
+         "#comment": " local mesh begin ",
+         "menu_item_call:local_mesh": {
+            "@label": {
+               "string": "Local Mesh"
+            },
+            "@name": "local_mesh",
+            "menu_item_call.on_click": null
+         },
+         "#comment$18": " local mesh end ",
          "menu_item_call:Undo": {
             "@label": {
                "string": "Undo"
@@ -1691,7 +1722,7 @@
             "string": "Content"
          },
          "@name": "Content",
-         "#comment": "\n        <menu_item_call\n             label=\"Search\"\n             name=\"Search\">\n             <menu_item_call.on_click\n                 function=\"Floater.Show\"\n                 parameter=\"search\"/>\n       </menu_item_call>\n",
+         "#comment": "\n        <menu_item_call\n             label=\"Search\"\n             name=\"Search\">\n             <menu_item_call.on_click\n                 function=\"Avatar.ToggleSearch\"/>\n       </menu_item_call>\n",
          "menu_item_check:Search": {
             "@label": {
                "string": "Search"
@@ -1875,8 +1906,7 @@
             },
             "@name": "Grid Status",
             "menu_item_check.on_click": null,
-            "menu_item_check.on_check": null,
-            "menu_item_check.on_visible": null
+            "menu_item_check.on_check": null
          },
          "menu_item_call:Report Abuse": {
             "@label": {
@@ -1887,7 +1917,7 @@
          },
          "menu_item_call:Report Bug": {
             "@label": {
-               "string": "Report Bug"
+               "string": "Report Problem"
             },
             "@name": "Report Bug",
             "menu_item_call.on_click": null
@@ -2235,6 +2265,14 @@
                   "string": "Highlight Transparent"
                },
                "@name": "Highlight Transparent",
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
+            },
+            "menu_item_check:Include Transparent Rigged": {
+               "@label": {
+                  "string": "- include Rigged Transparent"
+               },
+               "@name": "Include Transparent Rigged",
                "menu_item_check.on_check": null,
                "menu_item_check.on_click": null
             },
@@ -2934,7 +2972,8 @@
                },
                "@name": "Profiling",
                "menu_item_check.on_check": null,
-               "menu_item_check.on_click": null
+               "menu_item_check.on_click": null,
+               "menu_item_check.on_enable": null
             },
             "menu_item_check:Start when telemetry client connects": {
                "@label": {
@@ -2972,6 +3011,13 @@
                "@name": "Force Bad Memory Access",
                "menu_item_call.on_click": null
             },
+            "menu_item_call:Force Bad Memory Access in Coroutine": {
+               "@label": {
+                  "string": "Force Bad Memory Access in Coroutine"
+               },
+               "@name": "Force Bad Memory Access in Coroutine",
+               "menu_item_call.on_click": null
+            },
             "menu_item_call:Force Infinite Loop": {
                "@label": {
                   "string": "Force Infinite Loop"
@@ -2993,11 +3039,11 @@
                "@name": "Force Software Exception",
                "menu_item_call.on_click": null
             },
-            "menu_item_call:Force a Crash in a Coroutine": {
+            "menu_item_call:Force Software Exception in Coroutine": {
                "@label": {
-                  "string": "Force a Crash in a Coroutine"
+                  "string": "Force Software Exception in Coroutine"
                },
-               "@name": "Force a Crash in a Coroutine",
+               "@name": "Force Software Exception in Coroutine",
                "menu_item_call.on_click": null
             },
             "menu_item_call:Force a Crash in a Thread": {
@@ -3394,7 +3440,7 @@
             },
             "menu_item_check:Debug GL": {
                "@label": {
-                  "string": "Debug GL"
+                  "string": "Start Debug GL on next run"
                },
                "@name": "Debug GL",
                "menu_item_check.on_check": null,
@@ -3556,6 +3602,19 @@
                "menu_item_call.on_click": null
             }
          },
+         "menu:Cache": {
+            "@label": {
+               "string": "Cache"
+            },
+            "@name": "Cache",
+            "menu_item_call:Purge Disk Cache": {
+               "@label": {
+                  "string": "Purge Disk Cache"
+               },
+               "@name": "Purge Disk Cache",
+               "menu_item_call.on_click": null
+            }
+         },
          "menu_item_call:Dump Scripted Camera": {
             "@label": {
                "string": "Dump Scripted Camera"
@@ -3657,12 +3716,13 @@
                "@name": "Dump Region Object Cache",
                "menu_item_call.on_click": null
             },
-            "menu_item_call:Interest List: Full Update": {
+            "menu_item_check:Interest List: Full Update": {
                "@label": {
                   "string": "Interest List: Full Update"
                },
                "@name": "Interest List: Full Update",
-               "menu_item_call.on_click": null
+               "menu_item_check.on_check": null,
+               "menu_item_check.on_click": null
             },
             "menu_item_call:DumpSimFeaturesToChat": {
                "@label": {
@@ -4160,6 +4220,13 @@
                "string": "Compress Images"
             },
             "@name": "Compress Images",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Compress File Test": {
+            "@label": {
+               "string": "Compress File Test"
+            },
+            "@name": "Compress File Test",
             "menu_item_call.on_click": null
          },
          "menu_item_call:Enable Visual Leak Detector": {

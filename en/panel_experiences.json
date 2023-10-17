@@ -4,19 +4,19 @@
       "@label": {
          "string": "Experiences"
       },
-      "string:loading_experiences": {
+      "str_ing:loading_experiences": {
          "@name": "loading_experiences",
          "@value": {
             "string": "Loading experiences..."
          }
       },
-      "string:no_experiences": {
+      "str_ing:no_experiences": {
          "@name": "no_experiences",
          "@value": {
             "string": "No experiences."
          }
       },
-      "string:acquire": {
+      "str_ing:acquire": {
          "@name": "acquire",
          "@value": {
             "string": "Acquire an Experience"

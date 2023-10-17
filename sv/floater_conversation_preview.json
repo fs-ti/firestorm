@@ -7,7 +7,7 @@
       "floater.string:Title": {
          "@name": "Title",
          "#text": {
-            "string": "\n        Conversation: [NAME]\n    "
+            "string": ""
          }
       },
       "fs_chat_history:chat_history": {
@@ -16,7 +16,7 @@
       "text:page_label": {
          "@name": "page_label",
          "@value": {
-            "string": "Page"
+            "string": ""
          }
       },
       "spinner:history_page_spin": {
@@ -27,13 +27,13 @@
       },
       "button:open_external_btn": {
          "@tool_tip": {
-            "string": "Open chat transcript externally"
+            "string": ""
          },
          "@name": "open_external_btn"
       },
       "button:search_btn": {
          "@tool_tip": {
-            "string": "Search this transcript"
+            "string": ""
          },
          "@name": "search_btn"
       }

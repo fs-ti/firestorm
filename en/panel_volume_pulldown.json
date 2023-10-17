@@ -5,8 +5,7 @@
          "@name": "System Volume",
          "@label": {
             "string": "Master"
-         },
-         "slider.commit_callback": null
+         }
       },
       "button:mute_audio": {
          "@name": "mute_audio"
@@ -19,15 +18,13 @@
          "@name": "UI Volume",
          "@label": {
             "string": "Buttons"
-         },
-         "slider.commit_callback": null
+         }
       },
       "slider:Wind Volume": {
          "@name": "Wind Volume",
          "@label": {
             "string": "Ambient"
-         },
-         "slider.commit_callback": null
+         }
       },
       "check_box:collisions_audio_play_btn": {
          "@name": "collisions_audio_play_btn",
@@ -39,8 +36,7 @@
          "@name": "SFX Volume",
          "@label": {
             "string": "Sounds"
-         },
-         "slider.commit_callback": null
+         }
       },
       "check_box:gesture_audio_play_btn": {
          "@name": "gesture_audio_play_btn",
@@ -52,8 +48,7 @@
          "@name": "Music Volume",
          "@label": {
             "string": "Music"
-         },
-         "slider.commit_callback": null
+         }
       },
       "check_box:enable_music": {
          "@name": "enable_music",
@@ -65,8 +60,7 @@
          "@name": "Media Volume",
          "@label": {
             "string": "Media"
-         },
-         "slider.commit_callback": null
+         }
       },
       "check_box:enable_media": {
          "@name": "enable_media",
@@ -78,8 +72,7 @@
          "@name": "Voice Volume",
          "@label": {
             "string": "Voice"
-         },
-         "slider.commit_callback": null
+         }
       },
       "check_box:enable_voice_check": {
          "@name": "enable_voice_check",

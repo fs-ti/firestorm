@@ -1,9 +1,6 @@
 {
    "floater": {
       "@name": "Anim Preview",
-      "@title": {
-         "string": "Animation.Anim"
-      },
       "text:name_label": {
          "@name": "name_label",
          "#text": {

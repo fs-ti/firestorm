@@ -4,13 +4,13 @@
       "@title": {
          "string": "Load Pref Preset"
       },
-      "string:title_graphic": {
+      "str_ing:title_graphic": {
          "@name": "title_graphic",
          "#text": {
             "string": "Load Graphic Preset"
          }
       },
-      "string:title_camera": {
+      "str_ing:title_camera": {
          "@name": "title_camera",
          "#text": {
             "string": "Load Camera Preset"

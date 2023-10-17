@@ -33,13 +33,21 @@
          "@label": {
             "string": "Post process quality:"
          },
-         "@name": "RenderPostProcess",
-         "slider.commit_callback": null
+         "@name": "RenderPostProcess"
       },
       "text:PostProcessText": {
          "@name": "PostProcessText",
          "#text": {
             "string": "\n       Low\n  "
+         }
+      },
+      "check_box:vsync": {
+         "@label": {
+            "string": "Enable VSync"
+         },
+         "@name": "vsync",
+         "@tool_tip": {
+            "string": "Synchronizes the frame rate to the refresh rate of the monitor, can result in increased stutter and input lag."
          }
       },
       "text:AvatarText": {
@@ -55,8 +63,7 @@
          "@label": {
             "string": "Maximum complexity:"
          },
-         "@name": "IndirectMaxComplexity",
-         "slider.commit_callback": null
+         "@name": "IndirectMaxComplexity"
       },
       "text:IndirectMaxComplexityText": {
          "@name": "IndirectMaxComplexityText",
@@ -68,8 +75,7 @@
          "@label": {
             "string": "Max. # of non-impostors:"
          },
-         "@name": "IndirectMaxNonImpostors",
-         "slider.commit_callback": null
+         "@name": "IndirectMaxNonImpostors"
       },
       "text:IndirectMaxNonImpostorsText": {
          "@name": "IndirectMaxNonImpostorsText",
@@ -81,8 +87,7 @@
          "@label": {
             "string": "Detail:"
          },
-         "@name": "AvatarMeshDetail",
-         "slider.commit_callback": null
+         "@name": "AvatarMeshDetail"
       },
       "text:AvatarMeshDetailText": {
          "@name": "AvatarMeshDetailText",
@@ -94,8 +99,7 @@
          "@label": {
             "string": "Physics:"
          },
-         "@name": "AvatarPhysicsDetail",
-         "slider.commit_callback": null
+         "@name": "AvatarPhysicsDetail"
       },
       "text:AvatarPhysicsDetailText": {
          "@name": "AvatarPhysicsDetailText",
@@ -141,15 +145,6 @@
             "string": "Anisotropic Filtering (slower when enabled)"
          },
          "@name": "ani"
-      },
-      "check_box:vbo": {
-         "@label": {
-            "string": "Enable OpenGL Vertex Buffer Objects"
-         },
-         "@name": "vbo",
-         "@tool_tip": {
-            "string": "Enabling this on modern hardware gives a performance gain.  However, older hardware often has poor implementations of VBOs and you may get crashes when this is enabled."
-         }
       },
       "check_box:texture compression": {
          "@label": {
@@ -230,8 +225,7 @@
          "@label": {
             "string": "Terrain Mesh Detail:"
          },
-         "@name": "TerrainMeshDetail",
-         "slider.commit_callback": null
+         "@name": "TerrainMeshDetail"
       },
       "text:TerrainMeshDetailText": {
          "@name": "TerrainMeshDetailText",
@@ -243,8 +237,7 @@
          "@label": {
             "string": "Trees:"
          },
-         "@name": "TreeMeshDetail",
-         "slider.commit_callback": null
+         "@name": "TreeMeshDetail"
       },
       "text:TreeMeshDetailText": {
          "@name": "TreeMeshDetailText",
@@ -256,8 +249,7 @@
          "@label": {
             "string": "Objects:"
          },
-         "@name": "ObjectMeshDetail",
-         "slider.commit_callback": null
+         "@name": "ObjectMeshDetail"
       },
       "text:ObjectMeshDetailText": {
          "@name": "ObjectMeshDetailText",
@@ -269,8 +261,7 @@
          "@label": {
             "string": "Flexiprims:"
          },
-         "@name": "FlexibleMeshDetail",
-         "slider.commit_callback": null
+         "@name": "FlexibleMeshDetail"
       },
       "text:FlexibleMeshDetailText": {
          "@name": "FlexibleMeshDetailText",
@@ -310,13 +301,6 @@
          "#text": {
             "string": "\n       Low\n  "
          }
-      },
-      "check_box:AvatarVertexProgram": {
-         "@label": {
-            "string": "Avatar Hardware skinning"
-         },
-         "@name": "AvatarVertexProgram",
-         "check_box.commit_callback": null
       },
       "check_box:AvatarCloth": {
          "@label": {
@@ -386,8 +370,7 @@
          "@label": {
             "string": "Sky:"
          },
-         "@name": "SkyMeshDetail",
-         "slider.commit_callback": null
+         "@name": "SkyMeshDetail"
       },
       "text:SkyMeshDetailText": {
          "@name": "SkyMeshDetailText",
@@ -416,7 +399,7 @@
          "@name": "UseDoF",
          "check_box.commit_callback": null
       },
-      "#comment$56": "\n  <check_box\n    control_name=\"RenderUseAdvancedAtmospherics\"\n    height=\"16\"\n    initial_value=\"true\"\n    label=\"Advanced Atmospherics\"\n    layout=\"topleft\"\n    left=\"480\"\n    name=\"UseAdvancedAtmo\"\n    top_delta=\"16\"\n    width=\"240\">\n    <check_box.commit_callback\n      function=\"Pref.AdvancedAtmosphericsEnable\" />\n  </check_box>\n  ",
+      "#comment$55": "\n  <check_box\n    control_name=\"RenderUseAdvancedAtmospherics\"\n    height=\"16\"\n    initial_value=\"true\"\n    label=\"Advanced Atmospherics\"\n    layout=\"topleft\"\n    left=\"480\"\n    name=\"UseAdvancedAtmo\"\n    top_delta=\"16\"\n    width=\"240\">\n    <check_box.commit_callback\n      function=\"Pref.AdvancedAtmosphericsEnable\" />\n  </check_box>\n  ",
       "text:RenderShadowDetailText": {
          "@name": "RenderShadowDetailText",
          "#text": {
@@ -444,7 +427,7 @@
             "@name": "2"
          }
       },
-      "#comment$59": " End of Advanced Settings block ",
+      "#comment$58": " End of Advanced Settings block ",
       "view_border:horiz_border": {
          "@name": "horiz_border"
       },
@@ -469,7 +452,7 @@
          "@name": "Cancel",
          "button.commit_callback": null
       },
-      "#comment$64": " These two check boxes are dummies and will never be displayed.  They are here so the control variables\nare saved in a preset file. ",
+      "#comment$63": " These two check boxes are dummies and will never be displayed.  They are here so the control variables\nare saved in a preset file. ",
       "check_box:RenderAvatarMaxComplexity": {
          "@label": {
             "string": "RenderAvatarMaxComplexity"

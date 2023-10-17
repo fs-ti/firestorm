@@ -4,61 +4,61 @@
          "string": "Environment"
       },
       "@name": "panel_env_info",
-      "string:str_label_use_default": {
+      "str_ing:str_label_use_default": {
          "@name": "str_label_use_default",
          "#text": {
             "string": "Use Default Settings"
          }
       },
-      "string:str_label_use_region": {
+      "str_ing:str_label_use_region": {
          "@name": "str_label_use_region",
          "#text": {
             "string": "Use Region Settings"
          }
       },
-      "string:str_altitude_desription": {
+      "str_ing:str_altitude_desription": {
          "@name": "str_altitude_desription",
          "#text": {
             "string": "Sky [INDEX]([ALTITUDE]m)"
          }
       },
-      "string:str_no_parcel": {
+      "str_ing:str_no_parcel": {
          "@name": "str_no_parcel",
          "#text": {
             "string": "No parcel is selected. Environmental settings are disabled."
          }
       },
-      "string:str_cross_region": {
+      "str_ing:str_cross_region": {
          "@name": "str_cross_region",
          "#text": {
             "string": "Environmental settings are not available across region boundaries."
          }
       },
-      "string:str_legacy": {
+      "str_ing:str_legacy": {
          "@name": "str_legacy",
          "#text": {
             "string": "Environmental settings are not available on this region."
          }
       },
-      "string:str_disallowed": {
+      "str_ing:str_disallowed": {
          "@name": "str_disallowed",
          "#text": {
             "string": "The estate manager does not allow changing parcel environments in this region."
          }
       },
-      "string:str_too_small": {
+      "str_ing:str_too_small": {
          "@name": "str_too_small",
          "#text": {
             "string": "The parcel must be at least 128 square meters to support an environment."
          }
       },
-      "string:str_empty": {
+      "str_ing:str_empty": {
          "@name": "str_empty",
          "#text": {
             "string": "(empty)"
          }
       },
-      "string:str_region_env": {
+      "str_ing:str_region_env": {
          "@name": "str_region_env",
          "#text": {
             "string": "(region environment)"
@@ -261,22 +261,13 @@
                   "multi_slider:sld_altitudes": {
                      "@name": "sld_altitudes",
                      "slider:sld1": {
-                        "@name": "sld1",
-                        "@value": {
-                           "string": "1000"
-                        }
+                        "@name": "sld1"
                      },
                      "slider:sld2": {
-                        "@name": "sld2",
-                        "@value": {
-                           "string": "2000"
-                        }
+                        "@name": "sld2"
                      },
                      "slider:sld3": {
-                        "@name": "sld3",
-                        "@value": {
-                           "string": "3000"
-                        }
+                        "@name": "sld3"
                      }
                   },
                   "panel:pnl_ground": {

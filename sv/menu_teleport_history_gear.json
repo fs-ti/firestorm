@@ -26,7 +26,7 @@
          "menu_item_check:teleport_history_tz_utc": {
             "@name": "teleport_history_tz_utc",
             "@label": {
-               "string": "UTC"
+               "string": ""
             },
             "on_click": null,
             "on_check": null
@@ -34,7 +34,7 @@
          "menu_item_check:teleport_history_tz_slt": {
             "@name": "teleport_history_tz_slt",
             "@label": {
-               "string": "SLT"
+               "string": ""
             },
             "on_click": null,
             "on_check": null
@@ -74,7 +74,7 @@
       "menu_item_separator": null,
       "menu_item_call:Clear Teleport History": {
          "@label": {
-            "string": "Clear Teleport History"
+            "string": ""
          },
          "@name": "Clear Teleport History",
          "menu_item_call.on_click": null,

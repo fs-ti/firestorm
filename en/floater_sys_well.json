@@ -4,13 +4,13 @@
       "@title": {
          "string": "Notifications"
       },
-      "string:title_im_well_window": {
+      "str_ing:title_im_well_window": {
          "@name": "title_im_well_window",
          "#text": {
             "string": "\n        Conversations\n    "
          }
       },
-      "string:title_notification_well_window": {
+      "str_ing:title_notification_well_window": {
          "@name": "title_notification_well_window",
          "#text": {
             "string": "\n        Notifications\n    "

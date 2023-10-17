@@ -10,13 +10,13 @@
             "string": "\n        Default\n    "
          }
       },
-      "string:name_no_device": {
+      "str_ing:name_no_device": {
          "@name": "name_no_device",
          "#text": {
             "string": "\n        No Device\n    "
          }
       },
-      "string:name_default_system_device": {
+      "str_ing:name_default_system_device": {
          "@name": "name_default_system_device",
          "#text": {
             "string": "\n        Default System Device\n    "

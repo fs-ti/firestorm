@@ -1,0 +1,167 @@
+{
+   "context_menu": {
+      "@name": "Url Popup",
+      "menu_item_call:show_agent": {
+         "@label": {
+            "string": "Visa profil"
+         },
+         "@name": "show_agent",
+         "#comment": " FS:Ansariel: FS-7263 - Make sure the agent profile is opened instead of the inspect panel\n        <menu_item_call.on_click\n         function=\"Url.Execute\" /> ",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:send_im": {
+         "@label": {
+            "string": "Skicka direktmeddelande..."
+         },
+         "@name": "send_im",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:chat_history": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "chat_history",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:add_friend": {
+         "@label": {
+            "string": "Lägg till vän..."
+         },
+         "@name": "add_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:Add to Set": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "Add to Set",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:zoom_agent": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "zoom_agent",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:teleportto_agent": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "teleportto_agent",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:offer_teleport": {
+         "@label": {
+            "string": "Erbjud teleportering"
+         },
+         "@name": "offer_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:request_teleport": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "request_teleport",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:track_agent": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "track_agent",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_call:remove_friend": {
+         "@label": {
+            "string": "Ta bort vän..."
+         },
+         "@name": "remove_friend",
+         "menu_item_call.on_click": null,
+         "menu_item_call.on_enable": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:report_abuse": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "report_abuse",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_check:Block": {
+         "@label": {
+            "string": "Blockera"
+         },
+         "@name": "Block",
+         "menu_item_check.on_click": null,
+         "menu_item_check.on_check": null,
+         "menu_item_check.on_enable": null
+      },
+      "#comment": " <FS:Zi> Add group moderation to agent URLs so we can moderate users that don't show\n                 in the participants list for some reason ",
+      "context_menu:GroupModerationSubmenu": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "GroupModerationSubmenu",
+         "menu_item_call:AllowGroupChat": {
+            "@label": {
+               "string": "Tillåt text-chatt"
+            },
+            "@name": "AllowGroupChat",
+            "on_click": null,
+            "#comment": " on_enable function=\"AvatarIcon.Enable\" parameter=\"can_allow_text_chat\" /"
+         },
+         "menu_item_call:ForbidGroupChat": {
+            "@label": {
+               "string": "Förbjud text-chatt"
+            },
+            "@name": "ForbidGroupChat",
+            "on_click": null,
+            "#comment": " on_enable function=\"AvatarIcon.Enable\" parameter=\"can_allow_text_chat\" /"
+         },
+         "menu_item_call:BanGroupMember": {
+            "@label": {
+               "string": "Bannlys medlem"
+            },
+            "@name": "BanGroupMember",
+            "on_click": null,
+            "#comment": " on_enable function=\"AvatarIcon.Enable\" parameter=\"can_allow_text_chat\" /"
+         },
+         "menu_item_call:BanEjectMember": {
+            "@label": {
+               "string": ""
+            },
+            "@name": "BanEjectMember",
+            "on_click": null,
+            "#comment": " on_enable function=\"AvatarIcon.Enable\" parameter=\"can_allow_text_chat\" /"
+         }
+      },
+      "menu_item_separator:GroupModerationSeparator": {
+         "@name": "GroupModerationSeparator"
+      },
+      "#comment$18": " </FS:Zi> ",
+      "menu_item_call:url_copy_label": {
+         "@label": {
+            "string": "Kopiera namn till klippbord"
+         },
+         "@name": "url_copy_label",
+         "menu_item_call.on_click": null
+      },
+      "menu_item_call:url_copy": {
+         "@label": {
+            "string": "Kopiera Url till klippbord"
+         },
+         "@name": "url_copy",
+         "menu_item_call.on_click": null
+      }
+   }
+}

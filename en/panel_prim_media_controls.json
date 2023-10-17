@@ -1,49 +1,49 @@
 {
    "panel": {
       "@name": "MediaControls",
-      "string:control_background_image_name": {
+      "str_ing:control_background_image_name": {
          "@name": "control_background_image_name",
          "#text": {
             "string": "Inspector_Background"
          }
       },
-      "string:skip_step": {
+      "str_ing:skip_step": {
          "@name": "skip_step",
          "#text": {
             "string": "0.2"
          }
       },
-      "string:min_width": {
+      "str_ing:min_width": {
          "@name": "min_width",
          "#text": {
             "string": "300"
          }
       },
-      "string:min_height": {
+      "str_ing:min_height": {
          "@name": "min_height",
          "#text": {
             "string": "75"
          }
       },
-      "string:zoom_near_padding": {
+      "str_ing:zoom_near_padding": {
          "@name": "zoom_near_padding",
          "#text": {
             "string": "1.0"
          }
       },
-      "string:zoom_medium_padding": {
+      "str_ing:zoom_medium_padding": {
          "@name": "zoom_medium_padding",
          "#text": {
             "string": "1.1"
          }
       },
-      "string:zoom_far_padding": {
+      "str_ing:zoom_far_padding": {
          "@name": "zoom_far_padding",
          "#text": {
             "string": "1.5"
          }
       },
-      "string:top_world_view_avoid_zone": {
+      "str_ing:top_world_view_avoid_zone": {
          "@name": "top_world_view_avoid_zone",
          "#text": {
             "string": "50"

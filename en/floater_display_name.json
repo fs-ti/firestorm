@@ -7,7 +7,7 @@
       "text:info_text": {
          "@name": "info_text",
          "#text": {
-            "string": "\n      The name you give your avatar is called your Display Name. You can change it once a week.\n    "
+            "string": "\n      Your display name is what other people see above your head. It is different from your login name. You can change it once a week.\n    "
          }
       },
       "text:lockout_text": {
@@ -34,6 +34,15 @@
       "line_editor:display_name_confirm": {
          "@name": "display_name_confirm"
       },
+      "button:reset_btn": {
+         "@label": {
+            "string": "Reset"
+         },
+         "@name": "reset_btn",
+         "@tool_tip": {
+            "string": "Use Username as a Display Name"
+         }
+      },
       "button:save_btn": {
          "@label": {
             "string": "Save"
@@ -41,15 +50,6 @@
          "@name": "save_btn",
          "@tool_tip": {
             "string": "Save your new Display Name"
-         }
-      },
-      "button:reset_btn": {
-         "@label": {
-            "string": "Reset"
-         },
-         "@name": "reset_btn",
-         "@tool_tip": {
-            "string": "Make Display Name the same as Username"
          }
       },
       "button:cancel_btn": {

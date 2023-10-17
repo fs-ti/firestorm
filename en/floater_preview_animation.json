@@ -7,45 +7,60 @@
             "string": "\n        Animation: [NAME]\n    "
          }
       },
-      "text:desc txt": {
-         "@name": "desc txt",
-         "#text": {
-            "string": "\n        Description:\n    "
+      "#comment": " <FS:Zi> panel that holds the basic animation info and gives size hints to the code ",
+      "panel:basic_info_panel": {
+         "@name": "basic_info_panel",
+         "text:desc txt": {
+            "@name": "desc txt",
+            "#text": {
+               "string": "\n        Description:\n    "
+            }
+         },
+         "line_editor:desc": {
+            "@name": "desc"
+         },
+         "button:Inworld": {
+            "@label": {
+               "string": "Play Inworld"
+            },
+            "@name": "Inworld",
+            "@tool_tip": {
+               "string": "Play this animation so that others can see it"
+            },
+            "button.commit_callback": null
+         },
+         "button:Locally": {
+            "@label": {
+               "string": "Play Locally"
+            },
+            "@name": "Locally",
+            "@tool_tip": {
+               "string": "Play this animation so that only you can see it"
+            },
+            "button.commit_callback": null
+         },
+         "button:btn_expand": {
+            "@name": "btn_expand",
+            "@tool_tip": {
+               "string": "Expand to see advanced information about this animation"
+            },
+            "button.commit_callback": null
          }
       },
-      "line_editor:desc": {
-         "@name": "desc"
-      },
-      "button:Inworld": {
-         "@label": {
-            "string": "Play Inworld"
+      "#comment$4": " <FS:Zi> panel that holds the (optional) advanced animation info and gives size hints to the code ",
+      "panel:advanced_info_panel": {
+         "@name": "advanced_info_panel",
+         "text:AdvancedStatsLeft": {
+            "@name": "AdvancedStatsLeft",
+            "#text": {
+               "string": "\nPriority: [PRIORITY]\nDuration: [DURATION]s\nLoop: [IS_LOOP]\n    "
+            }
          },
-         "@name": "Inworld",
-         "@tool_tip": {
-            "string": "Play this animation so that others can see it"
-         },
-         "button.commit_callback": null
-      },
-      "button:Locally": {
-         "@label": {
-            "string": "Play Locally"
-         },
-         "@name": "Locally",
-         "@tool_tip": {
-            "string": "Play this animation so that only you can see it"
-         },
-         "button.commit_callback": null
-      },
-      "text:AdvancedStatsLeft": {
-         "@name": "AdvancedStatsLeft",
-         "#text": {
-            "string": "\nPriority: [PRIORITY]\nDuration: [DURATION]s\nLoop: [IS_LOOP]\n    "
-         }
-      },
-      "text:AdvancedStatsRight": {
-         "@name": "AdvancedStatsRight",
-         "#text": {
-            "string": "\nEase In: [EASE_IN]s\nEase Out: [EASE_OUT]s\nJoints: [NUM_JOINTS]\n    "
+         "text:AdvancedStatsRight": {
+            "@name": "AdvancedStatsRight",
+            "#text": {
+               "string": "\nEase In: [EASE_IN]s\nEase Out: [EASE_OUT]s\nJoints: [NUM_JOINTS]\n    "
+            }
          }
       }
    }

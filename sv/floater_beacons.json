@@ -2,19 +2,19 @@
    "floater": {
       "@name": "beacons",
       "@title": {
-         "string": "Beacons"
+         "string": ""
       },
       "panel:beacons_panel": {
          "@name": "beacons_panel",
          "text:label_show": {
             "@name": "label_show",
             "#text": {
-               "string": "\n            Show :\n         "
+               "string": ""
             }
          },
          "check_box:lights_bounding_boxes": {
             "@label": {
-               "string": "Bounding boxes for lights in scene"
+               "string": ""
             },
             "@name": "lights_bounding_boxes",
             "check_box.on_check": null,
@@ -22,7 +22,7 @@
          },
          "check_box:beacons": {
             "@label": {
-               "string": "Beacons"
+               "string": ""
             },
             "@name": "beacons",
             "check_box.commit_callback": null
@@ -36,17 +36,17 @@
          },
          "check_box:FSRenderBeaconText": {
             "@label": {
-               "string": "Beacon info text in viewer window"
+               "string": ""
             },
             "@name": "FSRenderBeaconText"
          },
          "text:beacon_width_label": {
             "@tool_tip": {
-               "string": "Beacon width"
+               "string": ""
             },
             "@name": "beacon_width_label",
             "#text": {
-               "string": "\n            Width:\n        "
+               "string": ""
             }
          },
          "slider:beacon_width": {
@@ -55,7 +55,7 @@
          "text:label_objects": {
             "@name": "label_objects",
             "#text": {
-               "string": "\n           Show direction to:\n         "
+               "string": ""
             }
          },
          "check_box:physical": {
@@ -74,7 +74,7 @@
          },
          "check_box:touch_only": {
             "@label": {
-               "string": "Touch only"
+               "string": ""
             },
             "@name": "touch_only",
             "check_box.commit_callback": null

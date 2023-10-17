@@ -19,6 +19,12 @@
             },
             "@name": "English"
          },
+         "combo_box.item:Azerbaijani": {
+            "@label": {
+               "string": "Azərbaycanca (Azerbaijani)"
+            },
+            "@name": "Azerbaijani"
+         },
          "#comment": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Dansk (Danish) - Beta\"\n         name=\"Danish\"\n         value=\"da\" />\n        ",
          "combo_box.item:Deutsch(German)": {
             "@label": {
@@ -50,21 +56,33 @@
             },
             "@name": "Polish"
          },
-         "#comment$8": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Português (Portuguese) - Beta\"\n         name=\"Portugese\"\n         value=\"pt\" />\n        ",
+         "#comment$9": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Português (Portuguese) - Beta\"\n         name=\"Portugese\"\n         value=\"pt\" />\n        ",
          "combo_box.item:Russian": {
             "@label": {
                "string": "Русский (Russian) - Beta"
             },
             "@name": "Russian"
          },
-         "#comment$10": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Türkçe (Turkish) - Beta\"\n         name=\"Turkish\"\n         value=\"tr\" />\n        ",
+         "#comment$11": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"Türkçe (Turkish) - Beta\"\n         name=\"Turkish\"\n         value=\"tr\" />\n        ",
          "combo_box.item:(Japanese)": {
             "@label": {
                "string": "日本語 (Japanese) - Beta"
             },
             "@name": "(Japanese)"
          },
-         "#comment$12": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"正體中文 (Traditional Chinese) - Beta\"\n         name=\"Traditional Chinese\"\n         value=\"zh\" />\n        "
+         "#comment$13": "\n        <combo_box.item\n         enabled=\"true\"\n         label=\"正體中文 (Traditional Chinese) - Beta\"\n         name=\"Traditional Chinese\"\n         value=\"zh\" />\n        ",
+         "combo_box.item:dummy_lang": {
+            "@enabled": {
+               "string": "true"
+            },
+            "@label": {
+               "string": "((Insert your language name here if not on list))"
+            },
+            "@name": "dummy_lang",
+            "@value": {
+               "string": "((Insert your language code here if not on list))"
+            }
+         }
       },
       "text:language_textbox2": {
          "@name": "language_textbox2",
@@ -72,7 +90,16 @@
             "string": "\n        (Requires restart)\n    "
          }
       },
-      "#comment$6": "maturity",
+      "check_box:use_ime": {
+         "@label": {
+            "string": "Use IME Text Input"
+         },
+         "@name": "use_ime",
+         "@tool_tip": {
+            "string": "Use the international input method editor, only needed for specific languages like Japanese, Chinese, etc."
+         }
+      },
+      "#comment$7": "maturity",
       "text:maturity_desired_prompt": {
          "@name": "maturity_desired_prompt",
          "#text": {
@@ -101,7 +128,7 @@
          },
          "combo_box.commit_callback": null
       },
-      "#comment$9": " this text will never show at the same time as the above combo, they can overlap ",
+      "#comment$10": " this text will never show at the same time as the above combo, they can overlap ",
       "text:maturity_desired_textbox": {
          "@name": "maturity_desired_textbox"
       },
@@ -114,7 +141,7 @@
       "icon:rating_icon_adult": {
          "@name": "rating_icon_adult"
       },
-      "#comment$14": "start location",
+      "#comment$15": "start location",
       "text:start_location_textbox": {
          "@name": "start_location_textbox",
          "#text": {
@@ -145,7 +172,7 @@
             "string": ""
          }
       },
-      "#comment$18": "name tags",
+      "#comment$19": "name tags",
       "text:name_tags_textbox": {
          "@name": "name_tags_textbox",
          "#text": {
@@ -305,7 +332,7 @@
             "string": "If enabled, your own nametag will your current avatar complexity."
          }
       },
-      "#comment$37": "away/logout",
+      "#comment$38": "away/logout",
       "text:title_afk_text": {
          "@name": "title_afk_text",
          "#text": {

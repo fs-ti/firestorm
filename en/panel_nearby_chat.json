@@ -3,15 +3,6 @@
       "@name": "nearby_chat",
       "layout_stack:stack": {
          "@name": "stack",
-         "layout_panel:translate_chat_checkbox_lp": {
-            "@name": "translate_chat_checkbox_lp",
-            "check_box:translate_chat_checkbox": {
-               "@label": {
-                  "string": "Translate chat"
-               },
-               "@name": "translate_chat_checkbox"
-            }
-         },
          "layout_panel:chat_history_lp": {
             "@name": "chat_history_lp",
             "fs_chat_history:chat_history": {

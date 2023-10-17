@@ -1,13 +1,13 @@
 {
    "floater": {
       "@name": "fast_timers",
-      "string:pause": {
+      "str_ing:pause": {
          "@name": "pause",
          "#text": {
             "string": "Pause"
          }
       },
-      "string:run": {
+      "str_ing:run": {
          "@name": "run",
          "#text": {
             "string": "Run"

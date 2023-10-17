@@ -1,15 +1,19 @@
 {
    "panel": {
       "@name": "panel_login",
-      "panel.string": null,
-      "string": null,
+      "panel.string:real_url": {
+         "@name": "real_url"
+      },
+      "string:reg_in_client_url": {
+         "@name": "reg_in_client_url"
+      },
       "panel.string:forgot_password_url": {
          "@name": "forgot_password_url",
          "#text": {
             "string": "\n    http://secondlife.com/account/request.php\n  "
          }
       },
-      "string:ServerComboTooltip": {
+      "str_ing:ServerComboTooltip": {
          "@name": "ServerComboTooltip",
          "#text": {
             "string": "\n    An existing grid or a grid URI\n  "
@@ -168,12 +172,6 @@
                      "string": "Hybrid"
                   },
                   "@name": "Hybrid"
-               },
-               "combo_box.item:Latency": {
-                  "@label": {
-                     "string": "Latency"
-                  },
-                  "@name": "Latency"
                },
                "combo_box.item:Text": {
                   "@label": {

@@ -1,25 +1,25 @@
 {
    "strings": {
       "#comment": " Locale Information ",
-      "string:MicrosoftLocale": {
+      "str_ing:MicrosoftLocale": {
          "@name": "MicrosoftLocale",
          "#text": {
             "string": "english"
          }
       },
-      "string:MacLocale": {
+      "str_ing:MacLocale": {
          "@name": "MacLocale",
          "#text": {
             "string": "C"
          }
       },
-      "string:DarwinLocale": {
+      "str_ing:DarwinLocale": {
          "@name": "DarwinLocale",
          "#text": {
             "string": "C"
          }
       },
-      "string:LinuxLocale": {
+      "str_ing:LinuxLocale": {
          "@name": "LinuxLocale",
          "#text": {
             "string": "C"
@@ -27,163 +27,163 @@
       },
       "#comment$5": " Note: for plural nouns, see strings.xml.  For example:\n       AgeYearsA = singular,\n       AgeYearsB = plural,\n       AgeYearsC = plural for non-English languages like Russian\n       For example, LLTrans::getCountString(\"AgeYears\", 3) is plural form B\n       in English and form C in Russian ",
       "#comment$6": " \n  datetimeToCodes[\"wkday\"]  = \"%a\";    // Thu\n  datetimeToCodes[\"weekday\"]  = \"%A\";    // Thursday\n  datetimeToCodes[\"year4\"]  = \"%Y\";    // 2009\n  datetimeToCodes[\"year\"]    = \"%Y\";    // 2009\n  datetimeToCodes[\"year2\"]  = \"%y\";    // 09\n  datetimeToCodes[\"mth\"]    = \"%b\";    // Aug\n  datetimeToCodes[\"month\"]  = \"%B\";    // August\n  datetimeToCodes[\"mthnum\"]  = \"%m\";    // 08\n  datetimeToCodes[\"day\"]    = \"%d\";    // 31\n  datetimeToCodes[\"sday\"]    = \"%-d\";  // 9\n  datetimeToCodes[\"hour24\"]  = \"%H\";    // 14\n  datetimeToCodes[\"hour\"]    = \"%H\";    // 14\n  datetimeToCodes[\"hour12\"]  = \"%I\";    // 02\n  datetimeToCodes[\"min\"]    = \"%M\";    // 59\n  datetimeToCodes[\"ampm\"]    = \"%p\";    // AM\n  datetimeToCodes[\"second\"]  = \"%S\";    // 59\n  datetimeToCodes[\"timezone\"]  = \"%Z\";    // PST  \n  ",
-      "string:TimeHour": {
+      "str_ing:TimeHour": {
          "@name": "TimeHour",
          "#text": {
             "string": "hour,datetime,slt"
          }
       },
-      "string:TimeMin": {
+      "str_ing:TimeMin": {
          "@name": "TimeMin",
          "#text": {
             "string": "min,datetime,slt"
          }
       },
-      "string:TimeSec": {
+      "str_ing:TimeSec": {
          "@name": "TimeSec",
          "#text": {
             "string": "second,datetime,slt"
          }
       },
-      "string:TimeYear": {
+      "str_ing:TimeYear": {
          "@name": "TimeYear",
          "#text": {
             "string": "year,datetime,slt"
          }
       },
-      "string:TimeDay": {
+      "str_ing:TimeDay": {
          "@name": "TimeDay",
          "#text": {
             "string": "day,datetime,slt"
          }
       },
-      "string:TimeMonth": {
+      "str_ing:TimeMonth": {
          "@name": "TimeMonth",
          "#text": {
             "string": "mthnum,datetime,slt"
          }
       },
-      "string:TimeMth": {
+      "str_ing:TimeMth": {
          "@name": "TimeMth",
          "#text": {
             "string": "mth,datetime,slt"
          }
       },
-      "string:TimeWeek": {
+      "str_ing:TimeWeek": {
          "@name": "TimeWeek",
          "#text": {
             "string": "wkday,datetime,slt"
          }
       },
-      "string:TimeAMPM": {
+      "str_ing:TimeAMPM": {
          "@name": "TimeAMPM",
          "#text": {
             "string": "ampm,datetime,slt"
          }
       },
-      "string:TimeHour12": {
+      "str_ing:TimeHour12": {
          "@name": "TimeHour12",
          "#text": {
             "string": "hour12,datetime,slt"
          }
       },
-      "string:TimeTimezone": {
+      "str_ing:TimeTimezone": {
          "@name": "TimeTimezone",
          "#text": {
             "string": "timezone,datetime,slt"
          }
       },
-      "string:LTimeMthNum": {
+      "str_ing:LTimeMthNum": {
          "@name": "LTimeMthNum",
          "#text": {
             "string": "mthnum,datetime,local"
          }
       },
-      "string:LTimeWeek": {
+      "str_ing:LTimeWeek": {
          "@name": "LTimeWeek",
          "#text": {
             "string": "wkday,datetime,local"
          }
       },
-      "string:LTimeMonth": {
+      "str_ing:LTimeMonth": {
          "@name": "LTimeMonth",
          "#text": {
             "string": "mth,datetime,local"
          }
       },
-      "string:LTimeDay": {
+      "str_ing:LTimeDay": {
          "@name": "LTimeDay",
          "#text": {
             "string": "day,datetime,local"
          }
       },
-      "string:LTimeSec": {
+      "str_ing:LTimeSec": {
          "@name": "LTimeSec",
          "#text": {
             "string": "second,datetime,local"
          }
       },
-      "string:LTimeHour": {
+      "str_ing:LTimeHour": {
          "@name": "LTimeHour",
          "#text": {
             "string": "hour,datetime,local"
          }
       },
-      "string:LTimeMin": {
+      "str_ing:LTimeMin": {
          "@name": "LTimeMin",
          "#text": {
             "string": "min,datetime,local"
          }
       },
-      "string:LTimeYear": {
+      "str_ing:LTimeYear": {
          "@name": "LTimeYear",
          "#text": {
             "string": "year,datetime,local"
          }
       },
-      "string:UTCTimeWeek": {
+      "str_ing:UTCTimeWeek": {
          "@name": "UTCTimeWeek",
          "#text": {
             "string": "weekday,datetime,utc"
          }
       },
-      "string:UTCTimeDay": {
+      "str_ing:UTCTimeDay": {
          "@name": "UTCTimeDay",
          "#text": {
             "string": "day,datetime,utc"
          }
       },
-      "string:UTCTimeMth": {
+      "str_ing:UTCTimeMth": {
          "@name": "UTCTimeMth",
          "#text": {
             "string": "mth,datetime,utc"
          }
       },
-      "string:UTCTimeYr": {
+      "str_ing:UTCTimeYr": {
          "@name": "UTCTimeYr",
          "#text": {
             "string": "year,datetime,utc"
          }
       },
-      "string:UTCTimeHr": {
+      "str_ing:UTCTimeHr": {
          "@name": "UTCTimeHr",
          "#text": {
             "string": "hour,datetime,utc"
          }
       },
-      "string:UTCTimeMin": {
+      "str_ing:UTCTimeMin": {
          "@name": "UTCTimeMin",
          "#text": {
             "string": "min,datetime,utc"
          }
       },
-      "string:UTCTimeSec": {
+      "str_ing:UTCTimeSec": {
          "@name": "UTCTimeSec",
          "#text": {
             "string": "second,datetime,utc"
          }
       },
-      "string:UTCTimeTimezone": {
+      "str_ing:UTCTimeTimezone": {
          "@name": "UTCTimeTimezone",
          "#text": {
             "string": "timezone,datetime,utc"

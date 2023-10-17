@@ -7,7 +7,7 @@
             "string": "\n    http://secondlife.com/account/request.php\n  "
          }
       },
-      "string:ServerComboTooltip": {
+      "str_ing:ServerComboTooltip": {
          "@name": "ServerComboTooltip",
          "#text": {
             "string": "\n    An existing grid or a grid URI\n  "
@@ -169,12 +169,6 @@
                                  "string": "Hybrid"
                               },
                               "@name": "Hybrid"
-                           },
-                           "combo_box.item:Latency": {
-                              "@label": {
-                                 "string": "Latency"
-                              },
-                              "@name": "Latency"
                            },
                            "combo_box.item:Text": {
                               "@label": {

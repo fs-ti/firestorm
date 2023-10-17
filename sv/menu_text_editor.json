@@ -54,7 +54,7 @@
       },
       "menu_item_call:Add to Ignore": {
          "@label": {
-            "string": "Add to Ignore"
+            "string": ""
          },
          "@name": "Add to Ignore",
          "menu_item_call.on_click": null,

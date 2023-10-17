@@ -161,6 +161,13 @@
          "@name": "close_btn",
          "button.commit_callback": null
       },
+      "button:reset_time_btn": {
+         "@label": {
+            "string": "Reset Fetching Time"
+         },
+         "@name": "reset_time_btn",
+         "button.commit_callback": null
+      },
       "button:cacheread_btn": {
          "@label": {
             "string": "Cache Read"

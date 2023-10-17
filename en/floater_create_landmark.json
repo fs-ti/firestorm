@@ -4,7 +4,7 @@
       "@title": {
          "string": "Create Landmark"
       },
-      "string:favorites_bar": {
+      "str_ing:favorites_bar": {
          "@name": "favorites_bar",
          "#text": {
             "string": "\n    Favorites bar\n  "

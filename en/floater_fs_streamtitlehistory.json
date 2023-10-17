@@ -1,0 +1,17 @@
+{
+   "floater": {
+      "@name": "stream_history",
+      "@title": {
+         "string": "Recently playing:"
+      },
+      "fs_scroll_list:history": {
+         "@name": "history",
+         "columns:title": {
+            "@label": {
+               "string": "Title"
+            },
+            "@name": "title"
+         }
+      }
+   }
+}

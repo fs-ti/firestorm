@@ -22,7 +22,7 @@
       "text:quality_lbl": {
          "@name": "quality_lbl",
          "#text": {
-            "string": "\n  Quality vs speed\n"
+            "string": "\n    Best quality\n  "
          }
       },
       "text:FasterText": {
@@ -83,6 +83,36 @@
          "@name": "ShadersPrefText4",
          "#text": {
             "string": "\n   Ultra\n "
+         }
+      },
+      "text:fastest_lbl": {
+         "@name": "fastest_lbl",
+         "#text": {
+            "string": "\n    Fastest\n  "
+         }
+      },
+      "radio_group:graphics_quality": {
+         "@name": "graphics_quality",
+         "radio_item:0": {
+            "@name": "0"
+         },
+         "radio_item:1": {
+            "@name": "1"
+         },
+         "radio_item:2": {
+            "@name": "2"
+         },
+         "radio_item:3": {
+            "@name": "3"
+         },
+         "radio_item:4": {
+            "@name": "4"
+         },
+         "radio_item:5": {
+            "@name": "5"
+         },
+         "radio_item:6": {
+            "@name": "6"
          }
       },
       "text:quality_desc": {
@@ -244,7 +274,7 @@
       "text:photo_desc": {
          "@name": "photo_desc",
          "#text": {
-            "string": "\nPhotographers need high quality, but this is often\nat the cost of frame rate. [APP_NAME] phototools can\nhelp you find the right balance.\n  "
+            "string": "\n      (Enter value between 0.0 and 4.0)\n  "
          }
       },
       "button:open_phototools": {
@@ -256,6 +286,54 @@
             "string": "Open the dedicated photo tools for advanced photo settings."
          },
          "button.init_callback": null
+      },
+      "spinner:render_volume_lod": {
+         "@label": {
+            "string": "Distance detail:"
+         },
+         "@name": "render_volume_lod"
+      },
+      "text:1_lbl": {
+         "@name": "1_lbl",
+         "#text": {
+            "string": "\n    1\n  "
+         }
+      },
+      "text:2_lbl": {
+         "@name": "2_lbl",
+         "#text": {
+            "string": "\n    2\n  "
+         }
+      },
+      "text:3_lbl": {
+         "@name": "3_lbl",
+         "#text": {
+            "string": "\n    3\n  "
+         }
+      },
+      "text:4_lbl": {
+         "@name": "4_lbl",
+         "#text": {
+            "string": "\n    4\n  "
+         }
+      },
+      "text:5_lbl": {
+         "@name": "5_lbl",
+         "#text": {
+            "string": "\n    5\n  "
+         }
+      },
+      "text:6_lbl": {
+         "@name": "6_lbl",
+         "#text": {
+            "string": "\n      6\n  "
+         }
+      },
+      "text:7_lbl": {
+         "@name": "7_lbl",
+         "#text": {
+            "string": "\n    7\n  "
+         }
       }
    }
 }

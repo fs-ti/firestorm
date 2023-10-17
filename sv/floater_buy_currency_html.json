@@ -4,7 +4,9 @@
       "@title": {
          "string": "Köp valuta"
       },
-      "floater.string": null,
+      "floater.string:buy_currency_url": {
+         "@name": "buy_currency_url"
+      },
       "web_browser:browser": {
          "@name": "browser"
       }

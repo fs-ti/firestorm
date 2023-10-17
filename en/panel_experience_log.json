@@ -4,13 +4,13 @@
       "@label": {
          "string": "Events"
       },
-      "string:no_events": {
+      "str_ing:no_events": {
          "@name": "no_events",
          "@value": {
             "string": "No events."
          }
       },
-      "string:loading": {
+      "str_ing:loading": {
          "@name": "loading",
          "@value": {
             "string": "loading..."

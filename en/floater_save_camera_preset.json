@@ -4,13 +4,13 @@
       "@title": {
          "string": "Save Camera Preset"
       },
-      "string:btn_label_save": {
+      "str_ing:btn_label_save": {
          "@name": "btn_label_save",
          "#text": {
             "string": "Save"
          }
       },
-      "string:btn_label_replace": {
+      "str_ing:btn_label_replace": {
          "@name": "btn_label_replace",
          "#text": {
             "string": "Replace"

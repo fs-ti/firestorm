@@ -2,7 +2,7 @@
    "floater": {
       "@name": "animation_explorer",
       "@title": {
-         "string": "Animation Explorer"
+         "string": ""
       },
       "scroll_list:animation_list": {
          "@name": "animation_list",
@@ -32,13 +32,13 @@
          },
          "scroll_list.column:animation_id": {
             "@label": {
-               "string": "Animation ID"
+               "string": ""
             },
             "@name": "animation_id"
          },
          "scroll_list.column:object_id": {
             "@label": {
-               "string": "Object ID"
+               "string": ""
             },
             "@name": "object_id"
          }
@@ -50,29 +50,29 @@
          "@name": "buttons_panel",
          "button:stop_btn": {
             "@label": {
-               "string": "Stop"
+               "string": ""
             },
             "@name": "stop_btn"
          },
          "button:stop_and_revoke_btn": {
             "@label": {
-               "string": "Stop and Revoke"
+               "string": ""
             },
             "@name": "stop_and_revoke_btn"
          },
-         "button:revoke_btn": {
+         "button:blacklist_btn": {
             "@label": {
-               "string": "Revoke"
+               "string": ""
             },
-            "@name": "revoke_btn"
+            "@name": "blacklist_btn"
          },
          "check_box:no_owned_animations_check": {
             "@label": {
-               "string": "No Owned Animations"
+               "string": ""
             },
             "@name": "no_owned_animations_check",
             "@tool_tip": {
-               "string": "When checked this will filter out all animations that are owned by your avatar, like AO animations or system default animations."
+               "string": ""
             }
          }
       }

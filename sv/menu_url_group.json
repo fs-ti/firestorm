@@ -13,7 +13,7 @@
       "#comment$4": " menu entry to call internal request for group data - this will make sure the\n         rest of the functions can actually do something once the data is loaded ",
       "menu_item_call:waiting_for_group_data": {
          "@label": {
-            "string": "Fetching Group Data, please try again!"
+            "string": ""
          },
          "@name": "waiting_for_group_data",
          "menu_item_call.on_visible": null

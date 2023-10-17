@@ -64,54 +64,60 @@
             },
             "combo_box.item$5": {
                "@label": {
+                  "string": "Live DJ"
+               },
+               "@name": "dj"
+            },
+            "combo_box.item$6": {
+               "@label": {
                   "string": "Live Music"
                },
                "@name": "music"
             },
             "#comment": " <combo_box.item label=\"???\" name=\"mystery_category\" value=\"21\" /> ",
-            "combo_box.item$7": {
+            "combo_box.item$8": {
                "@label": {
                   "string": "Commercial"
                },
                "@name": "commercial"
             },
-            "combo_box.item$8": {
+            "combo_box.item$9": {
                "@label": {
                   "string": "Nightlife/Entertainment"
                },
                "@name": "nightlife"
             },
-            "combo_box.item$9": {
+            "combo_box.item$10": {
                "@label": {
                   "string": "Games/Contests"
                },
                "@name": "games"
             },
-            "combo_box.item$10": {
+            "combo_box.item$11": {
                "@label": {
                   "string": "Pageants"
                },
                "@name": "pageants"
             },
-            "combo_box.item$11": {
+            "combo_box.item$12": {
                "@label": {
                   "string": "Education"
                },
                "@name": "education"
             },
-            "combo_box.item$12": {
+            "combo_box.item$13": {
                "@label": {
                   "string": "Arts and Culture"
                },
                "@name": "arts"
             },
-            "combo_box.item$13": {
+            "combo_box.item$14": {
                "@label": {
                   "string": "Charity/Support Groups"
                },
                "@name": "charity"
             },
-            "combo_box.item$14": {
+            "combo_box.item$15": {
                "@label": {
                   "string": "Miscellaneous"
                },

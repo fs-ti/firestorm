@@ -4,219 +4,303 @@
       "@title": {
          "string": "Upload Model"
       },
-      "string:no_havok": {
+      "str_ing:no_havok": {
          "@name": "no_havok",
          "#text": {
             "string": "mesh upload with physics"
          }
       },
-      "string:status_idle": {
+      "str_ing:status_idle": {
          "@name": "status_idle"
       },
-      "string:status_parse_error": {
+      "str_ing:status_parse_error": {
          "@name": "status_parse_error",
          "#text": {
             "string": "Error: Dae parsing issue - see log for details."
          }
       },
-      "string:status_bind_shape_orientation": {
+      "str_ing:status_bind_shape_orientation": {
          "@name": "status_bind_shape_orientation",
          "#text": {
             "string": "Warning: bind shape matrix is not in standard X-forward orientation."
          }
       },
-      "string:status_material_mismatch": {
+      "str_ing:status_material_mismatch": {
          "@name": "status_material_mismatch",
          "#text": {
             "string": "Error: Material of model is not a subset of reference model."
          }
       },
-      "string:status_lod_model_mismatch": {
+      "str_ing:status_lod_model_mismatch": {
          "@name": "status_lod_model_mismatch",
          "#text": {
             "string": "Error: LOD Model has no parent."
          }
       },
-      "string:status_reading_file": {
+      "str_ing:status_reading_file": {
          "@name": "status_reading_file",
          "#text": {
             "string": "Loading..."
          }
       },
-      "string:status_generating_meshes": {
+      "str_ing:status_generating_meshes": {
          "@name": "status_generating_meshes",
          "#text": {
             "string": "Generating Meshes..."
          }
       },
-      "string:status_vertex_number_overflow": {
+      "str_ing:status_vertex_number_overflow": {
          "@name": "status_vertex_number_overflow",
          "#text": {
             "string": "Error: Vertex number is more than 65535, aborted!"
          }
       },
-      "string:bad_element": {
+      "str_ing:bad_element": {
          "@name": "bad_element",
          "#text": {
             "string": "Error: element is invalid"
          }
       },
-      "string:high": {
+      "str_ing:high": {
          "@name": "high",
          "#text": {
             "string": "High"
          }
       },
-      "string:medium": {
+      "str_ing:medium": {
          "@name": "medium",
          "#text": {
             "string": "Medium"
          }
       },
-      "string:low": {
+      "str_ing:low": {
          "@name": "low",
          "#text": {
             "string": "Low"
          }
       },
-      "string:lowest": {
+      "str_ing:lowest": {
          "@name": "lowest",
          "#text": {
             "string": "Lowest"
          }
       },
-      "string:mesh_status_good": {
+      "str_ing:mesh_status_good": {
          "@name": "mesh_status_good",
          "#text": {
             "string": "Ship it!"
          }
       },
-      "string:mesh_status_na": {
+      "str_ing:mesh_status_na": {
          "@name": "mesh_status_na",
          "#text": {
             "string": "N/A"
          }
       },
-      "string:mesh_status_none": {
+      "str_ing:mesh_status_none": {
          "@name": "mesh_status_none",
          "#text": {
             "string": "None"
          }
       },
-      "string:mesh_status_submesh_mismatch": {
+      "str_ing:mesh_status_submesh_mismatch": {
          "@name": "mesh_status_submesh_mismatch",
          "#text": {
             "string": "Levels of detail have a different number of textureable faces."
          }
       },
-      "string:mesh_status_mesh_mismatch": {
+      "str_ing:mesh_status_mesh_mismatch": {
          "@name": "mesh_status_mesh_mismatch",
          "#text": {
             "string": "Levels of detail have a different number of mesh instances."
          }
       },
-      "string:mesh_status_too_many_vertices": {
+      "str_ing:mesh_status_too_many_vertices": {
          "@name": "mesh_status_too_many_vertices",
          "#text": {
             "string": "Level of detail has too many vertices."
          }
       },
-      "string:mesh_status_missing_lod": {
+      "str_ing:mesh_status_missing_lod": {
          "@name": "mesh_status_missing_lod",
          "#text": {
             "string": "Missing required level of detail."
          }
       },
-      "string:mesh_status_invalid_material_list": {
+      "str_ing:mesh_status_invalid_material_list": {
          "@name": "mesh_status_invalid_material_list",
          "#text": {
             "string": "LOD materials are not a subset of reference model."
          }
       },
-      "string:phys_status_vertex_limit_exceeded": {
+      "str_ing:phys_status_vertex_limit_exceeded": {
          "@name": "phys_status_vertex_limit_exceeded",
          "#text": {
             "string": "Some physical hulls exceed the vertex limit (256); try an alternative 'Analyze Method'."
          }
       },
-      "string:phys_status_hull_limit_exceeded": {
+      "str_ing:phys_status_hull_limit_exceeded": {
          "@name": "phys_status_hull_limit_exceeded",
          "#text": {
             "string": "Some models exceed the hull limit (256); try 'simplify'."
          }
       },
-      "string:phys_status_degenerate_triangles": {
+      "str_ing:phys_status_degenerate_triangles": {
          "@name": "phys_status_degenerate_triangles",
          "#text": {
-            "string": "Physics mesh too dense; remove the small, thin triangles (see preview)."
+            "string": "The physics mesh is too dense or contains degenerate triangles. Use Analyze/Simplify to resolve."
          }
       },
-      "string:phys_status_no_havok": {
+      "str_ing:phys_status_no_havok": {
          "@name": "phys_status_no_havok",
          "#text": {
             "string": "This version contains no Havok support and is not recommended for physics upload in Second Life. Results may be unpredictable."
          }
       },
-      "string:phys_status_unknown_error": {
+      "str_ing:phys_status_too_thin": {
+         "@name": "phys_status_too_thin",
+         "#text": {
+            "string": "One or more dimensions is less than 0.5m, only hull-based (analyzed) physics shapes will work correctly."
+         }
+      },
+      "str_ing:phys_status_unknown_error": {
          "@name": "phys_status_unknown_error",
          "#text": {
             "string": "An unrecognized error was detected."
          }
       },
-      "string:layer_all": {
+      "str_ing:layer_all": {
          "@name": "layer_all",
          "#text": {
             "string": "All"
          }
       },
       "#comment": " Text to display in physics layer combo box for \"all layers\" ",
-      "string:decomposing": {
+      "str_ing:decomposing": {
          "@name": "decomposing",
          "#text": {
             "string": "Analyzing..."
          }
       },
-      "string:simplifying": {
+      "str_ing:simplifying": {
          "@name": "simplifying",
          "#text": {
             "string": "Simplifying..."
          }
       },
-      "string:tbd": {
+      "str_ing:tbd": {
          "@name": "tbd",
          "#text": {
             "string": "TBD"
          }
       },
-      "#comment$34": " Warnings and info from model loader",
-      "string:TooManyJoint": {
+      "#comment$35": " Warnings and info from model loader",
+      "str_ing:TooManyJoint": {
          "@name": "TooManyJoint",
          "#text": {
             "string": "Skinning disabled due to too many joints: [JOINTS], maximum: [MAX]"
          }
       },
-      "string:UnrecognizedJoint": {
+      "str_ing:UnrecognizedJoint": {
          "@name": "UnrecognizedJoint",
          "#text": {
             "string": "Rigged to unrecognized joint name [NAME]"
          }
       },
-      "string:UnknownJoints": {
+      "str_ing:UnknownJoints": {
          "@name": "UnknownJoints",
          "#text": {
             "string": "Skinning disabled due to [COUNT] unknown joints"
          }
       },
-      "string:ModelLoaded": {
+      "str_ing:ModelLoaded": {
          "@name": "ModelLoaded",
          "#text": {
             "string": "Model [MODEL_NAME] loaded"
          }
       },
-      "string:IncompleteTC": {
+      "str_ing:IncompleteTC": {
          "@name": "IncompleteTC",
          "#text": {
             "string": "Texture coordinates data is not complete."
+         }
+      },
+      "str_ing:PositionNaN": {
+         "@name": "PositionNaN",
+         "#text": {
+            "string": "Found NaN while loading position data from DAE-Model, invalid model."
+         }
+      },
+      "str_ing:NormalsNaN": {
+         "@name": "NormalsNaN",
+         "#text": {
+            "string": "Found NaN while loading normals from DAE-Model, invalid model."
+         }
+      },
+      "str_ing:NegativeScaleTrans": {
+         "@name": "NegativeScaleTrans",
+         "#text": {
+            "string": "Negative scale detected, unsupported transform. domInstance_geometry: [LABEL]"
+         }
+      },
+      "str_ing:NegativeScaleNormTrans": {
+         "@name": "NegativeScaleNormTrans",
+         "#text": {
+            "string": "Negative scale detected, unsupported post-normalization transform. domInstance_geometry: [LABEL]"
+         }
+      },
+      "str_ing:CantResolveGeometryUrl": {
+         "@name": "CantResolveGeometryUrl",
+         "#text": {
+            "string": "Unable to resolve geometry URL."
+         }
+      },
+      "str_ing:ParsingErrorBadElement": {
+         "@name": "ParsingErrorBadElement",
+         "#text": {
+            "string": "Bad element"
+         }
+      },
+      "str_ing:ParsingErrorCantParseScene": {
+         "@name": "ParsingErrorCantParseScene",
+         "#text": {
+            "string": "Scene could not be parsed"
+         }
+      },
+      "str_ing:ParsingErrorCorrupt": {
+         "@name": "ParsingErrorCorrupt",
+         "#text": {
+            "string": "Error with dae - traditionally indicates a corrupt file."
+         }
+      },
+      "str_ing:ParsingErrorNoController": {
+         "@name": "ParsingErrorNoController",
+         "#text": {
+            "string": "Could not verify controller"
+         }
+      },
+      "str_ing:ParsingErrorNoDoc": {
+         "@name": "ParsingErrorNoDoc",
+         "#text": {
+            "string": "Can't find internal doc"
+         }
+      },
+      "str_ing:ParsingErrorNoRoot": {
+         "@name": "ParsingErrorNoRoot",
+         "#text": {
+            "string": "Document has no root"
+         }
+      },
+      "str_ing:ParsingErrorNoScene": {
+         "@name": "ParsingErrorNoScene",
+         "#text": {
+            "string": "Document has no visual_scene"
+         }
+      },
+      "str_ing:ParsingErrorPositionInvalidModel": {
+         "@name": "ParsingErrorPositionInvalidModel",
+         "#text": {
+            "string": "Unable to process mesh without position data. Invalid model."
          }
       },
       "panel:left_panel": {
@@ -279,18 +363,30 @@
                      "@name": "Load from file",
                      "@label": {
                         "string": "Load from file"
-                     },
-                     "@value": {
-                        "string": "Load from file"
+                     }
+                  },
+                  "item:MeshOpt Auto": {
+                     "@name": "MeshOpt Auto",
+                     "@label": {
+                        "string": "Generate Auto"
+                     }
+                  },
+                  "item:MeshOptCombine": {
+                     "@name": "MeshOptCombine",
+                     "@label": {
+                        "string": "Generate Precise"
+                     }
+                  },
+                  "item:MeshOptSloppy": {
+                     "@name": "MeshOptSloppy",
+                     "@label": {
+                        "string": "Generate Sloppy"
                      }
                   },
                   "item:Generate": {
                      "@name": "Generate",
                      "@label": {
-                        "string": "Generate"
-                     },
-                     "@value": {
-                        "string": "Generate"
+                        "string": "Generate Reliable"
                      }
                   }
                },
@@ -312,17 +408,11 @@
                      "@name": "Triangle Limit",
                      "@label": {
                         "string": "Triangle Limit"
-                     },
-                     "@value": {
-                        "string": "Triangle Limit"
                      }
                   },
                   "item:Error Threshold": {
                      "@name": "Error Threshold",
                      "@label": {
-                        "string": "Error Threshold"
-                     },
-                     "@value": {
                         "string": "Error Threshold"
                      }
                   }
@@ -366,26 +456,35 @@
                      "@name": "Load from file",
                      "@label": {
                         "string": "Load from file"
-                     },
-                     "@value": {
-                        "string": "Load from file"
+                     }
+                  },
+                  "item:MeshOpt Auto": {
+                     "@name": "MeshOpt Auto",
+                     "@label": {
+                        "string": "Generate Auto"
+                     }
+                  },
+                  "item:MeshOptCombine": {
+                     "@name": "MeshOptCombine",
+                     "@label": {
+                        "string": "Generate Precise"
+                     }
+                  },
+                  "item:MeshOptSloppy": {
+                     "@name": "MeshOptSloppy",
+                     "@label": {
+                        "string": "Generate Sloppy"
                      }
                   },
                   "item:Generate": {
                      "@name": "Generate",
                      "@label": {
-                        "string": "Generate"
-                     },
-                     "@value": {
-                        "string": "Generate"
+                        "string": "Generate Reliable"
                      }
                   },
                   "item:Use LoD above": {
                      "@name": "Use LoD above",
                      "@label": {
-                        "string": "Use LoD above"
-                     },
-                     "@value": {
                         "string": "Use LoD above"
                      }
                   }
@@ -408,17 +507,11 @@
                      "@name": "Triangle Limit",
                      "@label": {
                         "string": "Triangle Limit"
-                     },
-                     "@value": {
-                        "string": "Triangle Limit"
                      }
                   },
                   "item:Error Threshold": {
                      "@name": "Error Threshold",
                      "@label": {
-                        "string": "Error Threshold"
-                     },
-                     "@value": {
                         "string": "Error Threshold"
                      }
                   }
@@ -462,26 +555,35 @@
                      "@name": "Load from file",
                      "@label": {
                         "string": "Load from file"
-                     },
-                     "@value": {
-                        "string": "Load from file"
+                     }
+                  },
+                  "item:MeshOpt Auto": {
+                     "@name": "MeshOpt Auto",
+                     "@label": {
+                        "string": "Generate Auto"
+                     }
+                  },
+                  "item:MeshOptCombine": {
+                     "@name": "MeshOptCombine",
+                     "@label": {
+                        "string": "Generate Precise"
+                     }
+                  },
+                  "item:MeshOptSloppy": {
+                     "@name": "MeshOptSloppy",
+                     "@label": {
+                        "string": "Generate Sloppy"
                      }
                   },
                   "item:Generate": {
                      "@name": "Generate",
                      "@label": {
-                        "string": "Generate"
-                     },
-                     "@value": {
-                        "string": "Generate"
+                        "string": "Generate Reliable"
                      }
                   },
                   "item:Use LoD above": {
                      "@name": "Use LoD above",
                      "@label": {
-                        "string": "Use LoD above"
-                     },
-                     "@value": {
                         "string": "Use LoD above"
                      }
                   }
@@ -504,17 +606,11 @@
                      "@name": "Triangle Limit",
                      "@label": {
                         "string": "Triangle Limit"
-                     },
-                     "@value": {
-                        "string": "Triangle Limit"
                      }
                   },
                   "item:Error Threshold": {
                      "@name": "Error Threshold",
                      "@label": {
-                        "string": "Error Threshold"
-                     },
-                     "@value": {
                         "string": "Error Threshold"
                      }
                   }
@@ -558,26 +654,35 @@
                      "@name": "Load from file",
                      "@label": {
                         "string": "Load from file"
-                     },
-                     "@value": {
-                        "string": "Load from file"
+                     }
+                  },
+                  "item:MeshOpt Auto": {
+                     "@name": "MeshOpt Auto",
+                     "@label": {
+                        "string": "Generate Auto"
+                     }
+                  },
+                  "item:MeshOptCombine": {
+                     "@name": "MeshOptCombine",
+                     "@label": {
+                        "string": "Generate Precise"
+                     }
+                  },
+                  "item:MeshOptSloppy": {
+                     "@name": "MeshOptSloppy",
+                     "@label": {
+                        "string": "Generate Sloppy"
                      }
                   },
                   "item:Generate": {
                      "@name": "Generate",
                      "@label": {
-                        "string": "Generate"
-                     },
-                     "@value": {
-                        "string": "Generate"
+                        "string": "Generate Reliable"
                      }
                   },
                   "item:Use LoD above": {
                      "@name": "Use LoD above",
                      "@label": {
-                        "string": "Use LoD above"
-                     },
-                     "@value": {
                         "string": "Use LoD above"
                      }
                   }
@@ -600,17 +705,11 @@
                      "@name": "Triangle Limit",
                      "@label": {
                         "string": "Triangle Limit"
-                     },
-                     "@value": {
-                        "string": "Triangle Limit"
                      }
                   },
                   "item:Error Threshold": {
                      "@name": "Error Threshold",
                      "@label": {
-                        "string": "Error Threshold"
-                     },
-                     "@value": {
                         "string": "Error Threshold"
                      }
                   }
@@ -661,10 +760,7 @@
                   }
                },
                "spinner:crease_angle": {
-                  "@name": "crease_angle",
-                  "@value": {
-                     "string": "75"
-                  }
+                  "@name": "crease_angle"
                }
             },
             "#comment$5": " PHYSYCS PANEL ",
@@ -736,6 +832,12 @@
                         "@name": "physics_ud",
                         "#text": {
                            "string": " User Defined "
+                        }
+                     },
+                     "combo_item:physics_bounding_box": {
+                        "@name": "physics_bounding_box",
+                        "#text": {
+                           "string": " Bounding Box "
                         }
                      },
                      "combo_item:load_from_file": {
@@ -929,10 +1031,7 @@
                   }
                },
                "spinner:import_scale": {
-                  "@name": "import_scale",
-                  "@value": {
-                     "string": "1.0"
-                  }
+                  "@name": "import_scale"
                },
                "text:dimensions_label": {
                   "@name": "dimensions_label",
@@ -989,10 +1088,7 @@
                   }
                },
                "spinner:pelvis_offset": {
-                  "@name": "pelvis_offset",
-                  "@value": {
-                     "string": "0.0"
-                  }
+                  "@name": "pelvis_offset"
                },
                "text:skin_too_many_joints": {
                   "@name": "skin_too_many_joints",
@@ -1107,10 +1203,106 @@
                   },
                   "@name": "mesh_preview_auto_show_weights"
                },
+               "text:lod_suffix_label": {
+                  "@name": "lod_suffix_label",
+                  "#text": {
+                     "string": "\n           LOD Suffixes:\n         "
+                  }
+               },
+               "combo_box:lod_suffix_combo": {
+                  "@name": "lod_suffix_combo",
+                  "@tool_tip": {
+                     "string": "Pick a preset or set your own"
+                  },
+                  "combo_item:choose_one": {
+                     "@name": "choose_one",
+                     "#text": {
+                        "string": "Choose a standard or manually edit..."
+                     }
+                  },
+                  "combo_item:suff_sl": {
+                     "@name": "suff_sl",
+                     "#text": {
+                        "string": "SL Standard (Lowest=LOD0)"
+                     }
+                  },
+                  "combo_item:suff_unity": {
+                     "@name": "suff_unity",
+                     "#text": {
+                        "string": "Games Engine Standard (Lowest=LOD3)"
+                     }
+                  },
+                  "combo_item:suff_descriptive": {
+                     "@name": "suff_descriptive",
+                     "#text": {
+                        "string": "Words (high,med...)"
+                     }
+                  }
+               },
+               "text:suf_lowest_lab": {
+                  "@name": "suf_lowest_lab",
+                  "#text": {
+                     "string": "\n          Lowest:\n        "
+                  }
+               },
+               "line_editor:suf_lowest": {
+                  "@name": "suf_lowest",
+                  "@tool_tip": {
+                     "string": "The Suffix used to identify the Lowest LOD file on disk and models within a file."
+                  }
+               },
+               "text:suf_low_lab": {
+                  "@name": "suf_low_lab",
+                  "#text": {
+                     "string": "\n        Low:\n      "
+                  }
+               },
+               "line_editor:suf_low": {
+                  "@name": "suf_low",
+                  "@tool_tip": {
+                     "string": "The Suffix used to identify the Low LOD file on disk and models within a file."
+                  }
+               },
+               "text:suf_medium_lab": {
+                  "@name": "suf_medium_lab",
+                  "#text": {
+                     "string": "\n        Medium:\n      "
+                  }
+               },
+               "line_editor:suf_medium": {
+                  "@name": "suf_medium",
+                  "@tool_tip": {
+                     "string": "The Suffix used to identify the Medium LOD file on disk and models within a file."
+                  }
+               },
+               "text:suf_high_lab": {
+                  "@name": "suf_high_lab",
+                  "#text": {
+                     "string": "\n        High:\n      "
+                  }
+               },
+               "line_editor:suf_high": {
+                  "@name": "suf_high",
+                  "@tool_tip": {
+                     "string": "The Suffix used to identify the High LOD file on disk and models within a file."
+                  }
+               },
+               "text:suf_physics_lab": {
+                  "@name": "suf_physics_lab",
+                  "#text": {
+                     "string": "\n        Physics:\n      "
+                  }
+               },
+               "line_editor:suf_physics": {
+                  "@name": "suf_physics",
+                  "@tool_tip": {
+                     "string": "The Suffix used to identify the Physics file on disk and models within a file."
+                  }
+               },
                "text:mesh_preview_ud_preset_label": {
                   "@name": "mesh_preview_ud_preset_label",
                   "#text": {
-                     "string": "\n          Physics User Defined Preset:\n        "
+                     "string": "\n        Physics User Defined Preset:\n      "
                   }
                },
                "line_editor:ud_physics": {
@@ -1118,6 +1310,12 @@
                   "@tool_tip": {
                      "string": "Full system path to a simple Collada mesh definition to be used for physics."
                   }
+               },
+               "button:set_user_def_phys": {
+                  "@label": {
+                     "string": "Browse"
+                  },
+                  "@name": "set_user_def_phys"
                },
                "text:mesh_preview_colors_label": {
                   "@name": "mesh_preview_colors_label",

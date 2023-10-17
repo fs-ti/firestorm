@@ -151,6 +151,14 @@
          "on_click": null,
          "on_enable": null
       },
+      "menu_item_call:report_abuse": {
+         "@label": {
+            "string": "Report Abuse"
+         },
+         "@name": "report_abuse",
+         "on_click": null,
+         "on_enable": null
+      },
       "menu_item_check:block_unblock": {
          "@label": {
             "string": "Block Voice"

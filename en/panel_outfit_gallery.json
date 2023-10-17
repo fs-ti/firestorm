@@ -1,19 +1,19 @@
 {
    "panel": {
       "@name": "Outfit Gallery",
-      "string:outfit_photo_string": {
+      "str_ing:outfit_photo_string": {
          "@name": "outfit_photo_string",
          "#text": {
             "string": "\n    Photo of \"[OUTFIT_NAME]\" outfit\n  "
          }
       },
-      "string:no_outfits_msg": {
+      "str_ing:no_outfits_msg": {
          "@name": "no_outfits_msg",
          "#text": {
             "string": "\n    You don't have any outfits yet. Try [secondlife:///app/search/all/ Search]\n  "
          }
       },
-      "string:no_matched_outfits_msg": {
+      "str_ing:no_matched_outfits_msg": {
          "@name": "no_matched_outfits_msg",
          "#text": {
             "string": "\n    Didn't find what you're looking for? Try [secondlife:///app/search/all/[SEARCH_TERM] Search].\n  "

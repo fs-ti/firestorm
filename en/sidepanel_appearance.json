@@ -4,25 +4,25 @@
          "string": "Outfits"
       },
       "@name": "appearance panel",
-      "string:No Outfit": {
+      "str_ing:No Outfit": {
          "@name": "No Outfit",
          "@value": {
             "string": "No Outfit"
          }
       },
-      "string:Unsaved Changes": {
+      "str_ing:Unsaved Changes": {
          "@name": "Unsaved Changes",
          "@value": {
             "string": "Unsaved changes"
          }
       },
-      "string:Now Wearing": {
+      "str_ing:Now Wearing": {
          "@name": "Now Wearing",
          "@value": {
             "string": "Now wearing..."
          }
       },
-      "string:Changing outfits": {
+      "str_ing:Changing outfits": {
          "@name": "Changing outfits",
          "@value": {
             "string": "Changing outfits"

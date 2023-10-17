@@ -60,11 +60,11 @@
             },
             "@name": "stop_and_revoke_btn"
          },
-         "button:revoke_btn": {
+         "button:blacklist_btn": {
             "@label": {
-               "string": "Revoke"
+               "string": "Blacklist"
             },
-            "@name": "revoke_btn"
+            "@name": "blacklist_btn"
          },
          "check_box:no_owned_animations_check": {
             "@label": {

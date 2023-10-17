@@ -68,7 +68,7 @@
       "menu_item_check:Translate_chat": {
          "@name": "Translate_chat",
          "@label": {
-            "string": "Translate Nearby chat"
+            "string": "Translate chat"
          },
          "menu_item_check.on_click": null,
          "menu_item_check.on_check": null,

@@ -4,31 +4,31 @@
       "@title": {
          "string": "Voice Controls"
       },
-      "string:title_nearby": {
+      "str_ing:title_nearby": {
          "@name": "title_nearby",
          "#text": {
             "string": "\n        Nearby Voice\n    "
          }
       },
-      "string:title_group": {
+      "str_ing:title_group": {
          "@name": "title_group",
          "#text": {
             "string": "\n        Group Call with [GROUP]\n    "
          }
       },
-      "string:title_adhoc": {
+      "str_ing:title_adhoc": {
          "@name": "title_adhoc",
          "#text": {
             "string": "\n        Conference Call\n    "
          }
       },
-      "string:title_peer_2_peer": {
+      "str_ing:title_peer_2_peer": {
          "@name": "title_peer_2_peer",
          "#text": {
             "string": "\n        Call with [NAME]\n    "
          }
       },
-      "string:no_one_near": {
+      "str_ing:no_one_near": {
          "@name": "no_one_near",
          "#text": {
             "string": "\n        No one near has voice enabled\n    "
@@ -75,9 +75,6 @@
             "@name": "callers_panel",
             "avatar_list:speakers_list": {
                "@name": "speakers_list"
-            },
-            "panel:non_avatar_caller": {
-               "@name": "non_avatar_caller"
             },
             "text:rlv_restricted": {
                "@name": "rlv_restricted"

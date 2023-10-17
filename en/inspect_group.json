@@ -1,31 +1,33 @@
 {
    "floater": {
       "@name": "inspect_group",
-      "string:PrivateGroup": {
+      "str_ing:PrivateGroup": {
          "@name": "PrivateGroup",
          "#text": {
             "string": "Private group"
          }
       },
-      "string:FreeToJoin": {
+      "str_ing:FreeToJoin": {
          "@name": "FreeToJoin",
          "#text": {
             "string": "Free to join"
          }
       },
-      "string:CostToJoin": {
+      "str_ing:CostToJoin": {
          "@name": "CostToJoin",
          "#text": {
             "string": "L$[AMOUNT] to join"
          }
       },
-      "string:YouAreMember": {
+      "str_ing:YouAreMember": {
          "@name": "YouAreMember",
          "#text": {
             "string": "You are a member"
          }
       },
-      "text": null,
+      "text:group_name": {
+         "@name": "group_name"
+      },
       "text:group_subtitle": {
          "@name": "group_subtitle",
          "#text": {

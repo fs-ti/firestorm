@@ -43,9 +43,6 @@
             "string": "\n    Disabled\n "
          }
       },
-      "button:back_btn": {
-         "@name": "back_btn"
-      },
       "text:title": {
          "@name": "title",
          "@value": {
@@ -213,15 +210,6 @@
                      "string": "Map"
                   },
                   "@name": "show_on_map_btn"
-               }
-            },
-            "layout_panel:edit_btn_lp": {
-               "@name": "edit_btn_lp",
-               "button:edit_btn": {
-                  "@label": {
-                     "string": "Edit"
-                  },
-                  "@name": "edit_btn"
                }
             }
          }

@@ -79,7 +79,7 @@
          },
          "@name": "cancel_button"
       },
-      "string:GroupInvitation": {
+      "str_ing:GroupInvitation": {
          "@name": "GroupInvitation",
          "#text": {
             "string": "\n   Group Invitation\n   "

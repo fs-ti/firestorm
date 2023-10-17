@@ -1,0 +1,71 @@
+{
+   "panel": {
+      "@name": "panel_picks",
+      "@label": {
+         "string": "Picks"
+      },
+      "str_ing:no_picks": {
+         "@name": "no_picks",
+         "@value": {
+            "string": "No Picks"
+         }
+      },
+      "layout_stack:main_stack": {
+         "@name": "main_stack",
+         "layout_panel:buttons_header": {
+            "@name": "buttons_header",
+            "text:header_text": {
+               "@name": "header_text",
+               "#text": {
+                  "string": "\n        Tell everyone about your favorite places in [GRID].\n      "
+               }
+            },
+            "button:new_btn": {
+               "@name": "new_btn",
+               "@label": {
+                  "string": "New..."
+               },
+               "@tool_tip": {
+                  "string": "Create a new pick at the current location"
+               }
+            },
+            "button:delete_btn": {
+               "@name": "delete_btn",
+               "@label": {
+                  "string": "Delete..."
+               },
+               "@tool_tip": {
+                  "string": "Delete currently selected pick"
+               }
+            }
+         },
+         "layout_panel:main_body": {
+            "@name": "main_body",
+            "tab_container:tab_picks": {
+               "@name": "tab_picks"
+            },
+            "layout_stack:indicator_stack": {
+               "@name": "indicator_stack",
+               "layout_panel:indicator_spacer_left": {
+                  "@name": "indicator_spacer_left"
+               },
+               "layout_panel:buttons_header": {
+                  "@name": "buttons_header",
+                  "loading_indicator:progress_indicator": {
+                     "@name": "progress_indicator"
+                  }
+               },
+               "layout_panel:indicator_spacer_right": {
+                  "@name": "indicator_spacer_right"
+               }
+            },
+            "text:picks_panel_text": {
+               "@name": "picks_panel_text",
+               "#text": {
+                  "string": "\n        Loading...\n      "
+               }
+            }
+         }
+      }
+   }
+}

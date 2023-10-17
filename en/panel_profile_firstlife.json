@@ -1,0 +1,56 @@
+{
+   "panel": {
+      "@name": "panel_profile_firstlife",
+      "@label": {
+         "string": "Profile"
+      },
+      "str_ing:texture_picker_label": {
+         "@name": "texture_picker_label",
+         "@value": {
+            "string": "1st Life Picture"
+         }
+      },
+      "loading_indicator:progress_indicator": {
+         "@name": "progress_indicator"
+      },
+      "texture_picker:real_world_pic": {
+         "@name": "real_world_pic"
+      },
+      "loading_indicator:image_upload_indicator": {
+         "@name": "image_upload_indicator"
+      },
+      "button:fl_upload_image": {
+         "@name": "fl_upload_image",
+         "@label": {
+            "string": "Upload Photo"
+         }
+      },
+      "button:fl_change_image": {
+         "@name": "fl_change_image",
+         "@label": {
+            "string": "Change Photo"
+         }
+      },
+      "button:fl_remove_image": {
+         "@name": "fl_remove_image",
+         "@label": {
+            "string": "Remove Photo"
+         }
+      },
+      "text_editor:fl_description_edit": {
+         "@name": "fl_description_edit"
+      },
+      "button:fl_save_changes": {
+         "@name": "fl_save_changes",
+         "@label": {
+            "string": "Save"
+         }
+      },
+      "button:fl_discard_changes": {
+         "@name": "fl_discard_changes",
+         "@label": {
+            "string": "Discard"
+         }
+      }
+   }
+}

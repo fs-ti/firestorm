@@ -72,22 +72,31 @@
                      },
                      "@name": "connect_btn"
                   },
-                  "check_box:remember_check": {
+                  "text:sign_up_text": {
+                     "@name": "sign_up_text",
+                     "#text": {
+                        "string": "\n            Sign up\n          "
+                     }
+                  },
+                  "check_box:remember_name": {
                      "@label": {
                         "string": "Remember me"
                      },
-                     "@name": "remember_check"
+                     "@name": "remember_name",
+                     "@tool_tip": {
+                        "string": "Already remembered user can be forgotten from Me > Preferences > Advanced > Remembered Usernames."
+                     }
+                  },
+                  "check_box:remember_password": {
+                     "@label": {
+                        "string": "Remember password"
+                     },
+                     "@name": "remember_password"
                   },
                   "text:forgot_password_text": {
                      "@name": "forgot_password_text",
                      "#text": {
                         "string": "\n            Forgotten password\n          "
-                     }
-                  },
-                  "text:sign_up_text": {
-                     "@name": "sign_up_text",
-                     "#text": {
-                        "string": "\n            Sign up\n          "
                      }
                   }
                },
@@ -109,9 +118,6 @@
                   "@name": "images_container",
                   "icon:image_left": {
                      "@name": "image_left"
-                  },
-                  "icon:image_right": {
-                     "@name": "image_right"
                   }
                },
                "layout_panel:images_right": {

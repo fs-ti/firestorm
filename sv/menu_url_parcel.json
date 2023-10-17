@@ -3,7 +3,7 @@
       "@name": "Url Popup",
       "menu_item_call:show_parcel": {
          "@label": {
-            "string": "Show Parcel Information"
+            "string": ""
          },
          "@name": "show_parcel",
          "menu_item_call.on_click": null

@@ -153,87 +153,100 @@
             "menu_item_call.on_enable": null
          }
       },
-      "menu_item_call:NowWearing": {
+      "context_menu:AppearanceSubmenu": {
          "@label": {
-            "string": "Now wearing..."
+            "string": "Appearance"
          },
-         "@name": "NowWearing",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
+         "@name": "AppearanceSubmenu",
+         "menu_item_call:NowWearing": {
+            "@label": {
+               "string": "Now wearing..."
+            },
+            "@name": "NowWearing",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Chenge Outfit": {
+            "@label": {
+               "string": "Outfits"
+            },
+            "@name": "Chenge Outfit",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Edit My Shape": {
+            "@label": {
+               "string": "Edit Shape"
+            },
+            "@name": "Edit My Shape",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Edit Outfit Parts": {
+            "@label": {
+               "string": "Edit Outfit"
+            },
+            "@name": "Edit Outfit Parts",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_call:Hover Height": {
+            "@label": {
+               "string": "Hover Height"
+            },
+            "@name": "Hover Height",
+            "menu_item_call.on_click": null,
+            "menu_item_call.on_enable": null
+         },
+         "menu_item_separator": null,
+         "menu_item_call:Reset Skeleton": {
+            "@label": {
+               "string": "Reset Skeleton"
+            },
+            "@name": "Reset Skeleton",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Reset Skeleton And Animations": {
+            "@label": {
+               "string": "Reset Skeleton And Animations"
+            },
+            "@name": "Reset Skeleton And Animations",
+            "menu_item_call.on_click": null
+         },
+         "menu_item_call:Reset Mesh LOD": {
+            "@label": {
+               "string": "Reset Mesh LOD"
+            },
+            "@name": "Reset Mesh LOD",
+            "menu_item_call.on_click": null
+         }
       },
-      "menu_item_call:Chenge Outfit": {
+      "context_menu:CommunitySubmenu": {
          "@label": {
-            "string": "Outfits"
+            "string": "Community"
          },
-         "@name": "Chenge Outfit",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Edit My Shape": {
-         "@label": {
-            "string": "Edit Shape"
+         "@name": "CommunitySubmenu",
+         "menu_item_call:Friends...": {
+            "@label": {
+               "string": "Friends"
+            },
+            "@name": "Friends...",
+            "menu_item_call.on_click": null
          },
-         "@name": "Edit My Shape",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Edit Outfit Parts": {
-         "@label": {
-            "string": "Edit Outfit"
+         "menu_item_call:Groups...": {
+            "@label": {
+               "string": "Groups"
+            },
+            "@name": "Groups...",
+            "menu_item_call.on_click": null
          },
-         "@name": "Edit Outfit Parts",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Hover Height": {
-         "@label": {
-            "string": "Hover Height"
-         },
-         "@name": "Hover Height",
-         "menu_item_call.on_click": null,
-         "menu_item_call.on_enable": null
-      },
-      "menu_item_call:Reset Skeleton": {
-         "@label": {
-            "string": "Reset Skeleton"
-         },
-         "@name": "Reset Skeleton",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Reset Skeleton And Animations": {
-         "@label": {
-            "string": "Reset Skeleton And Animations"
-         },
-         "@name": "Reset Skeleton And Animations",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Reset Mesh LOD": {
-         "@label": {
-            "string": "Reset Mesh LOD"
-         },
-         "@name": "Reset Mesh LOD",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Friends...": {
-         "@label": {
-            "string": "Friends"
-         },
-         "@name": "Friends...",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Groups...": {
-         "@label": {
-            "string": "Groups"
-         },
-         "@name": "Groups...",
-         "menu_item_call.on_click": null
-      },
-      "menu_item_call:Profile...": {
-         "@label": {
-            "string": "Profile"
-         },
-         "@name": "Profile...",
-         "menu_item_call.on_click": null
+         "menu_item_call:Profile...": {
+            "@label": {
+               "string": "Profile"
+            },
+            "@name": "Profile...",
+            "menu_item_call.on_click": null
+         }
       },
       "menu_item_call:ScriptInfo": {
          "@label": {
@@ -273,6 +286,7 @@
          "@name": "Mute Particle",
          "menu_item_call.on_click": null,
          "menu_item_call.on_enable": null
-      }
+      },
+      "#comment": " <menu_item_separator/>\n  <menu_item_call label=\"View Profile\"\n       layout=\"topleft\"\n       name=\"show_avatar_profile\">\n    <menu_item_call.on_click\n     function=\"Avatar.ToggleMyProfile\" />\n  </menu_item_call> "
    }
 }

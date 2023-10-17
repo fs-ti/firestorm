@@ -9,12 +9,12 @@
          "panel:RGB": {
             "@name": "RGB",
             "@label": {
-               "string": "RGB"
+               "string": ""
             },
             "text:r_val_text": {
                "@name": "r_val_text",
                "#text": {
-                  "string": "\n        Red:\n    "
+                  "string": ""
                }
             },
             "spinner:rspin": {
@@ -23,7 +23,7 @@
             "text:g_val_text": {
                "@name": "g_val_text",
                "#text": {
-                  "string": "\n        Green:\n    "
+                  "string": ""
                }
             },
             "spinner:gspin": {
@@ -32,7 +32,7 @@
             "text:b_val_text": {
                "@name": "b_val_text",
                "#text": {
-                  "string": "\n        Blue:\n    "
+                  "string": ""
                }
             },
             "spinner:bspin": {
@@ -47,7 +47,7 @@
             "text:r_val_text_lsl": {
                "@name": "r_val_text_lsl",
                "#text": {
-                  "string": "\n        Red:\n    "
+                  "string": ""
                }
             },
             "spinner:rspin_lsl": {
@@ -56,7 +56,7 @@
             "text:g_val_text_lsl": {
                "@name": "g_val_text_lsl",
                "#text": {
-                  "string": "\n        Green:\n    "
+                  "string": ""
                }
             },
             "spinner:gspin_lsl": {
@@ -65,7 +65,7 @@
             "text:b_val_text_lsl": {
                "@name": "b_val_text_lsl",
                "#text": {
-                  "string": "\n        Blue:\n    "
+                  "string": ""
                }
             },
             "spinner:bspin_lsl": {
@@ -75,12 +75,12 @@
          "panel:Hex": {
             "@name": "Hex",
             "@label": {
-               "string": "Hex"
+               "string": ""
             },
             "text:hex_text": {
                "@name": "hex_text",
                "#text": {
-                  "string": "\n    Hex Code (#rrggbb):\n    "
+                  "string": ""
                }
             },
             "text:hex_hash_prefix": {
@@ -97,7 +97,7 @@
       "text:h_val_text": {
          "@name": "h_val_text",
          "#text": {
-            "string": "\n        Hue:\n    "
+            "string": ""
          }
       },
       "spinner:hspin": {
@@ -106,7 +106,7 @@
       "text:s_val_text": {
          "@name": "s_val_text",
          "#text": {
-            "string": "\n        Sat:\n    "
+            "string": ""
          }
       },
       "spinner:sspin": {
@@ -115,7 +115,7 @@
       "text:l_val_text": {
          "@name": "l_val_text",
          "#text": {
-            "string": "\n        Lum:\n    "
+            "string": ""
          }
       },
       "spinner:lspin": {
@@ -123,7 +123,7 @@
       },
       "check_box:apply_immediate": {
          "@label": {
-            "string": "Apply now"
+            "string": ""
          },
          "@name": "apply_immediate"
       },
@@ -132,10 +132,10 @@
       },
       "button:copy_lsl_btn": {
          "@label": {
-            "string": "Copy LSL"
+            "string": ""
          },
          "@tool_tip": {
-            "string": "Copies the color value into an LSL color vector in the format of <r, g, b>."
+            "string": ""
          },
          "@name": "copy_lsl_btn"
       },
@@ -147,20 +147,20 @@
       },
       "button:cancel_btn": {
          "@label": {
-            "string": "Cancel"
+            "string": ""
          },
          "@name": "cancel_btn"
       },
       "text:Current color:": {
          "@name": "Current color:",
          "#text": {
-            "string": "\n        ^ Current color ^\n    "
+            "string": ""
          }
       },
       "text:(Drag below to save.)": {
          "@name": "(Drag below to save.)",
          "#text": {
-            "string": "\n        (Drag below to save)\n    "
+            "string": ""
          }
       }
    }

@@ -4,7 +4,7 @@
       "@title": {
          "string": "Window Size"
       },
-      "string:resolution_format": {
+      "str_ing:resolution_format": {
          "@name": "resolution_format",
          "#text": {
             "string": "[RES_X] x [RES_Y]"

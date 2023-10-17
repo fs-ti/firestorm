@@ -97,7 +97,7 @@
          },
          "@name": "cancel_button"
       },
-      "string:GroupBulkBan": {
+      "str_ing:GroupBulkBan": {
          "@name": "GroupBulkBan",
          "#text": {
             "string": "\n    Group Ban\n  "

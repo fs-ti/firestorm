@@ -1,37 +1,37 @@
 {
    "floater": {
       "@name": "inspect_object",
-      "string:Creator": {
+      "str_ing:Creator": {
          "@name": "Creator",
          "#text": {
             "string": "By [CREATOR]"
          }
       },
-      "string:CreatorAndOwner": {
+      "str_ing:CreatorAndOwner": {
          "@name": "CreatorAndOwner",
          "#text": {
             "string": "\nBy [CREATOR]\nOwner [OWNER]\n  "
          }
       },
-      "string:Price": {
+      "str_ing:Price": {
          "@name": "Price",
          "#text": {
             "string": "L$[AMOUNT]"
          }
       },
-      "string:PriceFree": {
+      "str_ing:PriceFree": {
          "@name": "PriceFree",
          "#text": {
             "string": "Free!"
          }
       },
-      "string:Touch": {
+      "str_ing:Touch": {
          "@name": "Touch",
          "#text": {
             "string": "Touch"
          }
       },
-      "string:Sit": {
+      "str_ing:Sit": {
          "@name": "Sit",
          "#text": {
             "string": "Sit"

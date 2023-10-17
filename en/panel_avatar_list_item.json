@@ -2,43 +2,43 @@
    "panel": {
       "@name": "avatar_list_item",
       "#comment": " \n    Strings used to localize last interaction time.\n    See last_interaction textbox below.\n    ",
-      "string:FormatSeconds": {
+      "str_ing:FormatSeconds": {
          "@name": "FormatSeconds",
          "#text": {
             "string": "[COUNT]s"
          }
       },
-      "string:FormatMinutes": {
+      "str_ing:FormatMinutes": {
          "@name": "FormatMinutes",
          "#text": {
             "string": "[COUNT]m"
          }
       },
-      "string:FormatHours": {
+      "str_ing:FormatHours": {
          "@name": "FormatHours",
          "#text": {
             "string": "[COUNT]h"
          }
       },
-      "string:FormatDays": {
+      "str_ing:FormatDays": {
          "@name": "FormatDays",
          "#text": {
             "string": "[COUNT]d"
          }
       },
-      "string:FormatWeeks": {
+      "str_ing:FormatWeeks": {
          "@name": "FormatWeeks",
          "#text": {
             "string": "[COUNT]w"
          }
       },
-      "string:FormatMonths": {
+      "str_ing:FormatMonths": {
          "@name": "FormatMonths",
          "#text": {
             "string": "[COUNT]mon"
          }
       },
-      "string:FormatYears": {
+      "str_ing:FormatYears": {
          "@name": "FormatYears",
          "#text": {
             "string": "[COUNT]y"
@@ -92,9 +92,6 @@
          "@name": "volume_slider",
          "@tool_tip": {
             "string": "Voice volume"
-         },
-         "@value": {
-            "string": "0.5"
          }
       },
       "button:info_btn": {
@@ -112,7 +109,7 @@
       "output_monitor:speaking_indicator": {
          "@name": "speaking_indicator",
          "@tool_tip": {
-            "string": "Displays that the avatar is in voice chat range and the power level if speaking"
+            "string": "Voice volume"
          }
       }
    }

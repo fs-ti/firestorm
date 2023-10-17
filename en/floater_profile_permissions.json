@@ -1,0 +1,47 @@
+{
+   "floater": {
+      "@name": "profile_permissions",
+      "str_ing:description_string": {
+         "@name": "description_string",
+         "@value": {
+            "string": "Allow [AGENT_NAME] to:"
+         }
+      },
+      "text:perm_description": {
+         "@name": "perm_description",
+         "@value": {
+            "string": "Allow agent to:"
+         }
+      },
+      "check_box:online_check": {
+         "@name": "online_check",
+         "@label": {
+            "string": "See when I am online"
+         }
+      },
+      "check_box:map_check": {
+         "@name": "map_check",
+         "@label": {
+            "string": "Find me on the world map"
+         }
+      },
+      "check_box:objects_check": {
+         "@name": "objects_check",
+         "@label": {
+            "string": "Edit, delete or take my objects"
+         }
+      },
+      "button:perms_btn_ok": {
+         "@name": "perms_btn_ok",
+         "@label": {
+            "string": "OK"
+         }
+      },
+      "button:perms_btn_cancel": {
+         "@name": "perms_btn_cancel",
+         "@label": {
+            "string": "Cancel"
+         }
+      }
+   }
+}

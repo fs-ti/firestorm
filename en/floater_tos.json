@@ -30,14 +30,14 @@
       },
       "check_box:agree_chk": {
          "@label": {
-            "string": "I have read and agree to"
+            "string": "I have read and consent to"
          },
          "@name": "agree_chk"
       },
       "text:agree_list": {
          "@name": "agree_list",
          "#text": {
-            "string": "the Terms and Conditions, Privacy Policy, and Terms of Service, including the dispute resolution requirements. \n    "
+            "string": "the Terms and Conditions, Privacy Policy, Terms of Service, and acknowledge receipt of the Privacy Policy.\n    "
          }
       },
       "button:Continue": {

@@ -6,10 +6,7 @@
             "@label": {
                "string": "Move Actions"
             },
-            "@name": "lst_action",
-            "@value": {
-               "string": "Move_Walk_Off"
-            }
+            "@name": "lst_action"
          }
       },
       "rows:walk_to": {

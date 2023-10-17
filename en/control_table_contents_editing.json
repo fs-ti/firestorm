@@ -6,10 +6,7 @@
             "@label": {
                "string": "Editing"
             },
-            "@name": "lst_action",
-            "@value": {
-               "string": "Tool_Dozer"
-            }
+            "@name": "lst_action"
          }
       },
       "rows:edit_avatar_spin_ccw": {

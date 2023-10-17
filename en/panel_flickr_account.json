@@ -1,13 +1,13 @@
 {
    "panel": {
       "@name": "panel_flickr_account",
-      "string:flickr_connected": {
+      "str_ing:flickr_connected": {
          "@name": "flickr_connected",
          "@value": {
             "string": "You are connected to Flickr as:"
          }
       },
-      "string:flickr_disconnected": {
+      "str_ing:flickr_disconnected": {
          "@name": "flickr_disconnected",
          "@value": {
             "string": "Not connected to Flickr"

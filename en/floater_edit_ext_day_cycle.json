@@ -5,62 +5,62 @@
          "string": "Edit Day Cycle"
       },
       "#comment": " obsolete?, add as hint for 'save' button? ",
-      "string:title_new": {
+      "str_ing:title_new": {
          "@name": "title_new",
          "#text": {
             "string": "Create a New Day Cycle"
          }
       },
-      "string:title_edit": {
+      "str_ing:title_edit": {
          "@name": "title_edit",
          "#text": {
             "string": "Edit Day Cycle"
          }
       },
-      "string:hint_new": {
+      "str_ing:hint_new": {
          "@name": "hint_new",
          "#text": {
             "string": "Name your day cycle, adjust the controls to create it, and click \"Save\"."
          }
       },
-      "string:hint_edit": {
+      "str_ing:hint_edit": {
          "@name": "hint_edit",
          "#text": {
             "string": "To edit your day cycle, adjust the controls below and click \"Save\"."
          }
       },
       "#comment$7": " Substitutions ",
-      "string:time_label": {
+      "str_ing:time_label": {
          "@name": "time_label",
          "#text": {
             "string": "([HH]:[MM])"
          }
       },
-      "string:sky_track_label": {
+      "str_ing:sky_track_label": {
          "@name": "sky_track_label",
          "#text": {
             "string": "Sky [ALT]"
          }
       },
-      "string:sky_label": {
+      "str_ing:sky_label": {
          "@name": "sky_label",
          "#text": {
             "string": "Sky"
          }
       },
-      "string:water_label": {
+      "str_ing:water_label": {
          "@name": "water_label",
          "#text": {
             "string": "Water"
          }
       },
-      "string:commit_parcel": {
+      "str_ing:commit_parcel": {
          "@name": "commit_parcel",
          "#text": {
             "string": "Apply To Parcel"
          }
       },
-      "string:commit_region": {
+      "str_ing:commit_region": {
          "@name": "commit_region",
          "#text": {
             "string": "Apply To Region"

@@ -28,19 +28,19 @@
             "string": "\n    Hide the most complex avatars to boost speed.\n  "
          }
       },
-      "slider:IndirectMaxComplexity": {
+      "slider:RenderAvatarMaxART": {
          "@tool_tip": {
-            "string": "Controls at what point a visually complex avatar is drawn as a Impostor"
+            "string": "Controls when a visually complex avatar is considered to be taking too long to render (unit: microseconds)"
          },
          "@label": {
-            "string": "Maximum complexity (K)"
+            "string": "Maximum render time (μs)"
          },
-         "@name": "IndirectMaxComplexity"
+         "@name": "RenderAvatarMaxART"
       },
-      "text:IndirectMaxComplexityText": {
-         "@name": "IndirectMaxComplexityText",
+      "text:RenderAvatarMaxARTText": {
+         "@name": "RenderAvatarMaxARTText",
          "#text": {
-            "string": "\n    0\n  "
+            "string": "\n    no limit\n  "
          }
       },
       "slider:FSRenderAvatarMaxART": {

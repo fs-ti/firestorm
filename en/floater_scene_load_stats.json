@@ -81,6 +81,24 @@
                         "string": "Cache Read Latency"
                      }
                   },
+                  "stat_bar:texture_decode_latency": {
+                     "@name": "texture_decode_latency",
+                     "@label": {
+                        "string": "Cache Write Latency"
+                     }
+                  },
+                  "stat_bar:texture_fetch_latency": {
+                     "@name": "texture_fetch_latency",
+                     "@label": {
+                        "string": "Cache Fetch Latency"
+                     }
+                  },
+                  "stat_bar:texture_fetch_time": {
+                     "@name": "texture_fetch_time",
+                     "@label": {
+                        "string": "Cache Fetch Time"
+                     }
+                  },
                   "stat_bar:numimagesstat": {
                      "@name": "numimagesstat",
                      "@label": {
@@ -293,6 +311,48 @@
                            "string": "  Pump IO"
                         }
                      }
+                  }
+               }
+            },
+            "stat_view:frame_stats": {
+               "@name": "frame_stats",
+               "@label": {
+                  "string": "Frame breakdown"
+               },
+               "stat_bar:scenery_frame_pct": {
+                  "@name": "scenery_frame_pct",
+                  "@label": {
+                     "string": "Scenery"
+                  }
+               },
+               "stat_bar:avatar_frame_pct": {
+                  "@name": "avatar_frame_pct",
+                  "@label": {
+                     "string": "Avatar"
+                  }
+               },
+               "stat_bar:ui_frame_pct": {
+                  "@name": "ui_frame_pct",
+                  "@label": {
+                     "string": "UI"
+                  }
+               },
+               "stat_bar:huds_frame_pct": {
+                  "@name": "huds_frame_pct",
+                  "@label": {
+                     "string": "HUDs"
+                  }
+               },
+               "stat_bar:swap_frame_pct": {
+                  "@name": "swap_frame_pct",
+                  "@label": {
+                     "string": "Swap"
+                  }
+               },
+               "stat_bar:idle_frame_pct": {
+                  "@name": "idle_frame_pct",
+                  "@label": {
+                     "string": "Tasks"
                   }
                }
             }

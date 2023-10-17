@@ -4,37 +4,37 @@
       "@title": {
          "string": "Replace Inventory Links"
       },
-      "string:Ready": {
+      "str_ing:Ready": {
          "@name": "Ready",
          "#text": {
             "string": "\n    Ready...\n  "
          }
       },
-      "string:TargetNotFound": {
+      "str_ing:TargetNotFound": {
          "@name": "TargetNotFound",
          "#text": {
             "string": "\n    Target item not found.\n  "
          }
       },
-      "string:ItemsIdentical": {
+      "str_ing:ItemsIdentical": {
          "@name": "ItemsIdentical",
          "#text": {
             "string": "\n    Source and target are identical.\n  "
          }
       },
-      "string:ItemsFound": {
+      "str_ing:ItemsFound": {
          "@name": "ItemsFound",
          "#text": {
             "string": "\n    Found [NUM] inventory links.\n  "
          }
       },
-      "string:ItemsRemaining": {
+      "str_ing:ItemsRemaining": {
          "@name": "ItemsRemaining",
          "#text": {
             "string": "\n    Links remaining: [NUM]\n  "
          }
       },
-      "string:ReplaceFinished": {
+      "str_ing:ReplaceFinished": {
          "@name": "ReplaceFinished",
          "#text": {
             "string": "\n    Finished replacing inventory links.\n  "

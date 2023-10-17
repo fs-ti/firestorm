@@ -1,1 +1,380 @@
-{}
+{
+   "llsd": {
+      "map": {
+         "key": "strings",
+         "map": {
+            "#comment": " Primarily used when @showloc restricted ",
+            "key": "hidden_generic",
+            "map": {
+               "key": "value",
+               "str_ing": {
+                  "string": "(Hidden)"
+               }
+            },
+            "key$3": "hidden_parcel",
+            "map$4": {
+               "key": "value",
+               "str_ing": {
+                  "string": "(Hidden parcel)"
+               }
+            },
+            "key$5": "hidden_region",
+            "map$6": {
+               "key": "value",
+               "str_ing": {
+                  "string": "(Hidden region)"
+               }
+            },
+            "#comment$7": " Received/sent IMs will be replaced by the matching string when @recvim/sendim restricted ",
+            "key$8": "blocked_recvim",
+            "map$9": {
+               "key": "value",
+               "str_ing": {
+                  "string": "*** IM blocked by your viewer"
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Shown in place of the original message when an incoming IM is blocked"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "Blocked incoming IM message (local)"
+               },
+               "key$6": "customizable",
+               "boolean": "1"
+            },
+            "key$10": "blocked_sendim",
+            "map$11": {
+               "key": "value",
+               "str_ing": {
+                  "string": "*** IM blocked by sender's viewer"
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Shown (and sent to the remote party) when an outgoing IM is blocked"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "Blocked outgoing IM message (local + remote)"
+               },
+               "key$6": "customizable",
+               "boolean": "1"
+            },
+            "#comment$12": " Sent to the remote party when they issue @list or @except as an IM query (if enabled) ",
+            "key$13": "imquery_list_deny",
+            "map$14": {
+               "key": "value",
+               "str_ing": {
+                  "string": "*** The other party respectfully requests you mind your own business (bunnies made me do it!)"
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Sent to the remote party when you deny their request to list your active RLV restrictions)"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "@list and @except command (remote)"
+               },
+               "key$6": "customizable",
+               "boolean": "1"
+            },
+            "#comment$15": " Sent to the remote party as a suffix to @list to inform them there might be more information ",
+            "key$16": "imquery_list_suffix",
+            "map$17": {
+               "key": "value",
+               "str_ing": {
+                  "string": "(Use @except to see the list of active exceptions)"
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Sent to the remote party as a suffix to @list to inform them how to request your exceptions"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "@list command suffix (remote)"
+               },
+               "key$6": "customizable",
+               "boolean": "0"
+            },
+            "#comment$18": " Sent to the remote party when they issue @stopim as an IM query (if enabled) ",
+            "key$19": "stopim_nosession",
+            "map$20": {
+               "key": "value",
+               "str_ing": {
+                  "string": "*** The other party is not under a @startim restriction"
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Sent to the remote party when they attempt to forcefully close your IM conversation with them (and no such session exists)"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "@stopim command with no session (remote)"
+               },
+               "key$6": "customizable",
+               "boolean": "1"
+            },
+            "key$21": "stopim_endsession_remote",
+            "map$22": {
+               "key": "value",
+               "str_ing": {
+                  "string": "*** Session has been ended for the other party"
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Sent to the remote party when they attempt to forcefully close the IM conversation (and it exists)"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "@stopim command with an active session (remote)"
+               },
+               "key$6": "customizable",
+               "boolean": "1"
+            },
+            "key$23": "stopim_endsession_local",
+            "map$24": {
+               "key": "value",
+               "str_ing": {
+                  "string": "[NAME] has remotely closed the IM conversation with @stopim"
+               }
+            },
+            "#comment$25": " Shown as notifications ",
+            "key$26": "blocked_autopilot",
+            "map$27": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to use the autopilot due to RLV restrictions"
+               }
+            },
+            "key$28": "blocked_generic",
+            "map$29": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to perform action due to RLV restrictions"
+               }
+            },
+            "key$30": "blocked_groupchange",
+            "map$31": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to change your active group due to an RLV restriction; switching back to \"[GROUP_SLURL]\""
+               }
+            },
+            "key$32": "blocked_invfolder",
+            "map$33": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to perform the requested inventory action due to an RLV locked folder."
+               }
+            },
+            "key$34": "blocked_nearby",
+            "map$35": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to see the presence of nearby avatars due to RLV restrictions"
+               }
+            },
+            "key$36": "blocked_permattach",
+            "map$37": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Attempt to attach '[OBJECT]' was denied due to RLV restrictions"
+               }
+            },
+            "key$38": "blocked_permteleport",
+            "map$39": {
+               "key": "value",
+               "str_ing": {
+                  "string": "'[OBJECT]' was denied permission to teleport you due to RLV restrictions"
+               }
+            },
+            "key$40": "blocked_scriptdialog",
+            "map$41": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to show script dialog or textbox due to RLV restrictions"
+               }
+            },
+            "key$42": "blocked_share",
+            "map$43": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to share inventory with [RECIPIENT] due to RLV restrictions."
+               }
+            },
+            "key$44": "blocked_share_generic",
+            "map$45": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to share inventory due to RLV restrictions."
+               }
+            },
+            "key$46": "blocked_startim",
+            "map$47": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to start IM session with [RECIPIENT] due to RLV restrictions"
+               }
+            },
+            "key$48": "blocked_startconf",
+            "map$49": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to start conference with [RECIPIENT] due to RLV restrictions"
+               }
+            },
+            "key$50": "blocked_teleport",
+            "map$51": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to initiate teleport due to RLV restrictions"
+               }
+            },
+            "key$52": "blocked_teleport_offer",
+            "map$53": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to offer teleport due to RLV restrictions"
+               }
+            },
+            "key$54": "blocked_viewxxx",
+            "map$55": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to open [TYPE] due to RLV restrictions"
+               }
+            },
+            "key$56": "blocked_wireframe",
+            "map$57": {
+               "key": "value",
+               "str_ing": {
+                  "string": "Unable to enable wireframe mode due to RLV restrictions"
+               }
+            },
+            "#comment$58": " Sent as \"Busy\" messages to the remote party ",
+            "key$59": "blocked_recvim_remote",
+            "map$60": {
+               "key": "value",
+               "str_ing": {
+                  "string": "The Resident you messaged is currently prevented from reading your instant messages at the moment, please try again later."
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Sent to the remote party when their IM was blocked"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "Blocked incoming IM message (remote)"
+               },
+               "key$6": "customizable",
+               "boolean": "1"
+            },
+            "key$61": "blocked_tplurerequest_remote",
+            "map$62": {
+               "key": "value",
+               "str_ing": {
+                  "string": "The Resident is currently prevented from accepting. Please try again later."
+               },
+               "key$2": "description",
+               "str_ing$3": {
+                  "string": "Sent to the remote party when their teleport offer or request was blocked"
+               },
+               "key$4": "label",
+               "str_ing$5": {
+                  "string": "Blocked teleport offer/request (remote)"
+               },
+               "key$6": "customizable",
+               "boolean": "1"
+            }
+         },
+         "#comment": " Generic names used to replace resident names when @shownames restricted ",
+         "key$3": "anonyms",
+         "array": {
+            "str_ing": {
+               "string": "A resident"
+            },
+            "str_ing$1": {
+               "string": "This resident"
+            },
+            "str_ing$2": {
+               "string": "That resident"
+            },
+            "str_ing$3": {
+               "string": "An individual"
+            },
+            "str_ing$4": {
+               "string": "This individual"
+            },
+            "str_ing$5": {
+               "string": "That individual"
+            },
+            "str_ing$6": {
+               "string": "A person"
+            },
+            "str_ing$7": {
+               "string": "This person"
+            },
+            "str_ing$8": {
+               "string": "That person"
+            },
+            "str_ing$9": {
+               "string": "A stranger"
+            },
+            "str_ing$10": {
+               "string": "This stranger"
+            },
+            "str_ing$11": {
+               "string": "That stranger"
+            },
+            "str_ing$12": {
+               "string": "A being"
+            },
+            "str_ing$13": {
+               "string": "This being"
+            },
+            "str_ing$14": {
+               "string": "That being"
+            },
+            "str_ing$15": {
+               "string": "An agent"
+            },
+            "str_ing$16": {
+               "string": "This agent"
+            },
+            "str_ing$17": {
+               "string": "That agent"
+            },
+            "str_ing$18": {
+               "string": "A soul"
+            },
+            "str_ing$19": {
+               "string": "This soul"
+            },
+            "str_ing$20": {
+               "string": "That soul"
+            },
+            "str_ing$21": {
+               "string": "Somebody"
+            },
+            "str_ing$22": {
+               "string": "Some people"
+            },
+            "str_ing$23": {
+               "string": "Someone"
+            },
+            "str_ing$24": {
+               "string": "Mysterious one"
+            },
+            "str_ing$25": {
+               "string": "An unknown being"
+            },
+            "str_ing$26": {
+               "string": "Unidentified one"
+            },
+            "str_ing$27": {
+               "string": "An unknown person"
+            }
+         }
+      }
+   }
+}

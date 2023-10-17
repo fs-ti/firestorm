@@ -276,7 +276,10 @@
                "@label": {
                   "string": "Arrow keys always move me"
                },
-               "@name": "arrow_keys_move_avatar_check"
+               "@name": "arrow_keys_move_avatar_check",
+               "@tool_tip": {
+                  "string": "Only applies to the Nearby Chat entry field at the bottom of the viewer, not to the Nearby Chat tab in Conversations."
+               }
             },
             "check_box:LetterKeysAffectsMovementNotFocusChatBar": {
                "@label": {

@@ -1,158 +1,208 @@
 {
    "panel": {
       "@name": "place_profile",
-      "string:on": {
+      "str_ing:on": {
          "@name": "on",
          "@value": {
             "string": "On"
          }
       },
-      "string:off": {
+      "str_ing:off": {
          "@name": "off",
          "@value": {
             "string": "Off"
          }
       },
-      "string:anyone": {
+      "str_ing:anyone": {
          "@name": "anyone",
          "@value": {
             "string": "Anyone"
          }
       },
-      "string:available": {
+      "str_ing:available": {
          "@name": "available",
          "@value": {
             "string": "available"
          }
       },
-      "string:allocated": {
+      "str_ing:allocated": {
          "@name": "allocated",
          "@value": {
             "string": "allocated"
          }
       },
-      "string:title_place": {
+      "str_ing:title_place": {
          "@name": "title_place",
          "@value": {
             "string": "Place Profile"
          }
       },
-      "string:title_teleport_history": {
+      "str_ing:title_teleport_history": {
          "@name": "title_teleport_history",
          "@value": {
             "string": "Teleport History"
          }
       },
-      "string:not_available": {
+      "str_ing:not_available": {
          "@name": "not_available",
          "@value": {
             "string": "(N\\A)"
          }
       },
-      "string:unknown": {
+      "str_ing:unknown": {
          "@name": "unknown",
          "@value": {
             "string": "(unknown)"
          }
       },
-      "string:public": {
+      "str_ing:public": {
          "@name": "public",
          "@value": {
             "string": "(public)"
          }
       },
-      "string:none_text": {
+      "str_ing:none_text": {
          "@name": "none_text",
          "@value": {
             "string": "(none)"
          }
       },
-      "string:sale_pending_text": {
+      "str_ing:sale_pending_text": {
          "@name": "sale_pending_text",
          "@value": {
             "string": "(Sale Pending)"
          }
       },
-      "string:group_owned_text": {
+      "str_ing:group_owned_text": {
          "@name": "group_owned_text",
          "@value": {
             "string": "(Group Owned)"
          }
       },
-      "string:price_text": {
+      "str_ing:price_text": {
          "@name": "price_text",
          "@value": {
             "string": "L$"
          }
       },
-      "string:area_text": {
+      "str_ing:area_text": {
          "@name": "area_text",
          "@value": {
             "string": "m²"
          }
       },
-      "string:all_residents_text": {
+      "str_ing:all_residents_text": {
          "@name": "all_residents_text",
          "@value": {
             "string": "All Residents"
          }
       },
-      "string:group_text": {
+      "str_ing:group_text": {
          "@name": "group_text",
          "@value": {
             "string": "Group"
          }
       },
-      "string:can_resell": {
+      "str_ing:can_resell": {
          "@name": "can_resell",
          "#text": {
             "string": "\n        Purchased land in this region may be resold.\n    "
          }
       },
-      "string:can_not_resell": {
+      "str_ing:can_not_resell": {
          "@name": "can_not_resell",
          "#text": {
             "string": "\n        Purchased land in this region may not be resold.\n    "
          }
       },
-      "string:can_change": {
+      "str_ing:can_change": {
          "@name": "can_change",
          "#text": {
             "string": "\n        Purchased land in this region may be joined or subdivided.\n    "
          }
       },
-      "string:can_not_change": {
+      "str_ing:can_not_change": {
          "@name": "can_not_change",
          "#text": {
             "string": "\n        Purchased land in this region may not be joined or subdivided.\n    "
          }
       },
-      "string:server_update_text": {
+      "str_ing:server_update_text": {
          "@name": "server_update_text",
          "#text": {
             "string": "\n        Place information not available without server update.\n    "
          }
       },
-      "string:server_error_text": {
+      "str_ing:server_error_text": {
          "@name": "server_error_text",
          "#text": {
             "string": "\n        Information about this location is unavailable at this time, please try again later.\n    "
          }
       },
-      "string:server_forbidden_text": {
+      "str_ing:server_forbidden_text": {
          "@name": "server_forbidden_text",
          "#text": {
             "string": "\n        Information about this location is unavailable due to access restrictions.  Please check your permissions with the parcel owner.\n    "
          }
       },
-      "string:acquired_date": {
+      "str_ing:acquired_date": {
          "@name": "acquired_date",
          "#text": {
             "string": "\n        [wkday,datetime,local] [mth,datetime,local] [day,datetime,local] [hour,datetime,local]:[min,datetime,local]:[second,datetime,local] [year,datetime,local]\n    "
          }
       },
       "#comment": " Texture names for parcel permissions icons ",
-      "string": null,
+      "string:icon_PG": {
+         "@name": "icon_PG"
+      },
+      "string:icon_M": {
+         "@name": "icon_M"
+      },
+      "string:icon_R": {
+         "@name": "icon_R"
+      },
+      "string:icon_Voice": {
+         "@name": "icon_Voice"
+      },
+      "string:icon_VoiceNo": {
+         "@name": "icon_VoiceNo"
+      },
+      "string:icon_Fly": {
+         "@name": "icon_Fly"
+      },
+      "string:icon_FlyNo": {
+         "@name": "icon_FlyNo"
+      },
+      "string:icon_Push": {
+         "@name": "icon_Push"
+      },
+      "string:icon_PushNo": {
+         "@name": "icon_PushNo"
+      },
+      "string:icon_Build": {
+         "@name": "icon_Build"
+      },
+      "string:icon_BuildNo": {
+         "@name": "icon_BuildNo"
+      },
+      "string:icon_Scripts": {
+         "@name": "icon_Scripts"
+      },
+      "string:icon_ScriptsNo": {
+         "@name": "icon_ScriptsNo"
+      },
+      "string:icon_Damage": {
+         "@name": "icon_Damage"
+      },
+      "string:icon_DamageNo": {
+         "@name": "icon_DamageNo"
+      },
+      "string:icon_SeeAVs_Off": {
+         "@name": "icon_SeeAVs_Off"
+      },
+      "string:icon_SeeAVs_On": {
+         "@name": "icon_SeeAVs_On"
+      },
       "layout_stack:place_info_sidetray_main": {
          "@name": "place_info_sidetray_main",
          "layout_panel:header_container": {

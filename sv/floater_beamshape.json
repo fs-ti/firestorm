@@ -2,21 +2,21 @@
    "floater": {
       "@name": "BeamCreator",
       "@title": {
-         "string": "Beam Shape Creator"
+         "string": ""
       },
       "text:beamcreator_text": {
          "@name": "beamcreator_text",
          "#text": {
-            "string": "\n    To create a new beam, left click the panel below to\ndefine a beam ray of the selected color, or right click to\nremove a ray. Press the Save button when done.\n  "
+            "string": ""
          }
       },
       "color_swatch:beam_color_swatch": {
          "@label": {
-            "string": "Beam Color"
+            "string": ""
          },
          "@name": "beam_color_swatch",
          "@tool_tip": {
-            "string": "Click to open Color Picker to change dot color"
+            "string": ""
          }
       },
       "panel:beamshape_draw": {

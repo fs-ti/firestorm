@@ -4,19 +4,19 @@
       "@title": {
          "string": "Contacts"
       },
-      "string:no_friends": {
+      "str_ing:no_friends": {
          "@name": "no_friends",
          "@value": {
             "string": "No friends"
          }
       },
-      "string:no_filtered_groups_msg": {
+      "str_ing:no_filtered_groups_msg": {
          "@name": "no_filtered_groups_msg",
          "@value": {
             "string": "No groups containing \"[SEARCH_TERM]\" found."
          }
       },
-      "string:no_groups_msg": {
+      "str_ing:no_groups_msg": {
          "@name": "no_groups_msg",
          "@value": {
             "string": "Looking for Groups to join? Try [secondlife:///app/search/groups Search]."

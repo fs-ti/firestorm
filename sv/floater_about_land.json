@@ -5,63 +5,54 @@
          "string": "Om landet"
       },
       "floater.string:maturity_icon_general": {
-         "@name": "maturity_icon_general",
-         "#text": {
-            "string": "\n      \"Parcel_PG_Dark\"\n    "
-         }
+         "@name": "maturity_icon_general"
       },
       "floater.string:maturity_icon_moderate": {
-         "@name": "maturity_icon_moderate",
-         "#text": {
-            "string": "\n      \"Parcel_M_Dark\"\n    "
-         }
+         "@name": "maturity_icon_moderate"
       },
       "floater.string:maturity_icon_adult": {
-         "@name": "maturity_icon_adult",
-         "#text": {
-            "string": "\n      \"Parcel_R_Dark\"\n    "
-         }
+         "@name": "maturity_icon_adult"
       },
       "floater.string:Hours": {
          "@name": "Hours",
          "#text": {
-            "string": "\n        [HOURS] hrs.\n    "
+            "string": ""
          }
       },
       "floater.string:Hour": {
          "@name": "Hour",
          "#text": {
-            "string": "\n        hr.\n    "
+            "string": ""
          }
       },
       "floater.string:Minutes": {
          "@name": "Minutes",
          "#text": {
-            "string": "\n        [MINUTES] min.\n    "
+            "string": ""
          }
       },
       "floater.string:Minute": {
          "@name": "Minute",
          "#text": {
-            "string": "\n        min.\n    "
+            "string": ""
          }
       },
       "floater.string:Seconds": {
          "@name": "Seconds",
          "#text": {
-            "string": "\n        [SECONDS] sec.\n    "
+            "string": ""
          }
       },
       "floater.string:Remaining": {
          "@name": "Remaining",
          "#text": {
-            "string": "\n        remaining\n    "
+            "string": ""
          }
       },
       "floater.string:Always": {
          "@name": "Always",
          "#text": {
-            "string": "\n        Always\n    "
+            "string": ""
          }
       },
       "tab_container:landtab": {
@@ -74,97 +65,97 @@
             "panel.string:new users only": {
                "@name": "new users only",
                "#text": {
-                  "string": "\n                New Residents only\n            "
+                  "string": ""
                }
             },
             "panel.string:anyone": {
                "@name": "anyone",
                "#text": {
-                  "string": "\n                Anyone\n            "
+                  "string": ""
                }
             },
             "panel.string:area_text": {
                "@name": "area_text",
                "#text": {
-                  "string": "\n                Area\n            "
+                  "string": ""
                }
             },
             "panel.string:area_size_text": {
                "@name": "area_size_text",
                "#text": {
-                  "string": "\n                [AREA] m²\n            "
+                  "string": ""
                }
             },
             "panel.string:auction_id_text": {
                "@name": "auction_id_text",
                "#text": {
-                  "string": "\n                Auction ID: [ID]\n            "
+                  "string": ""
                }
             },
             "panel.string:need_tier_to_modify": {
                "@name": "need_tier_to_modify",
                "#text": {
-                  "string": "\n                You must approve your purchase to modify this land.\n            "
+                  "string": ""
                }
             },
             "panel.string:group_owned_text": {
                "@name": "group_owned_text",
                "#text": {
-                  "string": "\n                (Group Owned)\n            "
+                  "string": ""
                }
             },
             "panel.string:profile_text": {
                "@name": "profile_text",
                "#text": {
-                  "string": "\n                Profile\n            "
+                  "string": ""
                }
             },
             "panel.string:info_text": {
                "@name": "info_text",
                "#text": {
-                  "string": "\n                Info\n            "
+                  "string": ""
                }
             },
             "panel.string:public_text": {
                "@name": "public_text",
                "#text": {
-                  "string": "\n                (public)\n            "
+                  "string": ""
                }
             },
             "panel.string:none_text": {
                "@name": "none_text",
                "#text": {
-                  "string": "\n                (none)\n            "
+                  "string": ""
                }
             },
             "panel.string:sale_pending_text": {
                "@name": "sale_pending_text",
                "#text": {
-                  "string": "\n                (Sale Pending)\n            "
+                  "string": ""
                }
             },
             "panel.string:no_selection_text": {
                "@name": "no_selection_text",
                "#text": {
-                  "string": "\n                No parcel selected.\n            "
+                  "string": ""
                }
             },
             "panel.string:time_stamp_template": {
                "@name": "time_stamp_template",
                "#text": {
-                  "string": "\n              [wkday,datetime,slt] [mth,datetime,slt] [day,datetime,slt] [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt] [year,datetime,slt]\n            "
+                  "string": ""
                }
             },
             "panel.string:error_resolving_uuid": {
                "@name": "error_resolving_uuid",
                "#text": {
-                  "string": "\n        The parcel ID could not be resolved.\n      "
+                  "string": ""
                }
             },
             "text:Name:": {
                "@name": "Name:",
                "#text": {
-                  "string": "\n                Name:\n            "
+                  "string": ""
                }
             },
             "line_editor:Name": {
@@ -173,7 +164,7 @@
             "text:UUID:": {
                "@name": "UUID:",
                "#text": {
-                  "string": "\n                Parcel ID:\n            "
+                  "string": ""
                }
             },
             "line_editor:UUID": {
@@ -182,7 +173,7 @@
             "text:Description:": {
                "@name": "Description:",
                "#text": {
-                  "string": "\n                Description:\n            "
+                  "string": ""
                }
             },
             "text_editor:Description": {
@@ -191,34 +182,36 @@
             "text:LandType": {
                "@name": "LandType",
                "#text": {
-                  "string": "\n                Type:\n            "
+                  "string": ""
                }
             },
             "text:LandTypeText": {
                "@name": "LandTypeText",
                "#text": {
-                  "string": "\n                Mainland / Homestead\n            "
+                  "string": ""
                }
             },
             "text:ContentRating": {
                "@name": "ContentRating",
                "#text": {
-                  "string": "\n                Rating:\n            "
+                  "string": ""
                }
             },
             "text:ContentRatingText": {
                "@name": "ContentRatingText",
                "#text": {
-                  "string": "\n                Adult\n            "
+                  "string": ""
                }
             },
             "text:Owner:": {
                "@name": "Owner:",
                "#text": {
-                  "string": "\n                Owner:\n            "
+                  "string": ""
                }
             },
-            "text": null,
+            "text:OwnerText": {
+               "@name": "OwnerText"
+            },
             "button:info_btn": {
                "@name": "info_btn"
             },
@@ -226,8 +219,11 @@
             "text:Group:": {
                "@name": "Group:",
                "#text": {
-                  "string": "\n                Group:\n            "
+                  "string": ""
                }
+            },
+            "text:GroupText": {
+               "@name": "GroupText"
             },
             "button:Set...": {
                "@label": {
@@ -237,47 +233,47 @@
             },
             "check_box:check deed": {
                "@label": {
-                  "string": "Allow Deed to Group"
+                  "string": ""
                },
                "@name": "check deed",
                "@tool_tip": {
-                  "string": "A group officer can deed this land to the group, so it will be supported by the group's land allocation."
+                  "string": ""
                }
             },
             "button:Deed...": {
                "@label": {
-                  "string": "Deed"
+                  "string": ""
                },
                "@name": "Deed...",
                "@tool_tip": {
-                  "string": "You may only deed land if you are an officer in the selected group."
+                  "string": ""
                }
             },
             "check_box:check contrib": {
                "@label": {
-                  "string": "Owner Makes Contribution With Deed"
+                  "string": ""
                },
                "@name": "check contrib",
                "@tool_tip": {
-                  "string": "When the land is deeded to the group, the former owner contributes enough land allocation to support it."
+                  "string": ""
                }
             },
             "text:For Sale:": {
                "@name": "For Sale:",
                "#text": {
-                  "string": "\n                For Sale:\n            "
+                  "string": ""
                }
             },
             "text:Not for sale.": {
                "@name": "Not for sale.",
                "#text": {
-                  "string": "\n                Not for sale\n            "
+                  "string": ""
                }
             },
             "text:For Sale: Price L$[PRICE].": {
                "@name": "For Sale: Price L$[PRICE].",
                "#text": {
-                  "string": "\n                Price: L$[PRICE] (L$[PRICE_PER_SQM]/m²)\n            "
+                  "string": ""
                }
             },
             "text:SalePending": {
@@ -292,19 +288,19 @@
             "text:For sale to": {
                "@name": "For sale to",
                "#text": {
-                  "string": "\n                For sale to: [BUYER]\n            "
+                  "string": ""
                }
             },
             "text:Sell with landowners objects in parcel.": {
                "@name": "Sell with landowners objects in parcel.",
                "#text": {
-                  "string": "\n                Objects included in sale\n            "
+                  "string": ""
                }
             },
             "text:Selling with no objects in parcel.": {
                "@name": "Selling with no objects in parcel.",
                "#text": {
-                  "string": "\n                Objects not included in sale\n            "
+                  "string": ""
                }
             },
             "button:Cancel Land Sale": {
@@ -316,37 +312,31 @@
             "text:Claimed:": {
                "@name": "Claimed:",
                "#text": {
-                  "string": "\n                Claimed:\n            "
+                  "string": ""
                }
             },
             "text:DateClaimText": {
-               "@name": "DateClaimText",
-               "#text": {
-                  "string": "\n                Tue Aug 15 13:47:25 2006\n            "
-               }
+               "@name": "DateClaimText"
             },
             "text:PriceLabel": {
                "@name": "PriceLabel",
                "#text": {
-                  "string": "\n                Area:\n            "
+                  "string": ""
                }
             },
             "text:PriceText": {
-               "@name": "PriceText",
-               "#text": {
-                  "string": "\n                4048 m²\n            "
-               }
+               "@name": "PriceText"
             },
             "text:Traffic:": {
                "@name": "Traffic:",
                "#text": {
-                  "string": "\n                Traffic:\n            "
+                  "string": ""
                }
             },
             "text:DwellText": {
                "@name": "DwellText",
                "#text": {
-                  "string": "\n                Loading...\n            "
+                  "string": ""
                }
             },
             "button:Buy Land...": {
@@ -361,7 +351,7 @@
                },
                "@name": "Linden Sale...",
                "@tool_tip": {
-                  "string": "Land must be owned, set content, and not already for auction."
+                  "string": ""
                }
             },
             "button:Scripts...": {
@@ -382,7 +372,7 @@
                },
                "@name": "Buy Pass...",
                "@tool_tip": {
-                  "string": "A pass gives you temporary access to this land."
+                  "string": ""
                }
             },
             "button:Abandon Land...": {
@@ -406,91 +396,88 @@
             "panel.string:can_resell": {
                "@name": "can_resell",
                "#text": {
-                  "string": "\n                Purchased land in this region may be resold.\n            "
+                  "string": ""
                }
             },
             "panel.string:can_not_resell": {
                "@name": "can_not_resell",
                "#text": {
-                  "string": "\n                Purchased land in this region may not be resold.\n            "
+                  "string": ""
                }
             },
             "panel.string:can_change": {
                "@name": "can_change",
                "#text": {
-                  "string": "\n                Purchased land in this region may be joined or subdivided.\n            "
+                  "string": ""
                }
             },
             "panel.string:can_not_change": {
                "@name": "can_not_change",
                "#text": {
-                  "string": "\n                Purchased land in this region may not be joined or subdivided.\n            "
+                  "string": ""
                }
             },
             "text:estate_section_lbl": {
                "@name": "estate_section_lbl",
                "#text": {
-                  "string": "\n                Estate:\n            "
+                  "string": ""
                }
             },
             "text:estate_name_text": {
                "@name": "estate_name_text",
                "#text": {
-                  "string": "\n                mainland\n            "
+                  "string": ""
                }
             },
             "text:estate_owner_lbl": {
                "@name": "estate_owner_lbl",
                "#text": {
-                  "string": "\n                Owner:\n            "
+                  "string": ""
                }
             },
             "text:estate_owner_text": {
                "@name": "estate_owner_text",
                "#text": {
-                  "string": "\n                (none)\n            "
+                  "string": ""
                }
             },
             "text_editor:covenant_editor": {
                "@name": "covenant_editor",
                "#text": {
-                  "string": "\n                There is no Covenant provided for this Estate.\n            "
+                  "string": ""
                }
             },
             "text:covenant_timestamp_text": {
-               "@name": "covenant_timestamp_text",
-               "#text": {
-                  "string": "\n                Last Modified Wed Dec 31 16:00:00 1969\n            "
-               }
+               "@name": "covenant_timestamp_text"
             },
             "text:region_section_lbl": {
                "@name": "region_section_lbl",
                "#text": {
-                  "string": "\n                Region:\n            "
+                  "string": ""
                }
             },
             "text:region_name_text": {
                "@name": "region_name_text",
                "#text": {
-                  "string": "\n                Loading...\n            "
+                  "string": ""
                }
             },
             "text:region_landtype_lbl": {
                "@name": "region_landtype_lbl",
                "#text": {
-                  "string": "\n                Type:\n            "
+                  "string": ""
                }
             },
             "text:region_landtype_text": {
                "@name": "region_landtype_text",
                "#text": {
-                  "string": "\n                Mainland / Homestead\n            "
+                  "string": ""
                }
             },
             "text:region_maturity_lbl": {
                "@name": "region_maturity_lbl",
                "#text": {
-                  "string": "\n                Rating:\n            "
+                  "string": ""
                }
             },
             "text:region_maturity_text": {
@@ -502,25 +489,25 @@
             "text:resellable_lbl": {
                "@name": "resellable_lbl",
                "#text": {
-                  "string": "\n                Resale:\n            "
+                  "string": ""
                }
             },
             "text:resellable_clause": {
                "@name": "resellable_clause",
                "#text": {
-                  "string": "\n                Land in this region may not be resold.\n            "
+                  "string": ""
                }
             },
             "text:changeable_lbl": {
                "@name": "changeable_lbl",
                "#text": {
-                  "string": "\n                Subdivide:\n            "
+                  "string": ""
                }
             },
             "text:changeable_clause": {
                "@name": "changeable_clause",
                "#text": {
-                  "string": "\n                Land in this region may not be joined/subdivided.\n            "
+                  "string": ""
                }
             }
          },
@@ -532,37 +519,37 @@
             "panel.string:objects_available_text": {
                "@name": "objects_available_text",
                "#text": {
-                  "string": "\n                [COUNT] out of [MAX] ([AVAILABLE] available)\n            "
+                  "string": ""
                }
             },
             "panel.string:objects_deleted_text": {
                "@name": "objects_deleted_text",
                "#text": {
-                  "string": "\n                [COUNT] out of [MAX] ([DELETED] will be deleted)\n            "
+                  "string": ""
                }
             },
             "text:parcel_object_bonus": {
                "@name": "parcel_object_bonus",
                "#text": {
-                  "string": "\n                Region Object Bonus Factor: [BONUS]\n            "
+                  "string": ""
                }
             },
             "text:Simulator primitive usage:": {
                "@name": "Simulator primitive usage:",
                "#text": {
-                  "string": "\n               Region capacity:\n            "
+                  "string": ""
                }
             },
             "text:objects_available": {
                "@name": "objects_available",
                "#text": {
-                  "string": "\n                [COUNT] out of [MAX] ([AVAILABLE] available)\n            "
+                  "string": ""
                }
             },
             "text:Primitives parcel supports:": {
                "@name": "Primitives parcel supports:",
                "#text": {
-                  "string": "\n                Parcel land capacity:\n            "
+                  "string": ""
                }
             },
             "text:object_contrib_text": {
@@ -574,7 +561,7 @@
             "text:Primitives on parcel:": {
                "@name": "Primitives on parcel:",
                "#text": {
-                  "string": "\n                Parcel land impact:\n            "
+                  "string": ""
                }
             },
             "text:total_objects_text": {
@@ -586,7 +573,7 @@
             "text:Owned by parcel owner:": {
                "@name": "Owned by parcel owner:",
                "#text": {
-                  "string": "\n                Owned by parcel owner:\n            "
+                  "string": ""
                }
             },
             "text:owner_objects_text": {
@@ -613,7 +600,7 @@
             "text:Set to group:": {
                "@name": "Set to group:",
                "#text": {
-                  "string": "\n                Set to group:\n            "
+                  "string": ""
                }
             },
             "text:group_objects_text": {
@@ -634,13 +621,13 @@
                },
                "@name": "ReturnGroup...",
                "@tool_tip": {
-                  "string": "Return objects to their owners."
+                  "string": ""
                }
             },
             "text:Owned by others:": {
                "@name": "Owned by others:",
                "#text": {
-                  "string": "\n                Owned by others:\n            "
+                  "string": ""
                }
             },
             "text:other_objects_text": {
@@ -667,7 +654,7 @@
             "text:Selected / sat upon:": {
                "@name": "Selected / sat upon:",
                "#text": {
-                  "string": "\n                Selected / sat upon:\n            "
+                  "string": ""
                }
             },
             "text:selected_objects_text": {
@@ -679,7 +666,7 @@
             "text:Autoreturn": {
                "@name": "Autoreturn",
                "#text": {
-                  "string": "\n                Auto return other Residents' objects (minutes, 0 for off):\n            "
+                  "string": ""
                }
             },
             "line_editor:clean other time": {
@@ -688,7 +675,7 @@
             "text:Object Owners:": {
                "@name": "Object Owners:",
                "#text": {
-                  "string": "\n                Object Owners:\n            "
+                  "string": ""
                }
             },
             "button:Refresh List": {
@@ -728,7 +715,7 @@
                },
                "name_list.columns:mostrecent": {
                   "@label": {
-                     "string": "Most Recent"
+                     "string": ""
                   },
                   "@name": "mostrecent"
                }
@@ -742,86 +729,86 @@
             "panel.string:search_enabled_tooltip": {
                "@name": "search_enabled_tooltip",
                "#text": {
-                  "string": "\n                Let people see this parcel in search results\n            "
+                  "string": ""
                }
             },
             "panel.string:search_disabled_small_tooltip": {
                "@name": "search_disabled_small_tooltip",
                "#text": {
-                  "string": "\n                This option is disabled because this parcel's area is 128 m² or smaller.\nOnly large parcels can be listed in search.\n            "
+                  "string": ""
                }
             },
             "panel.string:search_disabled_permissions_tooltip": {
                "@name": "search_disabled_permissions_tooltip",
                "#text": {
-                  "string": "\n                This option is disabled because you cannot modify this parcel's options.\n            "
+                  "string": ""
                }
             },
             "panel.string:mature_check_mature": {
                "@name": "mature_check_mature",
                "#text": {
-                  "string": "\n                Moderate Content\n            "
+                  "string": ""
                }
             },
             "panel.string:mature_check_adult": {
                "@name": "mature_check_adult",
                "#text": {
-                  "string": "\n                Adult Content\n            "
+                  "string": ""
                }
             },
             "panel.string:mature_check_mature_tooltip": {
                "@name": "mature_check_mature_tooltip",
                "#text": {
-                  "string": "\n                Your parcel information or content is considered moderate.\n            "
+                  "string": ""
                }
             },
             "panel.string:mature_check_adult_tooltip": {
                "@name": "mature_check_adult_tooltip",
                "#text": {
-                  "string": "\n                Your parcel information or content is considered adult.\n            "
+                  "string": ""
                }
             },
             "panel.string:landing_point_none": {
                "@name": "landing_point_none",
                "#text": {
-                  "string": "\n                (none)\n            "
+                  "string": ""
                }
             },
             "panel.string:push_restrict_text": {
                "@name": "push_restrict_text",
                "#text": {
-                  "string": "\n                No Pushing\n            "
+                  "string": ""
                }
             },
             "panel.string:push_restrict_region_text": {
                "@name": "push_restrict_region_text",
                "#text": {
-                  "string": "\n                No Pushing (Region Override)\n            "
+                  "string": ""
                }
             },
             "panel.string:DirectoryFree": {
                "@name": "DirectoryFree",
                "#text": {
-                  "string": "\n                Show Place in Search\n            "
+                  "string": ""
                }
             },
             "panel.string:DirectoryFee": {
                "@name": "DirectoryFee",
                "#text": {
-                  "string": "\n                Show Place in Search (L$[DIRECTORY_FEE]/week)\n            "
+                  "string": ""
                }
             },
             "text:allow_label": {
                "@name": "allow_label",
                "#text": {
-                  "string": "\n                Allow other Residents to:\n            "
+                  "string": ""
                }
             },
             "#comment": " <FS:WF> FIRE-6604 : Reinstate the \"Allow Other Residents to Edit Terrain\" option in About Land ",
             "text:allow_label1": {
                "@name": "allow_label1",
                "#text": {
-                  "string": "\n            Edit Terrain:\n          "
+                  "string": ""
                }
             },
             "check_box:edit land check": {
@@ -830,20 +817,20 @@
                },
                "@name": "edit land check",
                "@tool_tip": {
-                  "string": "If checked, anyone can terraform your land. It is best to leave this unchecked, as you can always edit your own land."
+                  "string": ""
                }
             },
             "text:caution_text": {
                "@name": "caution_text",
                "#text": {
-                  "string": "\n           (Use with caution!)\n         "
+                  "string": ""
                }
             },
             "#comment$19": " <FS:WF> FIRE-6604 END ",
             "text:allow_label0": {
                "@name": "allow_label0",
                "#text": {
-                  "string": "\n            Fly:\n          "
+                  "string": ""
                }
             },
             "check_box:check fly": {
@@ -852,13 +839,13 @@
                },
                "@name": "check fly",
                "@tool_tip": {
-                  "string": "If checked, Residents can fly on your land. If unchecked, they can only fly into and over your land."
+                  "string": ""
                }
             },
             "text:allow_label2": {
                "@name": "allow_label2",
                "#text": {
-                  "string": "\n                Build:\n            "
+                  "string": ""
                }
             },
             "check_box:edit objects check": {
@@ -867,7 +854,7 @@
                },
                "@name": "edit objects check",
                "@tool_tip": {
-                  "string": "If checked, Residents can create and rez objects on your land."
+                  "string": ""
                }
             },
             "check_box:edit group objects check": {
@@ -876,13 +863,13 @@
                },
                "@name": "edit group objects check",
                "@tool_tip": {
-                  "string": "If checked, parcel group members can create and rez objects on your land."
+                  "string": ""
                }
             },
             "text:allow_label3": {
                "@name": "allow_label3",
                "#text": {
-                  "string": "\n                Object Entry:\n            "
+                  "string": ""
                }
             },
             "check_box:all object entry check": {
@@ -891,7 +878,7 @@
                },
                "@name": "all object entry check",
                "@tool_tip": {
-                  "string": "If checked, Residents can move existing objects from other parcels onto this parcel."
+                  "string": ""
                }
             },
             "check_box:group object entry check": {
@@ -900,13 +887,13 @@
                },
                "@name": "group object entry check",
                "@tool_tip": {
-                  "string": "If checked, parcel group members can move existing objects from other parcels onto this parcel."
+                  "string": ""
                }
             },
             "text:allow_label4": {
                "@name": "allow_label4",
                "#text": {
-                  "string": "\n                Run Scripts:\n            "
+                  "string": ""
                }
             },
             "check_box:check other scripts": {
@@ -915,7 +902,7 @@
                },
                "@name": "check other scripts",
                "@tool_tip": {
-                  "string": "If checked, Residents can run scripts on your parcel, including attachments."
+                  "string": ""
                }
             },
             "check_box:check group scripts": {
@@ -924,7 +911,7 @@
                },
                "@name": "check group scripts",
                "@tool_tip": {
-                  "string": "If checked, parcel group members can run scripts on your parcel, including attachments."
+                  "string": ""
                }
             },
             "panel": null,
@@ -934,7 +921,7 @@
                },
                "@name": "check safe",
                "@tool_tip": {
-                  "string": "If checked, sets the land to Safe, disabling damage combat. If cleared, damage combat is enabled."
+                  "string": ""
                }
             },
             "check_box:PushRestrictCheck": {
@@ -943,7 +930,7 @@
                },
                "@name": "PushRestrictCheck",
                "@tool_tip": {
-                  "string": "Prevents scripts from pushing. Checking this option may be useful for preventing disruptive behavior on your land."
+                  "string": ""
                }
             },
             "check_box:ShowDirectoryCheck": {
@@ -952,7 +939,7 @@
                },
                "@name": "ShowDirectoryCheck",
                "@tool_tip": {
-                  "string": "Let people see this parcel in search results"
+                  "string": ""
                }
             },
             "combo_box:land category": {
@@ -989,13 +976,13 @@
                },
                "combo_box.item:item6": {
                   "@label": {
-                     "string": "Gaming"
+                     "string": ""
                   },
                   "@name": "item6"
                },
                "combo_box.item:item7": {
                   "@label": {
-                     "string": "Hangout"
+                     "string": ""
                   },
                   "@name": "item7"
                },
@@ -1013,19 +1000,19 @@
                },
                "combo_box.item:item10": {
                   "@label": {
-                     "string": "Residential"
+                     "string": ""
                   },
                   "@name": "item10"
                },
                "combo_box.item:item11": {
                   "@label": {
-                     "string": "Shopping"
+                     "string": ""
                   },
                   "@name": "item11"
                },
                "combo_box.item:item13": {
                   "@label": {
-                     "string": "Rental"
+                     "string": ""
                   },
                   "@name": "item13"
                },
@@ -1038,7 +1025,7 @@
             },
             "check_box:MatureCheck": {
                "@label": {
-                  "string": "Moderate Content"
+                  "string": ""
                },
                "@name": "MatureCheck",
                "@tool_tip": {
@@ -1048,7 +1035,7 @@
             "text:Snapshot:": {
                "@name": "Snapshot:",
                "#text": {
-                  "string": "\n                Snapshot:\n            "
+                  "string": ""
                }
             },
             "texture_picker:snapshot_ctrl": {
@@ -1060,19 +1047,19 @@
             "text:allow_see_label": {
                "@name": "allow_see_label",
                "#text": {
-                  "string": "\n              Avatars on other parcels can see and chat with avatars on this parcel\n            "
+                  "string": ""
                }
             },
             "check_box:SeeAvatarsCheck": {
                "@name": "SeeAvatarsCheck",
                "@tool_tip": {
-                  "string": "Allows avatars on other parcels to see and chat with avatars on this parcel, and you to see and chat with them."
+                  "string": ""
                }
             },
             "text:landing_point": {
                "@name": "landing_point",
                "#text": {
-                  "string": "\n                Landing Point: [LANDING]\n            "
+                  "string": ""
                }
             },
             "button:Set": {
@@ -1081,7 +1068,7 @@
                },
                "@name": "Set",
                "@tool_tip": {
-                  "string": "Sets the landing point where visitors arrive. Sets to your avatar's location inside this parcel."
+                  "string": ""
                }
             },
             "button:Clear": {
@@ -1090,7 +1077,7 @@
                },
                "@name": "Clear",
                "@tool_tip": {
-                  "string": "Clear the landing point"
+                  "string": ""
                }
             },
             "button:teleport_to_landing_point": {
@@ -1099,19 +1086,19 @@
                },
                "@name": "teleport_to_landing_point",
                "@tool_tip": {
-                  "string": "Teleport to the landing point"
+                  "string": ""
                }
             },
             "text:Teleport Routing: ": {
                "@name": "Teleport Routing: ",
                "#text": {
-                  "string": "\n                Teleport Routing:\n            "
+                  "string": ""
                }
             },
             "combo_box:landing type": {
                "@name": "landing type",
                "@tool_tip": {
-                  "string": "Teleport Routing -- select how to handle teleports onto your land"
+                  "string": ""
                },
                "combo_box.item:Blocked": {
                   "@label": {
@@ -1135,19 +1122,19 @@
          },
          "panel:land_media_panel": {
             "@label": {
-               "string": "Media"
+               "string": ""
             },
             "@name": "land_media_panel",
             "text:with media:": {
                "@name": "with media:",
                "#text": {
-                  "string": "\n                Type:\n            "
+                  "string": ""
                }
             },
             "combo_box:media type": {
                "@name": "media type",
                "@tool_tip": {
-                  "string": "Specify if the URL is a movie, web page, or other media"
+                  "string": ""
                }
             },
             "text:mime_type": {
@@ -1156,7 +1143,7 @@
             "text:at URL:": {
                "@name": "at URL:",
                "#text": {
-                  "string": "\n                Home Page:\n            "
+                  "string": ""
                }
             },
             "line_editor:media_url": {
@@ -1171,19 +1158,19 @@
             "text:Description:": {
                "@name": "Description:",
                "#text": {
-                  "string": "\n                Description:\n            "
+                  "string": ""
                }
             },
             "line_editor:url_description": {
                "@name": "url_description",
                "@tool_tip": {
-                  "string": "Text displayed next to play/load button"
+                  "string": ""
                }
             },
             "text:Media texture:": {
                "@name": "Media texture:",
                "#text": {
-                  "string": "\n                Replace Texture:\n            "
+                  "string": ""
                }
             },
             "texture_picker:media texture": {
@@ -1195,7 +1182,7 @@
             "text:replace_texture_help": {
                "@name": "replace_texture_help",
                "#text": {
-                  "string": "\n             Objects using this texture will show the movie or web page after you click the play arrow.  Select the thumbnail to choose a different texture.\n            "
+                  "string": ""
                }
             },
             "check_box:media_auto_scale": {
@@ -1204,49 +1191,49 @@
                },
                "@name": "media_auto_scale",
                "@tool_tip": {
-                  "string": "Checking this option will scale the content for this parcel automatically. It may be slightly slower and lower quality visually but no other texture scaling or alignment will be required."
+                  "string": ""
                }
             },
             "text:media_size": {
                "@name": "media_size",
                "@tool_tip": {
-                  "string": "Size to render Web media, leave 0 for default."
+                  "string": ""
                },
                "#text": {
-                  "string": "\n                Size:\n            "
+                  "string": ""
                }
             },
             "spinner:media_size_width": {
                "@name": "media_size_width",
                "@tool_tip": {
-                  "string": "Size to render Web media, leave 0 for default."
+                  "string": ""
                }
             },
             "spinner:media_size_height": {
                "@name": "media_size_height",
                "@tool_tip": {
-                  "string": "Size to render Web media, leave 0 for default."
+                  "string": ""
                }
             },
             "text:pixels": {
                "@name": "pixels",
                "#text": {
-                  "string": "\n                pixels\n            "
+                  "string": ""
                }
             },
             "text:Options:": {
                "@name": "Options:",
                "#text": {
-                  "string": "\n                Options:\n            "
+                  "string": ""
                }
             },
             "check_box:media_loop": {
                "@label": {
-                  "string": "Loop"
+                  "string": ""
                },
                "@name": "media_loop",
                "@tool_tip": {
-                  "string": "Play media in a loop.  When the media has finished playing, it will restart from the beginning."
+                  "string": ""
                }
             }
          },
@@ -1258,7 +1245,7 @@
             "text:MusicURL:": {
                "@name": "MusicURL:",
                "#text": {
-                  "string": "\n                Music URL:\n            "
+                  "string": ""
                }
             },
             "combo_box:music_url": {
@@ -1267,37 +1254,37 @@
             "button:stream_add_btn": {
                "@name": "stream_add_btn",
                "@tool_tip": {
-                  "string": "Add Music Stream URL to saved stream list"
+                  "string": ""
                }
             },
             "button:stream_delete_btn": {
                "@name": "stream_delete_btn",
                "@tool_tip": {
-                  "string": "Remove Music Stream URL from saved stream list"
+                  "string": ""
                }
             },
             "button:stream_copy_btn": {
                "@name": "stream_copy_btn",
                "@tool_tip": {
-                  "string": "Copy Music Stream URL to clipboard"
+                  "string": ""
                }
             },
             "text:Sound:": {
                "@name": "Sound:",
                "#text": {
-                  "string": "\n                Sound:\n            "
+                  "string": ""
                }
             },
             "check_box:check sound local": {
                "@label": {
-                  "string": "Restrict gesture and object sounds to this parcel"
+                  "string": ""
                },
                "@name": "check sound local"
             },
             "text:Avatar Sounds:": {
                "@name": "Avatar Sounds:",
                "#text": {
-                  "string": "\n               Avatar Sounds:\n          "
+                  "string": ""
                }
             },
             "check_box:all av sound check": {
@@ -1315,7 +1302,7 @@
             "text:Voice settings:": {
                "@name": "Voice settings:",
                "#text": {
-                  "string": "\n                Voice:\n            "
+                  "string": ""
                }
             },
             "check_box:parcel_enable_voice_channel": {
@@ -1326,15 +1313,30 @@
             },
             "check_box:parcel_enable_voice_channel_is_estate_disabled": {
                "@label": {
-                  "string": "Enable Voice (established by the Estate)"
+                  "string": ""
                },
                "@name": "parcel_enable_voice_channel_is_estate_disabled"
             },
             "check_box:parcel_enable_voice_channel_local": {
                "@label": {
-                  "string": "Restrict Voice to this parcel"
+                  "string": ""
                },
                "@name": "parcel_enable_voice_channel_local"
+            },
+            "text:media": {
+               "@name": "media",
+               "#text": {
+                  "string": ""
+               }
+            },
+            "check_box:obscure_moap": {
+               "@label": {
+                  "string": ""
+               },
+               "@name": "obscure_moap",
+               "@tool_tip": {
+                  "string": ""
+               }
             }
          },
          "panel:land_access_panel": {
@@ -1345,13 +1347,13 @@
             "panel.string:access_estate_defined": {
                "@name": "access_estate_defined",
                "#text": {
-                  "string": "\n        (Defined by the Estate)\n      "
+                  "string": ""
                }
             },
             "panel.string:estate_override": {
                "@name": "estate_override",
                "#text": {
-                  "string": "\n                One or more of these options is set at the estate level\n            "
+                  "string": ""
                }
             },
             "check_box:public_access": {
@@ -1360,7 +1362,7 @@
                   "string": ""
                },
                "@label": {
-                  "string": "Anyone can visit (Unchecking this will create ban lines)"
+                  "string": ""
                }
             },
             "check_box:limit_age_verified": {
@@ -1369,16 +1371,16 @@
                },
                "@name": "limit_age_verified",
                "@tool_tip": {
-                  "string": "Residents must be age 18 or older to access this parcel. See the [SUPPORT_SITE] for more information."
+                  "string": ""
                }
             },
             "check_box:limit_payment": {
                "@label": {
-                  "string": "Must have payment info on file [ESTATE_PAYMENT_LIMIT]"
+                  "string": ""
                },
                "@name": "limit_payment",
                "@tool_tip": {
-                  "string": "Residents must have payment information on file to access this parcel.  See the [SUPPORT_SITE] for more information."
+                  "string": ""
                }
             },
             "check_box:GroupCheck": {
@@ -1392,11 +1394,11 @@
             },
             "check_box:PassCheck": {
                "@label": {
-                  "string": "Sell passes to:"
+                  "string": ""
                },
                "@name": "PassCheck",
                "@tool_tip": {
-                  "string": "Allows temporary access to this parcel"
+                  "string": ""
                }
             },
             "combo_box:pass_combo": {
@@ -1422,14 +1424,14 @@
             },
             "spinner:HoursSpin": {
                "@label": {
-                  "string": "Hours of access:"
+                  "string": ""
                },
                "@name": "HoursSpin"
             },
             "text:OwnerLimited": {
                "@name": "OwnerLimited",
                "#text": {
-                  "string": "\n                (The estate owner may have limited these choices)\n            "
+                  "string": ""
                }
             },
             "panel:Allowed_layout_panel": {
@@ -1440,13 +1442,13 @@
                   },
                   "@name": "AllowedText",
                   "#text": {
-                     "string": "\n                Always allowed ([COUNT]/[MAX])\n            "
+                     "string": ""
                   }
                },
                "name_list:AccessList": {
                   "@name": "AccessList",
                   "@tool_tip": {
-                     "string": "([LISTED] listed, [MAX] max)"
+                     "string": ""
                   }
                },
                "button:add_allowed": {
@@ -1470,13 +1472,13 @@
                   },
                   "@name": "BanCheck",
                   "#text": {
-                     "string": "\n                Banned ([COUNT]/[MAX])\n            "
+                     "string": ""
                   }
                },
                "name_list:BannedList": {
                   "@name": "BannedList",
                   "@tool_tip": {
-                     "string": "([LISTED] listed, [MAX] max)"
+                     "string": ""
                   },
                   "columns:name": {
                      "@label": {

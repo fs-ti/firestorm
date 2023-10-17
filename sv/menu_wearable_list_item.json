@@ -1,0 +1,93 @@
+{
+   "context_menu": {
+      "@name": "Outfit Wearable Context Menu",
+      "menu_item_call:wear_replace": {
+         "@label": {
+            "string": "Ersätt"
+         },
+         "@name": "wear_replace",
+         "on_click": null
+      },
+      "menu_item_call:wear_wear": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "wear_wear",
+         "on_click": null
+      },
+      "menu_item_call:wear_add": {
+         "@label": {
+            "string": "Lägg till"
+         },
+         "@name": "wear_add",
+         "on_click": null
+      },
+      "context_menu:wearable_attach_to": {
+         "@label": {
+            "string": "Bifoga till"
+         },
+         "@name": "wearable_attach_to"
+      },
+      "context_menu:wearable_attach_to_hud": {
+         "@label": {
+            "string": "Bifoga till HUD"
+         },
+         "@name": "wearable_attach_to_hud"
+      },
+      "menu_item_call:touch": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "touch"
+      },
+      "menu_item_call:edit": {
+         "@label": {
+            "string": "Redigera"
+         },
+         "@name": "edit"
+      },
+      "menu_item_call:take_off_or_detach": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "take_off_or_detach",
+         "on_click": null
+      },
+      "menu_item_call:detach": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "detach",
+         "on_click": null
+      },
+      "menu_item_call:take_off": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "take_off",
+         "on_click": null
+      },
+      "menu_item_call:object_profile": {
+         "@label": {
+            "string": ""
+         },
+         "@name": "object_profile",
+         "on_click": null
+      },
+      "menu_item_separator": null,
+      "menu_item_call:show_original": {
+         "@label": {
+            "string": "Visa originalet"
+         },
+         "@name": "show_original",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:create_new": {
+         "@name": "create_new"
+      },
+      "menu_item_call:--no options--": {
+         "@name": "--no options--"
+      }
+   }
+}

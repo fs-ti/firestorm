@@ -1,0 +1,20 @@
+{
+   "panel": {
+      "@name": "panel_profile_web",
+      "@label": {
+         "string": "Web"
+      },
+      "panel.string:LoadTime": {
+         "@name": "LoadTime",
+         "@value": {
+            "string": "Load Time: [TIME] seconds"
+         }
+      },
+      "web_browser:profile_html": {
+         "@name": "profile_html"
+      },
+      "text:status_text": {
+         "@name": "status_text"
+      }
+   }
+}

@@ -1,0 +1,107 @@
+{
+   "panel": {
+      "@name": "panel_performance_autotune",
+      "button:back_btn": {
+         "@name": "back_btn"
+      },
+      "text:back_lbl": {
+         "@name": "back_lbl",
+         "#text": {
+            "string": "\n  Back\n  "
+         }
+      },
+      "text:settings_title": {
+         "@name": "settings_title",
+         "#text": {
+            "string": "\nAuto Tune Preferences\n  "
+         }
+      },
+      "view_border:border1": {
+         "@name": "border1"
+      },
+      "text:quality_lbl": {
+         "@name": "quality_lbl",
+         "#text": {
+            "string": "\nDistant Avatars\n  "
+         }
+      },
+      "check_box:FSAutoTuneImpostorByDistEnabled": {
+         "@label": {
+            "string": "Enable distance-based optimization"
+         },
+         "@name": "FSAutoTuneImpostorByDistEnabled",
+         "@tool_tip": {
+            "string": "When enabled the viewer will adjust the MaxNonImpostors setting to limit fully rendered avatars to those within the defined radius."
+         }
+      },
+      "spinner:ffa_autotune": {
+         "@label": {
+            "string": "Farthest full avatar"
+         },
+         "@name": "ffa_autotune"
+      },
+      "text:distant_av_advice": {
+         "@name": "distant_av_advice",
+         "#text": {
+            "string": "\nDistant avatars can be automatically optimized regardless of their render cost.\nSet the distance from camera beyond which an avatar will be optimized.\nNote: This setting will force MaxNonImpostors to 1 if nobody is nearby.\n"
+         }
+      },
+      "view_border:border2": {
+         "@name": "border2"
+      },
+      "text:distance_lbl": {
+         "@name": "distance_lbl",
+         "#text": {
+            "string": "\nVisibility distance tuning limits\n"
+         }
+      },
+      "spinner:min_dd_autotune": {
+         "@label": {
+            "string": "Minimum Distance"
+         },
+         "@name": "min_dd_autotune"
+      },
+      "spinner:pref_dd_autotune": {
+         "@label": {
+            "string": "Preferred distance"
+         },
+         "@name": "pref_dd_autotune"
+      },
+      "text:distance_desc1": {
+         "@name": "distance_desc1",
+         "#text": {
+            "string": "\nWhen adjusting scene parameters, autotune will choose values between the minimum and the preferred draw distances.\n"
+         }
+      },
+      "text:sundry_lbl": {
+         "@name": "sundry_lbl",
+         "#text": {
+            "string": "\nSundry Settings\n"
+         }
+      },
+      "check_box:alow_self_impostor": {
+         "@label": {
+            "string": "Allow your own avatar to be optimized"
+         },
+         "@name": "alow_self_impostor",
+         "@tool_tip": {
+            "string": "When enabled the viewer may render your own avatar as an impostor."
+         }
+      },
+      "check_box:show_tuned_art": {
+         "@label": {
+            "string": "Show optimized render time"
+         },
+         "@name": "show_tuned_art",
+         "@tool_tip": {
+            "string": "When enabled the Time column shows the current render time not the pre-tuning render time."
+         }
+      },
+      "text:sundry_desc1": {
+         "@name": "sundry_desc1",
+         "#text": {
+            "string": "\nThese options control more subtle settings. Use the online help page to get more information on what these do.\n"
+         }
+      }
+   }
+}

@@ -4,11 +4,23 @@
       "@title": {
          "string": "Test Floater"
       },
-      "text": "\nthis\nis\nsome\ntext\nthat\nis\ntop\naligned",
-      "text$3": "\nthis\nis\nsome\ntext\nthat\nis\ncenter\naligned",
-      "text$4": "\nthis\nis\nsome\ntext\nthat\nis\nbottom\naligned",
-      "text_editor": "\nthis\nis\nsome\ntext\nthat\nis\ntop\naligned\n  ",
-      "text_editor$6": "\nthis\nis\nsome\ntext\nthat\nis\ncenter\naligned\n  ",
-      "text_editor$7": "\nthis\nis\nsome\ntext\nthat\nis\nbottom\naligned\n  "
+      "text": {
+         "string": "\nthis\nis\nsome\ntext\nthat\nis\ntop\naligned"
+      },
+      "text$3": {
+         "string": "\nthis\nis\nsome\ntext\nthat\nis\ncenter\naligned"
+      },
+      "text$4": {
+         "string": "\nthis\nis\nsome\ntext\nthat\nis\nbottom\naligned"
+      },
+      "text_editor": {
+         "string": "\nthis\nis\nsome\ntext\nthat\nis\ntop\naligned\n  "
+      },
+      "text_editor$6": {
+         "string": "\nthis\nis\nsome\ntext\nthat\nis\ncenter\naligned\n  "
+      },
+      "text_editor$7": {
+         "string": "\nthis\nis\nsome\ntext\nthat\nis\nbottom\naligned\n  "
+      }
    }
 }

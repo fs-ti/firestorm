@@ -8,19 +8,55 @@
       "floater.string:ToolTipMsg": {
          "@name": "ToolTipMsg",
          "#text": {
-            "string": "\n        [AGENT][REGION](Double-click to open Map, shift-drag to pan)\n    "
+            "string": "\n        [AGENT][PARCEL_NAME_MSG][PARCEL_SALE_PRICE_MSG][PARCEL_SALE_AREA_MSG][PARCEL_OWNER_MSG][REGION_NAME_MSG][TOOL_TIP_HINT_MSG]\n    "
          }
       },
-      "floater.string:AltToolTipMsg": {
-         "@name": "AltToolTipMsg",
+      "floater.string:ParcelNameMsg": {
+         "@name": "ParcelNameMsg",
          "#text": {
-            "string": "\n    [REGION](Double-click to teleport, shift-drag to pan)\n  "
+            "string": "\n        [PARCEL_NAME]\n    "
+         }
+      },
+      "floater.string:ParcelSalePriceMsg": {
+         "@name": "ParcelSalePriceMsg",
+         "#text": {
+            "string": "\n        Price: L$[PRICE] (L$[PRICE_PER_SQM]/m²)\n    "
+         }
+      },
+      "floater.string:ParcelSaleAreaMsg": {
+         "@name": "ParcelSaleAreaMsg",
+         "#text": {
+            "string": "\n        Area: [AREA]m²\n    "
+         }
+      },
+      "floater.string:ParcelOwnerMsg": {
+         "@name": "ParcelOwnerMsg",
+         "#text": {
+            "string": "\n        Owner: [PARCEL_OWNER]\n    "
+         }
+      },
+      "floater.string:RegionNameMsg": {
+         "@name": "RegionNameMsg",
+         "#text": {
+            "string": "\n        Region: [REGION_NAME]\n    "
+         }
+      },
+      "floater.string:ToolTipHintMsg": {
+         "@name": "ToolTipHintMsg",
+         "#text": {
+            "string": "\n        Double-click to open map\n    "
+         }
+      },
+      "floater.string:AltToolTipHintMsg": {
+         "@name": "AltToolTipHintMsg",
+         "#text": {
+            "string": "\n        Double-click to teleport\n    "
          }
       },
       "floater.string:mini_map_caption": {
          "@name": "mini_map_caption",
          "#text": {
-            "string": "\n  Mini-map\n    "
+            "string": "\n        Mini-map\n    "
          }
       },
       "net_map:Net Map": {

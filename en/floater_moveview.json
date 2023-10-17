@@ -1,109 +1,109 @@
 {
    "floater": {
       "@name": "move_floater",
-      "string:walk_forward_tooltip": {
+      "str_ing:walk_forward_tooltip": {
          "@name": "walk_forward_tooltip",
          "#text": {
             "string": "\n        Walk Forward (press Up Arrow or W)\n    "
          }
       },
-      "string:walk_back_tooltip": {
+      "str_ing:walk_back_tooltip": {
          "@name": "walk_back_tooltip",
          "#text": {
             "string": "\n        Walk Backwards (press Down Arrow or S)\n    "
          }
       },
-      "string:walk_left_tooltip": {
+      "str_ing:walk_left_tooltip": {
          "@name": "walk_left_tooltip",
          "#text": {
             "string": "\n        Walk left (press Shift + Left Arrow or A)\n    "
          }
       },
-      "string:walk_right_tooltip": {
+      "str_ing:walk_right_tooltip": {
          "@name": "walk_right_tooltip",
          "#text": {
             "string": "\n        Walk right (press Shift + Right Arrow or D)\n    "
          }
       },
-      "string:run_forward_tooltip": {
+      "str_ing:run_forward_tooltip": {
          "@name": "run_forward_tooltip",
          "#text": {
             "string": "\n        Run Forward (press Up Arrow or W)\n    "
          }
       },
-      "string:run_back_tooltip": {
+      "str_ing:run_back_tooltip": {
          "@name": "run_back_tooltip",
          "#text": {
             "string": "\n        Run Backwards (press Down Arrow or S)\n    "
          }
       },
-      "string:run_left_tooltip": {
+      "str_ing:run_left_tooltip": {
          "@name": "run_left_tooltip",
          "#text": {
             "string": "\n        Run left (press Shift + Left Arrow or A)\n    "
          }
       },
-      "string:run_right_tooltip": {
+      "str_ing:run_right_tooltip": {
          "@name": "run_right_tooltip",
          "#text": {
             "string": "\n        Run right (press Shift + Right Arrow or D)\n    "
          }
       },
-      "string:fly_forward_tooltip": {
+      "str_ing:fly_forward_tooltip": {
          "@name": "fly_forward_tooltip",
          "#text": {
             "string": "\n        Fly Forward (press Up Arrow or W)\n    "
          }
       },
-      "string:fly_back_tooltip": {
+      "str_ing:fly_back_tooltip": {
          "@name": "fly_back_tooltip",
          "#text": {
             "string": "\n        Fly Backwards (press Down Arrow or S)\n    "
          }
       },
-      "string:fly_left_tooltip": {
+      "str_ing:fly_left_tooltip": {
          "@name": "fly_left_tooltip",
          "#text": {
             "string": "\n        Fly left (press Shift + Left Arrow or A)\n    "
          }
       },
-      "string:fly_right_tooltip": {
+      "str_ing:fly_right_tooltip": {
          "@name": "fly_right_tooltip",
          "#text": {
             "string": "\n        Fly right (press Shift + Right Arrow or D)\n    "
          }
       },
-      "string:fly_up_tooltip": {
+      "str_ing:fly_up_tooltip": {
          "@name": "fly_up_tooltip",
          "#text": {
             "string": "\n        Fly up (press E)\n    "
          }
       },
-      "string:fly_down_tooltip": {
+      "str_ing:fly_down_tooltip": {
          "@name": "fly_down_tooltip",
          "#text": {
             "string": "\n        Fly down (press C)\n    "
          }
       },
-      "string:jump_tooltip": {
+      "str_ing:jump_tooltip": {
          "@name": "jump_tooltip",
          "#text": {
             "string": "\n        Jump (press E)\n    "
          }
       },
-      "string:crouch_tooltip": {
+      "str_ing:crouch_tooltip": {
          "@name": "crouch_tooltip",
          "#text": {
             "string": "\n        Crouch (press C)\n    "
          }
       },
-      "string:walk_title": {
+      "str_ing:walk_title": {
          "@name": "walk_title"
       },
-      "string:run_title": {
+      "str_ing:run_title": {
          "@name": "run_title"
       },
-      "string:fly_title": {
+      "str_ing:fly_title": {
          "@name": "fly_title"
       },
       "panel:panel_actions": {

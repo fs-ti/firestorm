@@ -129,6 +129,27 @@
                },
                "@name": "enable_voice_check_volume"
             },
+            "text:Listen media from": {
+               "@name": "Listen media from",
+               "#text": {
+                  "string": "\n          Hear media and sounds from:\n        "
+               }
+            },
+            "radio_group:media_ear_location": {
+               "@name": "media_ear_location",
+               "radio_item:0": {
+                  "@label": {
+                     "string": "Camera position"
+                  },
+                  "@name": "0"
+               },
+               "radio_item:1": {
+                  "@label": {
+                     "string": "Avatar position"
+                  },
+                  "@name": "1"
+               }
+            },
             "text:auto_unmute_label": {
                "@name": "auto_unmute_label",
                "#text": {

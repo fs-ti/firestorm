@@ -281,6 +281,36 @@
                "@tool_tip": {
                   "string": "Object cost."
                }
+            },
+            "text:BaseMaskDebug": {
+               "@name": "BaseMaskDebug",
+               "#text": {
+                  "string": "\n        B:\n      "
+               }
+            },
+            "text:OwnerMaskDebug": {
+               "@name": "OwnerMaskDebug",
+               "#text": {
+                  "string": "\n        O:\n      "
+               }
+            },
+            "text:GroupMaskDebug": {
+               "@name": "GroupMaskDebug",
+               "#text": {
+                  "string": "\n        G:\n      "
+               }
+            },
+            "text:EveryoneMaskDebug": {
+               "@name": "EveryoneMaskDebug",
+               "#text": {
+                  "string": "\n        E:\n      "
+               }
+            },
+            "text:NextMaskDebug": {
+               "@name": "NextMaskDebug",
+               "#text": {
+                  "string": "\n        N:\n      "
+               }
             }
          }
       },

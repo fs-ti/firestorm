@@ -90,6 +90,13 @@
          "menu_item_call.on_enable": null
       },
       "menu_item_separator": null,
+      "menu_item_call:report_abuse": {
+         "@label": {
+            "string": "Report Abuse"
+         },
+         "@name": "report_abuse",
+         "menu_item_call.on_click": null
+      },
       "menu_item_check:Block": {
          "@label": {
             "string": "Block"
@@ -141,7 +148,7 @@
       "menu_item_separator:GroupModerationSeparator": {
          "@name": "GroupModerationSeparator"
       },
-      "#comment$17": " </FS:Zi> ",
+      "#comment$18": " </FS:Zi> ",
       "menu_item_call:url_copy_label": {
          "@label": {
             "string": "Copy Name to clipboard"

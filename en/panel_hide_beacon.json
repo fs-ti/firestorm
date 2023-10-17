@@ -1,0 +1,14 @@
+{
+   "panel": {
+      "@name": "panel_hide_beacon",
+      "button:hide_beacon_btn": {
+         "@label": {
+            "string": "Hide beacon"
+         },
+         "@name": "hide_beacon_btn",
+         "@tool_tip": {
+            "string": "Stop tracking and hide beacon"
+         }
+      }
+   }
+}

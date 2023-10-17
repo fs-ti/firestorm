@@ -1,19 +1,19 @@
 {
    "panel": {
       "@name": "panel_voice_effect",
-      "string:no_voice_effect": {
+      "str_ing:no_voice_effect": {
          "@name": "no_voice_effect",
          "#text": {
             "string": "\n    Voice Morphing Off\n  "
          }
       },
-      "string:preview_voice_effects": {
+      "str_ing:preview_voice_effects": {
          "@name": "preview_voice_effects",
          "#text": {
             "string": "\n    Preview Voice Morphing  ▶\n  "
          }
       },
-      "string:get_voice_effects": {
+      "str_ing:get_voice_effects": {
          "@name": "get_voice_effects",
          "#text": {
             "string": "\n    Get Voice Morphing  ▶\n  "

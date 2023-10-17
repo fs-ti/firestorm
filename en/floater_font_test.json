@@ -4,35 +4,93 @@
       "@title": {
          "string": "Font Fest"
       },
-      "text": "\n        SansSerifSmall\n    ",
-      "text$3": "\n        SansSerifMedium\n    ",
-      "text$4": "\n        SansSerif, no size or style (should be same as medium)\n    ",
-      "text$5": "\n        SansSerifLarge\n    ",
-      "text$6": "\n        SansSerifHuge\n    ",
-      "text$7": "\n        SansSerifHuge style=BOLD\n    ",
-      "text$8": "\n        SansSerifBold size=Huge\n    ",
-      "text$9": "\n        Monospace\n    ",
-      "text$10": "\n        Monospace size=Large\n    ",
-      "text$11": "\n        SansSerifLarge style=BOLD\n    ",
-      "text$12": "\n        SansSerifBold\n    ",
-      "text$13": "\n        SansSerif style=BOLD (should be same as SansSerifBold)\n    ",
-      "text$14": "\n        SansSerif style=ITALIC\n    ",
-      "text$15": "\n        SansSerif style=BOLD|ITALIC\n    ",
-      "text$16": "\n        SansSerif style=BOLD|ITALIC shadow=soft\n    ",
-      "text$17": "\n        SansSerif style=UNDERLINE\n    ",
-      "text$18": "\n        SansSerif style=hard\n    ",
-      "text$19": "\n        SansSerif shadow=soft\n    ",
-      "text$20": "\n        DejaVu\n    ",
-      "text$21": "\n        DejaVu style=BOLD\n    ",
-      "text$22": "\n        DejaVu style=ITALIC\n    ",
-      "text$23": "\n        DejaVu style=BOLD|ITALIC\n    ",
-      "text$24": "\n        DejaVu size=Large style=BOLD|ITALIC\n    ",
-      "text$25": "\n        Helvetica\n    ",
-      "text$26": "\n        Helvetica style=BOLD\n    ",
-      "text$27": "\n        Helvetica style=ITALIC\n    ",
-      "text$28": "\n        Helvetica style=BOLD|ITALIC\n    ",
-      "text$29": "\n        Helvetica size=Large style=BOLD|ITALIC\n    ",
-      "text$30": "\n        Script\n    ",
+      "text": {
+         "string": "\n        SansSerifSmall\n    "
+      },
+      "text$3": {
+         "string": "\n        SansSerifMedium\n    "
+      },
+      "text$4": {
+         "string": "\n        SansSerif, no size or style (should be same as medium)\n    "
+      },
+      "text$5": {
+         "string": "\n        SansSerifLarge\n    "
+      },
+      "text$6": {
+         "string": "\n        SansSerifHuge\n    "
+      },
+      "text$7": {
+         "string": "\n        SansSerifHuge style=BOLD\n    "
+      },
+      "text$8": {
+         "string": "\n        SansSerifBold size=Huge\n    "
+      },
+      "text$9": {
+         "string": "\n        Monospace\n    "
+      },
+      "text$10": {
+         "string": "\n        Monospace size=Large\n    "
+      },
+      "text$11": {
+         "string": "\n        SansSerifLarge style=BOLD\n    "
+      },
+      "text$12": {
+         "string": "\n        SansSerifBold\n    "
+      },
+      "text$13": {
+         "string": "\n        SansSerif style=BOLD (should be same as SansSerifBold)\n    "
+      },
+      "text$14": {
+         "string": "\n        SansSerif style=ITALIC\n    "
+      },
+      "text$15": {
+         "string": "\n        SansSerif style=BOLD|ITALIC\n    "
+      },
+      "text$16": {
+         "string": "\n        SansSerif style=BOLD|ITALIC shadow=soft\n    "
+      },
+      "text$17": {
+         "string": "\n        SansSerif style=UNDERLINE\n    "
+      },
+      "text$18": {
+         "string": "\n        SansSerif style=hard\n    "
+      },
+      "text$19": {
+         "string": "\n        SansSerif shadow=soft\n    "
+      },
+      "text$20": {
+         "string": "\n        DejaVu\n    "
+      },
+      "text$21": {
+         "string": "\n        DejaVu style=BOLD\n    "
+      },
+      "text$22": {
+         "string": "\n        DejaVu style=ITALIC\n    "
+      },
+      "text$23": {
+         "string": "\n        DejaVu style=BOLD|ITALIC\n    "
+      },
+      "text$24": {
+         "string": "\n        DejaVu size=Large style=BOLD|ITALIC\n    "
+      },
+      "text$25": {
+         "string": "\n        Helvetica\n    "
+      },
+      "text$26": {
+         "string": "\n        Helvetica style=BOLD\n    "
+      },
+      "text$27": {
+         "string": "\n        Helvetica style=ITALIC\n    "
+      },
+      "text$28": {
+         "string": "\n        Helvetica style=BOLD|ITALIC\n    "
+      },
+      "text$29": {
+         "string": "\n        Helvetica size=Large style=BOLD|ITALIC\n    "
+      },
+      "text$30": {
+         "string": "\n        Script\n    "
+      },
       "#comment": "\n    <text\n     type=\"string\"\n     length=\"1\"\n     bottom_delta=\"20\"\n     follows=\"left|top|right\"\n     font=\"OverrideTest\"\n     height=\"16\"\n     layout=\"topleft\"\n     left=\"16\"\n     name=\"linea\">\n        OverrideTest, should be times, from default/xui/en\n    </text>\n    <text\n     type=\"string\"\n     length=\"1\"\n     bottom_delta=\"20\"\n     follows=\"left|top|right\"\n     height=\"16\"\n     layout=\"topleft\"\n     left=\"16\">\n        BogusFontName\n    </text>\n"
    }
 }

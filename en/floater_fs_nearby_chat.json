@@ -12,15 +12,6 @@
       },
       "layout_stack:ls_control_panel": {
          "@name": "ls_control_panel",
-         "layout_panel:lp_translate_btn": {
-            "@name": "lp_translate_btn",
-            "button:translate_btn": {
-               "@tool_tip": {
-                  "string": "Use selected translation service"
-               },
-               "@name": "translate_btn"
-            }
-         },
          "layout_panel:lp_chat_history_btn": {
             "@name": "lp_chat_history_btn",
             "button:chat_history_btn": {

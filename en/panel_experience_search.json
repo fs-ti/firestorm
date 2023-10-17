@@ -4,47 +4,38 @@
       "@label": {
          "string": "Search"
       },
-      "string:not_found": {
+      "str_ing:not_found": {
          "@name": "not_found",
          "#text": {
             "string": "\n    '[TEXT]' not found\n  "
          }
       },
-      "string:no_results": {
+      "str_ing:no_results": {
          "@name": "no_results",
          "#text": {
             "string": "\n    No results\n  "
          }
       },
-      "string:searching": {
+      "str_ing:searching": {
          "@name": "searching",
          "#text": {
             "string": "\n    Searching...\n  "
          }
       },
-      "string:loading": {
+      "str_ing:loading": {
          "@name": "loading",
          "#text": {
             "string": "\n    Loading...\n  "
          }
       },
       "string:maturity_icon_general": {
-         "@name": "maturity_icon_general",
-         "#text": {
-            "string": "\n    \"Parcel_PG_Light\"\n  "
-         }
+         "@name": "maturity_icon_general"
       },
       "string:maturity_icon_moderate": {
-         "@name": "maturity_icon_moderate",
-         "#text": {
-            "string": "\n    \"Parcel_M_Light\"\n  "
-         }
+         "@name": "maturity_icon_moderate"
       },
       "string:maturity_icon_adult": {
-         "@name": "maturity_icon_adult",
-         "#text": {
-            "string": "\n    \"Parcel_R_Light\"\n  "
-         }
+         "@name": "maturity_icon_adult"
       },
       "panel:search_panel": {
          "@name": "search_panel",
@@ -80,42 +71,21 @@
                   "string": "Adult"
                },
                "@name": "Adult",
-               "@value": {
-                  "string": "42"
-               },
-               "item.columns": {
-                  "@value": {
-                     "string": "Parcel_R_Light"
-                  }
-               }
+               "item.columns": null
             },
             "icons_combo_box.item:Mature": {
                "@label": {
                   "string": "Moderate"
                },
                "@name": "Mature",
-               "@value": {
-                  "string": "21"
-               },
-               "item.columns": {
-                  "@value": {
-                     "string": "Parcel_M_Light"
-                  }
-               }
+               "item.columns": null
             },
             "icons_combo_box.item:PG": {
                "@label": {
                   "string": "General"
                },
                "@name": "PG",
-               "@value": {
-                  "string": "13"
-               },
-               "item.columns": {
-                  "@value": {
-                     "string": "Parcel_PG_Light"
-                  }
-               }
+               "item.columns": null
             }
          },
          "scroll_list:search_results": {

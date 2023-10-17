@@ -2,19 +2,27 @@
    "floater": {
       "@name": "inspect_avatar",
       "#comment": " Allowed fields include:\n  [BORN_ON] (\"12/3/2008\")\n  [SL_PROFILE] (Second Life profile),\n    [RW_PROFILE] (real world profile),\n  [ACCTTYPE] (\"Resident\"),\n  [PAYMENTINFO] (\"Payment Info on File\"),\n  [AGE] (\"1 year 2 months\")\n   ",
-      "string:Subtitle": {
+      "str_ing:Subtitle": {
          "@name": "Subtitle",
          "#text": {
             "string": "\n[AGE]\n  "
          }
       },
-      "string:Details": {
+      "str_ing:Details": {
          "@name": "Details",
          "#text": {
             "string": "\n[SL_PROFILE]\n    "
          }
       },
-      "text": null,
+      "text:user_name_small": {
+         "@name": "user_name_small"
+      },
+      "text:user_name": {
+         "@name": "user_name"
+      },
+      "text:user_slid": {
+         "@name": "user_slid"
+      },
       "text:user_subtitle": {
          "@name": "user_subtitle",
          "@value": {
@@ -31,9 +39,6 @@
          "@name": "volume_slider",
          "@tool_tip": {
             "string": "Voice volume"
-         },
-         "@value": {
-            "string": "0.5"
          }
       },
       "button:mute_btn": {
@@ -42,7 +47,7 @@
       "avatar_icon:avatar_icon": {
          "@name": "avatar_icon"
       },
-      "#comment$10": " Overlapping buttons for default actions\n    llinspectavatar.cpp makes visible the most likely default action \n",
+      "#comment$12": " Overlapping buttons for default actions\n    llinspectavatar.cpp makes visible the most likely default action \n",
       "button:add_friend_btn": {
          "@label": {
             "string": "Add Friend"
@@ -61,7 +66,7 @@
          },
          "@name": "view_profile_btn"
       },
-      "#comment$14": "  gear buttons here ",
+      "#comment$16": "  gear buttons here ",
       "menu_button:gear_btn": {
          "@name": "gear_btn"
       },

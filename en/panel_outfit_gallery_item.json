@@ -1,7 +1,7 @@
 {
    "panel": {
       "@name": "gallery_item_panel",
-      "string:worn_string": {
+      "str_ing:worn_string": {
          "@name": "worn_string",
          "#text": {
             "string": "\n    (worn)\n  "

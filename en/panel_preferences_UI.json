@@ -576,15 +576,6 @@
                   "string": "If enabled, Firestorm will open the profile of an avatar directly when clicking on a link with its name"
                }
             },
-            "check_box:FSUseWebProfiles": {
-               "@label": {
-                  "string": "Use web profiles by default"
-               },
-               "@name": "FSUseWebProfiles",
-               "@tool_tip": {
-                  "string": "Shows profiles as a web page instead of a v1-style panel."
-               }
-            },
             "check_box:FSDisableBlockListAutoOpen": {
                "@label": {
                   "string": "Disable automatic opening of block list"
@@ -1108,6 +1099,84 @@
                "@name": "Label_FolderItemViewHeight_Scale",
                "#text": {
                   "string": "\n          pixels (requires restart)\n[VIEWER_GENERATION] default 20. Viewer 1 default 18.\n        "
+               }
+            },
+            "text:text_box_notecard_font": {
+               "@name": "text_box_notecard_font",
+               "#text": {
+                  "string": "\n          Notecard Editor Font:\n        "
+               }
+            },
+            "combo_box:FSNotecardFontName": {
+               "@name": "FSNotecardFontName",
+               "@tool_tip": {
+                  "string": "Name of the font used in the notecard editor"
+               },
+               "combo_item:Sans Serif": {
+                  "@name": "Sans Serif",
+                  "@label": {
+                     "string": "Sans Serif"
+                  }
+               },
+               "combo_item:Monospace": {
+                  "@name": "Monospace",
+                  "@label": {
+                     "string": "Monospace"
+                  }
+               },
+               "combo_item:Scripting": {
+                  "@name": "Scripting",
+                  "@label": {
+                     "string": "Scripting"
+                  }
+               },
+               "combo_item:Cascadia": {
+                  "@name": "Cascadia",
+                  "@label": {
+                     "string": "Cascadia Code"
+                  }
+               }
+            },
+            "combo_box:FSNotecardFontSize": {
+               "@name": "FSNotecardFontSize",
+               "@tool_tip": {
+                  "string": "Size of the font used in the notecard editor"
+               },
+               "combo_item:Monospace": {
+                  "@name": "Monospace",
+                  "@label": {
+                     "string": "Monospace"
+                  }
+               },
+               "combo_item:Scripting": {
+                  "@name": "Scripting",
+                  "@label": {
+                     "string": "Scripting"
+                  }
+               },
+               "combo_item:Cascadia": {
+                  "@name": "Cascadia",
+                  "@label": {
+                     "string": "Cascadia Code"
+                  }
+               },
+               "combo_item:Small": {
+                  "@name": "Small",
+                  "@label": {
+                     "string": "Small"
+                  }
+               },
+               "combo_item:Medium": {
+                  "@name": "Medium",
+                  "@label": {
+                     "string": "Medium"
+                  }
+               },
+               "combo_item:Large": {
+                  "@name": "Large",
+                  "@label": {
+                     "string": "Large"
+                  }
                }
             },
             "#comment": " not a live preview\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"15\"\n         left=\"10\"\n         height=\"24\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifHuge\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"5\"\n         left=\"10\"\n         height=\"18\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifLarge\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"5\"\n         left=\"10\"\n         height=\"16\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifMedium\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"5\"\n         left=\"10\"\n         height=\"16\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"SansSerifSmall\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n\n        <text\n         name=\"tooltip_textbox\"\n         top_pad=\"8\"\n         left=\"10\"\n         height=\"12\"\n         width=\"480\"\n         layout=\"topleft\"\n         follows=\"left|top\"\n         type=\"string\"\n         length=\"1\"\n         font=\"Monospace\">\n           The quick brown fox jumps over the lazy dog.\n        </text>\n"

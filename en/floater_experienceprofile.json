@@ -11,22 +11,13 @@
          }
       },
       "floater.string:maturity_icon_general": {
-         "@name": "maturity_icon_general",
-         "#text": {
-            "string": "\n    \"Parcel_PG_Light\"\n  "
-         }
+         "@name": "maturity_icon_general"
       },
       "floater.string:maturity_icon_moderate": {
-         "@name": "maturity_icon_moderate",
-         "#text": {
-            "string": "\n    \"Parcel_M_Light\"\n  "
-         }
+         "@name": "maturity_icon_moderate"
       },
       "floater.string:maturity_icon_adult": {
-         "@name": "maturity_icon_adult",
-         "#text": {
-            "string": "\n    \"Parcel_R_Light\"\n  "
-         }
+         "@name": "maturity_icon_adult"
       },
       "text:edit_title": {
          "@name": "edit_title",
@@ -232,33 +223,21 @@
                            "string": "Adult"
                         },
                         "@name": "Adult",
-                        "item.columns": {
-                           "@value": {
-                              "string": "Parcel_R_Light"
-                           }
-                        }
+                        "item.columns": null
                      },
                      "icons_combo_box.item:Mature": {
                         "@label": {
                            "string": "Moderate"
                         },
                         "@name": "Mature",
-                        "item.columns": {
-                           "@value": {
-                              "string": "Parcel_M_Light"
-                           }
-                        }
+                        "item.columns": null
                      },
                      "icons_combo_box.item:PG": {
                         "@label": {
                            "string": "General"
                         },
                         "@name": "PG",
-                        "item.columns": {
-                           "@value": {
-                              "string": "Parcel_PG_Light"
-                           }
-                        }
+                        "item.columns": null
                      }
                   },
                   "text:edit_Location": {

@@ -1,0 +1,29 @@
+{
+   "floater": {
+      "@name": "simple_outfit_snapshot",
+      "@title": {
+         "string": "Outfit Snapshot"
+      },
+      "ui_ctrl:thumbnail_placeholder": {
+         "@name": "thumbnail_placeholder"
+      },
+      "button:new_snapshot_btn": {
+         "@label": {
+            "string": "Take photo"
+         },
+         "@name": "new_snapshot_btn"
+      },
+      "button:save_btn": {
+         "@label": {
+            "string": "Save (L$[UPLOAD_COST])"
+         },
+         "@name": "save_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

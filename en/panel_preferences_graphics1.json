@@ -67,8 +67,7 @@
                "@name": "UltraGraphicsDivet"
             },
             "slider:QualityPerformanceSelection": {
-               "@name": "QualityPerformanceSelection",
-               "slider.commit_callback": null
+               "@name": "QualityPerformanceSelection"
             },
             "text:ShadersPrefText": {
                "@name": "ShadersPrefText",
@@ -290,8 +289,7 @@
                "@label": {
                   "string": "Maximum complexity"
                },
-               "@name": "IndirectMaxComplexity",
-               "slider.commit_callback": null
+               "@name": "IndirectMaxComplexity"
             },
             "text:IndirectMaxComplexityText": {
                "@name": "IndirectMaxComplexityText",
@@ -303,8 +301,7 @@
                "@label": {
                   "string": "Max. # of non-impostor avatars"
                },
-               "@name": "IndirectMaxNonImpostors",
-               "slider.commit_callback": null
+               "@name": "IndirectMaxNonImpostors"
             },
             "text:IndirectMaxNonImpostorsText": {
                "@name": "IndirectMaxNonImpostorsText",
@@ -316,8 +313,7 @@
                "@label": {
                   "string": "Post process quality"
                },
-               "@name": "RenderPostProcess",
-               "slider.commit_callback": null
+               "@name": "RenderPostProcess"
             },
             "text:PostProcessText": {
                "@name": "PostProcessText",
@@ -385,20 +381,13 @@
                   "string": "\n          Avatar Rendering:\n        "
                }
             },
-            "check_box:AvatarVertexProgram": {
-               "@label": {
-                  "string": "Hardware skinning"
-               },
-               "@name": "AvatarVertexProgram",
-               "check_box.commit_callback": null
-            },
             "check_box:AvatarCloth": {
                "@label": {
                   "string": "Avatar cloth"
                },
                "@name": "AvatarCloth"
             },
-            "#comment$57": " <FS:LO> remove orphaned code left over from EEP\n        <text\n         type=\"string\"\n         length=\"1\"\n         follows=\"left|top\"\n         height=\"12\"\n         layout=\"topleft\"\n         left_delta=\"200\"\n         name=\"TerrainDetailText\"\n         top_pad=\"-50\"\n         width=\"155\">\n          Terrain detail:\n        </text>\n        <radio_group\n         control_name=\"RenderTerrainDetail\"\n         height=\"38\"\n         layout=\"topleft\"\n         left_delta=\"5\"\n         name=\"TerrainDetailRadio\"\n         top_pad=\"5\"\n         width=\"70\">\n          <radio_item\n           height=\"16\"\n           label=\"Low\"\n           layout=\"topleft\"\n           name=\"0\"\n           top=\"3\"\n           width=\"50\" />\n          <radio_item\n           height=\"16\"\n           label=\"High\"\n           layout=\"topleft\"\n           name=\"2\"\n           top_delta=\"16\"\n           width=\"50\" />\n        </radio_group>",
+            "#comment$56": " <FS:LO> remove orphaned code left over from EEP\n        <text\n         type=\"string\"\n         length=\"1\"\n         follows=\"left|top\"\n         height=\"12\"\n         layout=\"topleft\"\n         left_delta=\"200\"\n         name=\"TerrainDetailText\"\n         top_pad=\"-50\"\n         width=\"155\">\n          Terrain detail:\n        </text>\n        <radio_group\n         control_name=\"RenderTerrainDetail\"\n         height=\"38\"\n         layout=\"topleft\"\n         left_delta=\"5\"\n         name=\"TerrainDetailRadio\"\n         top_pad=\"5\"\n         width=\"70\">\n          <radio_item\n           height=\"16\"\n           label=\"Low\"\n           layout=\"topleft\"\n           name=\"0\"\n           top=\"3\"\n           width=\"50\" />\n          <radio_item\n           height=\"16\"\n           label=\"High\"\n           layout=\"topleft\"\n           name=\"2\"\n           top_delta=\"16\"\n           width=\"50\" />\n        </radio_group>",
             "text:Presets_Label": {
                "@name": "Presets_Label",
                "#text": {
@@ -426,7 +415,7 @@
                "@name": "PrefDeleteButton",
                "button.commit_callback": null
             },
-            "#comment$62": "Reset Button",
+            "#comment$61": "Reset Button",
             "button:Defaults": {
                "@tool_tip": {
                   "string": "Reload default graphics settings."
@@ -450,13 +439,13 @@
                   "string": "This checkbox enables anisotropic filtering, which is a method to enhance the quality of textures when they are viewed at relatively large angles in relation to your camera position. Usually makes them look less blurry at greater distances."
                }
             },
-            "check_box:vbo": {
+            "check_box:vsync": {
                "@label": {
-                  "string": "Enable OpenGL Vertex Buffer Objects"
+                  "string": "Enable VSync"
                },
-               "@name": "vbo",
+               "@name": "vsync",
                "@tool_tip": {
-                  "string": "Enabling this on modern hardware gives a performance gain.  However, older hardware often has poor implementations of VBOs and you may get crashes when this is enabled."
+                  "string": "Synchronizes the frame rate to the refresh rate of the monitor, can result in increased stutter and input lag."
                }
             },
             "check_box:vbo_stream": {

@@ -4,19 +4,19 @@
       "floater.string:failed_to_initialize": {
          "@name": "failed_to_initialize",
          "#text": {
-            "string": "\n        Failed to initialize motion\n    "
+            "string": ""
          }
       },
       "floater.string:anim_too_long": {
          "@name": "anim_too_long",
          "#text": {
-            "string": "\n        Animation file is [LENGTH] seconds in length.\nMaximum animation length is [MAX_LENGTH] seconds.\n    "
+            "string": ""
          }
       },
       "floater.string:failed_file_read": {
          "@name": "failed_file_read",
          "#text": {
-            "string": "\n        Unable to read animation file.\n[STATUS]\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_OK": {
@@ -28,187 +28,187 @@
       "floater.string:E_ST_EOF": {
          "@name": "E_ST_EOF",
          "#text": {
-            "string": "\n        Premature end of file.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_CONSTRAINT": {
          "@name": "E_ST_NO_CONSTRAINT",
          "#text": {
-            "string": "\n        Cannot read constraint definition.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_FILE": {
          "@name": "E_ST_NO_FILE",
          "#text": {
-            "string": "\n        Cannot open BVH file.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_HIER": {
          "@name": "E_ST_NO_HIER",
          "#text": {
-            "string": "\n        Invalid HIERARCHY header.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_JOINT": {
          "@name": "E_ST_NO_JOINT",
          "#text": {
-            "string": "\n        Cannot find ROOT or JOINT.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_NAME": {
          "@name": "E_ST_NO_NAME",
          "#text": {
-            "string": "\n        Cannot get JOINT name.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_OFFSET": {
          "@name": "E_ST_NO_OFFSET",
          "#text": {
-            "string": "\n        Cannot find OFFSET.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_CHANNELS": {
          "@name": "E_ST_NO_CHANNELS",
          "#text": {
-            "string": "\n        Cannot find CHANNELS.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_ROTATION": {
          "@name": "E_ST_NO_ROTATION",
          "#text": {
-            "string": "\n        Cannot get rotation order.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_AXIS": {
          "@name": "E_ST_NO_AXIS",
          "#text": {
-            "string": "\n        Cannot get rotation axis.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_MOTION": {
          "@name": "E_ST_NO_MOTION",
          "#text": {
-            "string": "\n        Cannot find MOTION.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_FRAMES": {
          "@name": "E_ST_NO_FRAMES",
          "#text": {
-            "string": "\n        Cannot get number of frames.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_FRAME_TIME": {
          "@name": "E_ST_NO_FRAME_TIME",
          "#text": {
-            "string": "\n        Cannot get frame time.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_POS": {
          "@name": "E_ST_NO_POS",
          "#text": {
-            "string": "\n        Cannot get position values.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_ROT": {
          "@name": "E_ST_NO_ROT",
          "#text": {
-            "string": "\n        Cannot get rotation values.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_FILE": {
          "@name": "E_ST_NO_XLT_FILE",
          "#text": {
-            "string": "\n        Cannot open translation file.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_HEADER": {
          "@name": "E_ST_NO_XLT_HEADER",
          "#text": {
-            "string": "\n        Cannot read translation header.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_NAME": {
          "@name": "E_ST_NO_XLT_NAME",
          "#text": {
-            "string": "\n        Cannot read translation names.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_IGNORE": {
          "@name": "E_ST_NO_XLT_IGNORE",
          "#text": {
-            "string": "\n        Cannot read translation ignore value.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_RELATIVE": {
          "@name": "E_ST_NO_XLT_RELATIVE",
          "#text": {
-            "string": "\n        Cannot read translation relative value.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_OUTNAME": {
          "@name": "E_ST_NO_XLT_OUTNAME",
          "#text": {
-            "string": "\n        Cannot read translation outname value.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_MATRIX": {
          "@name": "E_ST_NO_XLT_MATRIX",
          "#text": {
-            "string": "\n        Cannot read translation matrix.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_MERGECHILD": {
          "@name": "E_ST_NO_XLT_MERGECHILD",
          "#text": {
-            "string": "\n        Cannot get mergechild name.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_MERGEPARENT": {
          "@name": "E_ST_NO_XLT_MERGEPARENT",
          "#text": {
-            "string": "\n        Cannot get mergeparent name.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_PRIORITY": {
          "@name": "E_ST_NO_XLT_PRIORITY",
          "#text": {
-            "string": "\n        Cannot get priority value.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_LOOP": {
          "@name": "E_ST_NO_XLT_LOOP",
          "#text": {
-            "string": "\n        Cannot get loop value.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_EASEIN": {
          "@name": "E_ST_NO_XLT_EASEIN",
          "#text": {
-            "string": "\n        Cannot get easeIn values.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_EASEOUT": {
          "@name": "E_ST_NO_XLT_EASEOUT",
          "#text": {
-            "string": "\n        Cannot get easeOut values.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_HAND": {
          "@name": "E_ST_NO_XLT_HAND",
          "#text": {
-            "string": "\n        Cannot get hand morph value.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_NO_XLT_EMOTE": {
          "@name": "E_ST_NO_XLT_EMOTE",
          "#text": {
-            "string": "\n        Cannot read emote name.\n    "
+            "string": ""
          }
       },
       "floater.string:E_ST_BAD_ROOT": {
          "@name": "E_ST_BAD_ROOT",
          "#text": {
-            "string": "\n        Incorrect root joint name, use \"hip\".\n    "
+            "string": ""
          }
       },
       "floater.string:FS_report_frames": {
@@ -220,7 +220,7 @@
       "text:name_label": {
          "@name": "name_label",
          "#text": {
-            "string": "\n        Name:\n    "
+            "string": ""
          }
       },
       "line_editor:name_form": {
@@ -229,7 +229,7 @@
       "text:description_label": {
          "@name": "description_label",
          "#text": {
-            "string": "\n        Description:\n    "
+            "string": ""
          }
       },
       "line_editor:description_form": {
@@ -241,22 +241,22 @@
          },
          "@name": "priority",
          "@tool_tip": {
-            "string": "Controls which other animations can be overridden by this animation"
+            "string": ""
          }
       },
       "check_box:loop_check": {
          "@label": {
-            "string": "Loop"
+            "string": ""
          },
          "@name": "loop_check",
          "@tool_tip": {
-            "string": "Makes this animation loop"
+            "string": ""
          }
       },
       "text:frames_label": {
          "@name": "frames_label",
          "#text": {
-            "string": "\n       300 frm. 30 s. 10 FPS\n    "
+            "string": ""
          }
       },
       "spinner:loop_in_point": {
@@ -265,7 +265,7 @@
          },
          "@name": "loop_in_point",
          "@tool_tip": {
-            "string": "Sets point in animation that looping returns to"
+            "string": ""
          }
       },
       "spinner:loop_out_point": {
@@ -274,31 +274,31 @@
          },
          "@name": "loop_out_point",
          "@tool_tip": {
-            "string": "Sets point in animation that ends a loop"
+            "string": ""
          }
       },
       "spinner:loop_in_frames": {
          "@label": {
-            "string": "In (frm)"
+            "string": ""
          },
          "@name": "loop_in_frames",
          "@tool_tip": {
-            "string": "Sets point in animation that looping returns to, in frames"
+            "string": ""
          }
       },
       "spinner:loop_out_frames": {
          "@label": {
-            "string": "Out (frm)"
+            "string": ""
          },
          "@name": "loop_out_frames",
          "@tool_tip": {
-            "string": "Sets point in animation that ends a loop, in frames"
+            "string": ""
          }
       },
       "text:hand_label": {
          "@name": "hand_label",
          "#text": {
-            "string": "\n        Hand Pose\n    "
+            "string": ""
          }
       },
       "combo_box:hand_pose_combo": {
@@ -307,7 +307,7 @@
          },
          "@name": "hand_pose_combo",
          "@tool_tip": {
-            "string": "Controls what hands do during animation"
+            "string": ""
          },
          "combo_box.item:Spread": {
             "@label": {
@@ -323,7 +323,7 @@
          },
          "combo_box.item:PointBoth": {
             "@label": {
-               "string": "Point Both"
+               "string": ""
             },
             "@name": "PointBoth"
          },
@@ -335,7 +335,7 @@
          },
          "combo_box.item:RelaxedLeft": {
             "@label": {
-               "string": "Relaxed Left"
+               "string": ""
             },
             "@name": "RelaxedLeft"
          },
@@ -347,13 +347,13 @@
          },
          "combo_box.item:FistLeft": {
             "@label": {
-               "string": "Fist Left"
+               "string": ""
             },
             "@name": "FistLeft"
          },
          "combo_box.item:RelaxedRight": {
             "@label": {
-               "string": "Relaxed Right"
+               "string": ""
             },
             "@name": "RelaxedRight"
          },
@@ -365,13 +365,13 @@
          },
          "combo_box.item:FistRight": {
             "@label": {
-               "string": "Fist Right"
+               "string": ""
             },
             "@name": "FistRight"
          },
          "combo_box.item:SaluteRight": {
             "@label": {
-               "string": "Salute Right"
+               "string": ""
             },
             "@name": "SaluteRight"
          },
@@ -383,7 +383,7 @@
          },
          "combo_box.item:PeaceRight": {
             "@label": {
-               "string": "Peace Right"
+               "string": ""
             },
             "@name": "PeaceRight"
          }
@@ -391,7 +391,7 @@
       "text:emote_label": {
          "@name": "emote_label",
          "#text": {
-            "string": "\n        Expression\n    "
+            "string": ""
          }
       },
       "combo_box:emote_combo": {
@@ -400,7 +400,7 @@
          },
          "@name": "emote_combo",
          "@tool_tip": {
-            "string": "Controls what face does during animation"
+            "string": ""
          },
          "item:[None]": {
             "@label": {
@@ -446,7 +446,7 @@
          },
          "item:Disdain": {
             "@label": {
-               "string": "Disdain"
+               "string": ""
             },
             "@name": "Disdain"
          },
@@ -458,13 +458,13 @@
          },
          "item:Frown": {
             "@label": {
-               "string": "Frown"
+               "string": ""
             },
             "@name": "Frown"
          },
          "item:Kiss": {
             "@label": {
-               "string": "Kiss"
+               "string": ""
             },
             "@name": "Kiss"
          },
@@ -476,7 +476,7 @@
          },
          "item:Plllppt": {
             "@label": {
-               "string": "Plllppt"
+               "string": ""
             },
             "@name": "Plllppt"
          },
@@ -526,7 +526,7 @@
       "text:preview_label": {
          "@name": "preview_label",
          "#text": {
-            "string": "\n        Preview while\n    "
+            "string": ""
          }
       },
       "combo_box:preview_base_anim": {
@@ -535,7 +535,7 @@
          },
          "@name": "preview_base_anim",
          "@tool_tip": {
-            "string": "Use this to test your animation behavior while your avatar performs common actions."
+            "string": ""
          },
          "item:Standing": {
             "@label": {
@@ -564,20 +564,20 @@
       },
       "spinner:ease_in_time": {
          "@label": {
-            "string": "Ease In (sec)"
+            "string": ""
          },
          "@name": "ease_in_time",
          "@tool_tip": {
-            "string": "Amount of time (in seconds) over which animations blends in"
+            "string": ""
          }
       },
       "spinner:ease_out_time": {
          "@label": {
-            "string": "Ease Out (sec)"
+            "string": ""
          },
          "@name": "ease_out_time",
          "@tool_tip": {
-            "string": "Amount of time (in seconds) over which animations blends out"
+            "string": ""
          }
       },
       "button:play_btn": {
@@ -595,7 +595,7 @@
       "button:stop_btn": {
          "@name": "stop_btn",
          "@tool_tip": {
-            "string": "Stop animation playback"
+            "string": ""
          }
       },
       "slider:playback_slider": {
@@ -604,7 +604,7 @@
       "text:bad_animation_text": {
          "@name": "bad_animation_text",
          "#text": {
-            "string": "\n        Unable to read animation file.\nWe recommend BVH files exported from Poser 4.\n    "
+            "string": ""
          }
       },
       "button:reload_btn": {

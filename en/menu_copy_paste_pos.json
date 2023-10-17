@@ -1,0 +1,36 @@
+{
+   "toggleable_menu": {
+      "@name": "Copy Paste Position Menu",
+      "menu_item_call:psr_copy": {
+         "@label": {
+            "string": "Copy all"
+         },
+         "@name": "psr_copy",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:pos_copy": {
+         "@label": {
+            "string": "Copy position"
+         },
+         "@name": "pos_copy",
+         "on_click": null
+      },
+      "menu_item_call:psr_paste": {
+         "@label": {
+            "string": "Paste all"
+         },
+         "@name": "psr_paste",
+         "on_click": null,
+         "on_enable": null
+      },
+      "menu_item_call:pos_paste": {
+         "@label": {
+            "string": "Paste position"
+         },
+         "@name": "pos_paste",
+         "on_click": null,
+         "on_enable": null
+      }
+   }
+}

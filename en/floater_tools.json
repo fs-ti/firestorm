@@ -538,13 +538,14 @@
             "string": "\n    Nothing selected.\n  "
          }
       },
+      "#comment": "\n  <text\n    type=\"string\"\n    length=\"1\"\n    height=\"16\"\n    follows=\"left|top\"\n    font=\"SansSerifSmall\"\n    layout=\"topleft\"\n    left=\"10\"\n    name=\"selection_faces\"\n    top_delta=\"0\"\n    visible=\"false\"\n    width=\"280\">\n    Faces selected: [FACES_STRING]\n  </text>\n  ",
       "text:selection_count": {
          "@name": "selection_count"
       },
-      "text:remaining_capacity": {
-         "@name": "remaining_capacity",
+      "text:more info label": {
+         "@name": "more info label",
          "#text": {
-            "string": "\n    [CAPACITY_STRING] [secondlife:///app/openfloater/object_weights More info]\n  "
+            "string": "\n   [CAPACITY_STRING] [secondlife:///app/openfloater/object_weights More info]\n  "
          }
       },
       "view_border:cost_text_border": {
@@ -678,7 +679,10 @@
                }
             },
             "#comment": " *NOTE: Intentionally wide for long names ",
-            "text": null,
+            "text:Creator Name": {
+               "@name": "Creator Name",
+               "@translate": "false"
+            },
             "text:Owner:": {
                "@name": "Owner:",
                "#text": {
@@ -686,20 +690,32 @@
                }
             },
             "#comment$25": " *NOTE: Intentionally wide for long names ",
+            "text:Owner Name": {
+               "@name": "Owner Name",
+               "@translate": "false"
+            },
             "text:Last Owner:": {
                "@name": "Last Owner:",
                "#text": {
                   "string": "\n                Last Owner:\n            "
                }
             },
-            "#comment$27": " *NOTE: Intentionally wide for long names ",
+            "#comment$28": " *NOTE: Intentionally wide for long names ",
+            "text:Last Owner Name": {
+               "@name": "Last Owner Name",
+               "@translate": "false"
+            },
             "text:Group:": {
                "@name": "Group:",
                "#text": {
                   "string": "\n                Group:\n            "
                }
             },
-            "#comment$29": "<name_box\n             follows=\"left|top\"\n             height=\"18\"\n             initial_value=\"Loading...\"\n             layout=\"topleft\"\n             left_pad=\"23\"\n             name=\"Group Name Proxy\"\n             width=\"142\" />",
+            "#comment$31": "<name_box\n             follows=\"left|top\"\n             height=\"18\"\n             initial_value=\"Loading...\"\n             layout=\"topleft\"\n             left_pad=\"23\"\n             name=\"Group Name Proxy\"\n             width=\"142\" />",
+            "text:Group Name": {
+               "@name": "Group Name",
+               "@translate": "false"
+            },
             "button:button set group": {
                "@name": "button set group",
                "@tool_tip": {
@@ -790,7 +806,7 @@
                   "string": "Lets people buy this object, its content or it copy inworld for specified price."
                }
             },
-            "#comment$37": " NEW SALE TYPE COMBO BOX ",
+            "#comment$40": " NEW SALE TYPE COMBO BOX ",
             "combo_box:sale type": {
                "@name": "sale type",
                "@tool_tip": {
@@ -815,7 +831,7 @@
                   }
                }
             },
-            "#comment$39": " NEW PRICE SPINNER\nObjects are allowed to be for sale for L$0 to invoke buy UI behavior\neven though the user gets a free copy.\n",
+            "#comment$42": " NEW PRICE SPINNER\nObjects are allowed to be for sale for L$0 to invoke buy UI behavior\neven though the user gets a free copy.\n",
             "spinner:Edit Cost": {
                "@name": "Edit Cost",
                "@label": {
@@ -984,22 +1000,22 @@
                "string": "Object"
             },
             "@name": "Object",
-            "panel.string:Paste Position": {
-               "@name": "Paste Position",
+            "panel.string:paste_position": {
+               "@name": "paste_position",
                "#text": {
-                  "string": "\n                Paste Position\n[VALUE]\n            "
+                  "string": "\nPaste Position\n[VALUE]\n            "
                }
             },
-            "panel.string:Paste Size": {
-               "@name": "Paste Size",
+            "panel.string:paste_size": {
+               "@name": "paste_size",
                "#text": {
-                  "string": "\n                Paste Size\n[VALUE]\n            "
+                  "string": "\nPaste Size\n[VALUE]\n            "
                }
             },
-            "panel.string:Paste Rotation": {
-               "@name": "Paste Rotation",
+            "panel.string:paste_rotation": {
+               "@name": "paste_rotation",
                "#text": {
-                  "string": "\n                Paste Rotation\n[VALUE]\n            "
+                  "string": "\nPaste Rotation\n[VALUE]\n            "
                }
             },
             "check_box:checkbox locked": {
@@ -1062,31 +1078,31 @@
                },
                "@name": "Pos Z"
             },
-            "button:copypos": {
+            "button:copy_pos_btn": {
                "@label": {
                   "string": "C"
                },
-               "@name": "copypos",
+               "@name": "copy_pos_btn",
                "@tool_tip": {
                   "string": "Copy Position"
                }
             },
-            "button:pastepos": {
+            "button:paste_pos_btn": {
                "@label": {
                   "string": "P"
                },
-               "@name": "pastepos",
+               "@name": "paste_pos_btn",
                "@tool_tip": {
                   "string": "Paste Position"
                }
             },
-            "button:pasteposclip": {
+            "button:paste_pos_clip_btn": {
                "@label": {
                   "string": "p"
                },
-               "@name": "pasteposclip",
+               "@name": "paste_pos_clip_btn",
                "@tool_tip": {
-                  "string": "Paste Position from Clipboard"
+                  "string": "Try pasting Position from Clipboard"
                }
             },
             "text:label size": {
@@ -1113,31 +1129,31 @@
                },
                "@name": "Scale Z"
             },
-            "button:copysize": {
+            "button:copy_size_btn": {
                "@label": {
                   "string": "C"
                },
-               "@name": "copysize",
+               "@name": "copy_size_btn",
                "@tool_tip": {
                   "string": "Copy Size"
                }
             },
-            "button:pastesize": {
+            "button:paste_size_btn": {
                "@label": {
                   "string": "P"
                },
-               "@name": "pastesize",
+               "@name": "paste_size_btn",
                "@tool_tip": {
                   "string": "Paste Size"
                }
             },
-            "button:pastesizeclip": {
+            "button:paste_size_clip_btn": {
                "@label": {
                   "string": "p"
                },
-               "@name": "pastesizeclip",
+               "@name": "paste_size_clip_btn",
                "@tool_tip": {
-                  "string": "Paste Size from Clipboard"
+                  "string": "Try pasting Size from Clipboard"
                }
             },
             "text:label rotation": {
@@ -1164,56 +1180,44 @@
                },
                "@name": "Rot Z"
             },
-            "button:copyrot": {
+            "button:copy_rot_btn": {
                "@label": {
                   "string": "C"
                },
-               "@name": "copyrot",
+               "@name": "copy_rot_btn",
                "@tool_tip": {
                   "string": "Copy Rotation"
                }
             },
-            "button:pasterot": {
+            "button:paste_rot_btn": {
                "@label": {
                   "string": "P"
                },
-               "@name": "pasterot",
+               "@name": "paste_rot_btn",
                "@tool_tip": {
                   "string": "Paste Rotation"
                }
             },
-            "button:pasterotclip": {
+            "button:paste_rot_clip_btn": {
                "@label": {
                   "string": "p"
                },
-               "@name": "pasterotclip",
+               "@name": "paste_rot_clip_btn",
                "@tool_tip": {
-                  "string": "Paste Rotation from Clipboard"
+                  "string": "Try pasting Rotation from Clipboard"
                }
             },
             "#comment": "           <text\n             type=\"string\"\n             length=\"1\"\n             follows=\"left|top\"\n             height=\"10\"\n             layout=\"topleft\"\n             left=\"125\"\n             name=\"label basetype\"\n             top=\"5\"\n             width=\"150\">\n                Prim Type\n            </text>",
-            "text:edit_object": {
-               "@name": "edit_object",
-               "#text": {
-                  "string": "\n        Object Parameters:\n      "
+            "button:copy_params_btn": {
+               "@name": "copy_params_btn",
+               "@tool_tip": {
+                  "string": "Copy Object Parameters to Clipboard"
                }
             },
-            "button:copyparams": {
-               "@label": {
-                  "string": "Copy"
-               },
-               "@name": "copyparams",
+            "button:paste_params_btn": {
+               "@name": "paste_params_btn",
                "@tool_tip": {
-                  "string": "Copy Parameters to Clipboard"
-               }
-            },
-            "button:pasteparams": {
-               "@label": {
-                  "string": "Paste"
-               },
-               "@name": "pasteparams",
-               "@tool_tip": {
-                  "string": "Paste Parameters from Clipboard"
+                  "string": "Paste Object Parameters from Clipboard"
                }
             },
             "combo_box:comboBaseType": {
@@ -1656,7 +1660,7 @@
                   "@name": "Cylinder"
                }
             },
-            "#comment$71": " FS:Beq adding Mesh Info support to Object panel",
+            "#comment$70": " FS:Beq adding Mesh Info support to Object panel",
             "text:mesh_info_label": {
                "@name": "mesh_info_label",
                "#text": {
@@ -1681,7 +1685,7 @@
                   "string": "\nHigh:\nMedium:\nLow:\nLowest:\n        "
                }
             },
-            "string:mesh_lod_num_tris_values": {
+            "str_ing:mesh_lod_num_tris_values": {
                "@name": "mesh_lod_num_tris_values",
                "#text": {
                   "string": "\n[HIGHTRIS]\n[MIDTRIS]\n[LOWTRIS]\n[LOWESTTRIS]\n        "
@@ -1774,7 +1778,7 @@
                   "string": "LOD Swap"
                }
             },
-            "string:ll_lod_tooltip_msg": {
+            "str_ing:ll_lod_tooltip_msg": {
                "@name": "ll_lod_tooltip_msg",
                "#text": {
                   "string": "Linden Lab Second Life Viewer default ([FACTOR])"
@@ -1786,10 +1790,10 @@
                   "string": "LL"
                }
             },
-            "string:fs_lod_tooltip_msg": {
+            "str_ing:fs_lod_tooltip_msg": {
                "@name": "fs_lod_tooltip_msg",
                "#text": {
-                  "string": "[APPNAME] Viewer default ([FACTOR])"
+                  "string": "[APP_NAME] Viewer default ([FACTOR])"
                }
             },
             "text:LOD_swap_fs_default": {
@@ -1798,7 +1802,7 @@
                   "string": "\n            [APP_NAME_ABBR]\n        "
                }
             },
-            "string:user_lod_label_string": {
+            "str_ing:user_lod_label_string": {
                "@name": "user_lod_label_string",
                "#text": {
                   "string": "[FACTOR]"
@@ -1819,7 +1823,7 @@
                   "string": "\nHigh ↔ Med\nMed ↔ Low\nLow ↔ Lwst         \n        "
                }
             },
-            "string:LODSwapFormatString": {
+            "str_ing:LODSwapFormatString": {
                "@name": "LODSwapFormatString",
                "#text": {
                   "string": "\n[HIGH2MED]\n[MED2LOW]\n[LOW2LOWEST]\n        "
@@ -1849,7 +1853,7 @@
                   "string": "\n          This table shows the LOD change boundaries in metres from the camera.\n        "
                }
             },
-            "#comment$98": " /FS:Beq end of Mesh info section"
+            "#comment$97": " /FS:Beq end of Mesh info section"
          },
          "panel:Features": {
             "@label": {
@@ -1902,6 +1906,18 @@
                "@name": "Flexible1D Checkbox Ctrl",
                "@tool_tip": {
                   "string": "Allows object to flex about the Z axis (Client-side only)"
+               }
+            },
+            "button:copy_features_btn": {
+               "@name": "copy_features_btn",
+               "@tool_tip": {
+                  "string": "Copy Feature Parameters to Clipboard"
+               }
+            },
+            "button:paste_features_btn": {
+               "@name": "paste_features_btn",
+               "@tool_tip": {
+                  "string": "Paste Feature Parameters from Clipboard"
                }
             },
             "spinner:FlexNumSections": {
@@ -2212,7 +2228,7 @@
             "@name": "button abandon land"
          }
       },
-      "#comment": " end of tabs ",
+      "#comment$75": " end of tabs ",
       "button:btnExpand": {
          "@name": "btnExpand",
          "button.commit_callback": null

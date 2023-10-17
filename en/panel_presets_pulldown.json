@@ -23,10 +23,20 @@
       "button:open_prefs_btn": {
          "@name": "open_prefs_btn",
          "@label": {
-            "string": "Open Graphics Preferences"
+            "string": "Graphics Preferences"
          },
          "@tool_tip": {
-            "string": "Bring up graphics prefs"
+            "string": "Open graphics preferences"
+         },
+         "button.commit_callback": null
+      },
+      "button:open_autofps_btn": {
+         "@name": "open_autofps_btn",
+         "@label": {
+            "string": "Performance"
+         },
+         "@tool_tip": {
+            "string": "Open performance window"
          },
          "button.commit_callback": null
       }

@@ -1,13 +1,13 @@
 {
    "floater": {
       "@name": "Give Money",
-      "string:payee_group": {
+      "str_ing:payee_group": {
          "@name": "payee_group",
          "#text": {
             "string": "\n        Pay Group\n    "
          }
       },
-      "string:payee_resident": {
+      "str_ing:payee_resident": {
          "@name": "payee_resident",
          "#text": {
             "string": "\n        Pay Resident\n    "

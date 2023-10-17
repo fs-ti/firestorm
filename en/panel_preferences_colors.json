@@ -790,6 +790,68 @@
                "color_swatch.init_callback": null,
                "color_swatch.commit_callback": null
             },
+            "text:notecard_editor_color_label": {
+               "@name": "notecard_editor_color_label",
+               "#text": {
+                  "string": "\n       Notecard Colors:\n     "
+               }
+            },
+            "text:notecard_editor_writable_text_color_label": {
+               "@name": "notecard_editor_writable_text_color_label",
+               "#text": {
+                  "string": "\n       Text:\n     "
+               }
+            },
+            "color_swatch:notecard_editor_writable_text_color": {
+               "@name": "notecard_editor_writable_text_color",
+               "@tool_tip": {
+                  "string": "Notecard Text Color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:notecard_editor_writable_bg_color_label": {
+               "@name": "notecard_editor_writable_bg_color_label",
+               "#text": {
+                  "string": "\n       Background:\n     "
+               }
+            },
+            "color_swatch:notecard_editor_writable_bg_color": {
+               "@name": "notecard_editor_writable_bg_color",
+               "@tool_tip": {
+                  "string": "Notecard Background Color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:notecard_editor_writable_cursor_color_label": {
+               "@name": "notecard_editor_writable_cursor_color_label",
+               "#text": {
+                  "string": "\n       Cursor:\n     "
+               }
+            },
+            "color_swatch:notecard_editor_writable_cursor_color": {
+               "@name": "notecard_editor_writable_cursor_color",
+               "@tool_tip": {
+                  "string": "Notecard Cursor Color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
+            "text:notecard_editor_writable_selection_color_label": {
+               "@name": "notecard_editor_writable_selection_color_label",
+               "#text": {
+                  "string": "\n       Selection:\n     "
+               }
+            },
+            "color_swatch:notecard_editor_writable_selection_color": {
+               "@name": "notecard_editor_writable_selection_color",
+               "@tool_tip": {
+                  "string": "Notecard Selected Text Color"
+               },
+               "color_swatch.init_callback": null,
+               "color_swatch.commit_callback": null
+            },
             "check_box:FSScriptDialogNoTransparency": {
                "@name": "FSScriptDialogNoTransparency",
                "@label": {
@@ -849,7 +911,7 @@
                   }
                }
             },
-            "#comment$23": " ## Zi: Pie menu "
+            "#comment$32": " ## Zi: Pie menu "
          }
       }
    }

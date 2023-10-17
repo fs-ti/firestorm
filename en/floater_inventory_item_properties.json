@@ -67,7 +67,10 @@
             "string": "\n        Creator:\n    "
          }
       },
-      "text": null,
+      "text:LabelCreatorName": {
+         "@name": "LabelCreatorName",
+         "@translate": "false"
+      },
       "button:BtnCreator": {
          "@label": {
             "string": "Profile..."
@@ -79,6 +82,10 @@
          "#text": {
             "string": "\n        Owner:\n    "
          }
+      },
+      "text:LabelOwnerName": {
+         "@name": "LabelOwnerName",
+         "@translate": "false"
       },
       "button:BtnOwner": {
          "@label": {
@@ -93,10 +100,7 @@
          }
       },
       "text:LabelAcquiredDate": {
-         "@name": "LabelAcquiredDate",
-         "#text": {
-            "string": "\n        Wed May 24 12:50:46 2006\n    "
-         }
+         "@name": "LabelAcquiredDate"
       },
       "text:LabelItemExperienceTitle": {
          "@name": "LabelItemExperienceTitle",

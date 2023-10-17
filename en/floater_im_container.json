@@ -4,13 +4,13 @@
       "@title": {
          "string": "CONVERSATIONS"
       },
-      "string:collapse_icon": {
+      "str_ing:collapse_icon": {
          "@name": "collapse_icon",
          "@value": {
             "string": "Conv_toolbar_collapse"
          }
       },
-      "string:expand_icon": {
+      "str_ing:expand_icon": {
          "@name": "expand_icon",
          "@value": {
             "string": "Conv_toolbar_expand"

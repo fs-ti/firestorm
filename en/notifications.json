@@ -199,7 +199,20 @@
          "@name": "LoginFailedNoNetwork",
          "tag": "fail",
          "#text": {
-            "string": "\n    Could not connect to the [SECOND_LIFE_GRID].\n    '[DIAGNOSTIC]'\nMake sure your Internet connection is working properly.\n  "
+            "string": "\n    Could not connect to the [CURRENT_GRID].\n    '[DIAGNOSTIC]'\nMake sure your Internet connection is working properly.\n  "
+         },
+         "usetemplate:okbutton": {
+            "@name": "okbutton",
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
+      "notification:LoginFailedToParse": {
+         "@name": "LoginFailedToParse",
+         "tag": "fail",
+         "#text": {
+            "string": "\nViewer received malformed response from server. Please, make sure your Internet connection is working properly and try again later.\n\nIf you feel this is in error, please contact Support.\n    "
          },
          "usetemplate:okbutton": {
             "@name": "okbutton",
@@ -1661,8 +1674,24 @@
             }
          }
       },
-      "notification:DeleteAvatarPick": {
-         "@name": "DeleteAvatarPick",
+      "notification:ProfileDeleteClassified": {
+         "@name": "ProfileDeleteClassified",
+         "#text": {
+            "string": "\nDelete classified <nolink>[CLASSIFIED]</nolink>?\n    "
+         },
+         "tag": "confirm",
+         "usetemplate:okcancelbuttons": {
+            "@name": "okcancelbuttons",
+            "@notext": {
+               "string": "Cancel"
+            },
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
+      "notification:ProfileDeletePick": {
+         "@name": "ProfileDeletePick",
          "#text": {
             "string": "\nDelete pick <nolink>[PICK]</nolink>?\n    "
          },
@@ -1674,6 +1703,42 @@
             },
             "@yestext": {
                "string": "OK"
+            }
+         }
+      },
+      "notification:ProfileUnpublishedClassified": {
+         "@name": "ProfileUnpublishedClassified",
+         "#text": {
+            "string": "\n    You have unpublished classifieds. They will be lost if you close the window.\n    "
+         },
+         "tag": "confirm",
+         "usetemplate:okcancelbuttons": {
+            "@name": "okcancelbuttons",
+            "@notext": {
+               "string": "Cancel"
+            },
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
+      "notification:ProfileUnsavedChanges": {
+         "@name": "ProfileUnsavedChanges",
+         "#text": {
+            "string": "\n    You have unsaved changes.\n    "
+         },
+         "tag": "confirm",
+         "tag$3": "save",
+         "usetemplate:yesnocancelbuttons": {
+            "@canceltext": {
+               "string": "Cancel"
+            },
+            "@name": "yesnocancelbuttons",
+            "@notext": {
+               "string": "Discard"
+            },
+            "@yestext": {
+               "string": "Save"
             }
          }
       },
@@ -2060,7 +2125,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "My graphics card could not be identified"
+               }
             }
          },
          "tag": "fail"
@@ -2071,6 +2139,54 @@
             "string": "\n[APP_NAME] crashed while initializing graphics drivers.\nGraphics Quality will be set to Low to avoid some common driver errors. This will disable some graphics features.\nWe recommend updating your graphics card drivers.\nGraphics Quality can be raised in Preferences > Graphics.\n  "
          },
          "tag": "fail"
+      },
+      "notification:AutoFPSConfirmDisable": {
+         "@name": "AutoFPSConfirmDisable",
+         "#text": {
+            "string": "\nChanging this setting will disable automatic adjustment and turn off 'Automatic settings'.\nAre you sure you want to continue?\n    "
+         },
+         "tag": "confirm",
+         "usetemplate:okcancelbuttons": {
+            "@name": "okcancelbuttons",
+            "@notext": {
+               "string": "Cancel"
+            },
+            "@yestext": {
+               "string": "Continue"
+            }
+         }
+      },
+      "notification:AdvancedLightingConfirm": {
+         "@name": "AdvancedLightingConfirm",
+         "#text": {
+            "string": "\nTo turn on advanced lighting, we need to increase quality to level 4.\n    "
+         },
+         "tag": "confirm",
+         "usetemplate:okcancelbuttons": {
+            "@name": "okcancelbuttons",
+            "@notext": {
+               "string": "Cancel"
+            },
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
+      "notification:ShadowsConfirm": {
+         "@name": "ShadowsConfirm",
+         "#text": {
+            "string": "\nTo enable shadows, we need to increase quality to level 4.\n    "
+         },
+         "tag": "confirm",
+         "usetemplate:okcancelbuttons": {
+            "@name": "okcancelbuttons",
+            "@notext": {
+               "string": "Cancel"
+            },
+            "@yestext": {
+               "string": "OK"
+            }
+         }
       },
       "notification:RegionNoTerraforming": {
          "@name": "RegionNoTerraforming",
@@ -2588,10 +2704,16 @@
                "@name": "message"
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -2671,7 +2793,7 @@
          },
          "tag": "fail"
       },
-      "#comment$227": " Generic Teleport failure modes - strings will be inserted from\n       teleport_strings.xml if available. ",
+      "#comment$234": " Generic Teleport failure modes - strings will be inserted from\n       teleport_strings.xml if available. ",
       "notification:CouldNotTeleportReason": {
          "@name": "CouldNotTeleportReason",
          "unique": null,
@@ -2680,7 +2802,7 @@
          },
          "tag": "fail"
       },
-      "#comment$229": " Teleport failure modes not delivered via the generic mechanism\n       above (for example, delivered as an AlertMessage on\n       region-crossing :( ) - these paths should really be merged\n       in the future. ",
+      "#comment$236": " Teleport failure modes not delivered via the generic mechanism\n       above (for example, delivered as an AlertMessage on\n       region-crossing :( ) - these paths should really be merged\n       in the future. ",
       "notification:invalid_tport": {
          "@name": "invalid_tport",
          "#text": {
@@ -2888,13 +3010,22 @@
          "form:form": {
             "@name": "form",
             "button:Play Media Now": {
-               "@name": "Play Media Now"
+               "@name": "Play Media Now",
+               "@text": {
+                  "string": "Play Media Now"
+               }
             },
             "button:Always Play Media": {
-               "@name": "Always Play Media"
+               "@name": "Always Play Media",
+               "@text": {
+                  "string": "Always Play Media"
+               }
             },
             "button:Do Not Pley Media": {
-               "@name": "Do Not Pley Media"
+               "@name": "Do Not Pley Media",
+               "@text": {
+                  "string": "Do Not Play Media"
+               }
             }
          }
       },
@@ -3133,6 +3264,13 @@
             }
          }
       },
+      "notification:InventoryUnusable": {
+         "@name": "InventoryUnusable",
+         "#text": {
+            "string": "\nThere was a problem loading your inventory. First, try logging out and logging in again. If you see this message again, contact Support to correct the problem.\n    "
+         },
+         "tag": "fail"
+      },
       "notification:OnlyOfficerCanBuyLand": {
          "@name": "OnlyOfficerCanBuyLand",
          "#text": {
@@ -3160,10 +3298,16 @@
                }
             },
             "button:Offer": {
-               "@name": "Offer"
+               "@name": "Offer",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -3183,10 +3327,16 @@
                "@name": "listname"
             },
             "button:SetName": {
-               "@name": "SetName"
+               "@name": "SetName",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -3205,10 +3355,16 @@
                "@name": "listname"
             },
             "button:ReplaceList": {
-               "@name": "ReplaceList"
+               "@name": "ReplaceList",
+               "@text": {
+                  "string": "Replace Current List"
+               }
             },
             "button:SetName": {
-               "@name": "SetName"
+               "@name": "SetName",
+               "@text": {
+                  "string": "Use New Name"
+               }
             }
          }
       },
@@ -3266,10 +3422,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -3291,10 +3453,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -3316,10 +3484,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -3341,10 +3515,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -3366,10 +3546,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -3750,7 +3936,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Clothing is taking a long time to download"
+               }
             }
          }
       },
@@ -3842,24 +4031,33 @@
          "@name": "LoginPacketNeverReceived",
          "tag": "fail",
          "#text": {
-            "string": "\nWe're having trouble connecting. There may be a problem with your Internet connection or the [SECOND_LIFE_GRID].\n\nYou can either check your Internet connection and try again in a few minutes, click Help to view the [SUPPORT_SITE], or click Teleport to attempt to teleport home.\n    "
+            "string": "\nWe're having trouble connecting. There may be a problem with your Internet connection or the [CURRENT_GRID].\n\nYou can either check your Internet connection and try again in a few minutes, click Help to view the [SUPPORT_SITE], or click Teleport to attempt to teleport home.\n    "
          },
          "url:url": {
             "@name": "url",
             "#text": {
-               "string": "\n\n      http://secondlife.com/support/\n    "
+               "string": "\n\n      https://www.firestormviewer.org/support/\n    "
             }
          },
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Help": {
-               "@name": "Help"
+               "@name": "Help",
+               "@text": {
+                  "string": "Help"
+               }
             },
             "button:Teleport": {
-               "@name": "Teleport"
+               "@name": "Teleport",
+               "@text": {
+                  "string": "Teleport"
+               }
             }
          }
       },
@@ -3867,21 +4065,27 @@
          "@name": "LoginPacketNeverReceivedNoTP",
          "tag": "fail",
          "#text": {
-            "string": "\nWe're having trouble connecting. There may be a problem with your Internet connection or the [SECOND_LIFE_GRID].\n\nYou can either check your Internet connection and try again in a few minutes or click Help to view the [SUPPORT_SITE].\n    "
+            "string": "\nWe're having trouble connecting. There may be a problem with your Internet connection or the [CURRENT_GRID].\n\nYou can either check your Internet connection and try again in a few minutes or click Help to view the [SUPPORT_SITE].\n    "
          },
          "url:url": {
             "@name": "url",
             "#text": {
-               "string": "\n      http://secondlife.com/support/\n    "
+               "string": "\n      https://www.firestormviewer.org/support/\n    "
             }
          },
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Help": {
-               "@name": "Help"
+               "@name": "Help",
+               "@text": {
+                  "string": "Help"
+               }
             }
          }
       },
@@ -4083,14 +4287,14 @@
       "notification:InvalidTerrainBitDepth": {
          "@name": "InvalidTerrainBitDepth",
          "#text": {
-            "string": "\nCould not set region textures:\nTerrain texture [TEXTURE_NUM] has an invalid bit depth of [TEXTURE_BIT_DEPTH].\n\nReplace texture [TEXTURE_NUM] with a 24-bit 1024x1024 or smaller image then click \"Apply\" again.\n  "
+            "string": "\nCould not set region textures:\nTerrain texture [TEXTURE_NUM] has an invalid bit depth of [TEXTURE_BIT_DEPTH].\n\nReplace texture [TEXTURE_NUM] with a 24-bit [MAX_SIZE]x[MAX_SIZE] or smaller image then click \"Apply\" again.\n  "
          },
          "tag": "fail"
       },
       "notification:InvalidTerrainSize": {
          "@name": "InvalidTerrainSize",
          "#text": {
-            "string": "\nCould not set region textures:\nTerrain texture [TEXTURE_NUM] is too large at [TEXTURE_SIZE_X]x[TEXTURE_SIZE_Y].\n\nReplace texture [TEXTURE_NUM] with a 24-bit 1024x1024 or smaller image then click \"Apply\" again.\n  "
+            "string": "\nCould not set region textures:\nTerrain texture [TEXTURE_NUM] is too large at [TEXTURE_SIZE_X]x[TEXTURE_SIZE_Y].\n\nReplace texture [TEXTURE_NUM] with a 24-bit [MAX_SIZE]x[MAX_SIZE] or smaller image then click \"Apply\" again.\n  "
          }
       },
       "notification:RawUploadStarted": {
@@ -4258,7 +4462,7 @@
             "string": "\nFinished download of raw terrain file to:\n[DOWNLOAD_PATH].\n  "
          }
       },
-      "#comment$374": " RequiredUpdate does not display release notes URL because we don't get\n       that from login.cgi's login failure message. ",
+      "#comment$382": " RequiredUpdate does not display release notes URL because we don't get\n       that from login.cgi's login failure message. ",
       "notification:RequiredUpdate": {
          "@name": "RequiredUpdate",
          "#text": {
@@ -4851,10 +5055,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -4874,10 +5084,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -4897,10 +5113,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -4920,10 +5142,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -4936,7 +5164,7 @@
       "notification:SetDisplayNameBlocked": {
          "@name": "SetDisplayNameBlocked",
          "#text": {
-            "string": "\nSorry, you cannot change your display name. If you feel this is in error, please contact Linden Lab support.\n  "
+            "string": "\nSorry, you cannot change your display name. If you feel this is in error, please contact the grid support.\n  "
          },
          "tag": "fail"
       },
@@ -4961,7 +5189,7 @@
          },
          "tag": "fail"
       },
-      "#comment$421": " *NOTE: This should never happen ",
+      "#comment$429": " *NOTE: This should never happen ",
       "notification:AgentDisplayNameUpdateThresholdExceeded": {
          "@name": "AgentDisplayNameUpdateThresholdExceeded",
          "#text": {
@@ -5004,10 +5232,16 @@
          "form:form": {
             "@name": "form",
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "Yes"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "No"
+               }
             }
          }
       },
@@ -5026,10 +5260,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -5045,10 +5285,16 @@
                "@name": "message"
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -5081,10 +5327,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -5198,10 +5450,16 @@
                "@name": "message"
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -5787,13 +6045,22 @@
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "Change preferences"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Region crossing: The region you're trying to visit contains content excluded by your preferences."
+               }
             }
          }
       },
@@ -5885,13 +6152,22 @@
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "Change and continue"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Teleport (restartable): The region you're trying to visit contains content excluded by your preferences."
+               }
             }
          }
       },
@@ -5908,13 +6184,22 @@
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "Change preferences"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Teleport (non-restartable): The region you're trying to visit contains content excluded by your preferences."
+               }
             }
          }
       },
@@ -6033,13 +6318,22 @@
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "Change preferences"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "The land you're trying to claim contains content excluded by your preferences."
+               }
             }
          }
       },
@@ -6106,13 +6400,22 @@
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "Change preferences"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "The land you're trying to buy contains content excluded by your preferences."
+               }
             }
          }
       },
@@ -6305,10 +6608,16 @@
                "@name": "message"
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -6500,10 +6809,16 @@
                "@name": "message"
             },
             "button:ConfirmPurchase": {
-               "@name": "ConfirmPurchase"
+               "@name": "ConfirmPurchase",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -6565,7 +6880,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "I set the action 'Pay object' when building an object without a money() script"
+               }
             }
          }
       },
@@ -6719,13 +7037,22 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Confirm before deleting items"
+               }
             },
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -6839,13 +7166,22 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Replace an existing attachment with the selected item"
+               }
             },
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -6868,13 +7204,22 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "I am about to pay a person or object while I am in Unavailable mode"
+               }
             },
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -6890,13 +7235,22 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Always choose this option for this land."
+               }
             },
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "Play"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "Don't play"
+               }
             }
          }
       },
@@ -6966,6 +7320,13 @@
                "string": "Check trash folder"
             }
          }
+      },
+      "notification:InventoryLimitReachedAIS": {
+         "@name": "InventoryLimitReachedAIS",
+         "#text": {
+            "string": "\nYour inventory is experiencing issues. Please contact support of your grid.\n  "
+         },
+         "tag": "fail"
       },
       "notification:ConfirmClearBrowserCache": {
          "@name": "ConfirmClearBrowserCache",
@@ -7109,7 +7470,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "SLurl is copied to my clipboard"
+               }
             }
          }
       },
@@ -7355,10 +7719,16 @@
          "form:form": {
             "@name": "form",
             "button:Enable": {
-               "@name": "Enable"
+               "@name": "Enable",
+               "@text": {
+                  "string": "Enable"
+               }
             },
             "button:Disable": {
-               "@name": "Disable"
+               "@name": "Disable",
+               "@text": {
+                  "string": "Disable"
+               }
             }
          }
       },
@@ -7370,10 +7740,16 @@
          "form:form": {
             "@name": "form",
             "button:Allow": {
-               "@name": "Allow"
+               "@name": "Allow",
+               "@text": {
+                  "string": "Allow"
+               }
             },
             "button:Deny": {
-               "@name": "Deny"
+               "@name": "Deny",
+               "@text": {
+                  "string": "Deny"
+               }
             }
          }
       },
@@ -7385,13 +7761,22 @@
          "form:form": {
             "@name": "form",
             "button:Do Now": {
-               "@name": "Do Now"
+               "@name": "Do Now",
+               "@text": {
+                  "string": "[ACTION] Now"
+               }
             },
             "button:RememberDomain": {
-               "@name": "RememberDomain"
+               "@name": "RememberDomain",
+               "@text": {
+                  "string": "[CONDITION] Allow This Domain"
+               }
             },
             "button:RememberURL": {
-               "@name": "RememberURL"
+               "@name": "RememberURL",
+               "@text": {
+                  "string": "[CONDITION] Allow This URL"
+               }
             }
          }
       },
@@ -7403,16 +7788,28 @@
          "form:form": {
             "@name": "form",
             "button:Allow": {
-               "@name": "Allow"
+               "@name": "Allow",
+               "@text": {
+                  "string": "Allow"
+               }
             },
             "button:Deny": {
-               "@name": "Deny"
+               "@name": "Deny",
+               "@text": {
+                  "string": "Deny"
+               }
             },
             "button:BlacklistDomain": {
-               "@name": "BlacklistDomain"
+               "@name": "BlacklistDomain",
+               "@text": {
+                  "string": "Blacklist"
+               }
             },
             "button:WhitelistDomain": {
-               "@name": "WhitelistDomain"
+               "@name": "WhitelistDomain",
+               "@text": {
+                  "string": "Whitelist"
+               }
             }
          }
       },
@@ -7424,10 +7821,16 @@
          "form:form": {
             "@name": "form",
             "button:Allow": {
-               "@name": "Allow"
+               "@name": "Allow",
+               "@text": {
+                  "string": "Allow"
+               }
             },
             "button:Deny": {
-               "@name": "Deny"
+               "@name": "Deny",
+               "@text": {
+                  "string": "Deny"
+               }
             }
          }
       },
@@ -7439,13 +7842,22 @@
          "form:form": {
             "@name": "form",
             "button:Do Now": {
-               "@name": "Do Now"
+               "@name": "Do Now",
+               "@text": {
+                  "string": "[ACTION] Now"
+               }
             },
             "button:RememberDomain": {
-               "@name": "RememberDomain"
+               "@name": "RememberDomain",
+               "@text": {
+                  "string": "[CONDITION] Allow This Domain"
+               }
             },
             "button:RememberURL": {
-               "@name": "RememberURL"
+               "@name": "RememberURL",
+               "@text": {
+                  "string": "[CONDITION] Allow This URL"
+               }
             }
          }
       },
@@ -7457,16 +7869,28 @@
          "form:form": {
             "@name": "form",
             "button:Allow": {
-               "@name": "Allow"
+               "@name": "Allow",
+               "@text": {
+                  "string": "Allow"
+               }
             },
             "button:Deny": {
-               "@name": "Deny"
+               "@name": "Deny",
+               "@text": {
+                  "string": "Deny"
+               }
             },
             "button:BlacklistDomain": {
-               "@name": "BlacklistDomain"
+               "@name": "BlacklistDomain",
+               "@text": {
+                  "string": "Blacklist"
+               }
             },
             "button:WhitelistDomain": {
-               "@name": "WhitelistDomain"
+               "@name": "WhitelistDomain",
+               "@text": {
+                  "string": "Whitelist"
+               }
             }
          }
       },
@@ -7839,7 +8263,7 @@
             "string": "\n[MESSAGE]\n  "
          }
       },
-      "#comment$641": " EventNotification couldn't be persist since server decide is it necessary to notify \n   user about subscribed event via LLEventNotifier",
+      "#comment$650": " EventNotification couldn't be persist since server decide is it necessary to notify \n   user about subscribed event via LLEventNotifier",
       "notification:EventNotification": {
          "@name": "EventNotification",
          "#text": {
@@ -7848,10 +8272,16 @@
          "form:form": {
             "@name": "form",
             "button:Details": {
-               "@name": "Details"
+               "@name": "Details",
+               "@text": {
+                  "string": "Details"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -7863,7 +8293,10 @@
          "form:form": {
             "@name": "form",
             "button:Done": {
-               "@name": "Done"
+               "@name": "Done",
+               "@text": {
+                  "string": "Done"
+               }
             }
          }
       },
@@ -7899,7 +8332,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "A Media Plugin fails to run"
+               }
             }
          }
       },
@@ -8247,13 +8683,22 @@
          "form:form": {
             "@name": "form",
             "button:Keep": {
-               "@name": "Keep"
+               "@name": "Keep",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Discard": {
-               "@name": "Discard"
+               "@name": "Discard",
+               "@text": {
+                  "string": "Discard"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Mute Owner"
+               }
             }
          }
       },
@@ -8265,14 +8710,20 @@
          "form:form": {
             "@name": "form",
             "button:Keep": {
-               "@name": "Keep"
+               "@name": "Keep",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Discard": {
-               "@name": "Discard"
+               "@name": "Discard",
+               "@text": {
+                  "string": "Discard"
+               }
             }
          }
       },
-      "#comment$695": " FS:Ansariel: WARNING: Read LLOfferInfo::forceResponse in llviewermessage.cpp before changing the button order!!! ",
+      "#comment$704": " FS:Ansariel: WARNING: Read LLOfferInfo::forceResponse in llviewermessage.cpp before changing the button order!!! ",
       "notification:UserGiveItem": {
          "@name": "UserGiveItem",
          "@label": {
@@ -8284,16 +8735,28 @@
          "form:form": {
             "@name": "form",
             "button:Show": {
-               "@name": "Show"
+               "@name": "Show",
+               "@text": {
+                  "string": "Show"
+               }
             },
             "button:Keep": {
-               "@name": "Keep"
+               "@name": "Keep",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Discard": {
-               "@name": "Discard"
+               "@name": "Discard",
+               "@text": {
+                  "string": "Discard"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Mute Sender"
+               }
             }
          }
       },
@@ -8308,25 +8771,46 @@
          "form:form": {
             "@name": "form",
             "button:Show": {
-               "@name": "Show"
+               "@name": "Show",
+               "@text": {
+                  "string": "Show"
+               }
             },
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Discard": {
-               "@name": "Discard"
+               "@name": "Discard",
+               "@text": {
+                  "string": "Discard"
+               }
             },
             "button:ShowSilent": {
-               "@name": "ShowSilent"
+               "@name": "ShowSilent",
+               "@text": {
+                  "string": "(Show)"
+               }
             },
             "button:AcceptSilent": {
-               "@name": "AcceptSilent"
+               "@name": "AcceptSilent",
+               "@text": {
+                  "string": "(Accept)"
+               }
             },
             "button:DiscardSilent": {
-               "@name": "DiscardSilent"
+               "@name": "DiscardSilent",
+               "@text": {
+                  "string": "(Discard)"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Mute Sender"
+               }
             }
          }
       },
@@ -8345,13 +8829,22 @@
          "form:form": {
             "@name": "form",
             "button:Join": {
-               "@name": "Join"
+               "@name": "Join",
+               "@text": {
+                  "string": "Join"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             },
             "button:Info": {
-               "@name": "Info"
+               "@name": "Info",
+               "@text": {
+                  "string": "Info"
+               }
             }
          }
       },
@@ -8367,10 +8860,16 @@
          "form:form": {
             "@name": "form",
             "button:Teleport": {
-               "@name": "Teleport"
+               "@name": "Teleport",
+               "@text": {
+                  "string": "Teleport"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -8383,10 +8882,16 @@
          "form:form": {
             "@name": "form",
             "button:Teleport": {
-               "@name": "Teleport"
+               "@name": "Teleport",
+               "@text": {
+                  "string": "Change and Continue"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -8409,10 +8914,16 @@
          "form:form": {
             "@name": "form",
             "button:Teleport": {
-               "@name": "Teleport"
+               "@name": "Teleport",
+               "@text": {
+                  "string": "Teleport"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -8425,10 +8936,16 @@
          "form:form": {
             "@name": "form",
             "button:Teleport": {
-               "@name": "Teleport"
+               "@name": "Teleport",
+               "@text": {
+                  "string": "Change and Continue"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -8454,10 +8971,16 @@
          "form:form": {
             "@name": "form",
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "Yes"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "No"
+               }
             }
          }
       },
@@ -8469,10 +8992,16 @@
          "form:form": {
             "@name": "form",
             "button:Later": {
-               "@name": "Later"
+               "@name": "Later",
+               "@text": {
+                  "string": "Later"
+               }
             },
             "button:GoNow...": {
-               "@name": "GoNow..."
+               "@name": "GoNow...",
+               "@text": {
+                  "string": "Go Now..."
+               }
             }
          }
       },
@@ -8489,10 +9018,16 @@
          "form:form": {
             "@name": "form",
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             }
          }
       },
@@ -8515,10 +9050,16 @@
          "form:form": {
             "@name": "form",
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             }
          }
       },
@@ -8558,10 +9099,16 @@
          "form:form": {
             "@name": "form",
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             }
          }
       },
@@ -8598,10 +9145,16 @@
          "form:form": {
             "@name": "form",
             "button:Gotopage": {
-               "@name": "Gotopage"
+               "@name": "Gotopage",
+               "@text": {
+                  "string": "Go to page"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -8635,13 +9188,22 @@
          "form:form": {
             "@name": "form",
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "Yes"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "No"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Block"
+               }
             }
          }
       },
@@ -8696,7 +9258,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Kicked from region for removing an experience"
+               }
             }
          }
       },
@@ -8708,7 +9273,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Allowed into a region by an experience"
+               }
             }
          }
       },
@@ -8742,16 +9310,28 @@
          "form:form": {
             "@name": "form",
             "button:BlockExperience": {
-               "@name": "BlockExperience"
+               "@name": "BlockExperience",
+               "@text": {
+                  "string": "Block Experience"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Block Object"
+               }
             },
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "Yes"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "No"
+               }
             }
          }
       },
@@ -8764,10 +9344,16 @@
          "form:form": {
             "@name": "form",
             "button:Grant": {
-               "@name": "Grant"
+               "@name": "Grant",
+               "@text": {
+                  "string": "Allow access"
+               }
             },
             "button:Deny": {
-               "@name": "Deny"
+               "@name": "Deny",
+               "@text": {
+                  "string": "Deny"
+               }
             }
          },
          "footer": "\n[FOOTERTEXT]\n    "
@@ -8780,10 +9366,16 @@
          "form:form": {
             "@name": "form",
             "button:Client_Side_Mute": {
-               "@name": "Client_Side_Mute"
+               "@name": "Client_Side_Mute",
+               "@text": {
+                  "string": "Block"
+               }
             },
             "button:Client_Side_Ignore": {
-               "@name": "Client_Side_Ignore"
+               "@name": "Client_Side_Ignore",
+               "@text": {
+                  "string": "Ignore"
+               }
             }
          }
       },
@@ -8796,14 +9388,20 @@
          "form:form": {
             "@name": "form",
             "button:Client_Side_Mute": {
-               "@name": "Client_Side_Mute"
+               "@name": "Client_Side_Mute",
+               "@text": {
+                  "string": "Block"
+               }
             },
             "button:Client_Side_Ignore": {
-               "@name": "Client_Side_Ignore"
+               "@name": "Client_Side_Ignore",
+               "@text": {
+                  "string": "Ignore"
+               }
             }
          }
       },
-      "#comment$741": "\n  <notification\n   icon=\"notify.tga\"\n   name=\"FirstBalanceIncrease\"\n   persist=\"true\"\n   type=\"notify\">\n   <tag>win</tag>\nYou just received L$[AMOUNT].\nYour L$ balance is shown in the upper-right.\n  </notification>\n\n  <notification\n   icon=\"notify.tga\"\n   name=\"FirstBalanceDecrease\"\n   persist=\"true\"\n   type=\"notify\">\nYou just paid L$[AMOUNT].\nYour L$ balance is shown in the upper-right.\n  </notification>\n",
+      "#comment$750": "\n  <notification\n   icon=\"notify.tga\"\n   name=\"FirstBalanceIncrease\"\n   persist=\"true\"\n   type=\"notify\">\n   <tag>win</tag>\nYou just received L$[AMOUNT].\nYour L$ balance is shown in the upper-right.\n  </notification>\n\n  <notification\n   icon=\"notify.tga\"\n   name=\"FirstBalanceDecrease\"\n   persist=\"true\"\n   type=\"notify\">\nYou just paid L$[AMOUNT].\nYour L$ balance is shown in the upper-right.\n  </notification>\n",
       "notification:BuyLindenDollarSuccess": {
          "@name": "BuyLindenDollarSuccess",
          "tag": "funds",
@@ -8842,13 +9440,22 @@
          "form:form": {
             "@name": "form",
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Mute"
+               }
             }
          }
       },
@@ -8885,13 +9492,22 @@
          "form:form": {
             "@name": "form",
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Mute"
+               }
             }
          }
       },
@@ -8908,13 +9524,22 @@
          "form:form": {
             "@name": "form",
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Mute"
+               }
             }
          }
       },
@@ -8931,13 +9556,22 @@
          "form:form": {
             "@name": "form",
             "button:Accept": {
-               "@name": "Accept"
+               "@name": "Accept",
+               "@text": {
+                  "string": "Accept"
+               }
             },
             "button:Decline": {
-               "@name": "Decline"
+               "@name": "Decline",
+               "@text": {
+                  "string": "Decline"
+               }
             },
             "button:Mute": {
-               "@name": "Mute"
+               "@name": "Mute",
+               "@text": {
+                  "string": "Mute"
+               }
             }
          }
       },
@@ -9122,7 +9756,10 @@
          "form:form": {
             "@name": "form",
             "button:respondbutton": {
-               "@name": "respondbutton"
+               "@name": "respondbutton",
+               "@text": {
+                  "string": "Respond"
+               }
             }
          }
       },
@@ -9594,6 +10231,36 @@
             }
          }
       },
+      "notification:FacePasteFailed": {
+         "@name": "FacePasteFailed",
+         "#text": {
+            "string": "\nPaste failed. [REASON]\n   "
+         },
+         "usetemplate:okbutton": {
+            "@name": "okbutton",
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
+      "notification:FacePasteTexturePermissions": {
+         "@name": "FacePasteTexturePermissions",
+         "#text": {
+            "string": "\n    You applied a texture with limited permissions, object will inherit permissions from texture.\n    "
+         },
+         "usetemplate:notifyignore": {
+            "@ignoretext": {
+               "string": "Paste: You applied a texture with limited permissions"
+            },
+            "@name": "notifyignore"
+         },
+         "usetemplate:okbutton": {
+            "@name": "okbutton",
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
       "notification:ConfirmLeaveCall": {
          "@name": "ConfirmLeaveCall",
          "#text": {
@@ -9927,16 +10594,28 @@
          "form:form": {
             "@name": "form",
             "input:username": {
-               "@name": "username"
+               "@name": "username",
+               "@text": {
+                  "string": "User Name"
+               }
             },
             "input:password": {
-               "@name": "password"
+               "@name": "password",
+               "@text": {
+                  "string": "Password    "
+               }
             },
             "button:ok": {
-               "@name": "ok"
+               "@name": "ok",
+               "@text": {
+                  "string": "Submit"
+               }
             },
             "button:cancel": {
-               "@name": "cancel"
+               "@name": "cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -10355,7 +11034,7 @@
          "tag": "confirm",
          "usetemplate:okcancelignore": {
             "@ignoretext": {
-               "string": "The selected object affects the navmesh.  Changing it to a Flexible Path will remove it from the navmesh."
+               "string": "The selected object affects the navmesh. Changing it to a Flexible Path will remove it from the navmesh."
             },
             "@name": "okcancelignore",
             "@notext": {
@@ -10364,18 +11043,6 @@
             "@yestext": {
                "string": "OK"
             }
-         }
-      },
-      "global:UnsupportedShaderRequirements": {
-         "@name": "UnsupportedShaderRequirements",
-         "#text": {
-            "string": "\nYou do not appear to meet the hardware requirements for [APP_NAME]. [APP_NAME] requires OpenGL 2.0 or later shader support. If this is the case, you may want to make sure that you have the latest drivers for your graphics card, and service packs and patches for your operating system.\n\nIf you continue to have problems, please visit the [SUPPORT_SITE].\n  "
-         }
-      },
-      "global:UnsupportedGLRequirements": {
-         "@name": "UnsupportedGLRequirements",
-         "#text": {
-            "string": "\nYou do not appear to have the proper hardware requirements for [APP_NAME]. [APP_NAME] requires an OpenGL graphics card that has multitexture support. If this is the case, you may want to make sure that you have the latest drivers for your graphics card, and service packs and patches for your operating system.\n\nIf you continue to have problems, please visit the [SUPPORT_SITE].\n  "
          }
       },
       "global:UnsupportedIntelDriver": {
@@ -10420,7 +11087,7 @@
             "string": "\nFailed to launch updater service [UPDATER_APP]. Please verify the viewer is installed correctly and has the necessary permissions to run. If you continue to experience issues, please visit the [SUPPORT_SITE].\n  "
          }
       },
-      "#comment$882": " these are alert strings from server. the name needs to match entire the server string, and needs to be changed\n  whenever the server string changes ",
+      "#comment$891": " these are alert strings from server. the name needs to match entire the server string, and needs to be changed\n  whenever the server string changes ",
       "global:You can only set your 'Home Location' on your land or at a mainland Infohub.": {
          "@name": "You can only set your 'Home Location' on your land or at a mainland Infohub.",
          "#text": {
@@ -10433,7 +11100,7 @@
             "string": "\nYou died and have been teleported to your home location.\n  "
          }
       },
-      "#comment$885": " <FS:AW>  opensim search support",
+      "#comment$894": " <FS:AW>  opensim search support",
       "notification:ConfirmClearDebugSearchURL": {
          "@name": "ConfirmClearDebugSearchURL",
          "#text": {
@@ -10472,8 +11139,8 @@
             }
          }
       },
-      "#comment$888": " </FS:AW>  opensim search support",
-      "#comment$889": " <FS:AW  grid management",
+      "#comment$897": " </FS:AW>  opensim search support",
+      "#comment$898": " <FS:AW  grid management",
       "notification:ConfirmRemoveGrid": {
          "@name": "ConfirmRemoveGrid",
          "#text": {
@@ -10512,8 +11179,8 @@
             }
          }
       },
-      "#comment$892": " </FS:AW  grid management",
-      "#comment$893": " ## Zi: Animation Overrider ",
+      "#comment$901": " </FS:AW  grid management",
+      "#comment$902": " ## Zi: Animation Overrider ",
       "notification:NewAOSet": {
          "@name": "NewAOSet",
          "#text": {
@@ -10528,10 +11195,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -10664,7 +11337,7 @@
             "string": "\nCreating animation link for animation \"[NAME]\" failed!\n  "
          }
       },
-      "#comment$913": " ## Zi: Animation Overrider ",
+      "#comment$922": " ## Zi: Animation Overrider ",
       "notification:SendSysinfoToIM": {
          "@name": "SendSysinfoToIM",
          "#text": {
@@ -10680,7 +11353,7 @@
             }
          }
       },
-      "#comment$915": " fsdata ",
+      "#comment$924": " fsdata ",
       "notification:BlockLoginInfo": {
          "@name": "BlockLoginInfo",
          "#text": {
@@ -10713,14 +11386,20 @@
          "form:form": {
             "@name": "form",
             "button:Yes": {
-               "@name": "Yes"
+               "@name": "Yes",
+               "@text": {
+                  "string": "Yes"
+               }
             },
             "button:No": {
-               "@name": "No"
+               "@name": "No",
+               "@text": {
+                  "string": "No"
+               }
             }
          }
       },
-      "#comment$919": " Firestorm Phantom ",
+      "#comment$928": " Firestorm Phantom ",
       "notification:PhantomOn": {
          "@name": "PhantomOn",
          "#text": {
@@ -10763,8 +11442,8 @@
             "string": "\nFlight Assist is enabled\n  "
          }
       },
-      "#comment$927": " Firestorm Phantom ",
-      "#comment$928": " Firestorm Reset Settings ",
+      "#comment$936": " Firestorm Phantom ",
+      "#comment$937": " Firestorm Reset Settings ",
       "notification:FirestormClearSettingsPrompt": {
          "@label": {
             "string": "Reset all settings"
@@ -10789,8 +11468,8 @@
             "string": "\n    Settings will be cleared after restarting [APP_NAME].\n  "
          }
       },
-      "#comment$931": " Firestorm Reset Settings ",
-      "#comment$932": " AW: opensim ",
+      "#comment$940": " Firestorm Reset Settings ",
+      "#comment$941": " AW: opensim ",
       "notification:CantAddGrid": {
          "@name": "CantAddGrid",
          "#text": {
@@ -10803,8 +11482,8 @@
             }
          }
       },
-      "#comment$934": " AW: opensim ",
-      "#comment$935": " ## Zi: Particle Editor ",
+      "#comment$943": " AW: opensim ",
+      "#comment$944": " ## Zi: Particle Editor ",
       "notification:ParticleScriptFindFolderFailed": {
          "@name": "ParticleScriptFindFolderFailed",
          "#text": {
@@ -10837,7 +11516,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "A particle script was injected to an object."
+               }
             }
          }
       },
@@ -10855,12 +11537,15 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "A particle script was copied to my clipboard"
+               }
             }
          }
       },
-      "#comment$943": " ## Zi: Particle Editor ",
-      "#comment$944": " ## Zi: Debug Settings Editor ",
+      "#comment$952": " ## Zi: Particle Editor ",
+      "#comment$953": " ## Zi: Debug Settings Editor ",
       "notification:DebugSettingsWarning": {
          "@name": "DebugSettingsWarning",
          "#text": {
@@ -10869,7 +11554,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Debug Settings warning message"
+               }
             }
          }
       },
@@ -10881,7 +11569,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "A debug setting's name was copied to my clipboard"
+               }
             }
          }
       },
@@ -10893,18 +11584,27 @@
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "Fix it"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Keep it"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "A settings control has failed the sanity check."
+               }
             }
          }
       },
-      "#comment$948": " ## Zi: Debug Settings Editor ",
-      "#comment$949": " <FS:Sei> LSL Default label missing FIRE-17710 ",
+      "#comment$957": " ## Zi: Debug Settings Editor ",
+      "#comment$958": " <FS:Sei> LSL Default label missing FIRE-17710 ",
       "notification:DefaultLabelMissing": {
          "@name": "DefaultLabelMissing",
          "usetemplate:notifyignore": {
@@ -10917,7 +11617,7 @@
             "string": "\nThe behavior for switch() statements without a default case was previously incorrect and has been fixed. \nSee FIRE-17710 for details.\n  "
          }
       },
-      "#comment$951": " </FS:Sei> ",
+      "#comment$960": " </FS:Sei> ",
       "notification:TeleportToAvatarNotPossible": {
          "@name": "TeleportToAvatarNotPossible",
          "#text": {
@@ -10945,7 +11645,7 @@
             "string": "\nYour viewer cache is currently empty. Please be aware that you may experience slow framerates and inventory loading for a short time while new content downloads.\n  "
          }
       },
-      "#comment$956": " <FS:Zi> Viewer version popup ",
+      "#comment$965": " <FS:Zi> Viewer version popup ",
       "notification:FirstJoinSupportGroup2": {
          "@name": "FirstJoinSupportGroup2",
          "#text": {
@@ -10954,17 +11654,26 @@
          "form:form": {
             "@name": "form",
             "button:OK_okcancelignore": {
-               "@name": "OK_okcancelignore"
+               "@name": "OK_okcancelignore",
+               "@text": {
+                  "string": "Yes"
+               }
             },
             "button:Cancel_okcancelignore": {
-               "@name": "Cancel_okcancelignore"
+               "@name": "Cancel_okcancelignore",
+               "@text": {
+                  "string": "No"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "The Phoenix/Firestorm Support Group was joined"
+               }
             }
          }
       },
-      "#comment$958": " <FS:Zi> Viewer version popup ",
+      "#comment$967": " <FS:Zi> Viewer version popup ",
       "notification:ConfirmScriptModify": {
          "@name": "ConfirmScriptModify",
          "#text": {
@@ -11685,7 +12394,7 @@
          "@name": "FullRegionCantEnter",
          "tag": "fail",
          "#text": {
-            "string": "\nYou can't enter this region because \\nthe region is full.\n  "
+            "string": "\nYou can't enter this region because the region is full.\n  "
          }
       },
       "notification:LinkFailedOwnersDiffer": {
@@ -12285,7 +12994,7 @@
          "@name": "CantDivideLandCantFindParcel",
          "tag": "fail",
          "#text": {
-            "string": "\nCan't divide land.\nCan't find the parcel.\nPlease report with Help -> Report Bug...\n  "
+            "string": "\nCan't divide land.\nCan't find the parcel.\nPlease report with Help -> Report Problem...\n  "
          }
       },
       "notification:CantDivideLandWholeParcelSelected": {
@@ -12390,7 +13099,7 @@
          "@name": "CantCreateObjectParcelFull",
          "tag": "fail",
          "#text": {
-            "string": "\nCan't create object because \\nthe parcel is full.\n  "
+            "string": "\nCan't create object because the parcel is full.\n  "
          }
       },
       "notification:FailedPlacingObject": {
@@ -12614,18 +13323,49 @@
          "form:form": {
             "@name": "form",
             "button:Allow": {
-               "@name": "Allow"
+               "@name": "Allow",
+               "@text": {
+                  "string": "Allow"
+               }
             },
             "button:Always Allow": {
-               "@name": "Always Allow"
+               "@name": "Always Allow",
+               "@text": {
+                  "string": "Always Allow"
+               }
             },
             "button:Deny": {
-               "@name": "Deny"
+               "@name": "Deny",
+               "@text": {
+                  "string": "Deny"
+               }
             },
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "Confirm before sending anyone a list of my current RLV restrictions."
+               }
             }
          }
+      },
+      "notification:InventoryValidationFailed": {
+         "@name": "InventoryValidationFailed",
+         "@label": {
+            "string": "Inventory Validation Errors"
+         },
+         "usetemplate:okignore": {
+            "@ignoretext": {
+               "string": "Warn if inventory validation errors have been detected."
+            },
+            "@name": "okignore",
+            "@yestext": {
+               "string": "OK"
+            }
+         },
+         "#text": {
+            "string": "\nCorruption has been found in your inventory. \nPlease contact [HELP] with the following list of issues.\nThey can use http://opensimulator.org/wiki/inventory to fix the issues.\n\n[ERRORS]\n      "
+         },
+         "tag": "fail"
       },
       "notification:PreferenceChatClearLog": {
          "@name": "PreferenceChatClearLog",
@@ -12734,14 +13474,20 @@
          "form:form": {
             "@name": "form",
             "button:Continue": {
-               "@name": "Continue"
+               "@name": "Continue",
+               "@text": {
+                  "string": "Continue"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
-      "#comment$1193": " <FS:Zi> Add float LSL color entry widgets ",
+      "#comment$1203": " <FS:Zi> Add float LSL color entry widgets ",
       "notification:LSLColorCopiedToClipboard": {
          "@name": "LSLColorCopiedToClipboard",
          "#text": {
@@ -12750,13 +13496,16 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "An LSL color string was copied to my clipboard"
+               }
             }
          }
       },
-      "#comment$1195": " <FS:Zi> Add float LSL color entry widgets ",
-      "#comment$1196": " <FS:HG> FIRE-6340, FIRE-6567 - Setting Bandwidth issues",
-      "#comment$1197": " <FS:TS> FIRE-6795: Remove warning at every login ",
+      "#comment$1205": " <FS:Zi> Add float LSL color entry widgets ",
+      "#comment$1206": " <FS:HG> FIRE-6340, FIRE-6567 - Setting Bandwidth issues",
+      "#comment$1207": " <FS:TS> FIRE-6795: Remove warning at every login ",
       "notification:FSBWTooHigh": {
          "@name": "FSBWTooHigh",
          "#text": {
@@ -12769,8 +13518,8 @@
             }
          }
       },
-      "#comment$1199": " </FS:TS> FIRE-6795 ",
-      "#comment$1200": " </FS:HG> FIRE-6340, FIRE-6567 - Setting Bandwidth issues",
+      "#comment$1209": " </FS:TS> FIRE-6795 ",
+      "#comment$1210": " </FS:HG> FIRE-6340, FIRE-6567 - Setting Bandwidth issues",
       "notification:FirstUseFlyOverride": {
          "@name": "FirstUseFlyOverride",
          "#text": {
@@ -12804,7 +13553,10 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "No Havok Warning"
+               }
             }
          }
       },
@@ -12840,7 +13592,7 @@
             "string": "\n    [NAME] [MESSAGE]\n  "
          }
       },
-      "#comment$1210": " <FS:Zi> Backup Settings ",
+      "#comment$1220": " <FS:Zi> Backup Settings ",
       "notification:BackupFinished": {
          "@name": "BackupFinished",
          "#text": {
@@ -12907,7 +13659,7 @@
             }
          }
       },
-      "#comment$1218": " </FS:Zi> ",
+      "#comment$1228": " </FS:Zi> ",
       "notification:ConfirmRestoreQuickPrefsDefaults": {
          "@name": "ConfirmRestoreQuickPrefsDefaults",
          "tag": "confirm",
@@ -13000,8 +13752,8 @@
             "string": "\nAntiSpam: Blocked [SOURCE] for sending a chat message with more than [COUNT] lines.\n    "
          }
       },
-      "#comment$1230": " <FS:Zi> Notification template for changed settings when selecting certain skins ",
-      "#comment$1231": "         The actual texts for the messages are in strings.xml ",
+      "#comment$1240": " <FS:Zi> Notification template for changed settings when selecting certain skins ",
+      "#comment$1241": "         The actual texts for the messages are in strings.xml ",
       "notification:SkinDefaultsChangeSettings": {
          "@name": "SkinDefaultsChangeSettings",
          "#text": {
@@ -13010,11 +13762,14 @@
          "form:form": {
             "@name": "form",
             "ignore:ignore": {
-               "@name": "ignore"
+               "@name": "ignore",
+               "@text": {
+                  "string": "A preferences setting was changed to the skin's default value."
+               }
             }
          }
       },
-      "#comment$1233": " <FS:Zi> Notification template for changed settings when selecting certain skins ",
+      "#comment$1243": " <FS:Zi> Notification template for changed settings when selecting certain skins ",
       "notification:AddNewContactSet": {
          "@name": "AddNewContactSet",
          "tag": "contact set",
@@ -13031,10 +13786,16 @@
                }
             },
             "button:Create": {
-               "@name": "Create"
+               "@name": "Create",
+               "@text": {
+                  "string": "Create"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -13125,10 +13886,16 @@
                "@name": "message"
             },
             "button:Create": {
-               "@name": "Create"
+               "@name": "Create",
+               "@text": {
+                  "string": "Create"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -13165,21 +13932,27 @@
                "@name": "url"
             },
             "button:Add": {
-               "@name": "Add"
+               "@name": "Add",
+               "@text": {
+                  "string": "Add"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
-      "#comment$1245": " <FS:Zi> Do not allow \"Restore To Last Position\" for no-copy items ",
+      "#comment$1255": " <FS:Zi> Do not allow \"Restore To Last Position\" for no-copy items ",
       "notification:CantRestoreToWorldNoCopy": {
          "@name": "CantRestoreToWorldNoCopy",
          "#text": {
             "string": "\nRestore to Last Position is not allowed for no copy items to prevent possible content loss.\n  "
          }
       },
-      "#comment$1247": " <FS:Zi> Do not allow \"Restore To Last Position\" for no-copy items ",
+      "#comment$1257": " <FS:Zi> Do not allow \"Restore To Last Position\" for no-copy items ",
       "notification:ConfirmRemoveCredential": {
          "@name": "ConfirmRemoveCredential",
          "#text": {
@@ -13189,14 +13962,20 @@
          "form:form": {
             "@name": "form",
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
-      "#comment$1249": " <FS:TS> FIRE-5453: Flickr upload support (from Exodus) ",
+      "#comment$1259": " <FS:TS> FIRE-5453: Flickr upload support (from Exodus) ",
       "notification:ExodusFlickrVerificationExplanation": {
          "@name": "ExodusFlickrVerificationExplanation",
          "#text": {
@@ -13225,10 +14004,16 @@
                "@name": "oauth_verifier"
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -13251,7 +14036,7 @@
             "string": "\nYour snapshot can now be viewed [http://www.flickr.com/photos/upload/edit/?ids=[ID] here].\n  "
          }
       },
-      "#comment$1254": " </FS:TS> FIRE-5453 ",
+      "#comment$1264": " </FS:TS> FIRE-5453 ",
       "notification:RegionTrackerAdd": {
          "@name": "RegionTrackerAdd",
          "#text": {
@@ -13267,10 +14052,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -13290,10 +14081,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -13406,7 +14203,7 @@
       },
       "notification:SaveSettingAs": {
          "@label": {
-            "string": "Save Outfit"
+            "string": "Save Environmental Settings"
          },
          "@name": "SaveSettingAs",
          "unique": null,
@@ -13423,10 +14220,16 @@
                }
             },
             "button:OK": {
-               "@name": "OK"
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
             },
             "button:Cancel": {
-               "@name": "Cancel"
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
             }
          }
       },
@@ -13549,6 +14352,118 @@
          },
          "tag": "fail"
       },
+      "notification:CompressionTestResults": {
+         "@name": "CompressionTestResults",
+         "#text": {
+            "string": "\nTest result for gzip level 6 file compression with [FILE] of size [SIZE] KB:\nPacking: [PACK_TIME]s [PSIZE]KB\nUnpacking: [UNPACK_TIME]s [USIZE]KB\n    "
+         },
+         "tag": "fail"
+      },
+      "notification:PromptMFAToken": {
+         "@label": {
+            "string": "Prompt for MFA Token"
+         },
+         "@name": "PromptMFAToken",
+         "#text": {
+            "string": "\n    [MESSAGE]\n    "
+         },
+         "tag": "confirm",
+         "form:form": {
+            "@name": "form",
+            "input:token": {
+               "@name": "token"
+            },
+            "button:continue": {
+               "@name": "continue",
+               "@text": {
+                  "string": "Continue"
+               }
+            },
+            "button:cancel": {
+               "@name": "cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
+            }
+         }
+      },
+      "notification:CreateSubfolder": {
+         "@label": {
+            "string": "Create subfolder"
+         },
+         "@name": "CreateSubfolder",
+         "unique": null,
+         "#text": {
+            "string": "\n    Name the new folder:\n    "
+         },
+         "tag": "confirm",
+         "form:form": {
+            "@name": "form",
+            "input:message": {
+               "@name": "message",
+               "#text": {
+                  "string": "\n        [DESC]\n      "
+               }
+            },
+            "button:OK": {
+               "@name": "OK",
+               "@text": {
+                  "string": "OK"
+               }
+            },
+            "button:Cancel": {
+               "@name": "Cancel",
+               "@text": {
+                  "string": "Cancel"
+               }
+            }
+         }
+      },
+      "notification:SameFolderRequired": {
+         "@name": "SameFolderRequired",
+         "#text": {
+            "string": "\n    Selected items must be in the same folder.\n    "
+         },
+         "tag": "fail",
+         "usetemplate:okbutton": {
+            "@name": "okbutton",
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
+      "notification:RiggedMeshAttachedToHUD": {
+         "@name": "RiggedMeshAttachedToHUD",
+         "#text": {
+            "string": "\n    An object \"[NAME]\" attached to HUD point \"[POINT]\" contains rigged mesh.\n\nRigged mesh objects are designed for attachment to the avatar. Neither you nor anyone else will see this object.\n\nIf you want to see this object, remove it and re-attach it to an avatar attachment point.\n    "
+         },
+         "tag": "confirm",
+         "usetemplate:okignore": {
+            "@ignoretext": {
+               "string": "Warn me when rigged mesh is attached to HUD point."
+            },
+            "@name": "okignore",
+            "@yestext": {
+               "string": "OK"
+            }
+         }
+      },
+      "notification:EnableAutoFPSWarning": {
+         "@name": "EnableAutoFPSWarning",
+         "#text": {
+            "string": "\nYou are about to enable AutoFPS. All unsaved graphics settings will be lost.\n\nWould you like to save them first?\n      "
+         },
+         "tag": "confirm",
+         "usetemplate:okcancelbuttons": {
+            "@name": "okcancelbuttons",
+            "@notext": {
+               "string": "No"
+            },
+            "@yestext": {
+               "string": "Yes"
+            }
+         }
+      },
       "notification:NoValidEnvSettingFound": {
          "@name": "NoValidEnvSettingFound",
          "#text": {
@@ -13584,18 +14499,6 @@
             "@name": "notifyignore"
          }
       },
-      "notification:AttachedRiggedObjectToHUD": {
-         "@name": "AttachedRiggedObjectToHUD",
-         "#text": {
-            "string": "\nAn attachment named \"[NAME]\" contains rigged mesh but is attached to the HUD point \"[HUD_POINT]\". This means you will see it rendered correctly, but everyone else is not going to be able see it at all. You might want to consider taking it off and re-attaching it to a regular body attachment point.\n   "
-         },
-         "usetemplate:notifyignore": {
-            "@ignoretext": {
-               "string": "Warn me when a rigged attachment is worn on a HUD attachment point"
-            },
-            "@name": "notifyignore"
-         }
-      },
       "notification:WarnForceLoginURL": {
          "@name": "WarnForceLoginURL",
          "unique": null,
@@ -13611,6 +14514,59 @@
                "string": "Reset"
             }
          }
-      }
+      },
+      "notification:WarnScriptedCamera": {
+         "@name": "WarnScriptedCamera",
+         "#text": {
+            "string": "\nCamera reset might be inhibited by the following objects:\n\n[SOURCES]\n  "
+         }
+      },
+      "notification:UngroupFolder": {
+         "@label": {
+            "string": "Ungroup folder"
+         },
+         "@name": "UngroupFolder",
+         "unique": null,
+         "#text": {
+            "string": "\n    Ungroup the folder \"[FOLDER_NAME]\"?\n    "
+         },
+         "tag": "confirm",
+         "usetemplate:okcancelbuttons": {
+            "@name": "okcancelbuttons",
+            "@notext": {
+               "string": "Cancel"
+            },
+            "@yestext": {
+               "string": "Okay"
+            }
+         }
+      },
+      "#comment$1302": " <FS:Zi> detect and strip empty alpha layers from images on upload ",
+      "notification:ImageEmptyAlphaLayer": {
+         "@label": {
+            "string": "Image Contains Empty Alpha Channel"
+         },
+         "@name": "ImageEmptyAlphaLayer",
+         "#text": {
+            "string": "\n    The image you are trying to upload contains an empty, or almost empty alpha channel (transparency information). This is almost always not desired and should be stripped off. Adding an alpha channel to an image will lead to textures flipping on top of each other at different camera angles, and it makes rendering slower. So, unless you really need this texture to have an empty / almost empty alpha channel, consider stripping it out.\n    "
+         },
+         "tag": "confirm_strip",
+         "form:form": {
+            "@name": "form",
+            "button:strip": {
+               "@name": "strip",
+               "@text": {
+                  "string": "Strip Alpha"
+               }
+            },
+            "button:use_as_is": {
+               "@name": "use_as_is",
+               "@text": {
+                  "string": "Use As Is"
+               }
+            }
+         }
+      },
+      "#comment$1304": " </FS:Zi> "
    }
 }

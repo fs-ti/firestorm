@@ -3,7 +3,7 @@
       "@name": "Wearing",
       "menu_item_call:touch_attach": {
          "@label": {
-            "string": "Touch"
+            "string": ""
          },
          "@name": "touch_attach",
          "on_click": null
@@ -17,21 +17,21 @@
       },
       "menu_item_call:take_off": {
          "@label": {
-            "string": "Take Off"
+            "string": ""
          },
          "@name": "take_off",
          "on_click": null
       },
       "menu_item_call:detach": {
          "@label": {
-            "string": "Detach"
+            "string": ""
          },
          "@name": "detach",
          "on_click": null
       },
       "menu_item_call:take_off_or_detach": {
          "@label": {
-            "string": "Take Off / Detach"
+            "string": ""
          },
          "@name": "take_off_or_detach",
          "on_click": null
@@ -49,7 +49,7 @@
       },
       "menu_item_call:edit_outfit": {
          "@label": {
-            "string": "Edit Outfit"
+            "string": ""
          },
          "@name": "edit_outfit",
          "on_click": null

@@ -4,43 +4,43 @@
       "@title": {
          "string": "Landmark"
       },
-      "string:title_place": {
+      "str_ing:title_place": {
          "@name": "title_place",
          "#text": {
             "string": "\n    Place Details\n  "
          }
       },
-      "string:title_remote_place": {
+      "str_ing:title_remote_place": {
          "@name": "title_remote_place",
          "#text": {
             "string": "\n    Place Details\n  "
          }
       },
-      "string:title_remote_place_detail": {
+      "str_ing:title_remote_place_detail": {
          "@name": "title_remote_place_detail",
          "#text": {
             "string": "\n    Place Details: [NAME]\n  "
          }
       },
-      "string:title_landmark": {
+      "str_ing:title_landmark": {
          "@name": "title_landmark",
          "#text": {
             "string": "\n    Landmark\n  "
          }
       },
-      "string:title_landmark_detail": {
+      "str_ing:title_landmark_detail": {
          "@name": "title_landmark_detail",
          "#text": {
             "string": "\n    Landmark: [NAME]\n  "
          }
       },
-      "string:title_create_landmark": {
+      "str_ing:title_create_landmark": {
          "@name": "title_create_landmark",
          "#text": {
             "string": "\n    Create Landmark\n  "
          }
       },
-      "string:title_teleport_history_item": {
+      "str_ing:title_teleport_history_item": {
          "@name": "title_teleport_history_item",
          "#text": {
             "string": "\n    Teleport History Details: [NAME]\n  "
