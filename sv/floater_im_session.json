@@ -28,31 +28,31 @@
       "floater.string:start_call_button_tooltip": {
          "@name": "start_call_button_tooltip",
          "@value": {
-            "string": ""
+            "string": "Open voice connection"
          }
       },
       "floater.string:end_call_button_tooltip": {
          "@name": "end_call_button_tooltip",
          "@value": {
-            "string": ""
+            "string": "Close voice connection"
          }
       },
       "floater.string:expcol_button_not_tearoff_tooltip": {
          "@name": "expcol_button_not_tearoff_tooltip",
          "@value": {
-            "string": ""
+            "string": "Collapse this pane"
          }
       },
       "floater.string:expcol_button_tearoff_and_expanded_tooltip": {
          "@name": "expcol_button_tearoff_and_expanded_tooltip",
          "@value": {
-            "string": ""
+            "string": "Collapse participant list"
          }
       },
       "floater.string:expcol_button_tearoff_and_collapsed_tooltip": {
          "@name": "expcol_button_tearoff_and_collapsed_tooltip",
          "@value": {
-            "string": ""
+            "string": "Expand participant list"
          }
       },
       "view:contents_view": {
@@ -64,13 +64,13 @@
                "menu_button:view_options_btn": {
                   "@name": "view_options_btn",
                   "@tool_tip": {
-                     "string": ""
+                     "string": "View/sort options"
                   }
                },
                "menu_button:gear_btn": {
                   "@name": "gear_btn",
                   "@tool_tip": {
-                     "string": ""
+                     "string": "Actions on selected person"
                   }
                },
                "button:add_btn": {
@@ -82,7 +82,7 @@
                "button:voice_call_btn": {
                   "@name": "voice_call_btn",
                   "@tool_tip": {
-                     "string": ""
+                     "string": "Open voice connection"
                   }
                },
                "button:close_btn": {
@@ -94,7 +94,7 @@
                "button:expand_collapse_btn": {
                   "@name": "expand_collapse_btn",
                   "@tool_tip": {
-                     "string": ""
+                     "string": "Collapse/Expand this pane"
                   }
                },
                "button:tear_off_btn": {
@@ -146,7 +146,7 @@
                      "button:minz_btn": {
                         "@name": "minz_btn",
                         "@tool_tip": {
-                           "string": ""
+                           "string": "Shows/hides message panel"
                         }
                      }
                   }
