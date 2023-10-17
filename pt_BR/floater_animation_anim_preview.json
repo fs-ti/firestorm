@@ -1,0 +1,38 @@
+{
+   "floater": {
+      "@name": "Anim Preview",
+      "text:name_label": {
+         "@name": "name_label",
+         "#text": {
+            "string": "\n        Name:\n    "
+         }
+      },
+      "line_editor:name_form": {
+         "@name": "name_form"
+      },
+      "text:description_label": {
+         "@name": "description_label",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:description_form": {
+         "@name": "description_form"
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "Upload (L$[AMOUNT])"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancel"
+         },
+         "@name": "cancel_btn"
+      },
+      "text:info_text": {
+         "@name": "info_text"
+      }
+   }
+}
