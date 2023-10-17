@@ -14,7 +14,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": ""
+               "string": "Camera spin around avatar counterclockwise"
             },
             "@value": {
                "string": "Moturs"
@@ -26,7 +26,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": ""
+               "string": "Camera spin around avatar clockwise"
             },
             "@value": {
                "string": "Medurs"
@@ -38,10 +38,10 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": ""
+               "string": "Camera spin over avatar"
             },
             "@value": {
-               "string": ""
+               "string": "Camera Spin Over"
             }
          }
       },
@@ -50,10 +50,10 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": ""
+               "string": "Camera spin under avatar"
             },
             "@value": {
-               "string": ""
+               "string": "Camera Spin Under"
             }
          }
       },
@@ -62,7 +62,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": ""
+               "string": "Camera Forward"
             }
          }
       },
@@ -71,7 +71,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": ""
+               "string": "Camera Backward"
             }
          }
       }
