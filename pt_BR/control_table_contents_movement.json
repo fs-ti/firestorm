@@ -1,0 +1,181 @@
+{
+   "contents": {
+      "rows:move_actions": {
+         "@name": "move_actions",
+         "columns:lst_action": {
+            "@label": {
+               "string": "Move Actions"
+            },
+            "@name": "lst_action"
+         }
+      },
+      "rows:walk_to": {
+         "@name": "walk_to",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Walk to location mouse cursor points to"
+            },
+            "@value": {
+               "string": "Walk to"
+            }
+         }
+      },
+      "rows:teleport_to": {
+         "@name": "teleport_to",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@tool_tip": {
+               "string": "Teleport to location mouse cursor points to, but not all locations allow direct teleportation so you might be teleported closer to destination instead"
+            },
+            "@value": {
+               "string": "Teleport to"
+            }
+         }
+      },
+      "rows:push_forward": {
+         "@name": "push_forward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Move Forward"
+            }
+         }
+      },
+      "rows:push_backward": {
+         "@name": "push_backward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Move Backward"
+            }
+         }
+      },
+      "rows:turn_left": {
+         "@name": "turn_left",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Left"
+            }
+         }
+      },
+      "rows:turn_right": {
+         "@name": "turn_right",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Right"
+            }
+         }
+      },
+      "rows:slide_left": {
+         "@name": "slide_left",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Strafe left"
+            }
+         }
+      },
+      "rows:slide_right": {
+         "@name": "slide_right",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Strafe right"
+            }
+         }
+      },
+      "rows:jump": {
+         "@name": "jump",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Jump/Up"
+            }
+         }
+      },
+      "rows:push_down": {
+         "@name": "push_down",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Down"
+            }
+         }
+      },
+      "rows:run_forward": {
+         "@name": "run_forward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Run Forward"
+            }
+         }
+      },
+      "rows:run_backward": {
+         "@name": "run_backward",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Run Backward"
+            }
+         }
+      },
+      "rows:run_left": {
+         "@name": "run_left",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Run Left"
+            }
+         }
+      },
+      "rows:run_right": {
+         "@name": "run_right",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Run Right"
+            }
+         }
+      },
+      "rows:toggle_run": {
+         "@name": "toggle_run",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Toggle Run"
+            }
+         }
+      },
+      "rows:toggle_fly": {
+         "@name": "toggle_fly",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Fly/Stop flying"
+            }
+         }
+      },
+      "rows:toggle_sit": {
+         "@name": "toggle_sit",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Sit/Stand"
+            }
+         }
+      },
+      "rows:stop_moving": {
+         "@name": "stop_moving",
+         "columns:lst_action": {
+            "@name": "lst_action",
+            "@value": {
+               "string": "Stop Moving"
+            }
+         }
+      }
+   }
+}
