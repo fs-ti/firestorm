@@ -4,7 +4,7 @@
          "@name": "move_actions",
          "columns:lst_action": {
             "@label": {
-               "string": ""
+               "string": "Move Actions"
             },
             "@name": "lst_action"
          }
@@ -14,7 +14,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": ""
+               "string": "Walk to location mouse cursor points to"
             },
             "@value": {
                "string": "Gå till"
@@ -26,7 +26,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@tool_tip": {
-               "string": ""
+               "string": "Teleport to location mouse cursor points to, but not all locations allow direct teleportation so you might be teleported closer to destination instead"
             },
             "@value": {
                "string": "Teleportera till"
@@ -74,7 +74,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": ""
+               "string": "Strafe left"
             }
          }
       },
@@ -83,7 +83,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": ""
+               "string": "Strafe right"
             }
          }
       },
@@ -146,7 +146,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": ""
+               "string": "Toggle Run"
             }
          }
       },
@@ -173,7 +173,7 @@
          "columns:lst_action": {
             "@name": "lst_action",
             "@value": {
-               "string": ""
+               "string": "Stop Moving"
             }
          }
       }
