@@ -4,7 +4,7 @@
       "text:name_label": {
          "@name": "name_label",
          "#text": {
-            "string": ""
+            "string": "\n        Name:\n    "
          }
       },
       "line_editor:name_form": {
@@ -13,7 +13,7 @@
       "text:description_label": {
          "@name": "description_label",
          "#text": {
-            "string": ""
+            "string": "\n        Description:\n    "
          }
       },
       "line_editor:description_form": {
