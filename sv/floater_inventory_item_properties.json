@@ -1,0 +1,262 @@
+{
+   "floater": {
+      "@name": "item properties",
+      "@title": {
+         "string": "Inventory Item Properties"
+      },
+      "floater.string:loading_experience": {
+         "@name": "loading_experience",
+         "#text": {
+            "string": "\n        (loading)\n    "
+         }
+      },
+      "floater.string:unknown": {
+         "@name": "unknown",
+         "#text": {
+            "string": "\n        (unknown)\n    "
+         }
+      },
+      "floater.string:public": {
+         "@name": "public",
+         "#text": {
+            "string": "\n        (public)\n    "
+         }
+      },
+      "floater.string:you_can": {
+         "@name": "you_can",
+         "#text": {
+            "string": "\n        You can:\n    "
+         }
+      },
+      "floater.string:owner_can": {
+         "@name": "owner_can",
+         "#text": {
+            "string": "\n        Owner can:\n    "
+         }
+      },
+      "floater.string:acquiredDate": {
+         "@name": "acquiredDate",
+         "#text": {
+            "string": "\n        [wkday,datetime,local] [mth,datetime,local] [day,datetime,local] [hour,datetime,local]:[min,datetime,local]:[second,datetime,local] [year,datetime,local]\n    "
+         }
+      },
+      "icon:IconLocked": {
+         "@name": "IconLocked"
+      },
+      "text:LabelItemNameTitle": {
+         "@name": "LabelItemNameTitle",
+         "#text": {
+            "string": "\n        Name:\n    "
+         }
+      },
+      "line_editor:LabelItemName": {
+         "@name": "LabelItemName"
+      },
+      "text:LabelItemDescTitle": {
+         "@name": "LabelItemDescTitle",
+         "#text": {
+            "string": "\n        Description:\n    "
+         }
+      },
+      "line_editor:LabelItemDesc": {
+         "@name": "LabelItemDesc"
+      },
+      "text:LabelCreatorTitle": {
+         "@name": "LabelCreatorTitle",
+         "#text": {
+            "string": "\n        Creator:\n    "
+         }
+      },
+      "text:LabelCreatorName": {
+         "@name": "LabelCreatorName",
+         "@translate": "false"
+      },
+      "button:BtnCreator": {
+         "@label": {
+            "string": "Profile..."
+         },
+         "@name": "BtnCreator"
+      },
+      "text:LabelOwnerTitle": {
+         "@name": "LabelOwnerTitle",
+         "#text": {
+            "string": "\n        Owner:\n    "
+         }
+      },
+      "text:LabelOwnerName": {
+         "@name": "LabelOwnerName",
+         "@translate": "false"
+      },
+      "button:BtnOwner": {
+         "@label": {
+            "string": "Profile..."
+         },
+         "@name": "BtnOwner"
+      },
+      "text:LabelAcquiredTitle": {
+         "@name": "LabelAcquiredTitle",
+         "#text": {
+            "string": "\n        Acquired:\n    "
+         }
+      },
+      "text:LabelAcquiredDate": {
+         "@name": "LabelAcquiredDate"
+      },
+      "text:LabelItemExperienceTitle": {
+         "@name": "LabelItemExperienceTitle",
+         "#text": {
+            "string": "\n        Experience:\n    "
+         }
+      },
+      "text:LabelItemExperience": {
+         "@name": "LabelItemExperience"
+      },
+      "text:OwnerLabel": {
+         "@name": "OwnerLabel",
+         "#text": {
+            "string": "\n        You:\n    "
+         }
+      },
+      "check_box:CheckOwnerModify": {
+         "@label": {
+            "string": "Modify"
+         },
+         "@name": "CheckOwnerModify"
+      },
+      "check_box:CheckOwnerCopy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "CheckOwnerCopy"
+      },
+      "check_box:CheckOwnerTransfer": {
+         "@label": {
+            "string": "Transfer"
+         },
+         "@name": "CheckOwnerTransfer"
+      },
+      "check_box:CheckOwnerExport": {
+         "@label": {
+            "string": "Export"
+         },
+         "@name": "CheckOwnerExport"
+      },
+      "text:AnyoneLabel": {
+         "@name": "AnyoneLabel",
+         "#text": {
+            "string": "\n        Anyone:\n    "
+         }
+      },
+      "check_box:CheckEveryoneCopy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "CheckEveryoneCopy"
+      },
+      "text:GroupLabel": {
+         "@name": "GroupLabel",
+         "#text": {
+            "string": "\n        Group:\n    "
+         }
+      },
+      "check_box:CheckShareWithGroup": {
+         "@label": {
+            "string": "Share"
+         },
+         "@name": "CheckShareWithGroup"
+      },
+      "text:NextOwnerLabel": {
+         "@name": "NextOwnerLabel",
+         "#text": {
+            "string": "\n        Next owner:\n    "
+         }
+      },
+      "check_box:CheckNextOwnerModify": {
+         "@label": {
+            "string": "Modify"
+         },
+         "@name": "CheckNextOwnerModify"
+      },
+      "check_box:CheckNextOwnerCopy": {
+         "@label": {
+            "string": "Copy"
+         },
+         "@name": "CheckNextOwnerCopy"
+      },
+      "check_box:CheckNextOwnerTransfer": {
+         "@label": {
+            "string": "Transfer"
+         },
+         "@name": "CheckNextOwnerTransfer"
+      },
+      "check_box:CheckPurchase": {
+         "@label": {
+            "string": "For Sale"
+         },
+         "@name": "CheckPurchase"
+      },
+      "combo_box:ComboBoxSaleType": {
+         "@name": "ComboBoxSaleType",
+         "combo_box.item:Copy": {
+            "@name": "Copy",
+            "@label": {
+               "string": "Copy"
+            }
+         },
+         "combo_box.item:Contents": {
+            "@name": "Contents",
+            "@label": {
+               "string": "Contents"
+            }
+         },
+         "combo_box.item:Original": {
+            "@name": "Original",
+            "@label": {
+               "string": "Original"
+            }
+         }
+      },
+      "spinner:Edit Cost": {
+         "@name": "Edit Cost",
+         "@label": {
+            "string": "Price:"
+         }
+      },
+      "text:CurrencySymbol": {
+         "@name": "CurrencySymbol",
+         "#text": {
+            "string": "\n      L$\n    "
+         }
+      },
+      "text:BaseMaskDebug": {
+         "@name": "BaseMaskDebug",
+         "#text": {
+            "string": "\n        B:\n    "
+         }
+      },
+      "text:OwnerMaskDebug": {
+         "@name": "OwnerMaskDebug",
+         "#text": {
+            "string": "\n        O:\n    "
+         }
+      },
+      "text:GroupMaskDebug": {
+         "@name": "GroupMaskDebug",
+         "#text": {
+            "string": "\n        G:\n    "
+         }
+      },
+      "text:EveryoneMaskDebug": {
+         "@name": "EveryoneMaskDebug",
+         "#text": {
+            "string": "\n        E:\n    "
+         }
+      },
+      "text:NextMaskDebug": {
+         "@name": "NextMaskDebug",
+         "#text": {
+            "string": "\n        N:\n    "
+         }
+      }
+   }
+}
