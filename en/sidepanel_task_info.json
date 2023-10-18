@@ -140,17 +140,12 @@
                   "string": "\n          Creator:\n      "
                }
             },
-            "text:Creator Name": {
-               "@name": "Creator Name"
-            },
+            "text": null,
             "text:Owner:": {
                "@name": "Owner:",
                "#text": {
                   "string": "\n          Owner:\n       "
                }
-            },
-            "text:Owner Name": {
-               "@name": "Owner Name"
             },
             "text:Group_label": {
                "@name": "Group_label",
