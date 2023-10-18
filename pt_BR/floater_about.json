@@ -1,0 +1,110 @@
+{
+   "floater": {
+      "@name": "floater_about",
+      "@title": {
+         "string": "Sobre [APP_NAME]"
+      },
+      "tab_container:about_tab": {
+         "@name": "about_tab",
+         "panel:support_panel": {
+            "@label": {
+               "string": "Info"
+            },
+            "@name": "support_panel",
+            "text:support_intro": {
+               "@name": "support_intro",
+               "#text": {
+                  "string": "    \nFor the latest information about Firestorm, visit    \nhttps://www.firestormviewer.org\n        "
+               }
+            },
+            "text_editor:support_editor": {
+               "@name": "support_editor"
+            },
+            "button:copy_btn": {
+               "@label": {
+                  "string": "Copiar"
+               },
+               "@name": "copy_btn"
+            }
+         },
+         "panel:credits_panel": {
+            "@label": {
+               "string": "Créditos"
+            },
+            "@name": "credits_panel",
+            "text:linden_intro": {
+               "@name": "linden_intro",
+               "#text": {
+                  "string": "\n      Firestorm would not be possible without the decision from Linden Lab to make their Second Life viewer source code available.\n      \nO Second Life é trazido a você pela Lindens,\ncom contribuições de código aberto de:\n      "
+               }
+            },
+            "text_editor:contrib_names": {
+               "@name": "contrib_names"
+            }
+         },
+         "panel:fs_credits_panel": {
+            "@label": {
+               "string": null
+            },
+            "@name": "fs_credits_panel",
+            "scroll_container:fs_credits_scroll_container": {
+               "@name": "fs_credits_scroll_container",
+               "panel:fs_credits_scroll_container_content_panel": {
+                  "@name": "fs_credits_scroll_container_content_panel",
+                  "text:firestorm_intro": {
+                     "@name": "firestorm_intro",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "text:firestorm_names": {
+                     "@name": "firestorm_names"
+                  },
+                  "text:fs_contrib_intro": {
+                     "@name": "fs_contrib_intro",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "text:fs_contrib_names": {
+                     "@name": "fs_contrib_names"
+                  },
+                  "text:fs_support_intro": {
+                     "@name": "fs_support_intro",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "text:fs_trans_names": {
+                     "@name": "fs_trans_names",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "text:fs_art_intro": {
+                     "@name": "fs_art_intro",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "text:fs_artists_names": {
+                     "@name": "fs_artists_names"
+                  }
+               }
+            }
+         },
+         "panel:licenses_panel": {
+            "@label": {
+               "string": "Licenças"
+            },
+            "@name": "licenses_panel",
+            "text_editor:licenses_editor": {
+               "@name": "licenses_editor",
+               "#text": {
+                  "string": "\n        3Dconnexion SDK Copyright (C) 1992-2009 3Dconnexion\nAPR Copyright (C) 2011 The Apache Software Foundation\nCollada DOM Copyright 2006 Sony Computer Entertainment Inc.\ncURL Copyright (C) 1996-2010, Daniel Stenberg, (daniel@haxx.se)\nDBus/dbus-glib Copyright (C) 2002, 2003  CodeFactory AB / Copyright (C) 2003, 2004 Red Hat, Inc.\nexpat Copyright (C) 1998, 1999, 2000 Thai Open Source Software Center Ltd.\nFMOD Sound System Copyright (C) Firelight Technologies Pty, Ltd., 1994-2020\nFreeType Copyright (C) 1996-2002, 2006 David Turner, Robert Wilhelm, and Werner Lemberg.\nGL Copyright (C) 1999-2004 Brian Paul.\nHavok.com(TM) Copyright (C) 1999-2001, Telekinesys Research Limited.\nHACD Copyright (C) 2011, Khaled Mamou (kmamou@gmail.com)\njpeg2000 Copyright (C) 2001, David Taubman, The University of New South Wales (UNSW)\njpeglib Copyright (C) 1991-1998, Thomas G. Lane.\nmeshoptimizer Copyright (c) 2016-2021 Arseny Kapoulkine\nogg/vorbis Copyright (C) 2002, Xiphophorus\nOpenSSL Copyright (C) 1998-2008 The OpenSSL Project.\nPCRE Copyright (c) 1997-2012 University of Cambridge\nSDL Copyright (C) 1997, 1998, 1999, 2000, 2001, 2002 Sam Lantinga\nSSLeay Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)\nxmlrpc-epi Copyright (C) 2000 Epinions, Inc.\nxxHash Copyright (C) 2012-2020 Yann Collet.\nzlib Copyright (C) 1995-2012 Jean-loup Gailly and Mark Adler.\n\nO Visualizador do Second Life usa Havok (TM) Physics. (c)Copyright 1999-2010 Havok.com Inc. (e seus Licenciantes). Todos os direitos reservados. Consulte www.havok.com para obter detalhes.\n\nEste software contém código fonte fornecido pela NVIDIA Corporation.\n\nTodos os direitos reservados.  Consulte licenses.txt para obter detalhes.\n\nCodificação de áudio da conversa com voz: Polycom(R) Siren14(TM) (ITU-T Rec. G.722.1 Annex C)\n      "
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,211 @@
+{
+   "floater": {
+      "@name": "avatarpicker",
+      "@title": {
+         "string": "Selecione o Residente"
+      },
+      "floater.string:not_found": {
+         "@name": "not_found",
+         "#text": {
+            "string": "\n    '[TEXT]' não encontrado\n  "
+         }
+      },
+      "floater.string:not_found_text": {
+         "@name": "not_found_text",
+         "#text": {
+            "string": "\n    Residente não encontrado.\n  "
+         }
+      },
+      "floater.string:no_one_near": {
+         "@name": "no_one_near",
+         "#text": {
+            "string": "\n    Ninguém por perto\n  "
+         }
+      },
+      "floater.string:no_results": {
+         "@name": "no_results",
+         "#text": {
+            "string": "\n    Nenhum resultado\n  "
+         }
+      },
+      "floater.string:searching": {
+         "@name": "searching",
+         "#text": {
+            "string": "\n    Buscando...\n  "
+         }
+      },
+      "#comment": " For multiple person selection, use \"Select\" and \"Close\" \n      instead of \"OK\" and \"Cancel\" because \"Cancel\" still keeps the ones \n      you have already selected.  The code will show the appropriate\n      set of buttons. ",
+      "str_ing:Select": {
+         "@name": "Select",
+         "#text": {
+            "string": "\n    Selecionar\n  "
+         }
+      },
+      "str_ing:Close": {
+         "@name": "Close",
+         "#text": {
+            "string": "\n    Fechar\n  "
+         }
+      },
+      "tab_container:ResidentChooserTabs": {
+         "@name": "ResidentChooserTabs",
+         "panel:SearchPanel": {
+            "@label": {
+               "string": "Buscar"
+            },
+            "@name": "SearchPanel",
+            "text:InstructSearchResidentName": {
+               "@name": "InstructSearchResidentName",
+               "#text": {
+                  "string": "\n        Digite parte do nome de alguém:\n      "
+               }
+            },
+            "line_editor:Edit": {
+               "@name": "Edit"
+            },
+            "button:Find": {
+               "@label": {
+                  "string": "OK"
+               },
+               "@name": "Find"
+            },
+            "fs_scroll_list:SearchResults": {
+               "@name": "SearchResults",
+               "columns:name": {
+                  "@label": {
+                     "string": "Nome"
+                  },
+                  "@name": "name"
+               },
+               "columns:username": {
+                  "@label": {
+                     "string": "Nome de usuário"
+                  },
+                  "@name": "username"
+               }
+            }
+         },
+         "panel:FriendsPanel": {
+            "@label": {
+               "string": "Amigos"
+            },
+            "@name": "FriendsPanel",
+            "text:InstructSelectFriend": {
+               "@name": "InstructSelectFriend",
+               "#text": {
+                  "string": "\n        Selecione alguém:\n      "
+               }
+            },
+            "button:RefreshFriends": {
+               "@name": "RefreshFriends",
+               "button.commit_callback": null
+            },
+            "fs_scroll_list:Friends": {
+               "@name": "Friends",
+               "columns:name": {
+                  "@label": {
+                     "string": "Nome"
+                  },
+                  "@name": "name"
+               },
+               "columns:username": {
+                  "@label": {
+                     "string": "Nome de usuário"
+                  },
+                  "@name": "username"
+               }
+            }
+         },
+         "panel:NearMePanel": {
+            "@label": {
+               "string": "Próximo a Mim"
+            },
+            "@name": "NearMePanel",
+            "text:InstructSelectResident": {
+               "@name": "InstructSelectResident",
+               "#text": {
+                  "string": "\n        Selecione alguém por perto:\n      "
+               }
+            },
+            "slider:near_me_range": {
+               "@label": {
+                  "string": "Faixa"
+               },
+               "@name": "near_me_range"
+            },
+            "text:meters": {
+               "@name": "meters",
+               "#text": {
+                  "string": "\n        Metros\n      "
+               }
+            },
+            "button:Refresh": {
+               "@name": "Refresh"
+            },
+            "fs_scroll_list:NearMe": {
+               "@name": "NearMe",
+               "columns:name": {
+                  "@label": {
+                     "string": "Nome"
+                  },
+                  "@name": "name"
+               },
+               "columns:username": {
+                  "@label": {
+                     "string": "Nome de usuário"
+                  },
+                  "@name": "username"
+               }
+            }
+         },
+         "panel:SearchPanelUUID": {
+            "@label": {
+               "string": null
+            },
+            "@name": "SearchPanelUUID",
+            "text:SearchByUUIDLabel": {
+               "@name": "SearchByUUIDLabel",
+               "#text": {
+                  "string": null
+               }
+            },
+            "line_editor:EditUUID": {
+               "@name": "EditUUID"
+            },
+            "button:FindUUID": {
+               "@label": {
+                  "string": null
+               },
+               "@name": "FindUUID"
+            },
+            "fs_scroll_list:SearchResultsUUID": {
+               "@name": "SearchResultsUUID",
+               "columns:nameUUID": {
+                  "@label": {
+                     "string": null
+                  },
+                  "@name": "nameUUID"
+               },
+               "columns:usernameUUID": {
+                  "@label": {
+                     "string": null
+                  },
+                  "@name": "usernameUUID"
+               }
+            }
+         }
+      },
+      "button:ok_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

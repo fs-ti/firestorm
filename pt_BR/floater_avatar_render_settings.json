@@ -1,0 +1,47 @@
+{
+   "floater": {
+      "@name": "floater_avatar_render_settings",
+      "@title": {
+         "string": "Exceções de Exibição de Avatar"
+      },
+      "str_ing:av_never_render": {
+         "@name": "av_never_render",
+         "@value": {
+            "string": "Nunca"
+         }
+      },
+      "str_ing:av_always_render": {
+         "@name": "av_always_render",
+         "@value": {
+            "string": "Sempre"
+         }
+      },
+      "name_list:render_settings_list": {
+         "@name": "render_settings_list",
+         "name_list.columns:name": {
+            "@label": {
+               "string": "Nome"
+            },
+            "@name": "name"
+         },
+         "name_list.columns:setting": {
+            "@label": {
+               "string": "Detalhes completos"
+            },
+            "@name": "setting"
+         }
+      },
+      "panel:add_subpanel": {
+         "@name": "add_subpanel",
+         "menu_button:plus_btn": {
+            "@label": {
+               "string": "Adicionar alguém..."
+            },
+            "@name": "plus_btn",
+            "@tool_tip": {
+               "string": "Ações nas pessoas selecionadas"
+            }
+         }
+      }
+   }
+}

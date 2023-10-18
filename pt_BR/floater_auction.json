@@ -1,0 +1,54 @@
+{
+   "floater": {
+      "@name": "floater_auction",
+      "@title": {
+         "string": "Iniciar Venda de Terreno Linden"
+      },
+      "floater.string:already for sale": {
+         "@name": "already for sale",
+         "#text": {
+            "string": "\n    Você não pode leiloar terrenos que já estão para venda.\n  "
+         }
+      },
+      "icon:snapshot_icon": {
+         "@name": "snapshot_icon"
+      },
+      "text:parcel_text": {
+         "@name": "parcel_text"
+      },
+      "check_box:fence_check": {
+         "@label": {
+            "string": "Incluir uma cerca de seleção amarela"
+         },
+         "@name": "fence_check"
+      },
+      "button:snapshot_btn": {
+         "@label": {
+            "string": "Foto"
+         },
+         "@name": "snapshot_btn",
+         "button.commit_callback": null
+      },
+      "button:sell_to_anyone_btn": {
+         "@label": {
+            "string": "Vender a qualquer um"
+         },
+         "@name": "sell_to_anyone_btn",
+         "button.commit_callback": null
+      },
+      "button:reset_parcel_btn": {
+         "@label": {
+            "string": "Limpar configurações"
+         },
+         "@name": "reset_parcel_btn",
+         "button.commit_callback": null
+      },
+      "button:start_auction_btn": {
+         "@label": {
+            "string": "Iniciar leilão"
+         },
+         "@name": "start_auction_btn",
+         "button.commit_callback": null
+      }
+   }
+}

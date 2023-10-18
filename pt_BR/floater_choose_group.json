@@ -1,0 +1,32 @@
+{
+   "floater": {
+      "@name": "groups",
+      "@title": {
+         "string": "Grupos"
+      },
+      "text:groupdesc": {
+         "@name": "groupdesc",
+         "#text": {
+            "string": "\n    Escolha um grupo:\n  "
+         }
+      },
+      "scroll_list:group list": {
+         "@name": "group list",
+         "scroll_list.columns:name": {
+            "@name": "name"
+         }
+      },
+      "button:OK": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "OK"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

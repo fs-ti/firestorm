@@ -1,0 +1,35 @@
+{
+   "floater": {
+      "@name": "floater_conversation_log",
+      "@title": {
+         "string": "Registro de Conversa"
+      },
+      "panel:buttons_panel": {
+         "@name": "buttons_panel",
+         "filter_editor:people_filter_input": {
+            "@label": {
+               "string": "Filtrar pessoas"
+            },
+            "@name": "people_filter_input"
+         },
+         "menu_button:conversations_gear_btn": {
+            "@name": "conversations_gear_btn",
+            "@tool_tip": {
+               "string": "Ações em uma pessoa ou um grupo selecionado"
+            }
+         },
+         "menu_button:conversation_view_btn": {
+            "@name": "conversation_view_btn",
+            "@tool_tip": {
+               "string": "Opções de exibição/ordenação"
+            }
+         }
+      },
+      "panel:log_panel": {
+         "@name": "log_panel",
+         "conversation_log_list:conversation_log_list": {
+            "@name": "conversation_log_list"
+         }
+      }
+   }
+}

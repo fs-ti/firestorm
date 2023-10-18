@@ -1,0 +1,23 @@
+{
+   "floater": {
+      "@name": "modal container",
+      "button:Continue": {
+         "@label": {
+            "string": "Continuar"
+         },
+         "@name": "Continue"
+      },
+      "text:tos_heading": {
+         "@name": "tos_heading",
+         "#text": {
+            "string": "\n    Por favor, leia a mensagem a seguir cuidadosamente.\n  "
+         }
+      },
+      "text_editor:tos_text": {
+         "@name": "tos_text",
+         "#text": {
+            "string": "\n    TOS_TEXT\n  "
+         }
+      }
+   }
+}

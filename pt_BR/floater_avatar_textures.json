@@ -1,0 +1,311 @@
+{
+   "floater": {
+      "@name": "avatar_texture_debug",
+      "@title": {
+         "string": "Texturas de Avatar"
+      },
+      "floater.string:InvalidAvatar": {
+         "@name": "InvalidAvatar",
+         "#text": {
+            "string": "\n        Avatar Inválido\n    "
+         }
+      },
+      "scroll_container:profile_scroll": {
+         "@name": "profile_scroll",
+         "panel:scroll_content_panel": {
+            "@name": "scroll_content_panel",
+            "text:label": {
+               "@name": "label",
+               "#text": {
+                  "string": "Pronto\nTexturas"
+               }
+            },
+            "text:composite_label": {
+               "@name": "composite_label",
+               "#text": {
+                  "string": "Composto:\nTexturas"
+               }
+            },
+            "button:Dump": {
+               "@label": {
+                  "string": "Enviar IDs para painel"
+               },
+               "@name": "Dump"
+            },
+            "panel:scroll_content_panel": {
+               "@name": "scroll_content_panel",
+               "texture_picker:hair-baked": {
+                  "@label": {
+                     "string": "Cabelo"
+                  },
+                  "@name": "hair-baked"
+               },
+               "texture_picker:hair_grain": {
+                  "@label": {
+                     "string": "Cabelo"
+                  },
+                  "@name": "hair_grain"
+               },
+               "texture_picker:hair_alpha": {
+                  "@label": {
+                     "string": "Cabelo alpha"
+                  },
+                  "@name": "hair_alpha"
+               },
+               "texture_picker:hair_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem no Cabelo"
+                  },
+                  "@name": "hair_tattoo"
+               },
+               "texture_picker:head-baked": {
+                  "@label": {
+                     "string": "Cabeça"
+                  },
+                  "@name": "head-baked"
+               },
+               "texture_picker:head_bodypaint": {
+                  "@label": {
+                     "string": "Maquilagem"
+                  },
+                  "@name": "head_bodypaint"
+               },
+               "texture_picker:head_alpha": {
+                  "@label": {
+                     "string": "Cabeça Alpha"
+                  },
+                  "@name": "head_alpha"
+               },
+               "texture_picker:head_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem na cabeça"
+                  },
+                  "@name": "head_tattoo"
+               },
+               "texture_picker:head_universal_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem Univ. na Cabeça"
+                  },
+                  "@name": "head_universal_tattoo"
+               },
+               "texture_picker:eyes-baked": {
+                  "@label": {
+                     "string": "Olhos"
+                  },
+                  "@name": "eyes-baked"
+               },
+               "texture_picker:eyes_iris": {
+                  "@label": {
+                     "string": "Olho"
+                  },
+                  "@name": "eyes_iris"
+               },
+               "texture_picker:eyes_alpha": {
+                  "@label": {
+                     "string": "Olhos Alpha"
+                  },
+                  "@name": "eyes_alpha"
+               },
+               "texture_picker:eyes_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem nos Olhos"
+                  },
+                  "@name": "eyes_tattoo"
+               },
+               "texture_picker:upper-baked": {
+                  "@label": {
+                     "string": "Cintura acima"
+                  },
+                  "@name": "upper-baked"
+               },
+               "texture_picker:upper_bodypaint": {
+                  "@label": {
+                     "string": "Pintura corporal, cintura para cima"
+                  },
+                  "@name": "upper_bodypaint"
+               },
+               "texture_picker:upper_undershirt": {
+                  "@label": {
+                     "string": "Camiseta"
+                  },
+                  "@name": "upper_undershirt"
+               },
+               "texture_picker:upper_gloves": {
+                  "@label": {
+                     "string": "Luvas"
+                  },
+                  "@name": "upper_gloves"
+               },
+               "texture_picker:upper_shirt": {
+                  "@label": {
+                     "string": "Camisa"
+                  },
+                  "@name": "upper_shirt"
+               },
+               "texture_picker:upper_jacket": {
+                  "@label": {
+                     "string": "Jaqueta (cima)"
+                  },
+                  "@name": "upper_jacket"
+               },
+               "texture_picker:upper_alpha": {
+                  "@label": {
+                     "string": "Alpha de cima"
+                  },
+                  "@name": "upper_alpha"
+               },
+               "texture_picker:upper_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem parte de cima"
+                  },
+                  "@name": "upper_tattoo"
+               },
+               "texture_picker:upper_universal_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem Univ. Superior"
+                  },
+                  "@name": "upper_universal_tattoo"
+               },
+               "texture_picker:lower-baked": {
+                  "@label": {
+                     "string": "Cintura para baixo"
+                  },
+                  "@name": "lower-baked"
+               },
+               "texture_picker:lower_bodypaint": {
+                  "@label": {
+                     "string": "Cintura para baixo"
+                  },
+                  "@name": "lower_bodypaint"
+               },
+               "texture_picker:lower_underpants": {
+                  "@label": {
+                     "string": "Roupa de baixo"
+                  },
+                  "@name": "lower_underpants"
+               },
+               "texture_picker:lower_socks": {
+                  "@label": {
+                     "string": "Meias"
+                  },
+                  "@name": "lower_socks"
+               },
+               "texture_picker:lower_shoes": {
+                  "@label": {
+                     "string": "Sapatos"
+                  },
+                  "@name": "lower_shoes"
+               },
+               "texture_picker:lower_pants": {
+                  "@label": {
+                     "string": "Calças"
+                  },
+                  "@name": "lower_pants"
+               },
+               "texture_picker:lower_jacket": {
+                  "@label": {
+                     "string": "Jaqueta"
+                  },
+                  "@name": "lower_jacket"
+               },
+               "texture_picker:lower_alpha": {
+                  "@label": {
+                     "string": "Alpha inferior"
+                  },
+                  "@name": "lower_alpha"
+               },
+               "texture_picker:lower_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem de baixo"
+                  },
+                  "@name": "lower_tattoo"
+               },
+               "texture_picker:lower_universal_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem Univ. Inferior"
+                  },
+                  "@name": "lower_universal_tattoo"
+               },
+               "texture_picker:skirt-baked": {
+                  "@label": {
+                     "string": "Saia"
+                  },
+                  "@name": "skirt-baked"
+               },
+               "texture_picker:skirt": {
+                  "@label": {
+                     "string": "Saia"
+                  },
+                  "@name": "skirt"
+               },
+               "texture_picker:skirt_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem na Saia"
+                  },
+                  "@name": "skirt_tattoo"
+               },
+               "texture_picker:leftarm-baked": {
+                  "@label": {
+                     "string": "Braço Esquerdo"
+                  },
+                  "@name": "leftarm-baked"
+               },
+               "texture_picker:leftarm_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem no Braço Esquerdo"
+                  },
+                  "@name": "leftarm_tattoo"
+               },
+               "texture_picker:leftleg-baked": {
+                  "@label": {
+                     "string": "Perna Esquerda"
+                  },
+                  "@name": "leftleg-baked"
+               },
+               "texture_picker:leftleg_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem na Perna Esquerda"
+                  },
+                  "@name": "leftleg_tattoo"
+               },
+               "texture_picker:aux1-baked": {
+                  "@label": {
+                     "string": "AUX 1"
+                  },
+                  "@name": "aux1-baked"
+               },
+               "texture_picker:aux1_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem AUX 1"
+                  },
+                  "@name": "aux1_tattoo"
+               },
+               "texture_picker:aux2-baked": {
+                  "@label": {
+                     "string": "AUX 2"
+                  },
+                  "@name": "aux2-baked"
+               },
+               "texture_picker:aux2_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem AUX 2"
+                  },
+                  "@name": "aux2_tattoo"
+               },
+               "texture_picker:aux3-baked": {
+                  "@label": {
+                     "string": "AUX 3"
+                  },
+                  "@name": "aux3-baked"
+               },
+               "texture_picker:aux3_tattoo": {
+                  "@label": {
+                     "string": "Tatuagem AUX 3"
+                  },
+                  "@name": "aux3_tattoo"
+               }
+            }
+         }
+      }
+   }
+}

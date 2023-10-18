@@ -1,0 +1,62 @@
+{
+   "floater": {
+      "@name": "Display Name",
+      "@title": {
+         "string": "Mudar Nome de Exibição"
+      },
+      "text:info_text": {
+         "@name": "info_text",
+         "#text": {
+            "string": "\n    O nome que você selecionou para o seu avatar é denominado nome de exibição. Você pode mudar seu nome de exibição uma vez por semana.\n  "
+         }
+      },
+      "text:lockout_text": {
+         "@name": "lockout_text",
+         "#text": {
+            "string": "\n    Você poderá mudar seu Nome de Exibição depois de: [TIME].\n  "
+         }
+      },
+      "text:set_name_label": {
+         "@name": "set_name_label",
+         "#text": {
+            "string": "\n    Novo Nome de Exibição:\n  "
+         }
+      },
+      "line_editor:display_name_editor": {
+         "@name": "display_name_editor"
+      },
+      "text:name_confirm_label": {
+         "@name": "name_confirm_label",
+         "#text": {
+            "string": "\n    Digite seu novo nome novamente para confirmá-lo:\n  "
+         }
+      },
+      "line_editor:display_name_confirm": {
+         "@name": "display_name_confirm"
+      },
+      "button:reset_btn": {
+         "@label": {
+            "string": "Redefinir"
+         },
+         "@name": "reset_btn",
+         "@tool_tip": {
+            "string": "Usar o mesmo nome como Nome de Exibição e de Usuário"
+         }
+      },
+      "button:save_btn": {
+         "@label": {
+            "string": "Salvar"
+         },
+         "@name": "save_btn",
+         "@tool_tip": {
+            "string": "Salvar o novo Nome de Exibição"
+         }
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

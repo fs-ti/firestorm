@@ -1,0 +1,122 @@
+{
+   "floater": {
+      "@name": "beacons",
+      "@title": {
+         "string": "Balizas"
+      },
+      "panel:beacons_panel": {
+         "@name": "beacons_panel",
+         "text:label_show": {
+            "@name": "label_show",
+            "#text": {
+               "string": "\n      Mostrar:\n    "
+            }
+         },
+         "check_box:lights_bounding_boxes": {
+            "@label": {
+               "string": null
+            },
+            "@name": "lights_bounding_boxes",
+            "check_box.on_check": null,
+            "check_box.check_button.commit_callback": null
+         },
+         "check_box:beacons": {
+            "@label": {
+               "string": "Balizas"
+            },
+            "@name": "beacons",
+            "check_box.commit_callback": null
+         },
+         "check_box:highlights": {
+            "@label": {
+               "string": "Realce"
+            },
+            "@name": "highlights",
+            "check_box.commit_callback": null
+         },
+         "check_box:FSRenderBeaconText": {
+            "@label": {
+               "string": null
+            },
+            "@name": "FSRenderBeaconText"
+         },
+         "text:beacon_width_label": {
+            "@tool_tip": {
+               "string": "Largura da baliza"
+            },
+            "@name": "beacon_width_label",
+            "#text": {
+               "string": "\n      Largura:\n    "
+            }
+         },
+         "slider:beacon_width": {
+            "@name": "beacon_width"
+         },
+         "text:label_objects": {
+            "@name": "label_objects",
+            "#text": {
+               "string": "\n      Para estes objetos:\n    "
+            }
+         },
+         "check_box:physical": {
+            "@label": {
+               "string": "Físicos"
+            },
+            "@name": "physical",
+            "check_box.commit_callback": null
+         },
+         "check_box:scripted": {
+            "@label": {
+               "string": "Com script"
+            },
+            "@name": "scripted",
+            "check_box.commit_callback": null
+         },
+         "check_box:touch_only": {
+            "@label": {
+               "string": "Só tocar"
+            },
+            "@name": "touch_only",
+            "check_box.commit_callback": null
+         },
+         "check_box:sounds": {
+            "@label": {
+               "string": "Fontes de som"
+            },
+            "@name": "sounds",
+            "check_box.commit_callback": null
+         },
+         "check_box:particles": {
+            "@label": {
+               "string": "Fontes de partículas"
+            },
+            "@name": "particles",
+            "check_box.commit_callback": null
+         },
+         "check_box:moapbeacon": {
+            "@label": {
+               "string": "Fontes de mídia"
+            },
+            "@name": "moapbeacon",
+            "check_box.commit_callback": null
+         },
+         "view_border:cost_text_border": {
+            "@name": "cost_text_border"
+         },
+         "check_box:sun": {
+            "@label": {
+               "string": "Sol"
+            },
+            "@name": "sun",
+            "check_box.commit_callback": null
+         },
+         "check_box:moon": {
+            "@label": {
+               "string": "Lua"
+            },
+            "@name": "moon",
+            "check_box.commit_callback": null
+         }
+      }
+   }
+}

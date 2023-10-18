@@ -1,0 +1,489 @@
+{
+   "floater": {
+      "@name": "buy land",
+      "@title": {
+         "string": "Comprar Terreno"
+      },
+      "floater.string:can_resell": {
+         "@name": "can_resell",
+         "#text": {
+            "string": "\n    Pode ser revendida.\n  "
+         }
+      },
+      "floater.string:can_not_resell": {
+         "@name": "can_not_resell",
+         "#text": {
+            "string": "\n    Não pode ser revendida.\n  "
+         }
+      },
+      "floater.string:can_change": {
+         "@name": "can_change",
+         "#text": {
+            "string": "\n    Pode ser unida ou subdivida.\n  "
+         }
+      },
+      "floater.string:can_not_change": {
+         "@name": "can_not_change",
+         "#text": {
+            "string": "\n    Não pode ser unida ou subdividida.\n  "
+         }
+      },
+      "floater.string:cant_buy_for_group": {
+         "@name": "cant_buy_for_group",
+         "#text": {
+            "string": "\n    Você não tem permissão para comprar terra para seu grupo ativo.\n  "
+         }
+      },
+      "floater.string:no_land_selected": {
+         "@name": "no_land_selected",
+         "#text": {
+            "string": "\n    Nenhuma terra selecionada.\n  "
+         }
+      },
+      "floater.string:multiple_parcels_selected": {
+         "@name": "multiple_parcels_selected",
+         "#text": {
+            "string": "\n    Múltiplos e diferentes lotes selecionados. Tente selecionar uma área menor.\n  "
+         }
+      },
+      "floater.string:no_permission": {
+         "@name": "no_permission",
+         "#text": {
+            "string": "\n    Você não tem permissão para comprar uma terra para seu grupo ativo.\n  "
+         }
+      },
+      "floater.string:parcel_not_for_sale": {
+         "@name": "parcel_not_for_sale",
+         "#text": {
+            "string": "\n    O lote selecionado não está a venda.\n  "
+         }
+      },
+      "floater.string:group_already_owns": {
+         "@name": "group_already_owns",
+         "#text": {
+            "string": "\n    O grupo já possui o lote.\n  "
+         }
+      },
+      "floater.string:you_already_own": {
+         "@name": "you_already_own",
+         "#text": {
+            "string": "\n    Você já possui o lote.\n  "
+         }
+      },
+      "floater.string:set_to_sell_to_other": {
+         "@name": "set_to_sell_to_other",
+         "#text": {
+            "string": "\n    O lote selecionado está configurado para ser vendido para outro grupo.\n  "
+         }
+      },
+      "floater.string:no_public_land": {
+         "@name": "no_public_land",
+         "#text": {
+            "string": "\n    A área selecionada não tem terras públicas.\n  "
+         }
+      },
+      "floater.string:not_owned_by_you": {
+         "@name": "not_owned_by_you",
+         "#text": {
+            "string": "\n    Terrenos de outros residentes foram selecionados. \nTente selecionar uma área menor.\n  "
+         }
+      },
+      "floater.string:processing": {
+         "@name": "processing",
+         "#text": {
+            "string": "\n    Processando sua compra...\n \n(Isso pode levar um minuto.)\n  "
+         }
+      },
+      "floater.string:fetching_error": {
+         "@name": "fetching_error",
+         "#text": {
+            "string": "\n    Houve um erro ao buscar informações sobre compra de terras.\n  "
+         }
+      },
+      "floater.string:buying_will": {
+         "@name": "buying_will",
+         "#text": {
+            "string": "\n    Comprar esta terra irá:\n  "
+         }
+      },
+      "floater.string:buying_for_group": {
+         "@name": "buying_for_group",
+         "#text": {
+            "string": "\n    Ao comprar terra para o grupo:\n  "
+         }
+      },
+      "floater.string:cannot_buy_now": {
+         "@name": "cannot_buy_now",
+         "#text": {
+            "string": "\n    Não foi possível comprar agora:\n  "
+         }
+      },
+      "floater.string:not_for_sale": {
+         "@name": "not_for_sale",
+         "#text": {
+            "string": "\n    Não disponível para venda:\n  "
+         }
+      },
+      "floater.string:none_needed": {
+         "@name": "none_needed",
+         "#text": {
+            "string": "\n    nada necessário\n  "
+         }
+      },
+      "floater.string:must_upgrade": {
+         "@name": "must_upgrade",
+         "#text": {
+            "string": "\n    Sua conta deve ser evoluída para adquirir um lote.\n  "
+         }
+      },
+      "floater.string:cant_own_land": {
+         "@name": "cant_own_land",
+         "#text": {
+            "string": "\n    Sua conta pode possuir uma terra.\n  "
+         }
+      },
+      "floater.string:land_holdings": {
+         "@name": "land_holdings",
+         "#text": {
+            "string": "\n    Você tem [BUYER] m².\n  "
+         }
+      },
+      "floater.string:pay_to_for_land": {
+         "@name": "pay_to_for_land",
+         "#text": {
+            "string": "\n    Pagar L$ [AMOUNT] para [SELLER] por esta terra\n  "
+         }
+      },
+      "floater.string:buy_for_US": {
+         "@name": "buy_for_US",
+         "#text": {
+            "string": "\n    Compre L$ [AMOUNT] por cerca de [LOCAL_AMOUNT],\n  "
+         }
+      },
+      "floater.string:parcel_meters": {
+         "@name": "parcel_meters",
+         "#text": {
+            "string": "\n    Este lote tem [AMOUNT] m²\n  "
+         }
+      },
+      "floater.string:premium_land": {
+         "@name": "premium_land",
+         "#text": {
+            "string": "\n    Esse é um terreno premium e custa o equivalente a [AMOUNT] m².\n  "
+         }
+      },
+      "floater.string:discounted_land": {
+         "@name": "discounted_land",
+         "#text": {
+            "string": "\n    Esse é um terreno com desconto, e custa o equivalente a [AMOUNT] m².\n  "
+         }
+      },
+      "floater.string:meters_supports_object": {
+         "@name": "meters_supports_object",
+         "#text": {
+            "string": "\n    [AMOUNT] m²\nsuporta [AMOUNT2] objetos\n  "
+         }
+      },
+      "floater.string:sold_with_objects": {
+         "@name": "sold_with_objects",
+         "#text": {
+            "string": "\n    vendido com objetos\n  "
+         }
+      },
+      "floater.string:sold_without_objects": {
+         "@name": "sold_without_objects",
+         "#text": {
+            "string": "\n    objetos não incluídos\n  "
+         }
+      },
+      "floater.string:info_price_string": {
+         "@name": "info_price_string",
+         "#text": {
+            "string": "\n    L$ [PRICE]\n(L$ [PRICE_PER_SQM]/m²)\n[SOLD_WITH_OBJECTS]\n  "
+         }
+      },
+      "floater.string:insufficient_land_credits": {
+         "@name": "insufficient_land_credits",
+         "#text": {
+            "string": "\n    O grupo [GROUP] precisará de fundos suficientes de terras\ncontribuídas para cobrir este lote antes da aquisição se completar.\n  "
+         }
+      },
+      "floater.string:have_enough_lindens": {
+         "@name": "have_enough_lindens",
+         "#text": {
+            "string": "\n    Você tem L$ [AMOUNT], suficiente para comprar este lote.\n  "
+         }
+      },
+      "floater.string:not_enough_lindens": {
+         "@name": "not_enough_lindens",
+         "#text": {
+            "string": "\n    Você tem somente L$ [AMOUNT], e precisa de mais L$ [AMOUNT2].\n  "
+         }
+      },
+      "floater.string:balance_left": {
+         "@name": "balance_left",
+         "#text": {
+            "string": "\n    Após a compra, restará L$ [AMOUNT].\n  "
+         }
+      },
+      "floater.string:balance_needed": {
+         "@name": "balance_needed",
+         "#text": {
+            "string": "\n    Você precisa comprar pelo menos L$ [AMOUNT] para ter recursos para este lote.\n  "
+         }
+      },
+      "floater.string:no_parcel_selected": {
+         "@name": "no_parcel_selected",
+         "#text": {
+            "string": "\n    (nenhum lote selecionado)\n  "
+         }
+      },
+      "floater.string:icon_PG": {
+         "@name": "icon_PG",
+         "@translate": "false"
+      },
+      "floater.string:icon_M": {
+         "@name": "icon_M",
+         "@translate": "false"
+      },
+      "floater.string:icon_R": {
+         "@name": "icon_R",
+         "@translate": "false"
+      },
+      "text:region_name_label": {
+         "@name": "region_name_label",
+         "#text": {
+            "string": "\n    Região:\n  "
+         }
+      },
+      "text:region_name_text": {
+         "@name": "region_name_text",
+         "#text": {
+            "string": "\n    (desconhecido)\n  "
+         }
+      },
+      "icon:rating_icon": {
+         "@name": "rating_icon"
+      },
+      "text:region_type_label": {
+         "@name": "region_type_label",
+         "#text": {
+            "string": "\n    Tipo:\n  "
+         }
+      },
+      "text:region_type_text": {
+         "@name": "region_type_text",
+         "#text": {
+            "string": "\n    (desconhecido)\n  "
+         }
+      },
+      "text:estate_name_label": {
+         "@name": "estate_name_label",
+         "#text": {
+            "string": "\n    Propriedade:\n  "
+         }
+      },
+      "text:estate_name_text": {
+         "@name": "estate_name_text",
+         "#text": {
+            "string": "\n    (desconhecido)\n  "
+         }
+      },
+      "text:estate_owner_label": {
+         "@name": "estate_owner_label",
+         "#text": {
+            "string": "\n    Dono da propriedade:\n  "
+         }
+      },
+      "text:estate_owner_text": {
+         "@name": "estate_owner_text",
+         "#text": {
+            "string": "\n    (desconhecido)\n  "
+         }
+      },
+      "text:resellable_changeable_label": {
+         "@name": "resellable_changeable_label",
+         "#text": {
+            "string": "\n    Adquiriu um terreno nesta região:\n  "
+         }
+      },
+      "text:resellable_clause": {
+         "@name": "resellable_clause",
+         "#text": {
+            "string": "\n    Pode ou não ser revendida.\n  "
+         }
+      },
+      "text:changeable_clause": {
+         "@name": "changeable_clause",
+         "#text": {
+            "string": "\n    Pode ou não ser unida ou sub-dividida.\n  "
+         }
+      },
+      "text:covenant_text": {
+         "@name": "covenant_text",
+         "#text": {
+            "string": "\n    Você deve concordar com o Corretor da Propriedade:\n  "
+         }
+      },
+      "text:covenant_timestamp_text": {
+         "@name": "covenant_timestamp_text"
+      },
+      "text_editor:covenant_editor": {
+         "@name": "covenant_editor",
+         "#text": {
+            "string": "\n    Carregando...\n  "
+         }
+      },
+      "check_box:agree_covenant": {
+         "@label": {
+            "string": "Eu concordo com as definições do Corretor feitas acima."
+         },
+         "@name": "agree_covenant"
+      },
+      "texture_picker:info_image": {
+         "@name": "info_image"
+      },
+      "text:info_parcel_label": {
+         "@name": "info_parcel_label",
+         "#text": {
+            "string": "\n    Lote:\n  "
+         }
+      },
+      "text:info_parcel": {
+         "@name": "info_parcel"
+      },
+      "text:info_size_label": {
+         "@name": "info_size_label",
+         "#text": {
+            "string": "\n    Tamanho:\n  "
+         }
+      },
+      "text:info_size": {
+         "@name": "info_size"
+      },
+      "text:info_price_label": {
+         "@name": "info_price_label",
+         "#text": {
+            "string": "\n    Preço:\n  "
+         }
+      },
+      "text:info_price": {
+         "@name": "info_price"
+      },
+      "text:info_action": {
+         "@name": "info_action",
+         "#text": {
+            "string": "\n    Comprar este lote irá:\n  "
+         }
+      },
+      "locate": null,
+      "icon:step_error": {
+         "@name": "step_error"
+      },
+      "text:error_message": {
+         "@name": "error_message",
+         "#text": {
+            "string": "\n    Algo ainda não está correto.\n  "
+         }
+      },
+      "button:error_web": {
+         "@label": {
+            "string": "Ir para a página da web"
+         },
+         "@name": "error_web"
+      },
+      "icon:step_1": {
+         "@name": "step_1"
+      },
+      "text:account_action": {
+         "@name": "account_action",
+         "#text": {
+            "string": "\n    Evoluir sua conta para membro Premium\n  "
+         }
+      },
+      "text:account_reason": {
+         "@name": "account_reason",
+         "#text": {
+            "string": "\n    Somente membros Premium podem possuir terra.\n  "
+         }
+      },
+      "combo_box:account_level": {
+         "@name": "account_level",
+         "combo_box.item:US$9.95/month,billedmonthly": {
+            "@label": {
+               "string": "US$9.95/mês, pagamento mensal"
+            },
+            "@name": "US$9.95/month,billedmonthly"
+         },
+         "combo_box.item:US$7.50/month,billedquarterly": {
+            "@label": {
+               "string": "US$7,50/mês, pagamento trimestral"
+            },
+            "@name": "US$7.50/month,billedquarterly"
+         },
+         "combo_box.item:US$6.00/month,billedannually": {
+            "@label": {
+               "string": "US$6.00/mês, pagamento trimestral"
+            },
+            "@name": "US$6.00/month,billedannually"
+         }
+      },
+      "icon:step_2": {
+         "@name": "step_2"
+      },
+      "text:land_use_action": {
+         "@name": "land_use_action",
+         "#text": {
+            "string": "\n    Aumente sua taxa de locação de terra para US$ 40/mês.\n  "
+         }
+      },
+      "text:land_use_reason": {
+         "@name": "land_use_reason"
+      },
+      "icon:step_3": {
+         "@name": "step_3"
+      },
+      "text:purchase_action": {
+         "@name": "purchase_action"
+      },
+      "text:currency_reason": {
+         "@name": "currency_reason"
+      },
+      "text:currency_action": {
+         "@name": "currency_action",
+         "#text": {
+            "string": "\n    Compre L$ adicionais\n  "
+         }
+      },
+      "line_editor:currency_amt": {
+         "@name": "currency_amt"
+      },
+      "text:currency_est": {
+         "@name": "currency_est",
+         "#text": {
+            "string": "\n    cerca de [LOCAL_AMOUNT]\n  "
+         }
+      },
+      "text:currency_balance": {
+         "@name": "currency_balance"
+      },
+      "button:buy_btn": {
+         "@label": {
+            "string": "Adquirir"
+         },
+         "@name": "buy_btn"
+      },
+      "check_box:remove_contribution": {
+         "@label": {
+            "string": "Subtrair [AMOUNT] m² da minha contribuição."
+         },
+         "@name": "remove_contribution"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

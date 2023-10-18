@@ -1,0 +1,14 @@
+{
+   "floater": {
+      "@name": "floater_buy_currency_html",
+      "@title": {
+         "string": "Comprar Moeda"
+      },
+      "floater.string:buy_currency_url": {
+         "@name": "buy_currency_url"
+      },
+      "web_browser:browser": {
+         "@name": "browser"
+      }
+   }
+}

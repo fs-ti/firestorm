@@ -1,0 +1,249 @@
+{
+   "floater": {
+      "@name": "env_adjust_snapshot",
+      "@title": {
+         "string": "Iluminação pessoal"
+      },
+      "layout_stack:outer_stack": {
+         "@name": "outer_stack",
+         "#comment": " If I put in a timeline it would go here ",
+         "layout_panel:env_controls": {
+            "@name": "env_controls",
+            "layout_stack:settings_stack": {
+               "@name": "settings_stack",
+               "layout_panel:lp_1": {
+                  "@name": "lp_1",
+                  "text:ambient_lbl": {
+                     "@name": "ambient_lbl",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "color_swatch:ambient_light": {
+                     "@name": "ambient_light"
+                  },
+                  "text:blue_horizon_lbl": {
+                     "@name": "blue_horizon_lbl",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "color_swatch:blue_horizon": {
+                     "@name": "blue_horizon"
+                  },
+                  "text:blue_density_lbl": {
+                     "@name": "blue_density_lbl",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "color_swatch:blue_density": {
+                     "@name": "blue_density"
+                  },
+                  "button:btn_reset": {
+                     "@label": {
+                        "string": "Redefinir"
+                     },
+                     "@tool_tip": {
+                        "string": "Feche e redefina e Compartilhe o Ambiente"
+                     },
+                     "@name": "btn_reset"
+                  },
+                  "text:sun_color_lbl": {
+                     "@name": "sun_color_lbl",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "color_swatch:sun_color": {
+                     "@name": "sun_color"
+                  },
+                  "text:cloud_color_lbl": {
+                     "@name": "cloud_color_lbl",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "color_swatch:cloud_color": {
+                     "@name": "cloud_color"
+                  },
+                  "text:cloud_map_label": {
+                     "@name": "cloud_map_label",
+                     "#text": {
+                        "string": "\n            Imagem de nuvem:\n          "
+                     }
+                  },
+                  "texture_picker:cloud_map": {
+                     "@name": "cloud_map"
+                  },
+                  "text:water_map_label": {
+                     "@name": "water_map_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "texture_picker:water_normal_map": {
+                     "@name": "water_normal_map"
+                  }
+               },
+               "layout_panel:lp_2": {
+                  "@name": "lp_2",
+                  "text:haze_horizon_label": {
+                     "@name": "haze_horizon_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:haze_horizon": {
+                     "@name": "haze_horizon"
+                  },
+                  "text:haze_density_label": {
+                     "@name": "haze_density_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:haze_density": {
+                     "@name": "haze_density"
+                  },
+                  "text:cloud_coverage_label": {
+                     "@name": "cloud_coverage_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:cloud_coverage": {
+                     "@name": "cloud_coverage"
+                  },
+                  "text:cloud_scale_label": {
+                     "@name": "cloud_scale_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:cloud_scale": {
+                     "@name": "cloud_scale"
+                  },
+                  "text:scene_gamma_label": {
+                     "@name": "scene_gamma_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:scene_gamma": {
+                     "@name": "scene_gamma"
+                  }
+               },
+               "layout_panel:lp_3": {
+                  "@name": "lp_3",
+                  "text:label": {
+                     "@name": "label",
+                     "#text": {
+                        "string": "Sol:"
+                     }
+                  },
+                  "sun_moon_trackball:sun_rotation": {
+                     "@name": "sun_rotation"
+                  },
+                  "text:sun_azimuth_label": {
+                     "@name": "sun_azimuth_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:sun_azimuth": {
+                     "@name": "sun_azimuth"
+                  },
+                  "text:sun_elevation_label": {
+                     "@name": "sun_elevation_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:sun_elevation": {
+                     "@name": "sun_elevation"
+                  },
+                  "check_box:sunbeacon": {
+                     "@label": {
+                        "string": "Exibir baliza"
+                     },
+                     "@name": "sunbeacon"
+                  },
+                  "text:scale_label": {
+                     "@name": "scale_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:sun_scale": {
+                     "@name": "sun_scale"
+                  },
+                  "text:glow_focus_label": {
+                     "@name": "glow_focus_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:glow_focus": {
+                     "@name": "glow_focus"
+                  },
+                  "text:glow_size_label": {
+                     "@name": "glow_size_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:glow_size": {
+                     "@name": "glow_size"
+                  },
+                  "text:star_brightness_label": {
+                     "@name": "star_brightness_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:star_brightness": {
+                     "@name": "star_brightness"
+                  }
+               },
+               "layout_panel:lp_4": {
+                  "@name": "lp_4",
+                  "text:label": {
+                     "@name": "label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "sun_moon_trackball:moon_rotation": {
+                     "@name": "moon_rotation"
+                  },
+                  "text:moon_azimuth_label": {
+                     "@name": "moon_azimuth_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:moon_azimuth": {
+                     "@name": "moon_azimuth"
+                  },
+                  "text:moon_elevation_label": {
+                     "@name": "moon_elevation_label",
+                     "#text": {
+                        "string": null
+                     }
+                  },
+                  "slider:moon_elevation": {
+                     "@name": "moon_elevation"
+                  },
+                  "check_box:moonbeacon": {
+                     "@label": {
+                        "string": "Exibir baliza"
+                     },
+                     "@name": "moonbeacon"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

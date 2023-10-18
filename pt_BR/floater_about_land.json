@@ -1,0 +1,1524 @@
+{
+   "floater": {
+      "@name": "floaterland",
+      "@title": {
+         "string": "Sobre o terreno"
+      },
+      "floater.string:maturity_icon_general": {
+         "@name": "maturity_icon_general"
+      },
+      "floater.string:maturity_icon_moderate": {
+         "@name": "maturity_icon_moderate"
+      },
+      "floater.string:maturity_icon_adult": {
+         "@name": "maturity_icon_adult"
+      },
+      "floater.string:Hours": {
+         "@name": "Hours",
+         "#text": {
+            "string": "\n    [HOURS] hrs.\n  "
+         }
+      },
+      "floater.string:Hour": {
+         "@name": "Hour",
+         "#text": {
+            "string": "\n    hr.\n  "
+         }
+      },
+      "floater.string:Minutes": {
+         "@name": "Minutes",
+         "#text": {
+            "string": "\n    [MINUTES] minutos\n  "
+         }
+      },
+      "floater.string:Minute": {
+         "@name": "Minute",
+         "#text": {
+            "string": "\n    minuto\n  "
+         }
+      },
+      "floater.string:Seconds": {
+         "@name": "Seconds",
+         "#text": {
+            "string": "\n    [SECONDS] segundos\n  "
+         }
+      },
+      "floater.string:Remaining": {
+         "@name": "Remaining",
+         "#text": {
+            "string": "\n    faltam\n  "
+         }
+      },
+      "floater.string:Always": {
+         "@name": "Always",
+         "#text": {
+            "string": "\n    Sempre\n  "
+         }
+      },
+      "tab_container:landtab": {
+         "@name": "landtab",
+         "panel:land_general_panel": {
+            "@label": {
+               "string": "Geral"
+            },
+            "@name": "land_general_panel",
+            "panel.string:new users only": {
+               "@name": "new users only",
+               "#text": {
+                  "string": "\n        Somente novos residentes\n      "
+               }
+            },
+            "panel.string:anyone": {
+               "@name": "anyone",
+               "#text": {
+                  "string": "\n        Qualquer um\n      "
+               }
+            },
+            "panel.string:area_text": {
+               "@name": "area_text",
+               "#text": {
+                  "string": "\n        Área\n      "
+               }
+            },
+            "panel.string:area_size_text": {
+               "@name": "area_size_text",
+               "#text": {
+                  "string": "\n        [AREA] m²\n      "
+               }
+            },
+            "panel.string:auction_id_text": {
+               "@name": "auction_id_text",
+               "#text": {
+                  "string": "\n        ID do Leilão: [ID]\n      "
+               }
+            },
+            "panel.string:need_tier_to_modify": {
+               "@name": "need_tier_to_modify",
+               "#text": {
+                  "string": "\n        Sua compra deve ser aprovada para você modificar este terreno.\n      "
+               }
+            },
+            "panel.string:group_owned_text": {
+               "@name": "group_owned_text",
+               "#text": {
+                  "string": "\n        (Propriedade do grupo)\n      "
+               }
+            },
+            "panel.string:profile_text": {
+               "@name": "profile_text",
+               "#text": {
+                  "string": "\n        Perfil...\n      "
+               }
+            },
+            "panel.string:info_text": {
+               "@name": "info_text",
+               "#text": {
+                  "string": "\n        Informação...\n      "
+               }
+            },
+            "panel.string:public_text": {
+               "@name": "public_text",
+               "#text": {
+                  "string": "\n        (público)\n      "
+               }
+            },
+            "panel.string:none_text": {
+               "@name": "none_text",
+               "#text": {
+                  "string": "\n        (nenhum)\n      "
+               }
+            },
+            "panel.string:sale_pending_text": {
+               "@name": "sale_pending_text",
+               "#text": {
+                  "string": "\n        (Venda pendendo)\n      "
+               }
+            },
+            "panel.string:no_selection_text": {
+               "@name": "no_selection_text",
+               "#text": {
+                  "string": "\n        Nenhum lote selecionado.\nVá para o menu Mundo &gt; Sobre o terreno ou selecione outro lote para mostrar os detalhes.\n      "
+               }
+            },
+            "panel.string:time_stamp_template": {
+               "@name": "time_stamp_template",
+               "#text": {
+                  "string": "\n        [wkday,datetime,slt] [mth,datetime,slt] [day,datetime,slt] [hour,datetime,slt]:[min,datetime,slt]:[second,datetime,slt] [year,datetime,slt]\n      "
+               }
+            },
+            "panel.string:error_resolving_uuid": {
+               "@name": "error_resolving_uuid",
+               "#text": {
+                  "string": null
+               }
+            },
+            "text:Name:": {
+               "@name": "Name:",
+               "#text": {
+                  "string": "\n        Nome:\n      "
+               }
+            },
+            "line_editor:Name": {
+               "@name": "Name"
+            },
+            "text:UUID:": {
+               "@name": "UUID:",
+               "#text": {
+                  "string": null
+               }
+            },
+            "line_editor:UUID": {
+               "@name": "UUID"
+            },
+            "text:Description:": {
+               "@name": "Description:",
+               "#text": {
+                  "string": "\n        Descrição:\n      "
+               }
+            },
+            "text_editor:Description": {
+               "@name": "Description"
+            },
+            "text:LandType": {
+               "@name": "LandType",
+               "#text": {
+                  "string": "\n        Tipo:\n      "
+               }
+            },
+            "text:LandTypeText": {
+               "@name": "LandTypeText",
+               "#text": {
+                  "string": "\n        Continente / Terra\n      "
+               }
+            },
+            "text:ContentRating": {
+               "@name": "ContentRating",
+               "#text": {
+                  "string": "\n        Classificação:\n      "
+               }
+            },
+            "text:ContentRatingText": {
+               "@name": "ContentRatingText",
+               "#text": {
+                  "string": "\n        Adulto\n      "
+               }
+            },
+            "text:Owner:": {
+               "@name": "Owner:",
+               "#text": {
+                  "string": "\n        Proprietário:\n      "
+               }
+            },
+            "text:OwnerText": {
+               "@name": "OwnerText"
+            },
+            "button:info_btn": {
+               "@name": "info_btn"
+            },
+            "#comment": "  <button\n             follows=\"left|top\"\n             height=\"23\"\n             label=\"Profile\"\n             layout=\"topleft\"\n             left_pad=\"4\"\n             name=\"Profile...\"\n             width=\"90\" />",
+            "text:Group:": {
+               "@name": "Group:",
+               "#text": {
+                  "string": "\n        Grupo:\n      "
+               }
+            },
+            "text:GroupText": {
+               "@name": "GroupText"
+            },
+            "button:Set...": {
+               "@label": {
+                  "string": "Ajustar"
+               },
+               "@name": "Set..."
+            },
+            "check_box:check deed": {
+               "@label": {
+                  "string": "Permitir doação para o grupo"
+               },
+               "@name": "check deed",
+               "@tool_tip": {
+                  "string": "Oficiais do grupo podem doar esse terreno ao grupo, passando a administração para o gestor da ilha"
+               }
+            },
+            "button:Deed...": {
+               "@label": {
+                  "string": "Passar"
+               },
+               "@name": "Deed...",
+               "@tool_tip": {
+                  "string": "Você só pode doar o terreno se você for um dos oficiais do grupo selecionado."
+               }
+            },
+            "check_box:check contrib": {
+               "@label": {
+                  "string": "Proprietário faz contribuição com doação"
+               },
+               "@name": "check contrib",
+               "@tool_tip": {
+                  "string": "Quando o terreno é doado ao grupo, o proprietário anterior contribui alocando terra suficiente para mantê-la."
+               }
+            },
+            "text:For Sale:": {
+               "@name": "For Sale:",
+               "#text": {
+                  "string": "\n        À venda:\n      "
+               }
+            },
+            "text:Not for sale.": {
+               "@name": "Not for sale.",
+               "#text": {
+                  "string": "\n        Não está à venda.\n      "
+               }
+            },
+            "text:For Sale: Price L$[PRICE].": {
+               "@name": "For Sale: Price L$[PRICE].",
+               "#text": {
+                  "string": "\n        Preço: L$[PRICE] (L$[PRICE_PER_SQM]/m²).\n      "
+               }
+            },
+            "text:SalePending": {
+               "@name": "SalePending"
+            },
+            "button:Sell Land...": {
+               "@label": {
+                  "string": "Vender Terra"
+               },
+               "@name": "Sell Land..."
+            },
+            "text:For sale to": {
+               "@name": "For sale to",
+               "#text": {
+                  "string": "\n        À venda para: [BUYER]\n      "
+               }
+            },
+            "text:Sell with landowners objects in parcel.": {
+               "@name": "Sell with landowners objects in parcel.",
+               "#text": {
+                  "string": "\n        À venda (objetos incluídos).\n      "
+               }
+            },
+            "text:Selling with no objects in parcel.": {
+               "@name": "Selling with no objects in parcel.",
+               "#text": {
+                  "string": "\n        À venda (objetos não incluídos).\n      "
+               }
+            },
+            "button:Cancel Land Sale": {
+               "@label": {
+                  "string": "Cancelar venda do terreno"
+               },
+               "@name": "Cancel Land Sale"
+            },
+            "text:Claimed:": {
+               "@name": "Claimed:",
+               "#text": {
+                  "string": "\n        Posse em:\n      "
+               }
+            },
+            "text:DateClaimText": {
+               "@name": "DateClaimText"
+            },
+            "text:PriceLabel": {
+               "@name": "PriceLabel",
+               "#text": {
+                  "string": "\n        Área:\n      "
+               }
+            },
+            "text:PriceText": {
+               "@name": "PriceText"
+            },
+            "text:Traffic:": {
+               "@name": "Traffic:",
+               "#text": {
+                  "string": "\n        Tráfego:\n      "
+               }
+            },
+            "text:DwellText": {
+               "@name": "DwellText",
+               "#text": {
+                  "string": "\n        Carregando...\n      "
+               }
+            },
+            "button:Buy Land...": {
+               "@label": {
+                  "string": "Comprar terreno..."
+               },
+               "@name": "Buy Land..."
+            },
+            "button:Linden Sale...": {
+               "@label": {
+                  "string": "Venda Linden"
+               },
+               "@name": "Linden Sale...",
+               "@tool_tip": {
+                  "string": "O terreno precisa ser possuído, estar com o conteúdo configurado e não estar pronto para leilão."
+               }
+            },
+            "button:Scripts...": {
+               "@label": {
+                  "string": "Dados do script"
+               },
+               "@name": "Scripts..."
+            },
+            "button:Buy For Group...": {
+               "@label": {
+                  "string": "Comprar para o grupo"
+               },
+               "@name": "Buy For Group..."
+            },
+            "button:Buy Pass...": {
+               "@label": {
+                  "string": "Comprar passe..."
+               },
+               "@name": "Buy Pass...",
+               "@tool_tip": {
+                  "string": "Um passe concede a você acesso temporário a este terreno."
+               }
+            },
+            "button:Abandon Land...": {
+               "@label": {
+                  "string": "Abandonar terreno..."
+               },
+               "@name": "Abandon Land..."
+            },
+            "button:Reclaim Land...": {
+               "@label": {
+                  "string": "Pedir terreno"
+               },
+               "@name": "Reclaim Land..."
+            }
+         },
+         "panel:land_covenant_panel": {
+            "@label": {
+               "string": "Contrato"
+            },
+            "@name": "land_covenant_panel",
+            "panel.string:can_resell": {
+               "@name": "can_resell",
+               "#text": {
+                  "string": "\n        Permitido para terrenos comprados nesta região.\n      "
+               }
+            },
+            "panel.string:can_not_resell": {
+               "@name": "can_not_resell",
+               "#text": {
+                  "string": "\n        Proibido para terrenos comprados nesta região.\n      "
+               }
+            },
+            "panel.string:can_change": {
+               "@name": "can_change",
+               "#text": {
+                  "string": "\n        Permitido subdividir terrenos comprados nesta região.\n      "
+               }
+            },
+            "panel.string:can_not_change": {
+               "@name": "can_not_change",
+               "#text": {
+                  "string": "\n        Proibido compartilhar ou subdividir terrenos comprados nesta região.\n      "
+               }
+            },
+            "text:estate_section_lbl": {
+               "@name": "estate_section_lbl",
+               "#text": {
+                  "string": "\n        Propriedade:\n      "
+               }
+            },
+            "text:estate_name_text": {
+               "@name": "estate_name_text",
+               "#text": {
+                  "string": "\n        continente\n      "
+               }
+            },
+            "text:estate_owner_lbl": {
+               "@name": "estate_owner_lbl",
+               "#text": {
+                  "string": "\n        Dono:\n      "
+               }
+            },
+            "text:estate_owner_text": {
+               "@name": "estate_owner_text",
+               "#text": {
+                  "string": "\n        (nenhum)\n      "
+               }
+            },
+            "text_editor:covenant_editor": {
+               "@name": "covenant_editor",
+               "#text": {
+                  "string": "\n        Não há corretor para esta Propriedade.\n      "
+               }
+            },
+            "text:covenant_timestamp_text": {
+               "@name": "covenant_timestamp_text"
+            },
+            "text:region_section_lbl": {
+               "@name": "region_section_lbl",
+               "#text": {
+                  "string": "\n        Região:\n      "
+               }
+            },
+            "text:region_name_text": {
+               "@name": "region_name_text",
+               "#text": {
+                  "string": "\n        Carregando...\n      "
+               }
+            },
+            "text:region_landtype_lbl": {
+               "@name": "region_landtype_lbl",
+               "#text": {
+                  "string": "\n        Tipo:\n      "
+               }
+            },
+            "text:region_landtype_text": {
+               "@name": "region_landtype_text",
+               "#text": {
+                  "string": "\n        Continente / Terra\n      "
+               }
+            },
+            "text:region_maturity_lbl": {
+               "@name": "region_maturity_lbl",
+               "#text": {
+                  "string": "\n        Classificação:\n      "
+               }
+            },
+            "text:region_maturity_text": {
+               "@name": "region_maturity_text",
+               "#text": {
+                  "string": "\n        Adulto\n      "
+               }
+            },
+            "text:resellable_lbl": {
+               "@name": "resellable_lbl",
+               "#text": {
+                  "string": "\n        Revender:\n      "
+               }
+            },
+            "text:resellable_clause": {
+               "@name": "resellable_clause",
+               "#text": {
+                  "string": "\n        Proibido revender terrenos nesta região.\n      "
+               }
+            },
+            "text:changeable_lbl": {
+               "@name": "changeable_lbl",
+               "#text": {
+                  "string": "\n        Subdividir:\n      "
+               }
+            },
+            "text:changeable_clause": {
+               "@name": "changeable_clause",
+               "#text": {
+                  "string": "\n        Proibido juntar/subdividir terrenos nesta região.\n      "
+               }
+            }
+         },
+         "panel:land_objects_panel": {
+            "@label": {
+               "string": "Objetos"
+            },
+            "@name": "land_objects_panel",
+            "panel.string:objects_available_text": {
+               "@name": "objects_available_text",
+               "#text": {
+                  "string": "\n        [COUNT] de [MAX] ([AVAILABLE] disponíveis)\n      "
+               }
+            },
+            "panel.string:objects_deleted_text": {
+               "@name": "objects_deleted_text",
+               "#text": {
+                  "string": "\n        [COUNT] de [MAX] ([DELETED] serão deletados)\n      "
+               }
+            },
+            "text:parcel_object_bonus": {
+               "@name": "parcel_object_bonus",
+               "#text": {
+                  "string": "\n        Fator de bônus para objetos na região: [BONUS]\n      "
+               }
+            },
+            "text:Simulator primitive usage:": {
+               "@name": "Simulator primitive usage:",
+               "#text": {
+                  "string": "\n        Capacidade da região:\n      "
+               }
+            },
+            "text:objects_available": {
+               "@name": "objects_available",
+               "#text": {
+                  "string": "\n        [COUNT] de [MAX] ([AVAILABLE] disponíveis)\n      "
+               }
+            },
+            "text:Primitives parcel supports:": {
+               "@name": "Primitives parcel supports:",
+               "#text": {
+                  "string": "\n        Capacidade do lote do terreno:\n      "
+               }
+            },
+            "text:object_contrib_text": {
+               "@name": "object_contrib_text",
+               "#text": {
+                  "string": "\n        [COUNT]\n      "
+               }
+            },
+            "text:Primitives on parcel:": {
+               "@name": "Primitives on parcel:",
+               "#text": {
+                  "string": "\n        Impacto no lote do terreno:\n      "
+               }
+            },
+            "text:total_objects_text": {
+               "@name": "total_objects_text",
+               "#text": {
+                  "string": "\n        [COUNT]\n      "
+               }
+            },
+            "text:Owned by parcel owner:": {
+               "@name": "Owned by parcel owner:",
+               "#text": {
+                  "string": "\n        Pertencentes ao dono do lote:\n      "
+               }
+            },
+            "text:owner_objects_text": {
+               "@name": "owner_objects_text",
+               "#text": {
+                  "string": "\n        [COUNT]\n      "
+               }
+            },
+            "button:ShowOwner": {
+               "@label": {
+                  "string": "Mostrar"
+               },
+               "@name": "ShowOwner"
+            },
+            "button:ReturnOwner...": {
+               "@label": {
+                  "string": "Devolver"
+               },
+               "@name": "ReturnOwner...",
+               "@tool_tip": {
+                  "string": "Devolver objetos a seus donos."
+               }
+            },
+            "text:Set to group:": {
+               "@name": "Set to group:",
+               "#text": {
+                  "string": "\n        Reservado para o grupo:\n      "
+               }
+            },
+            "text:group_objects_text": {
+               "@name": "group_objects_text",
+               "#text": {
+                  "string": "\n        [COUNT]\n      "
+               }
+            },
+            "button:ShowGroup": {
+               "@label": {
+                  "string": "Mostrar"
+               },
+               "@name": "ShowGroup"
+            },
+            "button:ReturnGroup...": {
+               "@label": {
+                  "string": "Devolver"
+               },
+               "@name": "ReturnGroup...",
+               "@tool_tip": {
+                  "string": "Devolver objetos a seus donos."
+               }
+            },
+            "text:Owned by others:": {
+               "@name": "Owned by others:",
+               "#text": {
+                  "string": "\n        Propriedade de outros:\n      "
+               }
+            },
+            "text:other_objects_text": {
+               "@name": "other_objects_text",
+               "#text": {
+                  "string": "\n        [COUNT]\n      "
+               }
+            },
+            "button:ShowOther": {
+               "@label": {
+                  "string": "Mostrar"
+               },
+               "@name": "ShowOther"
+            },
+            "button:ReturnOther...": {
+               "@label": {
+                  "string": "Devolver"
+               },
+               "@name": "ReturnOther...",
+               "@tool_tip": {
+                  "string": "Devolver objetos a seus donos."
+               }
+            },
+            "text:Selected / sat upon:": {
+               "@name": "Selected / sat upon:",
+               "#text": {
+                  "string": "\n        Selecionado/Sentado:\n      "
+               }
+            },
+            "text:selected_objects_text": {
+               "@name": "selected_objects_text",
+               "#text": {
+                  "string": "\n        [COUNT]\n      "
+               }
+            },
+            "text:Autoreturn": {
+               "@name": "Autoreturn",
+               "#text": {
+                  "string": "\n        Devolver objetos de outros residentes (p/ desligar tecle 0)\n      "
+               }
+            },
+            "line_editor:clean other time": {
+               "@name": "clean other time"
+            },
+            "text:Object Owners:": {
+               "@name": "Object Owners:",
+               "#text": {
+                  "string": "\n        Donos dos objetos:\n      "
+               }
+            },
+            "button:Refresh List": {
+               "@name": "Refresh List",
+               "@tool_tip": {
+                  "string": "Atualizar lista"
+               }
+            },
+            "button:Return objects...": {
+               "@label": {
+                  "string": "Devolver objetos..."
+               },
+               "@name": "Return objects..."
+            },
+            "name_list:owner list": {
+               "@name": "owner list",
+               "name_list.columns:type": {
+                  "@label": {
+                     "string": "Tipo"
+                  },
+                  "@name": "type"
+               },
+               "name_list.columns:online_status": {
+                  "@name": "online_status"
+               },
+               "name_list.columns:name": {
+                  "@label": {
+                     "string": "Nome"
+                  },
+                  "@name": "name"
+               },
+               "name_list.columns:count": {
+                  "@label": {
+                     "string": "Contar"
+                  },
+                  "@name": "count"
+               },
+               "name_list.columns:mostrecent": {
+                  "@label": {
+                     "string": "Mais recente"
+                  },
+                  "@name": "mostrecent"
+               }
+            }
+         },
+         "panel:land_options_panel": {
+            "@label": {
+               "string": "Opções"
+            },
+            "@name": "land_options_panel",
+            "panel.string:search_enabled_tooltip": {
+               "@name": "search_enabled_tooltip",
+               "#text": {
+                  "string": "\n        Permitir que as pessoas vejam este lote nos resultados de busca\n      "
+               }
+            },
+            "panel.string:search_disabled_small_tooltip": {
+               "@name": "search_disabled_small_tooltip",
+               "#text": {
+                  "string": "\n        Esta opção está desabilitada porque a área deste lote tem 128 m² ou menos.\nApenas lotes maiores podem ser listados na busca.\n      "
+               }
+            },
+            "panel.string:search_disabled_permissions_tooltip": {
+               "@name": "search_disabled_permissions_tooltip",
+               "#text": {
+                  "string": "\n        Esta opção está desabilitada porque você não pode modificar as opções deste lote.\n      "
+               }
+            },
+            "panel.string:mature_check_mature": {
+               "@name": "mature_check_mature",
+               "#text": {
+                  "string": "\n        Conteúdo Adulto\n      "
+               }
+            },
+            "panel.string:mature_check_adult": {
+               "@name": "mature_check_adult",
+               "#text": {
+                  "string": "\n        Conteúdo Adulto\n      "
+               }
+            },
+            "panel.string:mature_check_mature_tooltip": {
+               "@name": "mature_check_mature_tooltip",
+               "#text": {
+                  "string": "\n        Os dados do seu lote ou seu conteúdo são considerados adulto.\n      "
+               }
+            },
+            "panel.string:mature_check_adult_tooltip": {
+               "@name": "mature_check_adult_tooltip",
+               "#text": {
+                  "string": "\n        Os dados do seu lote ou seu conteúdo são considerados adulto.\n      "
+               }
+            },
+            "panel.string:landing_point_none": {
+               "@name": "landing_point_none",
+               "#text": {
+                  "string": "\n        (nenhum)\n      "
+               }
+            },
+            "panel.string:push_restrict_text": {
+               "@name": "push_restrict_text",
+               "#text": {
+                  "string": "\n        Proibido empurrar\n      "
+               }
+            },
+            "panel.string:push_restrict_region_text": {
+               "@name": "push_restrict_region_text",
+               "#text": {
+                  "string": "\n        Proibido empurrar (regulamento da região)\n      "
+               }
+            },
+            "panel.string:DirectoryFree": {
+               "@name": "DirectoryFree",
+               "#text": {
+                  "string": null
+               }
+            },
+            "panel.string:DirectoryFee": {
+               "@name": "DirectoryFee",
+               "#text": {
+                  "string": null
+               }
+            },
+            "text:allow_label": {
+               "@name": "allow_label",
+               "#text": {
+                  "string": "\n        Autorizar outros residentes a:\n      "
+               }
+            },
+            "#comment": " <FS:WF> FIRE-6604 : Reinstate the \"Allow Other Residents to Edit Terrain\" option in About Land ",
+            "text:allow_label1": {
+               "@name": "allow_label1",
+               "#text": {
+                  "string": null
+               }
+            },
+            "check_box:edit land check": {
+               "@label": {
+                  "string": null
+               },
+               "@name": "edit land check",
+               "@tool_tip": {
+                  "string": null
+               }
+            },
+            "text:caution_text": {
+               "@name": "caution_text",
+               "#text": {
+                  "string": null
+               }
+            },
+            "#comment$19": " <FS:WF> FIRE-6604 END ",
+            "text:allow_label0": {
+               "@name": "allow_label0",
+               "#text": {
+                  "string": "\n        Voar:\n      "
+               }
+            },
+            "check_box:check fly": {
+               "@label": {
+                  "string": "Todos"
+               },
+               "@name": "check fly",
+               "@tool_tip": {
+                  "string": "Se ativado,  residentes podem voar sobre seu terreno. Se desativado, eles podem voar apenas até chegar ou sobrevoar o seu terreno."
+               }
+            },
+            "text:allow_label2": {
+               "@name": "allow_label2",
+               "#text": {
+                  "string": "\n        Criar objetos:\n      "
+               }
+            },
+            "check_box:edit objects check": {
+               "@label": {
+                  "string": "Residentes"
+               },
+               "@name": "edit objects check",
+               "@tool_tip": {
+                  "string": "Se verificado, os Residentes podem criar e mover objetos no seu terreno."
+               }
+            },
+            "check_box:edit group objects check": {
+               "@label": {
+                  "string": "Grupo"
+               },
+               "@name": "edit group objects check",
+               "@tool_tip": {
+                  "string": "Se verificado, o grupo de membros do terreno podem criar e adicionar objetos no seu terreno."
+               }
+            },
+            "text:allow_label3": {
+               "@name": "allow_label3",
+               "#text": {
+                  "string": "\n        Entrada de objetos:\n      "
+               }
+            },
+            "check_box:all object entry check": {
+               "@label": {
+                  "string": "Residentes"
+               },
+               "@name": "all object entry check",
+               "@tool_tip": {
+                  "string": "Se verificado, os Residentes podem mover objetos existentes de outros terrenos para esse terreno."
+               }
+            },
+            "check_box:group object entry check": {
+               "@label": {
+                  "string": "Grupo"
+               },
+               "@name": "group object entry check",
+               "@tool_tip": {
+                  "string": "Se verificado, o grupo de membros do terreno podem mover os objetos existentes de outros terrenos para esse terreno."
+               }
+            },
+            "text:allow_label4": {
+               "@name": "allow_label4",
+               "#text": {
+                  "string": "\n        Executar scripts:\n      "
+               }
+            },
+            "check_box:check other scripts": {
+               "@label": {
+                  "string": "Residentes"
+               },
+               "@name": "check other scripts",
+               "@tool_tip": {
+                  "string": "Se verificado, os Residentes podem rodar scripts no seu terreno, incluindo anexos."
+               }
+            },
+            "check_box:check group scripts": {
+               "@label": {
+                  "string": "Grupo"
+               },
+               "@name": "check group scripts",
+               "@tool_tip": {
+                  "string": "Se verificado, o grupo de membros do terreno podem rodar scripts no seu terreno, incluindo anexos."
+               }
+            },
+            "panel": null,
+            "check_box:check safe": {
+               "@label": {
+                  "string": "Seguro (sem danos)"
+               },
+               "@name": "check safe",
+               "@tool_tip": {
+                  "string": "Se ativado, ajusta o terreno para Seguro, impedindo lutas com danos. Se não ativado, lutas com danos é habilitado."
+               }
+            },
+            "check_box:PushRestrictCheck": {
+               "@label": {
+                  "string": "Proibido empurrar"
+               },
+               "@name": "PushRestrictCheck",
+               "@tool_tip": {
+                  "string": "Evita scripts que empurram. Ativar essa opção ajuda a prevenir comportamentos desordeiros no seu terreno."
+               }
+            },
+            "check_box:ShowDirectoryCheck": {
+               "@label": {
+                  "string": "Mostrar terreno nos resultados de busca (L$30/semana)"
+               },
+               "@name": "ShowDirectoryCheck",
+               "@tool_tip": {
+                  "string": "Permitir que as pessoas vejam este terreno nos resultados de busca"
+               }
+            },
+            "combo_box:land category": {
+               "@name": "land category",
+               "combo_box.item:item0": {
+                  "@label": {
+                     "string": "Qualquer categoria"
+                  },
+                  "@name": "item0"
+               },
+               "combo_box.item:item1": {
+                  "@label": {
+                     "string": "Locação Linden"
+                  },
+                  "@name": "item1"
+               },
+               "combo_box.item:item3": {
+                  "@label": {
+                     "string": "Artes e cultura"
+                  },
+                  "@name": "item3"
+               },
+               "combo_box.item:item4": {
+                  "@label": {
+                     "string": "Negócios"
+                  },
+                  "@name": "item4"
+               },
+               "combo_box.item:item5": {
+                  "@label": {
+                     "string": "Educacional"
+                  },
+                  "@name": "item5"
+               },
+               "combo_box.item:item6": {
+                  "@label": {
+                     "string": "Jogos"
+                  },
+                  "@name": "item6"
+               },
+               "combo_box.item:item7": {
+                  "@label": {
+                     "string": "Moradia"
+                  },
+                  "@name": "item7"
+               },
+               "combo_box.item:item8": {
+                  "@label": {
+                     "string": "Amigável a novos usuários"
+                  },
+                  "@name": "item8"
+               },
+               "combo_box.item:item9": {
+                  "@label": {
+                     "string": "Parques e Natureza"
+                  },
+                  "@name": "item9"
+               },
+               "combo_box.item:item10": {
+                  "@label": {
+                     "string": "Residencial"
+                  },
+                  "@name": "item10"
+               },
+               "combo_box.item:item11": {
+                  "@label": {
+                     "string": "Compras"
+                  },
+                  "@name": "item11"
+               },
+               "combo_box.item:item13": {
+                  "@label": {
+                     "string": "Aluguel"
+                  },
+                  "@name": "item13"
+               },
+               "combo_box.item:item12": {
+                  "@label": {
+                     "string": "Outros"
+                  },
+                  "@name": "item12"
+               }
+            },
+            "check_box:MatureCheck": {
+               "@label": {
+                  "string": "Conteúdo adulto"
+               },
+               "@name": "MatureCheck",
+               "@tool_tip": {
+                  "string": ""
+               }
+            },
+            "text:Snapshot:": {
+               "@name": "Snapshot:",
+               "#text": {
+                  "string": "\n        Foto:\n      "
+               }
+            },
+            "texture_picker:snapshot_ctrl": {
+               "@name": "snapshot_ctrl",
+               "@tool_tip": {
+                  "string": "Clique para escolher uma imagem"
+               }
+            },
+            "text:allow_see_label": {
+               "@name": "allow_see_label",
+               "#text": {
+                  "string": "\n        Avatares em outros lotes podem ver e conversar com avatares neste lote\n      "
+               }
+            },
+            "check_box:SeeAvatarsCheck": {
+               "@name": "SeeAvatarsCheck",
+               "@tool_tip": {
+                  "string": "Permite que os avatares em outros lotes vejam e batam papo com avatares neste lote. Você poderá vê-los e conversar com eles."
+               }
+            },
+            "text:landing_point": {
+               "@name": "landing_point",
+               "#text": {
+                  "string": "\n        Ponto de Aterrissagem: [LANDING]\n      "
+               }
+            },
+            "button:Set": {
+               "@label": {
+                  "string": "Definir"
+               },
+               "@name": "Set",
+               "@tool_tip": {
+                  "string": "Define o ponto de aterrissagem de visitantes. Define para o ponto em que seu avatar se encontra neste lote."
+               }
+            },
+            "button:Clear": {
+               "@label": {
+                  "string": "Limpar"
+               },
+               "@name": "Clear",
+               "@tool_tip": {
+                  "string": "Limpar o ponto de aterrissagem."
+               }
+            },
+            "button:teleport_to_landing_point": {
+               "@label": {
+                  "string": null
+               },
+               "@name": "teleport_to_landing_point",
+               "@tool_tip": {
+                  "string": null
+               }
+            },
+            "text:Teleport Routing: ": {
+               "@name": "Teleport Routing: ",
+               "#text": {
+                  "string": "\n        Rota de teletransporte:\n      "
+               }
+            },
+            "combo_box:landing type": {
+               "@name": "landing type",
+               "@tool_tip": {
+                  "string": "Rota de Teletransporte -- Selecione como tratar os teletransportes no seu lote."
+               },
+               "combo_box.item:Blocked": {
+                  "@label": {
+                     "string": "Bloqueado"
+                  },
+                  "@name": "Blocked"
+               },
+               "combo_box.item:LandingPoint": {
+                  "@label": {
+                     "string": "Ponto de aterrissagem"
+                  },
+                  "@name": "LandingPoint"
+               },
+               "combo_box.item:Anywhere": {
+                  "@label": {
+                     "string": "Qualquer lugar"
+                  },
+                  "@name": "Anywhere"
+               }
+            }
+         },
+         "panel:land_media_panel": {
+            "@label": {
+               "string": "Mídia"
+            },
+            "@name": "land_media_panel",
+            "text:with media:": {
+               "@name": "with media:",
+               "#text": {
+                  "string": "\n        Tipo de Mídia:\n      "
+               }
+            },
+            "combo_box:media type": {
+               "@name": "media type",
+               "@tool_tip": {
+                  "string": "Especificar se a URL é um filme, uma página web ou outra mídia"
+               }
+            },
+            "text:mime_type": {
+               "@name": "mime_type"
+            },
+            "text:at URL:": {
+               "@name": "at URL:",
+               "#text": {
+                  "string": "\n        Página web:\n      "
+               }
+            },
+            "line_editor:media_url": {
+               "@name": "media_url"
+            },
+            "button:set_media_url": {
+               "@label": {
+                  "string": "Definir..."
+               },
+               "@name": "set_media_url"
+            },
+            "text:Description:": {
+               "@name": "Description:",
+               "#text": {
+                  "string": "\n        Descrição:\n      "
+               }
+            },
+            "line_editor:url_description": {
+               "@name": "url_description",
+               "@tool_tip": {
+                  "string": "Texto mostrado ao lado do botão reproduzir/carregar"
+               }
+            },
+            "text:Media texture:": {
+               "@name": "Media texture:",
+               "#text": {
+                  "string": "\n        Substituir\nTextura:\n      "
+               }
+            },
+            "texture_picker:media texture": {
+               "@name": "media texture",
+               "@tool_tip": {
+                  "string": "Clique para escolher uma imagem"
+               }
+            },
+            "text:replace_texture_help": {
+               "@name": "replace_texture_help",
+               "#text": {
+                  "string": "\n        Objetos com esta textura vão aparecer no filme ou página da web depois de clicar em Tocar. Selecione outras texturas clicando nas miniaturas.\n      "
+               }
+            },
+            "check_box:media_auto_scale": {
+               "@label": {
+                  "string": "Escala automática"
+               },
+               "@name": "media_auto_scale",
+               "@tool_tip": {
+                  "string": "Marcando esta opção o conteúdo se ajustará ao lote automaticamente. A mídia pode se tornar lenta e com baixa qualidade visual mas nenhum outro ajuste de textura ou alinhamento será necessário."
+               }
+            },
+            "text:media_size": {
+               "@name": "media_size",
+               "@tool_tip": {
+                  "string": "Tamanho para desenhar a mídia Web, deixar 0 como padrão."
+               },
+               "#text": {
+                  "string": "\n        Tamanho da mídia:\n      "
+               }
+            },
+            "spinner:media_size_width": {
+               "@name": "media_size_width",
+               "@tool_tip": {
+                  "string": "Tamanho para desenhar a mídia Web, deixar 0 como padrão."
+               }
+            },
+            "spinner:media_size_height": {
+               "@name": "media_size_height",
+               "@tool_tip": {
+                  "string": "Tamanho para desenhar a mídia Web, deixar 0 como padrão."
+               }
+            },
+            "text:pixels": {
+               "@name": "pixels",
+               "#text": {
+                  "string": "\n        pixels\n      "
+               }
+            },
+            "text:Options:": {
+               "@name": "Options:",
+               "#text": {
+                  "string": "\n        Opções de\nMídia:\n      "
+               }
+            },
+            "check_box:media_loop": {
+               "@label": {
+                  "string": "Repetir mídia"
+               },
+               "@name": "media_loop",
+               "@tool_tip": {
+                  "string": "Executar a mídia repetidamente. Quando a mídia chegar ao fim, ela recomeça."
+               }
+            }
+         },
+         "panel:land_audio_panel": {
+            "@label": {
+               "string": "Som"
+            },
+            "@name": "land_audio_panel",
+            "text:MusicURL:": {
+               "@name": "MusicURL:",
+               "#text": {
+                  "string": "\n        URL de música:\n      "
+               }
+            },
+            "combo_box:music_url": {
+               "@name": "music_url"
+            },
+            "button:stream_add_btn": {
+               "@name": "stream_add_btn",
+               "@tool_tip": {
+                  "string": null
+               }
+            },
+            "button:stream_delete_btn": {
+               "@name": "stream_delete_btn",
+               "@tool_tip": {
+                  "string": null
+               }
+            },
+            "button:stream_copy_btn": {
+               "@name": "stream_copy_btn",
+               "@tool_tip": {
+                  "string": null
+               }
+            },
+            "text:Sound:": {
+               "@name": "Sound:",
+               "#text": {
+                  "string": "\n        Som:\n      "
+               }
+            },
+            "check_box:check sound local": {
+               "@label": {
+                  "string": "Limitar sons de gestos e objetos a esta parcela"
+               },
+               "@name": "check sound local"
+            },
+            "text:Avatar Sounds:": {
+               "@name": "Avatar Sounds:",
+               "#text": {
+                  "string": "\n        Áudio de avatares:\n      "
+               }
+            },
+            "check_box:all av sound check": {
+               "@label": {
+                  "string": "Todos"
+               },
+               "@name": "all av sound check"
+            },
+            "check_box:group av sound check": {
+               "@label": {
+                  "string": "Grupo"
+               },
+               "@name": "group av sound check"
+            },
+            "text:Voice settings:": {
+               "@name": "Voice settings:",
+               "#text": {
+                  "string": "\n        Voz:\n      "
+               }
+            },
+            "check_box:parcel_enable_voice_channel": {
+               "@label": {
+                  "string": "Ativar voz"
+               },
+               "@name": "parcel_enable_voice_channel"
+            },
+            "check_box:parcel_enable_voice_channel_is_estate_disabled": {
+               "@label": {
+                  "string": "Ativar voz (definições do terreno)"
+               },
+               "@name": "parcel_enable_voice_channel_is_estate_disabled"
+            },
+            "check_box:parcel_enable_voice_channel_local": {
+               "@label": {
+                  "string": "Limitar bate-papo de voz a este lote"
+               },
+               "@name": "parcel_enable_voice_channel_local"
+            },
+            "text:media": {
+               "@name": "media",
+               "#text": {
+                  "string": null
+               }
+            },
+            "check_box:obscure_moap": {
+               "@label": {
+                  "string": null
+               },
+               "@name": "obscure_moap",
+               "@tool_tip": {
+                  "string": null
+               }
+            }
+         },
+         "panel:land_access_panel": {
+            "@label": {
+               "string": "Acesso"
+            },
+            "@name": "land_access_panel",
+            "panel.string:access_estate_defined": {
+               "@name": "access_estate_defined",
+               "#text": {
+                  "string": "\n        (Definições do terreno)\n      "
+               }
+            },
+            "panel.string:estate_override": {
+               "@name": "estate_override",
+               "#text": {
+                  "string": "\n        Uma ou mais destas opções está definida no nível de propriedade.\n      "
+               }
+            },
+            "check_box:public_access": {
+               "@name": "public_access",
+               "@tool_tip": {
+                  "string": ""
+               },
+               "@label": {
+                  "string": "Permitir acesso público (Desmarcar esse item cria limites)"
+               }
+            },
+            "check_box:limit_age_verified": {
+               "@label": {
+                  "string": "Tem 18 anos ou mais [ESTATE_AGE_LIMIT]"
+               },
+               "@name": "limit_age_verified",
+               "@tool_tip": {
+                  "string": "Os residentes devem ter 18 anos ou mais para acessar este lote. Consulte o [SUPPORT_SITE] para obter mais informações."
+               }
+            },
+            "check_box:limit_payment": {
+               "@label": {
+                  "string": "Possuam Dados de pagamento fornecidos [ESTATE_PAYMENT_LIMIT]"
+               },
+               "@name": "limit_payment",
+               "@tool_tip": {
+                  "string": "Os residentes devem ter seus dados de pagamento cadastrados para acessar este lote.  Consulte o [SUPPORT_SITE] para saber mais."
+               }
+            },
+            "check_box:GroupCheck": {
+               "@label": {
+                  "string": "Permitir acesso do grupo: [GROUP]"
+               },
+               "@name": "GroupCheck",
+               "@tool_tip": {
+                  "string": "Definir grupo na aba Geral."
+               }
+            },
+            "check_box:PassCheck": {
+               "@label": {
+                  "string": "Vender passes para:"
+               },
+               "@name": "PassCheck",
+               "@tool_tip": {
+                  "string": "Permite acesso temporário a este terreno"
+               }
+            },
+            "combo_box:pass_combo": {
+               "@name": "pass_combo",
+               "combo_box.item:Anyone": {
+                  "@label": {
+                     "string": "Qualquer um"
+                  },
+                  "@name": "Anyone"
+               },
+               "combo_box.item:Group": {
+                  "@label": {
+                     "string": "Grupo"
+                  },
+                  "@name": "Group"
+               }
+            },
+            "spinner:PriceSpin": {
+               "@label": {
+                  "string": "Preço em L$:"
+               },
+               "@name": "PriceSpin"
+            },
+            "spinner:HoursSpin": {
+               "@label": {
+                  "string": "Horas de acesso:"
+               },
+               "@name": "HoursSpin"
+            },
+            "text:OwnerLimited": {
+               "@name": "OwnerLimited",
+               "#text": {
+                  "string": null
+               }
+            },
+            "panel:Allowed_layout_panel": {
+               "@name": "Allowed_layout_panel",
+               "text:AllowedText": {
+                  "@label": {
+                     "string": "Always Allow"
+                  },
+                  "@name": "AllowedText",
+                  "#text": {
+                     "string": "\n          Residentes permitidos ([COUNT]/[MAX])\n        "
+                  }
+               },
+               "name_list:AccessList": {
+                  "@name": "AccessList",
+                  "@tool_tip": {
+                     "string": "(Total [LISTED], máx de [MAX])"
+                  }
+               },
+               "button:add_allowed": {
+                  "@label": {
+                     "string": "Adicionar"
+                  },
+                  "@name": "add_allowed"
+               },
+               "button:remove_allowed": {
+                  "@label": {
+                     "string": "Tirar"
+                  },
+                  "@name": "remove_allowed"
+               }
+            },
+            "panel:Banned_layout_panel": {
+               "@name": "Banned_layout_panel",
+               "text:BanCheck": {
+                  "@label": {
+                     "string": null
+                  },
+                  "@name": "BanCheck",
+                  "#text": {
+                     "string": "\n          Banido ([COUNT], máx: [MAX])\n        "
+                  }
+               },
+               "name_list:BannedList": {
+                  "@name": "BannedList",
+                  "@tool_tip": {
+                     "string": "(Total [LISTED], máx de [MAX])"
+                  },
+                  "columns:name": {
+                     "@label": {
+                        "string": "Nome"
+                     },
+                     "@name": "name"
+                  },
+                  "columns:duration": {
+                     "@label": {
+                        "string": "Duração"
+                     },
+                     "@name": "duration"
+                  }
+               },
+               "button:add_banned": {
+                  "@label": {
+                     "string": "Adicionar"
+                  },
+                  "@name": "add_banned"
+               },
+               "button:remove_banned": {
+                  "@label": {
+                     "string": "Tirar"
+                  },
+                  "@name": "remove_banned"
+               }
+            }
+         },
+         "panel:land_experiences_panel": {
+            "@label": {
+               "string": "Experiências"
+            },
+            "@name": "land_experiences_panel"
+         },
+         "panel:land_environment_panel": {
+            "@label": {
+               "string": "Ambiente"
+            },
+            "@name": "land_environment_panel"
+         }
+      }
+   }
+}

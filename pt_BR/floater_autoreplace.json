@@ -1,0 +1,152 @@
+{
+   "floater": {
+      "@name": "autoreplace_floater",
+      "@title": {
+         "string": "Configurações da substituição automática"
+      },
+      "check_box:autoreplace_enable": {
+         "@label": {
+            "string": "Habilitar substituição automática"
+         },
+         "@name": "autoreplace_enable",
+         "@tool_tip": {
+            "string": "Ao inserir texto de bate-papo, substitua quaisquer palavras-chave inseridas pela substituição correspondente"
+         }
+      },
+      "view_border:divisor1": {
+         "@name": "divisor1"
+      },
+      "button:autoreplace_import_list": {
+         "@name": "autoreplace_import_list",
+         "@label": {
+            "string": "Importar lista..."
+         },
+         "@tool_tip": {
+            "string": "Carrega uma lista exportada anteriormente de um arquivo."
+         }
+      },
+      "button:autoreplace_export_list": {
+         "@name": "autoreplace_export_list",
+         "@label": {
+            "string": "Exportar lista..."
+         },
+         "@tool_tip": {
+            "string": "Salva um arquivo da lista selecionada para compartilhá-la."
+         }
+      },
+      "button:autoreplace_new_list": {
+         "@name": "autoreplace_new_list",
+         "@label": {
+            "string": "Nova lista..."
+         },
+         "@tool_tip": {
+            "string": "Cria uma nova lista."
+         }
+      },
+      "button:autoreplace_delete_list": {
+         "@name": "autoreplace_delete_list",
+         "@label": {
+            "string": "Excluir lista"
+         },
+         "@tool_tip": {
+            "string": "Exclui a lista selecionada."
+         }
+      },
+      "scroll_list:autoreplace_list_name": {
+         "@name": "autoreplace_list_name"
+      },
+      "button:autoreplace_list_up": {
+         "@name": "autoreplace_list_up",
+         "@tool_tip": {
+            "string": "Aumenta a prioridade desta lista."
+         }
+      },
+      "button:autoreplace_list_down": {
+         "@name": "autoreplace_list_down",
+         "@tool_tip": {
+            "string": "Diminui a prioridade desta lista."
+         }
+      },
+      "view_border:divisor2": {
+         "@name": "divisor2"
+      },
+      "scroll_list:autoreplace_list_replacements": {
+         "@name": "autoreplace_list_replacements",
+         "scroll_list.columns:keyword": {
+            "@label": {
+               "string": "Palavra-chave"
+            },
+            "@name": "keyword"
+         },
+         "scroll_list.columns:replacement": {
+            "@label": {
+               "string": "Substituição"
+            },
+            "@name": "replacement"
+         }
+      },
+      "button:autoreplace_add_entry": {
+         "@name": "autoreplace_add_entry",
+         "@label": {
+            "string": "Adicionar..."
+         }
+      },
+      "button:autoreplace_delete_entry": {
+         "@name": "autoreplace_delete_entry",
+         "@label": {
+            "string": "Remover"
+         }
+      },
+      "view_border:divisor3": {
+         "@name": "divisor3"
+      },
+      "text:autoreplace_keyword_txt": {
+         "@name": "autoreplace_keyword_txt",
+         "#text": {
+            "string": "\n    Palavra-chave:\n  "
+         }
+      },
+      "line_editor:autoreplace_keyword": {
+         "@name": "autoreplace_keyword"
+      },
+      "text:autoreplace_replacement_txt": {
+         "@name": "autoreplace_replacement_txt",
+         "#text": {
+            "string": "\n    Substituição:\n  "
+         }
+      },
+      "line_editor:autoreplace_replacement": {
+         "@name": "autoreplace_replacement"
+      },
+      "button:autoreplace_save_entry": {
+         "@name": "autoreplace_save_entry",
+         "@label": {
+            "string": "Salvar entrada"
+         },
+         "@tool_tip": {
+            "string": "Salva esta entrada."
+         }
+      },
+      "view_border:divisor4": {
+         "@name": "divisor4"
+      },
+      "button:autoreplace_save_changes": {
+         "@name": "autoreplace_save_changes",
+         "@label": {
+            "string": "Salvar alterações"
+         },
+         "@tool_tip": {
+            "string": "Salvar todas as alterações."
+         }
+      },
+      "button:autoreplace_cancel": {
+         "@name": "autoreplace_cancel",
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@tool_tip": {
+            "string": "Descarta todas as alterações."
+         }
+      }
+   }
+}

@@ -1,0 +1,92 @@
+{
+   "floater": {
+      "@name": "contents",
+      "@title": {
+         "string": "Comprar Cópia do Objeto"
+      },
+      "floater.string:title_buy_text": {
+         "@name": "title_buy_text",
+         "#text": {
+            "string": "\n    Comprar\n  "
+         }
+      },
+      "floater.string:title_buy_copy_text": {
+         "@name": "title_buy_copy_text",
+         "#text": {
+            "string": "\n    Comprar uma cópia de\n  "
+         }
+      },
+      "floater.string:no_copy_text": {
+         "@name": "no_copy_text",
+         "#text": {
+            "string": "\n    (sem copiar)\n  "
+         }
+      },
+      "floater.string:no_modify_text": {
+         "@name": "no_modify_text",
+         "#text": {
+            "string": "\n    (sem modificar)\n  "
+         }
+      },
+      "floater.string:no_transfer_text": {
+         "@name": "no_transfer_text",
+         "#text": {
+            "string": "\n    (sem transferir)\n  "
+         }
+      },
+      "floater.string:multiple_selected": {
+         "@name": "multiple_selected",
+         "#text": {
+            "string": "\n        Seleção multipla\n    "
+         }
+      },
+      "scroll_list:object_list": {
+         "@name": "object_list",
+         "scroll_list.columns:icon": {
+            "@name": "icon"
+         },
+         "scroll_list.columns:text": {
+            "@name": "text"
+         }
+      },
+      "text:contents_text": {
+         "@name": "contents_text",
+         "#text": {
+            "string": "\n    Contém:\n  "
+         }
+      },
+      "scroll_list:item_list": {
+         "@name": "item_list",
+         "scroll_list.columns:icon": {
+            "@name": "icon"
+         },
+         "scroll_list.columns:text": {
+            "@name": "text"
+         }
+      },
+      "text:buy_text": {
+         "@name": "buy_text",
+         "#text": {
+            "string": "\n    Comprar por L$[AMOUNT] de:\n  "
+         }
+      },
+      "text:buy_name_text": {
+         "@name": "buy_name_text",
+         "#text": {
+            "string": "\n    [NAME]?\n  "
+         }
+      },
+      "button:buy_btn": {
+         "@label": {
+            "string": "Comprar"
+         },
+         "@name": "buy_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "cancel_btn"
+      }
+   }
+}

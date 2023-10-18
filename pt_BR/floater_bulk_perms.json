@@ -1,0 +1,230 @@
+{
+   "floater": {
+      "@name": "floaterbulkperms",
+      "@title": {
+         "string": "Ajustar Permissões de Conteúdo"
+      },
+      "floater.string:nothing_to_modify_text": {
+         "@name": "nothing_to_modify_text",
+         "#text": {
+            "string": "\n    A seleção não contém nenhum conteúdo editável.\n  "
+         }
+      },
+      "floater.string:status_text": {
+         "@name": "status_text",
+         "#text": {
+            "string": "\n    Definindo permissões em [NAME]\n  "
+         }
+      },
+      "floater.string:start_text": {
+         "@name": "start_text",
+         "#text": {
+            "string": "\n    Solicitando mudança de permissão...\n  "
+         }
+      },
+      "floater.string:done_text": {
+         "@name": "done_text",
+         "#text": {
+            "string": "\n    Solicitação de mudança de permissão concluída.\n  "
+         }
+      },
+      "check_box:check_animation": {
+         "@name": "check_animation"
+      },
+      "icon:icon_animation": {
+         "@name": "icon_animation",
+         "@tool_tip": {
+            "string": "Animação"
+         }
+      },
+      "check_box:check_bodypart": {
+         "@name": "check_bodypart"
+      },
+      "icon:icon_bodypart": {
+         "@tool_tip": {
+            "string": "Partes do corpo"
+         },
+         "@name": "icon_bodypart"
+      },
+      "check_box:check_clothing": {
+         "@name": "check_clothing"
+      },
+      "icon:icon_clothing": {
+         "@name": "icon_clothing",
+         "@tool_tip": {
+            "string": "Vestuário"
+         }
+      },
+      "check_box:check_gesture": {
+         "@name": "check_gesture"
+      },
+      "icon:icon_gesture": {
+         "@name": "icon_gesture",
+         "@tool_tip": {
+            "string": "Gestos"
+         }
+      },
+      "check_box:check_notecard": {
+         "@name": "check_notecard"
+      },
+      "icon:icon_notecard": {
+         "@name": "icon_notecard",
+         "@tool_tip": {
+            "string": "Anotações"
+         }
+      },
+      "check_box:check_object": {
+         "@name": "check_object"
+      },
+      "icon:icon_object": {
+         "@name": "icon_object",
+         "@tool_tip": {
+            "string": "Objetos"
+         }
+      },
+      "check_box:check_script": {
+         "@name": "check_script"
+      },
+      "icon:icon_script": {
+         "@name": "icon_script",
+         "@tool_tip": {
+            "string": "Scripts"
+         }
+      },
+      "check_box:check_sound": {
+         "@name": "check_sound"
+      },
+      "icon:icon_sound": {
+         "@name": "icon_sound",
+         "@tool_tip": {
+            "string": "Sons"
+         }
+      },
+      "check_box:check_texture": {
+         "@name": "check_texture"
+      },
+      "icon:icon_texture": {
+         "@name": "icon_texture",
+         "@tool_tip": {
+            "string": "Texturas"
+         }
+      },
+      "check_box:check_settings": {
+         "@name": "check_settings"
+      },
+      "icon:icon_setting": {
+         "@name": "icon_setting",
+         "@tool_tip": {
+            "string": "Configurações de ambiente"
+         }
+      },
+      "button:check_all": {
+         "@name": "check_all",
+         "@label": {
+            "string": "√ Tudo"
+         },
+         "button.commit_callback": null
+      },
+      "button:check_none": {
+         "@label": {
+            "string": "Limpar"
+         },
+         "@name": "check_none",
+         "button.commit_callback": null
+      },
+      "text:newperms": {
+         "@name": "newperms",
+         "#text": {
+            "string": "\n    Ajustar permissões de conteúdo para\n  "
+         }
+      },
+      "text:GroupLabel": {
+         "@name": "GroupLabel",
+         "#text": {
+            "string": "\n    Grupo:\n  "
+         }
+      },
+      "check_box:share_with_group": {
+         "@label": {
+            "string": "Compartilhar"
+         },
+         "@name": "share_with_group",
+         "@tool_tip": {
+            "string": "Permitir que todos os membros do grupo tenhas suas permissões de modificação para este objeto. Faça uma doação para ativar restrições de função."
+         }
+      },
+      "text:AnyoneLabel": {
+         "@name": "AnyoneLabel",
+         "#text": {
+            "string": "\n    Todos:\n  "
+         }
+      },
+      "check_box:everyone_copy": {
+         "@label": {
+            "string": "Copiar"
+         },
+         "@name": "everyone_copy",
+         "@tool_tip": {
+            "string": "Qualquer um pode fazer uma cópia do objeto. O objeto e todos os conteúdos devem ter permissão para cópia e transferência."
+         }
+      },
+      "text:NextOwnerLabel": {
+         "@name": "NextOwnerLabel",
+         "#text": {
+            "string": "\n    Próximo proprietário:\n  "
+         }
+      },
+      "check_box:next_owner_modify": {
+         "@label": {
+            "string": "Modificar"
+         },
+         "@name": "next_owner_modify",
+         "@tool_tip": {
+            "string": "O próximo proprietário pode editar as propriedades, como o nome do item ou escala desse objeto."
+         }
+      },
+      "check_box:next_owner_copy": {
+         "@label": {
+            "string": "Copiar"
+         },
+         "@name": "next_owner_copy",
+         "@tool_tip": {
+            "string": "O próximo proprietário pode fazer cópias ilimitadas desse objeto. As cópias mantêm as informações do criador e nunca podem ser mais permissivo do que o item copiado."
+         },
+         "check_box.commit_callback": null
+      },
+      "check_box:next_owner_transfer": {
+         "@label": {
+            "string": "Transferir"
+         },
+         "@name": "next_owner_transfer",
+         "@tool_tip": {
+            "string": "O próximo dono poderá revender ou dar este objeto"
+         }
+      },
+      "scroll_list:queue output": {
+         "@name": "queue output"
+      },
+      "button:ok": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "ok",
+         "button.commit_callback": null
+      },
+      "button:apply": {
+         "@label": {
+            "string": "Aplicar"
+         },
+         "@name": "apply",
+         "button.commit_callback": null
+      },
+      "button:close": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "close",
+         "button.commit_callback": null
+      }
+   }
+}

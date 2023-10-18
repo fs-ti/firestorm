@@ -1,0 +1,59 @@
+{
+   "floater": {
+      "@name": "build options floater",
+      "@title": {
+         "string": "Opções de Grade"
+      },
+      "spinner:GridResolution": {
+         "@label": {
+            "string": "Unidades (metros):"
+         },
+         "@name": "GridResolution"
+      },
+      "spinner:GridDrawSize": {
+         "@label": {
+            "string": "Extensões (metros)"
+         },
+         "@name": "GridDrawSize"
+      },
+      "spinner:DecimalPrecision": {
+         "@label": {
+            "string": null
+         },
+         "@name": "DecimalPrecision"
+      },
+      "spinner:RotationStep": {
+         "@label": {
+            "string": null
+         },
+         "@name": "RotationStep",
+         "@tool_tip": {
+            "string": null
+         }
+      },
+      "check_box:GridSubUnit": {
+         "@label": {
+            "string": "Encaixar em sub-unidades"
+         },
+         "@name": "GridSubUnit"
+      },
+      "check_box:GridCrossSection": {
+         "@label": {
+            "string": "Ver corte transversal"
+         },
+         "@name": "GridCrossSection"
+      },
+      "text:grid_opacity_label": {
+         "@tool_tip": {
+            "string": "Opacidade da grade"
+         },
+         "@name": "grid_opacity_label",
+         "#text": {
+            "string": "\n    Opacidade:\n  "
+         }
+      },
+      "slider:GridOpacity": {
+         "@name": "GridOpacity"
+      }
+   }
+}

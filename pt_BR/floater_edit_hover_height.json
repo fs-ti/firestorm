@@ -1,0 +1,20 @@
+{
+   "floater": {
+      "@name": "HoverHeight",
+      "@title": {
+         "string": "Definir Altura de Flutuação"
+      },
+      "slider:HoverHeightSlider": {
+         "@label": {
+            "string": "Altura"
+         },
+         "@name": "HoverHeightSlider"
+      },
+      "check_box:BindCameraCheck": {
+         "@label": {
+            "string": null
+         },
+         "@name": "BindCameraCheck"
+      }
+   }
+}

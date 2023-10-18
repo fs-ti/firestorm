@@ -1,0 +1,33 @@
+{
+   "floater": {
+      "@name": "associate listing",
+      "@title": {
+         "string": "Associar Listagem"
+      },
+      "text:message": {
+         "@name": "message",
+         "#text": {
+            "string": "ID de listagem:"
+         }
+      },
+      "#comment": "listing_id is a positive S32",
+      "line_editor:listing_id": {
+         "@name": "listing_id",
+         "#text": {
+            "string": "Digite a ID aqui"
+         }
+      },
+      "button:OK": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "OK"
+      },
+      "button:Cancel": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "Cancel"
+      }
+   }
+}

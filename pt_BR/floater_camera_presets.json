@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@title": {
+         "string": "Predefinições de Câmera"
+      },
+      "@name": "floater_camera_presets",
+      "flat_list_view:preset_list": {
+         "@name": "preset_list"
+      }
+   }
+}

@@ -1,0 +1,41 @@
+{
+   "floater": {
+      "@name": "delete_pref_preset",
+      "@title": {
+         "string": "Excluir Predefinição Pref"
+      },
+      "str_ing:title_graphic": {
+         "@name": "title_graphic",
+         "#text": {
+            "string": "\n    Excluir Predefinição de Gráficos\n  "
+         }
+      },
+      "str_ing:title_camera": {
+         "@name": "title_camera",
+         "#text": {
+            "string": "\n    Excluir Predefinição de Câmera\n  "
+         }
+      },
+      "text:Preset": {
+         "@name": "Preset",
+         "#text": {
+            "string": "\n    Selecionar uma predefinição\n  "
+         }
+      },
+      "combo_box:preset_combo": {
+         "@name": "preset_combo"
+      },
+      "button:delete": {
+         "@label": {
+            "string": "Excluir"
+         },
+         "@name": "delete"
+      },
+      "button:cancel": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "cancel"
+      }
+   }
+}

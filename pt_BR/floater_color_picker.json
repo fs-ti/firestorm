@@ -1,0 +1,167 @@
+{
+   "floater": {
+      "@name": "ColorPicker",
+      "@title": {
+         "string": "Seletor de Cor"
+      },
+      "tab_container:scale_type_container": {
+         "@name": "scale_type_container",
+         "panel:RGB": {
+            "@name": "RGB",
+            "@label": {
+               "string": "RGB"
+            },
+            "text:r_val_text": {
+               "@name": "r_val_text",
+               "#text": {
+                  "string": "\n    Vermelho:\n  "
+               }
+            },
+            "spinner:rspin": {
+               "@name": "rspin"
+            },
+            "text:g_val_text": {
+               "@name": "g_val_text",
+               "#text": {
+                  "string": "\n    Verde:\n  "
+               }
+            },
+            "spinner:gspin": {
+               "@name": "gspin"
+            },
+            "text:b_val_text": {
+               "@name": "b_val_text",
+               "#text": {
+                  "string": "\n    Azul:\n  "
+               }
+            },
+            "spinner:bspin": {
+               "@name": "bspin"
+            }
+         },
+         "panel:LSL": {
+            "@name": "LSL",
+            "@label": {
+               "string": "LSL"
+            },
+            "text:r_val_text_lsl": {
+               "@name": "r_val_text_lsl",
+               "#text": {
+                  "string": "\n        Vermelho:\n    "
+               }
+            },
+            "spinner:rspin_lsl": {
+               "@name": "rspin_lsl"
+            },
+            "text:g_val_text_lsl": {
+               "@name": "g_val_text_lsl",
+               "#text": {
+                  "string": "\n        Verde:\n    "
+               }
+            },
+            "spinner:gspin_lsl": {
+               "@name": "gspin_lsl"
+            },
+            "text:b_val_text_lsl": {
+               "@name": "b_val_text_lsl",
+               "#text": {
+                  "string": "\n        Azul:\n    "
+               }
+            },
+            "spinner:bspin_lsl": {
+               "@name": "bspin_lsl"
+            }
+         },
+         "panel:Hex": {
+            "@name": "Hex",
+            "@label": {
+               "string": "Hex"
+            },
+            "text:hex_text": {
+               "@name": "hex_text",
+               "#text": {
+                  "string": "\n    Cód. Hex (#rrggbb):\n    "
+               }
+            },
+            "text:hex_hash_prefix": {
+               "@name": "hex_hash_prefix",
+               "#text": {
+                  "string": "\n    #\n    "
+               }
+            },
+            "line_editor:hex_value": {
+               "@name": "hex_value"
+            }
+         }
+      },
+      "text:h_val_text": {
+         "@name": "h_val_text",
+         "#text": {
+            "string": "\n    Matiz:\n  "
+         }
+      },
+      "spinner:hspin": {
+         "@name": "hspin"
+      },
+      "text:s_val_text": {
+         "@name": "s_val_text",
+         "#text": {
+            "string": "\n    Sat:\n  "
+         }
+      },
+      "spinner:sspin": {
+         "@name": "sspin"
+      },
+      "text:l_val_text": {
+         "@name": "l_val_text",
+         "#text": {
+            "string": "\n    Lum:\n  "
+         }
+      },
+      "spinner:lspin": {
+         "@name": "lspin"
+      },
+      "check_box:apply_immediate": {
+         "@label": {
+            "string": "Aplicar agora"
+         },
+         "@name": "apply_immediate"
+      },
+      "button:color_pipette": {
+         "@name": "color_pipette"
+      },
+      "button:copy_lsl_btn": {
+         "@label": {
+            "string": null
+         },
+         "@tool_tip": {
+            "string": null
+         },
+         "@name": "copy_lsl_btn"
+      },
+      "button:select_btn": {
+         "@label": {
+            "string": "OK"
+         },
+         "@name": "select_btn"
+      },
+      "button:cancel_btn": {
+         "@label": {
+            "string": "Cancelar"
+         },
+         "@name": "cancel_btn"
+      },
+      "text:Current color:": {
+         "@name": "Current color:",
+         "#text": {
+            "string": "\n    Cor atual:\n  "
+         }
+      },
+      "text:(Drag below to save.)": {
+         "@name": "(Drag below to save.)",
+         "#text": {
+            "string": "\n    (Arrastar abaixo para salvar)\n  "
+         }
+      }
+   }
+}
