@@ -4,9 +4,7 @@
       "@title": {
          "string": "Buy Currency"
       },
-      "floater.string:buy_currency_url": {
-         "@name": "buy_currency_url"
-      },
+      "floater.string": null,
       "web_browser:browser": {
          "@name": "browser"
       }
