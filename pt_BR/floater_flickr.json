@@ -1,0 +1,44 @@
+{
+   "floater": {
+      "@name": "floater_flickr",
+      "@title": {
+         "string": "Compartilhar No Flickr"
+      },
+      "panel:background": {
+         "@name": "background",
+         "tab_container:tabs": {
+            "@name": "tabs",
+            "panel:panel_flickr_photo": {
+               "@label": {
+                  "string": "Foto"
+               },
+               "@name": "panel_flickr_photo"
+            },
+            "panel:panel_flickr_account": {
+               "@label": {
+                  "string": "Conta"
+               },
+               "@name": "panel_flickr_account"
+            }
+         },
+         "panel:connection_status_panel": {
+            "@name": "connection_status_panel",
+            "text:connection_error_text": {
+               "@name": "connection_error_text",
+               "#text": {
+                  "string": "\n      Erro\n      "
+               }
+            },
+            "loading_indicator:connection_loading_indicator": {
+               "@name": "connection_loading_indicator"
+            },
+            "text:connection_loading_text": {
+               "@name": "connection_loading_text",
+               "#text": {
+                  "string": "\n        Carregando...\n      "
+               }
+            }
+         }
+      }
+   }
+}
