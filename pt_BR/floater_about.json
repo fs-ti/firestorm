@@ -14,7 +14,7 @@
             "text:support_intro": {
                "@name": "support_intro",
                "#text": {
-                  "string": "    \nFor the latest information about Firestorm, visit    \nhttps://www.firestormviewer.org\n        "
+                  "string": null
                }
             },
             "text_editor:support_editor": {
@@ -29,13 +29,13 @@
          },
          "panel:credits_panel": {
             "@label": {
-               "string": "Créditos"
+               "string": "Créditos Linden Lab "
             },
             "@name": "credits_panel",
             "text:linden_intro": {
                "@name": "linden_intro",
                "#text": {
-                  "string": "\n      Firestorm would not be possible without the decision from Linden Lab to make their Second Life viewer source code available.\n      \nO Second Life é trazido a você pela Lindens,\ncom contribuições de código aberto de:\n      "
+                  "string": null
                }
             },
             "text_editor:contrib_names": {

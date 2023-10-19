@@ -2,7 +2,7 @@
    "floater": {
       "@name": "HoverHeight",
       "@title": {
-         "string": "Definir Altura de Flutuação"
+         "string": "Definir Altura de FlutuaÃ§Ã£o"
       },
       "slider:HoverHeightSlider": {
          "@label": {
