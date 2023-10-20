@@ -1,0 +1,11 @@
+{
+   "floater": {
+      "@name": "floater_experiences",
+      "@title": {
+         "string": "Experiências"
+      },
+      "tab_container:xp_tabs": {
+         "@name": "xp_tabs"
+      }
+   }
+}
