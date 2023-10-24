@@ -1272,90 +1272,60 @@
                },
                "combo_item:PathLineProfileHalfCircle": {
                   "@name": "PathLineProfileHalfCircle",
-                  "@value": {
-                     "string": "PathLineProfileHalfCircle"
-                  },
                   "@label": {
                      "string": "Line->Half-Circle"
                   }
                },
                "combo_item:PathCircleProfileHalfCircle": {
                   "@name": "PathCircleProfileHalfCircle",
-                  "@value": {
-                     "string": "PathCircleProfileHalfCircle"
-                  },
                   "@label": {
                      "string": "Circle->Half-Circle"
                   }
                },
                "combo_item:PathCircle2ProfileSquare": {
                   "@name": "PathCircle2ProfileSquare",
-                  "@value": {
-                     "string": "PathCircle2ProfileSquare"
-                  },
                   "@label": {
                      "string": "Circle2->Square"
                   }
                },
                "combo_item:PathCircle2ProfileTriangle": {
                   "@name": "PathCircle2ProfileTriangle",
-                  "@value": {
-                     "string": "PathCircle2ProfileTriangle"
-                  },
                   "@label": {
                      "string": "Circle2->Triangle"
                   }
                },
                "combo_item:PathCircle2ProfileCircle": {
                   "@name": "PathCircle2ProfileCircle",
-                  "@value": {
-                     "string": "PathCircle2ProfileCircle"
-                  },
                   "@label": {
                      "string": "Circle2->Circle"
                   }
                },
                "combo_item:PathCircle2ProfileHalfCircle": {
                   "@name": "PathCircle2ProfileHalfCircle",
-                  "@value": {
-                     "string": "PathCircle2ProfileHalfCircle"
-                  },
                   "@label": {
                      "string": "Circle2->Half-Circle"
                   }
                },
                "combo_item:PathTestProfileSquare": {
                   "@name": "PathTestProfileSquare",
-                  "@value": {
-                     "string": "PathTestProfileSquare"
-                  },
                   "@label": {
                      "string": "Test->Square"
                   }
                },
                "combo_item:PathTestProfileTriangle": {
                   "@name": "PathTestProfileTriangle",
-                  "@value": {
-                     "string": "PathTestProfileTriangle"
-                  },
                   "@label": {
                      "string": "Test->Triangle"
                   }
                },
                "combo_item:PathTestProfileCircle": {
                   "@name": "PathTestProfileCircle",
-                  "@value": {
-                     "string": "PathTestProfileCircle"
-                  },
                   "@label": {
                      "string": "Test->Circle"
                   }
                },
                "combo_item:PathTestProfileHalfCircle": {
                   "@name": "PathTestProfileHalfCircle",
-                  "@value": {
-                     "string": "PathTestProfileHalfCircle"
-                  },
                   "@label": {
                      "string": "Test->Half-Circle"
                   }
@@ -1363,36 +1333,24 @@
                "#comment": " Working33 by Gregory Maurer ",
                "combo_item:Path33Profile0": {
                   "@name": "Path33Profile0",
-                  "@value": {
-                     "string": "Path33Profile0"
-                  },
                   "@label": {
                      "string": "33->Circle"
                   }
                },
                "combo_item:Path33Profile1": {
                   "@name": "Path33Profile1",
-                  "@value": {
-                     "string": "Path33Profile1"
-                  },
                   "@label": {
                      "string": "33->Square"
                   }
                },
                "combo_item:Path33Profile2": {
                   "@name": "Path33Profile2",
-                  "@value": {
-                     "string": "Path33Profile2"
-                  },
                   "@label": {
                      "string": "33->Triangle"
                   }
                },
                "combo_item:Path33Profile5": {
                   "@name": "Path33Profile5",
-                  "@value": {
-                     "string": "Path33Profile5"
-                  },
                   "@label": {
                      "string": "33->HalfCircle"
                   }
