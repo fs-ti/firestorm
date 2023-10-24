@@ -1,0 +1,14 @@
+{
+   "multi_floater": {
+      "@name": "floater_im_box",
+      "@title": {
+         "string": "Conversas"
+      },
+      "tab_container:im_box_tab_container": {
+         "@name": "im_box_tab_container",
+         "first_tab": null,
+         "middle_tab": null,
+         "last_tab": null
+      }
+   }
+}
