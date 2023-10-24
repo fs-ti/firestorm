@@ -1,0 +1,178 @@
+{
+   "teleport_messages": {
+      "message_set:errors": {
+         "@name": "errors",
+         "message:invalid_tport": {
+            "@name": "invalid_tport",
+            "#text": {
+               "string": "Houve um problema ao processar o teletransporte. Talvez seja preciso sair e entrar do Second Life para fazer o teletransporte.\nSe você continuar a receber esta mensagem, por favor consulte o [SUPPORT_SITE]."
+            }
+         },
+         "message:invalid_region_handoff": {
+            "@name": "invalid_region_handoff",
+            "#text": {
+               "string": "Problema encontrado ao processar a passagem de regiões. Talvez seja preciso sair e entrar do Second Life atravessar regiões novamente.\nSe você continuar a receber esta mensagem, por favor consulte o [SUPPORT_SITE]."
+            }
+         },
+         "message:blocked_tport": {
+            "@name": "blocked_tport",
+            "#text": {
+               "string": "Desculpe, teletransportes estão atualmente bloqueados. Tente novamente dentro de alguns instantes. Se você continuar com problemas de teletransporte, por favor tente deslogar e relogar para resolver o problema."
+            }
+         },
+         "message:nolandmark_tport": {
+            "@name": "nolandmark_tport",
+            "#text": {
+               "string": "Desculpe, mas o sistema não conseguiu localizar a landmark de destino."
+            }
+         },
+         "message:timeout_tport": {
+            "@name": "timeout_tport",
+            "#text": {
+               "string": "Desculpe, não foi possível para o sistema executar o teletransporte. Tente novamente dentro de alguns instantes."
+            }
+         },
+         "message:NoHelpIslandTP": {
+            "@name": "NoHelpIslandTP",
+            "#text": {
+               "string": "Não é possível se teletransportar de volta à Ilha Welcome.\nVá para a 'Ilha Welcome Pública' para repetir o tutorial."
+            }
+         },
+         "message:noaccess_tport": {
+            "@name": "noaccess_tport",
+            "#text": {
+               "string": "Desculpe, você não tem acesso ao destino deste teletransporte."
+            }
+         },
+         "message:missing_attach_tport": {
+            "@name": "missing_attach_tport",
+            "#text": {
+               "string": "Seu anexos ainda não chegaram. Tente esperar por alguns momentos ou deslogar e logar antes de tentar teleransportar-se novamente."
+            }
+         },
+         "message:too_many_uploads_tport": {
+            "@name": "too_many_uploads_tport",
+            "#text": {
+               "string": "Afluxo nesta região é atualmente tão alto que seu pedido de teletransporte não será possível em tempo oportuno. Por favor, tente novamente em alguns minutos ou vá a uma área menos ocupada."
+            }
+         },
+         "message:expired_tport": {
+            "@name": "expired_tport",
+            "#text": {
+               "string": "Desculpe, mas o sistema não conseguiu concluir o seu pedido de teletransporte em tempo hábil. Por favor, tente novamente em alguns minutos."
+            }
+         },
+         "message:expired_region_handoff": {
+            "@name": "expired_region_handoff",
+            "#text": {
+               "string": "Desculpe, mas o sistema não pôde concluir a sua travessia de região em tempo hábil. Por favor, tente novamente em alguns minutos."
+            }
+         },
+         "message:preexisting_tport": {
+            "@name": "preexisting_tport",
+            "#text": {
+               "string": "Desculpe, mas o sistema falhou ao iniciar o seu teletransporte. Por favor, tente novamente dentro de alguns minutos."
+            }
+         },
+         "message:no_host": {
+            "@name": "no_host",
+            "#text": {
+               "string": "Não foi possível encontrar o destino do teletransporte. O destino pode estar temporariamente indisponível ou não existir mais. Por favor, tente novamente em poucos minutos."
+            }
+         },
+         "message:no_inventory_host": {
+            "@name": "no_inventory_host",
+            "#text": {
+               "string": "O sistema de inventário está indisponível no momento."
+            }
+         },
+         "message:MustGetAgeRegion": {
+            "@name": "MustGetAgeRegion",
+            "#text": {
+               "string": "Você deve ter 18 anos ou mais para acessar esta região."
+            }
+         },
+         "message:RegionTPSpecialUsageBlocked": {
+            "@name": "RegionTPSpecialUsageBlocked",
+            "#text": {
+               "string": "Não é possível inserir a região. '[REGION_NAME]' é uma Região de Skill Gaming, portanto você deve atender certos critérios para poder entrar. Para maiores detalhes, consulte as [http://wiki.secondlife.com/wiki/Linden_Lab_Official:Skill_Gaming_in_Second_Life Skill Gaming FAQ]."
+            }
+         }
+      },
+      "message_set:progress": {
+         "@name": "progress",
+         "message:sending_dest": {
+            "@name": "sending_dest",
+            "#text": {
+               "string": "Enviando para o destino."
+            }
+         },
+         "message:redirecting": {
+            "@name": "redirecting",
+            "#text": {
+               "string": "Redirecionando para uma localidade diferente."
+            }
+         },
+         "message:relaying": {
+            "@name": "relaying",
+            "#text": {
+               "string": "Transferindo para o destino."
+            }
+         },
+         "message:sending_home": {
+            "@name": "sending_home",
+            "#text": {
+               "string": "Enviando solicitação de localização de início."
+            }
+         },
+         "message:sending_landmark": {
+            "@name": "sending_landmark",
+            "#text": {
+               "string": "Enviando solicitação de localização de landmark."
+            }
+         },
+         "message:completing": {
+            "@name": "completing",
+            "#text": {
+               "string": "Completando teletransporte."
+            }
+         },
+         "message:completed_from": {
+            "@name": "completed_from",
+            "#text": {
+               "string": "Teletransporte de [T_SLURL] concluído"
+            }
+         },
+         "message:resolving": {
+            "@name": "resolving",
+            "#text": {
+               "string": "Identificando destino."
+            }
+         },
+         "message:contacting": {
+            "@name": "contacting",
+            "#text": {
+               "string": "Contactando nova região."
+            }
+         },
+         "message:arriving": {
+            "@name": "arriving",
+            "#text": {
+               "string": "Chegando..."
+            }
+         },
+         "message:requesting": {
+            "@name": "requesting",
+            "#text": {
+               "string": "Solicitando teletransporte..."
+            }
+         },
+         "message:pending": {
+            "@name": "pending",
+            "#text": {
+               "string": "Teletransporte pendente..."
+            }
+         }
+      }
+   }
+}
